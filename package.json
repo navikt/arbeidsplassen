@@ -9,8 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@navikt/arbeidsplassen-css": "^1.0.30",
-    "@navikt/arbeidsplassen-react": "^1.0.31",
+    "@navikt/arbeidsplassen-css": "^1.1.0",
+    "@navikt/arbeidsplassen-react": "^1.1.0",
     "@navikt/ds-css": "^2.8.7",
     "@navikt/ds-react": "^2.8.7",
     "@next/font": "13.1.6",
