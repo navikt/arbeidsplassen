@@ -1,6 +1,7 @@
 import { BodyLong, Heading, Ingress, Link, LinkPanel } from "@navikt/ds-react";
 import IllustrationArticle from "../../../common/components/images/IllustrationArticle";
 import LayoutArticles from "@/src/common/components/layouts/LayoutArticles";
+import { ChevronLeftIcon } from "@navikt/aksel-icons";
 
 export default function jobbtreffBedrift() {
     return (
@@ -8,7 +9,7 @@ export default function jobbtreffBedrift() {
             <div className="page-margin-top-and-bottom">
                 <div className="arb-article">
                     <div className="mb-24">
-                        <Link href="/articles/bedrift">Tilbake</Link>
+                        <Link href="/articles/bedrift"><ChevronLeftIcon aria-hidden="true" />Tilbake</Link>
                     </div>
 
                     <Heading size="xlarge" level="1" spacing>
