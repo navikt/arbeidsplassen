@@ -1,4 +1,3 @@
-
 #app {
     height: 100%;
 }
@@ -18,7 +17,6 @@ body {
         padding: 0 2.5rem;
     }
 }
-
 
 .page-margin-top-and-bottom {
     margin-top: 2rem;
@@ -133,7 +131,6 @@ body {
     }
 }
 
-
 .ukraine-grid {
     display: flex;
     flex-wrap: wrap;
@@ -152,7 +149,7 @@ li.ukraine-grid {
 
 .refugees-grid {
     display: grid;
-    grid-template-columns:repeat(auto-fit, minmax(270px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
     grid-gap: 15px;
     list-style-type: none;
     padding-left: 0;

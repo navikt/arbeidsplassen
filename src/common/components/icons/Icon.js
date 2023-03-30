@@ -1,30 +1,12 @@
 export default function Icon() {
     return (
-        <svg
-            width="96"
-            height="96"
-            viewBox="0 0 96 96"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-        >
-            <circle cx="48" cy="48" r="48" fill="#90E8C3"/>
+        <svg width="96" height="96" viewBox="0 0 96 96" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="48" cy="48" r="48" fill="#90E8C3" />
             <g clipPath="url(#clip0_1_10)">
-                <ellipse cx="34.7609" cy="44.5" rx="7.76087" ry="11.5" fill="white"/>
-                <ellipse
-                    cx="31.1087"
-                    cy="44.5"
-                    rx="4.1087"
-                    ry="7.07692"
-                    fill="#024B62"
-                />
-                <ellipse cx="61.2391" cy="44.5" rx="7.76087" ry="11.5" fill="white"/>
-                <ellipse
-                    cx="57.587"
-                    cy="44.5"
-                    rx="4.1087"
-                    ry="7.07692"
-                    fill="#024B62"
-                />
+                <ellipse cx="34.7609" cy="44.5" rx="7.76087" ry="11.5" fill="white" />
+                <ellipse cx="31.1087" cy="44.5" rx="4.1087" ry="7.07692" fill="#024B62" />
+                <ellipse cx="61.2391" cy="44.5" rx="7.76087" ry="11.5" fill="white" />
+                <ellipse cx="57.587" cy="44.5" rx="4.1087" ry="7.07692" fill="#024B62" />
             </g>
             <path
                 fillRule="evenodd"
@@ -38,14 +20,9 @@ export default function Icon() {
             />
             <defs>
                 <clipPath id="clip0_1_10">
-                    <rect
-                        width="42"
-                        height="23"
-                        fill="white"
-                        transform="translate(27 33)"
-                    />
+                    <rect width="42" height="23" fill="white" transform="translate(27 33)" />
                 </clipPath>
             </defs>
         </svg>
     );
-};
+}

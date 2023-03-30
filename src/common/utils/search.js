@@ -32,5 +32,5 @@ export const initialQuery = {
     published: undefined,
     sector: [],
     sort: "",
-    international: false
+    international: false,
 };

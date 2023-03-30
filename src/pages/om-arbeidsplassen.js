@@ -1,5 +1,5 @@
-import { BodyLong, Heading, Link } from "@navikt/ds-react"
-import LayoutArticles from "@/src/common/components/layouts/LayoutArticles"
+import { BodyLong, Heading, Link } from "@navikt/ds-react";
+import LayoutArticles from "@/src/common/components/layouts/LayoutArticles";
 import { ChevronLeftIcon } from "@navikt/aksel-icons";
 
 export default function omArbeidsplassen() {
@@ -8,7 +8,10 @@ export default function omArbeidsplassen() {
             <div className="page-margin-top-and-bottom">
                 <div className="arb-article">
                     <div className="mb-24">
-                        <Link href="/"><ChevronLeftIcon aria-hidden="true" />Til forsiden</Link>
+                        <Link href="/">
+                            <ChevronLeftIcon aria-hidden="true" />
+                            Til forsiden
+                        </Link>
                     </div>
 
                     <section className="arb-article-section">
@@ -87,5 +90,5 @@ export default function omArbeidsplassen() {
                 </div>
             </div>
         </LayoutArticles>
-    )
+    );
 }
