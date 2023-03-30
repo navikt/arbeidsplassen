@@ -14,7 +14,7 @@ export default function workInNorwayEn() {
     return (
         <LayoutArticles>
             <div className="page-margin-top-and-bottom">
-                <div className="layout-toc">
+                <div className="arb-article">
                     <section className="mb-80">
                         <div className="arb-article">
                             <Heading className="text-center" size="xlarge" level="1" spacing>
@@ -74,8 +74,8 @@ export default function workInNorwayEn() {
                     </section>
 
                     <section className="arb-article-section">
-                        <div className="arb-guide-panel-lofty">
-                            <GuidePanel illustration={<Icon />} className="arb-guide-panel-lofty">
+                        <GuidePanel illustration={<Icon />} poster className="mb-4">
+                            <div className="arb-guide-panel-lofty">
                                 <Heading className="mb-2" size="small" level="3">
                                     Content
                                 </Heading>
@@ -93,8 +93,8 @@ export default function workInNorwayEn() {
                                         Support from the Norwegian Labour and Welfare Administration (NAV)
                                     </Link>
                                 </BodyLong>
-                            </GuidePanel>
-                        </div>
+                            </div>
+                        </GuidePanel>
 
                         <GuidePanel poster illustration={<HandHeart />} className="mb-4" id="apply">
                             <div className="arb-guide-panel-lofty">
