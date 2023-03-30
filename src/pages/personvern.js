@@ -58,7 +58,7 @@ export default function personvern() {
                             Les mer om hvordan vi behandler dine personopplysninger
                         </Heading>
                         <div className="arb-link-panel-grid">
-                            <LinkPanel href="/personvern-under-oppfolging">
+                            <LinkPanel href="/personvern-under-oppfolging" className="arb-link-panel arb-tertiary-bg-text">
                                 <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                                     For deg som er under arbeidsrettet oppfølging fra NAV
                                 </LinkPanel.Title>
@@ -66,12 +66,12 @@ export default function personvern() {
                                     Dersom du har registrert deg som arbeidssøker hos NAV, gjelder dette deg.
                                 </LinkPanel.Description>
                             </LinkPanel>
-                            <LinkPanel href="/personvern-ikke-under-oppfolging">
+                            <LinkPanel href="/personvern-ikke-under-oppfolging" className="arb-link-panel arb-tertiary-bg-text">
                                 <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                                     For deg som ikke er under arbeidsrettet oppfølging fra NAV
                                 </LinkPanel.Title>
                             </LinkPanel>
-                            <LinkPanel href="/personvern-arbeidsgiver">
+                            <LinkPanel href="/personvern-arbeidsgiver" className="arb-link-panel arb-tertiary-bg-text">
                                 <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                                     For deg som representerer en arbeidsgiver
                                 </LinkPanel.Title>
