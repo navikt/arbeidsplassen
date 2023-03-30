@@ -17,7 +17,7 @@ export default function personvernSuperraskSoknad() {
                     <Heading size="xlarge" level="1" spacing>
                         Personvernerklæring for superrask søknad
                     </Heading>
-                    <BodyLong className="mb-4">Sist endret 16. januar 2023</BodyLong>
+                    <BodyLong className="mb-2">Sist endret 16. januar 2023</BodyLong>
 
                     <section className="arb-article-section">
                         <BodyLong spacing>

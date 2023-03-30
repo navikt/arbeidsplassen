@@ -18,7 +18,7 @@ export default function personvernUnderOppfolging() {
                     </Heading>
                     <BodyLong>Publisert 1. februar 2022.</BodyLong>
                     <BodyLong spacing>Oppdatert 29. juni 2022.</BodyLong>
-                    <BodyLong className="mb-4">
+                    <BodyLong className="mb-2">
                         <em>Oppfølging</em> betyr veiledning og hjelp fra NAV til å skaffe ny jobb eller beholde jobben.
                         Dette får du dersom du har registrert deg som arbeidssøker hos NAV.
                     </BodyLong>

@@ -1,5 +1,5 @@
-import { BodyLong, Heading, Link } from "@navikt/ds-react"
-import LayoutArticles from "@/src/common/components/layouts/LayoutArticles"
+import { BodyLong, Heading, Link } from "@navikt/ds-react";
+import LayoutArticles from "@/src/common/components/layouts/LayoutArticles";
 import { ChevronLeftIcon } from "@navikt/aksel-icons";
 
 export default function retningslinjerJobbtreff() {
@@ -8,9 +8,12 @@ export default function retningslinjerJobbtreff() {
             <div className="page-margin-top-and-bottom">
                 <div className="arb-article">
                     <div className="mb-24">
-                        <Link href="/vilkar-og-retningslinjer"><ChevronLeftIcon aria-hidden="true" />Til Vilkår og retningslinjer</Link>
+                        <Link href="/vilkar-og-retningslinjer">
+                            <ChevronLeftIcon aria-hidden="true" />
+                            Til Vilkår og retningslinjer
+                        </Link>
                     </div>
-                    <Heading className="mb-4" size="xlarge" level="1">
+                    <Heading spacing size="xlarge" level="1">
                         Retningslinjer for innhold i jobbtreff på arbeidsplassen.no
                     </Heading>
 
@@ -114,5 +117,5 @@ export default function retningslinjerJobbtreff() {
                 </div>
             </div>
         </LayoutArticles>
-    )
+    );
 }

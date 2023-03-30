@@ -16,7 +16,7 @@ export default function personvernArbeidsgiver() {
                     <Heading size="xlarge" level="1" spacing>
                         Personvernerklæring for deg som representerer en arbeidsgiver
                     </Heading>
-                    <BodyLong className="mb-4">Sist endret 1. februar 2022</BodyLong>
+                    <BodyLong className="mb-2">Sist endret 1. februar 2022</BodyLong>
 
                     <section className="arb-article-section">
                         <Heading size="medium" level="2" spacing>

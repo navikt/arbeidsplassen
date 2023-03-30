@@ -1,6 +1,6 @@
-import { BodyLong, Heading, Link } from "@navikt/ds-react"
-import LayoutArticles from "@/src/common/components/layouts/LayoutArticles"
-import { ChevronLeftIcon } from '@navikt/aksel-icons';
+import { BodyLong, Heading, Link } from "@navikt/ds-react";
+import LayoutArticles from "@/src/common/components/layouts/LayoutArticles";
+import { ChevronLeftIcon } from "@navikt/aksel-icons";
 
 export default function arbeidsgivertjenester() {
     return (
@@ -8,9 +8,12 @@ export default function arbeidsgivertjenester() {
             <div className="page-margin-top-and-bottom">
                 <div className="arb-article">
                     <div className="mb-24">
-                        <Link href="/bedrift"><ChevronLeftIcon aria-hidden="true" />Til bedrift</Link>
+                        <Link href="/bedrift">
+                            <ChevronLeftIcon aria-hidden="true" />
+                            Til bedrift
+                        </Link>
                     </div>
-                    <Heading className="mb-4" size="xlarge" level="1">
+                    <Heading spacing size="xlarge" level="1">
                         Hvem kan bruke arbeidsgivertjenestene?
                     </Heading>
 
@@ -137,5 +140,5 @@ export default function arbeidsgivertjenester() {
                 </div>
             </div>
         </LayoutArticles>
-    )
+    );
 }

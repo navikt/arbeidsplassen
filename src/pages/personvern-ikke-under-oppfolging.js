@@ -17,7 +17,7 @@ export default function personvernIkkeUnderOppfolging() {
                         Personvernerklæring for deg som ikke er under arbeidsrettet oppfølging fra NAV
                     </Heading>
                     <BodyLong>Publisert 1. februar 2022.</BodyLong>
-                    <BodyLong className="mb-4">Oppdatert 29. juni 2022.</BodyLong>
+                    <BodyLong className="mb-2">Oppdatert 29. juni 2022.</BodyLong>
 
                     <section className="arb-article-section">
                         <Heading size="medium" level="2" spacing>

@@ -17,7 +17,7 @@ export default function personvern() {
                     <Heading size="xlarge" level="1" spacing>
                         Personvernerklæring for arbeidsplassen.no
                     </Heading>
-                    <BodyLong className="mb-4">Publisert 1. februar 2022</BodyLong>
+                    <BodyLong className="mb-2">Publisert 1. februar 2022</BodyLong>
 
                     <section className="arb-article-section">
                         <BodyLong spacing>

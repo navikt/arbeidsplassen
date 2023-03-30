@@ -8,12 +8,12 @@ export default function vilkarOgRetningslinjer() {
             <div className="page-margin-top-and-bottom">
                 <div className="arb-article">
                     <div className="mb-24">
-                        <Link href="/bedrift">
+                        <Link href="/">
                             <ChevronLeftIcon aria-hidden="true" />
-                            Til bedrift
+                            Til forsiden
                         </Link>
                     </div>
-                    <Heading className="mb-4" size="xlarge" level="1">
+                    <Heading spacing size="xlarge" level="1">
                         Vilkår og retningslinjer
                     </Heading>
 

@@ -8,9 +8,12 @@ export default function vilkar() {
             <div className="page-margin-top-and-bottom">
                 <div className="arb-article">
                     <div className="mb-24">
-                        <Link href="/vilkar-og-retningslinjer"><ChevronLeftIcon aria-hidden="true" />Til Vilkår og retningslinjer</Link>
+                        <Link href="/vilkar-og-retningslinjer">
+                            <ChevronLeftIcon aria-hidden="true" />
+                            Til Vilkår og retningslinjer
+                        </Link>
                     </div>
-                    <Heading className="mb-4" size="xlarge" level="1">
+                    <Heading spacing size="xlarge" level="1">
                         Vilkår for å publisere stillinger
                     </Heading>
 
