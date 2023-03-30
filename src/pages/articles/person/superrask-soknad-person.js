@@ -85,7 +85,7 @@ export default function superraskSoknadPerson() {
                     <section className="arb-article-section">
                         <BodyLong spacing>
                             Les også{" "}
-                            <Link href="//personvern-superrask-soknad">personvernerklæringen for superrask søknad</Link>.
+                            <Link href="/personvern-superrask-soknad">personvernerklæringen for superrask søknad</Link>.
                         </BodyLong>
                         <BodyLong spacing>
                             Superrask søknad er en helt ny løsning på arbeidsplassen.no. Prøv det og gi oss gjerne en

@@ -7,7 +7,7 @@ export default function personvernIkkeUnderOppfolging() {
             <div className="page-margin-top-and-bottom">
                 <div className="arb-article">
                     <div className="mb-24">
-                        <Link href="//personvern">Til personvernserklæring</Link>
+                        <Link href="/personvern">Til personvernserklæring</Link>
                     </div>
                     <Heading size="xlarge" level="1" spacing>
                         Personvernerklæring for deg som ikke er under arbeidsrettet oppfølging fra NAV

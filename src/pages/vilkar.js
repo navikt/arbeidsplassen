@@ -7,7 +7,7 @@ export default function vilkar() {
             <div className="page-margin-top-and-bottom">
                 <div className="arb-article">
                     <div className="mb-24">
-                        <Link href="//vilkar-og-retningslinjer">Til Vilkår og retningslinjer</Link>
+                        <Link href="/vilkar-og-retningslinjer">Til Vilkår og retningslinjer</Link>
                     </div>
                     <Heading className="mb-4" size="xlarge" level="1">
                         Vilkår for å publisere stillinger
@@ -113,7 +113,7 @@ export default function vilkar() {
                                     eller andre kriterier som ikke er relevante. Annonsen skal heller ikke ha uetisk
                                     innhold eller kunne støte noen. Den skal ikke oppfordre til ulovlige handlinger
                                     eller være i strid med norsk lov eller{" "}
-                                    <Link href="//retningslinjer-stillingsannonser">
+                                    <Link href="/retningslinjer-stillingsannonser">
                                         NAVs retningslinjer for stillingsannonser.
                                     </Link>
                                 </BodyLong>

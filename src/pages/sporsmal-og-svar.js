@@ -20,7 +20,7 @@ export default function sporsmalOgSvar() {
                         <BodyLong>
                             På arbeidsplassen.no har vi samlet nye, selvbetjente løsninger. Her kan jobbsøkere og
                             arbeidsgivere enkelt finne hverandre.{" "}
-                            <Link href="//om-arbeidsplassen">Les mer om tjenestene på arbeidsplassen.no.</Link>
+                            <Link href="/om-arbeidsplassen">Les mer om tjenestene på arbeidsplassen.no.</Link>
                         </BodyLong>
                     </section>
 
@@ -93,7 +93,7 @@ export default function sporsmalOgSvar() {
                         </Heading>
                         <BodyLong>
                             Vi har samlet informasjon om hva du trenger og hvordan du skaffer tilganger på siden{" "}
-                            <Link href="//arbeidsgivertjenester">Hvem kan bruke arbeidsgivertjenestene.</Link>
+                            <Link href="/arbeidsgivertjenester">Hvem kan bruke arbeidsgivertjenestene.</Link>
                         </BodyLong>
                     </section>
                 </article>

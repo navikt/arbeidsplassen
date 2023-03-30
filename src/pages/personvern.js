@@ -34,7 +34,7 @@ export default function personvern() {
                             behandler dine personopplysninger i løsningen.
                         </BodyLong>
                         <BodyLong>
-                            <Link href="//personvern-superrask-soknad">
+                            <Link href="/personvern-superrask-soknad">
                                 Informasjon om hvordan vi behandler dine data knyttet til superrask søknad.
                             </Link>
                         </BodyLong>

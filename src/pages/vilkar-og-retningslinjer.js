@@ -30,7 +30,7 @@ export default function vilkarOgRetningslinjer() {
                             </li>
                         </ul>
                         <BodyLong>
-                            <Link href="//vilkar">Her kan du lese alle vilkårene for bruk av arbeidsplassen.no.</Link>
+                            <Link href="/vilkar">Her kan du lese alle vilkårene for bruk av arbeidsplassen.no.</Link>
                         </BodyLong>
                     </section>
 
@@ -45,7 +45,7 @@ export default function vilkarOgRetningslinjer() {
                             NAV via et åpent API og hentet inn fra våre samarbeidspartnere.
                         </BodyLong>
                         <BodyLong>
-                            <Link href="//vilkar-api">
+                            <Link href="/vilkar-api">
                                 Her kan du lese vilkårene for bruk av API for stillingsannonser.
                             </Link>
                         </BodyLong>
@@ -81,7 +81,7 @@ export default function vilkarOgRetningslinjer() {
                             </li>
                         </ul>
                         <BodyLong>
-                            <Link href="//retningslinjer-stillingsannonser">
+                            <Link href="/retningslinjer-stillingsannonser">
                                 Her kan du lese Retningslinjer for innhold i stillingsannonser på arbeidsplassen.no.
                             </Link>
                         </BodyLong>
@@ -96,7 +96,7 @@ export default function vilkarOgRetningslinjer() {
                             direkte sending mens deltagere kan se og høre på.
                         </BodyLong>
                         <BodyLong>
-                            <Link href="//retningslinjer-jobbtreff">
+                            <Link href="/retningslinjer-jobbtreff">
                                 Her kan du lese Retningslinjer for innhold i jobbtreff på arbeidsplassen.no
                             </Link>
                         </BodyLong>
