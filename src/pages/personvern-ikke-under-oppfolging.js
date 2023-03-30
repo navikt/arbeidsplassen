@@ -1,5 +1,6 @@
 import { BodyLong, Heading, Link } from "@navikt/ds-react";
 import LayoutArticles from "@/src/common/components/layouts/LayoutArticles";
+import { ChevronLeftIcon } from "@navikt/aksel-icons";
 
 export default function personvernIkkeUnderOppfolging() {
     return (
@@ -7,7 +8,7 @@ export default function personvernIkkeUnderOppfolging() {
             <div className="page-margin-top-and-bottom">
                 <div className="arb-article">
                     <div className="mb-24">
-                        <Link href="/personvern">Til personvernserklæring</Link>
+                        <Link href="/personvern"><ChevronLeftIcon aria-hidden="true" />Til personvernserklæring</Link>
                     </div>
                     <Heading size="xlarge" level="1" spacing>
                         Personvernerklæring for deg som ikke er under arbeidsrettet oppfølging fra NAV
