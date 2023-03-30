@@ -8,7 +8,10 @@ export default function personvern() {
             <div className="page-margin-top-and-bottom">
                 <div className="arb-article">
                     <div className="mb-24">
-                        <Link href="/"><ChevronLeftIcon aria-hidden="true" />Til forsiden</Link>
+                        <Link href="/">
+                            <ChevronLeftIcon aria-hidden="true" />
+                            Til forsiden
+                        </Link>
                     </div>
 
                     <Heading size="xlarge" level="1" spacing>
@@ -58,26 +61,30 @@ export default function personvern() {
                         <Heading className="mb-2" size="medium" level="2">
                             Les mer om hvordan vi behandler dine personopplysninger
                         </Heading>
-                        <div className="arb-link-panel-grid">
-                            <LinkPanel href="/personvern-under-oppfolging" className="arb-link-panel arb-tertiary-bg-text">
-                                <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
-                                    For deg som er under arbeidsrettet oppfølging fra NAV
-                                </LinkPanel.Title>
-                                <LinkPanel.Description className="navds-link-panel__description navds-body-long">
-                                    Dersom du har registrert deg som arbeidssøker hos NAV, gjelder dette deg.
-                                </LinkPanel.Description>
-                            </LinkPanel>
-                            <LinkPanel href="/personvern-ikke-under-oppfolging" className="arb-link-panel arb-tertiary-bg-text">
-                                <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
-                                    For deg som ikke er under arbeidsrettet oppfølging fra NAV
-                                </LinkPanel.Title>
-                            </LinkPanel>
-                            <LinkPanel href="/personvern-arbeidsgiver" className="arb-link-panel arb-tertiary-bg-text">
-                                <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
-                                    For deg som representerer en arbeidsgiver
-                                </LinkPanel.Title>
-                            </LinkPanel>
-                        </div>
+                        <LinkPanel
+                            href="/personvern-under-oppfolging"
+                            className="arb-link-panel arb-tertiary-bg-text mb-1"
+                        >
+                            <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
+                                For deg som er under arbeidsrettet oppfølging fra NAV
+                            </LinkPanel.Title>
+                            <LinkPanel.Description className="navds-link-panel__description navds-body-long">
+                                Dersom du har registrert deg som arbeidssøker hos NAV, gjelder dette deg.
+                            </LinkPanel.Description>
+                        </LinkPanel>
+                        <LinkPanel
+                            href="/personvern-ikke-under-oppfolging"
+                            className="arb-link-panel arb-tertiary-bg-text mb-1"
+                        >
+                            <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
+                                For deg som ikke er under arbeidsrettet oppfølging fra NAV
+                            </LinkPanel.Title>
+                        </LinkPanel>
+                        <LinkPanel href="/personvern-arbeidsgiver" className="arb-link-panel arb-tertiary-bg-text">
+                            <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
+                                For deg som representerer en arbeidsgiver
+                            </LinkPanel.Title>
+                        </LinkPanel>
                     </section>
                 </div>
             </div>
