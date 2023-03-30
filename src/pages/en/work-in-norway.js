@@ -164,7 +164,7 @@ export default function workInNorwayEn() {
                         </GuidePanel>
 
                         <GuidePanel poster illustration={<Search />} className="mb-4" id="where">
-                            <div>
+                            <div className="arb-guide-panel-lofty">
                                 <Heading size="medium" level="4" spacing className="text-center mb-2">
                                     Where to find jobs in Norway
                                 </Heading>
@@ -213,7 +213,7 @@ export default function workInNorwayEn() {
                         </GuidePanel>
 
                         <GuidePanel poster illustration={<Wallet />} className="mb-4" id="salary">
-                            <div>
+                            <div className="arb-guide-panel-lofty">
                                 <Heading size="medium" level="4" spacing className="text-center mb-2">
                                     Receiving salary and the introduction program
                                 </Heading>
@@ -265,7 +265,7 @@ export default function workInNorwayEn() {
                         </GuidePanel>
 
                         <GuidePanel poster illustration={<SocialAid />} className="mb-4" id="support">
-                            <div>
+                            <div className="arb-guide-panel-lofty">
                                 <Heading size="medium" level="4" spacing className="text-center mb-2">
                                     Support from the Norwegian Labour and Welfare Administration (NAV)
                                 </Heading>
