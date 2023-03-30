@@ -6,8 +6,18 @@ export default function Document() {
             <Head>
                 <title>arbeidsplassen.no</title>
                 <link rel="icon" href="/public/favicon.png" />
+                <link rel="preconnect" href="https://fonts.googleapis.com" />
+                <link
+                    rel="preconnect"
+                    href="https://fonts.gstatic.com"
+                    crossOrigin="true"
+                />
+                <link
+                    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+                    rel="stylesheet"
+                />
             </Head>
-            <body data-theme="arbeidsplassen">
+            <body data-theme="arbeidsplassen" data-font="Inter">
                 <Main />
                 <NextScript />
             </body>
