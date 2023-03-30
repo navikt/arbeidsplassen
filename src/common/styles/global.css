@@ -101,15 +101,13 @@ body {
 }
 
 .ukraine-grid {
-    display: grid;
-    grid-template-columns:repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
     list-style-type: none;
     padding-left: 0;
-}
-
-.ukraine-grid > * {
-    flex: auto;
+    justify-content: center;
+    margin: 0;
 }
 
 li.ukraine-grid {
