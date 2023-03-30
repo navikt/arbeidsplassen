@@ -3,9 +3,9 @@ import IllustrationBedrift from "@/src/common/components/images/IllustrationBedr
 
 const MainPageBedrift = () => {
     return (
-        <div className="company-page page-margin-top-and-bottom mb-108">
+        <div className="company-page page-margin-top-and-bottom mb-96">
             <section className="arb-home-section-flex">
-                <div>
+                <div className="arb-home-div-width">
                     <Heading size="xlarge" level="1" spacing>
                         Rekrutter deres neste <br />
                         medarbeider
@@ -24,13 +24,13 @@ const MainPageBedrift = () => {
                     </div>
                 </div>
 
-                <div className="arb-home-section-flex arb-home-figure-flex">
+                <div className="arb-home-illustration">
                     <IllustrationBedrift />
                 </div>
             </section>
 
-            <section className="mb-108">
-                <div className="arb-link-panel-grid mb-32">
+            <section>
+                <div className="arb-link-panel-grid">
                     <LinkPanel
                         className="arb-secondary-bg-text arb-link-panel"
                         href="/articles/bedrift/skikkelig-bra-stillingsannonse"
@@ -59,14 +59,6 @@ const MainPageBedrift = () => {
                         </LinkPanel.Description>
                     </LinkPanel>
                 </div>
-            </section>
-
-            <section className="">
-                <Button variant="primary">
-                    <Link className="button-link" href="../../../pages/articles/bedrift">
-                        Artikler
-                    </Link>
-                </Button>
             </section>
         </div>
     );

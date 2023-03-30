@@ -4,7 +4,7 @@ import IllustrationPerson from "@/src/common/components/images/IllustrationPerso
 
 const MainPage = () => {
     return (
-        <div className="person-page page-margin-top-and-bottom">
+        <div className="person-page page-margin-top-and-bottom mb-96">
             <section className="arb-home-section-flex">
                 <div className="arb-home-div-width">
                     <Heading size="xlarge" level="1" spacing>
@@ -25,13 +25,13 @@ const MainPage = () => {
                     </div>
                 </div>
 
-                <div className="arb-home-section-flex arb-home-figure-flex">
+                <div className="arb-home-illustration arb-home-illustration-person">
                     <IllustrationPerson />
                 </div>
             </section>
 
             <section>
-                <div className="arb-link-panel-grid mb-80">
+                <div className="arb-link-panel-grid mb-48">
                     <LinkPanel
                         className="arb-primary-bg-text arb-link-panel"
                         href="https://arbeidsplassen.nav.no/jobbtreff/"
@@ -58,17 +58,7 @@ const MainPage = () => {
             </section>
 
             <section>
-                <div className="mb-108">
-                    <InformationUkraine />
-                </div>
-            </section>
-
-            <section>
-                <Button variant="primary">
-                    <Link className="button-link" href="/articles/person">
-                        Artikler
-                    </Link>
-                </Button>
+                <InformationUkraine />
             </section>
         </div>
     );
