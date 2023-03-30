@@ -9,7 +9,10 @@ export default function jobbeiUtlandet() {
             <div className="page-margin-top-and-bottom">
                 <div className="arb-article">
                     <div className="mb-24">
-                        <Link href="/articles"><ChevronLeftIcon aria-hidden="true" />Tilbake</Link>
+                        <Link href="/">
+                            <ChevronLeftIcon aria-hidden="true" />
+                            Til forsiden
+                        </Link>
                     </div>
 
                     <Heading size="xlarge" level="1" spacing>
@@ -41,7 +44,7 @@ export default function jobbeiUtlandet() {
 
                     <section>
                         <LinkPanel
-                            className="arb-primary-bg-text arb-link-panel"
+                            className="arb-secondary-bg-text arb-link-panel"
                             href="https://ec.europa.eu/eures/public/index_no"
                         >
                             <LinkPanel.Title className="navds-link-panel__title navds-heading--small">

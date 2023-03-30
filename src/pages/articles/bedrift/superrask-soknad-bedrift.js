@@ -9,7 +9,10 @@ export default function superraskSoknadBedrift() {
             <div className="page-margin-top-and-bottom">
                 <div className="arb-article">
                     <div className="mb-24">
-                        <Link href="/articles/bedrift"><ChevronLeftIcon aria-hidden="true" />Tilbake</Link>
+                        <Link href="/bedrift">
+                            <ChevronLeftIcon aria-hidden="true" />
+                            Til bedrift
+                        </Link>
                     </div>
 
                     <Heading size="xlarge" level="1" spacing>

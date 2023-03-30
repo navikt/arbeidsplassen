@@ -9,7 +9,10 @@ export default function tipsTilJobbsoknaden() {
             <div className="page-margin-top-and-bottom">
                 <div className="arb-article">
                     <div className="mb-24">
-                        <Link href="/articles/person"><ChevronLeftIcon aria-hidden="true" />Tilbake</Link>
+                        <Link href="/">
+                            <ChevronLeftIcon aria-hidden="true" />
+                            Til forsiden
+                        </Link>
                     </div>
 
                     <Heading size="xlarge" level="1" spacing>

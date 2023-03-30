@@ -1,5 +1,5 @@
-import { BodyLong, Heading, Link } from "@navikt/ds-react"
-import LayoutArticles from "@/src/common/components/layouts/LayoutArticles"
+import { BodyLong, Heading, Link } from "@navikt/ds-react";
+import LayoutArticles from "@/src/common/components/layouts/LayoutArticles";
 import { ChevronLeftIcon } from "@navikt/aksel-icons";
 
 export default function personvernSuperraskSoknad() {
@@ -8,7 +8,10 @@ export default function personvernSuperraskSoknad() {
             <div className="page-margin-top-and-bottom">
                 <div className="arb-article">
                     <div className="mb-24">
-                        <Link href="/articles"><ChevronLeftIcon aria-hidden="true" />Tilbake</Link>
+                        <Link href="/personvern">
+                            <ChevronLeftIcon aria-hidden="true" />
+                            Til personvernerklæring
+                        </Link>
                     </div>
 
                     <Heading size="xlarge" level="1" spacing>
@@ -37,34 +40,34 @@ export default function personvernSuperraskSoknad() {
                         <ul>
                             <li>
                                 <BodyLong>
-                                    <Link href="@/src/pages/personvern-superrask-soknad#information">Hvilke personopplysninger behandler vi?</Link>
+                                    <Link href="#information">Hvilke personopplysninger behandler vi?</Link>
                                 </BodyLong>
                             </li>
                             <li>
                                 <BodyLong>
-                                    <Link href="@/src/pages/personvern-superrask-soknad#goals">Hvilke formål brukes personopplysningene til?</Link>
+                                    <Link href="#goals">Hvilke formål brukes personopplysningene til?</Link>
                                 </BodyLong>
                             </li>
                             <li>
                                 <BodyLong>
-                                    <Link href="@/src/pages/personvern-superrask-soknad#legal">
+                                    <Link href="#legal">
                                         Hva er det rettslige grunnlaget for behandlingen av personopplysninger?
                                     </Link>
                                 </BodyLong>
                             </li>
                             <li>
                                 <BodyLong>
-                                    <Link href="@/src/pages/personvern-superrask-soknad#time">Hvor lenge lagrer vi dine personopplysninger?</Link>
+                                    <Link href="#time">Hvor lenge lagrer vi dine personopplysninger?</Link>
                                 </BodyLong>
                             </li>
                             <li>
                                 <BodyLong>
-                                    <Link href="@/src/pages/personvern-superrask-soknad#who">Hvem kan få tilgang til dine personopplysninger?</Link>
+                                    <Link href="#who">Hvem kan få tilgang til dine personopplysninger?</Link>
                                 </BodyLong>
                             </li>
                             <li>
                                 <BodyLong>
-                                    <Link href="@/src/pages/personvern-superrask-soknad#rights">Hvilke rettigheter har du?</Link>
+                                    <Link href="#rights">Hvilke rettigheter har du?</Link>
                                 </BodyLong>
                             </li>
                         </ul>
@@ -265,5 +268,5 @@ export default function personvernSuperraskSoknad() {
                 </div>
             </div>
         </LayoutArticles>
-    )
+    );
 }

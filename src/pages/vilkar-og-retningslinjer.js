@@ -1,5 +1,5 @@
-import { BodyLong, Heading, Link } from "@navikt/ds-react"
-import LayoutArticles from "@/src/common/components/layouts/LayoutArticles"
+import { BodyLong, Heading, Link } from "@navikt/ds-react";
+import LayoutArticles from "@/src/common/components/layouts/LayoutArticles";
 import { ChevronLeftIcon } from "@navikt/aksel-icons";
 
 export default function vilkarOgRetningslinjer() {
@@ -8,7 +8,10 @@ export default function vilkarOgRetningslinjer() {
             <div className="page-margin-top-and-bottom">
                 <div className="arb-article">
                     <div className="mb-24">
-                        <Link href="/"><ChevronLeftIcon aria-hidden="true" />Til forsiden</Link>
+                        <Link href="/bedrift">
+                            <ChevronLeftIcon aria-hidden="true" />
+                            Til bedrift
+                        </Link>
                     </div>
                     <Heading className="mb-4" size="xlarge" level="1">
                         Vilkår og retningslinjer
@@ -105,5 +108,5 @@ export default function vilkarOgRetningslinjer() {
                 </div>
             </div>
         </LayoutArticles>
-    )
+    );
 }

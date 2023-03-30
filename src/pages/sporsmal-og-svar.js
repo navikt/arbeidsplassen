@@ -1,5 +1,5 @@
-import { BodyLong, Heading, Link } from "@navikt/ds-react"
-import LayoutArticles from "@/src/common/components/layouts/LayoutArticles"
+import { BodyLong, Heading, Link } from "@navikt/ds-react";
+import LayoutArticles from "@/src/common/components/layouts/LayoutArticles";
 import { ChevronLeftIcon } from "@navikt/aksel-icons";
 
 export default function sporsmalOgSvar() {
@@ -8,7 +8,10 @@ export default function sporsmalOgSvar() {
             <div className="page-margin-top-and-bottom">
                 <article className="arb-article">
                     <div className="mb-24">
-                        <Link href="/articles"><ChevronLeftIcon aria-hidden="true" />Tilbake</Link>
+                        <Link href="/">
+                            <ChevronLeftIcon aria-hidden="true" />
+                            Til forsiden
+                        </Link>
                     </div>
                     <Heading size="xlarge" level="1" spacing>
                         Spørsmål og svar
@@ -100,5 +103,5 @@ export default function sporsmalOgSvar() {
                 </article>
             </div>
         </LayoutArticles>
-    )
+    );
 }

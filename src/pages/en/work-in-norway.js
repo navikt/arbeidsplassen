@@ -80,16 +80,16 @@ export default function workInNorwayEn() {
                                     Content
                                 </Heading>
                                 <BodyLong spacing>
-                                    <Link href="@/src/pages/en/work-in-norway#apply">How to apply for a job</Link>
+                                    <Link href="#apply">How to apply for a job</Link>
                                 </BodyLong>
                                 <BodyLong spacing>
-                                    <Link href="@/src/pages/en/work-in-norway#where">Where to find jobs</Link>
+                                    <Link href="#where">Where to find jobs</Link>
                                 </BodyLong>
                                 <BodyLong spacing>
-                                    <Link href="@/src/pages/en/work-in-norway#salary">Receiving salary and the introduction program</Link>
+                                    <Link href="#salary">Receiving salary and the introduction program</Link>
                                 </BodyLong>
                                 <BodyLong>
-                                    <Link href="@/src/pages/en/work-in-norway#support">
+                                    <Link href="#support">
                                         Support from the Norwegian Labour and Welfare Administration (NAV)
                                     </Link>
                                 </BodyLong>

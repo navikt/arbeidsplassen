@@ -1,5 +1,5 @@
-import { BodyLong, Heading, Link } from "@navikt/ds-react"
-import LayoutArticles from "@/src/common/components/layouts/LayoutArticles"
+import { BodyLong, Heading, Link } from "@navikt/ds-react";
+import LayoutArticles from "@/src/common/components/layouts/LayoutArticles";
 import { ChevronLeftIcon } from "@navikt/aksel-icons";
 
 export default function personvernUnderOppfolging() {
@@ -8,7 +8,10 @@ export default function personvernUnderOppfolging() {
             <div className="page-margin-top-and-bottom">
                 <div className="arb-article">
                     <div className="mb-24">
-                        <Link href="/personvern"><ChevronLeftIcon aria-hidden="true" />Til personvernserklæring</Link>
+                        <Link href="/personvern">
+                            <ChevronLeftIcon aria-hidden="true" />
+                            Til personvernserklæring
+                        </Link>
                     </div>
                     <Heading size="xlarge" level="1" spacing>
                         Personvernerklæring for deg som er under arbeidsrettet oppfølging fra NAV
@@ -27,34 +30,34 @@ export default function personvernUnderOppfolging() {
                         <ul>
                             <li>
                                 <BodyLong>
-                                    <Link href="@/src/pages/personvern-under-oppfolging#information">Hvilke personopplysninger samler vi inn?</Link>
+                                    <Link href="#information">Hvilke personopplysninger samler vi inn?</Link>
                                 </BodyLong>
                             </li>
                             <li>
                                 <BodyLong>
-                                    <Link href="@/src/pages/personvern-under-oppfolging#goals">Hvilke formål brukes personopplysningene til?</Link>
+                                    <Link href="#goals">Hvilke formål brukes personopplysningene til?</Link>
                                 </BodyLong>
                             </li>
                             <li>
                                 <BodyLong>
-                                    <Link href="@/src/pages/personvern-under-oppfolging#time">Hvor lenge lagres opplysningene?</Link>
+                                    <Link href="#time">Hvor lenge lagres opplysningene?</Link>
                                 </BodyLong>
                             </li>
                             <li>
                                 <BodyLong>
-                                    <Link href="@/src/pages/personvern-under-oppfolging#legal">
+                                    <Link href="#legal">
                                         Hva er det rettslige grunnlaget for behandlingen av personopplysninger?
                                     </Link>
                                 </BodyLong>
                             </li>
                             <li>
                                 <BodyLong>
-                                    <Link href="@/src/pages/personvern-under-oppfolging#who">Hvem deles opplysningene med?</Link>
+                                    <Link href="#who">Hvem deles opplysningene med?</Link>
                                 </BodyLong>
                             </li>
                             <li>
                                 <BodyLong>
-                                    <Link href="@/src/pages/personvern-under-oppfolging#rights">Hvilke rettigheter har du?</Link>
+                                    <Link href="#rights">Hvilke rettigheter har du?</Link>
                                 </BodyLong>
                             </li>
                         </ul>
@@ -340,5 +343,5 @@ export default function personvernUnderOppfolging() {
                 </div>
             </div>
         </LayoutArticles>
-    )
+    );
 }
