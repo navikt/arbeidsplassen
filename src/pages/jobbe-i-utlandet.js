@@ -1,6 +1,7 @@
 import { BodyLong, Heading, Ingress, Link, LinkPanel } from "@navikt/ds-react";
 import LayoutArticles from "@/src/common/components/layouts/LayoutArticles";
 import IllustrationArticle from "@/src/common/components/images/IllustrationArticle";
+import { ChevronLeftIcon } from "@navikt/aksel-icons";
 
 export default function jobbeiUtlandet() {
     return (
@@ -8,7 +9,7 @@ export default function jobbeiUtlandet() {
             <div className="page-margin-top-and-bottom">
                 <div className="arb-article">
                     <div className="mb-24">
-                        <Link href="/articles">Tilbake</Link>
+                        <Link href="/articles"><ChevronLeftIcon aria-hidden="true" />Tilbake</Link>
                     </div>
 
                     <Heading size="xlarge" level="1" spacing>

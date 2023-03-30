@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@navikt/aksel-icons": "^2.8.8",
     "@navikt/arbeidsplassen-css": "^1.1.0",
     "@navikt/arbeidsplassen-react": "^1.1.0",
     "@navikt/ds-css": "^2.8.7",
