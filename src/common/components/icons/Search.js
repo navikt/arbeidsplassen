@@ -8,7 +8,7 @@ export default function Search() {
             viewBox="0 0 73 72"
             xmlns="http://www.w3.org/2000/svg"
         >
-            <circle cx="36.002" cy="36" r="36" fill="#98F1D7" />
+            <circle cx="36.002" cy="36" r="36" fill="#fff" />
             <path
                 fillRule="evenodd"
                 clipRule="evenodd"

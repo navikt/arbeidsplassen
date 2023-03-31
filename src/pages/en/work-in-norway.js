@@ -61,35 +61,41 @@ export default function workInNorwayEn() {
                         </li>
                     </ul>
 
-                    <GuidePanel illustration={<Icon />} poster className="mb-4">
-                        <div className="arb-guide-panel-lofty">
-                            <Heading className="mb-2" size="small" level="3">
-                                Content
-                            </Heading>
-                            <BodyLong spacing>
+                    <Heading spacing size="medium" level="2">
+                        Content
+                    </Heading>
+                    <ul className="mb-4">
+                        <li>
+                            <BodyLong>
                                 <Link href="#apply">How to apply for a job</Link>
                             </BodyLong>
-                            <BodyLong spacing>
+                        </li>
+                        <li>
+                            <BodyLong>
                                 <Link href="#where">Where to find jobs</Link>
                             </BodyLong>
-                            <BodyLong spacing>
+                        </li>
+                        <li>
+                            <BodyLong>
                                 <Link href="#salary">Receiving salary and the introduction program</Link>
                             </BodyLong>
+                        </li>
+                        <li>
                             <BodyLong>
                                 <Link href="#support">
                                     Support from the Norwegian Labour and Welfare Administration (NAV)
                                 </Link>
                             </BodyLong>
-                        </div>
-                    </GuidePanel>
+                        </li>
+                    </ul>
 
                     <GuidePanel poster illustration={<HandHeart />} className="mb-4" id="apply">
                         <div className="arb-guide-panel-lofty">
-                            <Heading size="medium" level="4" spacing className="text-center mb-2">
+                            <Heading size="medium" level="2" spacing className="text-center mb-2">
                                 Applying for a job
                             </Heading>
 
-                            <Heading size="small" level="5" spacing>
+                            <Heading size="small" level="3" spacing>
                                 How to apply for a job
                             </Heading>
                             <BodyLong spacing>
@@ -111,7 +117,7 @@ export default function workInNorwayEn() {
                                 right for you. You can also ask questions about the job.
                             </BodyLong>
 
-                            <Heading size="small" level="5" spacing>
+                            <Heading size="small" level="3" spacing>
                                 Can I use my education and certifications in Norway?
                             </Heading>
                             <BodyLong spacing>
@@ -127,7 +133,7 @@ export default function workInNorwayEn() {
                                 </Link>
                             </BodyLong>
 
-                            <Heading size="small" level="5" spacing>
+                            <Heading size="small" level="3" spacing>
                                 Know your rights and obligations as an employee
                             </Heading>
                             <BodyLong spacing>
@@ -150,7 +156,7 @@ export default function workInNorwayEn() {
 
                     <GuidePanel poster illustration={<Search />} className="mb-4" id="where">
                         <div className="arb-guide-panel-lofty">
-                            <Heading size="medium" level="4" spacing className="text-center mb-2">
+                            <Heading size="medium" level="2" spacing className="text-center mb-2">
                                 Where to find jobs in Norway
                             </Heading>
                             <BodyLong spacing>
@@ -169,7 +175,7 @@ export default function workInNorwayEn() {
                                 You can use the left side of the job search page to limit the search results. For
                                 example, to only show jobs in your geographical area or only show part time jobs.
                             </BodyLong>
-                            <Heading size="small" level="5" spacing>
+                            <Heading size="small" level="3" spacing>
                                 Industry specific searches:
                             </Heading>
                             <Link href="https://arbeidsplassen.nav.no/stillinger?q=english&occupationFirstLevels[]=IT">
@@ -195,10 +201,10 @@ export default function workInNorwayEn() {
 
                     <GuidePanel poster illustration={<Wallet />} className="mb-4" id="salary">
                         <div className="arb-guide-panel-lofty">
-                            <Heading size="medium" level="4" spacing className="text-center mb-2">
+                            <Heading size="medium" level="2" spacing className="text-center mb-2">
                                 Receiving salary and the introduction program
                             </Heading>
-                            <Heading size="small" level="5" spacing>
+                            <Heading size="small" level="3" spacing>
                                 Can I work while participating in the introduction program?
                             </Heading>
                             <BodyLong spacing>
@@ -211,7 +217,7 @@ export default function workInNorwayEn() {
                                 </Link>
                             </BodyLong>
 
-                            <Heading size="small" level="5" spacing>
+                            <Heading size="small" level="3" spacing>
                                 Tax deduction card
                             </Heading>
                             <BodyLong spacing>
@@ -228,7 +234,7 @@ export default function workInNorwayEn() {
                                 </Link>
                             </BodyLong>
 
-                            <Heading size="small" level="5" spacing>
+                            <Heading size="small" level="3" spacing>
                                 Bank account
                             </Heading>
                             <BodyLong spacing>
@@ -247,7 +253,7 @@ export default function workInNorwayEn() {
 
                     <GuidePanel poster illustration={<SocialAid />} className="mb-4" id="support">
                         <div className="arb-guide-panel-lofty">
-                            <Heading size="medium" level="4" spacing className="text-center mb-2">
+                            <Heading size="medium" level="2" spacing className="text-center mb-2">
                                 Support from the Norwegian Labour and Welfare Administration (NAV)
                             </Heading>
                             <BodyLong spacing>
