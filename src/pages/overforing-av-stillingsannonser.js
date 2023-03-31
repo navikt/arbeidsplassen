@@ -17,7 +17,7 @@ export default function overforingAvStillingsannonser() {
                         Overføring av stillingsannonser til arbeidsplassen.no
                     </Heading>
 
-                    <Ingress className="arb-ingress-xlarge" spacing>
+                    <Ingress spacing>
                         NAVs import-API er utviklet for at det skal være enkelt å publisere stillinger på
                         arbeidsplassen.no for våre samarbeidspartnere
                     </Ingress>

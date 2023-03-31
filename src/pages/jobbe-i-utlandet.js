@@ -17,7 +17,7 @@ export default function jobbeiUtlandet() {
                         Jobbe i utlandet
                     </Heading>
 
-                    <Ingress className="arb-ingress-xlarge" spacing>
+                    <Ingress spacing>
                         Den Europeiske Jobbmobilitetsportalen (EURES) er et tilbud til deg som ønsker å finne en jobb i
                         EU-/EØS-området og Sveits.
                     </Ingress>

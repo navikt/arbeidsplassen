@@ -17,7 +17,7 @@ export default function slikSkriverDuEnGodCv() {
                         Slik skriver du en god CV
                     </Heading>
 
-                    <Ingress className="arb-ingress-xlarge" spacing>
+                    <Ingress spacing>
                         Med noen enkle grep kan du øke sjansene dine for å bli kalt inn til et intervju. Her får du
                         tipsene som gjør at CV-en din blir lagt merke til.
                     </Ingress>

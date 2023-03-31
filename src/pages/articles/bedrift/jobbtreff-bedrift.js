@@ -17,7 +17,7 @@ export default function jobbtreffBedrift() {
                         Jobbtreff – møt jobbsøkere på en ny måte
                     </Heading>
 
-                    <Ingress className="arb-ingress-xlarge" spacing>
+                    <Ingress spacing>
                         Trenger dere nye medarbeidere? Nå kan du presentere bedriften din for interesserte jobbsøkere i
                         en direkte sending.
                     </Ingress>

@@ -17,7 +17,7 @@ export default function superraskSoknadBedrift() {
                         Superrask søknad – en enklere måte å komme i kontakt med relevante jobbsøkere
                     </Heading>
 
-                    <Ingress className="arb-ingress-xlarge" spacing>
+                    <Ingress spacing>
                         Superrask søknad er en ny tjeneste på arbeidsplassen.no som vil gjøre rekrutteringen enklere for
                         bedrifter og for de som er på jakt etter ny jobb.
                     </Ingress>

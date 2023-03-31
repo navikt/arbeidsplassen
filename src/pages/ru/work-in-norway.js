@@ -10,16 +10,16 @@ export default function workInNorwayRu() {
         <Layout>
             <div className="page-margin-top-and-bottom">
                 <div className="layout-toc">
-                    <section className="mb-80">
+                    <section className="mb-5">
                         <div className="article">
-                            <Heading className="text-center" size="xlarge" level="1" spacing>
+                            <Heading size="xlarge" level="1" spacing>
                                 Информация о работе в Норвегии
                             </Heading>
                         </div>
                         <div className="article">
-                            <ul className="refugees-grid">
+                            <ul>
                                 <li>
-                                    <BodyLong className="refugees-text-end">
+                                    <BodyLong>
                                         <Link href="/en/work-in-norway">Information about working in Norway</Link>
                                     </BodyLong>
                                 </li>
@@ -29,7 +29,7 @@ export default function workInNorwayRu() {
                                     </BodyLong>
                                 </li>
                                 <li>
-                                    <BodyLong className="refugees-text-end">Информация на русском языке</BodyLong>
+                                    <BodyLong>Информация на русском языке</BodyLong>
                                 </li>
                                 <li>
                                     <BodyLong>
@@ -40,7 +40,7 @@ export default function workInNorwayRu() {
                         </div>
                     </section>
 
-                    <div className="mb-108">
+                    <div className="mb-6">
                         <Heading className="text-center" size="medium" level="2" spacing>
                             Процесс подачи заявки на работу
                         </Heading>

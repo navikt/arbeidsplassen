@@ -3,7 +3,7 @@ import IllustrationBedrift from "@/src/common/components/images/IllustrationBedr
 
 const MainPageBedrift = () => {
     return (
-        <div className="company-page page-margin-top-and-bottom mb-96">
+        <div className="company-page page-margin-top-and-bottom mb-6">
             <section className="arb-home-section-flex">
                 <div className="arb-home-div-width">
                     <Heading size="xlarge" level="1" spacing>
@@ -15,7 +15,7 @@ const MainPageBedrift = () => {
                         Motta søknader raskt og enkelt fra relevante jobbsøkere.
                     </Ingress>
 
-                    <div className="mb-64">
+                    <div className="mb-4">
                         <Button variant="primary" as="a" href="https://arbeidsplassen.nav.no/stillingsregistrering">
                             Gå til din side bedrift
                         </Button>

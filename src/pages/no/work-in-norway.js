@@ -7,14 +7,14 @@ export default function workInNorway() {
         <Layout>
             <div className="page-margin-top-and-bottom">
                 <article className="article">
-                    <section className="mb-80">
-                        <Heading className="text-center" size="xlarge" level="1" spacing>
+                    <section className="mb-5">
+                        <Heading size="xlarge" level="1" spacing>
                             Information about working in Norway for Ukrainian refugees
                         </Heading>
 
-                        <ul className="refugees-grid">
+                        <ul>
                             <li>
-                                <BodyLong className="refugees-text-end">
+                                <BodyLong>
                                     <Link href="/en/work-in-norway">Information about working in Norway</Link>
                                 </BodyLong>
                             </li>
@@ -24,7 +24,7 @@ export default function workInNorway() {
                                 </BodyLong>
                             </li>
                             <li>
-                                <BodyLong className="refugees-text-end">
+                                <BodyLong>
                                     <Link href="/ru/work-in-norway">Информация на русском языке</Link>
                                 </BodyLong>
                             </li>

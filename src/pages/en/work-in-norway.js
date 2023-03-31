@@ -1,4 +1,4 @@
-import { BodyLong, GuidePanel, Heading, Link } from "@navikt/ds-react";
+import { Alert, BodyLong, GuidePanel, Heading, Link } from "@navikt/ds-react";
 import { useEffect } from "react";
 import HandHeart from "@/src/common/components/icons/HandHeart";
 import Search from "@/src/common/components/icons/Search";
@@ -14,12 +14,12 @@ export default function workInNorwayEn() {
         <Layout>
             <div className="page-margin-top-and-bottom">
                 <div className="article">
-                    <Heading className="text-center" size="xlarge" level="1" spacing>
+                    <Heading size="xlarge" level="1" spacing>
                         Information about working in Norway for Ukrainian refugees
                     </Heading>
-                    <ul className="refugees-grid mb-80">
+                    <ul className="mb-5">
                         <li>
-                            <BodyLong className="refugees-text-end">Information about working in Norway</BodyLong>
+                            <BodyLong>Information about working in Norway</BodyLong>
                         </li>
                         <li>
                             <BodyLong>
@@ -27,7 +27,7 @@ export default function workInNorwayEn() {
                             </BodyLong>
                         </li>
                         <li>
-                            <BodyLong className="refugees-text-end">
+                            <BodyLong>
                                 <Link href="/ru/work-in-norway">Информация на русском языке</Link>
                             </BodyLong>
                         </li>
@@ -38,27 +38,23 @@ export default function workInNorwayEn() {
                         </li>
                     </ul>
 
-                    <Heading className="text-center" size="medium" level="2" spacing>
-                        Important before you search
-                    </Heading>
-                    <ul className="numbered-list mb-3">
-                        <li>
-                            <BodyLong spacing>
-                                You must have been granted{" "}
-                                <Link href="https://udi.no/en/information-ukraine-and-russia/situation-in-ukraine/stay-in-norway/protection-asylum-in-norway/">
-                                    collective protection
-                                </Link>{" "}
-                                before you can start searching for and applying for jobs.
-                            </BodyLong>
-                        </li>
-                        <li>
-                            <BodyLong>
-                                When working in Norway it is important that you understand your rights and obligations
-                                as an employee. On this page you will find information about why you need a written work
-                                contract, tax deduction card and more.
-                            </BodyLong>
-                        </li>
-                    </ul>
+                    <Alert variant="info" className="mb-3">
+                        <Heading size="small" level="2" spacing>
+                            Important before you search
+                        </Heading>
+                        <BodyLong spacing>
+                            You must have been granted{" "}
+                            <Link href="https://udi.no/en/information-ukraine-and-russia/situation-in-ukraine/stay-in-norway/protection-asylum-in-norway/">
+                                collective protection
+                            </Link>{" "}
+                            before you can start searching for and applying for jobs.
+                        </BodyLong>
+                        <BodyLong>
+                            When working in Norway it is important that you understand your rights and obligations as an
+                            employee. On this page you will find information about why you need a written work contract,
+                            tax deduction card and more.
+                        </BodyLong>
+                    </Alert>
 
                     <Heading spacing size="medium" level="2">
                         Content

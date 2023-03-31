@@ -10,29 +10,29 @@ export default function workInNorwayUa() {
         <Layout>
             <div className="page-margin-top-and-bottom">
                 <div className="layout-toc">
-                    <section className="mb-80">
+                    <section className="mb-5">
                         <div className="article">
-                            <Heading className="text-center" size="xlarge" level="1" spacing>
+                            <Heading size="xlarge" level="1" spacing>
                                 Інформація про роботу в Норвегії
                             </Heading>
                         </div>
                         <div className="article">
-                            <ul className="refugees-grid">
+                            <ul>
                                 <li>
-                                    <BodyLong className="refugees-text-right">
+                                    <BodyLong>
                                         <Link href="/en/work-in-norway">Information about working in Norway</Link>
                                     </BodyLong>
                                 </li>
                                 <li>
-                                    <BodyLong className="refugees-text-left">Інформація українською мовою</BodyLong>
+                                    <BodyLong>Інформація українською мовою</BodyLong>
                                 </li>
                                 <li>
-                                    <BodyLong className="refugees-text-right">
+                                    <BodyLong>
                                         <Link href="/ru/work-in-norway">Информация на русском языке</Link>
                                     </BodyLong>
                                 </li>
                                 <li>
-                                    <BodyLong className="refugees-text-left">
+                                    <BodyLong>
                                         <Link href="/no/work-in-norway">Informasjon for arbeidsgivere</Link>
                                     </BodyLong>
                                 </li>
@@ -40,7 +40,7 @@ export default function workInNorwayUa() {
                         </div>
                     </section>
 
-                    <div className="mb-108">
+                    <div className="mb-6">
                         <Heading className="text-center" size="medium" level="2" spacing>
                             Процес подання заяви на роботу
                         </Heading>

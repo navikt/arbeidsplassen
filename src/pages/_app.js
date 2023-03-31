@@ -1,6 +1,8 @@
 import "@navikt/ds-css";
 import "@navikt/arbeidsplassen-css";
 import "../common/styles/global.css";
+import "../common/styles/spacing.css";
+import "../common/styles/typography.css";
 import "../common/styles/article.css";
 import AuthenticationProvider from "@/src/common/contexts/AuthenticationProvider";
 

@@ -17,7 +17,7 @@ export default function tipsTilJobbsoknaden() {
                         Tips til jobbsøknaden
                     </Heading>
 
-                    <Ingress className="arb-ingress-xlarge" spacing>
+                    <Ingress spacing>
                         Det er ikke så vanskelig. Her får du våre tips om hvordan skrive søknaden slik at en
                         arbeidsgiver får lyst til å møte akkurat deg.
                     </Ingress>

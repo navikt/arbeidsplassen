@@ -16,7 +16,7 @@ export default function skikkeligBraStillingsannonse() {
                         Hvordan skriver du en skikkelig bra stillingsannonse?
                     </Heading>
 
-                    <Ingress className="arb-ingress-xlarge" spacing>
+                    <Ingress spacing>
                         Hva ser jobbsøkere etter når de leser en stillingsannonse? Hva bør du tenke på når du skriver
                         annonsen?
                     </Ingress>
