@@ -2,10 +2,14 @@ import { BodyLong, Heading, Ingress, Link, LinkPanel } from "@navikt/ds-react";
 import IllustrationArticle from "../../../common/components/images/IllustrationArticle";
 import Layout from "@/src/common/components/layout/Layout";
 import { ChevronLeftIcon } from "@navikt/aksel-icons";
+import Head from "next/head";
 
 export default function jobbtreffBedrift() {
     return (
         <Layout>
+            <Head>
+                <title>Jobbtreff – møt jobbsøkere på en ny måte - arbeidsplassen.no</title>
+            </Head>
             <div className="page-margin-top-and-bottom">
                 <div className="article">
                     <Link href="/bedrift" className="mb-2">

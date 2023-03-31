@@ -2,10 +2,16 @@ import { BodyLong, Heading, Ingress, Link } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import IllustrationArticle from "@/src/common/components/images/IllustrationArticle";
 import { ChevronLeftIcon } from "@navikt/aksel-icons";
+import Head from "next/head";
 
 export default function superraskSoknadBedrift() {
     return (
         <Layout>
+            <Head>
+                <title>
+                    Superrask søknad – en enklere måte å komme i kontakt med relevante jobbsøkere - arbeidsplassen.no
+                </title>
+            </Head>
             <div className="page-margin-top-and-bottom">
                 <div className="article">
                     <Link href="/bedrift" className="mb-2">

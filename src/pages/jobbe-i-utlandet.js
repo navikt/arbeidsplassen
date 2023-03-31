@@ -2,10 +2,14 @@ import { BodyLong, Heading, Ingress, Link, LinkPanel } from "@navikt/ds-react";
 import IllustrationArticle from "@/src/common/components/images/IllustrationArticle";
 import { ChevronLeftIcon } from "@navikt/aksel-icons";
 import Layout from "@/src/common/components/layout/Layout";
+import Head from "next/head";
 
 export default function jobbeiUtlandet() {
     return (
         <Layout>
+            <Head>
+                <title>Jobbe i utlandet - arbeidsplassen.no</title>
+            </Head>
             <div className="page-margin-top-and-bottom">
                 <div className="article">
                     <Link href="/" className="mb-2">

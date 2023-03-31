@@ -2,10 +2,14 @@ import { BodyLong, Heading, Ingress, Link, LinkPanel } from "@navikt/ds-react";
 import IllustrationArticle from "../../../common/components/images/IllustrationArticle";
 import Layout from "@/src/common/components/layout/Layout";
 import { ChevronLeftIcon } from "@navikt/aksel-icons";
+import Head from "next/head";
 
 export default function skikkeligBraStillingsannonse() {
     return (
         <Layout>
+            <Head>
+                <title>Hvordan skriver du en skikkelig bra stillingsannonse? - arbeidsplassen.no</title>
+            </Head>
             <div className="page-margin-top-and-bottom">
                 <article className="article">
                     <Link href="/bedrift" className="mb-2">

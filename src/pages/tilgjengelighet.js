@@ -1,10 +1,14 @@
 import { BodyLong, Heading, Link } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import { ChevronLeftIcon } from "@navikt/aksel-icons";
+import Head from "next/head";
 
 export default function tilgjengelighet() {
     return (
         <Layout>
+            <Head>
+                <title>Tilgjengelighet - arbeidsplassen.no</title>
+            </Head>
             <div className="page-margin-top-and-bottom">
                 <div className="article">
                     <Link href="/" className="mb-2">

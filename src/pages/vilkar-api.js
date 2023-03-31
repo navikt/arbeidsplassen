@@ -1,10 +1,14 @@
 import { BodyLong, Heading, Link } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import { ChevronLeftIcon } from "@navikt/aksel-icons";
+import Head from "next/head";
 
 export default function vilkarApi() {
     return (
         <Layout>
+            <Head>
+                <title>Vilkår for bruk av API for stillingsannonser - arbeidsplassen.no</title>
+            </Head>
             <div className="page-margin-top-and-bottom">
                 <div className="article">
                     <Link href="/vilkar-og-retningslinjer" className="mb-2">

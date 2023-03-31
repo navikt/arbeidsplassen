@@ -1,10 +1,16 @@
 import { BodyLong, Heading, Link } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import { ChevronLeftIcon } from "@navikt/aksel-icons";
+import Head from "next/head";
 
 export default function personvernUnderOppfolging() {
     return (
         <Layout>
+            <Head>
+                <title>
+                    Personvernerklæring for deg som er under arbeidsrettet oppfølging fra NAV - arbeidsplassen.no
+                </title>
+            </Head>
             <div className="page-margin-top-and-bottom">
                 <div className="article">
                     <Link href="/personvern" className="mb-2">

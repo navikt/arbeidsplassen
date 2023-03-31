@@ -1,9 +1,13 @@
 import { Alert, BodyLong, Heading, Link } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
+import Head from "next/head";
 
 export default function workInNorwayRu() {
     return (
         <Layout>
+            <Head>
+                <title>Информация о работе в Норвегии - arbeidsplassen.no</title>
+            </Head>
             <div className="page-margin-top-and-bottom" lang="ru">
                 <div className="article">
                     <Heading level="1" size="xlarge" spacing>

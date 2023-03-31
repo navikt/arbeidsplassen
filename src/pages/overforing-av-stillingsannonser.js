@@ -2,10 +2,14 @@ import { BodyLong, Heading, Ingress, Link } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import IllustrationArticle from "@/src/common/components/images/IllustrationArticle";
 import { ChevronLeftIcon } from "@navikt/aksel-icons";
+import Head from "next/head";
 
 export default function overforingAvStillingsannonser() {
     return (
         <Layout>
+            <Head>
+                <title>Overføring av stillingsannonser til arbeidsplassen.no - arbeidsplassen.no</title>
+            </Head>
             <div className="page-margin-top-and-bottom">
                 <div className="article">
                     <Link href="/bedrift" className="mb-2">

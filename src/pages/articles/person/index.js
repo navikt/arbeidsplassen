@@ -1,10 +1,14 @@
 import { Heading, LinkPanel } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import IllustrationArticle from "@/src/common/components/images/IllustrationArticle";
+import Head from "next/head";
 
 export default function ArticlePagePerson() {
     return (
         <Layout>
+            <Head>
+                <title>Nyttige artikler for jobbsøkere - arbeidsplassen.no</title>
+            </Head>
             <div className="page-margin-top-and-bottom">
                 <div className="article">
                     <Heading className="mb-4" size="xlarge" level="1">

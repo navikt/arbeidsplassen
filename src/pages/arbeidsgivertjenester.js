@@ -1,10 +1,14 @@
 import { BodyLong, Heading, Link } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import { ChevronLeftIcon } from "@navikt/aksel-icons";
+import Head from "next/head";
 
 export default function arbeidsgivertjenester() {
     return (
         <Layout>
+            <Head>
+                <title>Hvem kan bruke arbeidsgivertjenestene? - arbeidsplassen.no</title>
+            </Head>
             <div className="page-margin-top-and-bottom">
                 <div className="article">
                     <Link href="/bedrift" className="mb-2">

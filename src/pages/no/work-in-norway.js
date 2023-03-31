@@ -1,9 +1,13 @@
 import { BodyLong, Heading, Link } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
+import Head from "next/head";
 
 export default function workInNorway() {
     return (
         <Layout>
+            <Head>
+                <title>Information about working in Norway for Ukrainian refugees - arbeidsplassen.no</title>
+            </Head>
             <div className="page-margin-top-and-bottom">
                 <article className="article">
                     <section className="mb-3">

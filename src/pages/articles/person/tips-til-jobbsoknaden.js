@@ -2,10 +2,14 @@ import { BodyLong, Heading, Ingress, Link, LinkPanel } from "@navikt/ds-react";
 import IllustrationArticle from "../../../common/components/images/IllustrationArticle";
 import Layout from "@/src/common/components/layout/Layout";
 import { ChevronLeftIcon } from "@navikt/aksel-icons";
+import Head from "next/head";
 
 export default function tipsTilJobbsoknaden() {
     return (
         <Layout>
+            <Head>
+                <title>Tips til jobbsøknaden - arbeidsplassen.no</title>
+            </Head>
             <div className="page-margin-top-and-bottom">
                 <div className="article">
                     <Link href="/" className="mb-2">

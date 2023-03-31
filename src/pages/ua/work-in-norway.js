@@ -1,9 +1,13 @@
 import Layout from "@/src/common/components/layout/Layout";
 import { Alert, BodyLong, Heading, Link } from "@navikt/ds-react";
+import Head from "next/head";
 
 export default function workInNorwayUa() {
     return (
         <Layout>
+            <Head>
+                <title>Інформація про роботу в Норвегії - arbeidsplassen.no</title>
+            </Head>
             <div className="page-margin-top-and-bottom" lang="ua">
                 <div className="article">
                     <Heading level="1" size="xlarge" spacing>

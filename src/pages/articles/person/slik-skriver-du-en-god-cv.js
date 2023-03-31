@@ -2,10 +2,14 @@ import { BodyLong, Heading, Ingress, Link, LinkPanel } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import IllustrationArticle from "@/src/common/components/images/IllustrationArticle";
 import { ChevronLeftIcon } from "@navikt/aksel-icons";
+import Head from "next/head";
 
 export default function slikSkriverDuEnGodCv() {
     return (
         <Layout>
+            <Head>
+                <title>Slik skriver du en god CV - arbeidsplassen.no</title>
+            </Head>
             <div className="page-margin-top-and-bottom">
                 <div className="article">
                     <Link href="/" className="mb-2">
