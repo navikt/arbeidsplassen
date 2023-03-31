@@ -7,7 +7,7 @@ export default function personvern() {
         <LayoutArticles>
             <div className="page-margin-top-and-bottom">
                 <div className="arb-article">
-                    <div className="mb-24">
+                    <div className="mb-2">
                         <Link href="/">
                             <ChevronLeftIcon aria-hidden="true" />
                             Til forsiden
@@ -19,73 +19,62 @@ export default function personvern() {
                     </Heading>
                     <BodyLong className="mb-2">Publisert 1. februar 2022</BodyLong>
 
-                    <section className="arb-article-section">
-                        <BodyLong spacing>
-                            Arbeidsplassen.no er en tjeneste fra NAV og det er Arbeids- og velferdsdirektoratet som er
-                            behandlingsansvarlig for dine data her. Denne personvernerklæringen er knyttet til
-                            behandlingen av personopplysninger særskilt for tjenestene på arbeidsplassen.no.
-                        </BodyLong>
-                        <BodyLong spacing>
-                            Vi lagrer kun personopplysninger i de innloggede tjenestene og ved innhenting av
-                            stillingsannonser fra arbeidsgivere via våre samarbeidspartnere. For utfyllende informasjon
-                            om hvordan NAV behandler dine personopplysninger, kan du lese mer i{" "}
-                            <Link href="https://www.nav.no/personvernerklaering">
-                                NAVs generelle personvernerklæring.
-                            </Link>
-                        </BodyLong>
-                        <BodyLong spacing>
-                            For deg som representerer en arbeidsgiver, les mer lenger nede på siden om hvordan vi
-                            behandler dine personopplysninger i løsningen.
-                        </BodyLong>
-                        <BodyLong>
-                            <Link href="/personvern-superrask-soknad">
-                                Informasjon om hvordan vi behandler dine data knyttet til superrask søknad.
-                            </Link>
-                        </BodyLong>
-                    </section>
+                    <BodyLong spacing>
+                        Arbeidsplassen.no er en tjeneste fra NAV og det er Arbeids- og velferdsdirektoratet som er
+                        behandlingsansvarlig for dine data her. Denne personvernerklæringen er knyttet til behandlingen
+                        av personopplysninger særskilt for tjenestene på arbeidsplassen.no.
+                    </BodyLong>
+                    <BodyLong spacing>
+                        Vi lagrer kun personopplysninger i de innloggede tjenestene og ved innhenting av
+                        stillingsannonser fra arbeidsgivere via våre samarbeidspartnere. For utfyllende informasjon om
+                        hvordan NAV behandler dine personopplysninger, kan du lese mer i{" "}
+                        <Link href="https://www.nav.no/personvernerklaering">NAVs generelle personvernerklæring.</Link>
+                    </BodyLong>
+                    <BodyLong spacing>
+                        For deg som representerer en arbeidsgiver, les mer lenger nede på siden om hvordan vi behandler
+                        dine personopplysninger i løsningen.
+                    </BodyLong>
+                    <BodyLong className="mb-3">
+                        <Link href="/personvern-superrask-soknad">
+                            Informasjon om hvordan vi behandler dine data knyttet til superrask søknad.
+                        </Link>
+                    </BodyLong>
 
-                    <section className="arb-article-section">
-                        <Heading size="medium" level="2" spacing>
-                            Informasjonskapsler
-                        </Heading>
-                        <BodyLong>
-                            Arbeidsplassen.no er et subdomene av nav.no. Vi lagrer ikke personopplysninger om deg på de
-                            åpne/uinnloggede sidene på arbeidsplassen.nav.no, men bruker informasjonskapsler
-                            («cookies»).{" "}
-                            <Link href="https://www.nav.no/personvern-sikkerhet-navno">
-                                Les mer om informasjonskapsler og innloggede tjenester på nav.no.
-                            </Link>
-                        </BodyLong>
-                    </section>
-                    <section className="arb-article-section">
-                        <Heading className="mb-2" size="medium" level="2">
-                            Les mer om hvordan vi behandler dine personopplysninger
-                        </Heading>
-                        <LinkPanel
-                            href="/personvern-under-oppfolging"
-                            className="arb-link-panel arb-tertiary-bg-text mb-1"
-                        >
-                            <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
-                                For deg som er under arbeidsrettet oppfølging fra NAV
-                            </LinkPanel.Title>
-                            <LinkPanel.Description className="navds-link-panel__description navds-body-long">
-                                Dersom du har registrert deg som arbeidssøker hos NAV, gjelder dette deg.
-                            </LinkPanel.Description>
-                        </LinkPanel>
-                        <LinkPanel
-                            href="/personvern-ikke-under-oppfolging"
-                            className="arb-link-panel arb-tertiary-bg-text mb-1"
-                        >
-                            <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
-                                For deg som ikke er under arbeidsrettet oppfølging fra NAV
-                            </LinkPanel.Title>
-                        </LinkPanel>
-                        <LinkPanel href="/personvern-arbeidsgiver" className="arb-link-panel arb-tertiary-bg-text">
-                            <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
-                                For deg som representerer en arbeidsgiver
-                            </LinkPanel.Title>
-                        </LinkPanel>
-                    </section>
+                    <Heading size="large" level="2" spacing>
+                        Informasjonskapsler
+                    </Heading>
+                    <BodyLong className="mb-3">
+                        Arbeidsplassen.no er et subdomene av nav.no. Vi lagrer ikke personopplysninger om deg på de
+                        åpne/uinnloggede sidene på arbeidsplassen.nav.no, men bruker informasjonskapsler («cookies»).{" "}
+                        <Link href="https://www.nav.no/personvern-sikkerhet-navno">
+                            Les mer om informasjonskapsler og innloggede tjenester på nav.no.
+                        </Link>
+                    </BodyLong>
+
+                    <Heading className="mb-2" size="large" level="2">
+                        Les mer om hvordan vi behandler dine personopplysninger
+                    </Heading>
+                    <LinkPanel href="/personvern-under-oppfolging" className="arb-link-panel arb-tertiary-bg-text mb-1">
+                        <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
+                            For deg som er under arbeidsrettet oppfølging fra NAV
+                        </LinkPanel.Title>
+                        <LinkPanel.Description className="navds-link-panel__description navds-body-long">
+                            Dersom du har registrert deg som arbeidssøker hos NAV, gjelder dette deg.
+                        </LinkPanel.Description>
+                    </LinkPanel>
+                    <LinkPanel
+                        href="/personvern-ikke-under-oppfolging"
+                        className="arb-link-panel arb-tertiary-bg-text mb-1"
+                    >
+                        <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
+                            For deg som ikke er under arbeidsrettet oppfølging fra NAV
+                        </LinkPanel.Title>
+                    </LinkPanel>
+                    <LinkPanel href="/personvern-arbeidsgiver" className="arb-link-panel arb-tertiary-bg-text">
+                        <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
+                            For deg som representerer en arbeidsgiver
+                        </LinkPanel.Title>
+                    </LinkPanel>
                 </div>
             </div>
         </LayoutArticles>
