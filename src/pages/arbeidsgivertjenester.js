@@ -15,7 +15,7 @@ export default function arbeidsgivertjenester() {
                         Hvem kan bruke arbeidsgivertjenestene?
                     </Heading>
 
-                    <Heading size="medium" level="2" spacing>
+                    <Heading size="large" level="2" spacing>
                         Tilgang via Altinn
                     </Heading>
                     <BodyLong spacing>
@@ -42,7 +42,7 @@ export default function arbeidsgivertjenester() {
                         du automatisk ha rettigheten «Rekruttering» på vegne av bedriften.
                     </BodyLong>
 
-                    <Heading size="small" level="3" spacing>
+                    <Heading size="medium" level="3" spacing>
                         Mer hjelp
                     </Heading>
                     <ul className="mb-3">
@@ -83,7 +83,7 @@ export default function arbeidsgivertjenester() {
                         </li>
                     </ul>
 
-                    <Heading size="medium" level="2" spacing>
+                    <Heading size="large" level="2" spacing>
                         Utenlandske virksomheter
                     </Heading>
                     <BodyLong spacing>
@@ -99,7 +99,7 @@ export default function arbeidsgivertjenester() {
                         ulike landene.
                     </BodyLong>
 
-                    <Heading size="medium" level="2" spacing>
+                    <Heading size="large" level="2" spacing>
                         Rekruttere fra EU/EØS og Sveits
                     </Heading>
                     <BodyLong spacing>

@@ -15,7 +15,7 @@ export default function retningslinjerJobbtreff() {
                         Retningslinjer for innhold i jobbtreff på arbeidsplassen.no
                     </Heading>
 
-                    <Heading size="medium" level="2" spacing>
+                    <Heading size="large" level="2" spacing>
                         1. Innledning
                     </Heading>
                     <BodyLong spacing>
@@ -31,7 +31,7 @@ export default function retningslinjerJobbtreff() {
                         konkret rekrutterings-/ansettelsesbehov.
                     </BodyLong>
 
-                    <Heading size="medium" level="2" spacing>
+                    <Heading size="large" level="2" spacing>
                         2. Bemanningsforetak/rekrutteringsbyrå
                     </Heading>
                     <BodyLong className="mb-3">
@@ -41,7 +41,7 @@ export default function retningslinjerJobbtreff() {
                         av Arbeidstilsynet.
                     </BodyLong>
 
-                    <Heading size="medium" level="2" spacing>
+                    <Heading size="large" level="2" spacing>
                         3. Renholdsvirksomheter
                     </Heading>
                     <BodyLong className="mb-3">
@@ -51,7 +51,7 @@ export default function retningslinjerJobbtreff() {
                         forutsetning at virksomheten er godkjent av Arbeidstilsynet.
                     </BodyLong>
 
-                    <Heading size="medium" level="2" spacing>
+                    <Heading size="large" level="2" spacing>
                         4. Ulovlig diskriminerende innhold
                     </Heading>
                     <BodyLong className="mb-3">
@@ -64,7 +64,7 @@ export default function retningslinjerJobbtreff() {
                         en forsvarlig måte.
                     </BodyLong>
 
-                    <Heading size="medium" level="2" spacing>
+                    <Heading size="large" level="2" spacing>
                         5. Ulovlig arbeid
                     </Heading>
                     <BodyLong className="mb-3">
@@ -74,7 +74,7 @@ export default function retningslinjerJobbtreff() {
                         arbeidstid, arbeidskontrakt eller liknende, skal ikke opprettes på arbeidsplassen.no.
                     </BodyLong>
 
-                    <Heading size="medium" level="2" spacing>
+                    <Heading size="large" level="2" spacing>
                         6. Lovlig arbeid hvor jobbtreff ikke kan benyttes
                     </Heading>
                     <BodyLong spacing>
@@ -85,7 +85,7 @@ export default function retningslinjerJobbtreff() {
                         stillinger som støtende/krenkende.
                     </BodyLong>
 
-                    <Heading size="small" level="3" spacing>
+                    <Heading size="medium" level="3" spacing>
                         Melding til arbeidsgiver når jobbtreff slettes eller avvises
                     </Heading>
                     <BodyLong spacing>

@@ -16,7 +16,7 @@ export default function vilkarApi() {
                         Vilkår for bruk av API for stillingsannonser - Job Ads Public Feed
                     </Heading>
 
-                    <Heading size="medium" level="2" spacing>
+                    <Heading size="large" level="2" spacing>
                         Beskrivelse av tjenesten
                     </Heading>
                     <BodyLong className="mb-3">
@@ -26,7 +26,7 @@ export default function vilkarApi() {
                         via et åpent API og hentet inn fra våre samarbeidspartnere.
                     </BodyLong>
 
-                    <Heading size="medium" level="2" spacing>
+                    <Heading size="large" level="2" spacing>
                         Hvem kan bruke tjenestene
                     </Heading>
                     <BodyLong spacing>
@@ -46,7 +46,7 @@ export default function vilkarApi() {
                         </li>
                     </ul>
 
-                    <Heading size="medium" level="2" spacing>
+                    <Heading size="large" level="2" spacing>
                         Typer tilgang
                     </Heading>
                     <ol className="mb-3">
@@ -71,7 +71,7 @@ export default function vilkarApi() {
                         </li>
                     </ol>
 
-                    <Heading size="medium" level="2" spacing>
+                    <Heading size="large" level="2" spacing>
                         Slik får du tilgang
                     </Heading>
                     <BodyLong spacing>
@@ -86,7 +86,7 @@ export default function vilkarApi() {
                         du å avslutte abonnementet, send en henvendelse til samme e-postadresse.
                     </BodyLong>
 
-                    <Heading size="medium" level="2" spacing>
+                    <Heading size="large" level="2" spacing>
                         Personvern
                     </Heading>
                     <BodyLong spacing>

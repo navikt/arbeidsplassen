@@ -15,7 +15,7 @@ export default function vilkar() {
                         Vilkår for å publisere stillinger
                     </Heading>
 
-                    <Heading size="medium" level="2" spacing>
+                    <Heading size="large" level="2" spacing>
                         Hvem kan bruke tjenestene
                     </Heading>
                     <BodyLong className="mb-3">
@@ -24,7 +24,7 @@ export default function vilkar() {
                         det som en annen har lagt inn.
                     </BodyLong>
 
-                    <Heading size="medium" level="2" spacing>
+                    <Heading size="large" level="2" spacing>
                         Bruk av opplysninger i CV-er
                     </Heading>
                     <BodyLong spacing>
@@ -49,7 +49,7 @@ export default function vilkar() {
                         NAV vil følge opp brudd på disse vilkårene hvis det forekommer.
                     </BodyLong>
 
-                    <Heading size="medium" level="2" spacing>
+                    <Heading size="large" level="2" spacing>
                         Publisere stillinger
                     </Heading>
                     <BodyLong spacing>
@@ -119,7 +119,7 @@ export default function vilkar() {
                         kontakt og informere i etterkant.
                     </BodyLong>
 
-                    <Heading size="medium" level="2" spacing>
+                    <Heading size="large" level="2" spacing>
                         Personopplysninger
                     </Heading>
                     <BodyLong>

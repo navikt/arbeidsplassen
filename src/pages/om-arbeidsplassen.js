@@ -28,7 +28,7 @@ export default function omArbeidsplassen() {
                     </BodyLong>
                     <BodyLong className="mb-3">Arbeidsplassen.no er eid av NAV.</BodyLong>
 
-                    <Heading size="medium" level="2" spacing>
+                    <Heading size="large" level="2" spacing>
                         Arbeidsplassen.no har den største oversikten over arbeidsmarkedet
                     </Heading>
                     <BodyLong spacing>
@@ -44,7 +44,7 @@ export default function omArbeidsplassen() {
                         Arbeidsplassen.no gir dermed Norges største oversikt over utlyste stillinger.
                     </BodyLong>
 
-                    <Heading size="medium" level="2" spacing>
+                    <Heading size="large" level="2" spacing>
                         Arbeidsplassen.no er selvbetjent
                     </Heading>
                     <BodyLong spacing>
@@ -56,7 +56,7 @@ export default function omArbeidsplassen() {
                         dag.
                     </BodyLong>
 
-                    <Heading size="medium" level="2" spacing>
+                    <Heading size="large" level="2" spacing>
                         Tjenestene på arbeidsplassen.no er kostnadsfrie
                     </Heading>
                     <BodyLong spacing>
@@ -70,7 +70,7 @@ export default function omArbeidsplassen() {
                         arbeidsmarkedet.
                     </BodyLong>
 
-                    <Heading size="medium" level="2" spacing>
+                    <Heading size="large" level="2" spacing>
                         Arbeidsplassen.no er sikker
                     </Heading>
                     <BodyLong spacing>Tilgang til tjenestene styres gjennom Altinn og ID-porten.</BodyLong>

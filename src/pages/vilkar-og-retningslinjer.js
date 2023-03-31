@@ -15,7 +15,7 @@ export default function vilkarOgRetningslinjer() {
                         Vilkår og retningslinjer
                     </Heading>
 
-                    <Heading size="medium" level="2" spacing>
+                    <Heading size="large" level="2" spacing>
                         Vilkår for å bruke arbeidsgivertjenestene
                     </Heading>
                     <BodyLong>
@@ -34,7 +34,7 @@ export default function vilkarOgRetningslinjer() {
                         <Link href="/vilkar">Her kan du lese alle vilkårene for bruk av arbeidsplassen.no.</Link>
                     </BodyLong>
 
-                    <Heading size="medium" level="2" spacing>
+                    <Heading size="large" level="2" spacing>
                         Vilkår for bruk av API for stillingsannonser
                     </Heading>
                     <BodyLong spacing>
@@ -47,7 +47,7 @@ export default function vilkarOgRetningslinjer() {
                         <Link href="/vilkar-api">Her kan du lese vilkårene for bruk av API for stillingsannonser.</Link>
                     </BodyLong>
 
-                    <Heading size="medium" level="2" spacing>
+                    <Heading size="large" level="2" spacing>
                         Retningslinjer for innhold i stillingsannonser
                     </Heading>
                     <BodyLong>
@@ -81,7 +81,7 @@ export default function vilkarOgRetningslinjer() {
                         </Link>
                     </BodyLong>
 
-                    <Heading size="medium" level="2" spacing>
+                    <Heading size="large" level="2" spacing>
                         Retningslinjer for innhold i jobbtreff
                     </Heading>
                     <BodyLong spacing>

@@ -26,7 +26,7 @@ export default function overforingAvStillingsannonser() {
                         <IllustrationArticle className="arb-article-figure-pull-outside" />
                     </div>
 
-                    <Heading size="medium" level="2" spacing>
+                    <Heading size="large" level="2" spacing>
                         Hvorfor er det bra å publisere stillinger til arbeidsplassen.no?
                     </Heading>
                     <ul className="mb-3">
@@ -55,7 +55,7 @@ export default function overforingAvStillingsannonser() {
                         </li>
                     </ul>
 
-                    <Heading size="medium" level="2" spacing>
+                    <Heading size="large" level="2" spacing>
                         Hvordan fungerer det i dag?
                     </Heading>
                     <BodyLong spacing>
@@ -78,7 +78,7 @@ export default function overforingAvStillingsannonser() {
                         i en tidlig dialog med flere samarbeidspartnere om dette.
                     </BodyLong>
 
-                    <Heading size="medium" level="2" spacing>
+                    <Heading size="large" level="2" spacing>
                         Hva er API?
                     </Heading>
                     <BodyLong spacing>
@@ -91,7 +91,7 @@ export default function overforingAvStillingsannonser() {
                         fra samarbeidpartnerer sine sider for stillingsutlysninger direkte til arbeidsplassen.no
                     </BodyLong>
 
-                    <Heading size="medium" level="2" spacing>
+                    <Heading size="large" level="2" spacing>
                         Hva kan arbeidsgiver gjøre?
                     </Heading>
                     <ol type="a">

@@ -15,7 +15,7 @@ export default function retningslinjerStillingsannonser() {
                         Retningslinjer for innhold i annonser i NAVs stillingsbase
                     </Heading>
 
-                    <Heading size="medium" level="2" spacing>
+                    <Heading size="large" level="2" spacing>
                         1. Innledning
                     </Heading>
                     <BodyLong spacing>
@@ -30,7 +30,7 @@ export default function retningslinjerStillingsannonser() {
                         Disse retningslinjene gjelder også for bruk av "Superrask søknad".
                     </BodyLong>
 
-                    <Heading size="medium" level="2" spacing>
+                    <Heading size="large" level="2" spacing>
                         2. Stillinger som medfører et ansettelsesforhold - reelle stillinger
                     </Heading>
                     <BodyLong>
@@ -55,7 +55,7 @@ export default function retningslinjerStillingsannonser() {
                         tilbud om ansettelse.
                     </BodyLong>
 
-                    <Heading size="medium" level="2" spacing>
+                    <Heading size="large" level="2" spacing>
                         3. Bemanningsforetak/rekrutteringsbyrå
                     </Heading>
                     <BodyLong spacing>
@@ -79,7 +79,7 @@ export default function retningslinjerStillingsannonser() {
                         opplysningsplikt til NAV har også hjemmel i arbeidsmarkedsloven § 7.
                     </BodyLong>
 
-                    <Heading size="medium" level="2" spacing>
+                    <Heading size="large" level="2" spacing>
                         4. Renholdsvirksomheter
                     </Heading>
                     <BodyLong className="mb-3">
@@ -89,7 +89,7 @@ export default function retningslinjerStillingsannonser() {
                         forutsetning at virksomheten er godkjent av Arbeidstilsynet.
                     </BodyLong>
 
-                    <Heading size="medium" level="2" spacing>
+                    <Heading size="large" level="2" spacing>
                         5. Virksomheter som tilbyr bilpleie, hjulskift og hjullagring
                     </Heading>
                     <BodyLong className="mb-3">
@@ -100,7 +100,7 @@ export default function retningslinjerStillingsannonser() {
                         stillingsbase er det en forutsetning at virksomheten er godkjent av Arbeidstilsynet.
                     </BodyLong>
 
-                    <Heading size="medium" level="2" spacing>
+                    <Heading size="large" level="2" spacing>
                         6. Oppdrag til selvstendig næringsdrivende
                     </Heading>
                     <BodyLong spacing>
@@ -111,7 +111,7 @@ export default function retningslinjerStillingsannonser() {
                         av varer, tjenester og lignende.
                     </BodyLong>
 
-                    <Heading size="small" level="3" spacing>
+                    <Heading size="medium" level="3" spacing>
                         Unntak for helsepersonell
                     </Heading>
                     <BodyLong className="mb-3">
@@ -120,7 +120,7 @@ export default function retningslinjerStillingsannonser() {
                         som næringsdrivende.
                     </BodyLong>
 
-                    <Heading size="medium" level="2" spacing>
+                    <Heading size="large" level="2" spacing>
                         7. Annonser med ulovlig diskriminerende innhold
                     </Heading>
                     <BodyLong spacing>
@@ -139,7 +139,7 @@ export default function retningslinjerStillingsannonser() {
                         13-1 og 13-2
                     </BodyLong>
 
-                    <Heading size="small" level="3" spacing>
+                    <Heading size="medium" level="3" spacing>
                         Formuleringer som fremmer mangfold
                     </Heading>
                     <BodyLong className="mb-3">
@@ -153,7 +153,7 @@ export default function retningslinjerStillingsannonser() {
                         nasjonalitet(er) til å søke, selv om disse kan sies å være underrepresentert.
                     </BodyLong>
 
-                    <Heading size="medium" level="2" spacing>
+                    <Heading size="large" level="2" spacing>
                         8. Annonser for ulovlig arbeid
                     </Heading>
                     <BodyLong className="mb-3">
@@ -163,7 +163,7 @@ export default function retningslinjerStillingsannonser() {
                         arbeidstid, arbeidskontrakt eller liknende, skal ikke registreres.
                     </BodyLong>
 
-                    <Heading size="medium" level="2" spacing>
+                    <Heading size="large" level="2" spacing>
                         9. Lovlige stillinger som ikke skal registreres
                     </Heading>
                     <BodyLong spacing>
@@ -180,14 +180,14 @@ export default function retningslinjerStillingsannonser() {
                         ikke er grunnlag for å anta at forretningen driver ulovlig virksomhet.
                     </BodyLong>
 
-                    <Heading size="medium" level="2" spacing>
+                    <Heading size="large" level="2" spacing>
                         10. Siste publiseringsdato (utløpsdato)
                     </Heading>
                     <BodyLong className="mb-3">
                         Utløpsdato for en stilling må ikke settes senere enn 6 måneder etter registreringsdato.
                     </BodyLong>
 
-                    <Heading size="medium" level="2" spacing>
+                    <Heading size="large" level="2" spacing>
                         11. Avpublisering av annonser som ikke oppfyller vilkårene
                     </Heading>
                     <BodyLong spacing>NAV kontrollerer alle annonser som publiseres på Aabeidsplassen.no.</BodyLong>
@@ -196,7 +196,7 @@ export default function retningslinjerStillingsannonser() {
                         retningslinjene, men som likevel er blitt publisert, blir annonsen avpublisert.
                     </BodyLong>
 
-                    <Heading size="small" level="3" spacing>
+                    <Heading size="medium" level="3" spacing>
                         Melding til arbeidsgiver når annonser slettes eller avvises
                     </Heading>
                     <BodyLong spacing>
