@@ -13,7 +13,7 @@ export default function workInNorwayEn() {
                     <Heading size="xlarge" level="1" spacing>
                         Information about working in Norway for Ukrainian refugees
                     </Heading>
-                    <ul className="mb-5">
+                    <ul className="mb-3">
                         <li>
                             <BodyLong>Information about working in Norway</BodyLong>
                         </li>
