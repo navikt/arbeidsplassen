@@ -14,9 +14,17 @@ export default function Layout({ children, active }) {
 
     return (
         <>
-            <SkipLink />
-            <Header variant="all" active={active} onLogin={login} onLogout={logout} authenticationStatus={authStatus} />
-            <main className="content">{children}</main>
+            <div className="push-footer-down">
+                <SkipLink />
+                <Header
+                    variant="all"
+                    active={active}
+                    onLogin={login}
+                    onLogout={logout}
+                    authenticationStatus={authStatus}
+                />
+                <main className="content">{children}</main>
+            </div>
             <Footer />
         </>
     );
