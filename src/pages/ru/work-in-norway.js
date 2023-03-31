@@ -40,18 +40,16 @@ export default function workInNorwayRu() {
                         </div>
                     </section>
 
-                    <section className="arb-article-section">
-                        <div className="arb-article mb-108">
-                            <Heading className="text-center" size="medium" level="2" spacing>
-                                Процесс подачи заявки на работу
-                            </Heading>
-                            <BodyLong>
-                                Во время трудоустройства большинство работодателей ожидают резюме или CV. Это краткий
-                                документ, который описывает Ваши навыки, опыт работы, знание языка, Ваше образование и
-                                Ваши квалификации. Вы можете найти много примеров по написанию резюме в интернете.
-                            </BodyLong>
-                        </div>
-                    </section>
+                    <div className="arb-article mb-108">
+                        <Heading className="text-center" size="medium" level="2" spacing>
+                            Процесс подачи заявки на работу
+                        </Heading>
+                        <BodyLong>
+                            Во время трудоустройства большинство работодателей ожидают резюме или CV. Это краткий
+                            документ, который описывает Ваши навыки, опыт работы, знание языка, Ваше образование и Ваши
+                            квалификации. Вы можете найти много примеров по написанию резюме в интернете.
+                        </BodyLong>
+                    </div>
                 </div>
             </div>
         </LayoutPerson>

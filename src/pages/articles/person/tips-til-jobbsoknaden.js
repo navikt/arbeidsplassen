@@ -28,43 +28,39 @@ export default function tipsTilJobbsoknaden() {
                         <IllustrationArticle className="arb-article-figure-pull-outside" />
                     </div>
 
-                    <section className="arb-article-subsection">
-                        <Heading size="large" level="2" spacing>
-                            Søknaden er et svar på annonsen
-                        </Heading>
-                        <BodyLong spacing>
-                            Målet med jobbsøknaden er å bli kalt inn til intervju. En god søknad er forutsetningen for
-                            at en arbeidsgiver skal få lyst til å møte akkurat deg. Les annonsen nøye og se hva de spør
-                            etter. Søknaden bør svare direkte på stillingsannonsen og vise at nettopp du kan være rett
-                            person for jobben.
-                        </BodyLong>
-                    </section>
+                    <Heading size="large" level="2" spacing>
+                        Søknaden er et svar på annonsen
+                    </Heading>
+                    <BodyLong spacing>
+                        Målet med jobbsøknaden er å bli kalt inn til intervju. En god søknad er forutsetningen for at en
+                        arbeidsgiver skal få lyst til å møte akkurat deg. Les annonsen nøye og se hva de spør etter.
+                        Søknaden bør svare direkte på stillingsannonsen og vise at nettopp du kan være rett person for
+                        jobben.
+                    </BodyLong>
 
-                    <section className="arb-article-subsection">
-                        <Heading size="medium" level="3" spacing>
-                            Dette bør du ha med
-                        </Heading>
-                        <ul>
-                            <li>
-                                <BodyLong>Start med en kort innledning om hvor du har funnet stillingen.</BodyLong>
-                            </li>
-                            <li>
-                                <BodyLong>Beskriv hvorfor du har lyst på akkurat denne jobben.</BodyLong>
-                            </li>
-                            <li>
-                                <BodyLong>
-                                    Hvilke egenskaper og erfaringer har du som er viktig for denne jobben? Få fram dine
-                                    sterke sider.
-                                </BodyLong>
-                            </li>
-                            <li>
-                                <BodyLong>
-                                    I en kort avslutning forteller du hvordan du kan kontaktes, når du kan starte i
-                                    jobben, og at du håper på positiv tilbakemelding.
-                                </BodyLong>
-                            </li>
-                        </ul>
-                    </section>
+                    <Heading size="medium" level="3" spacing>
+                        Dette bør du ha med
+                    </Heading>
+                    <ul>
+                        <li>
+                            <BodyLong>Start med en kort innledning om hvor du har funnet stillingen.</BodyLong>
+                        </li>
+                        <li>
+                            <BodyLong>Beskriv hvorfor du har lyst på akkurat denne jobben.</BodyLong>
+                        </li>
+                        <li>
+                            <BodyLong>
+                                Hvilke egenskaper og erfaringer har du som er viktig for denne jobben? Få fram dine
+                                sterke sider.
+                            </BodyLong>
+                        </li>
+                        <li>
+                            <BodyLong>
+                                I en kort avslutning forteller du hvordan du kan kontaktes, når du kan starte i jobben,
+                                og at du håper på positiv tilbakemelding.
+                            </BodyLong>
+                        </li>
+                    </ul>
 
                     <Heading size="medium" level="3" spacing>
                         Flere tips

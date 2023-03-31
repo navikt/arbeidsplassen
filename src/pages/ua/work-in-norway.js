@@ -40,18 +40,16 @@ export default function workInNorwayUa() {
                         </div>
                     </section>
 
-                    <section className="arb-article-section">
-                        <div className="arb-article mb-108">
-                            <Heading className="text-center" size="medium" level="2" spacing>
-                                Процес подання заяви на роботу
-                            </Heading>
-                            <BodyLong>
-                                Під час працевлаштування більшість роботодавців очікують резюме або CV. Це короткий
-                                документ, який описує Ваші навички, досвід роботи, знання мови, Вашу освіту та Ваші
-                                кваліфікації. Ви можете знайти багато прикладів з написання резюме в інтернеті.
-                            </BodyLong>
-                        </div>
-                    </section>
+                    <div className="arb-article mb-108">
+                        <Heading className="text-center" size="medium" level="2" spacing>
+                            Процес подання заяви на роботу
+                        </Heading>
+                        <BodyLong>
+                            Під час працевлаштування більшість роботодавців очікують резюме або CV. Це короткий
+                            документ, який описує Ваші навички, досвід роботи, знання мови, Вашу освіту та Ваші
+                            кваліфікації. Ви можете знайти багато прикладів з написання резюме в інтернеті.
+                        </BodyLong>
+                    </div>
                 </div>
             </div>
         </LayoutPerson>
