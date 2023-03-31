@@ -7,14 +7,12 @@ export default function ArticlePagePerson() {
         <LayoutArticles>
             <div className="page-margin-top-and-bottom">
                 <div className="arb-article">
-                    <section className="arb-article-section">
-                        <Heading className="mb-4" size="xlarge" level="1">
-                            Nyttige artikler for bedrifter
-                        </Heading>
-                        <div className="arb-article-figure">
-                            <IllustrationArticle className="arb-article-figure-pull-outside" />
-                        </div>
-                    </section>
+                    <Heading className="mb-4" size="xlarge" level="1">
+                        Nyttige artikler for bedrifter
+                    </Heading>
+                    <div className="arb-article-figure">
+                        <IllustrationArticle className="arb-article-figure-pull-outside" />
+                    </div>
 
                     <section className="mb-108">
                         <div className="arb-link-panel-grid mb-32">
