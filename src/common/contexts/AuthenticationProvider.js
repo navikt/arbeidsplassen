@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import PropTypes from "prop-types";
+import { useRouter } from "next/router";
 
 export const AuthenticationContext = React.createContext({});
 
@@ -13,6 +14,7 @@ export const AuthenticationStatus = {
 
 const AuthenticationProvider = ({ children }) => {
     const [authenticationStatus, setAuthenticationStatus] = useState(AuthenticationStatus.NOT_FETCHED);
+    const router = useRouter();
 
     useEffect(() => {
         fetchIsAuthenticated();
@@ -39,9 +41,8 @@ const AuthenticationProvider = ({ children }) => {
             });
     };
 
-    function login() {
-        // todo hvilken url?
-        window.location.href = `/todo?redirect=${encodeURIComponent(window.location.href)}`;
+    function chooseRole() {
+        router.push("/velg-rolle");
     }
 
     function logout() {
@@ -50,7 +51,7 @@ const AuthenticationProvider = ({ children }) => {
     }
 
     return (
-        <AuthenticationContext.Provider value={{ authenticationStatus, login, logout }}>
+        <AuthenticationContext.Provider value={{ authenticationStatus, chooseRole, logout }}>
             {children}
         </AuthenticationContext.Provider>
     );

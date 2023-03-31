@@ -3,7 +3,7 @@ import { useContext } from "react";
 import { AuthenticationContext, AuthenticationStatus } from "@/src/common/contexts/AuthenticationProvider";
 
 export default function Layout({ children, active }) {
-    const { authenticationStatus, login, logout } = useContext(AuthenticationContext);
+    const { authenticationStatus, chooseRole, logout } = useContext(AuthenticationContext);
 
     let authStatus = "unknown";
     if (authenticationStatus === AuthenticationStatus.IS_AUTHENTICATED) {
@@ -19,7 +19,7 @@ export default function Layout({ children, active }) {
                 <Header
                     variant="all"
                     active={active}
-                    onLogin={login}
+                    onLogin={chooseRole}
                     onLogout={logout}
                     authenticationStatus={authStatus}
                 />
