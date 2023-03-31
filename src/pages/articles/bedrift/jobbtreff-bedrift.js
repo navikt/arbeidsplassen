@@ -33,7 +33,7 @@ export default function jobbtreffBedrift() {
                         om jobbmuligheter og hvilken kompetanse dere er ute etter.
                     </BodyLong>
 
-                    <Heading size="medium" level="2" spacing>
+                    <Heading size="large" level="2" spacing>
                         Jobbtreffet er enkelt å gjennomføre. Slik gjør du det:
                     </Heading>
                     <ul>
@@ -72,7 +72,7 @@ export default function jobbtreffBedrift() {
                         </li>
                     </ul>
 
-                    <Heading size="small" level="3" spacing>
+                    <Heading size="medium" level="3" spacing>
                         Deltakerne er anonyme
                     </Heading>
                     <BodyLong spacing>
