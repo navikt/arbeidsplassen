@@ -8,12 +8,10 @@ export default function overforingAvStillingsannonser() {
         <LayoutArticles>
             <div className="page-margin-top-and-bottom">
                 <div className="arb-article">
-                    <div className="mb-2">
-                        <Link href="/bedrift">
-                            <ChevronLeftIcon aria-hidden="true" />
-                            Til bedrift
-                        </Link>
-                    </div>
+                    <Link href="/bedrift" className="mb-2">
+                        <ChevronLeftIcon aria-hidden="true" />
+                        Til bedrift
+                    </Link>
 
                     <Heading size="xlarge" level="1" spacing>
                         Overføring av stillingsannonser til arbeidsplassen.no

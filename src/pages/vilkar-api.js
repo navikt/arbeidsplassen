@@ -7,12 +7,10 @@ export default function vilkarApi() {
         <LayoutArticles>
             <div className="page-margin-top-and-bottom">
                 <div className="arb-article">
-                    <div className="mb-2">
-                        <Link href="/vilkar-og-retningslinjer">
-                            <ChevronLeftIcon aria-hidden="true" />
-                            Til Vilkår og retningslinjer
-                        </Link>
-                    </div>
+                    <Link href="/vilkar-og-retningslinjer" className="mb-2">
+                        <ChevronLeftIcon aria-hidden="true" />
+                        Til Vilkår og retningslinjer
+                    </Link>
 
                     <Heading spacing size="xlarge" level="1">
                         Vilkår for bruk av API for stillingsannonser - Job Ads Public Feed

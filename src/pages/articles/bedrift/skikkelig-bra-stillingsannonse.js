@@ -8,12 +8,10 @@ export default function skikkeligBraStillingsannonse() {
         <LayoutArticles>
             <div className="page-margin-top-and-bottom">
                 <article className="arb-article">
-                    <div className="mb-2">
-                        <Link href="/bedrift">
-                            <ChevronLeftIcon aria-hidden="true" />
-                            Til bedrift
-                        </Link>
-                    </div>
+                    <Link href="/bedrift" className="mb-2">
+                        <ChevronLeftIcon aria-hidden="true" />
+                        Til bedrift
+                    </Link>
                     <Heading size="xlarge" level="1" spacing>
                         Hvordan skriver du en skikkelig bra stillingsannonse?
                     </Heading>

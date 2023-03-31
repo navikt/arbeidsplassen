@@ -7,12 +7,10 @@ export default function vilkar() {
         <LayoutArticles>
             <div className="page-margin-top-and-bottom">
                 <div className="arb-article">
-                    <div className="mb-2">
-                        <Link href="/vilkar-og-retningslinjer">
-                            <ChevronLeftIcon aria-hidden="true" />
-                            Til Vilkår og retningslinjer
-                        </Link>
-                    </div>
+                    <Link href="/vilkar-og-retningslinjer" className="mb-2">
+                        <ChevronLeftIcon aria-hidden="true" />
+                        Til Vilkår og retningslinjer
+                    </Link>
                     <Heading spacing size="xlarge" level="1">
                         Vilkår for å publisere stillinger
                     </Heading>

@@ -8,11 +8,9 @@ export default function superraskSoknadPerson() {
         <LayoutArticles>
             <div className="page-margin-top-and-bottom">
                 <div className="arb-article">
-                    <div className="mb-2">
-                        <Link href="/">
-                            <ChevronLeftIcon aria-hidden="true" /> Til forsiden
-                        </Link>
-                    </div>
+                    <Link href="/" className="mb-2">
+                        <ChevronLeftIcon aria-hidden="true" /> Til forsiden
+                    </Link>
 
                     <Heading size="xlarge" level="1" spacing>
                         Superrask søknad – en enklere måte å komme i kontakt med bedrifter
