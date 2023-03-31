@@ -28,36 +28,29 @@ const MainPage = () => {
                 </div>
             </section>
 
-            <section>
-                <div className="arb-link-panel-grid mb-48">
-                    <LinkPanel
-                        className="arb-primary-bg-text arb-link-panel"
-                        href="https://arbeidsplassen.nav.no/jobbtreff/"
-                    >
-                        <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
-                            Se kommende jobbtreff
-                        </LinkPanel.Title>
-                        <LinkPanel.Description className="navds-link-panel__description navds-body-long">
-                            Følg en direkte sending fra en bedrift og hør om deres stillinger.
-                        </LinkPanel.Description>
-                    </LinkPanel>
-                    <LinkPanel
-                        className="arb-secondary-bg-text arb-link-panel"
-                        href="https://arbeidsplassen.nav.no/cv/"
-                    >
-                        <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
-                            Skriv din CV
-                        </LinkPanel.Title>
-                        <LinkPanel.Description className="navds-link-panel__description navds-body-long">
-                            Fyll ut din CV og bruk den ved jobbsøking.
-                        </LinkPanel.Description>
-                    </LinkPanel>
-                </div>
-            </section>
+            <div className="arb-link-panel-grid mb-48">
+                <LinkPanel
+                    className="arb-primary-bg-text arb-link-panel"
+                    href="https://arbeidsplassen.nav.no/jobbtreff/"
+                >
+                    <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
+                        Se kommende jobbtreff
+                    </LinkPanel.Title>
+                    <LinkPanel.Description className="navds-link-panel__description navds-body-long">
+                        Følg en direkte sending fra en bedrift og hør om deres stillinger.
+                    </LinkPanel.Description>
+                </LinkPanel>
+                <LinkPanel className="arb-secondary-bg-text arb-link-panel" href="https://arbeidsplassen.nav.no/cv/">
+                    <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
+                        Skriv din CV
+                    </LinkPanel.Title>
+                    <LinkPanel.Description className="navds-link-panel__description navds-body-long">
+                        Fyll ut din CV og bruk den ved jobbsøking.
+                    </LinkPanel.Description>
+                </LinkPanel>
+            </div>
 
-            <section>
-                <InformationUkraine />
-            </section>
+            <InformationUkraine />
         </div>
     );
 };
