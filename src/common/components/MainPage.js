@@ -17,10 +17,8 @@ const MainPage = () => {
                     </Ingress>
 
                     <div className="mb-64">
-                        <Button variant="primary">
-                            <a className="button-link" href="https://arbeidsplassen.nav.no/stillinger">
-                                Se ledige stillinger
-                            </a>
+                        <Button variant="primary" as="a" href="https://arbeidsplassen.nav.no/stillinger">
+                            Se ledige stillinger
                         </Button>
                     </div>
                 </div>

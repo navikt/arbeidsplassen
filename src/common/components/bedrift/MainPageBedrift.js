@@ -16,10 +16,8 @@ const MainPageBedrift = () => {
                     </Ingress>
 
                     <div className="mb-64">
-                        <Button variant="primary">
-                            <Link className="button-link" href="https://arbeidsplassen.nav.no/stillingsregistrering">
-                                Gå til din side bedrift
-                            </Link>
+                        <Button variant="primary" as="a" href="https://arbeidsplassen.nav.no/stillingsregistrering">
+                            Gå til din side bedrift
                         </Button>
                     </div>
                 </div>

@@ -110,17 +110,6 @@ body {
     margin-bottom: 108px;
 }
 
-.modal-small {
-    max-width: 800px;
-    width: 100%;
-    padding: 1.5rem;
-}
-
-.button-link {
-    color: white;
-    text-decoration: none;
-}
-
 .arb-link-panel-grid {
     display: flex;
     flex-direction: column;
