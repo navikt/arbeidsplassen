@@ -1,11 +1,7 @@
-.arb-article {
+.article {
     max-width: 55ch;
     width: 100%;
     margin: 0 auto;
-}
-
-.arb-article-figure {
-    margin-bottom: 3rem;
 }
 
 .arb-article-figure-pull-outside {

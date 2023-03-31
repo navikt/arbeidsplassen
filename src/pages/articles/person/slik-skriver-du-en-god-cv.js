@@ -7,7 +7,7 @@ export default function slikSkriverDuEnGodCv() {
     return (
         <Layout>
             <div className="page-margin-top-and-bottom">
-                <div className="arb-article">
+                <div className="article">
                     <Link href="/" className="mb-2">
                         <ChevronLeftIcon aria-hidden="true" />
                         Til forsiden
@@ -22,7 +22,7 @@ export default function slikSkriverDuEnGodCv() {
                         tipsene som gjør at CV-en din blir lagt merke til.
                     </Ingress>
 
-                    <div className="arb-article-figure">
+                    <div className="mb-3">
                         <IllustrationArticle className="arb-article-figure-pull-outside" />
                     </div>
 

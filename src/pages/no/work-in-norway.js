@@ -6,7 +6,7 @@ export default function workInNorway() {
     return (
         <Layout>
             <div className="page-margin-top-and-bottom">
-                <article className="arb-article">
+                <article className="article">
                     <section className="mb-80">
                         <Heading className="text-center" size="xlarge" level="1" spacing>
                             Information about working in Norway for Ukrainian refugees

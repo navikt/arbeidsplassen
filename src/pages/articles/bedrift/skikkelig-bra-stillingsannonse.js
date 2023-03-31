@@ -7,7 +7,7 @@ export default function skikkeligBraStillingsannonse() {
     return (
         <Layout>
             <div className="page-margin-top-and-bottom">
-                <article className="arb-article">
+                <article className="article">
                     <Link href="/bedrift" className="mb-2">
                         <ChevronLeftIcon aria-hidden="true" />
                         Til bedrift
@@ -21,7 +21,7 @@ export default function skikkeligBraStillingsannonse() {
                         annonsen?
                     </Ingress>
 
-                    <div className="arb-article-figure">
+                    <div className="mb-3">
                         <IllustrationArticle className="arb-article-figure-pull-outside" />
                     </div>
 

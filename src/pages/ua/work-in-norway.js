@@ -11,12 +11,12 @@ export default function workInNorwayUa() {
             <div className="page-margin-top-and-bottom">
                 <div className="layout-toc">
                     <section className="mb-80">
-                        <div className="arb-article">
+                        <div className="article">
                             <Heading className="text-center" size="xlarge" level="1" spacing>
                                 Інформація про роботу в Норвегії
                             </Heading>
                         </div>
-                        <div className="arb-article">
+                        <div className="article">
                             <ul className="refugees-grid">
                                 <li>
                                     <BodyLong className="refugees-text-right">
@@ -40,7 +40,7 @@ export default function workInNorwayUa() {
                         </div>
                     </section>
 
-                    <div className="arb-article mb-108">
+                    <div className="mb-108">
                         <Heading className="text-center" size="medium" level="2" spacing>
                             Процес подання заяви на роботу
                         </Heading>

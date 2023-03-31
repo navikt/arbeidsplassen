@@ -6,7 +6,7 @@ export default function personvernArbeidsgiver() {
     return (
         <Layout>
             <div className="page-margin-top-and-bottom">
-                <div className="arb-article">
+                <div className="article">
                     <Link href="/personvern" className="mb-2">
                         <ChevronLeftIcon aria-hidden="true" />
                         Til personvernserklæring

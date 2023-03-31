@@ -7,7 +7,7 @@ export default function superraskSoknadPerson() {
     return (
         <Layout>
             <div className="page-margin-top-and-bottom">
-                <div className="arb-article">
+                <div className="article">
                     <Link href="/" className="mb-2">
                         <ChevronLeftIcon aria-hidden="true" /> Til forsiden
                     </Link>
@@ -16,7 +16,7 @@ export default function superraskSoknadPerson() {
                         Superrask søknad – en enklere måte å komme i kontakt med bedrifter
                     </Heading>
 
-                    <div className="arb-article-figure">
+                    <div className="mb-3">
                         <IllustrationArticle className="arb-article-figure-pull-outside" />
                     </div>
 

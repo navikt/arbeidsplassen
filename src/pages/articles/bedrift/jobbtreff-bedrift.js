@@ -7,7 +7,7 @@ export default function jobbtreffBedrift() {
     return (
         <Layout>
             <div className="page-margin-top-and-bottom">
-                <div className="arb-article">
+                <div className="article">
                     <Link href="/bedrift" className="mb-2">
                         <ChevronLeftIcon aria-hidden="true" />
                         Til bedrift
@@ -22,7 +22,7 @@ export default function jobbtreffBedrift() {
                         en direkte sending.
                     </Ingress>
 
-                    <div className="arb-article-figure">
+                    <div className="mb-3">
                         <IllustrationArticle className="arb-article-figure-pull-outside" />
                     </div>
 

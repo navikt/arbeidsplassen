@@ -6,7 +6,7 @@ export default function sporsmalOgSvar() {
     return (
         <Layout>
             <div className="page-margin-top-and-bottom">
-                <article className="arb-article">
+                <article className="article">
                     <Link href="/" className="mb-2">
                         <ChevronLeftIcon aria-hidden="true" />
                         Til forsiden

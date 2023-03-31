@@ -13,7 +13,7 @@ export default function workInNorwayEn() {
     return (
         <Layout>
             <div className="page-margin-top-and-bottom">
-                <div className="arb-article">
+                <div className="article">
                     <Heading className="text-center" size="xlarge" level="1" spacing>
                         Information about working in Norway for Ukrainian refugees
                     </Heading>

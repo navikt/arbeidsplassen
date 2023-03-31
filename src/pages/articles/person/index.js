@@ -6,11 +6,11 @@ export default function ArticlePagePerson() {
     return (
         <Layout>
             <div className="page-margin-top-and-bottom">
-                <div className="arb-article">
+                <div className="article">
                     <Heading className="mb-4" size="xlarge" level="1">
                         Nyttige artikler for jobbsøkere
                     </Heading>
-                    <div className="arb-article-figure">
+                    <div className="mb-3">
                         <IllustrationArticle className="arb-article-figure-pull-outside" />
                     </div>
 
