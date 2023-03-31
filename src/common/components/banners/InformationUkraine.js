@@ -14,12 +14,12 @@ export default function InformationUkraine() {
                 </li>
                 <li>
                     <BodyLong>
-                        <Link href="/articles/work-in-norway-ua">Інформація українською мовою</Link>
+                        <Link href="/ua/work-in-norway">Інформація українською мовою</Link>
                     </BodyLong>
                 </li>
                 <li>
                     <BodyLong className="text-center">
-                        <Link href="/articles/work-in-norway-ru">Информация на русском языке</Link>
+                        <Link href="/ru/work-in-norway">Информация на русском языке</Link>
                     </BodyLong>
                 </li>
             </ul>
