@@ -5,7 +5,7 @@ export default function Document() {
         <Html lang="nb">
             <Head>
                 <title>arbeidsplassen.no</title>
-                <link rel="icon" href="/public/favicon.png" />
+                <link rel="icon" href="/favicon.png" />
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
                 <link
