@@ -105,3 +105,8 @@ body {
     justify-content: center;
     margin: 0;
 }
+
+.no-list-style {
+    list-style: none;
+    padding: 0;
+}
