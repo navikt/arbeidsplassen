@@ -7,23 +7,23 @@ export default function workInNorway() {
             <div className="page-margin-top-and-bottom">
                 <article className="article">
                     <section className="mb-3">
-                        <Heading size="xlarge" level="1" spacing>
+                        <Heading size="xlarge" level="1" spacing lang="en">
                             Information about working in Norway for Ukrainian refugees
                         </Heading>
 
                         <ul>
                             <li>
-                                <BodyLong>
+                                <BodyLong lang="en">
                                     <Link href="/en/work-in-norway">Information about working in Norway</Link>
                                 </BodyLong>
                             </li>
                             <li>
-                                <BodyLong>
+                                <BodyLong lang="ua">
                                     <Link href="/ua/work-in-norway">Інформація українською мовою</Link>
                                 </BodyLong>
                             </li>
                             <li>
-                                <BodyLong>
+                                <BodyLong lang="ru">
                                     <Link href="/ru/work-in-norway">Информация на русском языке</Link>
                                 </BodyLong>
                             </li>

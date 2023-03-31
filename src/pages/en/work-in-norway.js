@@ -1,14 +1,10 @@
 import { Alert, BodyLong, Heading, Link } from "@navikt/ds-react";
-import { useEffect } from "react";
 import Layout from "@/src/common/components/layout/Layout";
 
 export default function workInNorwayEn() {
-    useEffect(() => {
-        document.documentElement.lang = "en";
-    });
     return (
         <Layout>
-            <div className="page-margin-top-and-bottom">
+            <div className="page-margin-top-and-bottom" lang="en">
                 <div className="article">
                     <Heading size="xlarge" level="1" spacing>
                         Information about working in Norway for Ukrainian refugees
@@ -18,17 +14,17 @@ export default function workInNorwayEn() {
                             <BodyLong>Information about working in Norway</BodyLong>
                         </li>
                         <li>
-                            <BodyLong>
+                            <BodyLong lang="ua">
                                 <Link href="/ua/work-in-norway">Інформація українською мовою</Link>
                             </BodyLong>
                         </li>
                         <li>
-                            <BodyLong>
+                            <BodyLong lang="ru">
                                 <Link href="/ru/work-in-norway">Информация на русском языке</Link>
                             </BodyLong>
                         </li>
                         <li>
-                            <BodyLong>
+                            <BodyLong lang="nb">
                                 <Link href="/no/work-in-norway">Informasjon for arbeidsgivere</Link>
                             </BodyLong>
                         </li>
