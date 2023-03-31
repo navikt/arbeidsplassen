@@ -59,16 +59,14 @@ export default function jobbtreffPerson() {
                     <BodyLong spacing>Du kan følge sendingen på telefon, PC eller Mac.</BodyLong>
                     <BodyLong className="mb-3">Lykke til på jobbtreff!</BodyLong>
 
-                    <section className="arb-article-section">
-                        <LinkPanel
-                            className="arb-primary-bg-text arb-link-panel"
-                            href="https://arbeidsplassen.nav.no/jobbtreff"
-                        >
-                            <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
-                                Finn kommende jobbtreff
-                            </LinkPanel.Title>
-                        </LinkPanel>
-                    </section>
+                    <LinkPanel
+                        className="arb-primary-bg-text arb-link-panel"
+                        href="https://arbeidsplassen.nav.no/jobbtreff"
+                    >
+                        <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
+                            Finn kommende jobbtreff
+                        </LinkPanel.Title>
+                    </LinkPanel>
                 </div>
             </div>
         </LayoutArticles>
