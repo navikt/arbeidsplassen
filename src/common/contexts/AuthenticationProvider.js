@@ -21,6 +21,7 @@ const AuthenticationProvider = ({ children }) => {
     const fetchIsAuthenticated = () => {
         setAuthenticationStatus(AuthenticationStatus.IS_FETCHING);
 
+        // todo hvilken url?
         fetch(`/todo/isAuthenticated`, {
             credentials: "include",
         })
@@ -39,10 +40,12 @@ const AuthenticationProvider = ({ children }) => {
     };
 
     function login() {
+        // todo hvilken url?
         window.location.href = `/todo?redirect=${encodeURIComponent(window.location.href)}`;
     }
 
     function logout() {
+        // todo hvilken url?
         window.location.href = `/todo`;
     }
 
