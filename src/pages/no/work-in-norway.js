@@ -1,10 +1,10 @@
 import { BodyLong, GuidePanel, Heading, Link } from "@navikt/ds-react";
-import LayoutArticles from "@/src/common/components/layouts/LayoutArticles";
+import Layout from "@/src/common/components/layout/Layout";
 import HandHeart from "@/src/common/components/icons/HandHeart";
 
 export default function workInNorway() {
     return (
-        <LayoutArticles>
+        <Layout>
             <div className="page-margin-top-and-bottom">
                 <article className="arb-article">
                     <section className="mb-80">
@@ -74,6 +74,6 @@ export default function workInNorway() {
                     </GuidePanel>
                 </article>
             </div>
-        </LayoutArticles>
+        </Layout>
     );
 }

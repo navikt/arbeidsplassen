@@ -1,11 +1,11 @@
 import { BodyLong, Heading, Ingress, Link, LinkPanel } from "@navikt/ds-react";
 import IllustrationArticle from "../../../common/components/images/IllustrationArticle";
-import LayoutArticles from "@/src/common/components/layouts/LayoutArticles";
+import Layout from "@/src/common/components/layout/Layout";
 import { ChevronLeftIcon } from "@navikt/aksel-icons";
 
 export default function tipsTilJobbsoknaden() {
     return (
-        <LayoutArticles>
+        <Layout>
             <div className="page-margin-top-and-bottom">
                 <div className="arb-article">
                     <Link href="/" className="mb-2">
@@ -119,6 +119,6 @@ export default function tipsTilJobbsoknaden() {
                     </LinkPanel>
                 </div>
             </div>
-        </LayoutArticles>
+        </Layout>
     );
 }

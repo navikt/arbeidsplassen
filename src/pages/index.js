@@ -1,10 +1,10 @@
-import LayoutPerson from "../common/components/layouts/LayoutPerson";
 import MainPage from "@/src/common/components/MainPage";
+import Layout from "@/src/common/components/layout/Layout";
 
 export default function Page() {
     return (
-        <LayoutPerson title="arbeidsplassen.no">
+        <Layout active="person" title="arbeidsplassen.no">
             <MainPage />
-        </LayoutPerson>
+        </Layout>
     );
 }

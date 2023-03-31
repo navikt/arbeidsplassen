@@ -1,10 +1,10 @@
 import { BodyLong, Heading, Link } from "@navikt/ds-react";
-import LayoutArticles from "@/src/common/components/layouts/LayoutArticles";
+import Layout from "@/src/common/components/layout/Layout";
 import { ChevronLeftIcon } from "@navikt/aksel-icons";
 
 export default function vilkarApi() {
     return (
-        <LayoutArticles>
+        <Layout>
             <div className="page-margin-top-and-bottom">
                 <div className="arb-article">
                     <Link href="/vilkar-og-retningslinjer" className="mb-2">
@@ -103,6 +103,6 @@ export default function vilkarApi() {
                     </BodyLong>
                 </div>
             </div>
-        </LayoutArticles>
+        </Layout>
     );
 }

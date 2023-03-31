@@ -1,13 +1,13 @@
 import { BodyLong, Heading, Link } from "@navikt/ds-react";
-import LayoutPerson from "@/src/common/components/layouts/LayoutPerson";
 import { useEffect } from "react";
+import Layout from "@/src/common/components/layout/Layout";
 
 export default function workInNorwayRu() {
     useEffect(() => {
         document.documentElement.lang = "ru";
     });
     return (
-        <LayoutPerson>
+        <Layout>
             <div className="page-margin-top-and-bottom">
                 <div className="layout-toc">
                     <section className="mb-80">
@@ -52,6 +52,6 @@ export default function workInNorwayRu() {
                     </div>
                 </div>
             </div>
-        </LayoutPerson>
+        </Layout>
     );
 }

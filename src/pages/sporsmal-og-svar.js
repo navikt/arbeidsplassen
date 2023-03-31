@@ -1,10 +1,10 @@
 import { BodyLong, Heading, Link } from "@navikt/ds-react";
-import LayoutArticles from "@/src/common/components/layouts/LayoutArticles";
+import Layout from "@/src/common/components/layout/Layout";
 import { ChevronLeftIcon } from "@navikt/aksel-icons";
 
 export default function sporsmalOgSvar() {
     return (
-        <LayoutArticles>
+        <Layout>
             <div className="page-margin-top-and-bottom">
                 <article className="arb-article">
                     <Link href="/" className="mb-2">
@@ -86,6 +86,6 @@ export default function sporsmalOgSvar() {
                     </BodyLong>
                 </article>
             </div>
-        </LayoutArticles>
+        </Layout>
     );
 }

@@ -1,10 +1,10 @@
 import { Heading, LinkPanel } from "@navikt/ds-react";
-import LayoutArticles from "@/src/common/components/layouts/LayoutArticles";
+import Layout from "@/src/common/components/layout/Layout";
 import IllustrationArticle from "@/src/common/components/images/IllustrationArticle";
 
 export default function ArticlePagePerson() {
     return (
-        <LayoutArticles>
+        <Layout>
             <div className="page-margin-top-and-bottom">
                 <div className="arb-article">
                     <Heading className="mb-4" size="xlarge" level="1">
@@ -67,6 +67,6 @@ export default function ArticlePagePerson() {
                     </section>
                 </div>
             </div>
-        </LayoutArticles>
+        </Layout>
     );
 }

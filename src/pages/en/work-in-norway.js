@@ -1,18 +1,17 @@
 import { BodyLong, GuidePanel, Heading, Link } from "@navikt/ds-react";
 import { useEffect } from "react";
-import Icon from "@/src/common/components/icons/Icon";
 import HandHeart from "@/src/common/components/icons/HandHeart";
 import Search from "@/src/common/components/icons/Search";
 import Wallet from "@/src/common/components/icons/Wallet";
 import SocialAid from "@/src/common/components/icons/SocialAid";
-import LayoutArticles from "@/src/common/components/layouts/LayoutArticles";
+import Layout from "@/src/common/components/layout/Layout";
 
 export default function workInNorwayEn() {
     useEffect(() => {
         document.documentElement.lang = "en";
     });
     return (
-        <LayoutArticles>
+        <Layout>
             <div className="page-margin-top-and-bottom">
                 <div className="arb-article">
                     <Heading className="text-center" size="xlarge" level="1" spacing>
@@ -281,6 +280,6 @@ export default function workInNorwayEn() {
                     </GuidePanel>
                 </div>
             </div>
-        </LayoutArticles>
+        </Layout>
     );
 }
