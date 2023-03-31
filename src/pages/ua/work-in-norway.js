@@ -9,48 +9,7 @@ export default function workInNorwayUa() {
     return (
         <Layout>
             <div className="page-margin-top-and-bottom">
-                <div className="layout-toc">
-                    <section className="mb-5">
-                        <div className="article">
-                            <Heading size="xlarge" level="1" spacing>
-                                Інформація про роботу в Норвегії
-                            </Heading>
-                        </div>
-                        <div className="article">
-                            <ul>
-                                <li>
-                                    <BodyLong>
-                                        <Link href="/en/work-in-norway">Information about working in Norway</Link>
-                                    </BodyLong>
-                                </li>
-                                <li>
-                                    <BodyLong>Інформація українською мовою</BodyLong>
-                                </li>
-                                <li>
-                                    <BodyLong>
-                                        <Link href="/ru/work-in-norway">Информация на русском языке</Link>
-                                    </BodyLong>
-                                </li>
-                                <li>
-                                    <BodyLong>
-                                        <Link href="/no/work-in-norway">Informasjon for arbeidsgivere</Link>
-                                    </BodyLong>
-                                </li>
-                            </ul>
-                        </div>
-                    </section>
-
-                    <div className="mb-6">
-                        <Heading className="text-center" size="medium" level="2" spacing>
-                            Процес подання заяви на роботу
-                        </Heading>
-                        <BodyLong>
-                            Під час працевлаштування більшість роботодавців очікують резюме або CV. Це короткий
-                            документ, який описує Ваші навички, досвід роботи, знання мови, Вашу освіту та Ваші
-                            кваліфікації. Ви можете знайти багато прикладів з написання резюме в інтернеті.
-                        </BodyLong>
-                    </div>
-                </div>
+                <div className="article"></div>
             </div>
         </Layout>
     );
