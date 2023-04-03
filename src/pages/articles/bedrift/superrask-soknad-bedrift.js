@@ -1,10 +1,10 @@
 import { BodyLong, Heading, Ingress, Link } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
-import IllustrationArticle from "@/src/common/components/images/IllustrationArticle";
 import { ChevronLeftIcon } from "@navikt/aksel-icons";
 import Head from "next/head";
+import Image from "next/image";
 
-export default function superraskSoknadBedrift() {
+export default function SuperraskSoknadBedrift() {
     return (
         <Layout>
             <Head>
@@ -29,7 +29,9 @@ export default function superraskSoknadBedrift() {
                     </Ingress>
 
                     <div className="mb-3">
-                        <IllustrationArticle className="arb-article-figure-pull-outside" />
+                        <Image src="/images/bedrift.jpg"
+                               alt="En mann sitter på et kontor og tar en annen i hånden"
+                               width={578} height={379} />
                     </div>
 
                     <BodyLong spacing>

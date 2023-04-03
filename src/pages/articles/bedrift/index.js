@@ -3,7 +3,7 @@ import Layout from "@/src/common/components/layout/Layout";
 import IllustrationArticle from "@/src/common/components/images/IllustrationArticle";
 import Head from "next/head";
 
-export default function ArticlePagePerson() {
+export default function ArticlePageBedrift() {
     return (
         <Layout>
             <Head>
@@ -18,7 +18,7 @@ export default function ArticlePagePerson() {
                         <IllustrationArticle className="arb-article-figure-pull-outside" />
                     </div>
 
-                    <section className="mb-6">
+                    <section className="mb-6">--
                         <div className="arb-link-panel-grid mb-2">
                             <LinkPanel
                                 className="arb-primary-bg-text arb-link-panel"

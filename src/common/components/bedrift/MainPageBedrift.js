@@ -29,6 +29,14 @@ const MainPageBedrift = () => {
 
             <section>
                 <div className="arb-link-panel-grid">
+                    <LinkPanel className="arb-primary-bg-text arb-link-panel" href="/articles/bedrift/superrask-soknad-bedrift">
+                        <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
+                            Nyhet! Superrask søknad
+                        </LinkPanel.Title>
+                        <LinkPanel.Description className="navds-link-panel__description navds-body-long">
+                            En enklere måte å komme i kontakt med relevante jobbsøkere.
+                        </LinkPanel.Description>
+                    </LinkPanel>
                     <LinkPanel
                         className="arb-secondary-bg-text arb-link-panel"
                         href="/articles/bedrift/skikkelig-bra-stillingsannonse"
