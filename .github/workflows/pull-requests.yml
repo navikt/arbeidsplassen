@@ -13,7 +13,6 @@ jobs:
               with:
                   node-version: "18"
                   cache: "npm"
-            - run: ./build.sh
               env:
                   OPTIONAL_SECRET: ${{ secrets.READER_TOKEN }}
             - run: npm run build
