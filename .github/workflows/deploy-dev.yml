@@ -1,0 +1,27 @@
+name: deploy-dev
+on:
+    push:
+        paths-ignore:
+            - "**.md"
+            - ".gitignore"
+            - ".env.local"
+            - "docker-compose.yml"
+            - "LICENCE"
+            - "CODEOWNERS"
+        branches:
+            - 'master'
+            - 'feature/**'
+
+jobs:
+    build-and-deploy:
+        uses: navikt/pam-deploy/.github/workflows/deploy-dev.yml@v3
+        with:
+            LANGUAGE: "node"
+            NODE_VERSION: "18"
+            BUILD_CACHE: "npm"
+            NAIS_RESOURCE: .nais/nais.yml
+            NAIS_VARS: .nais/dev.yml
+        secrets:
+            NAIS_DEPLOY_APIKEY: ${{ secrets.NAIS_DEPLOY_APIKEY }}
+            SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+            OPTIONAL_SECRET: ${{ secrets.READER_TOKEN }}

@@ -1,0 +1,20 @@
+name: deploy-dev-special-commit
+on:
+    push:
+        branches-ignore:
+            - 'master'
+            - 'feature/**'
+jobs:
+    build-and-deploy:
+        if: "contains(github.event.head_commit.message, 'deploy:dev')"
+        uses: navikt/pam-deploy/.github/workflows/deploy-feature-branch.yml@v3
+        with:
+            LANGUAGE: "node"
+            NODE_VERSION: "18"
+            BUILD_CACHE: "npm"
+            NAIS_RESOURCE: .nais/nais.yml
+            NAIS_VARS: .nais/dev.yml
+        secrets:
+            NAIS_DEPLOY_APIKEY: ${{ secrets.NAIS_DEPLOY_APIKEY }}
+            SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
+            OPTIONAL_SECRET: ${{ secrets.READER_TOKEN }}

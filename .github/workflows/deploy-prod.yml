@@ -1,0 +1,13 @@
+name: deploy-prod
+on:
+  release:
+    types: [published]
+
+jobs:
+  deploy-prod:
+    uses: navikt/pam-deploy/.github/workflows/deploy-prod.yml@v3
+    with:
+      NAIS_RESOURCE: .nais/nais.yml
+      NAIS_VARS: .nais/prod.yml
+    secrets:
+      NAIS_DEPLOY_APIKEY: ${{ secrets.NAIS_DEPLOY_APIKEY }}
