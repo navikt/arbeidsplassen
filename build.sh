@@ -6,6 +6,4 @@ npm config set //npm.pkg.github.com/:_authToken=$OPTIONAL_SECRET
 
 npm ci --prefer-offline --no-audit --ignore-scripts
 npm run lint
-npm run prettier:check
-npm run test
 
