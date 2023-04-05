@@ -9,10 +9,10 @@ spec:
   image: {{ image }}
   port: 8080
   liveness:
-    path: /arbeidsplassen/internal/isAlive
+    path: /api/isAlive
     initialDelay: 10
   readiness:
-    path: /pam-portal/internal/isReady
+    path: /api/isReady
     initialDelay: 10
   replicas:
     min: 2
