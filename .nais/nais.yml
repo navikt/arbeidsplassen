@@ -1,0 +1,51 @@
+apiVersion: "nais.io/v1alpha1"
+kind: "Application"
+metadata:
+  name: arbeidsplassen
+  namespace: teampam
+  labels:
+    team: teampam
+spec:
+  image: {{ image }}
+  port: 8080
+  liveness:
+    path: /api/isAlive
+    initialDelay: 10
+  readiness:
+    path: /api/isReady
+    initialDelay: 10
+  replicas:
+    min: 2
+    max: 2
+  cpuThresholdPercentage: 50
+  resources:
+    limits:
+      cpu: 500m
+      memory: 512Mi
+    requests:
+      cpu: 200m
+      memory: 256Mi
+  vault:
+    enabled: false
+  prometheus:
+    enabled: true
+    path: /metrics
+  ingresses:
+  {{#each ingress as |url|}}
+     - {{url}}
+  {{/each}}
+  env:
+    - name: PORT
+      value: "8080"
+    - name: LOGINSERVICE_URL
+      value: {{ loginservice }}
+    - name: LOGOUTSERVICE_URL
+      value: {{ logoutservice }}
+    - name: PAM_STILLINGSOK_URL
+      value: {{ stillingssok }}
+    - name: LOGIN_JOBBSOKER_REDIRECT_URL
+      value: {{ loginJobbsokerRedirectUrl }}
+    - name: LOGIN_ARBEIDSGIVER_REDIRECT_URL
+      value: {{ loginArbeidsgiverRedirectUrl }}
+    - name: PAM_SAMTYKKE_API_URL
+      value: {{ pam_samtykke_api_url }}
