@@ -35,6 +35,8 @@ spec:
      - {{url}}
   {{/each}}
   env:
+    - name: PORT
+      value: "8080"
     - name: LOGINSERVICE_URL
       value: {{ loginservice }}
     - name: LOGOUTSERVICE_URL
