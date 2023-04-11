@@ -1,0 +1,11 @@
+ingress: ["https://arbeidsplassen.nav.no"]
+loglevel: "error"
+ws_server_hostname: "arbeidsplassen.nav.no"
+ingress: ["https://arbeidsplassen.nav.no"]
+namespace: "teampam"
+loginservice: "https://loginservice.nav.no/login"
+logoutservice: "https://loginservice.nav.no/slo"
+stillingssok: "https://arbeidsplassen.nav.no/stillinger"
+loginJobbsokerRedirectUrl: "https://arbeidsplassen.nav.no/minside"
+loginArbeidsgiverRedirectUrl: "https://arbeidsplassen.nav.no/stillingsregistrering"
+pam_samtykke_api_url: "https://pam-samtykke-api-tokenx-proxy.prod-fss-pub.nais.io"

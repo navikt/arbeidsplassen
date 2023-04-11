@@ -1,10 +1,11 @@
 import { BodyLong, Heading, Ingress, Link, LinkPanel } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
-import IllustrationArticle from "@/src/common/components/images/IllustrationArticle";
 import { ChevronLeftIcon } from "@navikt/aksel-icons";
 import Head from "next/head";
+import React from "react";
+import Image from "next/image";
 
-export default function jobbtreffPerson() {
+export default function JobbtreffPerson() {
     return (
         <Layout>
             <Head>
@@ -27,7 +28,9 @@ export default function jobbtreffPerson() {
                     </Ingress>
 
                     <div className="mb-3">
-                        <IllustrationArticle className="arb-article-figure-pull-outside" />
+                        <Image src="/images/jobbtreff.webp"
+                               alt="En person sitter ved et kjøkkenbord med datamaskin foran seg, hun har på hodetelefoner og er nok i gang med en videosamtale."
+                               width={578} height={379} />
                     </div>
 
                     <BodyLong spacing>

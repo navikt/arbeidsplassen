@@ -1,10 +1,11 @@
 import { BodyLong, Heading, Ingress, Link, LinkPanel } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
-import IllustrationArticle from "@/src/common/components/images/IllustrationArticle";
 import { ChevronLeftIcon } from "@navikt/aksel-icons";
 import Head from "next/head";
+import Image from "next/image";
+import React from "react";
 
-export default function slikSkriverDuEnGodCv() {
+export default function SlikSkriverDuEnGodCv() {
     return (
         <Layout>
             <Head>
@@ -27,7 +28,9 @@ export default function slikSkriverDuEnGodCv() {
                     </Ingress>
 
                     <div className="mb-3">
-                        <IllustrationArticle className="arb-article-figure-pull-outside" />
+                         <Image src="/images/writing.jpg"
+                               alt="En konsentrert person som skriver på datamaskinen sin"
+                               width={578} height={379} />
                     </div>
 
                     <Heading size="large" level="2" spacing>

@@ -1,8 +1,8 @@
 import { BodyLong, Heading, Ingress, Link, LinkPanel } from "@navikt/ds-react";
-import IllustrationArticle from "@/src/common/components/images/IllustrationArticle";
 import { ChevronLeftIcon } from "@navikt/aksel-icons";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
+import Image from "next/image";
 
 export default function jobbeiUtlandet() {
     return (
@@ -27,7 +27,9 @@ export default function jobbeiUtlandet() {
                     </Ingress>
 
                     <div className="mb-3">
-                        <IllustrationArticle className="arb-article-figure-pull-outside" />
+                        <Image src="/images/eures.png"
+                               alt="Bilde av en globus som viser Europa"
+                               width={578} height={379} />
                     </div>
 
                     <Heading size="large" level="2" spacing>

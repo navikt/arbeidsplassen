@@ -1,10 +1,10 @@
 import { BodyLong, Heading, Ingress, Link, LinkPanel } from "@navikt/ds-react";
-import IllustrationArticle from "../../../common/components/images/IllustrationArticle";
 import Layout from "@/src/common/components/layout/Layout";
 import { ChevronLeftIcon } from "@navikt/aksel-icons";
 import Head from "next/head";
+import Image from "next/image";
 
-export default function jobbtreffBedrift() {
+export default function JobbtreffBedrift() {
     return (
         <Layout>
             <Head>
@@ -27,7 +27,9 @@ export default function jobbtreffBedrift() {
                     </Ingress>
 
                     <div className="mb-3">
-                        <IllustrationArticle className="arb-article-figure-pull-outside" />
+                        <Image src="/images/skriver.webp"
+                               alt="Person som skriver på en datamaskin"
+                               width={578} height={379} />
                     </div>
 
                     <BodyLong className="mb-3">
