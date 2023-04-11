@@ -17,7 +17,7 @@ const MainPage = () => {
                     </Ingress>
 
                     <div className="mb-4">
-                        <Button variant="primary" as="a" href="https://arbeidsplassen.nav.no/stillinger">
+                        <Button variant="primary" as="a" href="/stillinger">
                             Se ledige stillinger
                         </Button>
                     </div>
@@ -29,10 +29,7 @@ const MainPage = () => {
             </section>
 
             <div className="arb-link-panel-grid mb-3">
-                <LinkPanel
-                    className="arb-primary-bg-text arb-link-panel"
-                    href="https://arbeidsplassen.nav.no/jobbtreff/"
-                >
+                <LinkPanel className="arb-primary-bg-text arb-link-panel" href="/jobbtreff">
                     <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                         Se kommende jobbtreff
                     </LinkPanel.Title>
@@ -40,7 +37,7 @@ const MainPage = () => {
                         Følg en direkte sending fra en bedrift og hør om deres stillinger.
                     </LinkPanel.Description>
                 </LinkPanel>
-                <LinkPanel className="arb-secondary-bg-text arb-link-panel" href="https://arbeidsplassen.nav.no/cv/">
+                <LinkPanel className="arb-secondary-bg-text arb-link-panel" href="/cv">
                     <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                         Skriv din CV
                     </LinkPanel.Title>

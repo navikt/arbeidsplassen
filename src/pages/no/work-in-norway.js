@@ -45,12 +45,8 @@ export default function workInNorway() {
                         arbeid.
                     </BodyLong>
                     <BodyLong spacing>
-                        Vi anbefaler å{" "}
-                        <Link href="https://arbeidsplassen.nav.no/stillingsregistrering/stillingsannonser">
-                            lyse ut stillinger
-                        </Link>{" "}
-                        på arbeidsplassen.no eller{" "}
-                        <Link href="https://arbeidsplassen.nav.no/jobbtreff/bedrift">invitere til jobbtreff</Link> og
+                        Vi anbefaler å <Link href="/stillingsregistrering/stillingsannonser">lyse ut stillinger</Link>{" "}
+                        på arbeidsplassen.no eller <Link href="/jobbtreff/bedrift">invitere til jobbtreff</Link> og
                         presentere dine rekrutteringsbehov i en direkte sending for jobbsøkere. Begge tjenestene er
                         gratis.
                     </BodyLong>

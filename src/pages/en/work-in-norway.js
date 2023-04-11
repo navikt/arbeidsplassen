@@ -145,14 +145,12 @@ export default function workInNorwayEn() {
                         Where to find jobs in Norway
                     </Heading>
                     <BodyLong spacing>
-                        <Link href="https://arbeidsplassen.nav.no/stillinger">Arbeidsplassen.no/stillinger</Link> is the
-                        largest database for job advertisements.
+                        <Link href="/stillinger">Arbeidsplassen.no/stillinger</Link> is the largest database for job
+                        advertisements.
                     </BodyLong>
                     <BodyLong spacing>
                         The following link will show jobs that are available for people who speak English:{" "}
-                        <Link href="https://arbeidsplassen.nav.no/stillinger?q=english">
-                            Job advertisements in English
-                        </Link>
+                        <Link href="/stillinger?q=english">Job advertisements in English</Link>
                     </BodyLong>
                     <BodyLong spacing>
                         You can use the left side of the job search page to limit the search results. For example, to
@@ -161,19 +159,17 @@ export default function workInNorwayEn() {
                     <Heading size="medium" level="3" spacing>
                         Industry specific searches:
                     </Heading>
-                    <Link href="https://arbeidsplassen.nav.no/stillinger?q=english&occupationFirstLevels[]=IT">
-                        Available jobs in IT
-                    </Link>
+                    <Link href="/stillinger?q=english&occupationFirstLevels[]=IT">Available jobs in IT</Link>
                     <BodyLong spacing>Example: designer, developer, data scientist, data architect</BodyLong>
-                    <Link href="https://arbeidsplassen.nav.no/stillinger?q=english&occupationFirstLevels[]=Salg%20og%20service&occupationFirstLevels[]=Reiseliv%20og%20mat">
+                    <Link href="/stillinger?q=english&occupationFirstLevels[]=Salg%20og%20service&occupationFirstLevels[]=Reiseliv%20og%20mat">
                         Available jobs in Food and beverage, cleaning, hospitality and sales
                     </Link>
                     <BodyLong spacing>Example: cook, waiter, cleaner, receptionist, shop assistant</BodyLong>
-                    <Link href="https://arbeidsplassen.nav.no/stillinger?q=english&occupationFirstLevels[]=Bygg%20og%20anlegg&occupationFirstLevels[]=H%C3%A5ndverkere&occupationSecondLevels[]=Bygg%20og%20anlegg.Hjelpearbeider%20Bygg%20og%20anlegg&occupationSecondLevels[]=Bygg%20og%20anlegg.Arbeidsleder%2C%20bygg%20og%20anlegg&occupationSecondLevels[]=Bygg%20og%20anlegg.Maskin-%20og%20kranf%C3%B8rer">
+                    <Link href="/stillinger?q=english&occupationFirstLevels[]=Bygg%20og%20anlegg&occupationFirstLevels[]=H%C3%A5ndverkere&occupationSecondLevels[]=Bygg%20og%20anlegg.Hjelpearbeider%20Bygg%20og%20anlegg&occupationSecondLevels[]=Bygg%20og%20anlegg.Arbeidsleder%2C%20bygg%20og%20anlegg&occupationSecondLevels[]=Bygg%20og%20anlegg.Maskin-%20og%20kranf%C3%B8rer">
                         Available jobs in Craftsworker
                     </Link>
                     <BodyLong spacing>Example: construction worker, carpenter, painter, electrician, plumber</BodyLong>
-                    <Link href="https://arbeidsplassen.nav.no/stillinger?q=english&occupationFirstLevels[]=Industri%20og%20produksjon&occupationFirstLevels[]=Natur%20og%20milj%C3%B8&occupationSecondLevels[]=Natur%20og%20milj%C3%B8.Jordbruk%20og%20dyrehold&occupationSecondLevels[]=Natur%20og%20milj%C3%B8.Skogbruk%2C%20gartnerarbeid%20og%20hagebruk&occupationSecondLevels[]=Natur%20og%20milj%C3%B8.Fiske%2C%20fangst%20og%20oppdrett&occupationSecondLevels[]=Industri%20og%20produksjon.Matproduksjon%20og%20n%C3%A6ringsmiddelarbeid">
+                    <Link href="/stillinger?q=english&occupationFirstLevels[]=Industri%20og%20produksjon&occupationFirstLevels[]=Natur%20og%20milj%C3%B8&occupationSecondLevels[]=Natur%20og%20milj%C3%B8.Jordbruk%20og%20dyrehold&occupationSecondLevels[]=Natur%20og%20milj%C3%B8.Skogbruk%2C%20gartnerarbeid%20og%20hagebruk&occupationSecondLevels[]=Natur%20og%20milj%C3%B8.Fiske%2C%20fangst%20og%20oppdrett&occupationSecondLevels[]=Industri%20og%20produksjon.Matproduksjon%20og%20n%C3%A6ringsmiddelarbeid">
                         Available jobs in Agriculture
                     </Link>
                     <BodyLong className="mb-3">Example: fisher, farmer</BodyLong>

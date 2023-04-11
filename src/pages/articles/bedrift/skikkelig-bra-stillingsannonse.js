@@ -122,7 +122,7 @@ export default function skikkeligBraStillingsannonse() {
 
                     <LinkPanel
                         className="arb-primary-bg-text arb-link-panel"
-                        href="https://arbeidsplassen.nav.no/stillingsregistrering/stillingsannonser"
+                        href="/stillingsregistrering/stillingsannonser"
                     >
                         <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                             Lag ny stillingsannonse

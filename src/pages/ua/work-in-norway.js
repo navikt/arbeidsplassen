@@ -93,7 +93,7 @@ export default function workInNorwayUa() {
                         можете знайти багато прикладів з написання резюме в інтернеті.
                     </BodyLong>
                     <BodyLong spacing>
-                        <Link href="https://arbeidsplassen.nav.no/slik-skriver-du-en-god-cv">
+                        <Link href="/slik-skriver-du-en-god-cv">
                             Як написати гарне резюме (інформація норвезькою мовою)
                         </Link>
                     </BodyLong>
@@ -143,16 +143,14 @@ export default function workInNorwayUa() {
                         Де знайти роботу в Норвегії
                     </Heading>
                     <BodyLong spacing>
-                        <Link href="https://arbeidsplassen.nav.no/stillinger">arbeidsplassen.no/stillinger</Link> -
-                        найбільша база даних з оголошеннями про роботу.
+                        <Link href="/stillinger">arbeidsplassen.no/stillinger</Link> - найбільша база даних з
+                        оголошеннями про роботу.
                     </BodyLong>
                     <BodyLong spacing>
                         Наведене нижче посилання ознайомить Вас з вакансіями для людей, володіючих англійською мовою:
                     </BodyLong>
                     <BodyLong spacing>
-                        <Link href="https://arbeidsplassen.nav.no/stillinger?q=english">
-                            Оголошення про роботу англійською мовою
-                        </Link>
+                        <Link href="/stillinger?q=english">Оголошення про роботу англійською мовою</Link>
                     </BodyLong>
                     <BodyLong spacing>
                         Якщо Вам потрібно, Ви можете обмежити результати пошуку використовуючи ліву частину сторінки.
@@ -165,16 +163,14 @@ export default function workInNorwayUa() {
                     <ul className="mb-3" aria-label="Examples of industry specific searches">
                         <li>
                             <BodyLong spacing>
-                                <Link href="https://arbeidsplassen.nav.no/stillinger?q=english&occupationFirstLevels%5B%5D=IT">
-                                    IT
-                                </Link>
+                                <Link href="/stillinger?q=english&occupationFirstLevels%5B%5D=IT">IT</Link>
                                 <br />
                                 Наприклад: дизайнер, розробник, науковець даних, архітектор даних
                             </BodyLong>
                         </li>
                         <li>
                             <BodyLong spacing>
-                                <Link href="https://arbeidsplassen.nav.no/stillinger?q=english&occupationFirstLevels%5B%5D=Salg%20og%20service&occupationFirstLevels%5B%5D=Reiseliv%20og%20mat">
+                                <Link href="/stillinger?q=english&occupationFirstLevels%5B%5D=Salg%20og%20service&occupationFirstLevels%5B%5D=Reiseliv%20og%20mat">
                                     Їжа та напої, прибирання, гостинність і продажі
                                 </Link>
                                 <br />
@@ -183,7 +179,7 @@ export default function workInNorwayUa() {
                         </li>
                         <li>
                             <BodyLong spacing>
-                                <Link href="https://arbeidsplassen.nav.no/stillinger?q=english&occupationFirstLevels%5B%5D=Bygg%20og%20anlegg&occupationFirstLevels%5B%5D=H%C3%A5ndverkere&occupationSecondLevels%5B%5D=Bygg%20og%20anlegg.Hjelpearbeider%20Bygg%20og%20anlegg&occupationSecondLevels%5B%5D=Bygg%20og%20anlegg.Arbeidsleder%2C%20bygg%20og%20anlegg&occupationSecondLevels%5B%5D=Bygg%20og%20anlegg.Maskin-%20og%20kranf%C3%B8rer">
+                                <Link href="/stillinger?q=english&occupationFirstLevels%5B%5D=Bygg%20og%20anlegg&occupationFirstLevels%5B%5D=H%C3%A5ndverkere&occupationSecondLevels%5B%5D=Bygg%20og%20anlegg.Hjelpearbeider%20Bygg%20og%20anlegg&occupationSecondLevels%5B%5D=Bygg%20og%20anlegg.Arbeidsleder%2C%20bygg%20og%20anlegg&occupationSecondLevels%5B%5D=Bygg%20og%20anlegg.Maskin-%20og%20kranf%C3%B8rer">
                                     Ремісник
                                 </Link>
                                 <br />
@@ -192,7 +188,7 @@ export default function workInNorwayUa() {
                         </li>
                         <li>
                             <BodyLong spacing>
-                                <Link href="https://arbeidsplassen.nav.no/stillinger?q=english&occupationFirstLevels%5B%5D=Industri%20og%20produksjon&occupationFirstLevels%5B%5D=Natur%20og%20milj%C3%B8&occupationSecondLevels%5B%5D=Natur%20og%20milj%C3%B8.Jordbruk%20og%20dyrehold&occupationSecondLevels%5B%5D=Natur%20og%20milj%C3%B8.Skogbruk%2C%20gartnerarbeid%20og%20hagebruk&occupationSecondLevels%5B%5D=Natur%20og%20milj%C3%B8.Fiske%2C%20fangst%20og%20oppdrett&occupationSecondLevels%5B%5D=Industri%20og%20produksjon.Matproduksjon%20og%20n%C3%A6ringsmiddelarbeid">
+                                <Link href="/stillinger?q=english&occupationFirstLevels%5B%5D=Industri%20og%20produksjon&occupationFirstLevels%5B%5D=Natur%20og%20milj%C3%B8&occupationSecondLevels%5B%5D=Natur%20og%20milj%C3%B8.Jordbruk%20og%20dyrehold&occupationSecondLevels%5B%5D=Natur%20og%20milj%C3%B8.Skogbruk%2C%20gartnerarbeid%20og%20hagebruk&occupationSecondLevels%5B%5D=Natur%20og%20milj%C3%B8.Fiske%2C%20fangst%20og%20oppdrett&occupationSecondLevels%5B%5D=Industri%20og%20produksjon.Matproduksjon%20og%20n%C3%A6ringsmiddelarbeid">
                                     Сільське господарство
                                 </Link>
                                 <br />

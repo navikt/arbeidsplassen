@@ -87,9 +87,7 @@ export default function jobbtreffBedrift() {
                     </BodyLong>
                     <BodyLong className="mb-3">
                         Se flere tips om{" "}
-                        <Link href="https://arbeidsplassen.nav.no/jobbtreff/hvordan-arrangere">
-                            hvordan du gjennomfører et jobbtreff.
-                        </Link>
+                        <Link href="/jobbtreff/hvordan-arrangere">hvordan du gjennomfører et jobbtreff.</Link>
                     </BodyLong>
 
                     <LinkPanel className="arb-primary-bg-text arb-link-panel" href="">

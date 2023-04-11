@@ -143,16 +143,14 @@ export default function workInNorwayRu() {
                         Где найти работу в Норвегии
                     </Heading>
                     <BodyLong spacing>
-                        <Link href="https://arbeidsplassen.nav.no/stillinger">arbeidsplassen.no/stillinger</Link> –
-                        самая большая база данных с объявлениями о работе.
+                        <Link href="/stillinger">arbeidsplassen.no/stillinger</Link> – самая большая база данных с
+                        объявлениями о работе.
                     </BodyLong>
                     <BodyLong spacing>
                         Следующая ссылка ознакомит Вас с вакансиями для людей, владеющих английским языком:
                     </BodyLong>
                     <BodyLong spacing>
-                        <Link href="https://arbeidsplassen.nav.no/stillinger?q=english">
-                            Объявления о работе на английском языке
-                        </Link>
+                        <Link href="/stillinger?q=english">Объявления о работе на английском языке</Link>
                     </BodyLong>
                     <BodyLong spacing>
                         Если Вам нужно, Вы можете ограничить результаты поиска, используя левую часть страницы. Там Вы
@@ -165,16 +163,14 @@ export default function workInNorwayRu() {
                     <ul aria-label="Examples of industry specific searches" className="mb-3">
                         <li>
                             <BodyLong className="mb-0_5">
-                                <Link href="https://arbeidsplassen.nav.no/stillinger?q=english&occupationFirstLevels%5B%5D=IT">
-                                    IT
-                                </Link>
+                                <Link href="/stillinger?q=english&occupationFirstLevels%5B%5D=IT">IT</Link>
                                 <br />
                                 Пример: дизайнер, разработчик, ученый данных, архитектор данных
                             </BodyLong>
                         </li>
                         <li>
                             <BodyLong className="mb-0_5">
-                                <Link href="https://arbeidsplassen.nav.no/stillinger?q=english&occupationFirstLevels%5B%5D=Salg%20og%20service&occupationFirstLevels%5B%5D=Reiseliv%20og%20mat">
+                                <Link href="/stillinger?q=english&occupationFirstLevels%5B%5D=Salg%20og%20service&occupationFirstLevels%5B%5D=Reiseliv%20og%20mat">
                                     Еда и напитки, уборка, гостеприимство и продажи
                                 </Link>
                                 <br />
@@ -183,7 +179,7 @@ export default function workInNorwayRu() {
                         </li>
                         <li>
                             <BodyLong className="mb-0_5">
-                                <Link href="https://arbeidsplassen.nav.no/stillinger?q=english&occupationFirstLevels%5B%5D=Bygg%20og%20anlegg&occupationFirstLevels%5B%5D=H%C3%A5ndverkere&occupationSecondLevels%5B%5D=Bygg%20og%20anlegg.Hjelpearbeider%20Bygg%20og%20anlegg&occupationSecondLevels%5B%5D=Bygg%20og%20anlegg.Arbeidsleder%2C%20bygg%20og%20anlegg&occupationSecondLevels%5B%5D=Bygg%20og%20anlegg.Maskin-%20og%20kranf%C3%B8rer">
+                                <Link href="/stillinger?q=english&occupationFirstLevels%5B%5D=Bygg%20og%20anlegg&occupationFirstLevels%5B%5D=H%C3%A5ndverkere&occupationSecondLevels%5B%5D=Bygg%20og%20anlegg.Hjelpearbeider%20Bygg%20og%20anlegg&occupationSecondLevels%5B%5D=Bygg%20og%20anlegg.Arbeidsleder%2C%20bygg%20og%20anlegg&occupationSecondLevels%5B%5D=Bygg%20og%20anlegg.Maskin-%20og%20kranf%C3%B8rer">
                                     Ремесленник
                                 </Link>
                                 <br />
@@ -192,7 +188,7 @@ export default function workInNorwayRu() {
                         </li>
                         <li>
                             <BodyLong>
-                                <Link href="https://arbeidsplassen.nav.no/stillinger?q=english&occupationFirstLevels%5B%5D=Industri%20og%20produksjon&occupationFirstLevels%5B%5D=Natur%20og%20milj%C3%B8&occupationSecondLevels%5B%5D=Natur%20og%20milj%C3%B8.Jordbruk%20og%20dyrehold&occupationSecondLevels%5B%5D=Natur%20og%20milj%C3%B8.Skogbruk%2C%20gartnerarbeid%20og%20hagebruk&occupationSecondLevels%5B%5D=Natur%20og%20milj%C3%B8.Fiske%2C%20fangst%20og%20oppdrett&occupationSecondLevels%5B%5D=Industri%20og%20produksjon.Matproduksjon%20og%20n%C3%A6ringsmiddelarbeid">
+                                <Link href="/stillinger?q=english&occupationFirstLevels%5B%5D=Industri%20og%20produksjon&occupationFirstLevels%5B%5D=Natur%20og%20milj%C3%B8&occupationSecondLevels%5B%5D=Natur%20og%20milj%C3%B8.Jordbruk%20og%20dyrehold&occupationSecondLevels%5B%5D=Natur%20og%20milj%C3%B8.Skogbruk%2C%20gartnerarbeid%20og%20hagebruk&occupationSecondLevels%5B%5D=Natur%20og%20milj%C3%B8.Fiske%2C%20fangst%20og%20oppdrett&occupationSecondLevels%5B%5D=Industri%20og%20produksjon.Matproduksjon%20og%20n%C3%A6ringsmiddelarbeid">
                                     Сельское хозяйство
                                 </Link>
                                 <br />

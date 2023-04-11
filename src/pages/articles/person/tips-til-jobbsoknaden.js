@@ -116,7 +116,7 @@ export default function tipsTilJobbsoknaden() {
                         søknad, men vær tydelig på hvorfor du ønsker å jobbe akkurat der. Lykke til med jobbsøkingen.
                     </BodyLong>
 
-                    <LinkPanel className="arb-primary-bg-text arb-link-panel" href="https://arbeidsplassen.nav.no/cv/">
+                    <LinkPanel className="arb-primary-bg-text arb-link-panel" href="/cv">
                         <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                             Opprett en CV
                         </LinkPanel.Title>
