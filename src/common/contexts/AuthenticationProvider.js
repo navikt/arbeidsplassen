@@ -45,8 +45,7 @@ const AuthenticationProvider = ({ children }) => {
     }
 
     function logout() {
-        // todo hvilken url?
-        window.location.href = `/oauth2/logout`;
+        window.location.href = `/oauth2/logout?redirect=/`;
     }
 
     return (
