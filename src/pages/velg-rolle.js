@@ -4,6 +4,7 @@ import { ChevronLeftIcon } from "@navikt/aksel-icons";
 import Head from "next/head";
 
 export default function velgRolle() {
+    //console.log(`window.location: ${window.location.host}`)
     return (
         <Layout>
             <Head>
@@ -20,12 +21,12 @@ export default function velgRolle() {
                         Er du jobbsøker eller arbeidsgiver?
                     </Heading>
 
-                    <LinkPanel href={`${process.env.LOGIN_URL}?redirect=${process.env.LOGIN_JOBBSOKER_REDIRECT_URL}`} className="arb-link-panel arb-tertiary-bg-text mb-1">
+                    <LinkPanel href='../oauth2/login?redirect=/stillinger' className="arb-link-panel arb-tertiary-bg-text mb-1">
                         <LinkPanel.Title>Jeg er jobbsøker</LinkPanel.Title>
                         <LinkPanel.Description>Logg inn på Min side</LinkPanel.Description>
                     </LinkPanel>
 
-                    <LinkPanel href={`${process.env.LOGIN_URL}?redirect=${process.env.LOGIN_ARBEIDSGIVER_REDIRECT_URL}`} className="arb-link-panel arb-tertiary-bg-text mb-4">
+                    <LinkPanel href='../oauth2/login?redirect=/minside' className="arb-link-panel arb-tertiary-bg-text mb-4">
                         <LinkPanel.Title>Jeg er arbeidsgiver</LinkPanel.Title>
                         <LinkPanel.Description>Logg inn på Min bedriftside</LinkPanel.Description>
                     </LinkPanel>
