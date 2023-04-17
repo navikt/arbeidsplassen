@@ -12,11 +12,6 @@ export default function personvern() {
             </Head>
             <div className="page-margin-top-and-bottom">
                 <div className="article">
-                    <Link href="/" className="mb-2">
-                        <ChevronLeftIcon aria-hidden="true" />
-                        Til forsiden
-                    </Link>
-
                     <Heading size="xlarge" level="1" spacing>
                         Personvernerklæring for arbeidsplassen.no
                     </Heading>

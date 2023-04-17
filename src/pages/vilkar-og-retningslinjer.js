@@ -11,10 +11,6 @@ export default function vilkarOgRetningslinjer() {
             </Head>
             <div className="page-margin-top-and-bottom">
                 <div className="article">
-                    <Link href="/" className="mb-2">
-                        <ChevronLeftIcon aria-hidden="true" />
-                        Til forsiden
-                    </Link>
                     <Heading spacing size="xlarge" level="1">
                         Vilkår og retningslinjer
                     </Heading>

@@ -12,18 +12,17 @@ export default function SuperraskSoknadPerson() {
             </Head>
             <div className="page-margin-top-and-bottom">
                 <div className="article">
-                    <Link href="/" className="mb-2">
-                        <ChevronLeftIcon aria-hidden="true" /> Til forsiden
-                    </Link>
-
                     <Heading size="xlarge" level="1" spacing>
                         Superrask søknad – en enklere måte å komme i kontakt med bedrifter
                     </Heading>
 
                     <div className="mb-3">
-                        <Image src="/images/jobbsoker.jpg"
-                               alt="En person sitter ved et bord med en tablet foran seg."
-                               width={578} height={379} />
+                        <Image
+                            src="/images/jobbsoker.jpg"
+                            alt="En person sitter ved et bord med en tablet foran seg."
+                            width={578}
+                            height={379}
+                        />
                     </div>
 
                     <BodyLong spacing>

@@ -12,10 +12,6 @@ export default function sporsmalOgSvar() {
             </Head>
             <div className="page-margin-top-and-bottom">
                 <article className="article">
-                    <Link href="/" className="mb-2">
-                        <ChevronLeftIcon aria-hidden="true" />
-                        Til forsiden
-                    </Link>
                     <Heading size="xlarge" level="1" spacing>
                         Spørsmål og svar
                     </Heading>

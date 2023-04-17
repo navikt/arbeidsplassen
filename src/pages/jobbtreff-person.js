@@ -13,11 +13,6 @@ export default function JobbtreffPerson() {
             </Head>
             <div className="page-margin-top-and-bottom">
                 <div className="article">
-                    <Link href="/" className="mb-2">
-                        <ChevronLeftIcon aria-hidden="true" />
-                        Til forsiden
-                    </Link>
-
                     <Heading size="xlarge" level="1" spacing>
                         Jobbtreff – møt bedrifter på en ny måte
                     </Heading>
@@ -28,9 +23,12 @@ export default function JobbtreffPerson() {
                     </Ingress>
 
                     <div className="mb-3">
-                        <Image src="/images/jobbtreff.webp"
-                               alt="En person sitter ved et kjøkkenbord med datamaskin foran seg, hun har på hodetelefoner og er nok i gang med en videosamtale."
-                               width={578} height={379} />
+                        <Image
+                            src="/images/jobbtreff.webp"
+                            alt="En person sitter ved et kjøkkenbord med datamaskin foran seg, hun har på hodetelefoner og er nok i gang med en videosamtale."
+                            width={578}
+                            height={379}
+                        />
                     </div>
 
                     <BodyLong spacing>

@@ -14,11 +14,6 @@ export default function SuperraskSoknadBedrift() {
             </Head>
             <div className="page-margin-top-and-bottom">
                 <div className="article">
-                    <Link href="/bedrift" className="mb-2">
-                        <ChevronLeftIcon aria-hidden="true" />
-                        Til bedrift
-                    </Link>
-
                     <Heading size="xlarge" level="1" spacing>
                         Superrask søknad – en enklere måte å komme i kontakt med relevante jobbsøkere
                     </Heading>
@@ -29,9 +24,12 @@ export default function SuperraskSoknadBedrift() {
                     </Ingress>
 
                     <div className="mb-3">
-                        <Image src="/images/bedrift.jpg"
-                               alt="En mann sitter på et kontor og tar en annen i hånden"
-                               width={578} height={379} />
+                        <Image
+                            src="/images/bedrift.jpg"
+                            alt="En mann sitter på et kontor og tar en annen i hånden"
+                            width={578}
+                            height={379}
+                        />
                     </div>
 
                     <BodyLong spacing>

@@ -12,11 +12,6 @@ export default function overforingAvStillingsannonser() {
             </Head>
             <div className="page-margin-top-and-bottom">
                 <div className="article">
-                    <Link href="/bedrift" className="mb-2">
-                        <ChevronLeftIcon aria-hidden="true" />
-                        Til bedrift
-                    </Link>
-
                     <Heading size="xlarge" level="1" spacing>
                         Overføring av stillingsannonser til arbeidsplassen.no
                     </Heading>
@@ -27,9 +22,7 @@ export default function overforingAvStillingsannonser() {
                     </Ingress>
 
                     <div className="mb-3">
-                         <Image src="/images/api.png"
-                               alt="API, illustrasjon"
-                               width={578} height={379} />
+                        <Image src="/images/api.png" alt="API, illustrasjon" width={578} height={379} />
                     </div>
 
                     <Heading size="large" level="2" spacing>
