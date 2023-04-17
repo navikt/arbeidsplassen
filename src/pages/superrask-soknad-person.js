@@ -3,6 +3,7 @@ import Layout from "@/src/common/components/layout/Layout";
 import { ChevronLeftIcon } from "@navikt/aksel-icons";
 import Head from "next/head";
 import Image from "next/image";
+import NextLink from "next/link";
 
 export default function SuperraskSoknadPerson() {
     return (
@@ -80,7 +81,9 @@ export default function SuperraskSoknadPerson() {
 
                     <BodyLong spacing>
                         Les også{" "}
-                        <Link href="/personvern-superrask-soknad">personvernerklæringen for superrask søknad</Link>.
+                        <NextLink href="/personvern-superrask-soknad" passHref legacyBehavior>
+                            <Link>personvernerklæringen for superrask søknad</Link>.
+                        </NextLink>
                     </BodyLong>
                     <BodyLong spacing>
                         Superrask søknad er en helt ny løsning på arbeidsplassen.no. Prøv det og gi oss gjerne en
