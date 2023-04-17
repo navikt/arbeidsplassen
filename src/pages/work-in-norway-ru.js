@@ -100,7 +100,7 @@ export default function workInNorwayRu() {
                         Вы можете найти много примеров по написанию резюме в интернете.
                     </BodyLong>
                     <BodyLong spacing>
-                        <NextLink href="/articles/person/slik-skriver-du-en-god-cv" passHref legacyBehavior>
+                        <NextLink href="/slik-skriver-du-en-god-cv" passHref legacyBehavior>
                             <Link>Как написать хорошее резюме (Информация на норвежском языке)</Link>
                         </NextLink>
                     </BodyLong>

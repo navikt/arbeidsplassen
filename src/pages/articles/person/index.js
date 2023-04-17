@@ -29,10 +29,7 @@ export default function ArticlePagePerson() {
                                     finne en jobb i EU-/EØS-området og Sveits.
                                 </LinkPanel.Description>
                             </LinkPanel>
-                            <LinkPanel
-                                className="arb-secondary-bg-text arb-link-panel"
-                                href="/articles/person/superrask-soknad-person"
-                            >
+                            <LinkPanel className="arb-secondary-bg-text arb-link-panel" href="/superrask-soknad-person">
                                 <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                                     Nyhet! Superrask Søknad
                                 </LinkPanel.Title>
@@ -40,10 +37,7 @@ export default function ArticlePagePerson() {
                                     En enklere måte å komme i kontakt med bedrifter.
                                 </LinkPanel.Description>
                             </LinkPanel>
-                            <LinkPanel
-                                className="arb-tertiary-bg-text arb-link-panel"
-                                href="/articles/person/tips-til-jobbsoknaden"
-                            >
+                            <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href="/tips-til-jobbsoknaden">
                                 <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                                     Tips til jobbsøknaden
                                 </LinkPanel.Title>
@@ -52,10 +46,7 @@ export default function ArticlePagePerson() {
                                     å møte akkurat deg.
                                 </LinkPanel.Description>
                             </LinkPanel>
-                            <LinkPanel
-                                className="arb-primary-bg-text arb-link-panel"
-                                href="/articles/person/jobbtreff-person"
-                            >
+                            <LinkPanel className="arb-primary-bg-text arb-link-panel" href="/jobbtreff-person">
                                 <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                                     Jobbtreff – møt bedrifter på en ny måte
                                 </LinkPanel.Title>

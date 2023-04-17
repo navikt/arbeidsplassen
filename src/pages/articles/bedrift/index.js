@@ -18,11 +18,12 @@ export default function ArticlePageBedrift() {
                         <IllustrationArticle className="arb-article-figure-pull-outside" />
                     </div>
 
-                    <section className="mb-6">--
+                    <section className="mb-6">
+                        --
                         <div className="arb-link-panel-grid mb-2">
                             <LinkPanel
                                 className="arb-primary-bg-text arb-link-panel"
-                                href="/articles/bedrift/skikkelig-bra-stillingsannonse"
+                                href="/skikkelig-bra-stillingsannonse"
                             >
                                 <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                                     Skikkelig bra stillingsannonse
@@ -34,7 +35,7 @@ export default function ArticlePageBedrift() {
                             </LinkPanel>
                             <LinkPanel
                                 className="arb-secondary-bg-text arb-link-panel"
-                                href="/articles/bedrift/superrask-soknad-bedrift"
+                                href="/superrask-soknad-bedrift"
                             >
                                 <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                                     Nyhet! Superrask Søknad
@@ -43,10 +44,7 @@ export default function ArticlePageBedrift() {
                                     En enklere måte å komme i kontakt med relevante jobbsøkere.
                                 </LinkPanel.Description>
                             </LinkPanel>
-                            <LinkPanel
-                                className="arb-tertiary-bg-text arb-link-panel"
-                                href="/articles/bedrift/jobbtreff-bedrift"
-                            >
+                            <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href="/jobbtreff-bedrift">
                                 <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                                     Jobbtreff – møt jobbsøkere på en ny måte
                                 </LinkPanel.Title>

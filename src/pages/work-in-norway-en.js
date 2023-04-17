@@ -100,7 +100,7 @@ export default function workInNorwayEn() {
                         certifications. You can search online for “how to write a CV”.
                     </BodyLong>
                     <BodyLong spacing>
-                        <NextLink href="/articles/person/slik-skriver-du-en-god-cv" passHref legacyBehavior>
+                        <NextLink href="/slik-skriver-du-en-god-cv" passHref legacyBehavior>
                             <Link>How to write a good CV (Norwegian language)</Link>
                         </NextLink>
                     </BodyLong>
