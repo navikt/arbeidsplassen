@@ -66,24 +66,22 @@ export default function workInNorwayUa() {
                     <ul className="mb-3">
                         <li>
                             <BodyLong>
-                                <Link href="@/src/pages/work-in-norway-ua#apply">Подача заяви на роботу</Link>
+                                <Link href="#apply">Подача заяви на роботу</Link>
                             </BodyLong>
                         </li>
                         <li>
                             <BodyLong>
-                                <Link href="@/src/pages/work-in-norway-ua#where">Де знайти роботу в Норвегії</Link>
+                                <Link href="#where">Де знайти роботу в Норвегії</Link>
                             </BodyLong>
                         </li>
                         <li>
                             <BodyLong>
-                                <Link href="@/src/pages/work-in-norway-ua#salary">
-                                    Отримання зарплати та ознайомлювальна програма
-                                </Link>
+                                <Link href="#salary">Отримання зарплати та ознайомлювальна програма</Link>
                             </BodyLong>
                         </li>
                         <li>
                             <BodyLong>
-                                <Link href="@/src/pages/work-in-norway-ua#support">
+                                <Link href="#support">
                                     Підтримка від Норвезького управління праці та соціального забезпечення (NAV)
                                 </Link>
                             </BodyLong>
