@@ -110,3 +110,10 @@ body {
     list-style: none;
     padding: 0;
 }
+
+.image-container img {
+    object-fit: contain;
+    width: 100% !important;
+    position: relative !important;
+    height: unset !important;
+}

@@ -21,12 +21,11 @@ export default function SlikSkriverDuEnGodCv() {
                         tipsene som gjør at CV-en din blir lagt merke til.
                     </Ingress>
 
-                    <div className="mb-3">
+                    <div className="mb-3 image-container">
                         <Image
                             src="/images/writing.jpg"
                             alt="En konsentrert person som skriver på datamaskinen sin"
-                            width={578}
-                            height={379}
+                            fill
                         />
                     </div>
 

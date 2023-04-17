@@ -20,12 +20,11 @@ export default function SkikkeligBraStillingsannonse() {
                         annonsen?
                     </Ingress>
 
-                    <div className="mb-3">
+                    <div className="mb-3 image-container">
                         <Image
                             src="/images/stillingsannonse.jpg"
                             alt="Person som skriver på en skrivemaskin"
-                            width={578}
-                            height={379}
+                            fill
                         />
                     </div>
 

@@ -20,8 +20,8 @@ export default function overforingAvStillingsannonser() {
                         arbeidsplassen.no for våre samarbeidspartnere
                     </Ingress>
 
-                    <div className="mb-3">
-                        <Image src="/images/api.png" alt="API, illustrasjon" width={578} height={379} />
+                    <div className="mb-3 image-container">
+                        <Image src="/images/api.png" alt="API, illustrasjon" fill />
                     </div>
 
                     <Heading size="large" level="2" spacing>

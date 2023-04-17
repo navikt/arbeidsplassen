@@ -21,12 +21,11 @@ export default function JobbtreffPerson() {
                         hva slags stillinger du kan søke på.
                     </Ingress>
 
-                    <div className="mb-3">
+                    <div className="mb-3 image-container">
                         <Image
                             src="/images/jobbtreff.webp"
                             alt="En person sitter ved et kjøkkenbord med datamaskin foran seg, hun har på hodetelefoner og er nok i gang med en videosamtale."
-                            width={578}
-                            height={379}
+                            fill
                         />
                     </div>
 

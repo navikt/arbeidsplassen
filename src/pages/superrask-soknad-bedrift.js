@@ -22,12 +22,11 @@ export default function SuperraskSoknadBedrift() {
                         bedrifter og for de som er på jakt etter ny jobb.
                     </Ingress>
 
-                    <div className="mb-3">
+                    <div className="mb-3 image-container">
                         <Image
                             src="/images/bedrift.jpg"
                             alt="En mann sitter på et kontor og tar en annen i hånden"
-                            width={578}
-                            height={379}
+                            fill
                         />
                     </div>
 

@@ -16,12 +16,11 @@ export default function SuperraskSoknadPerson() {
                         Superrask søknad – en enklere måte å komme i kontakt med bedrifter
                     </Heading>
 
-                    <div className="mb-3">
+                    <div className="mb-3 image-container">
                         <Image
                             src="/images/jobbsoker.jpg"
                             alt="En person sitter ved et bord med en tablet foran seg."
-                            width={578}
-                            height={379}
+                            fill
                         />
                     </div>
 
@@ -81,8 +80,9 @@ export default function SuperraskSoknadPerson() {
                     <BodyLong spacing>
                         Les også{" "}
                         <NextLink href="/personvern-superrask-soknad" passHref legacyBehavior>
-                            <Link>personvernerklæringen for superrask søknad</Link>.
+                            <Link>personvernerklæringen for superrask søknad</Link>
                         </NextLink>
+                        .
                     </BodyLong>
                     <BodyLong spacing>
                         Superrask søknad er en helt ny løsning på arbeidsplassen.no. Prøv det og gi oss gjerne en

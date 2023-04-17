@@ -20,12 +20,11 @@ export default function JobbtreffBedrift() {
                         en direkte sending.
                     </Ingress>
 
-                    <div className="mb-3">
+                    <div className="mb-3 image-container">
                         <Image
                             src="/images/skriver.webp"
                             alt="Person som skriver på en datamaskin"
-                            width={578}
-                            height={379}
+                            fill
                         />
                     </div>
 

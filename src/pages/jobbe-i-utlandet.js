@@ -20,12 +20,11 @@ export default function jobbeiUtlandet() {
                         EU-/EØS-området og Sveits.
                     </Ingress>
 
-                    <div className="mb-3">
+                    <div className="mb-3 image-container">
                         <Image
                             src="/images/eures.png"
                             alt="Bilde av en globus som viser Europa"
-                            width={578}
-                            height={379}
+                            fill
                         />
                     </div>
 
