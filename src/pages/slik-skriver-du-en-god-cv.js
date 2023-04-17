@@ -28,9 +28,12 @@ export default function SlikSkriverDuEnGodCv() {
                     </Ingress>
 
                     <div className="mb-3">
-                         <Image src="/images/writing.jpg"
-                               alt="En konsentrert person som skriver på datamaskinen sin"
-                               width={578} height={379} />
+                        <Image
+                            src="/images/writing.jpg"
+                            alt="En konsentrert person som skriver på datamaskinen sin"
+                            width={578}
+                            height={379}
+                        />
                     </div>
 
                     <Heading size="large" level="2" spacing>
@@ -158,7 +161,7 @@ export default function SlikSkriverDuEnGodCv() {
                         </li>
                     </ul>
 
-                    <LinkPanel className="arb-primary-bg-text arb-link-panel" href="/cv">
+                    <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href="/cv">
                         <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                             Opprett en CV
                         </LinkPanel.Title>
