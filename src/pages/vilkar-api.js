@@ -2,6 +2,7 @@ import { BodyLong, Heading, Link } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import { ChevronLeftIcon } from "@navikt/aksel-icons";
 import Head from "next/head";
+import NextLink from "next/link";
 
 export default function vilkarApi() {
     return (
@@ -11,10 +12,12 @@ export default function vilkarApi() {
             </Head>
             <div className="page-margin-top-and-bottom">
                 <div className="article">
-                    <Link href="/vilkar-og-retningslinjer" className="mb-2">
-                        <ChevronLeftIcon aria-hidden="true" />
-                        Til Vilkår og retningslinjer
-                    </Link>
+                    <NextLink href="/vilkar-og-retningslinjer" passHref legacyBehavior>
+                        <Link className="mb-2">
+                            <ChevronLeftIcon aria-hidden="true" />
+                            Til Vilkår og retningslinjer
+                        </Link>
+                    </NextLink>
 
                     <Heading spacing size="xlarge" level="1">
                         Vilkår for bruk av API for stillingsannonser - Job Ads Public Feed

@@ -2,6 +2,7 @@ import { BodyLong, Heading, Link } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import { ChevronLeftIcon } from "@navikt/aksel-icons";
 import Head from "next/head";
+import NextLink from "next/link";
 
 export default function vilkarOgRetningslinjer() {
     return (
@@ -31,7 +32,9 @@ export default function vilkarOgRetningslinjer() {
                         </li>
                     </ul>
                     <BodyLong className="mb-3">
-                        <Link href="/vilkar">Her kan du lese alle vilkårene for bruk av arbeidsplassen.no.</Link>
+                        <NextLink href="/vilkar" passHref legacyBehavior>
+                            <Link>Her kan du lese alle vilkårene for bruk av arbeidsplassen.no.</Link>
+                        </NextLink>
                     </BodyLong>
 
                     <Heading size="large" level="2" spacing>
@@ -44,7 +47,9 @@ export default function vilkarOgRetningslinjer() {
                         via et åpent API og hentet inn fra våre samarbeidspartnere.
                     </BodyLong>
                     <BodyLong className="mb-3">
-                        <Link href="/vilkar-api">Her kan du lese vilkårene for bruk av API for stillingsannonser.</Link>
+                        <NextLink href="/vilkar-api" passHref legacyBehavior>
+                            <Link>Her kan du lese vilkårene for bruk av API for stillingsannonser.</Link>
+                        </NextLink>
                     </BodyLong>
 
                     <Heading size="large" level="2" spacing>
@@ -76,9 +81,11 @@ export default function vilkarOgRetningslinjer() {
                         </li>
                     </ul>
                     <BodyLong className="mb-3">
-                        <Link href="/retningslinjer-stillingsannonser">
-                            Her kan du lese Retningslinjer for innhold i stillingsannonser på arbeidsplassen.no.
-                        </Link>
+                        <NextLink href="/retningslinjer-stillingsannonser" passHref legacyBehavior>
+                            <Link>
+                                Her kan du lese Retningslinjer for innhold i stillingsannonser på arbeidsplassen.no.
+                            </Link>
+                        </NextLink>
                     </BodyLong>
 
                     <Heading size="large" level="2" spacing>
@@ -89,9 +96,9 @@ export default function vilkarOgRetningslinjer() {
                         sending mens deltagere kan se og høre på.
                     </BodyLong>
                     <BodyLong>
-                        <Link href="/retningslinjer-jobbtreff">
-                            Her kan du lese Retningslinjer for innhold i jobbtreff på arbeidsplassen.no
-                        </Link>
+                        <NextLink href="/retningslinjer-jobbtreff" passHref legacyBehavior>
+                            <Link>Her kan du lese Retningslinjer for innhold i jobbtreff på arbeidsplassen.no</Link>
+                        </NextLink>
                     </BodyLong>
                 </div>
             </div>

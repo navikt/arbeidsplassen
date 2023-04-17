@@ -2,6 +2,7 @@ import { BodyLong, Heading, Link } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import { ChevronLeftIcon } from "@navikt/aksel-icons";
 import Head from "next/head";
+import NextLink from "next/link";
 
 export default function vilkar() {
     return (
@@ -11,10 +12,12 @@ export default function vilkar() {
             </Head>
             <div className="page-margin-top-and-bottom">
                 <div className="article">
-                    <Link href="/vilkar-og-retningslinjer" className="mb-2">
-                        <ChevronLeftIcon aria-hidden="true" />
-                        Til Vilkår og retningslinjer
-                    </Link>
+                    <NextLink href="/vilkar-og-retningslinjer" passHref legacyBehavior>
+                        <Link className="mb-2">
+                            <ChevronLeftIcon aria-hidden="true" />
+                            Til Vilkår og retningslinjer
+                        </Link>
+                    </NextLink>
                     <Heading spacing size="xlarge" level="1">
                         Vilkår for å publisere stillinger
                     </Heading>
@@ -111,9 +114,9 @@ export default function vilkar() {
                                 eller andre kriterier som ikke er relevante. Annonsen skal heller ikke ha uetisk innhold
                                 eller kunne støte noen. Den skal ikke oppfordre til ulovlige handlinger eller være i
                                 strid med norsk lov eller{" "}
-                                <Link href="/retningslinjer-stillingsannonser">
-                                    NAVs retningslinjer for stillingsannonser.
-                                </Link>
+                                <NextLink href="/retningslinjer-stillingsannonser" passHref legacyBehavior>
+                                    <Link>NAVs retningslinjer for stillingsannonser.</Link>
+                                </NextLink>
                             </BodyLong>
                         </li>
                     </ul>
