@@ -1,5 +1,4 @@
-import { BodyLong, Heading, Ingress, Link, LinkPanel } from "@navikt/ds-react";
-import { ChevronLeftIcon } from "@navikt/aksel-icons";
+import { BodyLong, Heading, Ingress, LinkPanel } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
 import Image from "next/image";

@@ -1,4 +1,4 @@
-import { Button, Heading, Ingress, Link, LinkPanel } from "@navikt/ds-react";
+import { Button, Heading, Ingress, LinkPanel } from "@navikt/ds-react";
 import IllustrationBedrift from "@/src/common/components/images/IllustrationBedrift";
 
 const MainPageBedrift = () => {

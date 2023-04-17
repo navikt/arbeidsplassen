@@ -1,6 +1,5 @@
-import { BodyLong, Heading, Link, LinkPanel } from "@navikt/ds-react";
+import { Heading, LinkPanel } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
-import { ChevronLeftIcon } from "@navikt/aksel-icons";
 import Head from "next/head";
 
 export default function velgRolle() {
