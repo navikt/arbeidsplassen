@@ -18,17 +18,17 @@ export default function workInNorway() {
                         <ul>
                             <li>
                                 <BodyLong lang="en">
-                                    <Link href="/en/work-in-norway">Information about working in Norway</Link>
+                                    <Link href="/work-in-norway-en">Information about working in Norway</Link>
                                 </BodyLong>
                             </li>
                             <li>
                                 <BodyLong lang="ua">
-                                    <Link href="/ua/work-in-norway">Інформація українською мовою</Link>
+                                    <Link href="/work-in-norway-ua">Інформація українською мовою</Link>
                                 </BodyLong>
                             </li>
                             <li>
                                 <BodyLong lang="ru">
-                                    <Link href="/ru/work-in-norway">Информация на русском языке</Link>
+                                    <Link href="/work-in-norway-ru">Информация на русском языке</Link>
                                 </BodyLong>
                             </li>
                             <li>

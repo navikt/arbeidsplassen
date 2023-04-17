@@ -16,7 +16,7 @@ export default function workInNorwayUa() {
                     <ul className="mb-3">
                         <li>
                             <BodyLong lang="en">
-                                <Link href="/en/work-in-norway">Information about working in Norway</Link>
+                                <Link href="/work-in-norway-en">Information about working in Norway</Link>
                             </BodyLong>
                         </li>
                         <li>
@@ -24,12 +24,12 @@ export default function workInNorwayUa() {
                         </li>
                         <li>
                             <BodyLong lang="ru">
-                                <Link href="/ru/work-in-norway">Информация на русском языке</Link>
+                                <Link href="/work-in-norway-ru">Информация на русском языке</Link>
                             </BodyLong>
                         </li>
                         <li>
                             <BodyLong lang="nb">
-                                <Link href="/no/work-in-norway">Informasjon for arbeidsgivere</Link>
+                                <Link href="/work-in-norway-no">Informasjon for arbeidsgivere</Link>
                             </BodyLong>
                         </li>
                     </ul>
@@ -59,22 +59,24 @@ export default function workInNorwayUa() {
                     <ul className="mb-3">
                         <li>
                             <BodyLong>
-                                <Link href="#apply">Подача заяви на роботу</Link>
+                                <Link href="@/src/pages/work-in-norway-ua#apply">Подача заяви на роботу</Link>
                             </BodyLong>
                         </li>
                         <li>
                             <BodyLong>
-                                <Link href="#where">Де знайти роботу в Норвегії</Link>
+                                <Link href="@/src/pages/work-in-norway-ua#where">Де знайти роботу в Норвегії</Link>
                             </BodyLong>
                         </li>
                         <li>
                             <BodyLong>
-                                <Link href="#salary">Отримання зарплати та ознайомлювальна програма</Link>
+                                <Link href="@/src/pages/work-in-norway-ua#salary">
+                                    Отримання зарплати та ознайомлювальна програма
+                                </Link>
                             </BodyLong>
                         </li>
                         <li>
                             <BodyLong>
-                                <Link href="#support">
+                                <Link href="@/src/pages/work-in-norway-ua#support">
                                     Підтримка від Норвезького управління праці та соціального забезпечення (NAV)
                                 </Link>
                             </BodyLong>

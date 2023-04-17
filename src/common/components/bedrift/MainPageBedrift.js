@@ -29,7 +29,10 @@ const MainPageBedrift = () => {
 
             <section>
                 <div className="arb-link-panel-grid">
-                    <LinkPanel className="arb-primary-bg-text arb-link-panel" href="/articles/bedrift/superrask-soknad-bedrift">
+                    <LinkPanel
+                        className="arb-primary-bg-text arb-link-panel"
+                        href="/articles/bedrift/superrask-soknad-bedrift"
+                    >
                         <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                             Nyhet! Superrask søknad
                         </LinkPanel.Title>
@@ -56,7 +59,7 @@ const MainPageBedrift = () => {
                             Les hvordan du som arbeidsgiver kan ta i bruk våre tjenester i dag.
                         </LinkPanel.Description>
                     </LinkPanel>
-                    <LinkPanel className="arb-primary-bg-text arb-link-panel" href="/no/work-in-norway">
+                    <LinkPanel className="arb-primary-bg-text arb-link-panel" href="/work-in-norway-no">
                         <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                             Ønsker du å rekruttere flyktninger?
                         </LinkPanel.Title>
