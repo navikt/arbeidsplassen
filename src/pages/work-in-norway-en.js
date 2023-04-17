@@ -1,6 +1,7 @@
 import { Alert, BodyLong, Heading, Link } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
+import NextLink from "next/link";
 
 export default function workInNorwayEn() {
     return (
@@ -19,17 +20,23 @@ export default function workInNorwayEn() {
                         </li>
                         <li>
                             <BodyLong lang="ua">
-                                <Link href="/work-in-norway-ua">Інформація українською мовою</Link>
+                                <NextLink href="/work-in-norway-ua" passHref legacyBehavior>
+                                    <Link>Інформація українською мовою</Link>
+                                </NextLink>
                             </BodyLong>
                         </li>
                         <li>
                             <BodyLong lang="ru">
-                                <Link href="/work-in-norway-ru">Информация на русском языке</Link>
+                                <NextLink href="/work-in-norway-ru" passHref legacyBehavior>
+                                    <Link>Информация на русском языке</Link>
+                                </NextLink>
                             </BodyLong>
                         </li>
                         <li>
                             <BodyLong lang="nb">
-                                <Link href="/work-in-norway-no">Informasjon for arbeidsgivere</Link>
+                                <NextLink href="/work-in-norway-no" passHref legacyBehavior>
+                                    <Link>Informasjon for arbeidsgivere</Link>
+                                </NextLink>
                             </BodyLong>
                         </li>
                     </ul>
@@ -58,24 +65,22 @@ export default function workInNorwayEn() {
                     <ul className="mb-4">
                         <li>
                             <BodyLong>
-                                <Link href="@/src/pages/work-in-norway-en#apply">How to apply for a job</Link>
+                                <Link href="#apply">How to apply for a job</Link>
                             </BodyLong>
                         </li>
                         <li>
                             <BodyLong>
-                                <Link href="@/src/pages/work-in-norway-en#where">Where to find jobs</Link>
+                                <Link href="#where">Where to find jobs</Link>
                             </BodyLong>
                         </li>
                         <li>
                             <BodyLong>
-                                <Link href="@/src/pages/work-in-norway-en#salary">
-                                    Receiving salary and the introduction program
-                                </Link>
+                                <Link href="#salary">Receiving salary and the introduction program</Link>
                             </BodyLong>
                         </li>
                         <li>
                             <BodyLong>
-                                <Link href="@/src/pages/work-in-norway-en#support">
+                                <Link href="#support">
                                     Support from the Norwegian Labour and Welfare Administration (NAV)
                                 </Link>
                             </BodyLong>
@@ -95,9 +100,9 @@ export default function workInNorwayEn() {
                         certifications. You can search online for “how to write a CV”.
                     </BodyLong>
                     <BodyLong spacing>
-                        <Link href="/articles/slik-skriver-du-en-god-cv">
-                            How to write a good CV (Norwegian language)
-                        </Link>
+                        <NextLink href="/articles/person/slik-skriver-du-en-god-cv" passHref legacyBehavior>
+                            <Link>How to write a good CV (Norwegian language)</Link>
+                        </NextLink>
                     </BodyLong>
                     <BodyLong spacing>
                         If the employer is interested in your application, they will invite you to an interview. This

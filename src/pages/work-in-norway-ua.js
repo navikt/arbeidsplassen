@@ -1,6 +1,7 @@
 import Layout from "@/src/common/components/layout/Layout";
 import { Alert, BodyLong, Heading, Link } from "@navikt/ds-react";
 import Head from "next/head";
+import NextLink from "next/link";
 
 export default function workInNorwayUa() {
     return (
@@ -16,7 +17,9 @@ export default function workInNorwayUa() {
                     <ul className="mb-3">
                         <li>
                             <BodyLong lang="en">
-                                <Link href="/work-in-norway-en">Information about working in Norway</Link>
+                                <NextLink href="/work-in-norway-en" passHref legacyBehavior>
+                                    <Link>Information about working in Norway</Link>
+                                </NextLink>
                             </BodyLong>
                         </li>
                         <li>
@@ -24,12 +27,16 @@ export default function workInNorwayUa() {
                         </li>
                         <li>
                             <BodyLong lang="ru">
-                                <Link href="/work-in-norway-ru">Информация на русском языке</Link>
+                                <NextLink href="/work-in-norway-ru" passHref legacyBehavior>
+                                    <Link>Информация на русском языке</Link>
+                                </NextLink>
                             </BodyLong>
                         </li>
                         <li>
                             <BodyLong lang="nb">
-                                <Link href="/work-in-norway-no">Informasjon for arbeidsgivere</Link>
+                                <NextLink href="/work-in-norway-no" passHref legacyBehavior>
+                                    <Link>Informasjon for arbeidsgivere</Link>
+                                </NextLink>
                             </BodyLong>
                         </li>
                     </ul>
@@ -95,9 +102,9 @@ export default function workInNorwayUa() {
                         можете знайти багато прикладів з написання резюме в інтернеті.
                     </BodyLong>
                     <BodyLong spacing>
-                        <Link href="/slik-skriver-du-en-god-cv">
-                            Як написати гарне резюме (інформація норвезькою мовою)
-                        </Link>
+                        <NextLink href="/articles/person/slik-skriver-du-en-god-cv" passHref legacyBehavior>
+                            <Link>Як написати гарне резюме (інформація норвезькою мовою)</Link>
+                        </NextLink>
                     </BodyLong>
                     <BodyLong spacing>
                         Якщо роботодавця зацікавить Ваша заява, він запросить Вас на співбесіду по телефону, на

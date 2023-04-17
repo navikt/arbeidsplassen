@@ -1,4 +1,5 @@
 import { BodyLong, Heading, Link, Panel } from "@navikt/ds-react";
+import NextLink from "next/link";
 
 export default function InformationUkraine() {
     return (
@@ -9,17 +10,23 @@ export default function InformationUkraine() {
             <ul className="ukraine-grid">
                 <li>
                     <BodyLong>
-                        <Link href="/work-in-norway-en">Information about working in Norway</Link>
+                        <NextLink href="/work-in-norway-en" passHref legacyBehavior>
+                            <Link>Information about working in Norway</Link>
+                        </NextLink>
                     </BodyLong>
                 </li>
                 <li>
                     <BodyLong>
-                        <Link href="/work-in-norway-ua">Інформація українською мовою</Link>
+                        <NextLink href="/work-in-norway-ua" passHref legacyBehavior>
+                            <Link>Інформація українською мовою</Link>
+                        </NextLink>
                     </BodyLong>
                 </li>
                 <li>
                     <BodyLong className="text-center">
-                        <Link href="/work-in-norway-ru">Информация на русском языке</Link>
+                        <NextLink href="/work-in-norway-ru" passHref legacyBehavior>
+                            <Link>Информация на русском языке</Link>
+                        </NextLink>
                     </BodyLong>
                 </li>
             </ul>

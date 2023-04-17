@@ -1,6 +1,7 @@
 import { Alert, BodyLong, Heading, Link } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
+import NextLink from "next/link";
 
 export default function workInNorwayRu() {
     return (
@@ -16,12 +17,16 @@ export default function workInNorwayRu() {
                     <ul className="mb-3">
                         <li>
                             <BodyLong lang="en">
-                                <Link href="/work-in-norway-en">Information about working in Norway</Link>
+                                <NextLink href="/work-in-norway-en" passHref legacyBehavior>
+                                    <Link>Information about working in Norway</Link>
+                                </NextLink>
                             </BodyLong>
                         </li>
                         <li>
                             <BodyLong lang="ua">
-                                <Link href="/work-in-norway-ua">Інформація українською мовою</Link>
+                                <NextLink href="/work-in-norway-ua" passHref legacyBehavior>
+                                    <Link>Інформація українською мовою</Link>
+                                </NextLink>
                             </BodyLong>
                         </li>
                         <li>
@@ -29,7 +34,9 @@ export default function workInNorwayRu() {
                         </li>
                         <li>
                             <BodyLong lang="nb">
-                                <Link href="/work-in-norway-no">Informasjon for arbeidsgivere</Link>
+                                <NextLink href="/work-in-norway-no" passHref legacyBehavior>
+                                    <Link>Informasjon for arbeidsgivere</Link>
+                                </NextLink>
                             </BodyLong>
                         </li>
                     </ul>
@@ -58,22 +65,22 @@ export default function workInNorwayRu() {
                     </Heading>
                     <ul className="mb-3">
                         <li>
-                            <Link href="@/src/pages/work-in-norway-ru#apply">
+                            <Link href="#apply">
                                 <BodyLong>Процесс подачи заявки на работу</BodyLong>
                             </Link>
                         </li>
                         <li>
-                            <Link href="@/src/pages/work-in-norway-ru#where">
+                            <Link href="#where">
                                 <BodyLong>Где найти работу в Норвегии</BodyLong>
                             </Link>
                         </li>
                         <li>
-                            <Link href="@/src/pages/work-in-norway-ru#salary">
+                            <Link href="#salary">
                                 <BodyLong>Получение зарплаты и ознакомительная программа</BodyLong>
                             </Link>
                         </li>
                         <li>
-                            <Link href="@/src/pages/work-in-norway-ru#support">
+                            <Link href="#support">
                                 <BodyLong>
                                     Поддержка от Норвежского управления труда и социального обеспечения (NAV)
                                 </BodyLong>
@@ -93,9 +100,9 @@ export default function workInNorwayRu() {
                         Вы можете найти много примеров по написанию резюме в интернете.
                     </BodyLong>
                     <BodyLong spacing>
-                        <Link href="/articles/person/slik-skriver-du-en-god-cv">
-                            Как написать хорошее резюме (Информация на норвежском языке)
-                        </Link>
+                        <NextLink href="/articles/person/slik-skriver-du-en-god-cv" passHref legacyBehavior>
+                            <Link>Как написать хорошее резюме (Информация на норвежском языке)</Link>
+                        </NextLink>
                     </BodyLong>
                     <BodyLong spacing>
                         Если работодателя заинтересует Ваша заявка, он пригласит Вас на собеседование по телефону, на
