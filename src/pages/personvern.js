@@ -2,6 +2,7 @@ import { BodyLong, Heading, Link, LinkPanel } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import { ChevronLeftIcon } from "@navikt/aksel-icons";
 import Head from "next/head";
+import NextLink from "next/link";
 
 export default function personvern() {
     return (
@@ -37,9 +38,9 @@ export default function personvern() {
                         dine personopplysninger i løsningen.
                     </BodyLong>
                     <BodyLong className="mb-3">
-                        <Link href="/personvern-superrask-soknad">
-                            Informasjon om hvordan vi behandler dine data knyttet til superrask søknad.
-                        </Link>
+                        <NextLink href="/personvern-superrask-soknad" passHref legacyBehavior>
+                            <Link>Informasjon om hvordan vi behandler dine data knyttet til superrask søknad.</Link>
+                        </NextLink>
                     </BodyLong>
 
                     <Heading size="large" level="2" spacing>
@@ -56,27 +57,30 @@ export default function personvern() {
                     <Heading className="mb-2" size="large" level="2">
                         Les mer om hvordan vi behandler dine personopplysninger
                     </Heading>
-                    <LinkPanel href="/personvern-under-oppfolging" className="arb-link-panel arb-tertiary-bg-text mb-1">
-                        <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
-                            For deg som er under arbeidsrettet oppfølging fra NAV
-                        </LinkPanel.Title>
-                        <LinkPanel.Description className="navds-link-panel__description navds-body-long">
-                            Dersom du har registrert deg som arbeidssøker hos NAV, gjelder dette deg.
-                        </LinkPanel.Description>
-                    </LinkPanel>
-                    <LinkPanel
-                        href="/personvern-ikke-under-oppfolging"
-                        className="arb-link-panel arb-tertiary-bg-text mb-1"
-                    >
-                        <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
-                            For deg som ikke er under arbeidsrettet oppfølging fra NAV
-                        </LinkPanel.Title>
-                    </LinkPanel>
-                    <LinkPanel href="/personvern-arbeidsgiver" className="arb-link-panel arb-tertiary-bg-text">
-                        <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
-                            For deg som representerer en arbeidsgiver
-                        </LinkPanel.Title>
-                    </LinkPanel>
+                    <NextLink href="/personvern-under-oppfolging" passHref legacyBehavior>
+                        <LinkPanel className="arb-link-panel arb-tertiary-bg-text mb-1">
+                            <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
+                                For deg som er under arbeidsrettet oppfølging fra NAV
+                            </LinkPanel.Title>
+                            <LinkPanel.Description className="navds-link-panel__description navds-body-long">
+                                Dersom du har registrert deg som arbeidssøker hos NAV, gjelder dette deg.
+                            </LinkPanel.Description>
+                        </LinkPanel>
+                    </NextLink>
+                    <NextLink href="/personvern-ikke-under-oppfolging" passHref legacyBehavior>
+                        <LinkPanel className="arb-link-panel arb-tertiary-bg-text mb-1">
+                            <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
+                                For deg som ikke er under arbeidsrettet oppfølging fra NAV
+                            </LinkPanel.Title>
+                        </LinkPanel>
+                    </NextLink>
+                    <NextLink href="/personvern-arbeidsgiver" passHref legacyBehavior>
+                        <LinkPanel className="arb-link-panel arb-tertiary-bg-text">
+                            <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
+                                For deg som representerer en arbeidsgiver
+                            </LinkPanel.Title>
+                        </LinkPanel>
+                    </NextLink>
                 </div>
             </div>
         </Layout>
