@@ -1,6 +1,7 @@
 import { Alert, BodyLong, Heading, Link } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
+import NextLink from "next/link";
 
 export default function workInNorwayRu() {
     return (
@@ -16,12 +17,16 @@ export default function workInNorwayRu() {
                     <ul className="mb-3">
                         <li>
                             <BodyLong lang="en">
-                                <Link href="/en/work-in-norway">Information about working in Norway</Link>
+                                <NextLink href="/en/work-in-norway" passHref legacyBehavior>
+                                    <Link>Information about working in Norway</Link>
+                                </NextLink>
                             </BodyLong>
                         </li>
                         <li>
                             <BodyLong lang="ua">
-                                <Link href="/ua/work-in-norway">Інформація українською мовою</Link>
+                                <NextLink href="/ua/work-in-norway" passHref legacyBehavior>
+                                    <Link>Інформація українською мовою</Link>
+                                </NextLink>
                             </BodyLong>
                         </li>
                         <li>
@@ -29,7 +34,9 @@ export default function workInNorwayRu() {
                         </li>
                         <li>
                             <BodyLong lang="nb">
-                                <Link href="/no/work-in-norway">Informasjon for arbeidsgivere</Link>
+                                <NextLink href="/no/work-in-norway" passHref legacyBehavior>
+                                    <Link>Informasjon for arbeidsgivere</Link>
+                                </NextLink>
                             </BodyLong>
                         </li>
                     </ul>
