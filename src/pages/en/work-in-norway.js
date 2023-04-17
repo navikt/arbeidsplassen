@@ -100,9 +100,9 @@ export default function workInNorwayEn() {
                         certifications. You can search online for “how to write a CV”.
                     </BodyLong>
                     <BodyLong spacing>
-                        <Link href="/articles/slik-skriver-du-en-god-cv">
-                            How to write a good CV (Norwegian language)
-                        </Link>
+                        <NextLink href="/articles/person/slik-skriver-du-en-god-cv" passHref legacyBehavior>
+                            <Link>How to write a good CV (Norwegian language)</Link>
+                        </NextLink>
                     </BodyLong>
                     <BodyLong spacing>
                         If the employer is interested in your application, they will invite you to an interview. This

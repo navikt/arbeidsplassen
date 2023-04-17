@@ -100,9 +100,9 @@ export default function workInNorwayRu() {
                         Вы можете найти много примеров по написанию резюме в интернете.
                     </BodyLong>
                     <BodyLong spacing>
-                        <Link href="/articles/person/slik-skriver-du-en-god-cv">
-                            Как написать хорошее резюме (Информация на норвежском языке)
-                        </Link>
+                        <NextLink href="/articles/person/slik-skriver-du-en-god-cv" passHref legacyBehavior>
+                            <Link>Как написать хорошее резюме (Информация на норвежском языке)</Link>
+                        </NextLink>
                     </BodyLong>
                     <BodyLong spacing>
                         Если работодателя заинтересует Ваша заявка, он пригласит Вас на собеседование по телефону, на

@@ -2,6 +2,7 @@ import { BodyLong, Heading, Link } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import { ChevronLeftIcon } from "@navikt/aksel-icons";
 import Head from "next/head";
+import NextLink from "next/link";
 
 export default function sporsmalOgSvar() {
     return (
@@ -25,7 +26,9 @@ export default function sporsmalOgSvar() {
                     <BodyLong className="mb-3">
                         På arbeidsplassen.no har vi samlet nye, selvbetjente løsninger. Her kan jobbsøkere og
                         arbeidsgivere enkelt finne hverandre.{" "}
-                        <Link href="/om-arbeidsplassen">Les mer om tjenestene på arbeidsplassen.no.</Link>
+                        <NextLink href="/om-arbeidsplassen" passHref legacyBehavior>
+                            <Link>Les mer om tjenestene på arbeidsplassen.no.</Link>
+                        </NextLink>
                     </BodyLong>
 
                     <Heading size="small" level="2" spacing>
@@ -86,7 +89,9 @@ export default function sporsmalOgSvar() {
                     </Heading>
                     <BodyLong>
                         Vi har samlet informasjon om hva du trenger og hvordan du skaffer tilganger på siden{" "}
-                        <Link href="/arbeidsgivertjenester">Hvem kan bruke arbeidsgivertjenestene.</Link>
+                        <NextLink href="/arbeidsgivertjenester" passHref legacyBehavior>
+                            <Link>Hvem kan bruke arbeidsgivertjenestene.</Link>
+                        </NextLink>
                     </BodyLong>
                 </article>
             </div>
