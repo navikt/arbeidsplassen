@@ -1,4 +1,4 @@
-import { BodyLong, Heading, Link } from "@navikt/ds-react";
+import { BodyLong, Heading, Ingress, Link } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
 import Image from "next/image";
@@ -8,18 +8,21 @@ export default function SuperraskSoknadPerson() {
     return (
         <Layout>
             <Head>
-                <title>Superrask søknad – en enklere måte å komme i kontakt med bedrifter - arbeidsplassen.no</title>
+                <title>Nyhet! Superrask søknad - arbeidsplassen.no</title>
             </Head>
             <div className="page-margin-top-and-bottom">
                 <div className="article">
                     <Heading size="xlarge" level="1" spacing>
-                        Superrask søknad – en enklere måte å komme i kontakt med bedrifter
+                        Nyhet! Superrask søknad
                     </Heading>
+
+                    <Ingress spacing>En enklere måte å komme i kontakt med bedrifter</Ingress>
 
                     <div className="mb-3 image-container">
                         <Image
+                            className="article-image"
                             src="/images/jobbsoker.jpg"
-                            alt="En person sitter ved et bord med en tablet foran seg."
+                            alt="En person som skriver på telefonen sin."
                             fill
                         />
                     </div>
