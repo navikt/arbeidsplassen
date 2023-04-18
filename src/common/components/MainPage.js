@@ -11,7 +11,7 @@ const MainPage = () => {
                         Alt av arbeid, <br />
                         samlet på én plass.
                     </Heading>
-                    <Ingress className="arb-ingress-xlarge" spacing>
+                    <Ingress spacing>
                         Finn din neste jobb i Norges største samling av stillinger. Her finner du jobber fra alle
                         bransjer i markedet.
                     </Ingress>

@@ -11,9 +11,7 @@ const MainPageBedrift = () => {
                         medarbeider
                     </Heading>
 
-                    <Ingress className="arb-ingress-xlarge" spacing>
-                        Motta søknader raskt og enkelt fra relevante jobbsøkere.
-                    </Ingress>
+                    <Ingress spacing>Motta søknader raskt og enkelt fra relevante jobbsøkere.</Ingress>
 
                     <div className="mb-4">
                         <Button variant="primary" as="a" href="/stillingsregistrering">
