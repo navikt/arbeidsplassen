@@ -1,7 +1,7 @@
 import { BodyLong, Heading, Link } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
-import ConfusedGrape from "@/src/common/illustrations/ConfusedGrape";
+import ConfusedGrape from "@/src/common/components/images/ConfusedGrape";
 
 export default function Custom404() {
     return (
