@@ -21,7 +21,7 @@ export default function overforingAvStillingsannonser() {
                     </Ingress>
 
                     <div className="mb-3 image-container">
-                        <Image src="/images/api.png" alt="API, illustrasjon" fill />
+                        <Image className="article-image" src="/images/api.png" alt="API, illustrasjon" fill />
                     </div>
 
                     <Heading size="large" level="2" spacing>

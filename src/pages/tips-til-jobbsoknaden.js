@@ -22,6 +22,7 @@ export default function TipsTilJobbsoknaden() {
 
                     <div className="mb-3 image-container">
                         <Image
+                            className="article-image"
                             src="/images/students.jpg"
                             alt="3 blide studenter som sitter med mobil og pc og snakker sammen utenfor skolen"
                             fill

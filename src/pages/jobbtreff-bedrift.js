@@ -22,6 +22,7 @@ export default function JobbtreffBedrift() {
 
                     <div className="mb-3 image-container">
                         <Image
+                            className="article-image"
                             src="/images/skriver.webp"
                             alt="Person som skriver på en datamaskin"
                             fill

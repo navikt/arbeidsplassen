@@ -22,6 +22,7 @@ export default function jobbeiUtlandet() {
 
                     <div className="mb-3 image-container">
                         <Image
+                            className="article-image"
                             src="/images/eures.png"
                             alt="Bilde av en globus som viser Europa"
                             fill

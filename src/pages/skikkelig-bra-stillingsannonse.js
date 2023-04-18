@@ -22,6 +22,7 @@ export default function SkikkeligBraStillingsannonse() {
 
                     <div className="mb-3 image-container">
                         <Image
+                            className="article-image"
                             src="/images/stillingsannonse.jpg"
                             alt="Person som skriver på en skrivemaskin"
                             fill
