@@ -5,27 +5,23 @@ import Head from "next/head";
 export async function getStaticProps() {
     let positionCount;
     try {
-        const response = await fetch("http://localhost:9000/ad/_search", {
+        const response = await fetch("http://pam-search-api/ad/_search", {
             method: "POST",
             body: JSON.stringify({
-                aggs: {
-                    positioncount: {
+                query: {
+                    bool: {
                         filter: {
-                            bool: {
-                                filter: {
-                                    term: {
-                                        status: "ACTIVE",
-                                    },
-                                },
+                            term: {
+                                status: "ACTIVE",
                             },
                         },
-                        aggs: {
-                            sum: {
-                                sum: {
-                                    field: "properties.positioncount",
-                                    missing: 1,
-                                },
-                            },
+                    },
+                },
+                aggs: {
+                    positioncount: {
+                        sum: {
+                            field: "properties.positioncount",
+                            missing: 1,
                         },
                     },
                 },
@@ -36,7 +32,7 @@ export async function getStaticProps() {
         });
         const data = await response.json();
         console.log("data:", data);
-        positionCount = data.aggregations.positioncount.sum.value;
+        positionCount = data.aggregations.positioncount.value;
     } catch (err) {
         positionCount = null;
     }
