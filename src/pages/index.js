@@ -5,7 +5,8 @@ import Head from "next/head";
 export async function getStaticProps() {
     let positionCount;
     try {
-        const response = await fetch("http://pam-search-api/ad/_search", {
+        const host = process.env.NODE_ENV === "development" ? "http://localhost:9000" : "http://pam-search-api";
+        const response = await fetch(`${host}/ad/_search`, {
             method: "POST",
             body: JSON.stringify({
                 query: {
