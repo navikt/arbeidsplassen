@@ -2,7 +2,7 @@ import { Button, Heading, Ingress, LinkPanel } from "@navikt/ds-react";
 import InformationUkraine from "@/src/common/components/banners/InformationUkraine";
 import IllustrationPerson from "@/src/common/components/images/IllustrationPerson";
 
-const MainPage = () => {
+const MainPage = ({ positionCount }) => {
     return (
         <div className="container-large person-page page-margin-top-and-bottom mb-6">
             <section className="arb-home-section-flex">
@@ -24,7 +24,7 @@ const MainPage = () => {
                 </div>
 
                 <div className="arb-home-illustration arb-home-illustration-person">
-                    <IllustrationPerson />
+                    <IllustrationPerson positionCount={positionCount} />
                 </div>
             </section>
 

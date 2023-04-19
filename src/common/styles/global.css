@@ -16,19 +16,6 @@ body {
     height: 100%;
 }
 
-.push-footer-down {
-    min-height: 100%;
-    margin-bottom: -764px;
-    padding-bottom: 764px;
-}
-
-@media (min-width: 940px) {
-    .push-footer-down {
-        margin-bottom: -464px;
-        padding-bottom: 464px;
-    }
-}
-
 .page-margin-top-and-bottom {
     margin-top: 2rem;
     margin-bottom: 2rem;

@@ -1,4 +1,4 @@
-export default function IllustrationPerson({ className }) {
+export default function IllustrationPerson({ className, positionCount }) {
     return (
         <svg
             className={className}
@@ -12,6 +12,9 @@ export default function IllustrationPerson({ className }) {
                 d="M295.857 207.985C291.374 227.521 180.21 227.947 152.634 227.947C125.058 227.947 -5.59799 229.688 0.18626 213.165C5.97051 196.641 106.962 185.739 152.634 195.972C198.306 206.205 300.34 188.449 295.857 207.985Z"
                 fill="#DFE2F3"
             />
+            <text fill="#003141" x="0" y="20">
+                {positionCount} ledige stillinger!
+            </text>
             <path
                 d="M262.682 83.806C281.025 95.0157 291.527 102.097 289.655 126.284M289.076 131.638C289.331 129.764 289.523 127.982 289.655 126.284M289.655 126.284L285.072 131.638M289.655 126.284L293.5 131.638"
                 stroke="#024B62"
