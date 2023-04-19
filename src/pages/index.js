@@ -15,20 +15,18 @@ export async function getStaticProps() {
     return {
         props: {
             positionCount,
-            revalidated: new Date().getTime(),
         },
         revalidate: 60, // In seconds
     };
 }
 
-export default function Page({ positionCount, revalidated }) {
+export default function Page({ positionCount }) {
     return (
         <Layout active="person">
             <Head>
                 <title>Arbeidsplassen - arbeidsplassen.no</title>
             </Head>
             <MainPage positionCount={positionCount} />
-            <div>{revalidated}</div>
         </Layout>
     );
 }
