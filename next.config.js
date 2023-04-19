@@ -2,10 +2,10 @@
 
 const ContentSecurityPolicy = `
   default-src 'self';
-  script-src 'self';
-  child-src example.com;
-  style-src 'self' example.com;
-  font-src 'self';  
+  script-src 'self' nav.no;
+  child-src nav.no;
+  style-src 'self' nav.no;
+  font-src 'self' nav.no;  
 `
 
 const securityHeaders = [
