@@ -4,8 +4,9 @@ import Head from "next/head";
 
 export async function getStaticProps() {
     let positionCount;
+    let error = null;
     try {
-        const host = process.env.NODE_ENV === "development" ? "http://localhost:9000" : "http://pam-search-api.default";
+        const host = process.env.NODE_ENV === "development" ? "http://localhost:9000" : "http://pam-search-api";
         const response = await fetch(`${host}/ad/_search`, {
             method: "POST",
             body: JSON.stringify({
@@ -36,22 +37,25 @@ export async function getStaticProps() {
         positionCount = data.aggregations.positioncount.value;
     } catch (err) {
         positionCount = null;
+        error = JSON.stringify(err);
     }
 
     return {
         props: {
             positionCount,
+            error,
         },
     };
 }
 
-export default function Page({ positionCount }) {
+export default function Page({ positionCount, error }) {
     return (
         <Layout active="person">
             <Head>
                 <title>Arbeidsplassen - arbeidsplassen.no</title>
             </Head>
             <MainPage positionCount={positionCount} />
+            <p>Error: {error}</p>
         </Layout>
     );
 }
