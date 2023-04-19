@@ -44,7 +44,7 @@ export default function arbeidsgivertjenester() {
                 <Heading size="medium" level="3" spacing>
                     Mer hjelp
                 </Heading>
-                <ul className="mb-3 no-list-style">
+                <ul className="mb-3">
                     <li>
                         <BodyLong className="mb-0_5">
                             <Link href="https://www.nav.no/_/attachment/inline/961aafd3-c5d8-4d23-aedc-e2960daf055b:66beb823fa6f6d064a4a6875378c11339312fa2d/sjekk-om-en-ansatt-har-rettigheten-rekruttering.pdf">

@@ -2,18 +2,6 @@
     border-radius: 96px 0 0 0;
 }
 
-.arb-article-figure-pull-outside {
-    width: 100%;
-}
-
-@media (min-width: 928px) {
-    .arb-article-figure-pull-outside {
-        width: 800px;
-        margin-left: -100px;
-        margin-right: -100px;
-    }
-}
-
 .article-panel {
     border-radius: 0 0 4px 4px;
     position: relative;
