@@ -4,35 +4,39 @@ import Head from "next/head";
 
 export async function getStaticProps() {
     let positionCount;
-    const host = process.env.NODE_ENV === "development" ? "http://localhost:2000" : "http://pam-search-api";
-    const response = await fetch(`${host}/ad/_search`, {
-        method: "POST",
-        body: JSON.stringify({
-            query: {
-                bool: {
-                    filter: {
-                        term: {
-                            status: "ACTIVE",
+    try {
+        const host = process.env.NODE_ENV === "development" ? "http://localhost:9000" : "http://pam-search-api.default";
+        const response = await fetch(`${host}/ad/_search`, {
+            method: "POST",
+            body: JSON.stringify({
+                query: {
+                    bool: {
+                        filter: {
+                            term: {
+                                status: "ACTIVE",
+                            },
                         },
                     },
                 },
-            },
-            aggs: {
-                positioncount: {
-                    sum: {
-                        field: "properties.positioncount",
-                        missing: 1,
+                aggs: {
+                    positioncount: {
+                        sum: {
+                            field: "properties.positioncount",
+                            missing: 1,
+                        },
                     },
                 },
+            }),
+            headers: {
+                "Content-Type": "application/json",
             },
-        }),
-        headers: {
-            "Content-Type": "application/json",
-        },
-    });
-    const data = await response.json();
-    console.log("data:", data);
-    positionCount = data.aggregations.positioncount.value;
+        });
+        const data = await response.json();
+        console.log("data:", data);
+        positionCount = data.aggregations.positioncount.value;
+    } catch (err) {
+        positionCount = null;
+    }
 
     return {
         props: {
