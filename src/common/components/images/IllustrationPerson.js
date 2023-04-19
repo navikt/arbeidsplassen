@@ -14,13 +14,13 @@ export default function IllustrationPerson({ className, positionCount }) {
                     fill="#C1F3DB"
                 />
                 <text fill="#003141" x="200" y="20">
-                    <tspan x="70" dy="1.2rem">
+                    <tspan x="64" dy="1.2rem">
                         {positionCount ? positionCount : "Mange"}
                     </tspan>
-                    <tspan x="72" dy="1.2rem">
+                    <tspan x="64" dy="1.2rem">
                         ledige
                     </tspan>
-                    <tspan x="60" dy="1.2rem">
+                    <tspan x="64" dy="1.2rem">
                         stillinger!
                     </tspan>
                 </text>
