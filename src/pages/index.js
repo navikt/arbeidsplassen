@@ -5,7 +5,7 @@ import Head from "next/head";
 export async function getStaticProps() {
     let positionCount;
     try {
-        const response = await fetch("https://arbeidsplassen.nav.no/stillinger/api/search?from=0&size=1");
+        const response = await fetch("https://arbeidsplassen.dev.nav.no/stillinger/api/search?from=0&size=1");
         const data = await response.json();
         positionCount = data.aggregations.positioncount.sum.value;
     } catch (err) {
