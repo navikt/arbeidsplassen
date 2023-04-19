@@ -5,7 +5,12 @@ import Head from "next/head";
 export async function getStaticProps() {
     let positionCount;
     try {
-        const response = await fetch("http://pam-search-api/stillingsok/ad/_search?from=0&size=1");
+        const response = await fetch("http://pam-search-api/stillingsok/ad/_search?from=0&size=1", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+            },
+        });
         const data = await response.json();
         positionCount = data.aggregations.positioncount.sum.value;
     } catch (err) {
