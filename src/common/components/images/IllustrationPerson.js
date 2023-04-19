@@ -13,7 +13,7 @@ export default function IllustrationPerson({ className, positionCount }) {
                 fill="#DFE2F3"
             />
             <text fill="#003141" x="0" y="20">
-                {positionCount} ledige stillinger!
+                {positionCount ? positionCount : "Mange"} ledige stillinger!
             </text>
             <path
                 d="M262.682 83.806C281.025 95.0157 291.527 102.097 289.655 126.284M289.076 131.638C289.331 129.764 289.523 127.982 289.655 126.284M289.655 126.284L285.072 131.638M289.655 126.284L293.5 131.638"
