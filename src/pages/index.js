@@ -4,48 +4,57 @@ import Head from "next/head";
 
 export async function getStaticProps() {
     let positionCount;
-    let resp;
-    let code;
-    let error = null;
     try {
-        const response = await fetch("http://pam-search-api/stillingsok/ad/_search?from=0&size=1", {
+        const response = await fetch("http://localhost:9000/ad/_search", {
             method: "POST",
+            body: JSON.stringify({
+                aggs: {
+                    positioncount: {
+                        filter: {
+                            bool: {
+                                filter: {
+                                    term: {
+                                        status: "ACTIVE",
+                                    },
+                                },
+                            },
+                        },
+                        aggs: {
+                            sum: {
+                                sum: {
+                                    field: "properties.positioncount",
+                                    missing: 1,
+                                },
+                            },
+                        },
+                    },
+                },
+            }),
             headers: {
                 "Content-Type": "application/json",
             },
         });
-        resp = JSON.stringify(data);
-        code = response.status || response.statusCode;
         const data = await response.json();
+        console.log("data:", data);
         positionCount = data.aggregations.positioncount.sum.value;
     } catch (err) {
-        error = JSON.stringify(err);
         positionCount = null;
-        resp = null;
-        code = null;
     }
 
     return {
         props: {
             positionCount,
-            resp,
-            code,
-            error,
         },
-        revalidate: 60, // In seconds
     };
 }
 
-export default function Page({ positionCount, code, resp, error }) {
+export default function Page({ positionCount }) {
     return (
         <Layout active="person">
             <Head>
                 <title>Arbeidsplassen - arbeidsplassen.no</title>
             </Head>
             <MainPage positionCount={positionCount} />
-            <p>{code}</p>
-            <p>{resp}</p>
-            <p>{error}</p>
         </Layout>
     );
 }
