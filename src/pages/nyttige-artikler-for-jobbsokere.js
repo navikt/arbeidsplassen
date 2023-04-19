@@ -1,15 +1,15 @@
 import { Heading } from "@navikt/ds-react";
-import LayoutArticlePage from "@/src/common/components/layout/LayoutArticlePage";
 import Head from "next/head";
 import ImageLinkPanel from "@/src/common/components/ImageLinkPanel";
+import Layout from "@/src/common/components/layout/Layout";
 
 export default function ArticlePagePerson() {
     return (
-        <LayoutArticlePage>
+        <Layout>
             <Head>
                 <title>Nyttige artikler for jobbsøkere - arbeidsplassen.no</title>
             </Head>
-            <div className="page-margin-top-and-bottom">
+            <div className="container-medium page-margin-top-and-bottom">
                 <section className="arb-home-section-flex">
                     <section className="arb-home-div-width">
                         <div className="article-page">
@@ -55,6 +55,6 @@ export default function ArticlePagePerson() {
                     </section>
                 </section>
             </div>
-        </LayoutArticlePage>
+        </Layout>
     );
 }

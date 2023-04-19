@@ -23,7 +23,7 @@ export default function Layout({ children, active }) {
                     onLogout={logout}
                     authenticationStatus={authStatus}
                 />
-                <main className="content">{children}</main>
+                <main>{children}</main>
             </div>
             <Footer />
         </>

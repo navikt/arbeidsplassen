@@ -29,30 +29,6 @@ body {
     }
 }
 
-.content {
-    max-width: 1300px;
-    margin: auto;
-    padding: 0 1rem;
-}
-
-@media (min-width: 900px) {
-    .content {
-        padding: 0 2.5rem;
-    }
-}
-
-.content-article-page {
-    max-width: 800px;
-    margin: auto;
-    padding: 0 1rem;
-}
-
-@media (min-width: 600px) {
-    .content-article-page {
-        padding: 0 2.5rem;
-    }
-}
-
 .page-margin-top-and-bottom {
     margin-top: 2rem;
     margin-bottom: 2rem;

@@ -16,4 +16,4 @@ const ImageLinkPanel = ({ href, image, alt, title, description, ...args }) => {
     );
 };
 
- export default ImageLinkPanel;
+export default ImageLinkPanel;

@@ -3,7 +3,7 @@ import IllustrationBedrift from "@/src/common/components/images/IllustrationBedr
 
 const MainPageBedrift = () => {
     return (
-        <div className="company-page page-margin-top-and-bottom mb-6">
+        <div className="container-large company-page page-margin-top-and-bottom mb-6">
             <section className="arb-home-section-flex">
                 <div className="arb-home-div-width">
                     <Heading size="xlarge" level="1" spacing>
