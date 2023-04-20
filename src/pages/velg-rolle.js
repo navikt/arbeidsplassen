@@ -3,7 +3,6 @@ import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
 
 export default function velgRolle() {
-    //console.log(`window.location: ${window.location.host}`)
     return (
         <Layout>
             <Head>
