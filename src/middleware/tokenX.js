@@ -1,5 +1,6 @@
-const { Issuer } = require("openid-client");
-const { createRemoteJWKSet, jwtVerify } =  require('jose');
+
+import { createRemoteJWKSet, jwtVerify } from 'jose';
+import { Issuer } from "openid-client";
 
 let tokenXClient;
 
@@ -7,12 +8,14 @@ let tokenXIssuer;
 let idPortenIssuer;
 let remoteJWKSet;
 
-async function initializeTokenX() {
+export async function initializeTokenX(req, res, next) {
     try {
         await initIssuerAndClient();
         opprettRemoteJWKSet();
     } catch (e) {
         throw Error('Klarte ikke å initialisere TokenX:' + e);
+    } finally {
+        next();
     }
 }
 
