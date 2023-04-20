@@ -11,11 +11,10 @@
   },
   "dependencies": {
     "@navikt/aksel-icons": "^2.8.8",
-    "@navikt/arbeidsplassen-css": "^1.1.1",
-    "@navikt/arbeidsplassen-react": "^1.1.1",
+    "@navikt/arbeidsplassen-css": "^1.1.10",
+    "@navikt/arbeidsplassen-react": "^1.1.10",
     "@navikt/ds-css": "^2.8.7",
     "@navikt/ds-react": "^2.8.7",
-    "@next/font": "13.1.6",
     "eslint": "8.34.0",
     "eslint-config-next": "13.1.6",
     "jose": "^4.14.1",

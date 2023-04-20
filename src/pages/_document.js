@@ -1,4 +1,4 @@
-import { Html, Head, Main, NextScript } from "next/document";
+import { Head, Html, Main, NextScript } from "next/document";
 
 export default function Document() {
     return (
@@ -12,7 +12,7 @@ export default function Document() {
                     rel="stylesheet"
                 />
             </Head>
-            <body data-theme="arbeidsplassen" data-font="Inter">
+            <body data-theme="arbeidsplassen">
                 <Main />
                 <NextScript />
             </body>

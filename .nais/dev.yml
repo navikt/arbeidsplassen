@@ -1,6 +1,5 @@
-ingress: ["https://arbeidsplassen.dev.nav.no"]
+ingress: ["https://arbeidsplassen.dev.nav.no", "https://arbeidsplassen.intern.dev.nav.no"]
 loglevel: "debug"
-ws_server_hostname: "arbeidsplassen.dev.nav.no"
 namespace: "teampam"
 loginurl: "https://arbeidsplassen.dev.nav.no/oauth2/login"
 logouturl: "https://arbeidsplassen.dev.nav.no/oauth2/logout"

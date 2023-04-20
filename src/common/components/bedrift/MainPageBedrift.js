@@ -1,9 +1,9 @@
-import { Button, Heading, Ingress, Link, LinkPanel } from "@navikt/ds-react";
+import { Button, Heading, Ingress, LinkPanel } from "@navikt/ds-react";
 import IllustrationBedrift from "@/src/common/components/images/IllustrationBedrift";
 
 const MainPageBedrift = () => {
     return (
-        <div className="company-page page-margin-top-and-bottom mb-6">
+        <div className="container-large company-page page-margin-top-and-bottom mb-6">
             <section className="arb-home-section-flex">
                 <div className="arb-home-div-width">
                     <Heading size="xlarge" level="1" spacing>
@@ -11,12 +11,10 @@ const MainPageBedrift = () => {
                         medarbeider
                     </Heading>
 
-                    <Ingress className="arb-ingress-xlarge" spacing>
-                        Motta søknader raskt og enkelt fra relevante jobbsøkere.
-                    </Ingress>
+                    <Ingress spacing>Motta søknader raskt og enkelt fra relevante jobbsøkere.</Ingress>
 
                     <div className="mb-4">
-                        <Button variant="primary" as="a" href="https://arbeidsplassen.nav.no/stillingsregistrering">
+                        <Button variant="primary" as="a" href="/stillingsregistrering">
                             Gå til din side bedrift
                         </Button>
                     </div>
@@ -29,6 +27,17 @@ const MainPageBedrift = () => {
 
             <section>
                 <div className="arb-link-panel-grid">
+                    <LinkPanel
+                        className="arb-primary-bg-text arb-link-panel"
+                        href="/articles/bedrift/superrask-soknad-bedrift"
+                    >
+                        <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
+                            Nyhet! Superrask søknad
+                        </LinkPanel.Title>
+                        <LinkPanel.Description className="navds-link-panel__description navds-body-long">
+                            En enklere måte å komme i kontakt med relevante jobbsøkere.
+                        </LinkPanel.Description>
+                    </LinkPanel>
                     <LinkPanel
                         className="arb-secondary-bg-text arb-link-panel"
                         href="/articles/bedrift/skikkelig-bra-stillingsannonse"
@@ -48,7 +57,7 @@ const MainPageBedrift = () => {
                             Les hvordan du som arbeidsgiver kan ta i bruk våre tjenester i dag.
                         </LinkPanel.Description>
                     </LinkPanel>
-                    <LinkPanel className="arb-primary-bg-text arb-link-panel" href="/no/work-in-norway">
+                    <LinkPanel className="arb-primary-bg-text arb-link-panel" href="/work-in-norway-no">
                         <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                             Ønsker du å rekruttere flyktninger?
                         </LinkPanel.Title>

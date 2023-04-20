@@ -14,7 +14,7 @@ export default function Layout({ children, active }) {
 
     return (
         <>
-            <div className="push-footer-down">
+            <div className="arb-push-footer-down">
                 <SkipLink />
                 <Header
                     variant="all"
@@ -23,7 +23,7 @@ export default function Layout({ children, active }) {
                     onLogout={logout}
                     authenticationStatus={authStatus}
                 />
-                <main className="content">{children}</main>
+                <main>{children}</main>
             </div>
             <Footer />
         </>

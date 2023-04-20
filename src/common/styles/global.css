@@ -16,31 +16,6 @@ body {
     height: 100%;
 }
 
-.push-footer-down {
-    min-height: 100%;
-    margin-bottom: -764px;
-    padding-bottom: 764px;
-}
-
-@media (min-width: 940px) {
-    .push-footer-down {
-        margin-bottom: -464px;
-        padding-bottom: 464px;
-    }
-}
-
-.content {
-    max-width: 1300px;
-    margin: auto;
-    padding: 0 1rem;
-}
-
-@media (min-width: 900px) {
-    .content {
-        padding: 0 2.5rem;
-    }
-}
-
 .page-margin-top-and-bottom {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -104,9 +79,4 @@ body {
     padding-left: 0;
     justify-content: center;
     margin: 0;
-}
-
-.no-list-style {
-    list-style: none;
-    padding: 0;
 }
