@@ -13,17 +13,19 @@ export default function IllustrationPerson({ className, positionCount }) {
                     d="M93.5 107C63.9528 107 40 83.0472 40 53.5C40 23.9528 63.9528 0 93.5 0C123.047 0 147 23.9528 147 53.5V107H93.5Z"
                     fill="#C1F3DB"
                 />
-                <text fill="#003141" x="200" y="20">
-                    <tspan x="64" dy="1.2rem">
-                        {positionCount ? positionCount : "Mange"}
-                    </tspan>
-                    <tspan x="64" dy="1.2rem">
-                        ledige
-                    </tspan>
-                    <tspan x="64" dy="1.2rem">
-                        stillinger!
-                    </tspan>
-                </text>
+                {positionCount && (
+                    <text fill="#003141" x="200" y="20">
+                        <tspan x="64" dy="1.2rem">
+                            {positionCount}
+                        </tspan>
+                        <tspan x="64" dy="1.2rem">
+                            ledige
+                        </tspan>
+                        <tspan x="64" dy="1.2rem">
+                            stillinger!
+                        </tspan>
+                    </text>
+                )}
             </g>
             <path
                 d="M295.857 290.985C291.374 310.521 180.21 310.947 152.634 310.947C125.058 310.947 -5.59799 312.688 0.18626 296.165C5.97051 279.641 106.962 268.739 152.634 278.972C198.306 289.205 300.34 271.449 295.857 290.985Z"
