@@ -3,7 +3,7 @@ import NextLink from "next/link";
 
 export default function InformationUkraine() {
     return (
-        <Panel className="arb-tertiary-bg-text text-center">
+        <Panel className="container-large arb-tertiary-bg-text text-center">
             <Heading spacing level="2" size="large">
                 Information about working in Norway for refugees from Ukraine 🇺🇦
             </Heading>

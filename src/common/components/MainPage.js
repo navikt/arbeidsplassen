@@ -64,7 +64,7 @@ const MainPage = () => {
                     </LinkPanel>
                 </div>
             </div>
-            <div className="mb-6">
+            <div className="mb-6 arb-tertiary-bg-text">
                 <InformationUkraine />
             </div>
         </>
