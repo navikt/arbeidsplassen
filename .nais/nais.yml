@@ -32,8 +32,6 @@ spec:
     sidecar:
       enabled: true
       level: Level3
-  tokenx:
-    enabled: true
   prometheus:
     enabled: true
     path: /metrics
