@@ -23,8 +23,7 @@ const AuthenticationProvider = ({ children }) => {
     const fetchIsAuthenticated = () => {
         setAuthenticationStatus(AuthenticationStatus.IS_FETCHING);
 
-        // todo hvilken url?
-        fetch(`/todo/isAuthenticated`, {
+        fetch(`/api/isAuthenticated`, {
             credentials: "include",
         })
             .then((response) => {
@@ -46,8 +45,7 @@ const AuthenticationProvider = ({ children }) => {
     }
 
     function logout() {
-        // todo hvilken url?
-        window.location.href = `/todo`;
+        window.location.href = `/oauth2/logout?redirect=/`;
     }
 
     return (

@@ -27,6 +27,13 @@ spec:
       memory: 256Mi
   vault:
     enabled: false
+  idporten:
+    enabled: true
+    sidecar:
+      enabled: true
+      level: Level3
+  tokenx:
+    enabled: true
   prometheus:
     enabled: true
     path: /metrics
@@ -37,10 +44,10 @@ spec:
   env:
     - name: PORT
       value: "8080"
-    - name: LOGINSERVICE_URL
-      value: {{ loginservice }}
-    - name: LOGOUTSERVICE_URL
-      value: {{ logoutservice }}
+    - name: LOGIN_URL
+      value: {{ loginurl }}
+    - name: LOGOUT_URL
+      value: {{ logouturl }}
     - name: PAM_STILLINGSOK_URL
       value: {{ stillingssok }}
     - name: LOGIN_JOBBSOKER_REDIRECT_URL
@@ -49,3 +56,5 @@ spec:
       value: {{ loginArbeidsgiverRedirectUrl }}
     - name: PAM_SAMTYKKE_API_URL
       value: {{ pam_samtykke_api_url }}
+    - name: IDPORTEN_AUDIENCE
+      value: {{ idporten_audience }}
