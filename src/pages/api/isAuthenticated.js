@@ -12,11 +12,8 @@ async function performSetup() {
         return;
 
     try {
-        console.log("Performing setup");
         tokenXIssuer = await Issuer.discover(process.env.TOKEN_X_WELL_KNOWN_URL);
-        console.log("Success: tokenXIssuer");
         idPortenIssuer = await Issuer.discover(process.env.IDPORTEN_WELL_KNOWN_URL);
-        console.log("Success: idPortenIssuer");
         tokenXClient = new tokenXIssuer.Client(
             {
                 client_id: process.env.TOKEN_X_CLIENT_ID,
@@ -27,10 +24,8 @@ async function performSetup() {
                 keys: [JSON.parse(process.env.TOKEN_X_PRIVATE_JWK)],
             }
         );
-        console.log("Success: tokenXClient");
         const jwksUrl = new URL(process.env.IDPORTEN_JWKS_URI);
         remoteJWKSet = createRemoteJWKSet(jwksUrl);
-        console.log("Success: jwksUrl");
 
         // success
         initialized = true;
@@ -49,7 +44,7 @@ async function tokenIsValid(token) {
 
         return !!verification.payload;
     } catch (e) {
-        console.error(`An error occurred during token validation: ${e.message}`);
+        throw new Error(`An error occurred during token validation: ${e.message}`);
         return false;
     }
 }
@@ -75,13 +70,12 @@ async function getTokenX(token, audience) {
             additionalClaims
         );
     } catch (e) {
-        console.error(`Could not exchange to tokenX: ${e.message}`);
+        throw new Error(`Could not exchange to tokenX: ${e.message}`);
     }
     return tokenX;
 }
 
 export default async function handler(req, res) {
-    console.log(`initialized: ${initialized}`)
     await performSetup();
 
     if (req.headers.authorization) {
