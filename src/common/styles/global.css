@@ -80,3 +80,13 @@ body {
     justify-content: center;
     margin: 0;
 }
+
+.IllustrationPerson {
+    opacity: 0;
+    transition: opacity 500ms;
+}
+
+.IllustrationPerson--visible {
+    opacity: 1;
+}
+
