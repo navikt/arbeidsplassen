@@ -8,9 +8,15 @@ let tokenXClient;
 let remoteJWKSet;
 
 async function performSetup() {
+    if (initialized)
+        return;
+
     try {
+        console.log("Performing setup");
         tokenXIssuer = await Issuer.discover(process.env.TOKEN_X_WELL_KNOWN_URL);
+        console.log("Success: tokenXIssuer");
         idPortenIssuer = await Issuer.discover(process.env.IDPORTEN_WELL_KNOWN_URL);
+        console.log("Success: idPortenIssuer");
         tokenXClient = new tokenXIssuer.Client(
             {
                 client_id: process.env.TOKEN_X_CLIENT_ID,
@@ -21,8 +27,10 @@ async function performSetup() {
                 keys: [JSON.parse(process.env.TOKEN_X_PRIVATE_JWK)],
             }
         );
+        console.log("Success: tokenXClient");
         const jwksUrl = new URL(process.env.IDPORTEN_JWKS_URI);
         remoteJWKSet = createRemoteJWKSet(jwksUrl);
+        console.log("Success: jwksUrl");
 
         // success
         initialized = true;
@@ -73,13 +81,8 @@ async function getTokenX(token, audience) {
 }
 
 export default async function handler(req, res) {
-    if (!initialized)
-        try {
-            await performSetup();
-        } catch (e) {
-            res.status(500).send("Could not perform setup");
-            return;
-        }
+    console.log(`initialized: ${initialized}`)
+    await performSetup();
 
     if (req.headers.authorization) {
         const accessToken = req.headers.authorization.split(" ")[1];
