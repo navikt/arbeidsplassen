@@ -27,10 +27,7 @@ const MainPageBedrift = () => {
 
             <section>
                 <div className="arb-link-panel-grid">
-                    <LinkPanel
-                        className="arb-primary-bg-text arb-link-panel"
-                        href="/articles/bedrift/superrask-soknad-bedrift"
-                    >
+                    <LinkPanel className="arb-primary-bg-text arb-link-panel" href="/superrask-soknad-bedrift">
                         <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                             Nyhet! Superrask søknad
                         </LinkPanel.Title>
@@ -38,10 +35,7 @@ const MainPageBedrift = () => {
                             En enklere måte å komme i kontakt med relevante jobbsøkere.
                         </LinkPanel.Description>
                     </LinkPanel>
-                    <LinkPanel
-                        className="arb-secondary-bg-text arb-link-panel"
-                        href="/articles/bedrift/skikkelig-bra-stillingsannonse"
-                    >
+                    <LinkPanel className="arb-secondary-bg-text arb-link-panel" href="/skikkelig-bra-stillingsannonse">
                         <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                             Hvordan skrive en skikkelig bra stillingsannonse?
                         </LinkPanel.Title>
