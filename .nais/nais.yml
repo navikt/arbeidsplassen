@@ -44,17 +44,5 @@ spec:
   env:
     - name: PORT
       value: "8080"
-    - name: LOGIN_URL
-      value: {{ loginurl }}
-    - name: LOGOUT_URL
-      value: {{ logouturl }}
-    - name: PAM_STILLINGSOK_URL
-      value: {{ stillingssok }}
-    - name: LOGIN_JOBBSOKER_REDIRECT_URL
-      value: {{ loginJobbsokerRedirectUrl }}
-    - name: LOGIN_ARBEIDSGIVER_REDIRECT_URL
-      value: {{ loginArbeidsgiverRedirectUrl }}
     - name: PAM_SAMTYKKE_API_URL
       value: {{ pam_samtykke_api_url }}
-    - name: IDPORTEN_AUDIENCE
-      value: {{ idporten_audience }}

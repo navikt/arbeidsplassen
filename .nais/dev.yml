@@ -1,9 +1,4 @@
 ingress: ["https://arbeidsplassen.dev.nav.no", "https://arbeidsplassen.intern.dev.nav.no"]
 loglevel: "debug"
 namespace: "teampam"
-loginurl: "https://arbeidsplassen.dev.nav.no/oauth2/login"
-logouturl: "https://arbeidsplassen.dev.nav.no/oauth2/logout"
-stillingssok: "https://arbeidsplassen.intern.dev.nav.no/stillinger"
-loginJobbsokerRedirectUrl: "https://arbeidsplassen.intern.dev.nav.no/minside"
-loginArbeidsgiverRedirectUrl: "https://arbeidsplassen.intern.dev.nav.no/stillingsregistrering"
 pam_samtykke_api_url: "https://pam-samtykke-api-tokenx-proxy.dev-fss-pub.nais.io"
