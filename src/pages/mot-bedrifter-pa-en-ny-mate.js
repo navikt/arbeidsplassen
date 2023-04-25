@@ -71,7 +71,7 @@ export default function MotBedrifterPaEnNyMate() {
 
             <div className="container-medium mb-6">
                 <Heading size="large" level="1" spacing>
-                    Videre lesing
+                    Videre lesning
                 </Heading>
                 <div className="article-link-panel-grid">
                     <ImageLinkPanelArticle

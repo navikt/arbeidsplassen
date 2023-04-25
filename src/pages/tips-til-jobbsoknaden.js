@@ -125,15 +125,15 @@ export default function TipsTilJobbsoknaden() {
 
             <div className="container-medium mb-6">
                 <Heading size="large" level="1" spacing>
-                    Videre lesing
+                    Videre lesning
                 </Heading>
                 <div className="article-link-panel-grid">
                     <ImageLinkPanelArticle
                         className="arb-primary-bg-text arb-link-panel article-panel-link ml-4"
-                        image="/images/students.jpg"
-                        title="Tips til jobbsøknaden"
-                        description="Les våre tips om hvordan skrive søknaden slik at en arbeidsgiver får lyst til å møte akkurat deg."
-                        href="/tips-til-jobbsoknaden"
+                        image="/images/jobbtreff.webp"
+                        title="Jobbtreff – møt nye bedrifter på en ny måte"
+                        description="Følg en direkte sending der bedriften forteller om seg selv og hva slags stillinger du kan søke på."
+                        href="/mot-nye-bedrifter-pa-en-ny-mate"
                     />
                     <ImageLinkPanelArticle
                         className="arb-secondary-bg-text arb-link-panel article-panel-link ml-4"

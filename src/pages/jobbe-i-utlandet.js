@@ -43,7 +43,7 @@ export default function jobbeiUtlandet() {
                 </BodyLong>
 
                 <LinkPanel
-                    className="arb-secondary-bg-text arb-link-panel"
+                    className="arb-primary-bg-text arb-link-panel"
                     href="https://ec.europa.eu/eures/public/index_no"
                 >
                     <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
@@ -54,7 +54,7 @@ export default function jobbeiUtlandet() {
 
             <div className="container-medium mb-6">
                 <Heading size="large" level="1" spacing>
-                    Videre lesing
+                    Videre lesning
                 </Heading>
                 <div className="article-link-panel-grid">
                     <ImageLinkPanelArticle
@@ -66,10 +66,10 @@ export default function jobbeiUtlandet() {
                     />
                     <ImageLinkPanelArticle
                         className="arb-secondary-bg-text arb-link-panel article-panel-link ml-4"
-                        image="/images/eures.png"
-                        title="Jobbe i utlandet"
-                        description="Den Europeiske Jobbmobilitetsportslen (EURES) er et tilbud til deg som ønsker å finne en jobb i EU-/EØS-området og Sveits."
-                        href="/jobbe-i-utlandet"
+                        image="/images/jobbsoker.jpg"
+                        title="Nyhet! Superrask søknad"
+                        description="En enklere måte å komme i kontakt med bedrifter."
+                        href="/superrask-soknad-person"
                     />
                 </div>
             </div>
