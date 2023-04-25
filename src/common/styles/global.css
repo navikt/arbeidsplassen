@@ -1,6 +1,11 @@
 html,
 body {
+    height: 100%;
     margin: 0;
+}
+
+html {
+    overflow-y: scroll;
 }
 
 body {
@@ -10,8 +15,8 @@ body {
     font-size: var(--a-font-size-large);
 }
 
-#main-content {
-    min-height: 80vh;
+#__next {
+    height: 100%;
 }
 
 .page-margin-top-and-bottom {
