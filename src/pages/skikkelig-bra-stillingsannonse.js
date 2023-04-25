@@ -1,7 +1,6 @@
 import { BodyLong, Heading, Ingress, LinkPanel } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
-import Image from "next/image";
 
 export default function SkikkeligBraStillingsannonse() {
     return (
@@ -20,11 +19,11 @@ export default function SkikkeligBraStillingsannonse() {
                 </Ingress>
 
                 <div className="mb-3">
-                    <Image
+                    <img
                         className="article-image"
                         src="/images/stillingsannonse.jpg"
                         alt="Person som skriver på en skrivemaskin"
-                        fill
+                        width="100%"
                     />
                 </div>
 

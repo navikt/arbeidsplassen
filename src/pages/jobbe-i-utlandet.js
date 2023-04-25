@@ -1,7 +1,6 @@
 import { BodyLong, Heading, Ingress, LinkPanel } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
-import Image from "next/image";
 
 export default function jobbeiUtlandet() {
     return (
@@ -20,11 +19,11 @@ export default function jobbeiUtlandet() {
                 </Ingress>
 
                 <div className="mb-3">
-                    <Image
+                    <img
                         className="article-image"
                         src="/images/eures.png"
                         alt="Bilde av en globus som viser Europa"
-                        fill
+                        width="100%"
                     />
                 </div>
 

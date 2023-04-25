@@ -1,7 +1,6 @@
 import { BodyLong, Heading, Ingress, Link } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
-import Image from "next/image";
 
 export default function overforingAvStillingsannonser() {
     return (
@@ -20,7 +19,7 @@ export default function overforingAvStillingsannonser() {
                 </Ingress>
 
                 <div className="mb-3">
-                    <Image className="article-image" src="/images/api.png" alt="API, illustrasjon" fill />
+                    <img className="article-image" src="/images/api.png" alt="API, illustrasjon" width="100%" />
                 </div>
 
                 <Heading size="large" level="2" spacing>

@@ -1,7 +1,6 @@
 import { BodyLong, Heading, Ingress } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
-import Image from "next/image";
 
 export default function SuperraskSoknadBedrift() {
     return (
@@ -22,11 +21,11 @@ export default function SuperraskSoknadBedrift() {
                 </Ingress>
 
                 <div className="mb-3">
-                    <Image
+                    <img
                         className="article-image"
                         src="/images/bedrift.jpg"
                         alt="En mann sitter på et kontor og tar en annen i hånden"
-                        fill
+                        width="100%"
                     />
                 </div>
 

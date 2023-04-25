@@ -1,7 +1,6 @@
 import { BodyLong, Heading, Ingress, LinkPanel } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
-import Image from "next/image";
 import React from "react";
 
 export default function SlikSkriverDuEnGodCv() {
@@ -21,11 +20,11 @@ export default function SlikSkriverDuEnGodCv() {
                 </Ingress>
 
                 <div className="mb-3">
-                    <Image
+                    <img
                         className="article-image"
                         src="/images/writing.jpg"
                         alt="En konsentrert person som skriver på datamaskinen sin"
-                        fill
+                        width="100%"
                     />
                 </div>
 
