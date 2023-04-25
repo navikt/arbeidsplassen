@@ -2,6 +2,7 @@ import { BodyLong, Heading, Ingress, LinkPanel } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
 import React from "react";
+import ImageLinkPanelArticle from "@/src/common/components/ImageLinkPanelArticle";
 
 export default function MotBedrifterPaEnNyMate() {
     return (
@@ -9,7 +10,7 @@ export default function MotBedrifterPaEnNyMate() {
             <Head>
                 <title>Jobbtreff – møt bedrifter på en ny måte - arbeidsplassen.no</title>
             </Head>
-            <article className="container-small page-margin-top-and-bottom">
+            <div className="container-small page-margin-top-and-bottom">
                 <Heading size="xlarge" level="1" spacing>
                     Jobbtreff – møt bedrifter på en ny måte
                 </Heading>
@@ -18,16 +19,18 @@ export default function MotBedrifterPaEnNyMate() {
                     Vil du bli kjent med en bedrift? Følg en direkte sending der bedriften forteller om seg selv og hva
                     slags stillinger du kan søke på.
                 </Ingress>
+            </div>
 
-                <div className="mb-3">
-                    <img
-                        className="article-image"
-                        src="/images/jobbtreff.webp"
-                        alt="En person sitter ved et kjøkkenbord med datamaskin foran seg, hun har på hodetelefoner og er nok i gang med en videosamtale."
-                        width="100%"
-                    />
-                </div>
+            <div className="container-medium mb-3">
+                <img
+                    className="article-image"
+                    src="/images/jobbtreff.webp"
+                    alt="En person sitter ved et kjøkkenbord med datamaskin foran seg, hun har på hodetelefoner og er nok i gang med en videosamtale."
+                    width="100%"
+                />
+            </div>
 
+            <div className="container-small mb-4">
                 <BodyLong spacing>
                     Jobbtreff er en ny tjeneste på arbeidsplassen.no. Nå kan du som er jobbsøker bli kjent med en
                     bedrift som trenger folk. De forteller om hva slags kompetanse de trenger og om jobbmulighetene.
@@ -64,7 +67,29 @@ export default function MotBedrifterPaEnNyMate() {
                         Finn kommende jobbtreff
                     </LinkPanel.Title>
                 </LinkPanel>
-            </article>
+            </div>
+
+            <div className="container-medium mb-6">
+                <Heading size="large" level="1" spacing>
+                    Videre lesing
+                </Heading>
+                <div className="article-link-panel-grid">
+                    <ImageLinkPanelArticle
+                        className="arb-primary-bg-text arb-link-panel article-panel-link ml-4"
+                        image="/images/students.jpg"
+                        title="Tips til jobbsøknaden"
+                        description="Les våre tips om hvordan skrive søknaden slik at en arbeidsgiver får lyst til å møte akkurat deg."
+                        href="/tips-til-jobbsoknaden"
+                    />
+                    <ImageLinkPanelArticle
+                        className="arb-secondary-bg-text arb-link-panel article-panel-link ml-4"
+                        image="/images/eures.png"
+                        title="Jobbe i utlandet"
+                        description="Den Europeiske Jobbmobilitetsportslen (EURES) er et tilbud til deg som ønsker å finne en jobb i EU-/EØS-området og Sveits."
+                        href="/jobbe-i-utlandet"
+                    />
+                </div>
+            </div>
         </Layout>
     );
 }

@@ -2,6 +2,7 @@ import { BodyLong, Heading, Ingress, LinkPanel } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
 import React from "react";
+import ImageLinkPanelArticle from "@/src/common/components/ImageLinkPanelArticle";
 
 export default function SlikSkriverDuEnGodCv() {
     return (
@@ -9,7 +10,7 @@ export default function SlikSkriverDuEnGodCv() {
             <Head>
                 <title>Slik skriver du en god CV - arbeidsplassen.no</title>
             </Head>
-            <article className="container-small page-margin-top-and-bottom">
+            <div className="container-small page-margin-top-and-bottom">
                 <Heading size="xlarge" level="1" spacing>
                     Slik skriver du en god CV
                 </Heading>
@@ -18,16 +19,18 @@ export default function SlikSkriverDuEnGodCv() {
                     Med noen enkle grep kan du øke sjansene dine for å bli kalt inn til et intervju. Her får du tipsene
                     som gjør at CV-en din blir lagt merke til.
                 </Ingress>
+            </div>
 
-                <div className="mb-3">
-                    <img
-                        className="article-image"
-                        src="/images/writing.jpg"
-                        alt="En konsentrert person som skriver på datamaskinen sin"
-                        width="100%"
-                    />
-                </div>
+            <div className="container-medium mb-3">
+                <img
+                    className="article-image"
+                    src="/images/writing.jpg"
+                    alt="En konsentrert person som skriver på datamaskinen sin"
+                    width="100%"
+                />
+            </div>
 
+            <div className="container-small mb-4">
                 <Heading size="large" level="2" spacing>
                     CV og søknad
                 </Heading>
@@ -152,12 +155,34 @@ export default function SlikSkriverDuEnGodCv() {
                     </li>
                 </ul>
 
-                <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href="/cv">
+                <LinkPanel className="arb-primary-bg-text arb-link-panel" href="/cv">
                     <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                         Opprett en CV
                     </LinkPanel.Title>
                 </LinkPanel>
-            </article>
+            </div>
+
+            <div className="container-medium mb-6">
+                <Heading size="large" level="1" spacing>
+                    Videre lesing
+                </Heading>
+                <div className="article-link-panel-grid">
+                    <ImageLinkPanelArticle
+                        className="arb-primary-bg-text arb-link-panel article-panel-link ml-4"
+                        image="/images/students.jpg"
+                        title="Tips til jobbsøknaden"
+                        description="Les våre tips om hvordan skrive søknaden slik at en arbeidsgiver får lyst til å møte akkurat deg."
+                        href="/tips-til-jobbsoknaden"
+                    />
+                    <ImageLinkPanelArticle
+                        className="arb-secondary-bg-text arb-link-panel article-panel-link ml-4"
+                        image="/images/eures.png"
+                        title="Jobbe i utlandet"
+                        description="Den Europeiske Jobbmobilitetsportslen (EURES) er et tilbud til deg som ønsker å finne en jobb i EU-/EØS-området og Sveits."
+                        href="/jobbe-i-utlandet"
+                    />
+                </div>
+            </div>
         </Layout>
     );
 }
