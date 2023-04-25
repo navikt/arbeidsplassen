@@ -37,6 +37,10 @@ spec:
   prometheus:
     enabled: true
     path: /metrics
+  accessPolicy:
+    outbound:
+        rules:
+        - application: pam-search-api
   ingresses:
   {{#each ingress as |url|}}
      - {{url}}
