@@ -1,7 +1,6 @@
 import { BodyLong, Heading, Ingress, Link } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
-import Image from "next/image";
 import NextLink from "next/link";
 
 export default function SuperraskSoknadPerson() {
@@ -18,11 +17,11 @@ export default function SuperraskSoknadPerson() {
                 <Ingress spacing>En enklere måte å komme i kontakt med bedrifter</Ingress>
 
                 <div className="mb-3">
-                    <Image
+                    <img
                         className="article-image"
                         src="/images/jobbsoker.jpg"
                         alt="En person som skriver på telefonen sin."
-                        fill
+                        width="100%"
                     />
                 </div>
 

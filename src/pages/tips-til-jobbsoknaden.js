@@ -1,7 +1,6 @@
 import { BodyLong, Heading, Ingress, LinkPanel } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
-import Image from "next/image";
 
 export default function TipsTilJobbsoknaden() {
     return (
@@ -20,11 +19,11 @@ export default function TipsTilJobbsoknaden() {
                 </Ingress>
 
                 <div className="mb-3">
-                    <Image
+                    <img
                         className="article-image"
                         src="/images/students.jpg"
                         alt="3 blide studenter som sitter med mobil og pc og snakker sammen utenfor skolen"
-                        fill
+                        width="100%"
                     />
                 </div>
 

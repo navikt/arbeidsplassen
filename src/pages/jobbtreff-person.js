@@ -2,7 +2,6 @@ import { BodyLong, Heading, Ingress, LinkPanel } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
 import React from "react";
-import Image from "next/image";
 
 export default function JobbtreffPerson() {
     return (
@@ -21,11 +20,11 @@ export default function JobbtreffPerson() {
                 </Ingress>
 
                 <div className="mb-3">
-                    <Image
+                    <img
                         className="article-image"
                         src="/images/jobbtreff.webp"
                         alt="En person sitter ved et kjøkkenbord med datamaskin foran seg, hun har på hodetelefoner og er nok i gang med en videosamtale."
-                        fill
+                        width="100%"
                     />
                 </div>
 
