@@ -1,6 +1,8 @@
 import { BodyLong, Heading, Ingress, Link } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
+import ImageLinkPanelArticle from "@/src/common/components/ImageLinkPanelArticle";
+import React from "react";
 
 export default function overforingAvStillingsannonser() {
     return (
@@ -8,7 +10,7 @@ export default function overforingAvStillingsannonser() {
             <Head>
                 <title>Overføring av stillingsannonser til arbeidsplassen.no - arbeidsplassen.no</title>
             </Head>
-            <article className="container-small page-margin-top-and-bottom">
+            <div className="container-small page-margin-top-and-bottom">
                 <Heading size="xlarge" level="1" spacing>
                     Overføring av stillingsannonser til arbeidsplassen.no
                 </Heading>
@@ -17,11 +19,12 @@ export default function overforingAvStillingsannonser() {
                     NAVs import-API er utviklet for at det skal være enkelt å publisere stillinger på arbeidsplassen.no
                     for våre samarbeidspartnere
                 </Ingress>
+            </div>
 
-                <div className="mb-3">
-                    <img className="article-image" src="/images/api.png" alt="API, illustrasjon" width="100%" />
-                </div>
-
+            <div className="container-medium mb-3">
+                <img className="article-image" src="/images/api.png" alt="API, illustrasjon" width="100%" />
+            </div>
+            <div className="container-small mb-4">
                 <Heading size="large" level="2" spacing>
                     Hvorfor er det bra å publisere stillinger til arbeidsplassen.no?
                 </Heading>
@@ -103,7 +106,29 @@ export default function overforingAvStillingsannonser() {
                     <Link href="mailto:nav.team.arbeidsplassen@nav.no">nav.team.arbeidsplassen@nav.no</Link> dersom dere
                     ønsker å knytte dere til vårt import-API, eller om dere har spørsmål rundt dette.
                 </BodyLong>
-            </article>
+            </div>
+
+            <div className="container-medium mb-6">
+                <Heading size="large" level="1" spacing>
+                    Videre lesing
+                </Heading>
+                <div className="article-link-panel-grid">
+                    <ImageLinkPanelArticle
+                        className="arb-primary-bg-text arb-link-panel article-panel-link ml-4"
+                        image="/images/students.jpg"
+                        title="Tips til jobbsøknaden"
+                        description="Les våre tips om hvordan skrive søknaden slik at en arbeidsgiver får lyst til å møte akkurat deg."
+                        href="/tips-til-jobbsoknaden"
+                    />
+                    <ImageLinkPanelArticle
+                        className="arb-secondary-bg-text arb-link-panel article-panel-link ml-4"
+                        image="/images/eures.png"
+                        title="Jobbe i utlandet"
+                        description="Den Europeiske Jobbmobilitetsportslen (EURES) er et tilbud til deg som ønsker å finne en jobb i EU-/EØS-området og Sveits."
+                        href="/jobbe-i-utlandet"
+                    />
+                </div>
+            </div>
         </Layout>
     );
 }

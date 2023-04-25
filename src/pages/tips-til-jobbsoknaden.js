@@ -1,6 +1,8 @@
 import { BodyLong, Heading, Ingress, LinkPanel } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
+import ImageLinkPanelArticle from "@/src/common/components/ImageLinkPanelArticle";
+import React from "react";
 
 export default function TipsTilJobbsoknaden() {
     return (
@@ -8,7 +10,7 @@ export default function TipsTilJobbsoknaden() {
             <Head>
                 <title>Tips til jobbsøknaden - arbeidsplassen.no</title>
             </Head>
-            <article className="container-small page-margin-top-and-bottom">
+            <div className="container-small page-margin-top-and-bottom">
                 <Heading size="xlarge" level="1" spacing>
                     Tips til jobbsøknaden
                 </Heading>
@@ -17,16 +19,18 @@ export default function TipsTilJobbsoknaden() {
                     Det er ikke så vanskelig. Her får du våre tips om hvordan skrive søknaden slik at en arbeidsgiver
                     får lyst til å møte akkurat deg.
                 </Ingress>
+            </div>
 
-                <div className="mb-3">
-                    <img
-                        className="article-image"
-                        src="/images/students.jpg"
-                        alt="3 blide studenter som sitter med mobil og pc og snakker sammen utenfor skolen"
-                        width="100%"
-                    />
-                </div>
+            <div className="container-medium mb-3">
+                <img
+                    className="article-image"
+                    src="/images/students.jpg"
+                    alt="3 blide studenter som sitter med mobil og pc og snakker sammen utenfor skolen"
+                    width="100%"
+                />
+            </div>
 
+            <div className="container-small mb-4">
                 <Heading size="large" level="2" spacing>
                     Søknaden er et svar på annonsen
                 </Heading>
@@ -117,7 +121,29 @@ export default function TipsTilJobbsoknaden() {
                         Opprett en CV
                     </LinkPanel.Title>
                 </LinkPanel>
-            </article>
+            </div>
+
+            <div className="container-medium mb-6">
+                <Heading size="large" level="1" spacing>
+                    Videre lesing
+                </Heading>
+                <div className="article-link-panel-grid">
+                    <ImageLinkPanelArticle
+                        className="arb-primary-bg-text arb-link-panel article-panel-link ml-4"
+                        image="/images/students.jpg"
+                        title="Tips til jobbsøknaden"
+                        description="Les våre tips om hvordan skrive søknaden slik at en arbeidsgiver får lyst til å møte akkurat deg."
+                        href="/tips-til-jobbsoknaden"
+                    />
+                    <ImageLinkPanelArticle
+                        className="arb-secondary-bg-text arb-link-panel article-panel-link ml-4"
+                        image="/images/eures.png"
+                        title="Jobbe i utlandet"
+                        description="Den Europeiske Jobbmobilitetsportslen (EURES) er et tilbud til deg som ønsker å finne en jobb i EU-/EØS-området og Sveits."
+                        href="/jobbe-i-utlandet"
+                    />
+                </div>
+            </div>
         </Layout>
     );
 }

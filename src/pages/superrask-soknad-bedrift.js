@@ -1,6 +1,8 @@
 import { BodyLong, Heading, Ingress } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
+import ImageLinkPanelArticle from "@/src/common/components/ImageLinkPanelArticle";
+import React from "react";
 
 export default function SuperraskSoknadBedrift() {
     return (
@@ -10,7 +12,7 @@ export default function SuperraskSoknadBedrift() {
                     Superrask søknad – en enklere måte å komme i kontakt med relevante jobbsøkere - arbeidsplassen.no
                 </title>
             </Head>
-            <article className="container-small page-margin-top-and-bottom">
+            <div className="container-small page-margin-top-and-bottom">
                 <Heading size="xlarge" level="1" spacing>
                     Superrask søknad – en enklere måte å komme i kontakt med relevante jobbsøkere
                 </Heading>
@@ -19,16 +21,18 @@ export default function SuperraskSoknadBedrift() {
                     Superrask søknad er en ny tjeneste på arbeidsplassen.no som vil gjøre rekrutteringen enklere for
                     bedrifter og for de som er på jakt etter ny jobb.
                 </Ingress>
+            </div>
 
-                <div className="mb-3">
-                    <img
-                        className="article-image"
-                        src="/images/bedrift.jpg"
-                        alt="En mann sitter på et kontor og tar en annen i hånden"
-                        width="100%"
-                    />
-                </div>
+            <div className="container-medium mb-3">
+                <img
+                    className="article-image"
+                    src="/images/bedrift.jpg"
+                    alt="En mann sitter på et kontor og tar en annen i hånden"
+                    width="100%"
+                />
+            </div>
 
+            <div className="container-small mb-4">
                 <BodyLong spacing>
                     Arbeidplassen.no er en åpen møteplass for alle på arbeidsmarkedet, eid av NAV. Vårt mål er at
                     bedrifter og jobbsøkere skal finne hverandre, enkelt og effektivt.
@@ -115,7 +119,29 @@ export default function SuperraskSoknadBedrift() {
                     Tjenesten er under utvikling og vi vil gjerne ha tilbakemelding på hvordan den fungerer.
                 </BodyLong>
                 <BodyLong>Lykke til med å finne deres neste medarbeider med superrask søknad!</BodyLong>
-            </article>
+            </div>
+
+            <div className="container-medium mb-6">
+                <Heading size="large" level="1" spacing>
+                    Videre lesing
+                </Heading>
+                <div className="article-link-panel-grid">
+                    <ImageLinkPanelArticle
+                        className="arb-primary-bg-text arb-link-panel article-panel-link ml-4"
+                        image="/images/students.jpg"
+                        title="Tips til jobbsøknaden"
+                        description="Les våre tips om hvordan skrive søknaden slik at en arbeidsgiver får lyst til å møte akkurat deg."
+                        href="/tips-til-jobbsoknaden"
+                    />
+                    <ImageLinkPanelArticle
+                        className="arb-secondary-bg-text arb-link-panel article-panel-link ml-4"
+                        image="/images/eures.png"
+                        title="Jobbe i utlandet"
+                        description="Den Europeiske Jobbmobilitetsportslen (EURES) er et tilbud til deg som ønsker å finne en jobb i EU-/EØS-området og Sveits."
+                        href="/jobbe-i-utlandet"
+                    />
+                </div>
+            </div>
         </Layout>
     );
 }
