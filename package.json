@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@navikt/aksel-icons": "^2.8.8",
-    "@navikt/arbeidsplassen-css": "^1.1.10",
+    "@navikt/arbeidsplassen-css": "^1.1.11",
     "@navikt/arbeidsplassen-react": "^1.1.12",
     "@navikt/ds-css": "^2.8.7",
     "@navikt/ds-react": "^2.8.7",
