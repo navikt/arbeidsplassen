@@ -19,7 +19,7 @@ export default function jobbeiUtlandet() {
                     EU-/EØS-området og Sveits.
                 </Ingress>
 
-                <div className="mb-3 image-container">
+                <div className="mb-3">
                     <Image
                         className="article-image"
                         src="/images/eures.png"

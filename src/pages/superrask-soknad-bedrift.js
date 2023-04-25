@@ -21,7 +21,7 @@ export default function SuperraskSoknadBedrift() {
                     bedrifter og for de som er på jakt etter ny jobb.
                 </Ingress>
 
-                <div className="mb-3 image-container">
+                <div className="mb-3">
                     <Image
                         className="article-image"
                         src="/images/bedrift.jpg"

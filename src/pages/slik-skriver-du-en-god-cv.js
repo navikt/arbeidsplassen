@@ -20,7 +20,7 @@ export default function SlikSkriverDuEnGodCv() {
                     som gjør at CV-en din blir lagt merke til.
                 </Ingress>
 
-                <div className="mb-3 image-container">
+                <div className="mb-3">
                     <Image src="/images/writing.jpg" alt="En konsentrert person som skriver på datamaskinen sin" fill />
                 </div>
 

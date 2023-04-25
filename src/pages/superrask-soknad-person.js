@@ -17,7 +17,7 @@ export default function SuperraskSoknadPerson() {
 
                 <Ingress spacing>En enklere måte å komme i kontakt med bedrifter</Ingress>
 
-                <div className="mb-3 image-container">
+                <div className="mb-3">
                     <Image
                         className="article-image"
                         src="/images/jobbsoker.jpg"

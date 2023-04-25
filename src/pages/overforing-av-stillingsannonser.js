@@ -19,7 +19,7 @@ export default function overforingAvStillingsannonser() {
                     for våre samarbeidspartnere
                 </Ingress>
 
-                <div className="mb-3 image-container">
+                <div className="mb-3">
                     <Image className="article-image" src="/images/api.png" alt="API, illustrasjon" fill />
                 </div>
 

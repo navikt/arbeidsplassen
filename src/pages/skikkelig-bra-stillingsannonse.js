@@ -19,7 +19,7 @@ export default function SkikkeligBraStillingsannonse() {
                     annonsen?
                 </Ingress>
 
-                <div className="mb-3 image-container">
+                <div className="mb-3">
                     <Image
                         className="article-image"
                         src="/images/stillingsannonse.jpg"

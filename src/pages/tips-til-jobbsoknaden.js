@@ -19,7 +19,7 @@ export default function TipsTilJobbsoknaden() {
                     får lyst til å møte akkurat deg.
                 </Ingress>
 
-                <div className="mb-3 image-container">
+                <div className="mb-3">
                     <Image
                         className="article-image"
                         src="/images/students.jpg"

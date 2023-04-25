@@ -20,7 +20,7 @@ export default function JobbtreffPerson() {
                     slags stillinger du kan søke på.
                 </Ingress>
 
-                <div className="mb-3 image-container">
+                <div className="mb-3">
                     <Image
                         className="article-image"
                         src="/images/jobbtreff.webp"
