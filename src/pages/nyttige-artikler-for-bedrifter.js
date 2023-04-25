@@ -35,7 +35,7 @@ export default function ArticlePageBedrift() {
                                     className="arb-primary-bg-text arb-link-panel article-panel-link ml-4"
                                 />
                                 <ImageLinkPanel
-                                    href="/jobbtreff-bedrift"
+                                    href="/mot-jobbsokere-pa-en-ny-mate"
                                     image="/images/jobbtreff.webp"
                                     alt="En person sitter ved et kjøkkenbord med datamaskin foran seg, hun har på hodetelefoner og er nok i gang med en videosamtale."
                                     title="Jobbtreff – møt jobbsøkere på en ny måte"

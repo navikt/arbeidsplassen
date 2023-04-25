@@ -3,7 +3,7 @@ import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
 import React from "react";
 
-export default function JobbtreffPerson() {
+export default function MotBedrifterPaEnNyMate() {
     return (
         <Layout>
             <Head>

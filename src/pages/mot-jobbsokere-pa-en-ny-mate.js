@@ -1,8 +1,9 @@
 import { BodyLong, Heading, Ingress, Link, LinkPanel } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
+import ImageLinkPanelArticle from "@/src/common/components/ImageLinkPanelArticle";
 
-export default function JobbtreffBedrift() {
+export default function MotJobbsokerePaEnNyMate() {
     return (
         <Layout>
             <Head>
