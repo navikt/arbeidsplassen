@@ -21,7 +21,12 @@ export default function SlikSkriverDuEnGodCv() {
                 </Ingress>
 
                 <div className="mb-3">
-                    <Image src="/images/writing.jpg" alt="En konsentrert person som skriver på datamaskinen sin" fill />
+                    <Image
+                        className="article-image"
+                        src="/images/writing.jpg"
+                        alt="En konsentrert person som skriver på datamaskinen sin"
+                        fill
+                    />
                 </div>
 
                 <Heading size="large" level="2" spacing>
