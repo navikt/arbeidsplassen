@@ -1,24 +1,8 @@
-import { useEffect, useState } from "react";
 import { Button, Heading, Ingress, LinkPanel } from "@navikt/ds-react";
 import InformationUkraine from "@/src/common/components/banners/InformationUkraine";
 import IllustrationPerson from "@/src/common/components/images/IllustrationPerson";
 
 const MainPage = () => {
-    const [positionCount, setPositionCount] = useState(undefined);
-
-    useEffect(() => {
-        async function fetchPositionCount() {
-            try {
-                const response = await fetch("/stillinger/api/search?size=0");
-                const data = await response.json();
-                return data.aggregations.positioncount.sum.value.toLocaleString();
-            } catch (err) {
-                return "Mange";
-            }
-        }
-        fetchPositionCount().then((result) => setPositionCount(result));
-    }, []);
-
     return (
         <>
             <div className="container-large page-margin-top-and-bottom mb-5">
@@ -41,7 +25,7 @@ const MainPage = () => {
                     </div>
 
                     <div className="arb-home-illustration arb-home-illustration-person">
-                        <IllustrationPerson positionCount={positionCount} />
+                        <IllustrationPerson />
                     </div>
                 </section>
 
