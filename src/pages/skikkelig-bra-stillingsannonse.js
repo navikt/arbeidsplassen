@@ -132,22 +132,23 @@ export default function SkikkeligBraStillingsannonse() {
 
             <div className="container-medium mb-6">
                 <Heading size="large" level="1" spacing>
-                    Videre lesing
+                    Videre lesning
                 </Heading>
                 <div className="article-link-panel-grid">
                     <ImageLinkPanelArticle
                         className="arb-primary-bg-text arb-link-panel article-panel-link ml-4"
-                        image="/images/students.jpg"
-                        title="Tips til jobbsøknaden"
-                        description="Les våre tips om hvordan skrive søknaden slik at en arbeidsgiver får lyst til å møte akkurat deg."
-                        href="/tips-til-jobbsoknaden"
+                        image="/images/bedrift.jpg"
+                        title="Nyhet! Superrask Søknad"
+                        description="En enklere måte å komme i kontakt med relevante jobbsøkere."
+                        href="/superrask-soknad-bedrift"
                     />
                     <ImageLinkPanelArticle
                         className="arb-secondary-bg-text arb-link-panel article-panel-link ml-4"
-                        image="/images/eures.png"
-                        title="Jobbe i utlandet"
-                        description="Den Europeiske Jobbmobilitetsportslen (EURES) er et tilbud til deg som ønsker å finne en jobb i EU-/EØS-området og Sveits."
-                        href="/jobbe-i-utlandet"
+                        image="/images/api.png"
+                        title="Overføring av stillingsannonser til arbeidsplassen.no"
+                        description="NAVs import-API er utviklet for at det skal være enkelt å publisere stillinger på
+                                    arbeidsplassen.no for våre samarbeidspartnere."
+                        href="/overforing-av-stillingsannonser"
                     />
                 </div>
             </div>
