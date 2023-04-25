@@ -14,17 +14,15 @@ export default function Layout({ children, active }) {
 
     return (
         <>
-            <div className="arb-push-footer-down">
-                <SkipLink />
-                <Header
-                    variant="all"
-                    active={active}
-                    onLogin={chooseRole}
-                    onLogout={logout}
-                    authenticationStatus={authStatus}
-                />
-                <main>{children}</main>
-            </div>
+            <SkipLink />
+            <Header
+                variant="all"
+                active={active}
+                onLogin={chooseRole}
+                onLogout={logout}
+                authenticationStatus={authStatus}
+            />
+            <main id="main-content">{children}</main>
             <Footer />
         </>
     );
