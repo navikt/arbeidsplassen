@@ -133,7 +133,7 @@ export default function TipsTilJobbsoknaden() {
                         image="/images/jobbtreff.webp"
                         title="Jobbtreff – møt nye bedrifter på en ny måte"
                         description="Følg en direkte sending der bedriften forteller om seg selv og hva slags stillinger du kan søke på."
-                        href="/mot-nye-bedrifter-pa-en-ny-mate"
+                        href="/mot-bedrifter-pa-en-ny-mate"
                     />
                     <ImageLinkPanelArticle
                         className="arb-secondary-bg-text arb-link-panel article-panel-link ml-4"
