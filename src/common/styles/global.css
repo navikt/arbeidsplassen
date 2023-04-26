@@ -80,3 +80,7 @@ body {
     justify-content: center;
     margin: 0;
 }
+
+.h-2 {
+    height: 2rem;
+}
