@@ -5,7 +5,7 @@ const ContentSecurityPolicy = `
   img-src 'self' data:;
   script-src 'self' 'unsafe-eval';
   style-src 'unsafe-inline' fonts.googleapis.com;
-  font-src 'self' fonts.googleapis.com fonts.gstatic.com cdn.nav.no;
+  font-src 'self' fonts.googleapis.com fonts.gstatic.com nav.no;
 `
 
 const securityHeaders = [
