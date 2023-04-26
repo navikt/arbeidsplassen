@@ -16,7 +16,7 @@ export default function workInNorwayUa() {
                 <ul className="mb-3">
                     <li>
                         <BodyLong lang="en">
-                            <NextLink href="/work-in-norway-en" passHref legacyBehavior>
+                            <NextLink href="/en/work-in-norway" passHref legacyBehavior>
                                 <Link>Information about working in Norway</Link>
                             </NextLink>
                         </BodyLong>
@@ -26,14 +26,14 @@ export default function workInNorwayUa() {
                     </li>
                     <li>
                         <BodyLong lang="ru">
-                            <NextLink href="/work-in-norway-ru" passHref legacyBehavior>
+                            <NextLink href="/ru/work-in-norway" passHref legacyBehavior>
                                 <Link>Информация на русском языке</Link>
                             </NextLink>
                         </BodyLong>
                     </li>
                     <li>
                         <BodyLong lang="nb">
-                            <NextLink href="/work-in-norway-no" passHref legacyBehavior>
+                            <NextLink href="/no/work-in-norway" passHref legacyBehavior>
                                 <Link>Informasjon for arbeidsgivere</Link>
                             </NextLink>
                         </BodyLong>

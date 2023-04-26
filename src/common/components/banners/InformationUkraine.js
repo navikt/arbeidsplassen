@@ -10,21 +10,21 @@ export default function InformationUkraine() {
             <ul className="ukraine-grid">
                 <li>
                     <BodyLong>
-                        <NextLink href="/work-in-norway-en" passHref legacyBehavior>
+                        <NextLink href="/en/work-in-norway" passHref legacyBehavior>
                             <Link>Information about working in Norway</Link>
                         </NextLink>
                     </BodyLong>
                 </li>
                 <li>
                     <BodyLong>
-                        <NextLink href="/work-in-norway-ua" passHref legacyBehavior>
+                        <NextLink href="/ua/work-in-norway" passHref legacyBehavior>
                             <Link>Інформація українською мовою</Link>
                         </NextLink>
                     </BodyLong>
                 </li>
                 <li>
                     <BodyLong className="text-center">
-                        <NextLink href="/work-in-norway-ru" passHref legacyBehavior>
+                        <NextLink href="/ru/work-in-norway" passHref legacyBehavior>
                             <Link>Информация на русском языке</Link>
                         </NextLink>
                     </BodyLong>

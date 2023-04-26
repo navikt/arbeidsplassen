@@ -51,7 +51,7 @@ const MainPageBedrift = () => {
                             Les hvordan du som arbeidsgiver kan ta i bruk våre tjenester i dag.
                         </LinkPanel.Description>
                     </LinkPanel>
-                    <LinkPanel className="arb-primary-bg-text arb-link-panel" href="/work-in-norway-no">
+                    <LinkPanel className="arb-primary-bg-text arb-link-panel" href="/no/work-in-norway">
                         <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                             Ønsker du å rekruttere flyktninger?
                         </LinkPanel.Title>
