@@ -10,7 +10,6 @@ body {
     color: var(--a-text-default);
     font-family: var(--a-font-family);
     font-size: var(--a-font-size-large);
-    scrollbar-gutter: stable;
 }
 
 #__next {
