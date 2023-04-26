@@ -44,8 +44,8 @@ export default function ArticlePagePerson() {
                                 />
                                 <ImageLinkPanel
                                     href="jobbe-i-utlandet"
-                                    image="/images/eures.png"
-                                    alt="Bilde av en globus som viser Europa"
+                                    image="/images/paris.jpg"
+                                    alt="Bilde av Eiffeltårnet"
                                     title="Jobbe i utlandet?"
                                     description="Den Europeiske Jobbmobilitetsportalen (EURES) er et tilbud til deg som ønsker å finne en jobb i EU-/EØS-området og Sveits."
                                     className="arb-secondary-bg-text arb-link-panel article-panel-link ml-4"
