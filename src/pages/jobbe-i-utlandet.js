@@ -21,12 +21,7 @@ export default function jobbeiUtlandet() {
             </div>
 
             <div className="container-medium mb-3">
-                <img
-                    className="article-image"
-                    src="/images/eures.png"
-                    alt="Bilde av en globus som viser Europa"
-                    width="100%"
-                />
+                <img className="article-image" src="/images/paris.jpg" alt="Bilde av Eiffeltårnet" width="100%" />
             </div>
 
             <div className="container-small mb-4">

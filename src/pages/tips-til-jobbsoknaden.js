@@ -137,7 +137,7 @@ export default function TipsTilJobbsoknaden() {
                     />
                     <ImageLinkPanelArticle
                         className="arb-secondary-bg-text arb-link-panel article-panel-link ml-4"
-                        image="/images/eures.png"
+                        image="/images/paris.jpg"
                         title="Jobbe i utlandet"
                         description="Den Europeiske Jobbmobilitetsportslen (EURES) er et tilbud til deg som ønsker å finne en jobb i EU-/EØS-området og Sveits."
                         href="/jobbe-i-utlandet"
