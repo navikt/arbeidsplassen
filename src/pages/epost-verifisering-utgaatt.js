@@ -1,8 +1,6 @@
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
-import {Heading, Ingress} from "@navikt/ds-react";
-import NextLink from "next/link";
-
+import {Heading, Ingress, Link} from "@navikt/ds-react";
 
 export default function epostVerifiseringUtgaatt() {
     return (
@@ -22,7 +20,7 @@ export default function epostVerifiseringUtgaatt() {
                 </svg>
                 <Heading spacing size="xlarge" level="1">Feil, lenken er utgått</Heading>
                 <Ingress spacing>
-                    Du kan bestille e-post med ny lenke under <NextLink href="/personinnstillinger" passHref legacyBehavior>innstillinger</NextLink>
+                    Du kan bestille e-post med ny lenke under <Link href="/personinnstillinger">innstillinger</Link>
                 </Ingress>
             </article>
         </Layout>
