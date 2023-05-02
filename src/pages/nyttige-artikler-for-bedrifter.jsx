@@ -18,6 +18,14 @@ export default function ArticlePageBedrift() {
                             </Heading>
                             <div className="arb-link-panel-grid">
                                 <ImageLinkPanel
+                                    href="/sommerjobb"
+                                    image="/images/sommerjobb.png"
+                                    alt="En kunde får servert en burger fra en food truck"
+                                    title="Tiden for sommerjobb er her!"
+                                    description="Gi unge en mulighet – lys ut sommerjobben nå!"
+                                    className="arb-secondary-bg-text arb-link-panel article-panel-link ml-4"
+                                />
+                                <ImageLinkPanel
                                     href="/superrask-soknad-bedrift"
                                     image="/images/bedrift.jpg"
                                     alt="En mann sitter på et kontor og tar en annen i hånden"
