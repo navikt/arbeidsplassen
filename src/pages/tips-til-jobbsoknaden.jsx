@@ -131,6 +131,7 @@ export default function TipsTilJobbsoknaden() {
                     <ImageLinkPanelArticle
                         className="arb-primary-bg-text arb-link-panel article-panel-link ml-4"
                         image="/images/jobbtreff.webp"
+                        alt="En person sitter ved et kjøkkenbord med datamaskin foran seg, hun har på hodetelefoner og er nok i gang med en videosamtale."
                         title="Jobbtreff – møt nye bedrifter på en ny måte"
                         description="Følg en direkte sending der bedriften forteller om seg selv og hva slags stillinger du kan søke på."
                         href="/mot-bedrifter-pa-en-ny-mate"
@@ -138,6 +139,7 @@ export default function TipsTilJobbsoknaden() {
                     <ImageLinkPanelArticle
                         className="arb-secondary-bg-text arb-link-panel article-panel-link ml-4"
                         image="/images/paris.jpg"
+                        alt="Bilde av Eiffeltårnet"
                         title="Jobbe i utlandet"
                         description="Den Europeiske Jobbmobilitetsportslen (EURES) er et tilbud til deg som ønsker å finne en jobb i EU-/EØS-området og Sveits."
                         href="/jobbe-i-utlandet"

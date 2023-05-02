@@ -104,6 +104,7 @@ export default function SuperraskSoknadPerson() {
                     <ImageLinkPanelArticle
                         className="arb-primary-bg-text arb-link-panel article-panel-link ml-4"
                         image="/images/students.jpg"
+                        alt="3 blide studenter som sitter med mobil og pc og snakker sammen utenfor skolen"
                         title="Tips til jobbsøknaden"
                         description="Les våre tips om hvordan skrive søknaden slik at en arbeidsgiver får lyst til å møte akkurat deg."
                         href="/tips-til-jobbsoknaden"
@@ -112,6 +113,7 @@ export default function SuperraskSoknadPerson() {
                         className="arb-secondary-bg-text arb-link-panel article-panel-link ml-4"
                         image="/images/paris.jpg"
                         title="Jobbe i utlandet"
+                        alt="Bilde av Eiffeltårnet"
                         description="Den Europeiske Jobbmobilitetsportslen (EURES) er et tilbud til deg som ønsker å finne en jobb i EU-/EØS-området og Sveits."
                         href="/jobbe-i-utlandet"
                     />
