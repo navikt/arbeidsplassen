@@ -32,7 +32,6 @@ spec:
     sidecar:
       enabled: true
       level: Level3
-      openid.post-logout-redirect-uri string: arbeidsplassen.nav.no
   tokenx:
     enabled: true
   prometheus:
