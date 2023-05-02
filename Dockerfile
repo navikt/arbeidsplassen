@@ -1,10 +1,14 @@
 FROM node:18 AS builder
-WORKDIR /app
+WORKDIR /var/server
 RUN npm config set @navikt:registry https://npm.pkg.github.com
 RUN --mount=type=secret,id=optional_secret \
   npm config set //npm.pkg.github.com/:_authToken=$(cat /run/secrets/optional_secret)
-COPY package*.json ./
-RUN npm install
+RUN npm ci --prefer-offline --no-audit --ignore-scripts
 COPY . .
 RUN npm run build && npm prune --production --offline
-CMD ["npm", "run", "dev"]
+
+FROM node:18-alpine AS runtime
+WORKDIR /var/server
+ENV NODE_ENV=production
+COPY --from=builder /var/server /var/server
+CMD ["./node_modules/.bin/next", "start"]
