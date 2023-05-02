@@ -3,31 +3,39 @@ import IllustrationBedrift from "@/src/common/components/images/IllustrationBedr
 
 function MainPageBedrift() {
     return (
-        <div className="container-large company-page page-margin-top-and-bottom mb-6">
-            <section className="arb-home-section-flex">
-                <div className="arb-home-div-width">
-                    <Heading size="xlarge" level="1" spacing>
-                        Rekrutter deres neste <br />
-                        medarbeider
-                    </Heading>
+        <>
+            <div className="container-large page-margin-top-and-bottom mb-6">
+                <section className="arb-home-section-flex">
+                    <div className="arb-home-div-width">
+                        <Heading size="xlarge" level="1" spacing>
+                            Rekrutter deres neste <br />
+                            medarbeider
+                        </Heading>
+                        <Ingress spacing>Motta søknader raskt og enkelt fra relevante jobbsøkere.</Ingress>
 
-                    <Ingress spacing>Motta søknader raskt og enkelt fra relevante jobbsøkere.</Ingress>
-
-                    <div className="mb-4">
-                        <Button variant="primary" as="a" href="/stillingsregistrering">
-                            Gå til din side bedrift
-                        </Button>
+                        <div className="mb-4">
+                            <Button variant="primary" as="a" href="/stillingsregistrering">
+                                Gå til din side bedrift
+                            </Button>
+                        </div>
                     </div>
-                </div>
 
-                <div className="arb-home-illustration">
-                    <IllustrationBedrift />
-                </div>
-            </section>
+                    <div className="arb-home-illustration">
+                        <IllustrationBedrift />
+                    </div>
+                </section>
 
-            <section>
-                <div className="arb-link-panel-grid">
-                    <LinkPanel className="arb-primary-bg-text arb-link-panel" href="/superrask-soknad-bedrift">
+                <div className="arb-link-panel-grid mb-3">
+                    <LinkPanel className="arb-primary-bg-text arb-link-panel" href="/sommerjobb">
+                        <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
+                            Tiden for sommerjobb er her!
+                        </LinkPanel.Title>
+                        <LinkPanel.Description className="navds-link-panel__description navds-body-long">
+                            Gi unge en mulighet – lys ut sommerjobben nå!
+                        </LinkPanel.Description>
+                    </LinkPanel>
+
+                    <LinkPanel className="arb-secondary-bg-text arb-link-panel" href="/superrask-soknad-bedrift">
                         <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                             Nyhet! Superrask søknad
                         </LinkPanel.Title>
@@ -35,14 +43,7 @@ function MainPageBedrift() {
                             En enklere måte å komme i kontakt med relevante jobbsøkere.
                         </LinkPanel.Description>
                     </LinkPanel>
-                    <LinkPanel className="arb-secondary-bg-text arb-link-panel" href="/skikkelig-bra-stillingsannonse">
-                        <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
-                            Hvordan skrive en skikkelig bra stillingsannonse?
-                        </LinkPanel.Title>
-                        <LinkPanel.Description className="navds-link-panel__description navds-body-long">
-                            Hva ser jobbsøkere etter når de leser en stillingsannonse?
-                        </LinkPanel.Description>
-                    </LinkPanel>
+
                     <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href="/arbeidsgivertjenester">
                         <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                             Hjelp med innlogging?
@@ -51,6 +52,7 @@ function MainPageBedrift() {
                             Les hvordan du som arbeidsgiver kan ta i bruk våre tjenester i dag.
                         </LinkPanel.Description>
                     </LinkPanel>
+
                     <LinkPanel className="arb-primary-bg-text arb-link-panel" href="/no/work-in-norway">
                         <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                             Ønsker du å rekruttere flyktninger?
@@ -60,8 +62,8 @@ function MainPageBedrift() {
                         </LinkPanel.Description>
                     </LinkPanel>
                 </div>
-            </section>
-        </div>
+            </div>
+        </>
     );
 }
 
