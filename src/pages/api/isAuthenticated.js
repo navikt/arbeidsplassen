@@ -1,4 +1,4 @@
-import { validateIdportenToken } from '@navikt/next-auth-wonderwall'
+import { validateIdportenToken } from "@navikt/next-auth-wonderwall";
 
 export default async function handler(req, res) {
     const bearerToken = req.headers.authorization;
