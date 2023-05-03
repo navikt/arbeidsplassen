@@ -13,4 +13,3 @@ WORKDIR /var/server
 ENV NODE_ENV=production
 COPY --from=builder /var/server /var/server
 CMD ["./node_modules/.bin/next", "start"]
-
