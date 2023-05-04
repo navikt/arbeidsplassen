@@ -8,10 +8,10 @@ function ImageLinkPanelMedium({ href, image, alt, title, description, ...args })
                 <img src={image} alt={alt} />
             </div>
             <LinkPanel href={href} {...args}>
-                <LinkPanel.Title className="navds-link-panel__title navds-heading--small pl-1_5">
+                <LinkPanel.Title className="navds-link-panel__title navds-heading--small image-link-panel-content">
                     {title}
                 </LinkPanel.Title>
-                <LinkPanel.Description className="navds-link-panel__description navds-body-long pl-1_5">
+                <LinkPanel.Description className="navds-link-panel__description navds-body-long pl-1_5 image-link-panel-content">
                     {description}
                 </LinkPanel.Description>
             </LinkPanel>
