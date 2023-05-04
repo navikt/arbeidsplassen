@@ -1,4 +1,4 @@
-import { BodyLong, Heading, Ingress, Link as DsLink } from "@navikt/ds-react";
+import { BodyLong, Heading, Ingress, Link as DsLink, LinkPanel } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
 import NextLink from "next/link";
@@ -93,7 +93,13 @@ export default function SuperraskSoknadPerson() {
                     Superrask søknad er en helt ny løsning på arbeidsplassen.no. Prøv det og gi oss gjerne en
                     tilbakemelding på hvordan du synes det fungerte.
                 </BodyLong>
-                <BodyLong>Lykke til med jobbsøkingen!</BodyLong>
+                <BodyLong className="mb-3">Lykke til med jobbsøkingen!</BodyLong>
+
+                <LinkPanel className="arb-primary-bg-text arb-link-panel" href="/stillinger">
+                    <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
+                        Se ledige stillinger
+                    </LinkPanel.Title>
+                </LinkPanel>
             </div>
 
             <div className="container-medium mb-6">
