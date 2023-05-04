@@ -1,4 +1,4 @@
-import { BodyLong, Heading, Ingress } from "@navikt/ds-react";
+import { BodyLong, Heading, Ingress, LinkPanel } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
 import React from "react";
@@ -118,7 +118,18 @@ export default function SuperraskSoknadBedrift() {
                     Superrask søknad er en ny løsning for bedrifter som registrerer stillinger på arbeidsplassen.no.
                     Tjenesten er under utvikling og vi vil gjerne ha tilbakemelding på hvordan den fungerer.
                 </BodyLong>
-                <BodyLong>Lykke til med å finne deres neste medarbeider med superrask søknad!</BodyLong>
+                <BodyLong className="mb-3">
+                    Lykke til med å finne deres neste medarbeider med superrask søknad!
+                </BodyLong>
+
+                <LinkPanel
+                    className="arb-primary-bg-text arb-link-panel"
+                    href="/stillingsregistrering/stillingsannonser"
+                >
+                    <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
+                        Lag ny stillingsannonse
+                    </LinkPanel.Title>
+                </LinkPanel>
             </div>
 
             <div className="container-medium mb-6">
