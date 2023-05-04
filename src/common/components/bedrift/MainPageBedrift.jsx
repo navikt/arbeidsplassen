@@ -26,12 +26,15 @@ function MainPageBedrift() {
             </section>
 
             <div className="arb-link-panel-grid mb-5">
-                <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href="/arbeidsgivertjenester">
+                <LinkPanel
+                    className="arb-tertiary-bg-text arb-link-panel"
+                    href="/stillingsregistrering/stillingsannonser"
+                >
                     <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
-                        Hjelp med innlogging?
+                        Opprett stillingsannonse
                     </LinkPanel.Title>
                     <LinkPanel.Description className="navds-link-panel__description navds-body-long">
-                        Les hvordan du som arbeidsgiver kan ta i bruk våre tjenester i dag.
+                        heihå
                     </LinkPanel.Description>
                 </LinkPanel>
 
@@ -55,19 +58,20 @@ function MainPageBedrift() {
                     color="primary"
                 />
                 <ImageLinkPanelSmall
-                    href="/superrask-soknad-person"
-                    image="/images/jobbsoker.jpg"
-                    alt="En person som skriver på mobilen sin."
+                    href="/superrask-soknad-bedrift"
+                    image="/images/bedrift.jpg"
+                    alt="En mann sitter på et kontor og tar en annen i hånden"
                     title="Nyhet! Superrask søknad"
-                    description="En enklere måte å komme i kontakt med bedrifter."
+                    description="En enklere måte å komme i kontakt med relevante jobbsøkere."
                     color="secondary"
                 />
                 <ImageLinkPanelSmall
-                    href="mot-bedrifter-pa-en-ny-mate"
+                    href="mot-jobbsokere-pa-en-ny-mate"
                     image="/images/jobbtreff.webp"
                     alt="En person sitter ved et kjøkkenbord med datamaskin foran seg, hun har på hodetelefoner og er nok i gang med en videosamtale."
-                    title="Jobbtreff – møt nye bedrifter på en ny måte"
-                    description="Følg en direkte sending der bedriften forteller om seg selv og hva slags stillinger du kan søke på."
+                    title="Jobbtreff – møt jobbsøkere på en ny måte"
+                    description="Trenger dere nye medarbeidere? Nå kan du presentere bedriften din for interesserte
+                                    jobbsøkere i en direkte sending."
                     color="tertiary"
                 />
             </div>
