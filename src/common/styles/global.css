@@ -82,6 +82,13 @@ body {
     margin: 0;
 }
 
+.article-image {
+    border-radius: 96px 0 0 0;
+    position: relative !important;
+    max-height: 400px;
+    object-fit: cover;
+}
+
 .h-2 {
     height: 2rem;
 }

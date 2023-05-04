@@ -1,5 +1,6 @@
 import { Button, Heading, Ingress, LinkPanel } from "@navikt/ds-react";
 import IllustrationBedrift from "@/src/common/components/images/IllustrationBedrift";
+import ImageLinkPanelMainPage from "@/src/common/components/ImageLinkPanelSmall";
 
 function MainPageBedrift() {
     return (
@@ -24,25 +25,7 @@ function MainPageBedrift() {
                 </div>
             </section>
 
-            <div className="arb-link-panel-grid mb-3">
-                <LinkPanel className="arb-primary-bg-text arb-link-panel" href="/sommerjobb">
-                    <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
-                        Tiden for sommerjobb er her!
-                    </LinkPanel.Title>
-                    <LinkPanel.Description className="navds-link-panel__description navds-body-long">
-                        Gi unge en mulighet – lys ut sommerjobben nå!
-                    </LinkPanel.Description>
-                </LinkPanel>
-
-                <LinkPanel className="arb-secondary-bg-text arb-link-panel" href="/superrask-soknad-bedrift">
-                    <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
-                        Nyhet! Superrask søknad
-                    </LinkPanel.Title>
-                    <LinkPanel.Description className="navds-link-panel__description navds-body-long">
-                        En enklere måte å komme i kontakt med relevante jobbsøkere.
-                    </LinkPanel.Description>
-                </LinkPanel>
-
+            <div className="arb-link-panel-grid mb-5">
                 <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href="/arbeidsgivertjenester">
                     <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                         Hjelp med innlogging?
@@ -60,6 +43,33 @@ function MainPageBedrift() {
                         Les våre anbefalinger for å nå ut til relevante kandidater.
                     </LinkPanel.Description>
                 </LinkPanel>
+            </div>
+
+            <div className="image-link-panel-grid-small">
+                <ImageLinkPanelMainPage
+                    href="/superrask-soknad-person"
+                    image="/images/jobbsoker.jpg"
+                    alt="En person som skriver på mobilen sin."
+                    title="Nyhet! Superrask søknad"
+                    description="En enklere måte å komme i kontakt med bedrifter."
+                    className="arb-tertiary-bg-text arb-link-panel image-link-panel-link ml-4"
+                />
+                <ImageLinkPanelMainPage
+                    href="/tips-til-jobbsoknaden"
+                    image="/images/students.jpg"
+                    alt="3 blide studenter som sitter med mobil og pc og snakker sammen utenfor skolen"
+                    title="Tips til jobbsøknaden"
+                    description="Les våre tips om hvordan skrive søknaden slik at en arbeidsgiver får lyst til å møte deg."
+                    className="arb-primary-bg-text arb-link-panel image-link-panel-link ml-4"
+                />
+                <ImageLinkPanelMainPage
+                    href="mot-bedrifter-pa-en-ny-mate"
+                    image="/images/jobbtreff.webp"
+                    alt="En person sitter ved et kjøkkenbord med datamaskin foran seg, hun har på hodetelefoner og er nok i gang med en videosamtale."
+                    title="Jobbtreff – møt nye bedrifter på en ny måte"
+                    description="Følg en direkte sending der bedriften forteller om seg selv og hva slags stillinger du kan søke på."
+                    className="arb-primary-solid-bg-text arb-link-panel image-link-panel-link ml-4"
+                />
             </div>
         </div>
     );

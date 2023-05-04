@@ -2,7 +2,7 @@ import { BodyLong, Heading, Ingress } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
 import React from "react";
-import ImageLinkPanelArticle from "@/src/common/components/ImageLinkPanelArticle";
+import ImageLinkPanelMedium from "@/src/common/components/ImageLinkPanelMedium";
 
 export default function SuperraskSoknadBedrift() {
     return (
@@ -125,9 +125,9 @@ export default function SuperraskSoknadBedrift() {
                 <Heading size="large" level="1" spacing>
                     Videre lesning
                 </Heading>
-                <div className="article-link-panel-grid">
-                    <ImageLinkPanelArticle
-                        className="arb-primary-bg-text arb-link-panel article-panel-link ml-4"
+                <div className="image-link-panel-grid-medium">
+                    <ImageLinkPanelMedium
+                        className="arb-primary-bg-text arb-link-panel image-link-panel-link ml-4"
                         image="/images/stillingsannonse.jpg"
                         alt="Person som skriver på en skrivemaskin"
                         title="Skikkelig bra stillingsannonse"
@@ -135,8 +135,8 @@ export default function SuperraskSoknadBedrift() {
                                     du skriver annonsen?"
                         href="/skikkelig-bra-stillingsannonse"
                     />
-                    <ImageLinkPanelArticle
-                        className="arb-secondary-bg-text arb-link-panel article-panel-link ml-4"
+                    <ImageLinkPanelMedium
+                        className="arb-secondary-bg-text arb-link-panel image-link-panel-link ml-4"
                         image="/images/jobbtreff.webp"
                         alt="En person sitter ved et kjøkkenbord med datamaskin foran seg, hun har på hodetelefoner og er nok i gang med en videosamtale."
                         title="Jobbtreff – møt jobbsøkere på en ny måte"

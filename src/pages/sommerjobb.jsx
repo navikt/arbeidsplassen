@@ -1,7 +1,7 @@
 import { BodyLong, Heading, Link, LinkPanel } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
-import ImageLinkPanelArticle from "@/src/common/components/ImageLinkPanelArticle";
+import ImageLinkPanelMedium from "@/src/common/components/ImageLinkPanelMedium";
 import React from "react";
 
 export default function Sommerjobb() {
@@ -107,17 +107,17 @@ export default function Sommerjobb() {
                 <Heading size="large" level="1" spacing>
                     Videre lesning
                 </Heading>
-                <div className="article-link-panel-grid">
-                    <ImageLinkPanelArticle
-                        className="arb-primary-bg-text arb-link-panel article-panel-link ml-4"
+                <div className="image-link-panel-grid-medium">
+                    <ImageLinkPanelMedium
+                        className="arb-primary-bg-text arb-link-panel image-link-panel-link ml-4"
                         image="/images/bedrift.jpg"
                         alt="En mann sitter på et kontor og tar en annen i hånden"
                         title="Nyhet! Superrask Søknad"
                         description="En enklere måte å komme i kontakt med relevante jobbsøkere."
                         href="/superrask-soknad-bedrift"
                     />
-                    <ImageLinkPanelArticle
-                        className="arb-secondary-bg-text arb-link-panel article-panel-link ml-4"
+                    <ImageLinkPanelMedium
+                        className="arb-secondary-bg-text arb-link-panel image-link-panel-link ml-4"
                         image="/images/api.png"
                         alt="API, illustrasjon"
                         title="Overføring av stillingsannonser til arbeidsplassen.no"
