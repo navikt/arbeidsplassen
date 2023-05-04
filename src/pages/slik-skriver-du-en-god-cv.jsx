@@ -2,7 +2,7 @@ import { BodyLong, Heading, Ingress, LinkPanel } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
 import React from "react";
-import ImageLinkPanelArticle from "@/src/common/components/ImageLinkPanelArticle";
+import ImageLinkPanelMedium from "@/src/common/components/ImageLinkPanelMedium";
 
 export default function SlikSkriverDuEnGodCv() {
     return (
@@ -166,22 +166,22 @@ export default function SlikSkriverDuEnGodCv() {
                 <Heading size="large" level="1" spacing>
                     Videre lesning
                 </Heading>
-                <div className="article-link-panel-grid">
-                    <ImageLinkPanelArticle
-                        className="arb-primary-bg-text arb-link-panel article-panel-link ml-4"
+                <div className="image-link-panel-grid-medium">
+                    <ImageLinkPanelMedium
                         image="/images/students.jpg"
                         alt="3 blide studenter som sitter med mobil og pc og snakker sammen utenfor skolen"
                         title="Tips til jobbsøknaden"
                         description="Les våre tips om hvordan skrive søknaden slik at en arbeidsgiver får lyst til å møte akkurat deg."
                         href="/tips-til-jobbsoknaden"
+                        color="secondary"
                     />
-                    <ImageLinkPanelArticle
-                        className="arb-secondary-bg-text arb-link-panel article-panel-link ml-4"
+                    <ImageLinkPanelMedium
                         image="/images/paris.jpg"
                         alt="Bilde av Eiffeltårnet"
                         title="Jobbe i utlandet"
                         description="Den Europeiske Jobbmobilitetsportslen (EURES) er et tilbud til deg som ønsker å finne en jobb i EU-/EØS-området og Sveits."
                         href="/jobbe-i-utlandet"
+                        color="tertiary"
                     />
                 </div>
             </div>

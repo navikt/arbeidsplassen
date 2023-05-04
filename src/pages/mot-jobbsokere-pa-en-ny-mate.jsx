@@ -1,7 +1,7 @@
 import { BodyLong, Heading, Ingress, Link, LinkPanel } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
-import ImageLinkPanelArticle from "@/src/common/components/ImageLinkPanelArticle";
+import ImageLinkPanelMedium from "@/src/common/components/ImageLinkPanelMedium";
 
 export default function MotJobbsokerePaEnNyMate() {
     return (
@@ -100,23 +100,23 @@ export default function MotJobbsokerePaEnNyMate() {
                 <Heading size="large" level="1" spacing>
                     Videre lesning
                 </Heading>
-                <div className="article-link-panel-grid">
-                    <ImageLinkPanelArticle
-                        className="arb-primary-bg-text arb-link-panel article-panel-link ml-4"
+                <div className="image-link-panel-grid-medium">
+                    <ImageLinkPanelMedium
                         image="/images/bedrift.jpg"
                         alt="En mann sitter på et kontor og tar en annen i hånden"
                         title="Nyhet! Superrask Søknad"
                         description="En enklere måte å komme i kontakt med relevante jobbsøkere."
                         href="/superrask-soknad-bedrift"
+                        color="secondary"
                     />
-                    <ImageLinkPanelArticle
-                        className="arb-secondary-bg-text arb-link-panel article-panel-link ml-4"
+                    <ImageLinkPanelMedium
                         image="/images/stillingsannonse.jpg"
                         alt="Person som skriver på en skrivemaskin"
                         title="Skikkelig bra stillingsannonse"
                         description="Hva ser jobbsøkere etter når de leser en stillingsannonse? Hva bør du tenke på når
                                     du skriver annonsen?"
                         href="/skikkelig-bra-stillingsannonse"
+                        color="tertiary"
                     />
                 </div>
             </div>

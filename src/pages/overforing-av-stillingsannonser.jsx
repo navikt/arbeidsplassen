@@ -2,7 +2,7 @@ import { BodyLong, Heading, Ingress, Link } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
 import React from "react";
-import ImageLinkPanelArticle from "@/src/common/components/ImageLinkPanelArticle";
+import ImageLinkPanelMedium from "@/src/common/components/ImageLinkPanelMedium";
 
 export default function overforingAvStillingsannonser() {
     return (
@@ -112,23 +112,23 @@ export default function overforingAvStillingsannonser() {
                 <Heading size="large" level="1" spacing>
                     Videre lesning
                 </Heading>
-                <div className="article-link-panel-grid">
-                    <ImageLinkPanelArticle
-                        className="arb-primary-bg-text arb-link-panel article-panel-link ml-4"
+                <div className="image-link-panel-grid-medium">
+                    <ImageLinkPanelMedium
                         image="/images/bedrift.jpg"
                         alt="En mann sitter på et kontor og tar en annen i hånden"
                         title="Nyhet! Superrask Søknad"
                         description="En enklere måte å komme i kontakt med relevante jobbsøkere."
                         href="/superrask-soknad-bedrift"
+                        color="secondary"
                     />
-                    <ImageLinkPanelArticle
-                        className="arb-secondary-bg-text arb-link-panel article-panel-link ml-4"
+                    <ImageLinkPanelMedium
                         image="/images/jobbtreff.webp"
                         alt="En person sitter ved et kjøkkenbord med datamaskin foran seg, hun har på hodetelefoner og er nok i gang med en videosamtale."
                         title="Jobbtreff – møt jobbsøkere på en ny måte"
                         description="Trenger dere nye medarbeidere? Nå kan du presentere bedriften din for interesserte
                                     jobbsøkere i en direkte sending."
                         href="/mot-jobbsokere-pa-en-ny-mate"
+                        color="tertiary"
                     />
                 </div>
             </div>
