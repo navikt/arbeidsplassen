@@ -31,10 +31,10 @@ function MainPageBedrift() {
                     href="/stillingsregistrering/stillingsannonser"
                 >
                     <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
-                        Opprett stillingsannonse
+                        Lag ny stillingsannonse
                     </LinkPanel.Title>
                     <LinkPanel.Description className="navds-link-panel__description navds-body-long">
-                        heihå
+                        Gjør deg synlig i Norges største stillingssøk.
                     </LinkPanel.Description>
                 </LinkPanel>
 
