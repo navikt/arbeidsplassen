@@ -47,20 +47,20 @@ function MainPageBedrift() {
 
             <div className="image-link-panel-grid-small">
                 <ImageLinkPanelMainPage
+                    href="/sommerjobb"
+                    image="/images/sommerjobb.png"
+                    alt="En kunde får servert en burger fra en food truck"
+                    title="Tiden for sommerjobb er her"
+                    description="Gi unge en mulighet - utlys sommerjobben nå!"
+                    className="arb-primary-bg-text arb-link-panel image-link-panel-link ml-4"
+                />
+                <ImageLinkPanelMainPage
                     href="/superrask-soknad-person"
                     image="/images/jobbsoker.jpg"
                     alt="En person som skriver på mobilen sin."
                     title="Nyhet! Superrask søknad"
                     description="En enklere måte å komme i kontakt med bedrifter."
                     className="arb-tertiary-bg-text arb-link-panel image-link-panel-link ml-4"
-                />
-                <ImageLinkPanelMainPage
-                    href="/tips-til-jobbsoknaden"
-                    image="/images/students.jpg"
-                    alt="3 blide studenter som sitter med mobil og pc og snakker sammen utenfor skolen"
-                    title="Tips til jobbsøknaden"
-                    description="Les våre tips om hvordan skrive søknaden slik at en arbeidsgiver får lyst til å møte deg."
-                    className="arb-primary-bg-text arb-link-panel image-link-panel-link ml-4"
                 />
                 <ImageLinkPanelMainPage
                     href="mot-bedrifter-pa-en-ny-mate"
