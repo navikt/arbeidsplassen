@@ -24,7 +24,7 @@ export default function ArticlePagePerson() {
                                     alt="En person som skriver på mobilen sin."
                                     title="Nyhet! Superrask søknad"
                                     description="En enklere måte å komme i kontakt med bedrifter."
-                                    className="arb-tertiary-bg-text arb-link-panel image-link-panel-link ml-4"
+                                    color="primary"
                                 />
                                 <ImageLinkPanelLarge
                                     href="/tips-til-jobbsoknaden"
@@ -32,7 +32,7 @@ export default function ArticlePagePerson() {
                                     alt="3 blide studenter som sitter med mobil og pc og snakker sammen utenfor skolen"
                                     title="Tips til jobbsøknaden"
                                     description="Les våre tips om hvordan skrive søknaden slik at en arbeidsgiver får lyst til å møte deg."
-                                    className="arb-primary-bg-text arb-link-panel image-link-panel-link ml-4"
+                                    color="secondary"
                                 />
                                 <ImageLinkPanelLarge
                                     href="mot-bedrifter-pa-en-ny-mate"
@@ -40,7 +40,7 @@ export default function ArticlePagePerson() {
                                     alt="En person sitter ved et kjøkkenbord med datamaskin foran seg, hun har på hodetelefoner og er nok i gang med en videosamtale."
                                     title="Jobbtreff – møt nye bedrifter på en ny måte"
                                     description="Følg en direkte sending der bedriften forteller om seg selv og hva slags stillinger du kan søke på."
-                                    className="arb-primary-solid-bg-text arb-link-panel image-link-panel-link ml-4"
+                                    color="tertiary"
                                 />
                                 <ImageLinkPanelLarge
                                     href="jobbe-i-utlandet"
@@ -48,7 +48,7 @@ export default function ArticlePagePerson() {
                                     alt="Bilde av Eiffeltårnet"
                                     title="Jobbe i utlandet?"
                                     description="Den Europeiske Jobbmobilitetsportalen (EURES) er et tilbud til deg som ønsker å finne en jobb i EU-/EØS-området og Sveits."
-                                    className="arb-secondary-bg-text arb-link-panel image-link-panel-link ml-4"
+                                    color="primary-solid"
                                 />
                             </div>
                         </div>

@@ -136,21 +136,21 @@ export default function SkikkeligBraStillingsannonse() {
                 </Heading>
                 <div className="image-link-panel-grid-medium">
                     <ImageLinkPanelMedium
-                        className="arb-primary-bg-text arb-link-panel image-link-panel-link ml-4"
                         image="/images/bedrift.jpg"
                         alt="En mann sitter på et kontor og tar en annen i hånden"
                         title="Nyhet! Superrask Søknad"
                         description="En enklere måte å komme i kontakt med relevante jobbsøkere."
                         href="/superrask-soknad-bedrift"
+                        color="secondary"
                     />
                     <ImageLinkPanelMedium
-                        className="arb-secondary-bg-text arb-link-panel image-link-panel-link ml-4"
                         image="/images/api.png"
                         alt="API, illustrasjon"
                         title="Overføring av stillingsannonser til arbeidsplassen.no"
                         description="NAVs import-API er utviklet for at det skal være enkelt å publisere stillinger på
                                     arbeidsplassen.no for våre samarbeidspartnere."
                         href="/overforing-av-stillingsannonser"
+                        color="tertiary"
                     />
                 </div>
             </div>

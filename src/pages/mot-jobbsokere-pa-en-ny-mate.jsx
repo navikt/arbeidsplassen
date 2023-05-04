@@ -102,21 +102,21 @@ export default function MotJobbsokerePaEnNyMate() {
                 </Heading>
                 <div className="image-link-panel-grid-medium">
                     <ImageLinkPanelMedium
-                        className="arb-primary-bg-text arb-link-panel image-link-panel-link ml-4"
                         image="/images/bedrift.jpg"
                         alt="En mann sitter på et kontor og tar en annen i hånden"
                         title="Nyhet! Superrask Søknad"
                         description="En enklere måte å komme i kontakt med relevante jobbsøkere."
                         href="/superrask-soknad-bedrift"
+                        color="secondary"
                     />
                     <ImageLinkPanelMedium
-                        className="arb-secondary-bg-text arb-link-panel image-link-panel-link ml-4"
                         image="/images/stillingsannonse.jpg"
                         alt="Person som skriver på en skrivemaskin"
                         title="Skikkelig bra stillingsannonse"
                         description="Hva ser jobbsøkere etter når de leser en stillingsannonse? Hva bør du tenke på når
                                     du skriver annonsen?"
                         href="/skikkelig-bra-stillingsannonse"
+                        color="tertiary"
                     />
                 </div>
             </div>

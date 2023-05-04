@@ -53,20 +53,20 @@ export default function jobbeiUtlandet() {
                 </Heading>
                 <div className="image-link-panel-grid-medium">
                     <ImageLinkPanelMedium
-                        className="arb-primary-bg-text arb-link-panel image-link-panel-link ml-4"
                         image="/images/students.jpg"
                         alt="3 blide studenter som sitter med mobil og pc og snakker sammen utenfor skolen"
                         title="Tips til jobbsøknaden"
                         description="Les våre tips om hvordan skrive søknaden slik at en arbeidsgiver får lyst til å møte akkurat deg."
                         href="/tips-til-jobbsoknaden"
+                        color="secondary"
                     />
                     <ImageLinkPanelMedium
-                        className="arb-secondary-bg-text arb-link-panel image-link-panel-link ml-4"
                         image="/images/jobbsoker.jpg"
                         alt="En person som skriver på mobilen sin."
                         title="Nyhet! Superrask søknad"
                         description="En enklere måte å komme i kontakt med bedrifter."
                         href="/superrask-soknad-person"
+                        color="tertiary"
                     />
                 </div>
             </div>

@@ -23,7 +23,7 @@ export default function ArticlePageBedrift() {
                                     alt="En kunde får servert en burger fra en food truck"
                                     title="Tiden for sommerjobb er her!"
                                     description="Gi unge en mulighet – lys ut sommerjobben nå!"
-                                    className="arb-secondary-bg-text arb-link-panel image-link-panel-link ml-4"
+                                    color="primary"
                                 />
                                 <ImageLinkPanelLarge
                                     href="/superrask-soknad-bedrift"
@@ -31,7 +31,7 @@ export default function ArticlePageBedrift() {
                                     alt="En mann sitter på et kontor og tar en annen i hånden"
                                     title="Nyhet! Superrask Søknad"
                                     description="En enklere måte å komme i kontakt med relevante jobbsøkere."
-                                    className="arb-tertiary-bg-text arb-link-panel image-link-panel-link ml-4"
+                                    color="secondary"
                                 />
                                 <ImageLinkPanelLarge
                                     href="/skikkelig-bra-stillingsannonse"
@@ -40,7 +40,7 @@ export default function ArticlePageBedrift() {
                                     title="Skikkelig bra stillingsannonse"
                                     description="Hva ser jobbsøkere etter når de leser en stillingsannonse? Hva bør du tenke på når
                                     du skriver annonsen?"
-                                    className="arb-primary-bg-text arb-link-panel image-link-panel-link ml-4"
+                                    color="tertiary"
                                 />
                                 <ImageLinkPanelLarge
                                     href="/mot-jobbsokere-pa-en-ny-mate"
@@ -49,7 +49,7 @@ export default function ArticlePageBedrift() {
                                     title="Jobbtreff – møt jobbsøkere på en ny måte"
                                     description="Trenger dere nye medarbeidere? Nå kan du presentere bedriften din for interesserte
                                     jobbsøkere i en direkte sending."
-                                    className="arb-primary-solid-bg-text arb-link-panel image-link-panel-link ml-4"
+                                    color="primary-solid"
                                 />
                                 <ImageLinkPanelLarge
                                     href="/overforing-av-stillingsannonser"
@@ -58,7 +58,7 @@ export default function ArticlePageBedrift() {
                                     title="Overføring av stillingsannonser til arbeidsplassen.no"
                                     description="NAVs import-API er utviklet for at det skal være enkelt å publisere stillinger på
                                     arbeidsplassen.no for våre samarbeidspartnere."
-                                    className="arb-secondary-bg-text arb-link-panel image-link-panel-link ml-4"
+                                    color="primary"
                                 />
                             </div>
                         </div>

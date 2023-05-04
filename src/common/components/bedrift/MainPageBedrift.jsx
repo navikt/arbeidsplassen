@@ -52,7 +52,7 @@ function MainPageBedrift() {
                     alt="En kunde får servert en burger fra en food truck"
                     title="Tiden for sommerjobb er her"
                     description="Gi unge en mulighet - utlys sommerjobben nå!"
-                    className="arb-primary-bg-text arb-link-panel image-link-panel-link ml-4"
+                    color="primary"
                 />
                 <ImageLinkPanelSmall
                     href="/superrask-soknad-person"
@@ -60,7 +60,7 @@ function MainPageBedrift() {
                     alt="En person som skriver på mobilen sin."
                     title="Nyhet! Superrask søknad"
                     description="En enklere måte å komme i kontakt med bedrifter."
-                    className="arb-tertiary-bg-text arb-link-panel image-link-panel-link ml-4"
+                    color="secondary"
                 />
                 <ImageLinkPanelSmall
                     href="mot-bedrifter-pa-en-ny-mate"
@@ -68,7 +68,7 @@ function MainPageBedrift() {
                     alt="En person sitter ved et kjøkkenbord med datamaskin foran seg, hun har på hodetelefoner og er nok i gang med en videosamtale."
                     title="Jobbtreff – møt nye bedrifter på en ny måte"
                     description="Følg en direkte sending der bedriften forteller om seg selv og hva slags stillinger du kan søke på."
-                    className="arb-primary-solid-bg-text arb-link-panel image-link-panel-link ml-4"
+                    color="tertiary"
                 />
             </div>
         </div>
