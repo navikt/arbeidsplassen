@@ -1,6 +1,6 @@
 import { Button, Heading, Ingress, LinkPanel } from "@navikt/ds-react";
 import IllustrationBedrift from "@/src/common/components/images/IllustrationBedrift";
-import ImageLinkPanelMainPage from "@/src/common/components/ImageLinkPanelSmall";
+import ImageLinkPanelSmall from "@/src/common/components/ImageLinkPanelSmall";
 
 function MainPageBedrift() {
     return (
@@ -46,7 +46,7 @@ function MainPageBedrift() {
             </div>
 
             <div className="image-link-panel-grid-small">
-                <ImageLinkPanelMainPage
+                <ImageLinkPanelSmall
                     href="/sommerjobb"
                     image="/images/sommerjobb.png"
                     alt="En kunde får servert en burger fra en food truck"
@@ -54,7 +54,7 @@ function MainPageBedrift() {
                     description="Gi unge en mulighet - utlys sommerjobben nå!"
                     className="arb-primary-bg-text arb-link-panel image-link-panel-link ml-4"
                 />
-                <ImageLinkPanelMainPage
+                <ImageLinkPanelSmall
                     href="/superrask-soknad-person"
                     image="/images/jobbsoker.jpg"
                     alt="En person som skriver på mobilen sin."
@@ -62,7 +62,7 @@ function MainPageBedrift() {
                     description="En enklere måte å komme i kontakt med bedrifter."
                     className="arb-tertiary-bg-text arb-link-panel image-link-panel-link ml-4"
                 />
-                <ImageLinkPanelMainPage
+                <ImageLinkPanelSmall
                     href="mot-bedrifter-pa-en-ny-mate"
                     image="/images/jobbtreff.webp"
                     alt="En person sitter ved et kjøkkenbord med datamaskin foran seg, hun har på hodetelefoner og er nok i gang med en videosamtale."
