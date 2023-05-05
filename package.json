@@ -42,13 +42,13 @@
         "lint-staged": "^13.2.2",
         "prettier": "^2.8.8"
     },
-     "lint-staged": {
-    "./*/**/*.{js,jsx,ts,tsx}": [
-      "npm run prettier:fix",
-      "npm run eslint:fix"
-    ],
-    "*.{json,md}": [
-      "npm run prettier:fix"
-    ]
-  }
+    "lint-staged": {
+        "./*/**/*.{js,jsx,ts,tsx}": [
+            "npm run prettier:fix",
+            "npm run eslint:fix"
+        ],
+        "*.{json,md}": [
+            "npm run prettier:fix"
+        ]
+    }
 }

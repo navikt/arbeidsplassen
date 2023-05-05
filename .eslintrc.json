@@ -36,11 +36,11 @@
         ]
     },
     "settings": {
-      "import/resolver": {
-        "alias": {
-          "extensions": [".js", ".jsx"],
-          "map": [ ["@", "."] ]
+        "import/resolver": {
+            "alias": {
+                "extensions": [".js", ".jsx"],
+                "map": [["@", "."]]
+            }
         }
-      }
     }
 }
