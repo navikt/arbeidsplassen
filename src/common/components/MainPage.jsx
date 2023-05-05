@@ -19,7 +19,7 @@ function MainPage() {
 
                         <div className="mb-4">
                             <Button variant="primary" as="a" href="/stillinger">
-                                Se ledige stillinger
+                                Søk etter din neste jobb
                             </Button>
                         </div>
                     </div>
