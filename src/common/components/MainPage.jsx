@@ -13,7 +13,7 @@ function MainPage() {
                             samlet på én plass.
                         </Heading>
                         <Ingress spacing>
-                            Finn din neste jobb i en av Norges største samling av stillinger. Her finner du jobber fra
+                            Finn din neste jobb i en av Norges største samlinger av stillinger. Her finner du jobber fra
                             alle bransjer i markedet.
                         </Ingress>
 
