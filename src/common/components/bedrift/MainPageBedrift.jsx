@@ -34,7 +34,7 @@ function MainPageBedrift() {
                         Lag ny stillingsannonse
                     </LinkPanel.Title>
                     <LinkPanel.Description className="navds-link-panel__description navds-body-long">
-                        Gjør deg synlig i Norges største stillingssøk.
+                        Gjør deg synlig i et av Norges største stillingssøk.
                     </LinkPanel.Description>
                 </LinkPanel>
 
