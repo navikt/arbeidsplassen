@@ -46,6 +46,7 @@
     position: absolute;
     bottom: 0;
     border-radius: 64px 0 4px 4px;
+    width: 100%;
 }
 
 .image-link-panel-content {
