@@ -2,3 +2,4 @@ ingress: ["https://arbeidsplassen.dev.nav.no", "https://arbeidsplassen.intern.de
 loglevel: "debug"
 namespace: "teampam"
 pam_samtykke_api_url: "https://pam-samtykke-api-tokenx-proxy.dev-fss-pub.nais.io"
+amplitude_key: "3acd3a52e065d2d99856a12e7e9e1432"
