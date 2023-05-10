@@ -3,6 +3,7 @@ import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
 import React from "react";
 import ImageLinkPanelMedium from "@/src/common/components/ImageLinkPanelMedium";
+import Image from "next/image";
 
 export default function overforingAvStillingsannonser() {
     return (
@@ -22,7 +23,7 @@ export default function overforingAvStillingsannonser() {
             </div>
 
             <div className="container-medium mb-3">
-                <img className="article-image" src="/images/api.png" alt="API, illustrasjon" width="100%" />
+                <Image className="article-image" src="/images/api.png" alt="API, illustrasjon" width="100%" />
             </div>
             <div className="container-small mb-4">
                 <Heading size="large" level="2" spacing>
