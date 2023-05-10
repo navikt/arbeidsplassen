@@ -3,8 +3,16 @@ import "@navikt/ds-css";
 import "@navikt/arbeidsplassen-css";
 import "../common/styles/index.css";
 import AuthenticationProvider from "@/src/common/contexts/AuthenticationProvider";
+import setUpAmplitude from "@/src/common/analysis/metrics";
+import { useEffect } from "react";
 
 function App({ Component, pageProps }) {
+    if (process.env.NEXT_PUBLIC_AMPLITUDE_KEY) {
+        useEffect(() => {
+            setUpAmplitude(process.env.NEXT_PUBLIC_AMPLITUDE_KEY);
+        }, []);
+    }
+
     return (
         <AuthenticationProvider>
             <Component {...pageProps} />
