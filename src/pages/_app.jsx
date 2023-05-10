@@ -7,11 +7,11 @@ import setUpAmplitude from "@/src/common/analysis/metrics";
 import { useEffect } from "react";
 
 function App({ Component, pageProps }) {
-    if (process.env.NEXT_PUBLIC_AMPLITUDE_KEY) {
-        useEffect(() => {
+    useEffect(() => {
+        if (process.env.NEXT_PUBLIC_AMPLITUDE_KEY) {
             setUpAmplitude(process.env.NEXT_PUBLIC_AMPLITUDE_KEY);
-        }, []);
-    }
+        }
+    }, []);
 
     return (
         <AuthenticationProvider>
