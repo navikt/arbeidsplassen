@@ -17,8 +17,10 @@ function setUpAmplitude(apiKey) {
             },
             */
         });
+        console.log("successfully setup amplitude");
         return true;
     } catch (e) {
+        console.log("failed to setup amplitude: ", e);
         return false;
     }
 }
