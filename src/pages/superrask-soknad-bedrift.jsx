@@ -3,6 +3,7 @@ import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
 import React from "react";
 import ImageLinkPanelMedium from "@/src/common/components/ImageLinkPanelMedium";
+import Image from "next/image";
 
 export default function SuperraskSoknadBedrift() {
     return (
@@ -24,7 +25,7 @@ export default function SuperraskSoknadBedrift() {
             </div>
 
             <div className="container-medium mb-3">
-                <img
+                <Image
                     className="article-image"
                     src="/images/bedrift.jpg"
                     alt="En mann sitter på et kontor og tar en annen i hånden"

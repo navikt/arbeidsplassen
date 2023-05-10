@@ -4,6 +4,7 @@ import Head from "next/head";
 import NextLink from "next/link";
 import React from "react";
 import ImageLinkPanelMedium from "@/src/common/components/ImageLinkPanelMedium";
+import Image from "next/image";
 
 export default function SuperraskSoknadPerson() {
     return (
@@ -20,7 +21,7 @@ export default function SuperraskSoknadPerson() {
             </div>
 
             <div className="container-medium mb-3">
-                <img
+                <Image
                     className="article-image"
                     src="/images/jobbsoker.jpg"
                     alt="En person som skriver på telefonen sin."
