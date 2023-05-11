@@ -15,24 +15,129 @@ export default function vilkarOgRetningslinjer() {
                 </Heading>
 
                 <Heading size="large" level="2" spacing>
-                    Vilkår for å bruke arbeidsgivertjenestene
+                    Vilkår for å bruke arbeidsgivertjenestene på arbeidsplassen.no
                 </Heading>
                 <BodyLong>
-                    Arbeidsgivere må godta flere vilkår for å benytte tjenestene på arbeidsplassen.no. De viktigste
-                    vilkårene:
+                    Arbeidsplassen.no er en kostnadsfri tjeneste fra NAV. Arbeidsgivere må godta flere vilkår for å
+                    benytte tjenestene på arbeidsplassen.no. Generelle vilkår vi ønsker å trekke frem er:
+                </BodyLong>
+                <ul className="mb-3">
+                    <li>
+                        <BodyLong>
+                            Stillingsannonser som arbeidsgiver kan publisere skal følge retningslinjer for innhold i
+                            stillingsannonser, se mer informasjon under.
+                        </BodyLong>
+                    </li>
+                    <li>
+                        <BodyLong>
+                            For å benytte tjenestene på arbeidsplassen.no må ha et generelt rekrutteringsbehov.
+                        </BodyLong>
+                    </li>
+                    <li>
+                        <BodyLong>
+                            Enhver personopplysning du mottar fra jobbsøkere må behandles til formålet om rekruttering,
+                            og slettes ved endt rekrutteringsprosess.
+                        </BodyLong>
+                    </li>
+                    <li>
+                        <BodyLong>Personopplysninger om jobbsøkere kan ikke brukes til markedsføring.</BodyLong>
+                    </li>
+                </ul>
+
+                <Heading size="medium" level="3" spacing>
+                    Hvem kan bruke tjenestene
+                </Heading>
+                <BodyLong spacing>
+                    Ansatte i en virksomhet må ha riktige tilganger i Altinn for å kunne benytte arbeidsgivertjenestene
+                    på arbeidsplassen.no.{" "}
+                </BodyLong>
+                <BodyLong className="mb-3">
+                    Her kan du lese{" "}
+                    <NextLink href="/arbeidsgivertjenester " passHref legacyBehavior>
+                        <DsLink>alle vilkårene for bruk av arbeidsplassen.no</DsLink>
+                    </NextLink>
+                </BodyLong>
+
+                <Heading size="medium" level="3" spacing>
+                    Personopplysninger
+                </Heading>
+                <BodyLong spacing>
+                    NAV er pålagt å drive en statlig arbeidsformidling og formidle arbeidskraft. For å kunne tilby disse
+                    tjenestene til arbeidsgivere, må vi lagre nødvendige personopplysninger. Vi lagrer disse
+                    opplysningene:
                 </BodyLong>
                 <ul>
                     <li>
                         <BodyLong>
-                            Stillingsannonser som arbeidsgiver kan publisere skal følge retningslinjer for innhold i
-                            stillingsannonser, se eget punkt under.
+                            Stillinger som virksomheten har publisert på arbeidsplassen.no, herunder personopplysninger
+                            du har oppgitt. Annonsene arkiveres og anonymiserte opplysninger brukes til statistiske
+                            formål.
                         </BodyLong>
                     </li>
                 </ul>
-                <BodyLong className="mb-3">
-                    <NextLink href="/vilkar" passHref legacyBehavior>
-                        <DsLink>Her kan du lese alle vilkårene for bruk av arbeidsplassen.no.</DsLink>
+                <BodyLong spacing>
+                    For mer informasjon,{" "}
+                    <NextLink href="/arbeidsgivertjenester " passHref legacyBehavior>
+                        <DsLink>se NAVs personvernerklæring.</DsLink>
                     </NextLink>
+                </BodyLong>
+                <BodyLong spacing>
+                    Flere vilkår og retningslinjer står lenger ned, kategorisert på enkelttjenestene på
+                    arbeidsplassen.no.{" "}
+                </BodyLong>
+                <BodyLong className="mb-3">
+                    Har du spørsmål, ta gjerne kontakt med oss: Kontakt NAV - arbeidsgiver
+                </BodyLong>
+
+                <Heading size="large" level="2" spacing>
+                    Vilkår for å publisere stillingsannonser
+                </Heading>
+                <BodyLong spacing>
+                    For å annonsere ledige stillinger på arbeidsplassen.no og Den Europeiske Jobbmobilitetsportalen, må
+                    du blant annet ha en konkret stilling du ønsker å ansette til. Stillingsannonsen kan ikke
+                    forskjellsbehandle ut fra kjønn, alder, etnisk bakgrunn eller andre kriterier som ikke er relevante
+                    for stillingen.
+                </BodyLong>
+                <BodyLong spacing>
+                    Hvis NAV oppdager en annonse som ikke oppfyller vilkårene, kan den bli slettet eller fjernet uten
+                    varsling. NAV vil ta kontakt og informere i etterkant.
+                </BodyLong>
+                <BodyLong className="mb-3">
+                    Les her for mer informasjon om{" "}
+                    <NextLink href="/vilkar-stillingsannonser" passHref legacyBehavior>
+                        <DsLink>Vilkår for å publisere stillingsannonser</DsLink>
+                    </NextLink>{" "}
+                    på arbeidsplassen.no
+                </BodyLong>
+
+                <Heading size="large" level="2" spacing>
+                    Vilkår for bruk av superrask søknad
+                </Heading>
+                <BodyLong spacing>
+                    Personopplysninger som du mottar fra jobbsøkere i “superrask søknad” kan kun brukes så lenge
+                    formålet er å bemanne og rekruttere til en konkret stilling.
+                </BodyLong>
+                <BodyLong className="mb-3">
+                    Her kan du lese{" "}
+                    <NextLink href="/vilkar-superrask-soknad" passHref legacyBehavior>
+                        <DsLink>Vilkår for bruk av superrask søknad</DsLink>
+                    </NextLink>{" "}
+                    på arbeidsplassen.no
+                </BodyLong>
+
+                <Heading size="large" level="2" spacing>
+                    Retningslinjer for innhold i jobbtreff
+                </Heading>
+                <BodyLong spacing>
+                    Arbeidsgiver kan selv opprette et jobbtreff for å fortelle om sin ledige stilling i en direkte
+                    sending mens deltagere kan se og høre på.
+                </BodyLong>
+                <BodyLong className="mb-3">
+                    Her kan du lese{" "}
+                    <NextLink href="/retningslinjer-jobbtreff" passHref legacyBehavior>
+                        <DsLink>Retningslinjer for innhold i jobbtreff</DsLink>
+                    </NextLink>{" "}
+                    på arbeidsplassen.no
                 </BodyLong>
 
                 <Heading size="large" level="2" spacing>
@@ -44,59 +149,12 @@ export default function vilkarOgRetningslinjer() {
                     inneholder både stillinger som er registrert direkte hos NAV, publisert til NAV via et åpent API og
                     hentet inn fra våre samarbeidspartnere.
                 </BodyLong>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-6">
+                    Her kan du lese{" "}
                     <NextLink href="/vilkar-api" passHref legacyBehavior>
-                        <DsLink>Her kan du lese vilkårene for bruk av API for stillingsannonser.</DsLink>
-                    </NextLink>
-                </BodyLong>
-
-                <Heading size="large" level="2" spacing>
-                    Retningslinjer for innhold i stillingsannonser
-                </Heading>
-                <BodyLong>
-                    Arbeidsgiver kan selv publisere stillingsannonser på arbeidsplassen.no. I tillegg henter
-                    arbeidsplassen.no stillingsannonser fra mange ulike kilder til stillingssøket. Alle annonser blir
-                    kontrollert opp mot NAVs retningslinjer for innhold i stillingsannonser. De viktigste
-                    retningslinjene er:
-                </BodyLong>
-                <ul>
-                    <li>
-                        <BodyLong>Annonser må vise til konkrete stillinger med ansettelse og lønn</BodyLong>
-                    </li>
-                    <li>
-                        <BodyLong>
-                            Arbeidsgivere kan ikke kreve betaling av arbeidssøkere for å søke stillinger
-                        </BodyLong>
-                    </li>
-                    <li>
-                        <BodyLong>Innholdet i annonsen skal ikke være diskriminerende</BodyLong>
-                    </li>
-                    <li>
-                        <BodyLong>
-                            Annonser som fremstår som markedsføring av tjenester eller produkter uten å være konkrete
-                            stillinger, er ikke tillatt.
-                        </BodyLong>
-                    </li>
-                </ul>
-                <BodyLong className="mb-3">
-                    <NextLink href="/retningslinjer-stillingsannonser" passHref legacyBehavior>
-                        <DsLink>
-                            Her kan du lese Retningslinjer for innhold i stillingsannonser på arbeidsplassen.no.
-                        </DsLink>
-                    </NextLink>
-                </BodyLong>
-
-                <Heading size="large" level="2" spacing>
-                    Retningslinjer for innhold i jobbtreff
-                </Heading>
-                <BodyLong spacing>
-                    Arbeidsgiver kan selv opprette et jobbtreff for å fortelle om sin ledige stilling i en direkte
-                    sending mens deltagere kan se og høre på.
-                </BodyLong>
-                <BodyLong>
-                    <NextLink href="/retningslinjer-jobbtreff" passHref legacyBehavior>
-                        <DsLink>Her kan du lese Retningslinjer for innhold i jobbtreff på arbeidsplassen.no</DsLink>
-                    </NextLink>
+                        <DsLink>Vilkår for bruk av API for stillingsannonser</DsLink>
+                    </NextLink>{" "}
+                    på arbeidsplassen.no
                 </BodyLong>
             </article>
         </Layout>

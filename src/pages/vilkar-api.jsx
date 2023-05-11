@@ -44,7 +44,7 @@ export default function vilkarApi() {
                     <li>
                         <BodyLong>
                             Ikke sletter stillinger når de løper ut fra dato eller på andre måter blir trukket fra
-                            APIet.
+                            API-et.
                         </BodyLong>
                     </li>
                     <li>
@@ -81,7 +81,7 @@ export default function vilkarApi() {
                     Slik får du tilgang
                 </Heading>
                 <BodyLong spacing>
-                    Mer informasjon om APIet og tilkobling finner du i{" "}
+                    Mer informasjon om API-et og tilkobling finner du i{" "}
                     <DsLink href="https://data.norge.no/dataservices/ed933ffe-a32c-38a2-9921-1fed86ad3173">
                         Datatjenestebeskrivelse i Felles datakatalog.
                     </DsLink>
