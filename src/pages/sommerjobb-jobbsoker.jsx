@@ -34,7 +34,7 @@ export default function SommerjobbJobbsoker() {
                     Enkelt og greit!
                 </BodyLong>
                 <BodyLong className="mb-3">
-                    <DsLink href="/stillinger?q=sommer">Her finner du sommerjobber</DsLink>
+                    <DsLink href="/stillinger?q=sommerjobb">Her finner du sommerjobber</DsLink>
                 </BodyLong>
 
                 <Heading size="large" level="2" spacing>
