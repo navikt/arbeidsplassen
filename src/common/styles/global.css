@@ -92,6 +92,14 @@ body {
     object-position: 0 35%;
 }
 
+.article-image-pos-thon {
+    object-position: 0 20%;
+}
+
+.article-image-pos-thon2 {
+    object-position: 0 5%;
+}
+
 .article-panel {
     display: flex;
     position: relative;
