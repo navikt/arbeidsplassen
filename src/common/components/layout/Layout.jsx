@@ -16,7 +16,7 @@ export default function Layout({ children, active }) {
     return (
         <>
             <div className="arb-push-footer-down">
-                <SkipLink />
+                <SkipLink href="#main-content" />
                 <Header
                     variant="all"
                     active={active}
