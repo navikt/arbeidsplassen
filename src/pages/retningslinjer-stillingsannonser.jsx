@@ -25,14 +25,13 @@ export default function retningslinjerStillingsannonser() {
                 <Heading size="large" level="2" spacing>
                     1. Innledning
                 </Heading>
-                <BodyLong spacing>
+                <BodyLong className="mb-3">
                     Formålet med disse retningslinjene er å bidra til å kvalitetssikre NAVs stillingsbase, slik at NAV
                     best mulig kan fylle sin oppgave som møtested for arbeidsgivere og arbeidssøkere. Retningslinjene
                     angir generelle krav til innhold i stillingsannonser som registreres i NAVs stillingsbase og
                     publiseres på arbeidsplassen.no. Retningslinjene gjelder alle typer stillinger/annonser, uansett om
                     stillingen blir innhentet elektronisk eller blir registrert av en arbeidsgiver på arbeidsplassen.no.
                 </BodyLong>
-                <BodyLong className="mb-3">Disse retningslinjene gjelder også for bruk av "Superrask søknad".</BodyLong>
 
                 <Heading size="large" level="2" spacing>
                     2. Stillinger som medfører et ansettelsesforhold - reelle stillinger
@@ -183,16 +182,24 @@ export default function retningslinjerStillingsannonser() {
                 </BodyLong>
 
                 <Heading size="large" level="2" spacing>
-                    10. Siste publiseringsdato (utløpsdato)
+                    10. Annonser på andre språk enn norsk
+                </Heading>
+                <BodyLong className="mb-3">
+                    Annonser som registreres i NAVs stillingsbase skal enten være på bokmål, nynorsk, samisk, engelsk,
+                    svensk eller dansk. Det kan ikke registreres flere annonser for samme stilling på ulike språk. Det
+                    er virksomhetens ansvar å oversette annonseteksten.{" "}
+                </BodyLong>
+                <Heading size="large" level="2" spacing>
+                    11. Siste publiseringsdato (utløpsdato)
                 </Heading>
                 <BodyLong className="mb-3">
                     Utløpsdato for en stilling må ikke settes senere enn 6 måneder etter registreringsdato.
                 </BodyLong>
 
                 <Heading size="large" level="2" spacing>
-                    11. Avpublisering av annonser som ikke oppfyller vilkårene
+                    12. Avpublisering av annonser som ikke oppfyller vilkårene
                 </Heading>
-                <BodyLong spacing>NAV kontrollerer alle annonser som publiseres på Aabeidsplassen.no.</BodyLong>
+                <BodyLong spacing>NAV kontrollerer alle annonser som publiseres på arbeidsplassen.no.</BodyLong>
                 <BodyLong spacing>
                     Hvis det oppdages annonser på arbeidsplassen.no som ikke oppfyller vilkårene i disse
                     retningslinjene, men som likevel er blitt publisert, blir annonsen avpublisert.
@@ -205,7 +212,7 @@ export default function retningslinjerStillingsannonser() {
                     Dersom NAV har avpublisert en annonse som er registrert av arbeidsgiver på arbeidsplassen.no, vil
                     NAV ta kontakt med arbeidsgiver slik at de kan rette annonsen så den kan bli publisert på nytt.
                 </BodyLong>
-                <BodyLong>
+                <BodyLong className="mb-6">
                     Ved avpublisering av stillinger som er elektronisk innhentet vil arbeidsgiver ikke få melding.
                 </BodyLong>
             </article>
