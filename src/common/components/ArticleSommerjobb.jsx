@@ -19,11 +19,6 @@ function ArticleSommerjobb({ color = "primary" }) {
                     </NextLink>
                 </Heading>
                 <Ingress>Bedrifter publiserer nye sommerjobber fortløpende. Ta sjansen og søk i dag!</Ingress>
-                <Ingress>
-                    <NextLink href="/stillinger?q=sommerjobb">
-                        <DsLink>Se alle sommerjobbene</DsLink>
-                    </NextLink>
-                </Ingress>
             </div>
         </Panel>
     );
