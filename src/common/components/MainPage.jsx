@@ -1,11 +1,12 @@
 import { Button, Heading, Ingress, LinkPanel } from "@navikt/ds-react";
 import IllustrationPerson from "@/src/common/components/images/IllustrationPerson";
 import InformationUkraine from "@/src/common/components/banners/InformationUkraine";
+import ArticleSommerjobb from "@/src/common/components/ArticleSommerjobb";
 
 function MainPage() {
     return (
         <>
-            <div className="container-large page-margin-top-and-bottom mb-5">
+            <div className="container-large page-margin-top-and-bottom mb-3">
                 <section className="arb-home-section-flex">
                     <div className="arb-home-div-width">
                         <Heading size="xlarge" level="1" spacing>
@@ -30,7 +31,7 @@ function MainPage() {
                 </section>
 
                 <div className="arb-link-panel-grid mb-3">
-                    <LinkPanel className="arb-primary-bg-text arb-link-panel" href="/jobbtreff">
+                    <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href="/jobbtreff">
                         <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                             Se kommende jobbtreff
                         </LinkPanel.Title>
@@ -48,7 +49,12 @@ function MainPage() {
                     </LinkPanel>
                 </div>
             </div>
-            <div className="mb-6 arb-tertiary-bg-text">
+
+            <section className="container-large arb-home-section-flex mb-3">
+                <ArticleSommerjobb color="primary" className="arb-home-div-width" />
+            </section>
+
+            <div className="mb-6">
                 <InformationUkraine />
             </div>
         </>
