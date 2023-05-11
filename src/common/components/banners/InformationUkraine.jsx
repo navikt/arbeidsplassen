@@ -4,7 +4,7 @@ import UkrainianFlag from "@/src/common/components/images/UkrainianFlag";
 
 export default function InformationUkraine() {
     return (
-        <Panel className="container-large arb-tertiary-bg-text text-center">
+        <Panel className="container-xlarge arb-tertiary-bg-text text-center">
             <Heading spacing level="2" size="large">
                 Information about working in Norway for refugees from Ukraine
                 <UkrainianFlag className="h-2" ariaHidden="Ukrainsk flagg" />
