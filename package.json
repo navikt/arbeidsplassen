@@ -43,12 +43,12 @@
         "prettier": "^2.8.8"
     },
     "lint-staged": {
-        "./*/**/*.{js,jsx,ts,tsx}": [
-            "npm run prettier:fix",
-            "npm run eslint:fix"
+        "./*/**/*.{js,jsx,ts,tsx,json,css,yml,yaml}": [
+            "npx prettier --write \"**/*.+(js|jsx|ts|tsx|json|yml|yaml|md|css)\"",
+            "npx eslint --fix \"**/*.+(js|jsx|ts|tsx)\""
         ],
         "*.{json,md}": [
-            "npm run prettier:fix"
+            "npx prettier --write \"*.+(json|md)\""
         ]
     }
 }
