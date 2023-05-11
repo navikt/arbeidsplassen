@@ -29,7 +29,7 @@ export default function ArticlePageBedrift() {
                                     href="/superrask-soknad-bedrift"
                                     image="/images/bedrift.jpg"
                                     alt="En mann sitter på et kontor og tar en annen i hånden"
-                                    title="Nyhet! Superrask Søknad"
+                                    title="Nyhet! Superrask søknad"
                                     description="En enklere måte å komme i kontakt med relevante jobbsøkere."
                                     color="secondary"
                                 />
