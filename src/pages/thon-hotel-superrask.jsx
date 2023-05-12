@@ -5,7 +5,7 @@ import ImageLinkPanelMedium from "@/src/common/components/ImageLinkPanelMedium";
 import React from "react";
 import NextLink from "next/link";
 
-export default function ThonHotellSuperrask() {
+export default function ThonHotelSuperrask() {
     return (
         <Layout>
             <Head>
@@ -120,9 +120,12 @@ export default function ThonHotellSuperrask() {
                     kontakt med søkere. Det fungerte veldig bra for oss, avslutter hun.
                 </BodyLong>
 
-                <LinkPanel className="arb-primary-bg-text arb-link-panel" href="/stillinger">
+                <LinkPanel
+                    className="arb-primary-bg-text arb-link-panel"
+                    href="/stillingsregistrering/stillingsannonser"
+                >
                     <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
-                        Se ledige stillinger
+                        Lag ny stillingsannonse
                     </LinkPanel.Title>
                 </LinkPanel>
             </div>
