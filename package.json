@@ -50,7 +50,7 @@
             "npx prettier --write",
             "npx eslint --fix"
         ],
-        "./*/**/*.{css}": [
+        "./*/**/*.css": [
             "npx prettier --write",
             "npx stylelint --fix"
         ],
