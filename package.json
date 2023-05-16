@@ -14,7 +14,7 @@
         "prettier": "prettier --check \"**/*.+(js|jsx|ts|tsx|json|yml|yaml|md|css)\"",
         "prettier:fix": "prettier --write \"**/*.+(js|jsx|ts|tsx|json|yml|yaml|md|css)\"",
         "prepare": "husky install",
-        "pre-push": "lint-staged  --diff=master --diff-filter ACMR"
+        "pre-push": "lint-staged  --diff='master' --diff-filter ACMR"
     },
     "dependencies": {
         "@navikt/aksel-icons": "^2.8.8",
