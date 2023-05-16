@@ -13,7 +13,7 @@
         "prettier": "prettier --check \"**/*.+(js|jsx|ts|tsx|json|yml|yaml|md|css)\"",
         "prettier:fix": "prettier --write \"**/*.+(js|jsx|ts|tsx|json|yml|yaml|md|css)\"",
         "prepare": "husky install",
-        "pre-commit": "lint-staged"
+        "pre-commit": "lint-staged --diff=master"
     },
     "dependencies": {
         "@navikt/aksel-icons": "^2.8.8",
