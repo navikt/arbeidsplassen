@@ -9,7 +9,7 @@ function MainPage() {
             <div className="container-large page-margin-top-and-bottom mb-3">
                 <section className="arb-home-section-flex">
                     <div className="arb-home-div-width">
-                        <Heading size="xlarge" className="main-page-heading" level="1" spacing>
+                        <Heading size="xlarge" level="1" spacing className="main-page-heading">
                             Alt av arbeid, <br />
                             samlet på én plass.
                         </Heading>
