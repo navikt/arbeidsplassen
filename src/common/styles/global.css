@@ -22,7 +22,7 @@ body {
 }
 
 .bedrift-h1 {
-    max-width: 22px;
+    max-width: 22ch;
 }
 
 @media (min-width: 768px) {
