@@ -10,6 +10,7 @@
         "lint": "next lint",
         "eslint": "eslint \"**/*.+(js|jsx|ts|tsx)\"",
         "eslint:fix": "eslint --fix \"**/*.+(js|jsx|ts|tsx)\"",
+        "stylelint:fix": "stylelint --fix \"**/*.+(css)\"",
         "prettier": "prettier --check \"**/*.+(js|jsx|ts|tsx|json|yml|yaml|md|css)\"",
         "prettier:fix": "prettier --write \"**/*.+(js|jsx|ts|tsx|json|yml|yaml|md|css)\"",
         "prepare": "husky install",
