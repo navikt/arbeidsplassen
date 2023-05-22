@@ -21,6 +21,10 @@ body {
     margin-bottom: 2rem;
 }
 
+.bedrift-h1 {
+    max-width: 22px;
+}
+
 @media (min-width: 768px) {
     .page-margin-top-and-bottom {
         margin-top: 4rem;
