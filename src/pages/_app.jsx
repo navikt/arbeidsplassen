@@ -8,9 +8,7 @@ import { useEffect } from "react";
 
 function App({ Component, pageProps }) {
     useEffect(() => {
-        if (process.env.NEXT_PUBLIC_AMPLITUDE_KEY) {
-            setUpAmplitude();
-        }
+        setUpAmplitude();
     }, []);
 
     return (
