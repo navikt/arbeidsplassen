@@ -1,6 +1,4 @@
 FROM node:18 AS builder
-ARG NEXT_PUBLIC_AMPLITUDE_KEY
-ENV NEXT_PUBLIC_AMPLITUDE_KEY=$NEXT_PUBLIC_AMPLITUDE_KEY
 WORKDIR /var/server
 COPY package.json package-lock.json ./
 RUN npm config set @navikt:registry https://npm.pkg.github.com
