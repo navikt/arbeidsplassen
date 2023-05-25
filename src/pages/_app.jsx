@@ -7,7 +7,6 @@ import setUpAmplitude from "@/src/common/analysis/metrics";
 import { useEffect } from "react";
 
 function App({ Component, pageProps }) {
-    console.log("ampKey", process.env.NEXT_PUBLIC_AMPLITUDE_KEY);
     useEffect(() => {
         if (process.env.NEXT_PUBLIC_AMPLITUDE_KEY) {
             setUpAmplitude();
