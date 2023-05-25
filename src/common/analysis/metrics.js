@@ -9,7 +9,6 @@ function getAmplitudeKey() {
 
 function setUpAmplitude() {
     try {
-        console.log("window, ", window.location.href);
         const ampKey = getAmplitudeKey();
         if (!ampKey) return false;
 
