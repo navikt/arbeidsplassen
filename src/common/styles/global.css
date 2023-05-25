@@ -21,6 +21,22 @@ body {
     margin-bottom: 2rem;
 }
 
+.main-page-heading {
+    font-size: 64px;
+}
+
+@media (max-width: 480px) {
+    .main-page-heading {
+        font-size: var(--a-font-size-heading-xlarge);
+        letter-spacing: -0.008em;
+        line-height: var(--a-font-line-height-heading-xlarge);
+    }
+
+    .main-page-heading.navds-typo--spacing {
+        margin-bottom: var(--a-spacing-4);
+    }
+}
+
 .bedrift-h1 {
     max-width: 22ch;
 }
