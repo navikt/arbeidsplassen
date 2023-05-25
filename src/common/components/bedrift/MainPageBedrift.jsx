@@ -7,7 +7,11 @@ function MainPageBedrift() {
         <div className="container-large page-margin-top-and-bottom mb-6">
             <section className="arb-home-section-flex">
                 <div className="arb-home-div-width">
+<<<<<<< HEAD
                     <Heading size="xlarge" level="1" spacing className="bedrift-h1 main-page-heading">
+=======
+                    <Heading size="xlarge" level="1" spacing className="bedrift-h1">
+>>>>>>> master
                         Rekrutter deres neste medarbeider
                     </Heading>
                     <Ingress spacing>Motta søknader raskt og enkelt fra relevante jobbsøkere.</Ingress>

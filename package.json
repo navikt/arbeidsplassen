@@ -14,7 +14,7 @@
         "prettier": "prettier --check \"**/*.+(js|jsx|ts|tsx|json|yml|yaml|md|css)\"",
         "prettier:fix": "prettier --write \"**/*.+(js|jsx|ts|tsx|json|yml|yaml|md|css)\"",
         "prepare": "husky install",
-        "pre-push": "lint-staged  --diff master  --diff-filter ACMR"
+        "pre-commit": "lint-staged"
     },
     "dependencies": {
         "@navikt/aksel-icons": "^2.8.8",
@@ -26,8 +26,7 @@
         "next": "13.1.6",
         "prop-types": "^15.8.1",
         "react": "18.2.0",
-        "react-dom": "18.2.0",
-        "stylelint": "^15.6.1"
+        "react-dom": "18.2.0"
     },
     "devDependencies": {
         "eslint": "^8.39.0",
@@ -43,6 +42,7 @@
         "husky": "^8.0.0",
         "lint-staged": "^13.2.2",
         "prettier": "^2.8.8",
+        "stylelint": "^15.6.1",
         "stylelint-config-recommended": "^12.0.0"
     },
     "lint-staged": {
