@@ -104,8 +104,9 @@ export default function SuperraskSoknadBedrift() {
                 <ul>
                     <li>
                         <BodyLong spacing>
-                            Hvordan ønsker dere å gå videre med aktuelle jobbsøkere? Dere styrer prosessen videre, om
-                            dere ønsker et telefonintervju, kaffeprat eller hva dere erfarer fungerer for dere.
+                            Hvordan ønsker dere å gå videre med aktuelle jobbsøkere? Kanskje ønsker dere et
+                            telefonintervju eller en kaffeprat? Dere får ikke tilsendt CV gjennom superrask søknad, så
+                            det avtaler dere eventuelt i etterkant.
                         </BodyLong>
                     </li>
                 </ul>
