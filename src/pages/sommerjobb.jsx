@@ -3,7 +3,6 @@ import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
 import ImageLinkPanelMedium from "@/src/common/components/ImageLinkPanelMedium";
 import React from "react";
-import Image from "next/image";
 
 export default function Sommerjobb() {
     return (
@@ -18,7 +17,7 @@ export default function Sommerjobb() {
             </div>
 
             <div className="container-medium mb-3">
-                <Image
+                <img
                     className="article-image"
                     src="/images/sommerjobb.png"
                     alt="En kunde får servert en burger fra en food truck"

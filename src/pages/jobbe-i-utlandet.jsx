@@ -2,7 +2,6 @@ import { BodyLong, Heading, Ingress, LinkPanel } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
 import ImageLinkPanelMedium from "@/src/common/components/ImageLinkPanelMedium";
-import Image from "next/image";
 
 export default function jobbeiUtlandet() {
     return (
@@ -22,7 +21,7 @@ export default function jobbeiUtlandet() {
             </div>
 
             <div className="container-medium mb-3">
-                <Image className="article-image" src="/images/paris.jpg" alt="Bilde av Eiffeltårnet" width="100%" />
+                <img className="article-image" src="/images/paris.jpg" alt="Bilde av Eiffeltårnet" width="100%" />
             </div>
 
             <div className="container-small mb-4">

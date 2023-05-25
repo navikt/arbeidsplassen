@@ -2,7 +2,6 @@ import { BodyLong, Heading, Ingress, Link, LinkPanel } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
 import ImageLinkPanelMedium from "@/src/common/components/ImageLinkPanelMedium";
-import Image from "next/image";
 
 export default function MotJobbsokerePaEnNyMate() {
     return (
@@ -22,7 +21,7 @@ export default function MotJobbsokerePaEnNyMate() {
             </div>
 
             <div className="container-medium mb-3">
-                <Image
+                <img
                     className="article-image"
                     src="/images/jobbtreff.webp"
                     alt="Person som skriver på en datamaskin"

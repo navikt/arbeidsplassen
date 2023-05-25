@@ -1,12 +1,11 @@
 import { LinkPanel } from "@navikt/ds-react";
 import PropTypes from "prop-types";
-import Image from "next/image";
 
 function ImageLinkPanelLarge({ href, image, alt, title, description, color = "primary-solid", ...args }) {
     return (
         <div className="image-link-panel-large">
             <div className="image-link-panel-img-large">
-                <Image src={image} alt={alt} />
+                <img src={image} alt={alt} />
             </div>
             <LinkPanel className={`arb-${color}-bg-text arb-link-panel image-link-panel-link`} href={href} {...args}>
                 <LinkPanel.Title className="navds-link-panel__title navds-heading--small image-link-panel-content">
