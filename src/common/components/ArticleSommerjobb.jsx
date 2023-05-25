@@ -20,15 +20,11 @@ function ArticleSommerjobb({ color = "primary" }) {
                         Ikke for sent å søke på sommerjobb!
                     </Heading>
                     <div />
-                    <div className="article-panel-grid">
-                        <div className="article-panel-flex">
-                            <Ingress>
-                                Bedrifter publiserer nye sommerjobber fortløpende. Ta sjansen og søk i dag!
-                            </Ingress>
-                        </div>
-                        <div className="article-panel-icon">
-                            <ArrowIcon />
-                        </div>
+                    <div className="article-panel-flex mb-2">
+                        <Ingress>Bedrifter publiserer nye sommerjobber fortløpende. Ta sjansen og søk i dag!</Ingress>
+                    </div>
+                    <div className="article-panel-icon">
+                        <ArrowIcon />
                     </div>
                 </div>
             </div>

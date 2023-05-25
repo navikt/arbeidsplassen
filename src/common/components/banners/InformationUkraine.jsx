@@ -4,12 +4,11 @@ import UkrainianFlag from "@/src/common/components/images/UkrainianFlag";
 
 export default function InformationUkraine() {
     return (
-        <Panel className="container-xlarge arb-tertiary-bg-text text-center">
-            <Heading spacing level="2" size="large" lang="en">
+        <Panel className="container-xlarge arb-tertiary-bg-text ukraine">
+            <Heading spacing level="2" size="large">
                 Information about working in Norway for refugees from Ukraine
-                <UkrainianFlag className="h-2" ariaHidden="true" />
             </Heading>
-            <ul className="ukraine-grid">
+            <ul className="ukraine-grid mb-1_5">
                 <li>
                     <BodyLong lang="en">
                         <NextLink href="/en/work-in-norway" passHref legacyBehavior>
@@ -25,13 +24,14 @@ export default function InformationUkraine() {
                     </BodyLong>
                 </li>
                 <li>
-                    <BodyLong className="text-center" lang="ru">
+                    <BodyLong lang="ru">
                         <NextLink href="/ru/work-in-norway" passHref legacyBehavior>
                             <DsLink>Информация на русском языке</DsLink>
                         </NextLink>
                     </BodyLong>
                 </li>
             </ul>
+            <UkrainianFlag className="ukraine-flag" ariaHidden="Ukrainsk flagg" />
         </Panel>
     );
 }
