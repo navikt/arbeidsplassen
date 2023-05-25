@@ -10,7 +10,6 @@ function getAmplitudeKey() {
 function setUpAmplitude() {
     try {
         const ampKey = getAmplitudeKey();
-        console.log("got key, ", ampKey);
         if (!ampKey) return false;
 
         amplitude.init(ampKey, undefined, {
