@@ -21,6 +21,22 @@ body {
     margin-bottom: 2rem;
 }
 
+.main-page-heading {
+    font-size: 64px;
+}
+
+@media (max-width: 480px) {
+    .main-page-heading {
+        font-size: var(--a-font-size-heading-xlarge);
+        letter-spacing: -0.008em;
+        line-height: var(--a-font-line-height-heading-xlarge);
+    }
+
+    .main-page-heading.navds-typo--spacing {
+        margin-bottom: var(--a-spacing-4);
+    }
+}
+
 .bedrift-h1 {
     max-width: 22ch;
 }
@@ -42,23 +58,6 @@ body {
 
 .arb-home-div-width {
     flex: 3;
-}
-
-.main-page-heading {
-    font-size: 64px;
-}
-
-@media (max-width: 480px) {
-    .main-page-heading {
-        font-size: var(--a-font-size-heading-xlarge);
-        letter-spacing: -0.008em;
-        line-height: var(--a-font-line-height-heading-xlarge);
-    }
-
-    /* stylelint-disable-next-line */
-    .main-page-heading.navds-typo--spacing {
-        margin-bottom: var(--a-spacing-4);
-    }
 }
 
 .arb-home-illustration {
@@ -92,14 +91,51 @@ body {
     }
 }
 
+.ukraine {
+    text-align: start;
+}
+
+@media (min-width: 415px) {
+    .ukraine {
+        text-align: center;
+    }
+}
+
 .ukraine-grid {
-    display: flex;
+    display: inline-grid;
     flex-wrap: wrap;
     gap: 1rem 2rem;
     list-style-type: none;
     padding-left: 0;
     justify-content: center;
     margin: 0;
+}
+
+@media (min-width: 415px) {
+    .ukraine-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem 2rem;
+        list-style-type: none;
+        padding-left: 0;
+        margin-left: 0;
+        justify-content: center;
+    }
+}
+
+.ukraine-flag {
+    height: 2rem;
+    width: min-content;
+    display: inherit;
+    align-items: start;
+}
+
+@media (min-width: 415px) {
+    .ukraine-flag {
+        height: 2rem;
+        width: auto;
+        display: initial;
+    }
 }
 
 /**** ARTICLE ****/
@@ -123,6 +159,50 @@ body {
     object-position: 0 5%;
 }
 
-.h-2 {
-    height: 2rem;
+.article-panel {
+    display: flex;
+    position: relative;
+    max-height: 380px;
+    align-items: center;
+    padding: 1.5rem;
+    width: 100%;
+}
+
+.article-panel-img {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border-radius: 0 0 0 64px;
+    object-fit: cover;
+    display: none;
+    flex: 1;
+}
+
+.article-panel-text {
+    align-items: flex-start;
+}
+
+.size {
+    width: 100%;
+}
+
+@media (min-width: 1200px) {
+    .article-panel {
+        display: flex;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 2rem;
+    }
+
+    .article-panel-img {
+        display: flex;
+    }
+
+    .article-panel-text {
+        align-items: flex-start;
+        padding: 0;
+    }
+
+    .size {
+        width: 70%;
+    }
 }
