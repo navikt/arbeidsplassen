@@ -7,10 +7,10 @@ export default function Custom404() {
     return (
         <Layout>
             <Head>
-                <title>Fant ikke siden - arbeidsplassen.no</title>
+                <title>Utlogget - arbeidsplassen.no</title>
             </Head>
             <div className="container-small page-margin-top-and-bottom text-center">
-                <WavingGrape className="mb-2" />
+                <WavingGrape className="mb-2" ariaHidden="true" />
                 <Heading spacing size="large" level="1">
                     Du er nå logget ut
                 </Heading>

@@ -1,6 +1,17 @@
-function WavingGrape() {
+import React from "react";
+import PropTypes from "prop-types";
+
+function WavingGrape({ ariaHidden, className }) {
     return (
-        <svg width="183" height="133" viewBox="0 0 183 133" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg
+            aria-hidden={ariaHidden}
+            width="183"
+            height="133"
+            viewBox="0 0 183 133"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            className={className}
+        >
             <path
                 d="M25.0162 119.427C26.9547 103.69 75.0257 103.346 86.9504 103.346C98.875 103.346 155.375 101.944 152.874 115.255C150.373 128.565 106.7 137.347 86.9503 129.104C67.2002 120.861 23.0777 135.164 25.0162 119.427Z"
                 fill="#DFE2F3"
@@ -76,5 +87,10 @@ function WavingGrape() {
         </svg>
     );
 }
+
+WavingGrape.propTypes = {
+    ariaHidden: PropTypes.string,
+    className: PropTypes.string,
+};
 
 export default WavingGrape;
