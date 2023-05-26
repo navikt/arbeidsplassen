@@ -55,6 +55,7 @@ body {
         line-height: var(--a-font-line-height-heading-xlarge);
     }
 
+    /* stylelint-disable-next-line */
     .main-page-heading.navds-typo--spacing {
         margin-bottom: var(--a-spacing-4);
     }
