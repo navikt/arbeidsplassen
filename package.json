@@ -17,6 +17,7 @@
         "pre-commit": "lint-staged"
     },
     "dependencies": {
+        "@amplitude/analytics-browser": "^1.10.3",
         "@navikt/aksel-icons": "^2.8.8",
         "@navikt/arbeidsplassen-css": "^1.1.13",
         "@navikt/arbeidsplassen-react": "^1.1.16",
