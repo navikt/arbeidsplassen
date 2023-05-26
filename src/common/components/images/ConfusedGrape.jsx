@@ -99,11 +99,6 @@ function ConfusedGrape({ ariaHidden, className }) {
     );
 }
 
-ConfusedGrape.defaultProps = {
-    ariaHidden: undefined,
-    className: undefined,
-};
-
 ConfusedGrape.propTypes = {
     ariaHidden: PropTypes.string,
     className: PropTypes.string,
