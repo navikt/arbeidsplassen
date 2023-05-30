@@ -44,7 +44,7 @@ function AuthenticationProvider({ children }) {
     }
 
     function logout() {
-        window.location.href = `/oauth2/logout?redirect=/`;
+        window.location.href = `/oauth2/logout?redirect=/utlogget`;
     }
 
     return (
