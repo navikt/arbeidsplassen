@@ -31,7 +31,7 @@ export default function InformationUkraine() {
                     </BodyLong>
                 </li>
             </ul>
-            <UkrainianFlag className="ukraine-flag" ariaHidden="Ukrainsk flagg" />
+            <UkrainianFlag className="ukraine-flag" ariaHidden="true" />
         </Panel>
     );
 }
