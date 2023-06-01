@@ -9,7 +9,7 @@ export default function workInNorwayUa() {
             <Head>
                 <title>Інформація про роботу в Норвегії - arbeidsplassen.no</title>
             </Head>
-            <article className="container-small page-margin-top-and-bottom" lang="ua">
+            <article className="container-small page-margin-top-and-bottom" lang="uk">
                 <Heading level="1" size="xlarge" spacing>
                     Інформація про роботу в Норвегії
                 </Heading>

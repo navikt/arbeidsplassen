@@ -18,7 +18,7 @@ export default function workInNorwayEn() {
                         <BodyLong>Information about working in Norway</BodyLong>
                     </li>
                     <li>
-                        <BodyLong lang="ua">
+                        <BodyLong lang="uk">
                             <NextLink href="/ua/work-in-norway" passHref legacyBehavior>
                                 <DsLink>Інформація українською мовою</DsLink>
                             </NextLink>
