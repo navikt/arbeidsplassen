@@ -32,7 +32,7 @@ body {
         line-height: var(--a-font-line-height-heading-xlarge);
     }
 
-    .main-page-heading.navds-typo--spacing {
+    .main-page-heading .navds-typo-spacing {
         margin-bottom: var(--a-spacing-4);
     }
 }
@@ -204,5 +204,26 @@ body {
 
     .size {
         width: 70%;
+    }
+}
+
+/**** GUIDE-PANEL ****/
+
+.guide-panel {
+    padding: 4rem;
+    border: 16px solid var(--arb-peach-50);
+}
+
+.center {
+    display: flex;
+    gap: 1rem;
+    justify-content: start;
+}
+
+@media (min-width: 415px) {
+    .center {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
     }
 }
