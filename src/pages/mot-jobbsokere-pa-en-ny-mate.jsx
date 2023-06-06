@@ -89,7 +89,7 @@ export default function MotJobbsokerePaEnNyMate() {
                     <Link href="/jobbtreff/hvordan-arrangere">hvordan du gjennomfører et jobbtreff.</Link>
                 </BodyLong>
 
-                <LinkPanel className="arb-primary-bg-text arb-link-panel mb-3" href="">
+                <LinkPanel className="arb-primary-bg-text arb-link-panel mb-3" href="/jobbtreff">
                     <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                         Lag nytt jobbtreff
                     </LinkPanel.Title>
