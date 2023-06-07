@@ -9,7 +9,7 @@ export default function tilgangsstyringIStoreVirksomheter() {
                 <title>Tilgangsstyring i store virksomheter</title>
             </Head>
             <article className="container-small page-margin-top-and-bottom">
-                <Heading spacing size="large" level="1">
+                <Heading spacing size="xlarge" level="1">
                     Tilgangsstyring i store virksomheter
                 </Heading>
                 <BodyLong spacing>
