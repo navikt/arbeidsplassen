@@ -9,6 +9,9 @@ export default function tilgangsstyringIStoreVirksomheter() {
                 <title>Tilgangsstyring i store virksomheter</title>
             </Head>
             <article className="container-small page-margin-top-and-bottom">
+                <Heading spacing size="large" level="1">
+                    Tilgangsstyring i store virksomheter
+                </Heading>
                 <BodyLong spacing>
                     Her tilbyr vi informasjon til store virksomheter om hvordan tilgangsstyring kan håndteres på ulike
                     måter. Formålet vårt er å vise hvordan du gir og får tilgang til NAVs rekrutteringstjenester.
@@ -34,11 +37,11 @@ export default function tilgangsstyringIStoreVirksomheter() {
                     har den allerede. -
                 </BodyLong>
 
-                <Heading spacing size="xlarge" level="1">
+                <Heading spacing size="large" level="2">
                     Generelt om tilgangsstyring
                 </Heading>
 
-                <Heading size="large" level="2" spacing>
+                <Heading size="medium" level="3" spacing>
                     Hvorfor kan tilgangsstyring være krevende?
                 </Heading>
                 <BodyLong spacing>
@@ -50,14 +53,14 @@ export default function tilgangsstyringIStoreVirksomheter() {
                     På samme måte kan de som har myndighet til å delegere oppleve det som krevende å holde oversikt over
                     medarbeidere og hvilke tilganger de har eller skal ha.
                 </BodyLong>
-                <Heading size="large" level="2" spacing>
+                <Heading size="medium" level="3" spacing>
                     Virksomheten min har virksomhetssertifikat, kan vi bruke det på arbeidsplassen.no?
                 </Heading>
                 <BodyLong spacing>
                     Nei, dette sertifikatet kan ikke brukes. Tilgang til arbeidsplassen.no og kandidatlister fra NAV på
                     Min side Arbeidsgiver kan bare gis i Altinn.
                 </BodyLong>
-                <Heading size="large" level="2" spacing>
+                <Heading size="medium" level="3" spacing>
                     Tilgang til hele eller deler av organisasjonen?
                 </Heading>
                 <BodyLong spacing>
@@ -71,7 +74,7 @@ export default function tilgangsstyringIStoreVirksomheter() {
                     den som gir tilgang å kunne gi én tilgang til hovedenhet, som automatisk gir tilgang for alle
                     underenheter.
                 </BodyLong>
-                <Heading size="large" level="2" spacing>
+                <Heading size="medium" level="3" spacing>
                     Hvordan løser vi rollestyring på en praktisk måte i vår virksomhet?
                 </Heading>
                 <BodyLong spacing>
@@ -81,10 +84,10 @@ export default function tilgangsstyringIStoreVirksomheter() {
                     Hovedadministrator. Se beskrivelser under.
                 </BodyLong>
 
-                <Heading size="large" level="1" spacing>
+                <Heading size="large" level="2" spacing>
                     Overordnede roller med vide tilganger
                 </Heading>
-                <Heading size="large" level="2" spacing>
+                <Heading size="medium" level="3" spacing>
                     Hvordan fungerer rollen Tilgangsstyring?
                 </Heading>
                 <BodyLong spacing>
@@ -95,7 +98,7 @@ export default function tilgangsstyringIStoreVirksomheter() {
                     personalmedarbeider eller Utfyller/ Innsender, for å kunne gi andre den samme rettigheten som vil gi
                     tilgang som arbeidsgiver til arbeidsplassen.no og kandidatlister fra NAV.
                 </BodyLong>
-                <Heading size="large" level="2" spacing>
+                <Heading size="medium" level="3" spacing>
                     Hvordan fungerer rollen Hovedadministrator?
                 </Heading>
                 <BodyLong spacing>
@@ -120,24 +123,24 @@ export default function tilgangsstyringIStoreVirksomheter() {
                         Altinn-roller og rettigheter på altinn.no
                     </Link>
                 </BodyLong>
-                <Heading size="large" level="2" spacing>
+                <Heading size="medium" level="3" spacing>
                     I vår virksomhet har vi egendefinerte roller. Kan jeg bruke dem på arbeidsplassen.no?
                 </Heading>
                 <BodyLong spacing>
                     Hvis virksomheten organiserer sine tilganger i egendefinerte roller i Altinn, kan man inkludere
                     enkeltrettigheten Rekruttering i en egendefinert rolle.
                 </BodyLong>
-                <Heading size="large" level="1" spacing>
+                <Heading size="large" level="2" spacing>
                     Jeg ønsker tilgang til arbeidsplassen.no
                 </Heading>
-                <Heading size="large" level="2" spacing>
+                <Heading size="medium" level="3" spacing>
                     Hvordan kan jeg vite om jeg allerede har tilgang til arbeidsplassen.no?
                 </Heading>
                 <BodyLong spacing>
                     Du kan se hvilke tilganger du har når du er innlogget i Altinn. Du kan også forsøke å logge inn som
                     arbeidsgiver på arbeidsplassen.no. Har du ikke tilgang, så får du en melding om det.
                 </BodyLong>
-                <Heading size="large" level="2" spacing>
+                <Heading size="medium" level="3" spacing>
                     Hvem kan jeg spørre om tilgang til arbeidsplassen.no?
                 </Heading>
                 <BodyLong spacing>
@@ -170,10 +173,10 @@ export default function tilgangsstyringIStoreVirksomheter() {
                     Hvis du ikke har mulighet til å be om tilgang som beskrevet, må du selv finne ut hvem i HR eller
                     ledelsen som kan gi deg tilgang.
                 </BodyLong>
-                <Heading size="large" level="1" spacing>
+                <Heading size="large" level="2" spacing>
                     Jeg skal gi tilgang til Arbeidsplassen
                 </Heading>
-                <Heading size="large" level="2" spacing>
+                <Heading size="medium" level="3" spacing>
                     Har jeg allerede riktig rolle for å gi tilgang til Arbeidsplassen?
                 </Heading>
                 <BodyLong spacing>Logg inn i Altinn, da vil du se hvilke Altinn-tilganger du har.</BodyLong>
@@ -202,7 +205,7 @@ export default function tilgangsstyringIStoreVirksomheter() {
                     Hvis du ikke har de nødvendige rollene for å kunne gi tilgang videre, kan daglig leder eller
                     hovedadministrator i virksomheten din gi deg nødvendige tilganger.
                 </BodyLong>
-                <Heading size="large" level="2" spacing>
+                <Heading size="medium" level="3" spacing>
                     Bør jeg delegere tilgang til arbeidsplassen.no gjennom rolle eller enkeltrettighet?
                 </Heading>
                 <BodyLong spacing>
@@ -212,7 +215,7 @@ export default function tilgangsstyringIStoreVirksomheter() {
                     er det vide tilganger som gir tilgang til flere tjenester enn bare arbeidsplassen.no og
                     kandidatlister fra NAV.
                 </BodyLong>
-                <Heading size="large" level="2" spacing>
+                <Heading size="medium" level="3" spacing>
                     Jeg er usikker på hva Rekruttering gir tilgang til?
                 </Heading>
                 <BodyLong spacing>
@@ -223,7 +226,7 @@ export default function tilgangsstyringIStoreVirksomheter() {
                         enkeltrettigheten Rekruttering på altinn.no
                     </Link>
                 </BodyLong>
-                <Heading size="large" level="2" spacing>
+                <Heading size="medium" level="3" spacing>
                     Hvordan kan jeg holde oversikt over hvem som har tilganger i Altinn?
                 </Heading>
                 <BodyLong spacing>
