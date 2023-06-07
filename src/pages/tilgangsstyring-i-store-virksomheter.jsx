@@ -1,6 +1,5 @@
 import { BodyLong, Heading, Link } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
-import { FilePdfIcon } from "@navikt/aksel-icons";
 import Head from "next/head";
 
 export default function tilgangsstyringIStoreVirksomheter() {
@@ -11,12 +10,10 @@ export default function tilgangsstyringIStoreVirksomheter() {
             </Head>
             <article className="container-small page-margin-top-and-bottom">
                 <BodyLong spacing>
-                    Her tilbyr vi informasjon til store virksomheter om hvordan tilgangsstyring kan håndteres på ulike måter.
-                    Formålet vårt er å vise hvordan du gir og får tilgang til NAVs rekrutteringstjenester.
+                    Her tilbyr vi informasjon til store virksomheter om hvordan tilgangsstyring kan håndteres på ulike
+                    måter. Formålet vårt er å vise hvordan du gir og får tilgang til NAVs rekrutteringstjenester.
                 </BodyLong>
-                <BodyLong spacing>
-                    Du finner svar på spørsmål om
-                </BodyLong>
+                <BodyLong spacing>Du finner svar på spørsmål om</BodyLong>
                 <ul>
                     <li>
                         <BodyLong>tilgangsstyring i store virksomheter</BodyLong>
@@ -28,20 +25,14 @@ export default function tilgangsstyringIStoreVirksomheter() {
                         <BodyLong>å få tilgang til arbeidsplassen.no og kandidatlister fra NAV</BodyLong>
                     </li>
                 </ul>
-                <BodyLong spacing>
-                    Lurer du fortsatt på noe, kan du ringe Altinn brukerstøtte på 75 00 60 00.
-                </BodyLong>
+                <BodyLong spacing>Lurer du fortsatt på noe, kan du ringe Altinn brukerstøtte på 75 00 60 00.</BodyLong>
                 <BodyLong spacing>
                     For at du eller en kollega skal kunne benytte NAVs rekrutteringstjeneste på vegne av virksomheten,
                     må dere ha enkeltrettigheten Rekruttering, eller Altinn-rolle Lønn og personalmedarbeider, eller
                     Altinn-rolle Utfyller/Innsender. Tilgangene kan gis på for hovedenhet (inkludert alle underenheter)
                     eller for en enkelt underenhet. Arbeidsgiver kan delegere tilgang til deg via Altinn, hvis du ikke
-                    har den allerede.
-                -</BodyLong>
-
-
-
-
+                    har den allerede. -
+                </BodyLong>
 
                 <Heading spacing size="xlarge" level="1">
                     Generelt om tilgangsstyring
@@ -124,7 +115,10 @@ export default function tilgangsstyringIStoreVirksomheter() {
                     rettigheter, for eksempel enkeltrettigheten Rekruttering.
                 </BodyLong>
                 <BodyLong spacing>
-                    Les mer om <Link href="https://www.altinn.no/hjelp/profil/roller-og-rettigheter/">Altinn-roller og rettigheter på altinn.no</Link>
+                    Les mer om{" "}
+                    <Link href="https://www.altinn.no/hjelp/profil/roller-og-rettigheter/">
+                        Altinn-roller og rettigheter på altinn.no
+                    </Link>
                 </BodyLong>
                 <Heading size="large" level="2" spacing>
                     I vår virksomhet har vi egendefinerte roller. Kan jeg bruke dem på arbeidsplassen.no?
@@ -147,19 +141,29 @@ export default function tilgangsstyringIStoreVirksomheter() {
                     Hvem kan jeg spørre om tilgang til arbeidsplassen.no?
                 </Heading>
                 <BodyLong spacing>
-                    Noen i ledelsen eller HR kan gi deg tilgang. Hvis du ikke vet hvem det kan være, så kan du
-                    “be om tilgang” i Altinn eller på nav.no. Denne funksjonen er det foreløpig kun de som allerede har
-                    en Altinn-rolle fra før i virksomheten som kan benytte. Når du ber om tilgang, vil rett person få en
+                    Noen i ledelsen eller HR kan gi deg tilgang. Hvis du ikke vet hvem det kan være, så kan du “be om
+                    tilgang” i Altinn eller på nav.no. Denne funksjonen er det foreløpig kun de som allerede har en
+                    Altinn-rolle fra før i virksomheten som kan benytte. Når du ber om tilgang, vil rett person få en
                     melding på e-post eller SMS. Velg et av alternativene:
                 </BodyLong>
                 <ul>
                     <li>
-                        <BodyLong>Det kan gjøres på altinn.no. Les om hvordan du kan <Link href="https://www.altinn.no/hjelp/profil/sporre-om-rettighet/">spørre om rettighet på Altinn.no</Link></BodyLong>
+                        <BodyLong>
+                            Det kan gjøres på altinn.no. Les om hvordan du kan{" "}
+                            <Link href="https://www.altinn.no/hjelp/profil/sporre-om-rettighet/">
+                                spørre om rettighet på Altinn.no
+                            </Link>
+                        </BodyLong>
                     </li>
                     <li>
-                        <BodyLong>Gå til nav.no, som har litt flere støttefunksjoner for deg. På <Link href="https://arbeidsgiver.nav.no/min-side-arbeidsgiver/">Min side - arbeidsgiver</Link>
-                        finner du oversikt over roller eller enkeltrettigheter som ulike NAV-tjenester krever. Når du er
-                            logget inn vil du finne mulighet for å “be om tilgang”.</BodyLong>
+                        <BodyLong>
+                            Gå til nav.no, som har litt flere støttefunksjoner for deg. På{" "}
+                            <Link href="https://arbeidsgiver.nav.no/min-side-arbeidsgiver/">
+                                Min side - arbeidsgiver
+                            </Link>
+                            finner du oversikt over roller eller enkeltrettigheter som ulike NAV-tjenester krever. Når
+                            du er logget inn vil du finne mulighet for å “be om tilgang”.
+                        </BodyLong>
                     </li>
                 </ul>
                 <BodyLong spacing>
@@ -172,21 +176,26 @@ export default function tilgangsstyringIStoreVirksomheter() {
                 <Heading size="large" level="2" spacing>
                     Har jeg allerede riktig rolle for å gi tilgang til Arbeidsplassen?
                 </Heading>
-                <BodyLong spacing>
-                    Logg inn i Altinn, da vil du se hvilke Altinn-tilganger du har.
-                </BodyLong>
+                <BodyLong spacing>Logg inn i Altinn, da vil du se hvilke Altinn-tilganger du har.</BodyLong>
                 <ul>
                     <li>
-                        <BodyLong>Hvis du er registrert i Enhetsregisteret som daglig leder, styrets leder, bestyrende reder
-                            eller innehaver, vil du automatisk ha alle tilganger som du kan gi videre til andre.   </BodyLong>
+                        <BodyLong>
+                            Hvis du er registrert i Enhetsregisteret som daglig leder, styrets leder, bestyrende reder
+                            eller innehaver, vil du automatisk ha alle tilganger som du kan gi videre til andre.{" "}
+                        </BodyLong>
                     </li>
                     <li>
-                        <BodyLong>Har du rollen Hovedadministrator, kan du gi andre medarbeidere de tilgangene de trenger.</BodyLong>
+                        <BodyLong>
+                            Har du rollen Hovedadministrator, kan du gi andre medarbeidere de tilgangene de trenger.
+                        </BodyLong>
                     </li>
                     <li>
-                        <BodyLong>Har du rollen Tilgangsstyrer, kan du gi andre medarbeidere de tilgangene de trenger, forutsatt
-                            at du selv har de rettighetene du skal tildele til andre (enkeltrettigheten Rekruttering, eller
-                            Altinn-rolle Lønn og personalmedarbeider, eller Altinn-rolle Utfyller/innsender).  </BodyLong>
+                        <BodyLong>
+                            Har du rollen Tilgangsstyrer, kan du gi andre medarbeidere de tilgangene de trenger,
+                            forutsatt at du selv har de rettighetene du skal tildele til andre (enkeltrettigheten
+                            Rekruttering, eller Altinn-rolle Lønn og personalmedarbeider, eller Altinn-rolle
+                            Utfyller/innsender).{" "}
+                        </BodyLong>
                     </li>
                 </ul>
                 <BodyLong spacing>
@@ -197,11 +206,11 @@ export default function tilgangsstyringIStoreVirksomheter() {
                     Bør jeg delegere tilgang til arbeidsplassen.no gjennom rolle eller enkeltrettighet?
                 </Heading>
                 <BodyLong spacing>
-                    Enkeltrettigheten Rekruttering er tilstrekkelig, hvis du som arbeidsgiver kun ønsker å gi tilgang til
-                    NAVs rekrutteringstjenester. Da kan du som arbeidsgiver vite at en medarbeider ikke får tilgang til
-                    andre tjenester. Hvis du tildeler rollen Lønn og personalmedarbeider eller Utfyller/Innsender, er
-                    det vide tilganger som gir tilgang til flere tjenester enn bare arbeidsplassen.no og kandidatlister
-                    fra NAV.
+                    Enkeltrettigheten Rekruttering er tilstrekkelig, hvis du som arbeidsgiver kun ønsker å gi tilgang
+                    til NAVs rekrutteringstjenester. Da kan du som arbeidsgiver vite at en medarbeider ikke får tilgang
+                    til andre tjenester. Hvis du tildeler rollen Lønn og personalmedarbeider eller Utfyller/Innsender,
+                    er det vide tilganger som gir tilgang til flere tjenester enn bare arbeidsplassen.no og
+                    kandidatlister fra NAV.
                 </BodyLong>
                 <Heading size="large" level="2" spacing>
                     Jeg er usikker på hva Rekruttering gir tilgang til?
@@ -210,7 +219,9 @@ export default function tilgangsstyringIStoreVirksomheter() {
                     Enkeltrettigheten Rekruttering gir kun tilgang til NAVs rekrutteringstjenester på arbeidsplassen.no
                     og kandidatlister tilsendt fra NAV. Tildeler du enkeltrettigheten Rekruttering, kan du være sikker
                     på at du ikke gir tilgang til andre tjenester enn NAVs rekrutteringstjenester. Les om
-                    <Link href="https://www.altinn.no/skjemaoversikt/arbeids--og-velferdsetaten-nav/rekruttering/">enkeltrettigheten Rekruttering på altinn.no</Link>
+                    <Link href="https://www.altinn.no/skjemaoversikt/arbeids--og-velferdsetaten-nav/rekruttering/">
+                        enkeltrettigheten Rekruttering på altinn.no
+                    </Link>
                 </BodyLong>
                 <Heading size="large" level="2" spacing>
                     Hvordan kan jeg holde oversikt over hvem som har tilganger i Altinn?
