@@ -9,7 +9,8 @@ import AuthenticationProvider, {
 import { setUpAmplitude, setAuthenticatedStatus } from "@/src/common/analysis/metrics";
 import { useContext, useEffect } from "react";
 
-function App({ Component, pageProps }) {
+// eslint-disable-next-line no-unused-vars
+function TrackedApp({ children }) {
     useEffect(() => {
         setUpAmplitude();
     }, []);
@@ -18,10 +19,14 @@ function App({ Component, pageProps }) {
     useEffect(() => {
         setAuthenticatedStatus(authenticationStatus === AuthenticationStatus.IS_AUTHENTICATED);
     }, [authenticationStatus]);
+}
 
+function App({ Component, pageProps }) {
     return (
         <AuthenticationProvider>
-            <Component {...pageProps} />
+            <TrackedApp>
+                <Component {...pageProps} />
+            </TrackedApp>
         </AuthenticationProvider>
     );
 }
