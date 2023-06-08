@@ -1,6 +1,6 @@
 import * as amplitude from "@amplitude/analytics-browser";
 
-const USER_PROPERTIES = new amplitude.Identify();
+const userProperties = new amplitude.Identify();
 
 function getAmplitudeKey() {
     if (typeof window === "undefined") return ""; // server side
@@ -35,8 +35,8 @@ export function setUpAmplitude() {
 }
 
 function setUserProperties(property, value) {
-    USER_PROPERTIES.set(property, value);
-    amplitude.identify(USER_PROPERTIES);
+    userProperties.set(property, value);
+    amplitude.identify(userProperties);
 }
 
 export function setAuthenticatedStatus(authenticated) {
