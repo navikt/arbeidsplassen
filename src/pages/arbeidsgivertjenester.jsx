@@ -47,42 +47,16 @@ export default function arbeidsgivertjenester() {
                 <ul className="mb-3">
                     <li>
                         <BodyLong className="mb-0_5">
-                            <Link href="https://www.nav.no/_/attachment/inline/961aafd3-c5d8-4d23-aedc-e2960daf055b:66beb823fa6f6d064a4a6875378c11339312fa2d/sjekk-om-en-ansatt-har-rettigheten-rekruttering.pdf">
-                                Sjekk om en ansatt har rettigheten rekruttering
-                                <FilePdfIcon aria-label="Pdf" width="1.5em" height="1.5em" />
-                            </Link>
+                            <NextLink href="/tilgang-som-arbeidsgiver " passHref legacyBehavior>
+                                <DsLink>Hvordan få og gi tilgang som arbeidsgiver</DsLink>
+                            </NextLink>
                         </BodyLong>
                     </li>
                     <li>
                         <BodyLong className="mb-0_5">
-                            <Link href="https://www.nav.no/_/attachment/inline/b92de122-a67b-4938-9e76-cacb4e0cf665:f739850dac1cbe9e4219b8a84e89851bf5c9aa42/hvordan-tildele-rettigheten-rekruttering.pdf">
-                                Hvordan tildele rettigheten rekruttering
-                                <FilePdfIcon aria-label="Pdf" width="1.5em" height="1.5em" />
-                            </Link>
-                        </BodyLong>
-                    </li>
-                    <li>
-                        <BodyLong className="mb-0_5">
-                            <Link href="https://www.nav.no/_/attachment/inline/112f4ee5-a273-43f3-b817-0f7484f80ebc:17b5499912cb737a36be39e95ba5735ea61cbd9e/hvordan-administrere-rettigheten-rekruttering.pdf">
-                                Hvordan administrere rettigheten rekruttering
-                                <FilePdfIcon aria-label="Pdf" width="1.5em" height="1.5em" />
-                            </Link>
-                        </BodyLong>
-                    </li>
-                    <li>
-                        <BodyLong className="mb-0_5">
-                            <Link href="https://www.nav.no/_/attachment/inline/c2657320-51a1-4583-8e4f-b3a83f89f304:e53a19636d8f985ac1b1681a4f472f55b53bfcae/hvordan-tildele-rollen-tilgangsstyring.pdf">
-                                Hvordan tildele rollen tilgangsstyring
-                                <FilePdfIcon aria-label="Pdf" width="1.5em" height="1.5em" />
-                            </Link>
-                        </BodyLong>
-                    </li>
-                    <li>
-                        <BodyLong>
-                            <Link href="https://www.nav.no/_/attachment/inline/1bff9f5e-f1bd-46f8-a79d-8fda87695633:dac00c6866d9673d7391fdfbafbb618ce46580db/Tilgangsstyring%20store%20virksomheter.pdf">
-                                Tilgangsstyring i store virksomheter
-                                <FilePdfIcon aria-label="Pdf" width="1.5em" height="1.5em" />
-                            </Link>
+                            <NextLink href="/tilgangsstyring-i-store-virksomheter " passHref legacyBehavior>
+                                <DsLink>Tilgangsstyring i store virksomheter</DsLink>
+                            </NextLink>
                         </BodyLong>
                     </li>
                 </ul>
