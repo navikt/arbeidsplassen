@@ -14,7 +14,7 @@ export default function tilgangsstyringIStoreVirksomheter() {
                     <Link className="mb-2">
                         <ChevronLeftIcon aria-hidden="true" />
                         Tilbake
-                    </DsLink>
+                    </Link>
                 </NextLink>
                 <Heading spacing size="xlarge" level="1">
                     Tilgangsstyring i store virksomheter
