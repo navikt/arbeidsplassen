@@ -7,7 +7,7 @@ function getAmplitudeKey() {
     return ""; // other e.g. localhost
 }
 
-function setUpAmplitude() {
+export function setUpAmplitude() {
     try {
         const ampKey = getAmplitudeKey();
         if (!ampKey) return false;
@@ -32,4 +32,12 @@ function setUpAmplitude() {
     }
 }
 
-export default setUpAmplitude;
+function setUserProperties(property, value) {
+    const userProperties = new amplitude.Identify();
+    userProperties.set(property, value);
+    amplitude.identify(userProperties);
+}
+
+export function setAuthenticatedStatus(authenticated) {
+    setUserProperties("is_authenticated", authenticated);
+}

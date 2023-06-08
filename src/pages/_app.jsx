@@ -2,18 +2,33 @@
 import "@navikt/ds-css";
 import "@navikt/arbeidsplassen-css";
 import "../common/styles/index.css";
-import AuthenticationProvider from "@/src/common/contexts/AuthenticationProvider";
-import setUpAmplitude from "@/src/common/analysis/metrics";
-import { useEffect } from "react";
+import AuthenticationProvider, {
+    AuthenticationContext,
+    AuthenticationStatus,
+} from "@/src/common/contexts/AuthenticationProvider";
+import { setUpAmplitude, setAuthenticatedStatus } from "@/src/common/analysis/metrics";
+import { useContext, useEffect } from "react";
 
-function App({ Component, pageProps }) {
+function TrackedApp({ children }) {
     useEffect(() => {
         setUpAmplitude();
     }, []);
 
+    const isAuthenticated =
+        useContext(AuthenticationContext).authenticationStatus === AuthenticationStatus.IS_AUTHENTICATED;
+    useEffect(() => {
+        setAuthenticatedStatus(isAuthenticated);
+    }, [isAuthenticated]);
+
+    return children;
+}
+
+function App({ Component, pageProps }) {
     return (
         <AuthenticationProvider>
-            <Component {...pageProps} />
+            <TrackedApp>
+                <Component {...pageProps} />
+            </TrackedApp>
         </AuthenticationProvider>
     );
 }
