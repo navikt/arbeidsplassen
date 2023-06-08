@@ -9,6 +9,12 @@ export default function tilgangsstyringIStoreVirksomheter() {
                 <title>Tilgangsstyring i store virksomheter</title>
             </Head>
             <article className="container-small page-margin-top-and-bottom">
+                <NextLink href="/arbeidsgivertjenester" passHref legacyBehavior>
+                    <DsLink className="mb-2">
+                        <ChevronLeftIcon aria-hidden="true" />
+                        Tilbake
+                    </DsLink>
+                </NextLink>
                 <Heading spacing size="xlarge" level="1">
                     Tilgangsstyring i store virksomheter
                 </Heading>

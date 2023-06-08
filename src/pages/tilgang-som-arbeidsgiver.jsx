@@ -9,6 +9,12 @@ export default function tilgangSomArbeidsgiver() {
                 <title>Hvordan gi eller få tilgang som arbeidsgiver </title>
             </Head>
             <article className="container-small page-margin-top-and-bottom">
+                <NextLink href="/arbeidsgivertjenester" passHref legacyBehavior>
+                    <DsLink className="mb-2">
+                        <ChevronLeftIcon aria-hidden="true" />
+                        Tilbake
+                    </DsLink>
+                </NextLink>
                 <Heading spacing size="xlarge" level="1">
                     Hvordan gi eller få tilgang som arbeidsgiver
                 </Heading>
