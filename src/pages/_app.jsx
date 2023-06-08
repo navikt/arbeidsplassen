@@ -9,7 +9,6 @@ import AuthenticationProvider, {
 import { setUpAmplitude, setAuthenticatedStatus } from "@/src/common/analysis/metrics";
 import { useContext, useEffect } from "react";
 
-// eslint-disable-next-line no-unused-vars
 function TrackedApp({ children }) {
     useEffect(() => {
         setUpAmplitude();
@@ -19,6 +18,8 @@ function TrackedApp({ children }) {
     useEffect(() => {
         setAuthenticatedStatus(authenticationStatus === AuthenticationStatus.IS_AUTHENTICATED);
     }, [authenticationStatus]);
+
+    return children;
 }
 
 function App({ Component, pageProps }) {
