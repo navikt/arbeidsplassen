@@ -1,6 +1,7 @@
 import { BodyLong, Heading, Link } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
+import { ChevronLeftIcon } from "@navikt/aksel-icons";
 
 export default function tilgangsstyringIStoreVirksomheter() {
     return (
@@ -10,7 +11,7 @@ export default function tilgangsstyringIStoreVirksomheter() {
             </Head>
             <article className="container-small page-margin-top-and-bottom">
                 <NextLink href="/arbeidsgivertjenester" passHref legacyBehavior>
-                    <DsLink className="mb-2">
+                    <Link className="mb-2">
                         <ChevronLeftIcon aria-hidden="true" />
                         Tilbake
                     </DsLink>
