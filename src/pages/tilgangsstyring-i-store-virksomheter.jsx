@@ -1,4 +1,4 @@
-import { BodyLong, Heading, Link as DsLink } from "@navikt/ds-react";
+import { Alert, BodyLong, Heading, Link as DsLink } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
 import { ChevronLeftIcon } from "@navikt/aksel-icons";
@@ -24,7 +24,7 @@ export default function tilgangsstyringIStoreVirksomheter() {
                     Her tilbyr vi informasjon til store virksomheter om hvordan tilgangsstyring kan håndteres på ulike
                     måter. Formålet vårt er å vise hvordan du gir og får tilgang til NAVs rekrutteringstjenester.
                 </BodyLong>
-                <BodyLong spacing>Du finner svar på spørsmål om</BodyLong>
+                <BodyLong>Du finner svar på spørsmål om</BodyLong>
                 <ul>
                     <li>
                         <BodyLong>tilgangsstyring i store virksomheter</BodyLong>
@@ -37,13 +37,15 @@ export default function tilgangsstyringIStoreVirksomheter() {
                     </li>
                 </ul>
                 <BodyLong spacing>Lurer du fortsatt på noe, kan du ringe Altinn brukerstøtte på 75 00 60 00.</BodyLong>
-                <BodyLong spacing>
-                    For at du eller en kollega skal kunne benytte NAVs rekrutteringstjeneste på vegne av virksomheten,
-                    må dere ha enkeltrettigheten Rekruttering, eller Altinn-rolle Lønn og personalmedarbeider, eller
-                    Altinn-rolle Utfyller/Innsender. Tilgangene kan gis på for hovedenhet (inkludert alle underenheter)
-                    eller for en enkelt underenhet. Arbeidsgiver kan delegere tilgang til deg via Altinn, hvis du ikke
-                    har den allerede. -
-                </BodyLong>
+                <Alert variant="info" className="mb-3">
+                    <BodyLong>
+                        For at du eller en kollega skal kunne benytte NAVs rekrutteringstjeneste på vegne av
+                        virksomheten, må dere ha enkeltrettigheten Rekruttering, eller Altinn-rolle Lønn og
+                        personalmedarbeider, eller Altinn-rolle Utfyller/Innsender. Tilgangene kan gis på for hovedenhet
+                        (inkludert alle underenheter) eller for en enkelt underenhet. Arbeidsgiver kan delegere tilgang
+                        til deg via Altinn, hvis du ikke har den allerede.
+                    </BodyLong>
+                </Alert>
 
                 <Heading spacing size="large" level="2">
                     Generelt om tilgangsstyring
@@ -151,7 +153,7 @@ export default function tilgangsstyringIStoreVirksomheter() {
                 <Heading size="medium" level="3" spacing>
                     Hvem kan jeg spørre om tilgang til arbeidsplassen.no?
                 </Heading>
-                <BodyLong spacing>
+                <BodyLong>
                     Noen i ledelsen eller HR kan gi deg tilgang. Hvis du ikke vet hvem det kan være, så kan du “be om
                     tilgang” i Altinn eller på nav.no. Denne funksjonen er det foreløpig kun de som allerede har en
                     Altinn-rolle fra før i virksomheten som kan benytte. Når du ber om tilgang, vil rett person få en
@@ -187,7 +189,7 @@ export default function tilgangsstyringIStoreVirksomheter() {
                 <Heading size="medium" level="3" spacing>
                     Har jeg allerede riktig rolle for å gi tilgang til Arbeidsplassen?
                 </Heading>
-                <BodyLong spacing>Logg inn i Altinn, da vil du se hvilke Altinn-tilganger du har.</BodyLong>
+                <BodyLong>Logg inn i Altinn, da vil du se hvilke Altinn-tilganger du har.</BodyLong>
                 <ul>
                     <li>
                         <BodyLong>
