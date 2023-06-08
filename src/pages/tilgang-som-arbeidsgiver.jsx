@@ -1,4 +1,4 @@
-import { BodyLong, Heading, Link } from "@navikt/ds-react";
+import { BodyLong, Heading, Link as DsLink } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
 import { ChevronLeftIcon } from "@navikt/aksel-icons";
@@ -12,10 +12,10 @@ export default function tilgangSomArbeidsgiver() {
             </Head>
             <article className="container-small page-margin-top-and-bottom">
                 <NextLink href="/arbeidsgivertjenester" passHref legacyBehavior>
-                    <Link className="mb-2">
+                    <DsLink className="mb-2">
                         <ChevronLeftIcon aria-hidden="true" />
                         Tilbake
-                    </Link>
+                    </DsLink>
                 </NextLink>
                 <Heading spacing size="xlarge" level="1">
                     Hvordan gi eller få tilgang som arbeidsgiver
@@ -127,13 +127,13 @@ export default function tilgangSomArbeidsgiver() {
                 </BodyLong>
                 <BodyLong spacing>
                     Se også Altinn sine egne veiledninger.{" "}
-                    <Link href="Se også Altinn sine egne veiledninger. https://www.altinn.no/hjelp/profil/roller-og-rettigheter/hvordan-gi-rettigheter-til-andre/">
+                    <DsLink href="Se også Altinn sine egne veiledninger. https://www.altinn.no/hjelp/profil/roller-og-rettigheter/hvordan-gi-rettigheter-til-andre/">
                         https://www.altinn.no/hjelp/profil/roller-og-rettigheter/hvordan-gi-rettigheter-til-andre/
-                    </Link>
+                    </DsLink>
                 </BodyLong>
-                <Link href="https://www.altinn.no/hjelp/sok/?q=delegere%20rettighet">
+                <DsLink href="https://www.altinn.no/hjelp/sok/?q=delegere%20rettighet">
                     https://www.altinn.no/hjelp/sok/?q=delegere%20rettighet{" "}
-                </Link>
+                </DsLink>
             </article>
         </Layout>
     );

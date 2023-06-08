@@ -1,4 +1,4 @@
-import { BodyLong, Heading, Link } from "@navikt/ds-react";
+import { BodyLong, Heading, Link as DsLink } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
 import { ChevronLeftIcon } from "@navikt/aksel-icons";
@@ -12,10 +12,10 @@ export default function tilgangsstyringIStoreVirksomheter() {
             </Head>
             <article className="container-small page-margin-top-and-bottom">
                 <NextLink href="/arbeidsgivertjenester" passHref legacyBehavior>
-                    <Link className="mb-2">
+                    <DsLink className="mb-2">
                         <ChevronLeftIcon aria-hidden="true" />
                         Tilbake
-                    </Link>
+                    </DsLink>
                 </NextLink>
                 <Heading spacing size="xlarge" level="1">
                     Tilgangsstyring i store virksomheter
@@ -127,9 +127,9 @@ export default function tilgangsstyringIStoreVirksomheter() {
                 </BodyLong>
                 <BodyLong spacing>
                     Les mer om{" "}
-                    <Link href="https://www.altinn.no/hjelp/profil/roller-og-rettigheter/">
+                    <DsLink href="https://www.altinn.no/hjelp/profil/roller-og-rettigheter/">
                         Altinn-roller og rettigheter på altinn.no
-                    </Link>
+                    </DsLink>
                 </BodyLong>
                 <Heading size="medium" level="3" spacing>
                     I vår virksomhet har vi egendefinerte roller. Kan jeg bruke dem på arbeidsplassen.no?
@@ -161,17 +161,17 @@ export default function tilgangsstyringIStoreVirksomheter() {
                     <li>
                         <BodyLong>
                             Det kan gjøres på altinn.no. Les om hvordan du kan{" "}
-                            <Link href="https://www.altinn.no/hjelp/profil/sporre-om-rettighet/">
+                            <DsLink href="https://www.altinn.no/hjelp/profil/sporre-om-rettighet/">
                                 spørre om rettighet på Altinn.no
-                            </Link>
+                            </DsLink>
                         </BodyLong>
                     </li>
                     <li>
                         <BodyLong>
                             Gå til nav.no, som har litt flere støttefunksjoner for deg. På{" "}
-                            <Link href="https://arbeidsgiver.nav.no/min-side-arbeidsgiver/">
+                            <DsLink href="https://arbeidsgiver.nav.no/min-side-arbeidsgiver/">
                                 Min side - arbeidsgiver
-                            </Link>
+                            </DsLink>
                             finner du oversikt over roller eller enkeltrettigheter som ulike NAV-tjenester krever. Når
                             du er logget inn vil du finne mulighet for å “be om tilgang”.
                         </BodyLong>
@@ -230,9 +230,9 @@ export default function tilgangsstyringIStoreVirksomheter() {
                     Enkeltrettigheten Rekruttering gir kun tilgang til NAVs rekrutteringstjenester på arbeidsplassen.no
                     og kandidatlister tilsendt fra NAV. Tildeler du enkeltrettigheten Rekruttering, kan du være sikker
                     på at du ikke gir tilgang til andre tjenester enn NAVs rekrutteringstjenester. Les om
-                    <Link href="https://www.altinn.no/skjemaoversikt/arbeids--og-velferdsetaten-nav/rekruttering/">
+                    <DsLink href="https://www.altinn.no/skjemaoversikt/arbeids--og-velferdsetaten-nav/rekruttering/">
                         enkeltrettigheten Rekruttering på altinn.no
-                    </Link>
+                    </DsLink>
                 </BodyLong>
                 <Heading size="medium" level="3" spacing>
                     Hvordan kan jeg holde oversikt over hvem som har tilganger i Altinn?
