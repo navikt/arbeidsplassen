@@ -1,7 +1,7 @@
-import { BodyLong, Heading, Link } from "@navikt/ds-react";
+import { BodyLong, Heading, Link as DsLink } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
-import { FilePdfIcon } from "@navikt/aksel-icons";
 import Head from "next/head";
+import NextLink from "next/link";
 
 export default function arbeidsgivertjenester() {
     return (
@@ -72,8 +72,8 @@ export default function arbeidsgivertjenester() {
                     Hvis du er en utenlandsk virksomhet som ønsker hjelp til å rekruttere medarbeidere fra Norge,
                     publisere en stilling i Den Europeiske Jobbmobilitetsportalen eller i et enkelt EU/EØS-land eller
                     Sveits, skal du ta kontakt med den offentlige arbeidsformidlingen (EURES) i hjemlandet ditt. Les mer
-                    om <Link href="https://eures.ec.europa.eu/employers/advertise-job_en">EURES-tjenesten</Link> i de
-                    ulike landene.
+                    om <DsLink href="https://eures.ec.europa.eu/employers/advertise-job_en">EURES-tjenesten</DsLink> i
+                    de ulike landene.
                 </BodyLong>
 
                 <Heading size="large" level="2" spacing>
@@ -85,13 +85,13 @@ export default function arbeidsgivertjenester() {
                 </BodyLong>
                 <BodyLong className="mb-3">
                     Har du spørsmål om publisering av stilling i{" "}
-                    <Link href="https://eures.ec.europa.eu/index_en">Den Europeiske Jobbmobilitetsportalen</Link> eller
-                    i et enkelt EU/EØS-land, ta kontakt med NAV Kontaktsenter EURES på{" "}
-                    <Link href="mailto:eures@nav.no">eures@nav.no</Link> eller tlf. 55 55 33 39, tastevalg 2 (kl.
+                    <DsLink href="https://eures.ec.europa.eu/index_en">Den Europeiske Jobbmobilitetsportalen</DsLink>{" "}
+                    eller i et enkelt EU/EØS-land, ta kontakt med NAV Kontaktsenter EURES på{" "}
+                    <DsLink href="mailto:eures@nav.no">eures@nav.no</DsLink> eller tlf. 55 55 33 39, tastevalg 2 (kl.
                     10-14). Les mer om{" "}
-                    <Link href="https://www.nav.no/arbeidsgiver/rekruttere-eu-eos">
+                    <DsLink href="https://www.nav.no/arbeidsgiver/rekruttere-eu-eos">
                         NAVs EURES-tjenester for arbeidsgivere.
-                    </Link>
+                    </DsLink>
                 </BodyLong>
                 <hr />
                 <BodyLong size="small">
