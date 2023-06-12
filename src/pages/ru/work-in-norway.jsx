@@ -47,7 +47,7 @@ export default function workInNorwayRu() {
 
                     <BodyLong spacing>
                         Вы должны получить{" "}
-                        <DsLink href="https://udi.no/ru/situation-in-ukraine/stay-in-norway/protection-asylum-in-norway/">
+                        <DsLink href="https://udi.no/en/situation-in-ukraine/stay-in-norway/protection-asylum-in-norway/">
                             коллективную защиту
                         </DsLink>
                         , прежде чем начать искать и подавать заявку на работу.
