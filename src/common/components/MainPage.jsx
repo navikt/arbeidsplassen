@@ -30,7 +30,7 @@ function MainPage() {
                     </div>
                 </section>
 
-                <div className="arb-link-panel-grid mb-3">
+                <div className="arb-link-panel-grid mb-5">
                     <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href="/jobbtreff">
                         <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                             Se kommende jobbtreff
