@@ -1,7 +1,7 @@
 import { Button, Heading, Ingress, LinkPanel } from "@navikt/ds-react";
 import IllustrationPerson from "@/src/common/components/images/IllustrationPerson";
 import InformationUkraine from "@/src/common/components/banners/InformationUkraine";
-import ArticleSommerjobb from "@/src/common/components/ArticleSommerjobb";
+import ImageLinkPanelSmall from "@/src/common/components/ImageLinkPanelSmall";
 
 function MainPage() {
     return (
@@ -48,11 +48,34 @@ function MainPage() {
                         </LinkPanel.Description>
                     </LinkPanel>
                 </div>
-            </div>
 
-            <section className="container-large arb-home-section-flex mb-3">
-                <ArticleSommerjobb color="primary" className="arb-home-div-width" />
-            </section>
+                <div className="image-link-panel-grid-small">
+                    <ImageLinkPanelSmall
+                        href="/superrask-soknad-person"
+                        image="/images/jobbsoker.jpg"
+                        alt="En person som skriver på mobilen sin."
+                        title="Nyhet! Superrask søknad"
+                        description="En enklere måte å komme i kontakt med bedrifter."
+                        color="primary"
+                    />
+                    <ImageLinkPanelSmall
+                        href="mot-bedrifter-pa-en-ny-mate"
+                        image="/images/jobbtreff.webp"
+                        alt="En person sitter ved et kjøkkenbord med datamaskin foran seg, hun har på hodetelefoner og er nok i gang med en videosamtale."
+                        title="Jobbtreff – møt nye bedrifter på en ny måte"
+                        description="Følg en direkte sending der bedriften forteller om seg selv og hva slags stillinger du kan søke på."
+                        color="secondary"
+                    />
+                    <ImageLinkPanelSmall
+                        image="/images/students.jpg"
+                        alt="3 blide studenter som sitter med mobil og pc og snakker sammen utenfor skolen"
+                        title="Tips til jobbsøknaden"
+                        description="Les våre tips om hvordan skrive søknaden slik at en arbeidsgiver får lyst til å møte akkurat deg."
+                        href="/tips-til-jobbsoknaden"
+                        color="tertiary"
+                    />
+                </div>
+            </div>
 
             <div className="mb-6">
                 <InformationUkraine />
