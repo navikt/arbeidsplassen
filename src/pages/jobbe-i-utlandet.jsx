@@ -15,8 +15,7 @@ export default function jobbeiUtlandet() {
                 </Heading>
 
                 <Ingress spacing>
-                    Den Europeiske Jobbmobilitetsportalen (EURES) er et tilbud til deg som ønsker å finne en jobb i
-                    EU-/EØS-området og Sveits.
+                    EURES-portalen er et tilbud til deg som ønsker å finne en jobb i EU/EØS-området eller Sveits.
                 </Ingress>
             </div>
 
@@ -26,6 +25,13 @@ export default function jobbeiUtlandet() {
 
             <div className="container-small mb-4">
                 <Heading size="large" level="2" spacing>
+                    Hva er EURES?
+                </Heading>
+                <BodyLong spacing>
+                    EURES dekker alle EU-landene, samt Island, Liechtenstein, Norge og Sveits. Tjenesten retter seg mot
+                    personer fra landene i EURES-samarbeidet som er interessert i å benytte retten til fri bevegelse.
+                </BodyLong>
+                <Heading size="large" level="2" spacing>
                     Hva kan jeg gjøre på EURES-portalen?
                 </Heading>
                 <BodyLong spacing>
@@ -33,8 +39,9 @@ export default function jobbeiUtlandet() {
                     arbeidsgivere som søker nye medarbeidere.
                 </BodyLong>
                 <BodyLong className="mb-3">
-                    Dersom du er statsborger i et EU/EØS-land eller Sveits kan du eksportere CV-en du har på
-                    arbeidsplassen.no til EURES-portalen.
+                    Dersom du allerede har en CV på arbeidsplassen.no kan du eksportere den til EURES-portalen.
+                    Tjenesten kan kun benyttes av statsborgere fra EU-landene, samt Island, Liechtenstein, Norge eller
+                    Sveits.
                 </BodyLong>
 
                 <LinkPanel
