@@ -49,20 +49,12 @@ function MainPageBedrift() {
 
             <div className="image-link-panel-grid-small">
                 <ImageLinkPanelSmall
-                    href="/sommerjobb"
-                    image="/images/sommerjobb.png"
-                    alt="En kunde får servert en burger fra en food truck"
-                    title="Tiden for sommerjobb er her"
-                    description="Gi unge en mulighet - utlys sommerjobben nå!"
-                    color="primary"
-                />
-                <ImageLinkPanelSmall
                     href="/superrask-soknad-bedrift"
                     image="/images/bedrift.jpg"
                     alt="En mann sitter på et kontor og tar en annen i hånden"
                     title="Nyhet! Superrask søknad"
                     description="En enklere måte å komme i kontakt med relevante jobbsøkere."
-                    color="secondary"
+                    color="primary"
                 />
                 <ImageLinkPanelSmall
                     href="mot-jobbsokere-pa-en-ny-mate"
@@ -71,6 +63,15 @@ function MainPageBedrift() {
                     title="Jobbtreff – møt jobbsøkere på en ny måte"
                     description="Trenger dere nye medarbeidere? Nå kan du presentere bedriften din for interesserte
                                     jobbsøkere i en direkte sending."
+                    color="secondary"
+                />
+                <ImageLinkPanelSmall
+                    href="/skikkelig-bra-stillingsannonse"
+                    image="/images/stillingsannonse.jpg"
+                    alt="Person som skriver på en skrivemaskin"
+                    title="Skriv en skikkelig bra stillingsannonse!"
+                    description="Hva ser jobbsøkere etter når de leser en stillingsannonse? Hva bør du tenke på når du skriver
+                    annonsen?"
                     color="tertiary"
                 />
             </div>
