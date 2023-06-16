@@ -14,11 +14,14 @@ function TrackedApp({ children }) {
         setUpAmplitude();
     }, []);
 
-    const isAuthenticated =
-        useContext(AuthenticationContext).authenticationStatus === AuthenticationStatus.IS_AUTHENTICATED;
+    const { authenticationStatus } = useContext(AuthenticationContext);
     useEffect(() => {
-        setAuthenticatedStatus(isAuthenticated);
-    }, [isAuthenticated]);
+        if (authenticationStatus === AuthenticationStatus.IS_AUTHENTICATED) {
+            setAuthenticatedStatus(true);
+        } else if (authenticationStatus === AuthenticationStatus.NOT_AUTHENTICATED) {
+            setAuthenticatedStatus(false);
+        }
+    }, [authenticationStatus]);
 
     return children;
 }
