@@ -1,5 +1,7 @@
 import * as amplitude from "@amplitude/analytics-browser";
 
+const userProperties = new amplitude.Identify();
+
 function getAmplitudeKey() {
     if (typeof window === "undefined") return ""; // server side
     if (window.location.href.includes("dev.nav.no")) return "3acd3a52e065d2d99856a12e7e9e1432"; // dev
@@ -32,12 +34,16 @@ export function setUpAmplitude() {
     }
 }
 
+function logAmplitudeEvent(eventName, data) {
+    amplitude.track(eventName, data);
+}
+
 function setUserProperties(property, value) {
-    const userProperties = new amplitude.Identify();
     userProperties.set(property, value);
     amplitude.identify(userProperties);
 }
 
-export function setAuthenticatedStatus(authenticated) {
-    setUserProperties("is_authenticated", authenticated);
+export function setAuthenticatedStatus(isAuthenticated) {
+    setUserProperties("is_authenticated", isAuthenticated);
+    logAmplitudeEvent("auth status", { is_authenticated: isAuthenticated });
 }
