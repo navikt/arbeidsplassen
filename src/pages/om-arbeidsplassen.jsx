@@ -26,7 +26,7 @@ export default function omArbeidsplassen() {
                 <BodyLong className="mb-3">Arbeidsplassen.no er eid av NAV.</BodyLong>
 
                 <Heading size="large" level="2" spacing>
-                    Arbeidsplassen.no har den største oversikten over arbeidsmarkedet
+                    Arbeidsplassen.no gir deg god oversikt over arbeidsmarkedet
                 </Heading>
                 <BodyLong spacing>
                     På arbeidsplassen.no kan jobbsøkere utføre søk og finne stillingsannonser som opprinnelig er
@@ -38,7 +38,7 @@ export default function omArbeidsplassen() {
                     arbeidsplassen.no.
                 </BodyLong>
                 <BodyLong className="mb-3">
-                    Arbeidsplassen.no gir dermed Norges største oversikt over utlyste stillinger.
+                    Arbeidsplassen.no gir deg dermed en av Norges største oversikter over utlyste stillinger.
                 </BodyLong>
 
                 <Heading size="large" level="2" spacing>
