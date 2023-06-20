@@ -10,7 +10,8 @@
         "plugin:react/recommended",
         "plugin:@next/next/recommended",
         "airbnb",
-        "prettier"
+        "prettier",
+        "plugin:jsx-a11y/recommended"
     ],
     "parserOptions": {
         "ecmaFeatures": {
