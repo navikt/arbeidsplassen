@@ -1,4 +1,4 @@
-ingress: ["https://arbeidsplassen.dev.nav.no", "https://arbeidsplassen.intern.dev.nav.no"]
+ingress: ["https://arbeidsplassen.intern.dev.nav.no"]
 loglevel: "debug"
 namespace: "teampam"
 pam_samtykke_api_url: "https://pam-samtykke-api-tokenx-proxy.dev-fss-pub.nais.io"
