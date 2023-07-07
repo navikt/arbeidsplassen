@@ -1,11 +1,17 @@
-.green-box {
+.ukraine-page .green-box {
     background: #e6f4ef;
     margin: 0 0 3rem 0;
     padding: 1rem 0;
 }
 
-.green-box-inner {
+.ukraine-page .green-box-inner {
     margin: 0 auto;
     max-width: 832px;
     padding: 0 1rem;
+}
+
+.ukraine-page .contents {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
