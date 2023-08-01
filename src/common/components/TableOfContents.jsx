@@ -1,19 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import PropTypes from "prop-types";
 
-const useHeadingsData = (prefix = "") => {
-    const [nestedHeadings, setNestedHeadings] = useState([]);
-
-    useEffect(() => {
-        const headingElements = Array.from(document.querySelectorAll(`${prefix} h2, ${prefix} h3`));
-
-        const newNestedHeadings = getNestedHeadings(headingElements);
-        setNestedHeadings(newNestedHeadings);
-    }, []);
-
-    return { nestedHeadings };
-};
-
 const getNestedHeadings = (headingElements) => {
     const nestedHeadings = [];
 
@@ -33,44 +20,66 @@ const getNestedHeadings = (headingElements) => {
     return nestedHeadings;
 };
 
-const Headings = ({ headings, activeId }) => (
-    <ul>
-        {headings.map((heading) => (
-            <li key={heading.id} className={heading.id === activeId ? "active" : ""}>
-                <a
-                    href={`#${heading.id}`}
-                    onClick={(e) => {
-                        e.preventDefault();
-                        document.querySelector(`#${heading.id}`).scrollIntoView({
-                            behavior: "smooth",
-                        });
-                    }}
-                >
-                    {heading.title}
-                </a>
-                {heading.items.length > 0 && (
-                    <ul>
-                        {heading.items.map((child) => (
-                            <li key={child.id} className={child.id === activeId ? "active" : ""}>
-                                <a
-                                    href={`#${child.id}`}
-                                    onClick={(e) => {
-                                        e.preventDefault();
-                                        document.querySelector(`#${child.id}`).scrollIntoView({
-                                            behavior: "smooth",
-                                        });
-                                    }}
-                                >
-                                    {child.title}
-                                </a>
-                            </li>
-                        ))}
-                    </ul>
-                )}
-            </li>
-        ))}
-    </ul>
-);
+const useHeadingsData = (prefix = "") => {
+    const [nestedHeadings, setNestedHeadings] = useState([]);
+
+    useEffect(() => {
+        const headingElements = Array.from(document.querySelectorAll(`${prefix} h2, ${prefix} h3`));
+
+        const newNestedHeadings = getNestedHeadings(headingElements);
+        setNestedHeadings(newNestedHeadings);
+    }, []);
+
+    return { nestedHeadings };
+};
+
+function Headings({ headings, activeId }) {
+    return (
+        <ul>
+            {headings.map((heading) => (
+                <li key={heading.id} className={heading.id === activeId ? "active" : ""}>
+                    <a
+                        href={`#${heading.id}`}
+                        onClick={(e) => {
+                            e.preventDefault();
+                            document.querySelector(`#${heading.id}`).scrollIntoView({
+                                behavior: "smooth",
+                            });
+                        }}
+                    >
+                        {heading.title}
+                    </a>
+                    {heading.items.length > 0 && (
+                        <ul>
+                            {heading.items.map((child) => (
+                                <li key={child.id} className={child.id === activeId ? "active" : ""}>
+                                    <a
+                                        href={`#${child.id}`}
+                                        onClick={(e) => {
+                                            e.preventDefault();
+                                            document.querySelector(`#${child.id}`).scrollIntoView({
+                                                behavior: "smooth",
+                                            });
+                                        }}
+                                    >
+                                        {child.title}
+                                    </a>
+                                </li>
+                            ))}
+                        </ul>
+                    )}
+                </li>
+            ))}
+        </ul>
+    );
+}
+
+Headings.propTypes = {
+    headings: PropTypes.arrayOf({
+        id: PropTypes.string,
+    }),
+    activeId: PropTypes.string,
+};
 
 const useIntersectionObserver = (setActiveId, prefix = "") => {
     const headingElementsRef = useRef({});
@@ -111,7 +120,7 @@ const useIntersectionObserver = (setActiveId, prefix = "") => {
     }, [setActiveId]);
 };
 
-const TableOfContents = ({ selectorPrefix }) => {
+function TableOfContents({ selectorPrefix }) {
     const [activeId, setActiveId] = useState();
     const { nestedHeadings } = useHeadingsData(selectorPrefix);
     useIntersectionObserver(setActiveId, selectorPrefix);
@@ -123,7 +132,7 @@ const TableOfContents = ({ selectorPrefix }) => {
             </nav>
         </div>
     );
-};
+}
 
 TableOfContents.propTypes = {
     selectorPrefix: PropTypes.string,
