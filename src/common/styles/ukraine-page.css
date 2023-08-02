@@ -20,6 +20,10 @@
     position: relative;
 }
 
+.table-of-contents-wrapper label {
+    margin-left: 1rem;
+}
+
 .table-of-contents {
     position: sticky;
     top: 0;
