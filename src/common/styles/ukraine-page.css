@@ -1,5 +1,5 @@
 .ukraine-page .green-box {
-    background: #e6f4ef;
+    background: var(--arb-green-50);
     margin: 0 0 3rem 0;
     padding: 1rem 0;
 }
@@ -27,4 +27,8 @@
 .table-of-contents {
     position: sticky;
     top: 0;
+}
+
+.link-panel-stack {
+    grid-template-columns: repeat(1, 1fr);
 }
