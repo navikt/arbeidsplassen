@@ -54,9 +54,11 @@ function Headings({ headings, activeId }) {
 }
 
 Headings.propTypes = {
-    headings: PropTypes.arrayOf({
-        id: PropTypes.string,
-    }),
+    headings: PropTypes.arrayOf(
+        PropTypes.shape({
+            id: PropTypes.string,
+        }),
+    ),
     activeId: PropTypes.string,
 };
 

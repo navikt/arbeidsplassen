@@ -16,19 +16,6 @@
     padding: 0;
 }
 
-.table-of-contents-wrapper {
-    position: relative;
-}
-
-.table-of-contents-wrapper label {
-    margin-left: 1rem;
-}
-
-.table-of-contents {
-    position: sticky;
-    top: 0;
-}
-
 .link-panel-stack {
     grid-template-columns: repeat(1, 1fr);
 }
