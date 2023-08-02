@@ -4,13 +4,11 @@
 
 .table-of-contents-wrapper label {
     margin-left: 1.5rem;
-    position: sticky;
-    top: 0;
 }
 
-.table-of-contents {
+.table-of-contents-container {
     position: sticky;
-    top: 2rem;
+    top: 0;
 }
 
 .table-of-contents ul {

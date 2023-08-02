@@ -65,6 +65,7 @@ export default function workInNorwayEn() {
                                 </LinkPanel.Title>
                             </LinkPanel>
                         </div>
+
                         <Heading id="where-can-i-find" size="large" level="2" spacing>
                             Where can I find a job?
                         </Heading>
@@ -76,13 +77,23 @@ export default function workInNorwayEn() {
                         <BodyLong spacing>
                             With{" "}
                             <NextLink href="/mot-bedrifter-pa-en-ny-mate" passHref legacyBehavior>
-                                <DsLink>"Jobbtreff" (norwegian language)</DsLink>
+                                <DsLink>"Jobbtreff" (Norwegian language)</DsLink>
                             </NextLink>{" "}
                             at arbeidsplassen.no you can follow a live broadcast where companies present themselves and
-                            the positions you can apply for. Jobbtreff is mainly held in norwegian. Take a look at{" "}
+                            the positions you can apply for. Jobbtreff is mainly held in Norwegian. Take a look at{" "}
                             <DsLink href="/jobbtreff">"Se kommende jobbtreff"</DsLink> if you can find someone in
                             english.
                         </BodyLong>
+                        <Heading size="small" level="3" spacing>
+                            Relevant news and articles
+                        </Heading>
+                        <div className="arb-link-panel-grid link-panel-stack mb-3">
+                            <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href="TODO">
+                                <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
+                                    Where to look for jobs (Norwegian language)
+                                </LinkPanel.Title>
+                            </LinkPanel>
+                        </div>
 
                         <Heading id="who-can-i-contact" size="large" level="2" spacing>
                             Who can I contact for assistance and guidance?
@@ -93,7 +104,7 @@ export default function workInNorwayEn() {
                             guidance. If you are registered as a job seeker at NAV, NAV can help you to get in touch
                             with relevant employers and provide you with various measures in order to get a job. You can{" "}
                             <DsLink href="https://www.nav.no/arbeid/registrering">
-                                register as a job seeker at nav.no. (norwegian language)
+                                register as a job seeker at nav.no (Norwegian language).
                             </DsLink>{" "}
                             If you need assistance you can contact your local NAV office.
                         </BodyLong>
@@ -104,20 +115,23 @@ export default function workInNorwayEn() {
                             Relevant news and articles
                         </Heading>
                         <div className="arb-link-panel-grid link-panel-stack mb-3">
-                            <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href="/cv">
+                            <LinkPanel
+                                className="arb-tertiary-bg-text arb-link-panel"
+                                href="https://www.nav.no/kontaktoss/en#find-nav-offices"
+                            >
                                 <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                                     Find your local NAV office
                                 </LinkPanel.Title>
                             </LinkPanel>
                             <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href="/cv">
                                 <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
-                                    More information about searching for a job (norwegian language)
+                                    More information about searching for a job (Norwegian language)
                                 </LinkPanel.Title>
                             </LinkPanel>
                         </div>
 
                         <Heading id="where-can-i-work" size="large" level="2" spacing>
-                            Where can I work without norwegian language skills?
+                            Where can I work without Norwegian language skills?
                         </Heading>
                         <BodyLong spacing>
                             Employers might set up language requirements through the job advertisement. If you can
@@ -130,16 +144,16 @@ export default function workInNorwayEn() {
                             Norwegian courses
                         </Heading>
                         <BodyLong spacing>
-                            Persons with granted collective protection may be entitled to free norwegian courses.
+                            Persons with granted collective protection may be entitled to free Norwegian courses.
                             Further{" "}
                             <DsLink href="https://www.imdi.no/globalassets/dokumenter/informasjon-om-introduksjonsprogram-og-sprakopplaring-for-personer-med-kollektiv-beskyttelse/informasjon-om-introduksjonsprogram-2022---engelsk.pdf">
                                 information about the Introduction Programme
                             </DsLink>{" "}
-                            and your rights to attend free norwegian courses are to be found at the official website of
+                            and your rights to attend free Norwegian courses are to be found at the official website of
                             IMDi.
                         </BodyLong>
                         <BodyLong spacing>
-                            There are also possibilities to learn norwegian language skills while working through the
+                            There are also possibilities to learn Norwegian language skills while working through the
                             flexible fast track.
                         </BodyLong>
 
@@ -147,7 +161,10 @@ export default function workInNorwayEn() {
                             Relevant news and articles
                         </Heading>
                         <div className="arb-link-panel-grid link-panel-stack mb-3">
-                            <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href="/cv">
+                            <LinkPanel
+                                className="arb-tertiary-bg-text arb-link-panel"
+                                href="https://www.imdi.no/globalassets/dokumenter/informasjon-om-introduksjonsprogram-og-sprakopplaring-for-personer-med-kollektiv-beskyttelse/informasjon-om-introduksjonsprogram-2022---engelsk.pdf"
+                            >
                                 <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                                     Information about the Introduction Programme and language instruction
                                 </LinkPanel.Title>

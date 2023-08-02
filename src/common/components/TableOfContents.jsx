@@ -1,6 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 import PropTypes from "prop-types";
-import { Label } from "@navikt/ds-react";
+import { Label, Link as DsLink } from "@navikt/ds-react";
+import { ChevronLeftIcon } from "@navikt/aksel-icons";
+import NextLink from "next/link";
 
 // https://www.emgoto.com/react-table-of-contents/
 
@@ -107,10 +109,18 @@ function TableOfContents({ selectorPrefix }) {
 
     return (
         <div className="table-of-contents-wrapper">
-            <Label>Page contents</Label>
-            <nav className="table-of-contents" aria-label="Table of contents">
-                <Headings headings={nestedHeadings} activeId={activeId} />
-            </nav>
+            <div className="table-of-contents-container">
+                <Label>Page contents</Label>
+                <nav className="table-of-contents" aria-label="Table of contents">
+                    <Headings headings={nestedHeadings} activeId={activeId} />
+                </nav>
+                <NextLink href="/en/work-in-norway2" passHref legacyBehavior>
+                    <DsLink className="back-link-main-content">
+                        <ChevronLeftIcon aria-hidden="true" />
+                        Back to main page
+                    </DsLink>
+                </NextLink>
+            </div>
         </div>
     );
 }
