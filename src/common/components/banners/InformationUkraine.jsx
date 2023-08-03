@@ -18,7 +18,7 @@ export default function InformationUkraine() {
                 </li>
                 <li>
                     <BodyLong lang="uk">
-                        <NextLink href="/ua/work-in-norway" passHref legacyBehavior>
+                        <NextLink href="/uk/work-in-norway" passHref legacyBehavior>
                             <DsLink>Інформація українською мовою</DsLink>
                         </NextLink>
                     </BodyLong>
