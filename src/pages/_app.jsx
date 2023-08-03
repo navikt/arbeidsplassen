@@ -8,6 +8,7 @@ import AuthenticationProvider, {
 } from "@/src/common/contexts/AuthenticationProvider";
 import { setUpAmplitude, setAuthenticatedStatus } from "@/src/common/analysis/metrics";
 import { useContext, useEffect } from "react";
+import { appWithTranslation } from "next-i18next";
 
 function TrackedApp({ children }) {
     useEffect(() => {
@@ -33,4 +34,4 @@ function App({ Component, pageProps }) {
     );
 }
 
-export default App;
+export default appWithTranslation(App);
