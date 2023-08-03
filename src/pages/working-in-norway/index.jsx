@@ -1,35 +1,63 @@
-import { BodyLong, Heading, LinkPanel } from "@navikt/ds-react";
+import { BodyLong, Chips, Heading, LinkPanel } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
 import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
+import { useState } from "react";
 
 export default function WorkInNorway() {
     const { t } = useTranslation("working-in-norway");
+
+    const lngEnglish = "en";
+    const lngUkrainian = "uk";
+    const lngRussian = "ru";
+
+    const [selectedLanguage, setSelectedLanguage] = useState(lngEnglish);
 
     return (
         <Layout>
             <Head>
                 <title>{t("ukrainian-refugee-title")} - arbeidsplassen.no</title>
             </Head>
-            <article className="container-small page-margin-top-and-bottom ukraine-page">
+            <article className="container-medium page-margin-top-and-bottom ukraine-page">
                 <Heading size="xlarge" level="1" spacing>
                     {t("ukrainian-refugee-title")}
                 </Heading>
 
-                <BodyLong>{t("description")}</BodyLong>
+                <BodyLong spacing>{t("description")}</BodyLong>
 
-                <ul className="mb-3">
-                    <li>
-                        <BodyLong lang="en">Information in English</BodyLong>
-                    </li>
-                    <li>
-                        <BodyLong lang="uk">Інформація українською мовою</BodyLong>
-                    </li>
-                    <li>
-                        <BodyLong lang="ru">Информация на русском языке</BodyLong>
-                    </li>
-                </ul>
+                <Chips className="mb-3">
+                    <Chips.Toggle
+                        selected={selectedLanguage === lngEnglish}
+                        key={lngEnglish}
+                        onClick={() => {
+                            setSelectedLanguage(lngEnglish);
+                        }}
+                        lang={lngEnglish}
+                    >
+                        Information in English
+                    </Chips.Toggle>
+                    <Chips.Toggle
+                        selected={selectedLanguage === lngUkrainian}
+                        key={lngUkrainian}
+                        onClick={() => {
+                            setSelectedLanguage(lngUkrainian);
+                        }}
+                        lang={lngUkrainian}
+                    >
+                        Інформація українською мовою
+                    </Chips.Toggle>
+                    <Chips.Toggle
+                        selected={selectedLanguage === lngRussian}
+                        key={lngRussian}
+                        onClick={() => {
+                            setSelectedLanguage(lngRussian);
+                        }}
+                        lang={lngRussian}
+                    >
+                        Информация на русском языке
+                    </Chips.Toggle>
+                </Chips>
 
                 <div className="arb-link-panel-grid mb-5">
                     <LinkPanel className="arb-secondary-bg-text arb-link-panel" href="/cv">

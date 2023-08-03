@@ -16,6 +16,15 @@
     padding: 0;
 }
 
+.ukraine-page h1,
+.ukraine-page p {
+    text-align: center;
+}
+
+.navds-chips {
+    justify-content: center;
+}
+
 .link-panel-stack {
     grid-template-columns: repeat(1, 1fr);
 }
