@@ -115,7 +115,7 @@ export default function FindingAJob() {
                             {t("p-assistance.p1-3")}
                         </BodyLong>
                         <DsLink href="https://vimeo.com/656108660" hrefLang="en" className="mb-2">
-                            {t("p-assistance.p1-link-text-3")}
+                            {t("p-assistance.p2-link-text-3")}
                         </DsLink>
                         <BodyLong spacing>{t("p-assistance.p2")}</BodyLong>
                         <BodyLong spacing>{t("p-assistance.p3")}</BodyLong>
@@ -123,6 +123,16 @@ export default function FindingAJob() {
                         {currentLanguage === "uk" ? (
                             <DsLink hreflang="uk" href="https://vimeo.com/696892548" className="mb-2">
                                 Усний перекладач при контакті з NAV
+                            </DsLink>
+                        ) : null}
+
+                        {currentLanguage === "ru" ? (
+                            <DsLink
+                                hreflang="ru"
+                                href="https://vimeo.com/showcase/9089710/video/759018688"
+                                className="mb-2"
+                            >
+                                Устный переводчик при контакте с NAV
                             </DsLink>
                         ) : null}
 
