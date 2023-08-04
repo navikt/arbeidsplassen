@@ -7,41 +7,36 @@ import TableOfContents from "@/src/common/components/TableOfContents";
 import NextLink from "next/link";
 
 export default function FindingAJob() {
-    const { t } = useTranslation("finding-a-job");
+    const { t } = useTranslation(["finding-a-job", "working-in-norway"]);
 
     return (
         <Layout>
             <Head>
-                <title>Information about working in Norway for Ukrainian refugees - arbeidsplassen.no</title>
+                <title>{t("ukrainian-work-in-norway-title", { ns: "working-in-norway" })} - arbeidsplassen.no</title>
             </Head>
             <div className="ukraine-page">
                 <div className="green-box">
                     <div className="green-box-inner">
                         <Heading size="small" level="1" className="mb-0_25">
-                            Finding a job
+                            {t("ukrainian-work-in-norway-title", { ns: "working-in-norway" })}
                         </Heading>
-                        <BodyShort>Information about working in Norway for Ukrainian refugees</BodyShort>
+                        <BodyShort>{t("finding-a-job-title", { ns: "working-in-norway" })}</BodyShort>
                     </div>
                 </div>
                 <div className="flex">
                     <TableOfContents selectorPrefix="main" />
                     <article className="container-small page-margin-top-and-bottom ukraine-page" lang="en">
                         <Heading id="when-can-i-start-looking" size="large" level="2" spacing>
-                            {t("h2-when-can-i-start-looking")}
+                            {t("h2-start-looking")}
                         </Heading>
                         <BodyLong spacing>
-                            You must have been granted{" "}
-                            <DsLink href="https://udi.no/en/information-ukraine-and-russia/situation-in-ukraine/stay-in-norway/protection-asylum-in-norway/">
-                                collective protection
-                            </DsLink>{" "}
-                            before you can start searching for and applying for jobs.
+                            {t("p-start-looking.p1")}{" "}
+                            <DsLink href={t("p-start-looking.p1-link")}>{t("p-start-looking.p1-link-text")}</DsLink>{" "}
+                            {t("p-start-looking.p1-2")}
                         </BodyLong>
-                        <BodyLong spacing>
-                            You cannot apply for jobs or work while The Norwegian Directorate of Immigration (UDI)
-                            processes your application.
-                        </BodyLong>
+                        <BodyLong spacing>{t("p-start-looking.p2")}</BodyLong>
                         <Heading size="small" level="3" spacing>
-                            Relevant news and articles
+                            {t("h3-news-articles")}
                         </Heading>
                         <div className="arb-link-panel-grid mb-3">
                             <LinkPanel
@@ -71,25 +66,22 @@ export default function FindingAJob() {
                         </div>
 
                         <Heading id="where-can-i-find" size="large" level="2" spacing>
-                            Where can I find a job?
+                            {t("h2-find-job")}
                         </Heading>
                         <BodyLong spacing>
-                            You can look for a job at arbeidsplassen.no, one of the largest databases for job ads in
-                            Norway. Here you can also find{" "}
-                            <DsLink href="/stillinger?q=english">job advertisements in english.</DsLink>
+                            {t("p-find-job.p1")}{" "}
+                            <DsLink href="/stillinger?q=english">{t("p-find-job.p1-link-text")}</DsLink>
                         </BodyLong>
                         <BodyLong spacing>
-                            With{" "}
-                            <NextLink href="/mot-bedrifter-pa-en-ny-mate" passHref legacyBehavior>
-                                <DsLink>"Jobbtreff" (Norwegian language)</DsLink>
+                            {t("p-find-job.p2")}{" "}
+                            <NextLink href="/mot-bedrifter-pa-en-ny-mate" passHref legacyBehavior locale="no">
+                                <DsLink>{t("p-find-job.p2-link-text-1")}</DsLink>
                             </NextLink>{" "}
-                            at arbeidsplassen.no you can follow a live broadcast where companies present themselves and
-                            the positions you can apply for. Jobbtreff is mainly held in Norwegian. Take a look at{" "}
-                            <DsLink href="/jobbtreff">"Se kommende jobbtreff"</DsLink> if you can find someone in
-                            english.
+                            {t("p-find-job.p2-2")} <DsLink href="/jobbtreff">{t("p-find-job.p2-link-text-2")}</DsLink>{" "}
+                            {t("p-find-job.p2-3")}
                         </BodyLong>
                         <Heading size="small" level="3" spacing>
-                            Relevant news and articles
+                            {t("h3-news-articles")}
                         </Heading>
                         <div className="arb-link-panel-grid link-panel-stack mb-3">
                             <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href="TODO">
@@ -100,23 +92,20 @@ export default function FindingAJob() {
                         </div>
 
                         <Heading id="who-can-i-contact" size="large" level="2" spacing>
-                            Who can I contact for assistance and guidance?
+                            {t("h2-assistance")}
                         </Heading>
                         <BodyLong spacing>
-                            If you need assistance finding a job, you can{" "}
-                            <DsLink href="https://www.nav.no/kontaktoss/en">contact NAV</DsLink> for information and
-                            guidance. If you are registered as a job seeker at NAV, NAV can help you to get in touch
-                            with relevant employers and provide you with various measures in order to get a job. You can{" "}
-                            <DsLink href="https://www.nav.no/arbeid/registrering">
-                                register as a job seeker at nav.no (Norwegian language).
-                            </DsLink>{" "}
-                            If you need assistance you can contact your local NAV office.
+                            {t("p-assistance.p1")}{" "}
+                            <DsLink href={t("p-assistance.p1-link-1")}>{t("p-assistance.p1-link-text-1")}</DsLink>{" "}
+                            {t("p-assistance.p1-2")}
+                            <DsLink href={t("p-assistance.p1-link-2")}>{t("p-assistance.p1-link-text-2")}</DsLink>{" "}
+                            {t("p-assistance.p1-3")}
                         </BodyLong>
-                        <BodyLong spacing>You have the right to get an interpreter when contacting NAV.</BodyLong>
-                        <BodyLong spacing>If you have questions, please call NAV at 55 55 33 33 </BodyLong>
+                        <BodyLong spacing>{t("p-assistance.p2")}</BodyLong>
+                        <BodyLong spacing>{t("p-assistance.p3")}</BodyLong>
 
                         <Heading size="small" level="3" spacing>
-                            Relevant news and articles
+                            {t("h3-news-articles")}
                         </Heading>
                         <div className="arb-link-panel-grid link-panel-stack mb-3">
                             <LinkPanel
@@ -135,34 +124,26 @@ export default function FindingAJob() {
                         </div>
 
                         <Heading id="where-can-i-work" size="large" level="2" spacing>
-                            Where can I work without Norwegian language skills?
+                            {t("h2-working-wo-norwegian")}
                         </Heading>
                         <BodyLong spacing>
-                            Employers might set up language requirements through the job advertisement. If you can
-                            communicate in basic english, you can look for{" "}
-                            <DsLink href="/stillinger?q=english">job advertisement in english</DsLink> or where english
-                            is specified as working language.
+                            {t("p-working.p1")}{" "}
+                            <DsLink href="/stillinger?q=english">{t("p-working.p-link-text")}</DsLink>{" "}
+                            {t("p-working.p1-2")}
                         </BodyLong>
 
                         <Heading size="xsmall" level="3" spacing>
-                            Norwegian courses
+                            {t("h3-norwegain-courses")}
                         </Heading>
                         <BodyLong spacing>
-                            Persons with granted collective protection may be entitled to free Norwegian courses.
-                            Further{" "}
-                            <DsLink href="https://www.imdi.no/globalassets/dokumenter/informasjon-om-introduksjonsprogram-og-sprakopplaring-for-personer-med-kollektiv-beskyttelse/informasjon-om-introduksjonsprogram-2022---engelsk.pdf">
-                                information about the Introduction Programme
-                            </DsLink>{" "}
-                            and your rights to attend free Norwegian courses are to be found at the official website of
-                            IMDi.
+                            {t("p-no-courses.p1")}{" "}
+                            <DsLink href={t("p-no-courses.p1-link")}>{t("p-no-courses.p1-link-text")}</DsLink>{" "}
+                            {t("p-no-courses.p1-2")}
                         </BodyLong>
-                        <BodyLong spacing>
-                            There are also possibilities to learn Norwegian language skills while working through the
-                            flexible fast track.
-                        </BodyLong>
+                        <BodyLong spacing>{t("p-no-courses.p2")}</BodyLong>
 
                         <Heading size="small" level="3" spacing>
-                            Relevant news and articles
+                            {t("h3-news-articles")}
                         </Heading>
                         <div className="arb-link-panel-grid link-panel-stack mb-3">
                             <LinkPanel
@@ -186,7 +167,7 @@ export async function getStaticProps(context) {
 
     return {
         props: {
-            ...(await serverSideTranslations(locale, ["finding-a-job"])),
+            ...(await serverSideTranslations(locale, ["finding-a-job", "working-in-norway"])),
         },
     };
 }

@@ -1,3 +1,47 @@
 {
-    "h2-when-can-i-start-looking": "When can I start looking for a job?"
+    "h2-start-looking": "When can I start looking for a job?",
+    "p-start-looking": {
+        "p1": "You must have been granted",
+        "p1-link": "https://udi.no/en/information-ukraine-and-russia/situation-in-ukraine/stay-in-norway/protection-asylum-in-norway/",
+        "p1-link-text": "collective protection",
+        "p1-2": "before you can begin applying for jobs.",
+        "p2": "You cannot apply for jobs or work while The Norwegian Directorate of Immigration (UDI) processes your application."
+    },
+    "h2-find-job": "Where can I find a job?",
+    "p-find-job": {
+        "p1": "You can look for a job at arbeidsplassen.no, one of the largest databases for job advertisements in Norway. Here you can also find",
+        "p1-link-text": "job advertisements in English.",
+        "p2": "With",
+        "p2-link-text-1": "\"Jobbtreff\" (Norwegian language)",
+        "p2-2": "at arbeidsplassen.no you can follow a live broadcast where companies present themselves and the positions you can apply for.  Jobbtreff is mainly held in Norwegian. Take a look at",
+        "p2-link-text-2": "\"Se kommende jobbtreff\"",
+        "p2-3": "if you can find one in English."
+    },
+    "h2-assistance": "Who can I contact for assistance and guidance?",
+    "p-assistance": {
+        "p1": "If you need assistance finding a job, you can",
+        "p1-link-1": "https://www.nav.no/kontaktoss/en",
+        "p1-link-text-1": "contact NAV",
+        "p1-2": "for information and guidance.  If you are registered as a job seeker at NAV, NAV can help you to get in touch with relevant employers and provide you with various measures in order to get a job. You can ",
+        "p1-link-2": "https://www.nav.no/arbeid/registrering",
+        "p1-link-text-2": "register as a job seeker at nav.no (Norwegian language).",
+        "p1-3": "If you need assistance you can contact your local NAV office.",
+        "p2": "You have the right to get an interpreter when contacting NAV.",
+        "p3": "If you have questions, please call NAV at 55 55 33 33"
+    },
+    "h2-working-wo-norwegian": "Where can I work without Norwegian language skills?",
+    "p-working": {
+        "p1": "Employers might set up language requirements through the job advertisement.  If you can communicate in basic english, you can look for",
+        "p-link-text": "job advertisement in English",
+        "p1-2": "or where english is specified as working language."
+    },
+    "h3-norwegain-courses": "Norwegian courses",
+    "p-no-courses": {
+        "p1": "Persons with granted collective protection may be entitled to free Norwegian courses. Further",
+        "p1-link": "https://www.imdi.no/globalassets/dokumenter/informasjon-om-introduksjonsprogram-og-sprakopplaring-for-personer-med-kollektiv-beskyttelse/informasjon-om-introduksjonsprogram-2022---engelsk.pdf",
+        "p1-link-text": "information about the Introduction Programme",
+        "p1-2": "and your rights to attend free Norwegian courses are to be found at the official website of IMDi.",
+        "p2": "There are also possibilities to learn Norwegian language skills while working through the flexible fast track."
+    },
+    "h3-news-articles": "Relevant news and articles"
 }

@@ -37,11 +37,11 @@ export default function WorkInNorway() {
     return (
         <Layout>
             <Head>
-                <title>{t("ukrainian-refugee-title")} - arbeidsplassen.no</title>
+                <title>{t("ukrainian-work-in-norway-title")} - arbeidsplassen.no</title>
             </Head>
             <article className="container-medium page-margin-top-and-bottom ukraine-page-main">
                 <Heading size="xlarge" level="1" spacing>
-                    {t("ukrainian-refugee-title")}
+                    {t("ukrainian-work-in-norway-title")}
                 </Heading>
 
                 <BodyLong spacing>{t("description")}</BodyLong>
@@ -74,24 +74,27 @@ export default function WorkInNorway() {
                 </Chips>
 
                 <div className="arb-link-panel-grid mb-5">
-                    <LinkPanel className="arb-secondary-bg-text arb-link-panel" href="/cv">
+                    <LinkPanel
+                        className="arb-secondary-bg-text arb-link-panel"
+                        href={`/${selectedLanguage}/working-in-norway/finding-a-job`}
+                    >
                         <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
-                            {t("link-finding-a-job")}
+                            {t("finding-a-job-title")}
                         </LinkPanel.Title>
                     </LinkPanel>
                     <LinkPanel className="arb-secondary-bg-text arb-link-panel" href="/cv">
                         <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
-                            {t("link-applying-for-a-job")}
+                            {t("applying-for-a-job-title")}
                         </LinkPanel.Title>
                     </LinkPanel>
                     <LinkPanel className="arb-secondary-bg-text arb-link-panel" href="/cv">
                         <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
-                            {t("link-starting-a-new-job")}
+                            {t("starting-a-new-job-title")}
                         </LinkPanel.Title>
                     </LinkPanel>
                     <LinkPanel className="arb-secondary-bg-text arb-link-panel" href="/cv">
                         <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
-                            {t("link-unemployed")}
+                            {t("unemployed-title")}
                         </LinkPanel.Title>
                     </LinkPanel>
                 </div>
