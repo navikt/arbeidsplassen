@@ -28,7 +28,7 @@ const useHeadingsData = (prefix = "") => {
 
         const newNestedHeadings = getNestedHeadings(headingElements);
         setNestedHeadings(newNestedHeadings);
-    }, []);
+    }, [prefix]);
 
     return { nestedHeadings };
 };
@@ -66,6 +66,7 @@ Headings.propTypes = {
 
 const useIntersectionObserver = (setActiveId, prefix = "") => {
     const headingElementsRef = useRef({});
+
     useEffect(() => {
         const headingElements = Array.from(document.querySelectorAll(`${prefix} h2`));
         const callback = (headings) => {
@@ -99,7 +100,7 @@ const useIntersectionObserver = (setActiveId, prefix = "") => {
         headingElements.forEach((element) => observer.observe(element));
 
         return () => observer.disconnect();
-    }, [setActiveId]);
+    }, [setActiveId, prefix]);
 };
 
 function TableOfContents({ selectorPrefix }) {
@@ -114,7 +115,7 @@ function TableOfContents({ selectorPrefix }) {
                 <nav className="table-of-contents" aria-label="Table of contents">
                     <Headings headings={nestedHeadings} activeId={activeId} />
                 </nav>
-                <NextLink href="/en/work-in-norway2" passHref legacyBehavior>
+                <NextLink href="/working-in-norway" passHref legacyBehavior>
                     <DsLink className="back-link-main-content">
                         <ChevronLeftIcon aria-hidden="true" />
                         Back to main page

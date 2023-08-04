@@ -19,7 +19,7 @@ export default function WorkInNorway() {
             <Head>
                 <title>{t("ukrainian-refugee-title")} - arbeidsplassen.no</title>
             </Head>
-            <article className="container-medium page-margin-top-and-bottom ukraine-page">
+            <article className="container-medium page-margin-top-and-bottom ukraine-page-main">
                 <Heading size="xlarge" level="1" spacing>
                     {t("ukrainian-refugee-title")}
                 </Heading>

@@ -1,3 +1,12 @@
+.ukraine-page-main h1,
+.ukraine-page-main p {
+    text-align: center;
+}
+
+.ukraine-page-main .navds-chips {
+    justify-content: center;
+}
+
 .ukraine-page .green-box {
     background: var(--arb-green-50);
     margin: 0 0 3rem 0;
@@ -16,15 +25,6 @@
     padding: 0;
 }
 
-.ukraine-page h1,
-.ukraine-page p {
-    text-align: center;
-}
-
-.navds-chips {
-    justify-content: center;
-}
-
-.link-panel-stack {
+.ukraine-page .link-panel-stack {
     grid-template-columns: repeat(1, 1fr);
 }
