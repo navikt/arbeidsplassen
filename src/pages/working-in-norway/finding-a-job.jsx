@@ -19,9 +19,9 @@ export default function FindingAJob() {
                 <div className="green-box">
                     <div className="green-box-inner">
                         <Heading size="small" level="1" className="mb-0_25">
-                            {t("ukrainian-work-in-norway-title", { ns: "working-in-norway" })}
+                            {t("finding-a-job-title", { ns: "working-in-norway" })}
                         </Heading>
-                        <BodyShort>{t("finding-a-job-title", { ns: "working-in-norway" })}</BodyShort>
+                        <BodyShort>{t("ukrainian-work-in-norway-title", { ns: "working-in-norway" })}</BodyShort>
                     </div>
                 </div>
                 <div className="flex">
@@ -37,7 +37,7 @@ export default function FindingAJob() {
                         </BodyLong>
                         <BodyLong spacing>{t("p-start-looking.p2")}</BodyLong>
                         <Heading size="small" level="3" spacing>
-                            {t("h3-news-articles")}
+                            {t("h3-news-articles", { ns: "working-in-norway" })}
                         </Heading>
                         <div className="arb-link-panel-grid mb-3">
                             <LinkPanel
@@ -90,7 +90,7 @@ export default function FindingAJob() {
                             {t("p-find-job.p2-3")}
                         </BodyLong>
                         <Heading size="small" level="3" spacing>
-                            {t("h3-news-articles")}
+                            {t("h3-news-articles", { ns: "working-in-norway" })}
                         </Heading>
                         <div className="arb-link-panel-grid link-panel-stack mb-3">
                             <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href="TODO">
@@ -137,7 +137,7 @@ export default function FindingAJob() {
                         ) : null}
 
                         <Heading size="small" level="3" spacing>
-                            {t("h3-news-articles")}
+                            {t("h3-news-articles", { ns: "working-in-norway" })}
                         </Heading>
                         <div className="arb-link-panel-grid link-panel-stack mb-3">
                             <LinkPanel
@@ -175,7 +175,7 @@ export default function FindingAJob() {
                         <BodyLong spacing>{t("p-no-courses.p2")}</BodyLong>
 
                         <Heading size="small" level="3" spacing>
-                            {t("h3-news-articles")}
+                            {t("h3-news-articles", { ns: "working-in-norway" })}
                         </Heading>
                         <div className="arb-link-panel-grid link-panel-stack mb-3">
                             <LinkPanel

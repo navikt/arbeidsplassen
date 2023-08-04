@@ -82,7 +82,10 @@ export default function WorkInNorway() {
                             {t("finding-a-job-title")}
                         </LinkPanel.Title>
                     </LinkPanel>
-                    <LinkPanel className="arb-secondary-bg-text arb-link-panel" href="/cv">
+                    <LinkPanel
+                        className="arb-secondary-bg-text arb-link-panel"
+                        href={`/${selectedLanguage}/working-in-norway/applying-for-job`}
+                    >
                         <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                             {t("applying-for-a-job-title")}
                         </LinkPanel.Title>
