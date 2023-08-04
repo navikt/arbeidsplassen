@@ -18,21 +18,21 @@ export default function workInNorway() {
                     <ul>
                         <li>
                             <BodyLong lang="en">
-                                <NextLink href="/en/work-in-norway" passHref legacyBehavior>
+                                <NextLink href="/en/work-in-norway" passHref legacyBehavior hrefLang="en">
                                     <DsLink>Information about working in Norway</DsLink>
                                 </NextLink>
                             </BodyLong>
                         </li>
                         <li>
                             <BodyLong lang="uk">
-                                <NextLink href="/uk/work-in-norway" passHref legacyBehavior>
+                                <NextLink href="/uk/work-in-norway" passHref legacyBehavior hrefLang="uk">
                                     <DsLink>Інформація українською мовою</DsLink>
                                 </NextLink>
                             </BodyLong>
                         </li>
                         <li>
                             <BodyLong lang="ru">
-                                <NextLink href="/ru/work-in-norway" passHref legacyBehavior>
+                                <NextLink href="/ru/work-in-norway" passHref legacyBehavior hrefLang="ru">
                                     <DsLink>Информация на русском языке</DsLink>
                                 </NextLink>
                             </BodyLong>

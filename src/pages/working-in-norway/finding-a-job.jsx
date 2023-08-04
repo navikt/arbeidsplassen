@@ -7,7 +7,8 @@ import TableOfContents from "@/src/common/components/TableOfContents";
 import NextLink from "next/link";
 
 export default function FindingAJob() {
-    const { t } = useTranslation(["finding-a-job", "working-in-norway"]);
+    const { t, i18n } = useTranslation(["finding-a-job", "working-in-norway"]);
+    const { language: currentLanguage } = i18n;
 
     return (
         <Layout>
@@ -25,7 +26,7 @@ export default function FindingAJob() {
                 </div>
                 <div className="flex">
                     <TableOfContents selectorPrefix="main" />
-                    <article className="container-small page-margin-top-and-bottom ukraine-page" lang="en">
+                    <article className="container-small page-margin-top-and-bottom ukraine-page">
                         <Heading id="when-can-i-start-looking" size="large" level="2" spacing>
                             {t("h2-start-looking")}
                         </Heading>
@@ -70,11 +71,19 @@ export default function FindingAJob() {
                         </Heading>
                         <BodyLong spacing>
                             {t("p-find-job.p1")}{" "}
-                            <DsLink href="/stillinger?q=english">{t("p-find-job.p1-link-text")}</DsLink>
+                            <DsLink hrefLang="no" href="/stillinger?q=english">
+                                {t("p-find-job.p1-link-text")}
+                            </DsLink>
                         </BodyLong>
                         <BodyLong spacing>
                             {t("p-find-job.p2")}{" "}
-                            <NextLink href="/mot-bedrifter-pa-en-ny-mate" passHref legacyBehavior locale="no">
+                            <NextLink
+                                href="/mot-bedrifter-pa-en-ny-mate"
+                                passHref
+                                legacyBehavior
+                                locale="no"
+                                hrefLang="no"
+                            >
                                 <DsLink>{t("p-find-job.p2-link-text-1")}</DsLink>
                             </NextLink>{" "}
                             {t("p-find-job.p2-2")} <DsLink href="/jobbtreff">{t("p-find-job.p2-link-text-2")}</DsLink>{" "}
@@ -96,13 +105,26 @@ export default function FindingAJob() {
                         </Heading>
                         <BodyLong spacing>
                             {t("p-assistance.p1")}{" "}
-                            <DsLink href={t("p-assistance.p1-link-1")}>{t("p-assistance.p1-link-text-1")}</DsLink>{" "}
+                            <DsLink hrefLang="en" href="https://www.nav.no/kontaktoss/en">
+                                {t("p-assistance.p1-link-text-1")}
+                            </DsLink>{" "}
                             {t("p-assistance.p1-2")}
-                            <DsLink href={t("p-assistance.p1-link-2")}>{t("p-assistance.p1-link-text-2")}</DsLink>{" "}
+                            <DsLink href="https://www.nav.no/arbeid/registrering" hrefLang="no">
+                                {t("p-assistance.p1-link-text-2")}
+                            </DsLink>{" "}
                             {t("p-assistance.p1-3")}
                         </BodyLong>
+                        <DsLink href="https://vimeo.com/656108660" hrefLang="en" className="mb-2">
+                            {t("p-assistance.p1-link-text-3")}
+                        </DsLink>
                         <BodyLong spacing>{t("p-assistance.p2")}</BodyLong>
                         <BodyLong spacing>{t("p-assistance.p3")}</BodyLong>
+
+                        {currentLanguage === "uk" ? (
+                            <DsLink hreflang="uk" href="https://vimeo.com/696892548" className="mb-2">
+                                Усний перекладач при контакті з NAV
+                            </DsLink>
+                        ) : null}
 
                         <Heading size="small" level="3" spacing>
                             {t("h3-news-articles")}

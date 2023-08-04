@@ -20,12 +20,11 @@
     "h2-assistance": "Who can I contact for assistance and guidance?",
     "p-assistance": {
         "p1": "If you need assistance finding a job, you can",
-        "p1-link-1": "https://www.nav.no/kontaktoss/en",
         "p1-link-text-1": "contact NAV",
         "p1-2": "for information and guidance.  If you are registered as a job seeker at NAV, NAV can help you to get in touch with relevant employers and provide you with various measures in order to get a job. You can ",
-        "p1-link-2": "https://www.nav.no/arbeid/registrering",
         "p1-link-text-2": "register as a job seeker at nav.no (Norwegian language).",
         "p1-3": "If you need assistance you can contact your local NAV office.",
+        "p1-link-text-3": "Video - Register as a job seeker",
         "p2": "You have the right to get an interpreter when contacting NAV.",
         "p3": "If you have questions, please call NAV at 55 55 33 33"
     },
