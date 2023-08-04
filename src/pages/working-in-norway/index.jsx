@@ -3,16 +3,36 @@ import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
 import { useTranslation } from "next-i18next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
-import { useState } from "react";
+import { useCallback, useState } from "react";
+import { useRouter } from "next/router";
 
 export default function WorkInNorway() {
-    const { t } = useTranslation("working-in-norway");
+    const { t, i18n } = useTranslation("working-in-norway");
+    const { language: currentLanguage } = i18n;
 
     const lngEnglish = "en";
     const lngUkrainian = "uk";
     const lngRussian = "ru";
 
-    const [selectedLanguage, setSelectedLanguage] = useState(lngEnglish);
+    const [selectedLanguage, setSelectedLanguage] = useState(currentLanguage);
+
+    const router = useRouter();
+
+    const switchToLocale = useCallback(
+        (locale) => {
+            const path = router.asPath;
+            return router.push(path, path, { locale });
+        },
+        [router],
+    );
+
+    const changeLanguage = useCallback(
+        async (locale) => {
+            setSelectedLanguage(locale);
+            await switchToLocale(locale);
+        },
+        [switchToLocale],
+    );
 
     return (
         <Layout>
@@ -30,9 +50,7 @@ export default function WorkInNorway() {
                     <Chips.Toggle
                         selected={selectedLanguage === lngEnglish}
                         key={lngEnglish}
-                        onClick={() => {
-                            setSelectedLanguage(lngEnglish);
-                        }}
+                        onClick={() => changeLanguage(lngEnglish)}
                         lang={lngEnglish}
                     >
                         Information in English
@@ -40,9 +58,7 @@ export default function WorkInNorway() {
                     <Chips.Toggle
                         selected={selectedLanguage === lngUkrainian}
                         key={lngUkrainian}
-                        onClick={() => {
-                            setSelectedLanguage(lngUkrainian);
-                        }}
+                        onClick={() => changeLanguage(lngUkrainian)}
                         lang={lngUkrainian}
                     >
                         Інформація українською мовою
@@ -50,9 +66,7 @@ export default function WorkInNorway() {
                     <Chips.Toggle
                         selected={selectedLanguage === lngRussian}
                         key={lngRussian}
-                        onClick={() => {
-                            setSelectedLanguage(lngRussian);
-                        }}
+                        onClick={() => changeLanguage(lngRussian)}
                         lang={lngRussian}
                     >
                         Информация на русском языке
