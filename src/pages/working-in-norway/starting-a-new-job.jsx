@@ -26,25 +26,25 @@ export default function StartingANewJob() {
                 <div className="container-large flex">
                     <TableOfContents selectorPrefix="main" />
                     <article className="container-small page-margin-top-and-bottom ukraine-page">
-                        <Heading id="how-do-i-apply" size="large" level="2" spacing>
-                            {t("h2-how-apply")}
+                        <Heading id="start-working" size="large" level="2" spacing>
+                            {t("h2-start-working")}
                         </Heading>
 
                         <Heading size="small" level="3" spacing>
-                            {t("h3-cv.title")}
+                            {t("h3-bank-account.title")}
                         </Heading>
-                        <BodyLong spacing>{t("h3-cv.p")}</BodyLong>
+                        <BodyLong spacing>{t("h3-bank-account.p")}</BodyLong>
 
                         <Heading size="small" level="3" spacing>
-                            {t("h3-cover-letter.title")}
+                            {t("h3-tax.title")}
                         </Heading>
-                        <BodyLong spacing>{t("h3-cover-letter.p")}</BodyLong>
+                        <BodyLong spacing>{t("h3-tax.p1")}</BodyLong>
+                        <BodyLong spacing>{t("h3-tax.p2")}</BodyLong>
 
                         <Heading size="small" level="3" spacing>
-                            {t("h3-ss.title")}
+                            {t("h3-contract.title")}
                         </Heading>
-                        <BodyLong spacing>{t("h3-ss.p1")}</BodyLong>
-                        <BodyLong spacing>{t("h3-ss.p2")}</BodyLong>
+                        <BodyLong spacing>{t("h3-contract.p")}</BodyLong>
 
                         <Heading size="small" level="3" spacing>
                             {t("h3-news-articles", { ns: "working-in-norway" })}
@@ -52,7 +52,7 @@ export default function StartingANewJob() {
                         <div className="ukraine-link-panel-container mb-3">
                             <LinkPanel
                                 className="arb-tertiary-bg-text arb-link-panel"
-                                href="/slik-skriver-du-en-god-cv"
+                                href="https://www.finansportalen.no/bank/dagligbank/"
                                 hrefLang="no"
                             >
                                 <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
@@ -61,8 +61,8 @@ export default function StartingANewJob() {
                             </LinkPanel>
                             <LinkPanel
                                 className="arb-tertiary-bg-text arb-link-panel"
-                                href="/superrask-soknad-person"
-                                hrefLang="no"
+                                href="https://www.skatteetaten.no/en/person/foreign/are-you-intending-to-work-in-norway/tax-deduction-cards"
+                                hrefLang="en"
                             >
                                 <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                                     {t("1-link-panels.2-title")}
@@ -70,8 +70,8 @@ export default function StartingANewJob() {
                             </LinkPanel>
                             <LinkPanel
                                 className="arb-tertiary-bg-text arb-link-panel"
-                                href="/tips-til-jobbsoknaden"
-                                hrefLang="no"
+                                href="https://www.arbeidstilsynet.no/en/working-conditions/contract-of-employment/"
+                                hrefLang="en"
                             >
                                 <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                                     {t("1-link-panels.3-title")}
@@ -79,76 +79,37 @@ export default function StartingANewJob() {
                             </LinkPanel>
                         </div>
 
-                        <Heading id="how-to-recognize" size="large" level="2" spacing>
-                            {t("h2-recognize-foreign-edu.title")}
+                        <Heading id="rights" size="large" level="2" spacing>
+                            {t("h2-rights.title")}
                         </Heading>
-                        <BodyLong spacing>{t("h2-recognize-foreign-edu.p")}</BodyLong>
-
-                        <Heading size="small" level="3" spacing>
-                            {t("h3-reg-prof.title")}
-                        </Heading>
-                        <BodyLong spacing>{t("h3-reg-prof.p")}</BodyLong>
-
-                        <Heading size="small" level="3" spacing>
-                            {t("h3-rec-of-edu.title")}
-                        </Heading>
-                        <BodyLong spacing>{t("h3-rec-of-edu.p")}</BodyLong>
-                        <ul>
-                            <li className="mb-1">
-                                <DsLink
-                                    href="https://hkdir.no/en/foreign-education/education-from-outside-of-norway/recognition-of-foreign-higher-education-bachelor-master-and-phd"
-                                    hrefLang="en"
-                                >
-                                    {t("h3-rec-of-edu.1-link-title")}
-                                </DsLink>
-                            </li>
-                            <li>
-                                <DsLink
-                                    href="https://hkdir.no/en/foreign-education/education-from-outside-of-norway/recognition-of-foreign-tertiary-vocational-education"
-                                    hrefLang="en"
-                                >
-                                    {t("h3-rec-of-edu.2-link-title")}
-                                </DsLink>
-                            </li>
-                        </ul>
-
-                        <Heading size="small" level="3" spacing>
-                            {t("h3-auto-rec.title")}
-                        </Heading>
-                        <BodyLong spacing>{t("h3-auto-rec.p")}</BodyLong>
+                        <BodyLong spacing>{t("h2-rights.p1")}</BodyLong>
+                        <BodyLong spacing>
+                            {t("h2-rights.p2")}{" "}
+                            <DsLink
+                                href="https://www.arbeidstilsynet.no/en/working-conditions/pay-and-minimum-rates-of-pay/minimum-wage/"
+                                hrefLang="en"
+                            >
+                                {t("h2-rights.p2-link-title")}
+                            </DsLink>
+                        </BodyLong>
+                        <BodyLong spacing>{t("h2-rights.p3")}</BodyLong>
 
                         <Heading size="small" level="3" spacing>
                             {t("h3-news-articles", { ns: "working-in-norway" })}
                         </Heading>
                         <div className="ukraine-link-panel-container mb-3">
-                            <LinkPanel
-                                className="arb-tertiary-bg-text arb-link-panel"
-                                href="https://hkdir.no/en/foreign-education/lists-and-databases/regulated-professions"
-                            >
+                            <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href={t("2-link-panel.link")}>
                                 <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
-                                    {t("2-link-panels.1-title")}
-                                </LinkPanel.Title>
-                            </LinkPanel>
-                            <LinkPanel
-                                className="arb-tertiary-bg-text arb-link-panel"
-                                href="https://hkdir.no/en/foreign-education/education-from-outside-of-norway/recognition-of-foreign-higher-education-bachelor-master-and-phd/automatic-recognition-a-quicker-alternative"
-                            >
-                                <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
-                                    {t("2-link-panels.2-title")}
-                                </LinkPanel.Title>
-                            </LinkPanel>
-                            <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href="TODO: Missing link">
-                                <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
-                                    {t("2-link-panels.3-title")}
+                                    {t("2-link-panel.title")}
                                 </LinkPanel.Title>
                             </LinkPanel>
                         </div>
 
-                        <Heading id="register-cv" size="large" level="2" spacing>
-                            {t("h2-register-cv.title")}
+                        <Heading id="sick-leave" size="large" level="2" spacing>
+                            {t("h2-sick-leave.title")}
                         </Heading>
-                        <BodyLong spacing>{t("h2-register-cv.p1")}</BodyLong>
-                        <BodyLong spacing>{t("h2-register-cv.p2")}</BodyLong>
+                        <BodyLong spacing>{t("h2-sick-leave.p1")}</BodyLong>
+                        <BodyLong spacing>{t("h2-sick-leave.p2")} </BodyLong>
 
                         <Heading size="small" level="3" spacing>
                             {t("h3-news-articles", { ns: "working-in-norway" })}
@@ -156,11 +117,58 @@ export default function StartingANewJob() {
                         <div className="ukraine-link-panel-container mb-3">
                             <LinkPanel
                                 className="arb-tertiary-bg-text arb-link-panel"
-                                href="https://www.nav.no/finn-jobbene#registrer-cv-en-flere-steder"
-                                hrefLang="no"
+                                href="https://www.nav.no/en/home/benefits-and-services/Sickness-benefit-for-employees"
+                                hrefLang="en"
                             >
                                 <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                                     {t("3-link-panel-title")}
+                                </LinkPanel.Title>
+                            </LinkPanel>
+                        </div>
+
+                        <Heading id="establish-business" size="large" level="2" spacing>
+                            {t("h2-establish-business.title")}
+                        </Heading>
+                        <BodyLong spacing>{t("h2-establish-business.p1")}</BodyLong>
+                        <BodyLong spacing>
+                            {" "}
+                            <DsLink
+                                href="https://www.altinn.no/en/start-and-run-business/planning-starting/"
+                                hrefLang="en"
+                            >
+                                {" "}
+                                {t("h2-establish-business.p2-link-title")}
+                            </DsLink>{" "}
+                            {t("h2-establish-business.p2")}
+                        </BodyLong>
+
+                        <Heading size="small" level="3" spacing>
+                            {t("h3-news-articles", { ns: "working-in-norway" })}
+                        </Heading>
+                        <div className="ukraine-link-panel-container mb-3">
+                            <LinkPanel
+                                className="arb-tertiary-bg-text arb-link-panel"
+                                href="https://www.altinn.no/en/start-and-run-business/planning-starting/before-start-up/startup-tutorial-for-sole-proprietorships/"
+                                hrefLang="en"
+                            >
+                                <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
+                                    {t("4-link-panel-title")}
+                                </LinkPanel.Title>
+                            </LinkPanel>
+                        </div>
+
+                        <Heading id="work-intro-prog" size="large" level="2" spacing>
+                            {t("h2-work-intro-prog.title")}
+                        </Heading>
+                        <BodyLong spacing>{t("h2-work-intro-prog.p")}</BodyLong>
+
+                        <Heading size="small" level="3" spacing>
+                            {t("h3-news-articles", { ns: "working-in-norway" })}
+                        </Heading>
+                        <div className="ukraine-link-panel-container mb-3">
+                            <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href={t("5-link-panel.link")}>
+                                <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
+                                    {t("5-link-panel.title")}
                                 </LinkPanel.Title>
                             </LinkPanel>
                         </div>
