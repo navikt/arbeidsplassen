@@ -50,17 +50,29 @@ export default function ApplyingForJob() {
                             {t("h3-news-articles", { ns: "working-in-norway" })}
                         </Heading>
                         <div className="ukraine-link-panel-container mb-3">
-                            <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href="TODO">
+                            <LinkPanel
+                                className="arb-tertiary-bg-text arb-link-panel"
+                                href="/slik-skriver-du-en-god-cv"
+                                hrefLang="no"
+                            >
                                 <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                                     {t("1-link-panels.1-title")}
                                 </LinkPanel.Title>
                             </LinkPanel>
-                            <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href="TODO">
+                            <LinkPanel
+                                className="arb-tertiary-bg-text arb-link-panel"
+                                href="/superrask-soknad-person"
+                                hrefLang="no"
+                            >
                                 <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                                     {t("1-link-panels.2-title")}
                                 </LinkPanel.Title>
                             </LinkPanel>
-                            <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href="">
+                            <LinkPanel
+                                className="arb-tertiary-bg-text arb-link-panel"
+                                href="/tips-til-jobbsoknaden"
+                                hrefLang="no"
+                            >
                                 <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                                     {t("1-link-panels.3-title")}
                                 </LinkPanel.Title>
@@ -90,10 +102,9 @@ export default function ApplyingForJob() {
                                     {t("h3-rec-of-edu.1-link-title")}
                                 </DsLink>
                             </li>
-                            {/* TODO: redo redo redo */}
                             <li>
                                 <DsLink
-                                    href="https://hkdir.no/en/foreign-education/education-from-outside-of-norway/recognition-of-foreign-higher-education-bachelor-master-and-phd"
+                                    href="https://hkdir.no/en/foreign-education/education-from-outside-of-norway/recognition-of-foreign-tertiary-vocational-education"
                                     hrefLang="en"
                                 >
                                     {t("h3-rec-of-edu.2-link-title")}
@@ -110,17 +121,23 @@ export default function ApplyingForJob() {
                             {t("h3-news-articles", { ns: "working-in-norway" })}
                         </Heading>
                         <div className="ukraine-link-panel-container mb-3">
-                            <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href="TODO">
+                            <LinkPanel
+                                className="arb-tertiary-bg-text arb-link-panel"
+                                href="https://hkdir.no/en/foreign-education/lists-and-databases/regulated-professions"
+                            >
                                 <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                                     {t("2-link-panels.1-title")}
                                 </LinkPanel.Title>
                             </LinkPanel>
-                            <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href="TODO">
+                            <LinkPanel
+                                className="arb-tertiary-bg-text arb-link-panel"
+                                href="https://hkdir.no/en/foreign-education/education-from-outside-of-norway/recognition-of-foreign-higher-education-bachelor-master-and-phd/automatic-recognition-a-quicker-alternative"
+                            >
                                 <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                                     {t("2-link-panels.2-title")}
                                 </LinkPanel.Title>
                             </LinkPanel>
-                            <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href="">
+                            <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href="TODO: Missing link">
                                 <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                                     {t("2-link-panels.3-title")}
                                 </LinkPanel.Title>
@@ -137,7 +154,11 @@ export default function ApplyingForJob() {
                             {t("h3-news-articles", { ns: "working-in-norway" })}
                         </Heading>
                         <div className="ukraine-link-panel-container mb-3">
-                            <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href="TODO">
+                            <LinkPanel
+                                className="arb-tertiary-bg-text arb-link-panel"
+                                href="https://www.nav.no/finn-jobbene#registrer-cv-en-flere-steder"
+                                hrefLang="no"
+                            >
                                 <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                                     {t("3-link-panel-title")}
                                 </LinkPanel.Title>
