@@ -2,7 +2,8 @@
     "h2-start-working": "Things you need to have in place in order to start working",
     "h3-bank-account": {
         "title": "Bank account",
-        "p": "In order to receive your salary, pay bills or receive benefits, you need a bank account. It is your choice which bank you use. Most banks in Norway will require your identification number (D-number or F-number), proof of identity and residency. You can contact your bank of choice for more information"
+        "p1": "In order to receive your salary, pay bills or receive benefits, you need a bank account. It is your choice which bank you use.",
+        "p2": " Most banks in Norway will require your identification number (D-number or F-number), proof of identity and residency. You can contact your bank of choice for more information."
     },
     "h3-tax": {
         "title": "Tax deduction card",

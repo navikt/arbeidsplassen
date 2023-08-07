@@ -7,7 +7,6 @@ import TableOfContents from "@/src/common/components/TableOfContents";
 
 export default function ApplyingForJob() {
     const { t } = useTranslation(["applying-for-job", "working-in-norway"]);
-    // const { language: currentLanguage } = i18n;
 
     return (
         <Layout>

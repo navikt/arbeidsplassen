@@ -79,10 +79,11 @@ export default function Unemployed() {
                             {t("h2-support.title")}
                         </Heading>
                         <BodyLong spacing>{t("h2-support.p1")}</BodyLong>
+                        <BodyLong spacing>{t("h2-support.p2")}</BodyLong>
                         <BodyLong spacing>
-                            {t("h2-support.p2")}
+                            {t("h2-support.p3")}
                             <DsLink href="https://www.nav.no/opplysning-rad-veiledning/en" hrefLang="en">
-                                {t("h2-support.p2-link-title")}
+                                {t("h2-support.p3-link-title")}
                             </DsLink>
                         </BodyLong>
 
