@@ -90,12 +90,18 @@ export default function WorkInNorway() {
                             {t("applying-for-a-job-title")}
                         </LinkPanel.Title>
                     </LinkPanel>
-                    <LinkPanel className="arb-secondary-bg-text arb-link-panel" href="/cv">
+                    <LinkPanel
+                        className="arb-secondary-bg-text arb-link-panel"
+                        href={`/${selectedLanguage}/working-in-norway/starting-a-new-job`}
+                    >
                         <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                             {t("starting-a-new-job-title")}
                         </LinkPanel.Title>
                     </LinkPanel>
-                    <LinkPanel className="arb-secondary-bg-text arb-link-panel" href="/cv">
+                    <LinkPanel
+                        className="arb-secondary-bg-text arb-link-panel"
+                        href={`/${selectedLanguage}/working-in-norway/unemployed`}
+                    >
                         <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                             {t("unemployed-title")}
                         </LinkPanel.Title>
