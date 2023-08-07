@@ -37,3 +37,7 @@
     color: var(--arb-blue-500);
     text-decoration: underline;
 }
+
+.back-link-main-content {
+    margin-top: 1rem;
+}

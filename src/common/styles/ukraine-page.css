@@ -15,16 +15,28 @@
 
 .ukraine-page .green-box-inner {
     margin: 0 auto;
-    max-width: 832px;
+    max-width: 1344px;
     padding: 0 1rem;
 }
 
-.ukraine-page .contents {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+.ukraine-page article {
+    padding-left: 2rem;
 }
 
-.ukraine-page .link-panel-stack {
-    grid-template-columns: repeat(1, 1fr);
+.ukraine-page .ukraine-link-panel-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+@media (min-width: 768px) {
+    .ukraine-page .ukraine-link-panel-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .ukraine-page .arb-link-panel {
+        flex-grow: 1;
+        width: 30%;
+    }
 }

@@ -116,7 +116,7 @@ function TableOfContents({ selectorPrefix }) {
                     <Headings headings={nestedHeadings} activeId={activeId} />
                 </nav>
                 <NextLink href="/working-in-norway" passHref legacyBehavior>
-                    <DsLink className="back-link-main-content">
+                    <DsLink className="table-of-contents back-link-main-content">
                         <ChevronLeftIcon aria-hidden="true" />
                         Back to main page
                     </DsLink>

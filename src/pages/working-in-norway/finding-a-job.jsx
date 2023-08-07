@@ -24,7 +24,7 @@ export default function FindingAJob() {
                         <BodyShort>{t("ukrainian-work-in-norway-title", { ns: "working-in-norway" })}</BodyShort>
                     </div>
                 </div>
-                <div className="flex">
+                <div className="container-large flex">
                     <TableOfContents selectorPrefix="main" />
                     <article className="container-small page-margin-top-and-bottom ukraine-page">
                         <Heading id="when-can-i-start-looking" size="large" level="2" spacing>
@@ -39,7 +39,7 @@ export default function FindingAJob() {
                         <Heading size="small" level="3" spacing>
                             {t("h3-news-articles", { ns: "working-in-norway" })}
                         </Heading>
-                        <div className="arb-link-panel-grid mb-3">
+                        <div className="ukraine-link-panel-container mb-3">
                             <LinkPanel
                                 className="arb-tertiary-bg-text arb-link-panel"
                                 href="https://www.udi.no/en/information-ukraine-and-russia/situation-in-ukraine/stay-in-norway/frequently-asked-questions-and-answers/"
@@ -92,7 +92,7 @@ export default function FindingAJob() {
                         <Heading size="small" level="3" spacing>
                             {t("h3-news-articles", { ns: "working-in-norway" })}
                         </Heading>
-                        <div className="arb-link-panel-grid link-panel-stack mb-3">
+                        <div className="ukraine-link-panel-container link-panel-stack mb-3">
                             <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href="TODO">
                                 <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                                     Where to look for jobs (Norwegian language)
@@ -139,7 +139,7 @@ export default function FindingAJob() {
                         <Heading size="small" level="3" spacing>
                             {t("h3-news-articles", { ns: "working-in-norway" })}
                         </Heading>
-                        <div className="arb-link-panel-grid link-panel-stack mb-3">
+                        <div className="ukraine-link-panel-container link-panel-stack mb-3">
                             <LinkPanel
                                 className="arb-tertiary-bg-text arb-link-panel"
                                 href="https://www.nav.no/kontaktoss/en#find-nav-offices"
@@ -177,7 +177,7 @@ export default function FindingAJob() {
                         <Heading size="small" level="3" spacing>
                             {t("h3-news-articles", { ns: "working-in-norway" })}
                         </Heading>
-                        <div className="arb-link-panel-grid link-panel-stack mb-3">
+                        <div className="ukraine-link-panel-container link-panel-stack mb-3">
                             <LinkPanel
                                 className="arb-tertiary-bg-text arb-link-panel"
                                 href="https://www.imdi.no/globalassets/dokumenter/informasjon-om-introduksjonsprogram-og-sprakopplaring-for-personer-med-kollektiv-beskyttelse/informasjon-om-introduksjonsprogram-2022---engelsk.pdf"

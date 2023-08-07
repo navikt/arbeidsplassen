@@ -23,7 +23,7 @@ export default function ApplyingForJob() {
                         <BodyShort>{t("ukrainian-work-in-norway-title", { ns: "working-in-norway" })}</BodyShort>
                     </div>
                 </div>
-                <div className="flex">
+                <div className="container-large flex">
                     <TableOfContents selectorPrefix="main" />
                     <article className="container-small page-margin-top-and-bottom ukraine-page">
                         <Heading id="how-do-i-apply" size="large" level="2" spacing>
@@ -31,62 +31,63 @@ export default function ApplyingForJob() {
                         </Heading>
 
                         <Heading size="small" level="3" spacing>
-                            {t("h3-cv")}
+                            {t("h3-cv.title")}
                         </Heading>
-                        <BodyLong spacing>{t("p-start-looking.p1")}</BodyLong>
+                        <BodyLong spacing>{t("h3-cv.p")}</BodyLong>
 
                         <Heading size="small" level="3" spacing>
-                            {t("h3-cover-letter")}
+                            {t("h3-cover-letter.title")}
                         </Heading>
-                        <BodyLong spacing>{t("p-start-looking.p2")}</BodyLong>
+                        <BodyLong spacing>{t("h3-cover-letter.p")}</BodyLong>
 
                         <Heading size="small" level="3" spacing>
-                            {t("h3-ss")}
+                            {t("h3-ss.title")}
                         </Heading>
-                        <BodyLong spacing>{t("p-start-looking.p2")}</BodyLong>
+                        <BodyLong spacing>{t("h3-ss.p1")}</BodyLong>
+                        <BodyLong spacing>{t("h3-ss.p2")}</BodyLong>
 
                         <Heading size="small" level="3" spacing>
                             {t("h3-news-articles", { ns: "working-in-norway" })}
                         </Heading>
-                        <div className="arb-link-panel-grid mb-3">
+                        <div className="ukraine-link-panel-container mb-3">
                             <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href="TODO">
                                 <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
-                                    Fast application (Norwegian language)
+                                    {t("1-link-panels.1-title")}
                                 </LinkPanel.Title>
                             </LinkPanel>
                             <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href="TODO">
                                 <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
-                                    How to write a good job application (Norwegian language)
+                                    {t("1-link-panels.2-title")}
                                 </LinkPanel.Title>
                             </LinkPanel>
                             <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href="">
                                 <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
-                                    How to write a good job application (Norwegian language)
+                                    {t("1-link-panels.3-title")}
                                 </LinkPanel.Title>
                             </LinkPanel>
                         </div>
 
                         <Heading id="how-to-recognize" size="large" level="2" spacing>
-                            {t("h2-recognize-foreign-edu")}
+                            {t("h2-recognize-foreign-edu.title")}
                         </Heading>
-                        <BodyLong spacing>{t("p-start-looking.p2")}</BodyLong>
+                        <BodyLong spacing>{t("h2-recognize-foreign-edu.p")}</BodyLong>
 
                         <Heading size="small" level="3" spacing>
-                            {t("h3-reg-prof")}
+                            {t("h3-reg-prof.title")}
                         </Heading>
-                        <BodyLong spacing>{t("p-start-looking.p2")}</BodyLong>
+                        <BodyLong spacing>{t("h3-reg-prof.p")}</BodyLong>
 
                         <Heading size="small" level="3" spacing>
-                            {t("h3-rec-of-edu")} education
+                            {t("h3-rec-of-edu.title")}
                         </Heading>
-                        <BodyLong spacing>{t("p-start-looking.p2")}</BodyLong>
+                        <BodyLong spacing>{t("h3-rec-of-edu.p")}</BodyLong>
                         <ul>
-                            <li>
+                            <li className="mb-1">
                                 <DsLink
                                     href="https://hkdir.no/en/foreign-education/education-from-outside-of-norway/recognition-of-foreign-higher-education-bachelor-master-and-phd"
                                     hrefLang="en"
                                 >
-                                    higher edu
+                                    {t("h3-rec-of-edu.1-link-title")}
                                 </DsLink>
                             </li>
                             {/* TODO: redo redo redo */}
@@ -95,50 +96,50 @@ export default function ApplyingForJob() {
                                     href="https://hkdir.no/en/foreign-education/education-from-outside-of-norway/recognition-of-foreign-higher-education-bachelor-master-and-phd"
                                     hrefLang="en"
                                 >
-                                    tert edu
+                                    {t("h3-rec-of-edu.2-link-title")}
                                 </DsLink>
                             </li>
                         </ul>
 
                         <Heading size="small" level="3" spacing>
-                            {t("h3-auto-rec")}
+                            {t("h3-auto-rec.title")}
                         </Heading>
-                        <BodyLong spacing>{t("p-start-looking.p2")}</BodyLong>
+                        <BodyLong spacing>{t("h3-auto-rec.p")}</BodyLong>
 
                         <Heading size="small" level="3" spacing>
                             {t("h3-news-articles", { ns: "working-in-norway" })}
                         </Heading>
-                        <div className="arb-link-panel-grid mb-3">
+                        <div className="ukraine-link-panel-container mb-3">
                             <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href="TODO">
                                 <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
-                                    Regulated professions
+                                    {t("2-link-panels.1-title")}
                                 </LinkPanel.Title>
                             </LinkPanel>
                             <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href="TODO">
                                 <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
-                                    Automatic recognition
+                                    {t("2-link-panels.2-title")}
                                 </LinkPanel.Title>
                             </LinkPanel>
                             <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href="">
                                 <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
-                                    How to apply for recognition
+                                    {t("2-link-panels.3-title")}
                                 </LinkPanel.Title>
                             </LinkPanel>
                         </div>
 
                         <Heading id="register-cv" size="large" level="2" spacing>
-                            {t("h2-register-cv")}
+                            {t("h2-register-cv.title")}
                         </Heading>
-                        <BodyLong spacing>{t("p-start-looking.p2")}</BodyLong>
-                        <BodyLong spacing>{t("p-start-looking.p2")}</BodyLong>
+                        <BodyLong spacing>{t("h2-register-cv.p1")}</BodyLong>
+                        <BodyLong spacing>{t("h2-register-cv.p2")}</BodyLong>
 
                         <Heading size="small" level="3" spacing>
                             {t("h3-news-articles", { ns: "working-in-norway" })}
                         </Heading>
-                        <div className="arb-link-panel-grid mb-3">
+                        <div className="ukraine-link-panel-container mb-3">
                             <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href="TODO">
                                 <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
-                                    Registering your CV in multiple places
+                                    {t("3-link-panel-title")}
                                 </LinkPanel.Title>
                             </LinkPanel>
                         </div>
