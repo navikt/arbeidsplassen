@@ -28,55 +28,46 @@ export default function FindingAJob() {
                     <TableOfContents selectorPrefix="main" />
                     <article className="container-small page-margin-top-and-bottom ukraine-page">
                         <Heading id="when-can-i-start-looking" size="large" level="2" spacing>
-                            {t("h2-start-looking")}
+                            {t("h2-start-looking.title")}
                         </Heading>
                         <BodyLong spacing>
-                            {t("p-start-looking.p1")}{" "}
-                            <DsLink href={t("p-start-looking.p1-link")}>{t("p-start-looking.p1-link-text")}</DsLink>{" "}
-                            {t("p-start-looking.p1-2")}
+                            {t("h2-start-looking.p1")}{" "}
+                            <DsLink href={t("h2-start-looking.p1-link")}>{t("h2-start-looking.p1-link-text")}</DsLink>{" "}
+                            {t("h2-start-looking.p1-2")}
                         </BodyLong>
-                        <BodyLong spacing>{t("p-start-looking.p2")}</BodyLong>
+                        <BodyLong spacing>{t("h2-start-looking.p2")}</BodyLong>
                         <Heading size="small" level="3" spacing>
                             {t("h3-news-articles", { ns: "working-in-norway" })}
                         </Heading>
                         <div className="ukraine-link-panel-container mb-3">
-                            <LinkPanel
-                                className="arb-tertiary-bg-text arb-link-panel"
-                                href="https://www.udi.no/en/information-ukraine-and-russia/situation-in-ukraine/stay-in-norway/frequently-asked-questions-and-answers/"
-                            >
+                            <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href={t("1-link-panels.1-link")}>
                                 <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
-                                    Questions and answers around collective protection
+                                    {t("1-link-panels.1-title")}
                                 </LinkPanel.Title>
                             </LinkPanel>
-                            <LinkPanel
-                                className="arb-tertiary-bg-text arb-link-panel"
-                                href="https://www.udi.no/en/information-ukraine-and-russia/situation-in-ukraine/stay-in-norway/protection-asylum-in-norway/"
-                            >
+                            <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href={t("1-link-panels.2-link")}>
                                 <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
-                                    Protection for those who have fled Ukraine
+                                    {t("1-link-panels.2-title")}
                                 </LinkPanel.Title>
                             </LinkPanel>
-                            <LinkPanel
-                                className="arb-tertiary-bg-text arb-link-panel"
-                                href="https://www.udi.no/en/information-ukraine-and-russia/situation-in-ukraine/stay-in-norway/frequently-asked-questions-and-answers/#link-30134"
-                            >
+                            <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href={t("1-link-panels.3-link")}>
                                 <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
-                                    Are you intending to work in Norway?
+                                    {t("1-link-panels.3-title")}
                                 </LinkPanel.Title>
                             </LinkPanel>
                         </div>
 
                         <Heading id="where-can-i-find" size="large" level="2" spacing>
-                            {t("h2-find-job")}
+                            {t("h2-find-job.title")}
                         </Heading>
                         <BodyLong spacing>
-                            {t("p-find-job.p1")}{" "}
+                            {t("h2-find-job.p1")}{" "}
                             <DsLink hrefLang="no" href="/stillinger?q=english">
-                                {t("p-find-job.p1-link-text")}
+                                {t("h2-find-job.p1-link-text")}
                             </DsLink>
                         </BodyLong>
                         <BodyLong spacing>
-                            {t("p-find-job.p2")}{" "}
+                            {t("h2-find-job.p2")}{" "}
                             <NextLink
                                 href="/mot-bedrifter-pa-en-ny-mate"
                                 passHref
@@ -84,41 +75,45 @@ export default function FindingAJob() {
                                 locale="no"
                                 hrefLang="no"
                             >
-                                <DsLink>{t("p-find-job.p2-link-text-1")}</DsLink>
+                                <DsLink>{t("h2-find-job.p2-link-text-1")}</DsLink>
                             </NextLink>{" "}
-                            {t("p-find-job.p2-2")} <DsLink href="/jobbtreff">{t("p-find-job.p2-link-text-2")}</DsLink>{" "}
-                            {t("p-find-job.p2-3")}
+                            {t("h2-find-job.p2-2")} <DsLink href="/jobbtreff">{t("h2-find-job.p2-link-text-2")}</DsLink>{" "}
+                            {t("h2-find-job.p2-3")}
                         </BodyLong>
                         <Heading size="small" level="3" spacing>
                             {t("h3-news-articles", { ns: "working-in-norway" })}
                         </Heading>
                         <div className="ukraine-link-panel-container link-panel-stack mb-3">
-                            <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href="TODO">
+                            <LinkPanel
+                                className="arb-tertiary-bg-text arb-link-panel"
+                                href="/stillinger?q=english"
+                                hrefLang="no"
+                            >
                                 <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
-                                    Where to look for jobs (Norwegian language)
+                                    {t("2-link-panel-title")}
                                 </LinkPanel.Title>
                             </LinkPanel>
                         </div>
 
                         <Heading id="who-can-i-contact" size="large" level="2" spacing>
-                            {t("h2-assistance")}
+                            {t("h2-assistance.title")}
                         </Heading>
                         <BodyLong spacing>
-                            {t("p-assistance.p1")}{" "}
+                            {t("h2-assistance.p1")}{" "}
                             <DsLink hrefLang="en" href="https://www.nav.no/kontaktoss/en">
-                                {t("p-assistance.p1-link-text-1")}
+                                {t("h2-assistance.p1-link-text-1")}
                             </DsLink>{" "}
-                            {t("p-assistance.p1-2")}
+                            {t("h2-assistance.p1-2")}
                             <DsLink href="https://www.nav.no/arbeid/registrering" hrefLang="no">
-                                {t("p-assistance.p1-link-text-2")}
+                                {t("h2-assistance.p1-link-text-2")}
                             </DsLink>{" "}
-                            {t("p-assistance.p1-3")}
+                            {t("h2-assistance.p1-3")}
                         </BodyLong>
                         <DsLink href="https://vimeo.com/656108660" hrefLang="en" className="mb-2">
-                            {t("p-assistance.p2-link-text-3")}
+                            {t("h2-assistance.p2-link-text-3")}
                         </DsLink>
-                        <BodyLong spacing>{t("p-assistance.p2")}</BodyLong>
-                        <BodyLong spacing>{t("p-assistance.p3")}</BodyLong>
+                        <BodyLong spacing>{t("h2-assistance.p2")}</BodyLong>
+                        <BodyLong spacing>{t("h2-assistance.p3")}</BodyLong>
 
                         {currentLanguage === "uk" ? (
                             <DsLink hreflang="uk" href="https://vimeo.com/696892548" className="mb-2">
@@ -142,48 +137,52 @@ export default function FindingAJob() {
                         <div className="ukraine-link-panel-container link-panel-stack mb-3">
                             <LinkPanel
                                 className="arb-tertiary-bg-text arb-link-panel"
-                                href="https://www.nav.no/kontaktoss/en#find-nav-offices"
+                                href="https://www.nav.no/sok-nav-kontor/en"
+                                hrefLang="en"
                             >
                                 <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
-                                    Find your local NAV office
+                                    {t("3-link-panels.1-title")}
                                 </LinkPanel.Title>
                             </LinkPanel>
-                            <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href="/cv">
+                            <LinkPanel
+                                className="arb-tertiary-bg-text arb-link-panel"
+                                href="https://www.nav.no/soker-jobb"
+                                hrefLang="no"
+                            >
                                 <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
-                                    More information about searching for a job (Norwegian language)
+                                    {t("3-link-panels.2-title")}
                                 </LinkPanel.Title>
                             </LinkPanel>
                         </div>
 
                         <Heading id="where-can-i-work" size="large" level="2" spacing>
-                            {t("h2-working-wo-norwegian")}
+                            {t("h2-working-wo-norwegian.title")}
                         </Heading>
                         <BodyLong spacing>
-                            {t("p-working.p1")}{" "}
-                            <DsLink href="/stillinger?q=english">{t("p-working.p-link-text")}</DsLink>{" "}
-                            {t("p-working.p1-2")}
+                            {t("h2-working-wo-norwegian.p1")}{" "}
+                            <DsLink href="/stillinger?q=english">{t("h2-working-wo-norwegian.p-link-text")}</DsLink>{" "}
+                            {t("h2-working-wo-norwegian.p1-2")}
                         </BodyLong>
 
                         <Heading size="xsmall" level="3" spacing>
-                            {t("h3-norwegain-courses")}
+                            {t("h3-norwegian-courses.title")}
                         </Heading>
                         <BodyLong spacing>
-                            {t("p-no-courses.p1")}{" "}
-                            <DsLink href={t("p-no-courses.p1-link")}>{t("p-no-courses.p1-link-text")}</DsLink>{" "}
-                            {t("p-no-courses.p1-2")}
+                            {t("h3-norwegian-courses.p1")}{" "}
+                            <DsLink href={t("h3-norwegian-courses.p1-link")}>
+                                {t("h3-norwegian-courses.p1-link-text")}
+                            </DsLink>{" "}
+                            {t("h3-norwegian-courses.p1-2")}
                         </BodyLong>
-                        <BodyLong spacing>{t("p-no-courses.p2")}</BodyLong>
+                        <BodyLong spacing>{t("h3-norwegian-courses.p2")}</BodyLong>
 
                         <Heading size="small" level="3" spacing>
                             {t("h3-news-articles", { ns: "working-in-norway" })}
                         </Heading>
                         <div className="ukraine-link-panel-container link-panel-stack mb-3">
-                            <LinkPanel
-                                className="arb-tertiary-bg-text arb-link-panel"
-                                href="https://www.imdi.no/globalassets/dokumenter/informasjon-om-introduksjonsprogram-og-sprakopplaring-for-personer-med-kollektiv-beskyttelse/informasjon-om-introduksjonsprogram-2022---engelsk.pdf"
-                            >
+                            <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href={t("4-link-panel.link")}>
                                 <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
-                                    Information about the Introduction Programme and language instruction
+                                    {t("4-link-panel.title")}
                                 </LinkPanel.Title>
                             </LinkPanel>
                         </div>
