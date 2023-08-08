@@ -6,21 +6,21 @@ import { BodyLong, BodyShort, Heading, LinkPanel, Link as DsLink } from "@navikt
 import TableOfContents from "@/src/common/components/TableOfContents";
 
 export default function StartingANewJob() {
-    const { t, i18n } = useTranslation(["starting-a-new-job", "working-in-norway"]);
+    const { t, i18n } = useTranslation(["starting-a-new-job", "work-in-norway"]);
     const { language: currentLanguage } = i18n;
 
     return (
         <Layout>
             <Head>
-                <title>{t("ukrainian-work-in-norway-title", { ns: "working-in-norway" })} - arbeidsplassen.no</title>
+                <title>{t("ukrainian-work-in-norway-title", { ns: "work-in-norway" })} - arbeidsplassen.no</title>
             </Head>
             <div className="ukraine-page">
                 <div className="green-box">
                     <div className="green-box-inner">
                         <Heading size="small" level="1" className="mb-0_25">
-                            {t("starting-a-new-job-title", { ns: "working-in-norway" })}
+                            {t("starting-a-new-job-title", { ns: "work-in-norway" })}
                         </Heading>
-                        <BodyShort>{t("ukrainian-work-in-norway-title", { ns: "working-in-norway" })}</BodyShort>
+                        <BodyShort>{t("ukrainian-work-in-norway-title", { ns: "work-in-norway" })}</BodyShort>
                     </div>
                 </div>
                 <div className="container-large flex">
@@ -48,7 +48,7 @@ export default function StartingANewJob() {
                         <BodyLong spacing>{t("h3-contract.p")}</BodyLong>
 
                         <Heading size="small" level="3" spacing>
-                            {t("h3-news-articles", { ns: "working-in-norway" })}
+                            {t("h3-news-articles", { ns: "work-in-norway" })}
                         </Heading>
                         <div className="ukraine-link-panel-container mb-3">
                             <LinkPanel
@@ -117,7 +117,7 @@ export default function StartingANewJob() {
                         ) : null}
 
                         <Heading size="small" level="3" spacing>
-                            {t("h3-news-articles", { ns: "working-in-norway" })}
+                            {t("h3-news-articles", { ns: "work-in-norway" })}
                         </Heading>
                         <div className="ukraine-link-panel-container mb-3">
                             <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href={t("2-link-panel.link")}>
@@ -134,7 +134,7 @@ export default function StartingANewJob() {
                         <BodyLong spacing>{t("h2-sick-leave.p2")} </BodyLong>
 
                         <Heading size="small" level="3" spacing>
-                            {t("h3-news-articles", { ns: "working-in-norway" })}
+                            {t("h3-news-articles", { ns: "work-in-norway" })}
                         </Heading>
                         <div className="ukraine-link-panel-container mb-3">
                             <LinkPanel
@@ -165,7 +165,7 @@ export default function StartingANewJob() {
                         </BodyLong>
 
                         <Heading size="small" level="3" spacing>
-                            {t("h3-news-articles", { ns: "working-in-norway" })}
+                            {t("h3-news-articles", { ns: "work-in-norway" })}
                         </Heading>
                         <div className="ukraine-link-panel-container mb-3">
                             <LinkPanel
@@ -185,7 +185,7 @@ export default function StartingANewJob() {
                         <BodyLong spacing>{t("h2-work-intro-prog.p")}</BodyLong>
 
                         <Heading size="small" level="3" spacing>
-                            {t("h3-news-articles", { ns: "working-in-norway" })}
+                            {t("h3-news-articles", { ns: "work-in-norway" })}
                         </Heading>
                         <div className="ukraine-link-panel-container mb-3">
                             <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href={t("5-link-panel.link")}>
@@ -206,7 +206,7 @@ export async function getStaticProps(context) {
 
     return {
         props: {
-            ...(await serverSideTranslations(locale, ["starting-a-new-job", "working-in-norway"])),
+            ...(await serverSideTranslations(locale, ["starting-a-new-job", "work-in-norway"])),
         },
     };
 }

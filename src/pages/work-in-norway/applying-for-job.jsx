@@ -6,20 +6,20 @@ import { BodyLong, BodyShort, Heading, LinkPanel, Link as DsLink } from "@navikt
 import TableOfContents from "@/src/common/components/TableOfContents";
 
 export default function ApplyingForJob() {
-    const { t } = useTranslation(["applying-for-job", "working-in-norway"]);
+    const { t } = useTranslation(["applying-for-job", "work-in-norway"]);
 
     return (
         <Layout>
             <Head>
-                <title>{t("ukrainian-work-in-norway-title", { ns: "working-in-norway" })} - arbeidsplassen.no</title>
+                <title>{t("ukrainian-work-in-norway-title", { ns: "work-in-norway" })} - arbeidsplassen.no</title>
             </Head>
             <div className="ukraine-page">
                 <div className="green-box">
                     <div className="green-box-inner">
                         <Heading size="small" level="1" className="mb-0_25">
-                            {t("applying-for-a-job-title", { ns: "working-in-norway" })}
+                            {t("applying-for-a-job-title", { ns: "work-in-norway" })}
                         </Heading>
-                        <BodyShort>{t("ukrainian-work-in-norway-title", { ns: "working-in-norway" })}</BodyShort>
+                        <BodyShort>{t("ukrainian-work-in-norway-title", { ns: "work-in-norway" })}</BodyShort>
                     </div>
                 </div>
                 <div className="container-large flex">
@@ -46,7 +46,7 @@ export default function ApplyingForJob() {
                         <BodyLong spacing>{t("h3-ss.p2")}</BodyLong>
 
                         <Heading size="small" level="3" spacing>
-                            {t("h3-news-articles", { ns: "working-in-norway" })}
+                            {t("h3-news-articles", { ns: "work-in-norway" })}
                         </Heading>
                         <div className="ukraine-link-panel-container mb-3">
                             <LinkPanel
@@ -117,7 +117,7 @@ export default function ApplyingForJob() {
                         <BodyLong spacing>{t("h3-auto-rec.p")}</BodyLong>
 
                         <Heading size="small" level="3" spacing>
-                            {t("h3-news-articles", { ns: "working-in-norway" })}
+                            {t("h3-news-articles", { ns: "work-in-norway" })}
                         </Heading>
                         <div className="ukraine-link-panel-container mb-3">
                             <LinkPanel
@@ -150,7 +150,7 @@ export default function ApplyingForJob() {
                         <BodyLong spacing>{t("h2-register-cv.p2")}</BodyLong>
 
                         <Heading size="small" level="3" spacing>
-                            {t("h3-news-articles", { ns: "working-in-norway" })}
+                            {t("h3-news-articles", { ns: "work-in-norway" })}
                         </Heading>
                         <div className="ukraine-link-panel-container mb-3">
                             <LinkPanel
@@ -175,7 +175,7 @@ export async function getStaticProps(context) {
 
     return {
         props: {
-            ...(await serverSideTranslations(locale, ["applying-for-job", "working-in-norway"])),
+            ...(await serverSideTranslations(locale, ["applying-for-job", "work-in-norway"])),
         },
     };
 }

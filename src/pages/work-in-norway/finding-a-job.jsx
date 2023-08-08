@@ -7,21 +7,21 @@ import TableOfContents from "@/src/common/components/TableOfContents";
 import NextLink from "next/link";
 
 export default function FindingAJob() {
-    const { t, i18n } = useTranslation(["finding-a-job", "working-in-norway"]);
+    const { t, i18n } = useTranslation(["finding-a-job", "work-in-norway"]);
     const { language: currentLanguage } = i18n;
 
     return (
         <Layout>
             <Head>
-                <title>{t("ukrainian-work-in-norway-title", { ns: "working-in-norway" })} - arbeidsplassen.no</title>
+                <title>{t("ukrainian-work-in-norway-title", { ns: "work-in-norway" })} - arbeidsplassen.no</title>
             </Head>
             <div className="ukraine-page">
                 <div className="green-box">
                     <div className="green-box-inner">
                         <Heading size="small" level="1" className="mb-0_25">
-                            {t("finding-a-job-title", { ns: "working-in-norway" })}
+                            {t("finding-a-job-title", { ns: "work-in-norway" })}
                         </Heading>
-                        <BodyShort>{t("ukrainian-work-in-norway-title", { ns: "working-in-norway" })}</BodyShort>
+                        <BodyShort>{t("ukrainian-work-in-norway-title", { ns: "work-in-norway" })}</BodyShort>
                     </div>
                 </div>
                 <div className="container-large flex">
@@ -37,7 +37,7 @@ export default function FindingAJob() {
                         </BodyLong>
                         <BodyLong spacing>{t("h2-start-looking.p2")}</BodyLong>
                         <Heading size="small" level="3" spacing>
-                            {t("h3-news-articles", { ns: "working-in-norway" })}
+                            {t("h3-news-articles", { ns: "work-in-norway" })}
                         </Heading>
                         <div className="ukraine-link-panel-container mb-3">
                             <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href={t("1-link-panels.1-link")}>
@@ -81,7 +81,7 @@ export default function FindingAJob() {
                             {t("h2-find-job.p2-3")}
                         </BodyLong>
                         <Heading size="small" level="3" spacing>
-                            {t("h3-news-articles", { ns: "working-in-norway" })}
+                            {t("h3-news-articles", { ns: "work-in-norway" })}
                         </Heading>
                         <div className="ukraine-link-panel-container link-panel-stack mb-3">
                             <LinkPanel
@@ -132,7 +132,7 @@ export default function FindingAJob() {
                         ) : null}
 
                         <Heading size="small" level="3" spacing>
-                            {t("h3-news-articles", { ns: "working-in-norway" })}
+                            {t("h3-news-articles", { ns: "work-in-norway" })}
                         </Heading>
                         <div className="ukraine-link-panel-container link-panel-stack mb-3">
                             <LinkPanel
@@ -177,7 +177,7 @@ export default function FindingAJob() {
                         <BodyLong spacing>{t("h3-norwegian-courses.p2")}</BodyLong>
 
                         <Heading size="small" level="3" spacing>
-                            {t("h3-news-articles", { ns: "working-in-norway" })}
+                            {t("h3-news-articles", { ns: "work-in-norway" })}
                         </Heading>
                         <div className="ukraine-link-panel-container link-panel-stack mb-3">
                             <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href={t("4-link-panel.link")}>
@@ -198,7 +198,7 @@ export async function getStaticProps(context) {
 
     return {
         props: {
-            ...(await serverSideTranslations(locale, ["finding-a-job", "working-in-norway"])),
+            ...(await serverSideTranslations(locale, ["finding-a-job", "work-in-norway"])),
         },
     };
 }

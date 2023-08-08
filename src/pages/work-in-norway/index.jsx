@@ -7,7 +7,7 @@ import { useCallback, useState } from "react";
 import { useRouter } from "next/router";
 
 export default function WorkInNorway() {
-    const { t, i18n } = useTranslation("working-in-norway");
+    const { t, i18n } = useTranslation("work-in-norway");
     const { language: currentLanguage } = i18n;
 
     const lngEnglish = "en";
@@ -76,7 +76,7 @@ export default function WorkInNorway() {
                 <div className="arb-link-panel-grid mb-5">
                     <LinkPanel
                         className="arb-secondary-bg-text arb-link-panel"
-                        href={`/${selectedLanguage}/working-in-norway/finding-a-job`}
+                        href={`/${selectedLanguage}/work-in-norway/finding-a-job`}
                     >
                         <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                             {t("finding-a-job-title")}
@@ -84,7 +84,7 @@ export default function WorkInNorway() {
                     </LinkPanel>
                     <LinkPanel
                         className="arb-secondary-bg-text arb-link-panel"
-                        href={`/${selectedLanguage}/working-in-norway/applying-for-job`}
+                        href={`/${selectedLanguage}/work-in-norway/applying-for-job`}
                     >
                         <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                             {t("applying-for-a-job-title")}
@@ -92,7 +92,7 @@ export default function WorkInNorway() {
                     </LinkPanel>
                     <LinkPanel
                         className="arb-secondary-bg-text arb-link-panel"
-                        href={`/${selectedLanguage}/working-in-norway/starting-a-new-job`}
+                        href={`/${selectedLanguage}/work-in-norway/starting-a-new-job`}
                     >
                         <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                             {t("starting-a-new-job-title")}
@@ -100,7 +100,7 @@ export default function WorkInNorway() {
                     </LinkPanel>
                     <LinkPanel
                         className="arb-secondary-bg-text arb-link-panel"
-                        href={`/${selectedLanguage}/working-in-norway/unemployed`}
+                        href={`/${selectedLanguage}/work-in-norway/unemployed`}
                     >
                         <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                             {t("unemployed-title")}
@@ -117,7 +117,7 @@ export async function getStaticProps(context) {
 
     return {
         props: {
-            ...(await serverSideTranslations(locale, ["working-in-norway"])),
+            ...(await serverSideTranslations(locale, ["work-in-norway"])),
         },
     };
 }
