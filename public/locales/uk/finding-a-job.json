@@ -12,7 +12,7 @@
         "1-link": "https://www.udi.no/uk/information-ukraine-and-russia/situation-in-ukraine/stay-in-norway/frequently-asked-questions-and-answers/",
         "2-title": "Захист людей, які втекли з України",
         "2-link": "https://www.udi.no/uk/information-ukraine-and-russia/situation-in-ukraine/stay-in-norway/protection-asylum-in-norway/",
-        "3-title": "Інформація про ідентифікаційний номер, вашу адресу, переїзд, роботу та податки в Норвегії (TODO: Information about your identity number, your address, moving, working and taxes in Norway)",
+        "3-title": "Інформація про ідентифікаційний номер, вашу адресу, переїзд, роботу та податки в Норвегії",
         "3-link": "https://www.skatteetaten.no/en/person/foreign/ukrainsk/"
     },
     "h2-find-job": {
@@ -35,7 +35,7 @@
         "p1-3": "Якщо вам потрібна допомога, ви можете звернутися до відділення NAV за місцем вашого проживання.",
         "p2-link-text-3": "Реєстрація шукача роботи (англійська мова)",
         "p2": "Якщо у вас є питання до NAV, дзвоніть 55 55 33 33",
-        "p3": "Ви маєте право на усного перекладача (tolk) при контакті з NAV"
+        "p3": "Ви маєте право на усного перекладача (tolk) при контакті з NAV."
     },
     "3-link-panels": {
         "1-title": "Шукати відділення NAV за місцем проживання (англійська мова)",

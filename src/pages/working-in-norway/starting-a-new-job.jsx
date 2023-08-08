@@ -105,6 +105,17 @@ export default function StartingANewJob() {
                             </DsLink>
                         ) : null}
 
+                        {currentLanguage === "ru" ? (
+                            <DsLink
+                                hreflang="uk"
+                                href="https://www.youtube.com/playlist?list=PLcQRxNrcK73GjDweZyUUjSJRTFUWDJQzq"
+                                className="mb-2"
+                            >
+                                Знайте свои права: трудовой договор, заработная плата, рабочее время и рабочая среда
+                                (украинский язык)
+                            </DsLink>
+                        ) : null}
+
                         <Heading size="small" level="3" spacing>
                             {t("h3-news-articles", { ns: "working-in-norway" })}
                         </Heading>
