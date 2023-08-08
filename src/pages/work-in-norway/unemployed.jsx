@@ -7,12 +7,11 @@ import TableOfContents from "@/src/common/components/TableOfContents";
 
 export default function Unemployed() {
     const { t } = useTranslation(["unemployed", "work-in-norway"]);
-    // const { language: currentLanguage } = i18n;
 
     return (
         <Layout>
             <Head>
-                <title>{t("ukrainian-work-in-norway-title", { ns: "work-in-norway" })} - arbeidsplassen.no</title>
+                <title>{t("unemployed-title", { ns: "work-in-norway" })} - arbeidsplassen.no</title>
             </Head>
             <div className="ukraine-page">
                 <div className="green-box">

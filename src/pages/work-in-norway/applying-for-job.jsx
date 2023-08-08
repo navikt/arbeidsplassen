@@ -11,7 +11,7 @@ export default function ApplyingForJob() {
     return (
         <Layout>
             <Head>
-                <title>{t("ukrainian-work-in-norway-title", { ns: "work-in-norway" })} - arbeidsplassen.no</title>
+                <title>{t("applying-for-a-job-title", { ns: "work-in-norway" })} - arbeidsplassen.no</title>
             </Head>
             <div className="ukraine-page">
                 <div className="green-box">

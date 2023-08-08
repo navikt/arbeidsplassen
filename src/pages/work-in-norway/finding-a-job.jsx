@@ -13,7 +13,7 @@ export default function FindingAJob() {
     return (
         <Layout>
             <Head>
-                <title>{t("ukrainian-work-in-norway-title", { ns: "work-in-norway" })} - arbeidsplassen.no</title>
+                <title>{t("finding-a-job-title", { ns: "work-in-norway" })} - arbeidsplassen.no</title>
             </Head>
             <div className="ukraine-page">
                 <div className="green-box">
@@ -116,14 +116,14 @@ export default function FindingAJob() {
                         <BodyLong spacing>{t("h2-assistance.p3")}</BodyLong>
 
                         {currentLanguage === "uk" ? (
-                            <DsLink hreflang="uk" href="https://vimeo.com/696892548" className="mb-2">
+                            <DsLink hrefLang="uk" href="https://vimeo.com/696892548" className="mb-2">
                                 Усний перекладач при контакті з NAV
                             </DsLink>
                         ) : null}
 
                         {currentLanguage === "ru" ? (
                             <DsLink
-                                hreflang="ru"
+                                hrefLang="ru"
                                 href="https://vimeo.com/showcase/9089710/video/759018688"
                                 className="mb-2"
                             >

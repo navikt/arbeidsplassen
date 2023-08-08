@@ -12,7 +12,7 @@ export default function StartingANewJob() {
     return (
         <Layout>
             <Head>
-                <title>{t("ukrainian-work-in-norway-title", { ns: "work-in-norway" })} - arbeidsplassen.no</title>
+                <title>{t("starting-a-new-job-title", { ns: "work-in-norway" })} - arbeidsplassen.no</title>
             </Head>
             <div className="ukraine-page">
                 <div className="green-box">
@@ -97,7 +97,7 @@ export default function StartingANewJob() {
 
                         {currentLanguage === "uk" ? (
                             <DsLink
-                                hreflang="uk"
+                                hrefLang="uk"
                                 href="https://www.youtube.com/playlist?list=PLcQRxNrcK73GjDweZyUUjSJRTFUWDJQzq"
                                 className="mb-2"
                             >
@@ -107,7 +107,7 @@ export default function StartingANewJob() {
 
                         {currentLanguage === "ru" ? (
                             <DsLink
-                                hreflang="uk"
+                                hrefLang="uk"
                                 href="https://www.youtube.com/playlist?list=PLcQRxNrcK73GjDweZyUUjSJRTFUWDJQzq"
                                 className="mb-2"
                             >
