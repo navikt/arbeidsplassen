@@ -136,9 +136,22 @@ export default function ApplyingForJob() {
                                     {t("2-link-panels.2-title")}
                                 </LinkPanel.Title>
                             </LinkPanel>
-                            <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href="TODO: Missing link">
+                            <LinkPanel
+                                className="arb-tertiary-bg-text arb-link-panel"
+                                href="https://hkdir.no/en/foreign-education/education-from-outside-of-norway/recognition-of-foreign-higher-education-bachelor-master-and-phd/how-to-apply-foreign-higher-education"
+                                hrefLang="en"
+                            >
                                 <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                                     {t("2-link-panels.3-title")}
+                                </LinkPanel.Title>
+                            </LinkPanel>
+                            <LinkPanel
+                                className="arb-tertiary-bg-text arb-link-panel"
+                                href="https://hkdir.no/en/foreign-education/education-from-outside-of-norway/recognition-of-foreign-tertiary-vocational-education/how-to-apply-tertiary-vocational-education"
+                                hrefLang="en"
+                            >
+                                <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
+                                    {t("2-link-panels.4-title")}
                                 </LinkPanel.Title>
                             </LinkPanel>
                         </div>
