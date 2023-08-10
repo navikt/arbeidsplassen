@@ -1,0 +1,57 @@
+.ukraine-page-main h1,
+.ukraine-page-main p {
+    text-align: center;
+}
+
+.ukraine-page-main .navds-chips {
+    justify-content: center;
+}
+
+.ukraine-page-main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .ukraine-page-main-container {
+        flex-direction: row;
+    }
+}
+
+.ukraine-page .green-box {
+    background: var(--arb-green-50);
+    margin: 0 0 3rem 0;
+    padding: 1rem 0;
+}
+
+.ukraine-page .green-box-inner {
+    margin: 0 auto;
+    max-width: 1344px;
+    padding: 0 1rem;
+}
+
+.ukraine-page article {
+    padding-left: 2rem;
+}
+
+.ukraine-page .ukraine-link-panel-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+@media (min-width: 768px) {
+    .ukraine-page .ukraine-link-panel-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .ukraine-page .arb-link-panel {
+        flex-grow: 1;
+        width: 30%;
+    }
+}
+
+.ukraine-page p .navds-link {
+    display: inline;
+}

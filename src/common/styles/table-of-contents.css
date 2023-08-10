@@ -1,0 +1,43 @@
+.table-of-contents-wrapper {
+    position: relative;
+}
+
+.table-of-contents-wrapper label {
+    margin-left: 1.5rem;
+}
+
+.table-of-contents-container {
+    position: sticky;
+    top: 0;
+}
+
+.table-of-contents ul {
+    padding: 0;
+}
+
+.table-of-contents li {
+    list-style-type: none;
+    margin: 0.25rem;
+    padding: 0.25rem;
+}
+
+.table-of-contents a {
+    color: var(--arb-green-800);
+    text-decoration: none;
+    padding-left: 1rem;
+}
+
+.table-of-contents li.active > a {
+    font-weight: 600;
+    border-left: 4px solid var(--arb-green-400);
+    padding-left: 0.5rem;
+}
+
+.table-of-contents li > a:hover {
+    color: var(--arb-blue-500);
+    text-decoration: underline;
+}
+
+.back-link-main-content {
+    margin-top: 1rem;
+}
