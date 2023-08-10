@@ -22,7 +22,7 @@ export default function ApplyingForJob() {
                         <BodyShort>{t("ukrainian-work-in-norway-title", { ns: "work-in-norway" })}</BodyShort>
                     </div>
                 </div>
-                <div className="container-large flex">
+                <div className="container-large ukraine-page-main-container">
                     <TableOfContents selectorPrefix="main" />
                     <article className="container-small page-margin-top-and-bottom ukraine-page">
                         <Heading id="how-do-i-apply" size="large" level="2" spacing>

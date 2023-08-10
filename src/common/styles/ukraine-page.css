@@ -7,6 +7,17 @@
     justify-content: center;
 }
 
+.ukraine-page-main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (min-width: 768px) {
+    .ukraine-page-main-container {
+        flex-direction: row;
+    }
+}
+
 .ukraine-page .green-box {
     background: var(--arb-green-50);
     margin: 0 0 3rem 0;
