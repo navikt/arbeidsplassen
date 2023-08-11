@@ -77,7 +77,10 @@ export default function FindingAJob() {
                             >
                                 <DsLink>{t("h2-find-job.p2-link-text-1")}</DsLink>
                             </NextLink>{" "}
-                            {t("h2-find-job.p2-2")} <DsLink href="/jobbtreff">{t("h2-find-job.p2-link-text-2")}</DsLink>{" "}
+                            {t("h2-find-job.p2-2")}{" "}
+                            <DsLink href="/jobbtreff" hrefLang="no">
+                                {t("h2-find-job.p2-link-text-2")}
+                            </DsLink>{" "}
                             {t("h2-find-job.p2-3")}
                         </BodyLong>
                         <Heading size="small" level="3" spacing>
