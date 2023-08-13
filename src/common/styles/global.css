@@ -93,11 +93,18 @@ body {
 
 .ukraine {
     text-align: start;
+    padding: 1rem;
 }
 
 @media (min-width: 415px) {
     .ukraine {
         text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .ukraine {
+        padding: 1.5rem;
     }
 }
 
