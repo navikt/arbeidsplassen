@@ -48,7 +48,7 @@ export default function ArticlePagePerson() {
                                     alt="Bilde av Eiffeltårnet"
                                     title="Jobbe i utlandet?"
                                     description="Den Europeiske Jobbmobilitetsportalen (EURES) er et tilbud til deg som ønsker å finne en jobb i EU-/EØS-området og Sveits."
-                                    color="primary-solid"
+                                    color="primary"
                                 />
                             </div>
                         </div>

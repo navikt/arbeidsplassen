@@ -37,6 +37,18 @@ body {
     }
 }
 
+.jumbo-h1 {
+    font-size: 2.75rem;
+    line-height: 1.18;
+}
+
+@media (min-width: 768px) {
+    .jumbo-h1 {
+        font-size: 4rem;
+        line-height: 1.17;
+    }
+}
+
 .bedrift-h1 {
     max-width: 22ch;
 }
