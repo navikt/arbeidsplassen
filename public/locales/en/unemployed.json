@@ -23,8 +23,9 @@
         "title": "Support from the Norwegian Labour and Welfare administration",
         "p1": "When you start to work in Norway, you automatically become a member of the Norwegian National Insurance Scheme from your first day of work.",
         "p2": "As a member of the Norwegian National Insurance Scheme, NAV is responsible for your entitlements regarding sickness, family related benefits, unemployment benefit and other entitlements.",
-        "p3": "You can contact your NAV office if you need any ",
-        "p3-link-title": "information, advice and guidance in questions regarding your living conditions, financial situation or when caring for children."
+        "p3-1": "You can contact your NAV office if you need any ",
+        "p3-link-title": "information, advice and guidance",
+        "p3-2": " in questions regarding your living conditions, financial situation or when caring for children."
     },
     "2-link-panels": {
         "1-title": "Information from NAV to refugees from Ukraine (Norwegian language)",

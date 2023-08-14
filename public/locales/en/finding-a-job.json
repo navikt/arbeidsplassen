@@ -12,8 +12,8 @@
         "1-link": "https://www.udi.no/en/information-ukraine-and-russia/situation-in-ukraine/stay-in-norway/frequently-asked-questions-and-answers/",
         "2-title": "Protection for those who have fled Ukraine",
         "2-link": "https://www.udi.no/en/information-ukraine-and-russia/situation-in-ukraine/stay-in-norway/protection-asylum-in-norway/",
-        "3-title": "Are you intending to work in Norway?",
-        "3-link": "https://www.udi.no/en/information-ukraine-and-russia/situation-in-ukraine/stay-in-norway/frequently-asked-questions-and-answers/#link-30134"
+        "3-title": "Information about identification numbers, your address, moving, work and tax in Norway",
+        "3-link": "https://www.skatteetaten.no/en/person/foreign/ukraine/"
     },
     "h2-find-job": {
         "title": "Where can I find a job?",
@@ -25,7 +25,10 @@
         "p2-link-text-2": "\"Se kommende jobbtreff\" (Norwegian language)",
         "p2-3": "if you can find one in English."
     },
-    "2-link-panel-title": "Job ads on arbeidsplassen.no (Norwegian language)",
+    "2-link-panels": {
+        "1-title": "Job ads on arbeidsplassen.no (Norwegian language)",
+        "2-title": "Jobbtreff – meet businesses in a new way (Norwegian language)"
+    },
     "h2-assistance": {
         "title": "Who can I contact for assistance and guidance?",
         "p1": "If you need assistance finding a job, you can",
@@ -35,7 +38,9 @@
         "p1-3": "If you need assistance you can contact your local NAV office.",
         "p2-link-text-3": "Video - Register as a job seeker",
         "p2": "You have the right to get an interpreter when contacting NAV.",
-        "p3": "If you have questions, please call NAV at 55 55 33 33"
+        "p3": "If you have questions to NAV call 55 55 33 33",
+        "link-text-4": "Interpreter when contacting NAV (Ukrainian language)",
+        "link-4": "https://vimeo.com/696892548"
     },
     "3-link-panels": {
         "1-title": "Find your local NAV office",

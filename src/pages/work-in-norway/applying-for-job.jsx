@@ -40,7 +40,7 @@ export default function ApplyingForJob() {
                         <BodyLong spacing>{t("h3-cover-letter.p")}</BodyLong>
 
                         <Heading size="small" level="3" spacing>
-                            {t("h3-ss.title")}
+                            {t("h3-ss.title")} (superrask søknad)
                         </Heading>
                         <BodyLong spacing>{t("h3-ss.p1")}</BodyLong>
                         <BodyLong spacing>{t("h3-ss.p2")}</BodyLong>
@@ -86,7 +86,16 @@ export default function ApplyingForJob() {
                         <Heading size="small" level="3" spacing>
                             {t("h3-reg-prof.title")}
                         </Heading>
-                        <BodyLong spacing>{t("h3-reg-prof.p")}</BodyLong>
+                        <BodyLong spacing>
+                            {t("h3-reg-prof.p-1")}{" "}
+                            <DsLink
+                                href="https://hkdir.no/en/foreign-education/lists-and-databases/regulated-professions"
+                                hrefLang="en"
+                            >
+                                {t("h3-reg-prof.p-link-text")}
+                            </DsLink>{" "}
+                            {t("h3-reg-prof.p-2")}
+                        </BodyLong>
 
                         <Heading size="small" level="3" spacing>
                             {t("h3-rec-of-edu.title")}

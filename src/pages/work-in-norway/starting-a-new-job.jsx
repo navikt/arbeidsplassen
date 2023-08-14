@@ -6,8 +6,7 @@ import { BodyLong, BodyShort, Heading, LinkPanel, Link as DsLink } from "@navikt
 import TableOfContents from "@/src/common/components/TableOfContents";
 
 export default function StartingANewJob() {
-    const { t, i18n } = useTranslation(["starting-a-new-job", "work-in-norway"]);
-    const { language: currentLanguage } = i18n;
+    const { t } = useTranslation(["starting-a-new-job", "work-in-norway"]);
 
     return (
         <Layout>
@@ -31,19 +30,19 @@ export default function StartingANewJob() {
                         </Heading>
 
                         <Heading size="small" level="3" spacing>
-                            {t("h3-bank-account.title")}
+                            {t("h3-bank-account.title")} (bankkonto)
                         </Heading>
                         <BodyLong spacing>{t("h3-bank-account.p1")}</BodyLong>
                         <BodyLong spacing>{t("h3-bank-account.p2")}</BodyLong>
 
                         <Heading size="small" level="3" spacing>
-                            {t("h3-tax.title")}
+                            {t("h3-tax.title")} (skattekort)
                         </Heading>
                         <BodyLong spacing>{t("h3-tax.p1")}</BodyLong>
                         <BodyLong spacing>{t("h3-tax.p2")}</BodyLong>
 
                         <Heading size="small" level="3" spacing>
-                            {t("h3-contract.title")}
+                            {t("h3-contract.title")} (arbeidskontrakt)
                         </Heading>
                         <BodyLong spacing>{t("h3-contract.p")}</BodyLong>
 
@@ -93,28 +92,18 @@ export default function StartingANewJob() {
                                 {t("h2-rights.p2-link-title")}
                             </DsLink>
                         </BodyLong>
-                        <BodyLong spacing>{t("h2-rights.p3")}</BodyLong>
-
-                        {currentLanguage === "uk" ? (
-                            <DsLink
-                                hrefLang="uk"
-                                href="https://www.youtube.com/playlist?list=PLcQRxNrcK73GjDweZyUUjSJRTFUWDJQzq"
-                                className="mb-2"
-                            >
-                                Знайте свої права: трудовий договір, заробітна плата, робочий час та робоче середовище
-                            </DsLink>
-                        ) : null}
-
-                        {currentLanguage === "ru" ? (
-                            <DsLink
-                                hrefLang="uk"
-                                href="https://www.youtube.com/playlist?list=PLcQRxNrcK73GjDweZyUUjSJRTFUWDJQzq"
-                                className="mb-2"
-                            >
-                                Знайте свои права: трудовой договор, заработная плата, рабочее время и рабочая среда
-                                (украинский язык)
-                            </DsLink>
-                        ) : null}
+                        <BodyLong spacing>
+                            {t("h2-rights.p3-1")}{" "}
+                            <DsLink href={t("h2-rights.p3-link")}>{t("h2-rights.p3-link-title")}</DsLink>{" "}
+                            {t("h2-rights.p3-2")}
+                        </BodyLong>
+                        <DsLink
+                            hrefLang="uk"
+                            href="https://www.youtube.com/playlist?list=PLcQRxNrcK73GjDweZyUUjSJRTFUWDJQzq"
+                            className="mb-2"
+                        >
+                            {t("h2-rights.link-title")}
+                        </DsLink>
 
                         <Heading size="small" level="3" spacing>
                             {t("h3-news-articles", { ns: "work-in-norway" })}

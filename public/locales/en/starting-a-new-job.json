@@ -24,7 +24,11 @@
         "p1": "Norway has many rules to make sure that you are not exploited, deceived or forced to work under illegal wage terms and working conditions.",
         "p2": "The wage level in Norway is higher than in many other countries and there is a ",
         "p2-link-title": "minimum wage in several professions.",
-        "p3": "There are rules to make sure that you do not work too much and that you receive compensation for overtime work. Read about your rights and obligations as an employee in Norway."
+        "p3-1": "There are rules to make sure that you do not work too much and that you receive compensation for overtime work. Read about ",
+        "p3-link-title": "your rights and obligations",
+        "p3-2": " as an employee in Norway.",
+        "p3-link": "https://www.arbeidstilsynet.no/en/knowyourrights/",
+        "link-title": "Know your rights: employment contract, pay, working hours and working environment (Ukrainian language)"
     },
     "2-link-panel": {
         "title": "Working in Norway: Your rights and obligations",

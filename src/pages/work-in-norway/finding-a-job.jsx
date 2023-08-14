@@ -7,8 +7,7 @@ import TableOfContents from "@/src/common/components/TableOfContents";
 import NextLink from "next/link";
 
 export default function FindingAJob() {
-    const { t, i18n } = useTranslation(["finding-a-job", "work-in-norway"]);
-    const { language: currentLanguage } = i18n;
+    const { t } = useTranslation(["finding-a-job", "work-in-norway"]);
 
     return (
         <Layout>
@@ -93,7 +92,16 @@ export default function FindingAJob() {
                                 hrefLang="no"
                             >
                                 <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
-                                    {t("2-link-panel-title")}
+                                    {t("2-link-panels.1-title")}
+                                </LinkPanel.Title>
+                            </LinkPanel>
+                            <LinkPanel
+                                className="arb-tertiary-bg-text arb-link-panel"
+                                href="/mot-bedrifter-pa-en-ny-mate"
+                                hrefLang="no"
+                            >
+                                <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
+                                    {t("2-link-panels.2-title")}
                                 </LinkPanel.Title>
                             </LinkPanel>
                         </div>
@@ -117,22 +125,9 @@ export default function FindingAJob() {
                         </DsLink>
                         <BodyLong spacing>{t("h2-assistance.p2")}</BodyLong>
                         <BodyLong spacing>{t("h2-assistance.p3")}</BodyLong>
-
-                        {currentLanguage === "uk" ? (
-                            <DsLink hrefLang="uk" href="https://vimeo.com/696892548" className="mb-2">
-                                Усний перекладач при контакті з NAV
-                            </DsLink>
-                        ) : null}
-
-                        {currentLanguage === "ru" ? (
-                            <DsLink
-                                hrefLang="ru"
-                                href="https://vimeo.com/showcase/9089710/video/759018688"
-                                className="mb-2"
-                            >
-                                Устный переводчик при контакте с NAV
-                            </DsLink>
-                        ) : null}
+                        <DsLink href={t("h2-assistance.link-4")} className="mb-2">
+                            {t("h2-assistance.link-text-4")}
+                        </DsLink>
 
                         <Heading size="small" level="3" spacing>
                             {t("h3-news-articles", { ns: "work-in-norway" })}
