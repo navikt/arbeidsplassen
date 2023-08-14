@@ -1,4 +1,4 @@
-import { BodyLong, Chips, Heading, LinkPanel } from "@navikt/ds-react";
+import { Chips, Heading, Ingress, LinkPanel } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
 import { useTranslation } from "next-i18next";
@@ -44,7 +44,7 @@ export default function WorkInNorway() {
                     {t("ukrainian-work-in-norway-title")}
                 </Heading>
 
-                <BodyLong spacing>{t("description")}</BodyLong>
+                <Ingress spacing>{t("description")}</Ingress>
 
                 <Chips className="mb-3">
                     <Chips.Toggle
@@ -78,15 +78,13 @@ export default function WorkInNorway() {
                         className="arb-secondary-bg-text arb-link-panel"
                         href={`/${selectedLanguage}/work-in-norway/finding-a-job`}
                     >
-                        <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
-                            {t("finding-a-job-title")}
-                        </LinkPanel.Title>
+                        <LinkPanel.Title className="navds-heading--small">{t("finding-a-job-title")}</LinkPanel.Title>
                     </LinkPanel>
                     <LinkPanel
                         className="arb-secondary-bg-text arb-link-panel"
                         href={`/${selectedLanguage}/work-in-norway/applying-for-job`}
                     >
-                        <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
+                        <LinkPanel.Title className="navds-heading--small">
                             {t("applying-for-a-job-title")}
                         </LinkPanel.Title>
                     </LinkPanel>
@@ -94,7 +92,7 @@ export default function WorkInNorway() {
                         className="arb-secondary-bg-text arb-link-panel"
                         href={`/${selectedLanguage}/work-in-norway/starting-a-new-job`}
                     >
-                        <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
+                        <LinkPanel.Title className="navds-heading--small">
                             {t("starting-a-new-job-title")}
                         </LinkPanel.Title>
                     </LinkPanel>
@@ -102,9 +100,7 @@ export default function WorkInNorway() {
                         className="arb-secondary-bg-text arb-link-panel"
                         href={`/${selectedLanguage}/work-in-norway/unemployed`}
                     >
-                        <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
-                            {t("unemployed-title")}
-                        </LinkPanel.Title>
+                        <LinkPanel.Title className="navds-heading--small">{t("unemployed-title")}</LinkPanel.Title>
                     </LinkPanel>
                 </div>
             </article>

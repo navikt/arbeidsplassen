@@ -15,7 +15,7 @@ export default function FindingAJob() {
                 <title>{t("finding-a-job-title", { ns: "work-in-norway" })} - arbeidsplassen.no</title>
             </Head>
             <div className="ukraine-page">
-                <div className="green-box">
+                <div className="green-box container-large">
                     <div className="green-box-inner">
                         <Heading size="small" level="1" className="mb-0_25">
                             {t("finding-a-job-title", { ns: "work-in-norway" })}
@@ -25,7 +25,7 @@ export default function FindingAJob() {
                 </div>
                 <div className="container-large ukraine-page-main-container">
                     <TableOfContents selectorPrefix="main" />
-                    <article className="container-small page-margin-top-and-bottom ukraine-page">
+                    <article className="container-small">
                         <Heading id="when-can-i-start-looking" size="large" level="2" spacing>
                             {t("h2-start-looking.title")}
                         </Heading>
@@ -38,19 +38,19 @@ export default function FindingAJob() {
                         <Heading size="small" level="3" spacing>
                             {t("h3-news-articles", { ns: "work-in-norway" })}
                         </Heading>
-                        <div className="ukraine-link-panel-container mb-3">
+                        <div className="article-link-panel-container mb-3">
                             <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href={t("1-link-panels.1-link")}>
-                                <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
+                                <LinkPanel.Title className="navds-heading--small">
                                     {t("1-link-panels.1-title")}
                                 </LinkPanel.Title>
                             </LinkPanel>
                             <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href={t("1-link-panels.2-link")}>
-                                <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
+                                <LinkPanel.Title className="navds-heading--small">
                                     {t("1-link-panels.2-title")}
                                 </LinkPanel.Title>
                             </LinkPanel>
                             <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href={t("1-link-panels.3-link")}>
-                                <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
+                                <LinkPanel.Title className="navds-heading--small">
                                     {t("1-link-panels.3-title")}
                                 </LinkPanel.Title>
                             </LinkPanel>
@@ -85,13 +85,13 @@ export default function FindingAJob() {
                         <Heading size="small" level="3" spacing>
                             {t("h3-news-articles", { ns: "work-in-norway" })}
                         </Heading>
-                        <div className="ukraine-link-panel-container link-panel-stack mb-3">
+                        <div className="article-link-panel-container mb-3">
                             <LinkPanel
                                 className="arb-tertiary-bg-text arb-link-panel"
                                 href="/stillinger?q=english"
                                 hrefLang="no"
                             >
-                                <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
+                                <LinkPanel.Title className="navds-heading--small">
                                     {t("2-link-panels.1-title")}
                                 </LinkPanel.Title>
                             </LinkPanel>
@@ -100,7 +100,7 @@ export default function FindingAJob() {
                                 href="/mot-bedrifter-pa-en-ny-mate"
                                 hrefLang="no"
                             >
-                                <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
+                                <LinkPanel.Title className="navds-heading--small">
                                     {t("2-link-panels.2-title")}
                                 </LinkPanel.Title>
                             </LinkPanel>
@@ -132,13 +132,13 @@ export default function FindingAJob() {
                         <Heading size="small" level="3" spacing>
                             {t("h3-news-articles", { ns: "work-in-norway" })}
                         </Heading>
-                        <div className="ukraine-link-panel-container link-panel-stack mb-3">
+                        <div className="article-link-panel-container mb-3">
                             <LinkPanel
                                 className="arb-tertiary-bg-text arb-link-panel"
                                 href="https://www.nav.no/sok-nav-kontor/en"
                                 hrefLang="en"
                             >
-                                <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
+                                <LinkPanel.Title className="navds-heading--small">
                                     {t("3-link-panels.1-title")}
                                 </LinkPanel.Title>
                             </LinkPanel>
@@ -147,7 +147,7 @@ export default function FindingAJob() {
                                 href="https://www.nav.no/soker-jobb"
                                 hrefLang="no"
                             >
-                                <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
+                                <LinkPanel.Title className="navds-heading--small">
                                     {t("3-link-panels.2-title")}
                                 </LinkPanel.Title>
                             </LinkPanel>
@@ -162,7 +162,7 @@ export default function FindingAJob() {
                             {t("h2-working-wo-norwegian.p1-2")}
                         </BodyLong>
 
-                        <Heading size="xsmall" level="3" spacing>
+                        <Heading size="small" level="3" spacing>
                             {t("h3-norwegian-courses.title")}
                         </Heading>
                         <BodyLong spacing>
@@ -177,9 +177,9 @@ export default function FindingAJob() {
                         <Heading size="small" level="3" spacing>
                             {t("h3-news-articles", { ns: "work-in-norway" })}
                         </Heading>
-                        <div className="ukraine-link-panel-container link-panel-stack mb-3">
+                        <div className="article-link-panel-container mb-3">
                             <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href={t("4-link-panel.link")}>
-                                <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
+                                <LinkPanel.Title className="navds-heading--small">
                                     {t("4-link-panel.title")}
                                 </LinkPanel.Title>
                             </LinkPanel>

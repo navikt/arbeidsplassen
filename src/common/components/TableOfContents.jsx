@@ -38,7 +38,7 @@ function Headings({ headings, activeId }) {
         <ul>
             {headings.map((heading) => (
                 <li key={heading.id} className={heading.id === activeId ? "active" : ""}>
-                    <a
+                    <NextLink
                         href={`#${heading.id}`}
                         onClick={(e) => {
                             e.preventDefault();
@@ -48,7 +48,7 @@ function Headings({ headings, activeId }) {
                         }}
                     >
                         {heading.title}
-                    </a>
+                    </NextLink>
                 </li>
             ))}
         </ul>
@@ -111,7 +111,7 @@ function TableOfContents({ selectorPrefix }) {
     return (
         <div className="table-of-contents-wrapper">
             <div className="table-of-contents-container">
-                <Label>Page contents</Label>
+                <Label className="table-of-contents-label">Page contents</Label>
                 <nav className="table-of-contents" aria-label="Table of contents">
                     <Headings headings={nestedHeadings} activeId={activeId} />
                 </nav>

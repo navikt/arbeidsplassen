@@ -14,7 +14,7 @@ export default function ApplyingForJob() {
                 <title>{t("applying-for-a-job-title", { ns: "work-in-norway" })} - arbeidsplassen.no</title>
             </Head>
             <div className="ukraine-page">
-                <div className="green-box">
+                <div className="green-box container-large">
                     <div className="green-box-inner">
                         <Heading size="small" level="1" className="mb-0_25">
                             {t("applying-for-a-job-title", { ns: "work-in-norway" })}
@@ -24,7 +24,7 @@ export default function ApplyingForJob() {
                 </div>
                 <div className="container-large ukraine-page-main-container">
                     <TableOfContents selectorPrefix="main" />
-                    <article className="container-small page-margin-top-and-bottom ukraine-page">
+                    <article className="container-small">
                         <Heading id="how-do-i-apply" size="large" level="2" spacing>
                             {t("h2-how-apply")}
                         </Heading>
@@ -48,13 +48,13 @@ export default function ApplyingForJob() {
                         <Heading size="small" level="3" spacing>
                             {t("h3-news-articles", { ns: "work-in-norway" })}
                         </Heading>
-                        <div className="ukraine-link-panel-container mb-3">
+                        <div className="article-link-panel-container mb-3">
                             <LinkPanel
                                 className="arb-tertiary-bg-text arb-link-panel"
                                 href="/slik-skriver-du-en-god-cv"
                                 hrefLang="no"
                             >
-                                <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
+                                <LinkPanel.Title className="navds-heading--small">
                                     {t("1-link-panels.1-title")}
                                 </LinkPanel.Title>
                             </LinkPanel>
@@ -63,7 +63,7 @@ export default function ApplyingForJob() {
                                 href="/superrask-soknad-person"
                                 hrefLang="no"
                             >
-                                <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
+                                <LinkPanel.Title className="navds-heading--small">
                                     {t("1-link-panels.2-title")}
                                 </LinkPanel.Title>
                             </LinkPanel>
@@ -72,7 +72,7 @@ export default function ApplyingForJob() {
                                 href="/tips-til-jobbsoknaden"
                                 hrefLang="no"
                             >
-                                <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
+                                <LinkPanel.Title className="navds-heading--small">
                                     {t("1-link-panels.3-title")}
                                 </LinkPanel.Title>
                             </LinkPanel>
@@ -101,7 +101,7 @@ export default function ApplyingForJob() {
                             {t("h3-rec-of-edu.title")}
                         </Heading>
                         <BodyLong spacing>{t("h3-rec-of-edu.p")}</BodyLong>
-                        <ul>
+                        <ul className="foreign-edu-list">
                             <li className="mb-1">
                                 <DsLink
                                     href="https://hkdir.no/en/foreign-education/education-from-outside-of-norway/recognition-of-foreign-higher-education-bachelor-master-and-phd"
@@ -128,12 +128,12 @@ export default function ApplyingForJob() {
                         <Heading size="small" level="3" spacing>
                             {t("h3-news-articles", { ns: "work-in-norway" })}
                         </Heading>
-                        <div className="ukraine-link-panel-container mb-3">
+                        <div className="article-link-panel-container mb-3">
                             <LinkPanel
                                 className="arb-tertiary-bg-text arb-link-panel"
                                 href="https://hkdir.no/en/foreign-education/lists-and-databases/regulated-professions"
                             >
-                                <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
+                                <LinkPanel.Title className="navds-heading--small">
                                     {t("2-link-panels.1-title")}
                                 </LinkPanel.Title>
                             </LinkPanel>
@@ -141,7 +141,7 @@ export default function ApplyingForJob() {
                                 className="arb-tertiary-bg-text arb-link-panel"
                                 href="https://hkdir.no/en/foreign-education/education-from-outside-of-norway/recognition-of-foreign-higher-education-bachelor-master-and-phd/automatic-recognition-a-quicker-alternative"
                             >
-                                <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
+                                <LinkPanel.Title className="navds-heading--small">
                                     {t("2-link-panels.2-title")}
                                 </LinkPanel.Title>
                             </LinkPanel>
@@ -150,7 +150,7 @@ export default function ApplyingForJob() {
                                 href="https://hkdir.no/en/foreign-education/education-from-outside-of-norway/recognition-of-foreign-higher-education-bachelor-master-and-phd/how-to-apply-foreign-higher-education"
                                 hrefLang="en"
                             >
-                                <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
+                                <LinkPanel.Title className="navds-heading--small">
                                     {t("2-link-panels.3-title")}
                                 </LinkPanel.Title>
                             </LinkPanel>
@@ -159,7 +159,7 @@ export default function ApplyingForJob() {
                                 href="https://hkdir.no/en/foreign-education/education-from-outside-of-norway/recognition-of-foreign-tertiary-vocational-education/how-to-apply-tertiary-vocational-education"
                                 hrefLang="en"
                             >
-                                <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
+                                <LinkPanel.Title className="navds-heading--small">
                                     {t("2-link-panels.4-title")}
                                 </LinkPanel.Title>
                             </LinkPanel>
@@ -174,13 +174,13 @@ export default function ApplyingForJob() {
                         <Heading size="small" level="3" spacing>
                             {t("h3-news-articles", { ns: "work-in-norway" })}
                         </Heading>
-                        <div className="ukraine-link-panel-container mb-3">
+                        <div className="article-link-panel-container mb-3">
                             <LinkPanel
                                 className="arb-tertiary-bg-text arb-link-panel"
                                 href="https://www.nav.no/finn-jobbene#registrer-cv-en-flere-steder"
                                 hrefLang="no"
                             >
-                                <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
+                                <LinkPanel.Title className="navds-heading--small">
                                     {t("3-link-panel-title")}
                                 </LinkPanel.Title>
                             </LinkPanel>

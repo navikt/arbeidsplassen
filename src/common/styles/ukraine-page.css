@@ -3,6 +3,10 @@
     text-align: center;
 }
 
+.ukraine-page-main .arb-link-panel-grid {
+    gap: 1rem;
+}
+
 .ukraine-page-main .navds-chips {
     justify-content: center;
 }
@@ -11,47 +15,53 @@
     display: flex;
     flex-direction: column;
 }
+.ukraine-page-main-container .container-small {
+    margin-top: 4rem;
+    padding: 0;
+}
 
 @media (min-width: 768px) {
     .ukraine-page-main-container {
         flex-direction: row;
     }
+    .ukraine-page-main-container .container-small {
+        margin-top: 0;
+        padding: 0 2rem 0 2rem;
+    }
 }
 
 .ukraine-page .green-box {
     background: var(--arb-green-50);
-    margin: 0 0 3rem 0;
-    padding: 1rem 0;
+    box-shadow: 0 0 0 100vmax var(--arb-green-50);
+    clip-path: inset(0 -100vmax);
+    margin-bottom: 3rem;
 }
 
 .ukraine-page .green-box-inner {
-    margin: 0 auto;
-    max-width: 1344px;
-    padding: 0 1rem;
+    padding: 1rem 0;
 }
 
-.ukraine-page article {
-    padding-left: 2rem;
-}
-
-.ukraine-page .ukraine-link-panel-container {
+.article-link-panel-container {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 1rem;
 }
 
-@media (min-width: 768px) {
-    .ukraine-page .ukraine-link-panel-container {
-        display: flex;
+@media (min-width: 1000px) {
+    .article-link-panel-container {
         flex-direction: row;
         flex-wrap: wrap;
     }
-    .ukraine-page .arb-link-panel {
+    .article-link-panel-container > .arb-link-panel {
         flex-grow: 1;
-        width: 30%;
+        width: 40%;
     }
 }
 
 .ukraine-page p .navds-link {
     display: inline;
+}
+
+.foreign-edu-list {
+    margin-bottom: var(--a-spacing-7);
 }
