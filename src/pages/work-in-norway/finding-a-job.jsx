@@ -121,7 +121,7 @@ export default function FindingAJob() {
                             {t("h2-assistance.p1-3")}
                         </BodyLong>
                         <DsLink href="https://vimeo.com/656108660" hrefLang="en" className="mb-2">
-                            {t("h2-assistance.p2-link-text-3")}
+                            {t("h2-assistance.link-text-3")}
                         </DsLink>
                         <BodyLong spacing>{t("h2-assistance.p2")}</BodyLong>
                         <BodyLong spacing>{t("h2-assistance.p3")}</BodyLong>
