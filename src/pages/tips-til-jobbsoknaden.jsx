@@ -32,35 +32,30 @@ export default function TipsTilJobbsoknaden() {
 
             <div className="container-small mb-4">
                 <Heading size="large" level="2" spacing>
-                    Søknaden er et svar på annonsen
+                    Slik skriver du en god jobbsøknad
                 </Heading>
                 <BodyLong spacing>
-                    Målet med jobbsøknaden er å bli kalt inn til intervju. En god søknad er forutsetningen for at en
-                    arbeidsgiver skal få lyst til å møte akkurat deg. Les annonsen nøye og se hva de spør etter.
-                    Søknaden bør svare direkte på stillingsannonsen og vise at nettopp du kan være rett person for
-                    jobben.
+                    Målet med søknaden er å bli kalt inn til intervju. Her får du våre tips slik at en arbeidsgiver får
+                    lyst til å møte akkurat deg.
                 </BodyLong>
 
                 <Heading size="medium" level="3" spacing>
-                    Dette bør du ha med
+                    Søknaden er et svar på annonsen
                 </Heading>
                 <ul>
                     <li>
-                        <BodyLong>Start med en kort innledning om hvor du har funnet stillingen.</BodyLong>
-                    </li>
-                    <li>
-                        <BodyLong>Beskriv hvorfor du har lyst på akkurat denne jobben.</BodyLong>
+                        <BodyLong>Les annonsen nøye og svar direkte på stillingsannonsen.</BodyLong>
                     </li>
                     <li>
                         <BodyLong>
-                            Hvilke egenskaper og erfaringer har du som er viktig for denne jobben? Få fram dine sterke
-                            sider.
+                            Du må vise at nettopp du er rett person for jobben. Hvilke egenskaper og erfaring har du som
+                            er viktige? Få frem dine sterke sider.
                         </BodyLong>
                     </li>
                     <li>
                         <BodyLong>
                             I en kort avslutning forteller du hvordan du kan kontaktes, når du kan starte i jobben, og
-                            at du håper på positiv tilbakemelding.
+                            at du ser frem til å presentere deg i et intervju.
                         </BodyLong>
                     </li>
                 </ul>
@@ -68,11 +63,11 @@ export default function TipsTilJobbsoknaden() {
                 <Heading size="medium" level="3" spacing>
                     Flere tips
                 </Heading>
-                <ul>
+                <ul className="mb-3">
                     <li>
                         <BodyLong>
-                            Ta gjerne kontakt med arbeidsgiveren før du sender inn søknad. Det er lurt å planlegge hva
-                            du skal spørre om før du tar kontakt.
+                            Dersom du ønsker å ta kontakt med arbeidsgiver i forkant, må du planlegge hva du skal spørre
+                            om. Husk å ikke spør om ting som jobbannonsen svarer på.
                         </BodyLong>
                     </li>
                     <li>
@@ -82,14 +77,16 @@ export default function TipsTilJobbsoknaden() {
                         <BodyLong>Søknaden må se ryddig ut og bør maksimalt være på en side.</BodyLong>
                     </li>
                     <li>
-                        <BodyLong>Fokuser på hva du kan.</BodyLong>
+                        <BodyLong>
+                            Søknaden må se ryddig ut, uten skrivefeil og bør helst ikke være lenger enn en side.
+                        </BodyLong>
                     </li>
                     <li>
-                        <BodyLong>Unngå skrivefeil.</BodyLong>
+                        <BodyLong>Fokusèr på hva du kan og begrunn med eksempler.</BodyLong>
                     </li>
                     <li>
                         <BodyLong>
-                            Når søknaden og CV-en er sendt må du være tilgjengelig på telefon og sjekke e-posten din
+                            Når søknaden og CV-en er sendt, må du være tilgjengelig på telefon og sjekke e-posten din
                             ofte.
                         </BodyLong>
                     </li>
@@ -98,21 +95,18 @@ export default function TipsTilJobbsoknaden() {
                     </li>
                     <li>
                         <BodyLong>
-                            Har du ikke hørt noe to-tre uker etter søknadsfristen, kan du kontakte arbeidsgiveren og
+                            Har du ikke hørt noe to-tre uker etter søknadsfristen, bør du kontakte arbeidsgiveren og
                             høre hvor langt de er kommet i prosessen.
                         </BodyLong>
                     </li>
                 </ul>
-                <BodyLong className="mb-3">
-                    Husk å sende CV sammen med jobbsøknaden. Du kan registrere CV kostnadsfritt på arbeidsplassen.no.
-                </BodyLong>
 
                 <Heading size="large" level="2" spacing>
                     Åpen søknad
                 </Heading>
                 <BodyLong className="mb-3">
                     Er det steder du kunne tenke deg å jobbe? Du kan sende en jobbsøknad selv om arbeidsgiveren ikke har
-                    lyst ut noen ledige stilliger. Dette kalles en åpen søknad. En åpen søknad er lik en vanlig søknad,
+                    lyst ut noen ledige stillinger. Dette kalles en åpen søknad. En åpen søknad er lik en vanlig søknad,
                     men vær tydelig på hvorfor du ønsker å jobbe akkurat der. Lykke til med jobbsøkingen.
                 </BodyLong>
 
