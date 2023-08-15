@@ -79,7 +79,7 @@ export default function TipsTilJobbsoknaden() {
                         </BodyLong>
                     </li>
                     <li>
-                        <BodyLong>Fokusèr på hva du kan og begrunn med eksempler.</BodyLong>
+                        <BodyLong>Fokusér på hva du kan og begrunn med eksempler.</BodyLong>
                     </li>
                     <li>
                         <BodyLong>
