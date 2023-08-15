@@ -74,9 +74,6 @@ export default function TipsTilJobbsoknaden() {
                         <BodyLong>Søknaden skal være kort og målrettet.</BodyLong>
                     </li>
                     <li>
-                        <BodyLong>Søknaden må se ryddig ut og bør maksimalt være på en side.</BodyLong>
-                    </li>
-                    <li>
                         <BodyLong>
                             Søknaden må se ryddig ut, uten skrivefeil og bør helst ikke være lenger enn en side.
                         </BodyLong>
@@ -108,6 +105,16 @@ export default function TipsTilJobbsoknaden() {
                     Er det steder du kunne tenke deg å jobbe? Du kan sende en jobbsøknad selv om arbeidsgiveren ikke har
                     lyst ut noen ledige stillinger. Dette kalles en åpen søknad. En åpen søknad er lik en vanlig søknad,
                     men vær tydelig på hvorfor du ønsker å jobbe akkurat der. Lykke til med jobbsøkingen.
+                </BodyLong>
+
+                <Heading size="large" level="2" spacing>
+                    Superrask søknad på arbeidsplassen.no
+                </Heading>
+                <BodyLong className="mb-3">
+                    En enda enklere måte å søke på? Sjekk annonser med superrask søknad. Her søker du uten å legge ved
+                    CV, men svarer enkelt ut de kvalifikasjonene arbeidsgiver ser etter og formulerer en kort
+                    beskrivelse om hvorfor du mener du er rett person for stillingen. En superkort søknadstekst, med
+                    andre ord.
                 </BodyLong>
 
                 <LinkPanel className="arb-primary-bg-text arb-link-panel" href="/cv">
