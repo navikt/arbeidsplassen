@@ -104,7 +104,7 @@ export default function TipsTilJobbsoknaden() {
                 <BodyLong className="mb-3">
                     Er det steder du kunne tenke deg å jobbe? Du kan sende en jobbsøknad selv om arbeidsgiveren ikke har
                     lyst ut noen ledige stillinger. Dette kalles en åpen søknad. En åpen søknad er lik en vanlig søknad,
-                    men vær tydelig på hvorfor du ønsker å jobbe akkurat der. Lykke til med jobbsøkingen.
+                    men vær tydelig på hvorfor du ønsker å jobbe akkurat der.
                 </BodyLong>
 
                 <Heading size="large" level="2" spacing>
@@ -116,6 +116,8 @@ export default function TipsTilJobbsoknaden() {
                     beskrivelse om hvorfor du mener du er rett person for stillingen. En superkort søknadstekst, med
                     andre ord.
                 </BodyLong>
+
+                <BodyLong className="mb-3">Lykke til med jobbsøkingen.</BodyLong>
 
                 <LinkPanel className="arb-primary-bg-text arb-link-panel" href="/cv">
                     <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
