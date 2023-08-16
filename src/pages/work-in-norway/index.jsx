@@ -1,4 +1,4 @@
-import { Chips, Heading, Ingress, LinkPanel } from "@navikt/ds-react";
+import { BodyLong, Chips, Heading, Ingress, LinkPanel, Link as DsLink } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
 import { useTranslation } from "next-i18next";
@@ -7,7 +7,7 @@ import { useCallback, useState } from "react";
 import { useRouter } from "next/router";
 
 export default function WorkInNorway() {
-    const { t, i18n } = useTranslation("work-in-norway");
+    const { t, i18n } = useTranslation(["work-in-norway", "hotjar"]);
     const { language: currentLanguage } = i18n;
 
     const lngEnglish = "en";
@@ -103,6 +103,16 @@ export default function WorkInNorway() {
                         <LinkPanel.Title className="navds-heading--small">{t("unemployed-title")}</LinkPanel.Title>
                     </LinkPanel>
                 </div>
+
+                <div className="feedback-container">
+                    <Heading level="2" size="medium" spacing>
+                        {t("hotjar.h2", { ns: "hotjar" })}
+                    </Heading>
+                    <BodyLong spacing>{t("hotjar.p", { ns: "hotjar" })}</BodyLong>
+                    <DsLink href={t("hotjar.link", { ns: "hotjar" })} className="feedback-link">
+                        {t("hotjar.link-text", { ns: "hotjar" })}
+                    </DsLink>
+                </div>
             </article>
         </Layout>
     );
@@ -113,7 +123,7 @@ export async function getStaticProps(context) {
 
     return {
         props: {
-            ...(await serverSideTranslations(locale, ["work-in-norway"])),
+            ...(await serverSideTranslations(locale, ["work-in-norway", "hotjar"])),
         },
     };
 }

@@ -11,6 +11,10 @@
     justify-content: center;
 }
 
+.feedback-container {
+    text-align: center;
+}
+
 .ukraine-page-main-container {
     display: flex;
     flex-direction: column;
