@@ -29,16 +29,14 @@ function MainPageBedrift() {
                     className="arb-tertiary-bg-text arb-link-panel"
                     href="/stillingsregistrering/stillingsannonser"
                 >
-                    <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
-                        Lag ny stillingsannonse
-                    </LinkPanel.Title>
+                    <LinkPanel.Title className="navds-heading--small">Lag ny stillingsannonse</LinkPanel.Title>
                     <LinkPanel.Description className="navds-link-panel__description navds-body-long">
                         Gjør deg synlig i et av Norges største stillingssøk.
                     </LinkPanel.Description>
                 </LinkPanel>
 
-                <LinkPanel className="arb-primary-bg-text arb-link-panel" href="/no/work-in-norway">
-                    <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
+                <LinkPanel className="arb-primary-bg-text arb-link-panel" href="/rekruttere-flykntinger">
+                    <LinkPanel.Title className="navds-heading--small">
                         Ønsker du å rekruttere flyktninger?
                     </LinkPanel.Title>
                     <LinkPanel.Description className="navds-link-panel__description navds-body-long">
