@@ -35,7 +35,7 @@ function MainPageBedrift() {
                     </LinkPanel.Description>
                 </LinkPanel>
 
-                <LinkPanel className="arb-primary-bg-text arb-link-panel" href="/rekruttere-flykntinger">
+                <LinkPanel className="arb-primary-bg-text arb-link-panel" href="/rekruttere-flyktninger">
                     <LinkPanel.Title className="navds-heading--small">
                         Ønsker du å rekruttere flyktninger?
                     </LinkPanel.Title>
