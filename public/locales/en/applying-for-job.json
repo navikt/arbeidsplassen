@@ -26,13 +26,19 @@
         "title": "Regulated professions",
         "p-1": "Some professions are regulated by law, which means you must fulfill certain requirements to practice the profession in Norway. See",
         "p-link-text": "the list of regulated professions",
-        "p-2": "if you need a recognition and to find the correct recognition authority."
+        "p-2": "if you need a recognition and to find the correct recognition authority.",
+        "link-text": "Professional authorisation",
+        "link": "https://introduksjonsprogrammet.imdi.no/globalassets/introduksjonsprogrammet/godkjenning-av-utenlandsk-utdanning/yrkesgodkjenning-engelsk.pdf"
     },
     "h3-rec-of-edu": {
         "title": "Recognition of higher or tertiary vocational education",
         "p": "Recognition of higher education or higher tertiary vocational education may be of help when applying for jobs, or for employers who are considering hiring someone with foreign qualifications. Read about recognition of your education:",
         "1-link-title": "Foreign higher education (bachelor, master and ph.d.)",
-        "2-link-title": "Foreign tertiary vocational education"
+        "2-link-title": "Foreign tertiary vocational education",
+        "3-link-title": "Recognition of education from Ukraine",
+        "3-link": "https://introduksjonsprogrammet.imdi.no/globalassets/introduksjonsprogrammet/godkjenning-av-utenlandsk-utdanning/utdanning-fra-ukraina-engelsk-.pdf",
+        "4-link-title": "Checklist before you apply",
+        "4-link": "https://introduksjonsprogrammet.imdi.no/globalassets/introduksjonsprogrammet/godkjenning-av-utenlandsk-utdanning/sjekkliste-for-du-soker-engelsk.pdf"
     },
     "h3-auto-rec": {
         "title": "Automatic recognition for higher education",
