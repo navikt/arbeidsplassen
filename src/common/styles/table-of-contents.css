@@ -21,6 +21,7 @@
 .table-of-contents li {
     list-style-type: none;
     margin: 0.25rem;
+    font-size: 1rem;
     padding: 0.25rem 0.25rem 0.25rem 1rem;
 }
 
@@ -51,5 +52,6 @@
 
 .back-link-main-content {
     margin-top: 1rem;
+    font-size: 1rem;
     padding-left: 0.25rem;
 }

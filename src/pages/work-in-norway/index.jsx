@@ -109,9 +109,11 @@ export default function WorkInNorway() {
                         {t("hotjar.h2", { ns: "hotjar" })}
                     </Heading>
                     <BodyLong spacing>{t("hotjar.p", { ns: "hotjar" })}</BodyLong>
-                    <DsLink href={t("hotjar.link", { ns: "hotjar" })} className="feedback-link">
-                        {t("hotjar.link-text", { ns: "hotjar" })}
-                    </DsLink>
+                    <BodyLong>
+                        <DsLink href={t("hotjar.link", { ns: "hotjar" })} className="feedback-link">
+                            {t("hotjar.link-text", { ns: "hotjar" })}
+                        </DsLink>
+                    </BodyLong>
                 </div>
             </article>
         </Layout>
