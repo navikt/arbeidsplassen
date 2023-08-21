@@ -38,7 +38,7 @@ export default function ArticlePagePerson() {
                                     href="mot-bedrifter-pa-en-ny-mate"
                                     image="/images/jobbtreff.webp"
                                     alt="En person sitter ved et kjøkkenbord med datamaskin foran seg, hun har på hodetelefoner og er nok i gang med en videosamtale."
-                                    title="Jobbtreff – møt nye bedrifter på en ny måte"
+                                    title="Jobbtreff – møt bedrifter på en ny måte"
                                     description="Følg en direkte sending der bedriften forteller om seg selv og hva slags stillinger du kan søke på."
                                     color="tertiary"
                                 />
