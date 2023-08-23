@@ -92,6 +92,9 @@ export default function ApplyingForJob() {
                             </DsLink>{" "}
                             {t("h3-reg-prof.p-2")}
                         </BodyLong>
+                        <DsLink href={t("h3-reg-prof.link")} className="mb-2">
+                            {t("h3-reg-prof.link-text")}
+                        </DsLink>
 
                         <Heading size="small" level="3" spacing>
                             {t("h3-rec-of-edu.title")}
@@ -106,13 +109,19 @@ export default function ApplyingForJob() {
                                     {t("h3-rec-of-edu.1-link-title")}
                                 </DsLink>
                             </li>
-                            <li>
+                            <li className="mb-1">
                                 <DsLink
                                     href="https://hkdir.no/en/foreign-education/education-from-outside-of-norway/recognition-of-foreign-tertiary-vocational-education"
                                     hrefLang="en"
                                 >
                                     {t("h3-rec-of-edu.2-link-title")}
                                 </DsLink>
+                            </li>
+                            <li className="mb-1">
+                                <DsLink href={t("h3-rec-of-edu.3-link")}>{t("h3-rec-of-edu.3-link-title")}</DsLink>
+                            </li>
+                            <li>
+                                <DsLink href={t("h3-rec-of-edu.4-link")}>{t("h3-rec-of-edu.4-link-title")}</DsLink>
                             </li>
                         </ul>
 

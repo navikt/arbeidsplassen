@@ -26,13 +26,19 @@
         "title": "Регульовані професії",
         "p-1": "Деякі професії регулюються законом. Це означає, що ви повинні виконати певні вимоги, щоб займатися діяльністю, яка регулюється законом у Норвегії. Перегляньте",
         "p-link-text": "список регульованих професій (англійська мова)",
-        "p-2": ", якщо вам потрібне визнання кваліфікацій та інформація про те, які державні органи відповідають за визнання відповідних кваліфікацій."
+        "p-2": ", якщо вам потрібне визнання кваліфікацій та інформація про те, які державні органи відповідають за визнання відповідних кваліфікацій.",
+        "link-text": "Визнання професії",
+        "link": "https://introduksjonsprogrammet.imdi.no/globalassets/introduksjonsprogrammet/godkjenning-av-utenlandsk-utdanning/yrkesgodkjenning-ukrainsk_.pdf"
     },
     "h3-rec-of-edu": {
         "title": "Визнання вищої чи середньої професійної освіти",
         "p": "Визнання вищої чи середньої професійної освіти може допомогти вам при влаштуванні на роботу або роботодавцям, які розглядають можливість найму будь-кого з іноземними кваліфікаціями. Читайте про визнання вашої освіти:",
         "1-link-title": "Іноземна вища освіта: бакалавр, магістр та доктор наук (англійська мова)",
-        "2-link-title": "Іноземна середня професійна освіта (англійська мова)"
+        "2-link-title": "Іноземна середня професійна освіта (англійська мова)",
+        "3-link-title": "Визнання освіти, здобутої в Україні",
+        "3-link": "https://introduksjonsprogrammet.imdi.no/globalassets/introduksjonsprogrammet/godkjenning-av-utenlandsk-utdanning/utdanning-fra-ukraina-ukraina.pdf",
+        "4-link-title": "Контрольний список перед поданням заявки",
+        "4-link": "https://introduksjonsprogrammet.imdi.no/globalassets/introduksjonsprogrammet/godkjenning-av-utenlandsk-utdanning/sjekkliste-for-du-soker-ukrainsk-.pdf"
     },
     "h3-auto-rec": {
         "title": "Автоматичне визнання вищої освіти",
