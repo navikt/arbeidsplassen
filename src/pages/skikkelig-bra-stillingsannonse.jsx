@@ -120,10 +120,7 @@ export default function SkikkeligBraStillingsannonse() {
                     Krever jobben mye reising, eller har spesielle arbeidstider, så husk å oppgi det.
                 </BodyLong>
 
-                <LinkPanel
-                    className="arb-primary-bg-text arb-link-panel"
-                    href="/stillingsregistrering/stillingsannonser"
-                >
+                <LinkPanel className="arb-link-panel-primary" href="/stillingsregistrering/stillingsannonser">
                     <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                         Lag ny stillingsannonse
                     </LinkPanel.Title>

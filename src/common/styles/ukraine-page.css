@@ -56,7 +56,7 @@
         flex-direction: row;
         flex-wrap: wrap;
     }
-    .article-link-panel-container > .arb-link-panel {
+    .article-link-panel-container > .arb-link-panel-tertiary {
         flex-grow: 1;
         width: 40%;
     }

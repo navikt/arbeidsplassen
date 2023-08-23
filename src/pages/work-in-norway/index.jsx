@@ -75,13 +75,13 @@ export default function WorkInNorway() {
 
                 <div className="arb-link-panel-grid mb-5">
                     <LinkPanel
-                        className="arb-secondary-bg-text arb-link-panel"
+                        className="arb-link-panel-secondary"
                         href={`/${selectedLanguage}/work-in-norway/finding-a-job`}
                     >
                         <LinkPanel.Title className="navds-heading--small">{t("finding-a-job-title")}</LinkPanel.Title>
                     </LinkPanel>
                     <LinkPanel
-                        className="arb-secondary-bg-text arb-link-panel"
+                        className="arb-link-panel-secondary"
                         href={`/${selectedLanguage}/work-in-norway/applying-for-job`}
                     >
                         <LinkPanel.Title className="navds-heading--small">
@@ -89,7 +89,7 @@ export default function WorkInNorway() {
                         </LinkPanel.Title>
                     </LinkPanel>
                     <LinkPanel
-                        className="arb-secondary-bg-text arb-link-panel"
+                        className="arb-link-panel-secondary"
                         href={`/${selectedLanguage}/work-in-norway/starting-a-new-job`}
                     >
                         <LinkPanel.Title className="navds-heading--small">
@@ -97,7 +97,7 @@ export default function WorkInNorway() {
                         </LinkPanel.Title>
                     </LinkPanel>
                     <LinkPanel
-                        className="arb-secondary-bg-text arb-link-panel"
+                        className="arb-link-panel-secondary"
                         href={`/${selectedLanguage}/work-in-norway/unemployed`}
                     >
                         <LinkPanel.Title className="navds-heading--small">{t("unemployed-title")}</LinkPanel.Title>

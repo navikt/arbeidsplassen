@@ -51,7 +51,7 @@ export default function personvern() {
                     Les mer om hvordan vi behandler dine personopplysninger
                 </Heading>
                 <NextLink href="/personvern-under-oppfolging" passHref legacyBehavior>
-                    <LinkPanel className="arb-link-panel arb-tertiary-bg-text mb-1">
+                    <LinkPanel className="arb-link-panel-tertiary mb-1">
                         <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                             For deg som er under arbeidsrettet oppfølging fra NAV
                         </LinkPanel.Title>
@@ -61,14 +61,14 @@ export default function personvern() {
                     </LinkPanel>
                 </NextLink>
                 <NextLink href="/personvern-ikke-under-oppfolging" passHref legacyBehavior>
-                    <LinkPanel className="arb-link-panel arb-tertiary-bg-text mb-1">
+                    <LinkPanel className="arb-link-panel-tertiary mb-1">
                         <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                             For deg som ikke er under arbeidsrettet oppfølging fra NAV
                         </LinkPanel.Title>
                     </LinkPanel>
                 </NextLink>
                 <NextLink href="/personvern-arbeidsgiver" passHref legacyBehavior>
-                    <LinkPanel className="arb-link-panel arb-tertiary-bg-text">
+                    <LinkPanel className="arb-link-panel-tertiary">
                         <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                             For deg som representerer en arbeidsgiver
                         </LinkPanel.Title>

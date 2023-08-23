@@ -102,6 +102,8 @@ body {
 }
 
 .ukraine {
+    background-color: var(--arb-surface-tertiary-moderate);
+    color: var(--arb-text-on-color);
     text-align: start;
     padding: 1rem;
 }

@@ -25,17 +25,14 @@ function MainPageBedrift() {
             </section>
 
             <div className="arb-link-panel-grid mb-5">
-                <LinkPanel
-                    className="arb-tertiary-bg-text arb-link-panel"
-                    href="/stillingsregistrering/stillingsannonser"
-                >
+                <LinkPanel className="arb-link-panel-tertiary" href="/stillingsregistrering/stillingsannonser">
                     <LinkPanel.Title className="navds-heading--small">Lag ny stillingsannonse</LinkPanel.Title>
                     <LinkPanel.Description className="navds-link-panel__description navds-body-long">
                         Gjør deg synlig i et av Norges største stillingssøk.
                     </LinkPanel.Description>
                 </LinkPanel>
 
-                <LinkPanel className="arb-primary-bg-text arb-link-panel" href="/rekruttere-flyktninger">
+                <LinkPanel className="arb-link-panel-primary" href="/rekruttere-flyktninger">
                     <LinkPanel.Title className="navds-heading--small">
                         Ønsker du å rekruttere flyktninger?
                     </LinkPanel.Title>

@@ -95,7 +95,7 @@ export default function SuperraskSoknadPerson() {
                 </BodyLong>
                 <BodyLong className="mb-3">Lykke til med jobbsøkingen!</BodyLong>
 
-                <LinkPanel className="arb-primary-bg-text arb-link-panel" href="/stillinger">
+                <LinkPanel className="arb-link-panel-primary" href="/stillinger">
                     <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                         Se ledige stillinger
                     </LinkPanel.Title>

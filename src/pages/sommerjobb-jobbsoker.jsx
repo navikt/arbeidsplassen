@@ -78,7 +78,7 @@ export default function SommerjobbJobbsoker() {
                     <DsLink href="https://www.nav.no/kom-i-gang-som-jobbsoker">nav.no</DsLink>
                 </BodyLong>
 
-                <LinkPanel className="arb-primary-bg-text arb-link-panel" href="/stillinger?q=sommerjobb">
+                <LinkPanel className="arb-link-panel-primary" href="/stillinger?q=sommerjobb">
                     <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                         Se alle sommerjobber
                     </LinkPanel.Title>

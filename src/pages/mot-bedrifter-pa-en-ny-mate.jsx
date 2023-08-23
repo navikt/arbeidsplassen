@@ -62,7 +62,7 @@ export default function MotBedrifterPaEnNyMate() {
                 <BodyLong spacing>Du kan følge sendingen på telefon, PC eller Mac.</BodyLong>
                 <BodyLong className="mb-3">Lykke til på jobbtreff!</BodyLong>
 
-                <LinkPanel className="arb-primary-bg-text arb-link-panel" href="/jobbtreff">
+                <LinkPanel className="arb-link-panel-primary" href="/jobbtreff">
                     <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                         Finn kommende jobbtreff
                     </LinkPanel.Title>

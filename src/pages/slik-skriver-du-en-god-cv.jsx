@@ -155,7 +155,7 @@ export default function SlikSkriverDuEnGodCv() {
                     </li>
                 </ul>
 
-                <LinkPanel className="arb-primary-bg-text arb-link-panel" href="/cv">
+                <LinkPanel className="arb-link-panel-primary" href="/cv">
                     <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                         Opprett en CV
                     </LinkPanel.Title>

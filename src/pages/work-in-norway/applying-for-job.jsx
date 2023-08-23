@@ -50,7 +50,7 @@ export default function ApplyingForJob() {
                         </Heading>
                         <div className="article-link-panel-container mb-3">
                             <LinkPanel
-                                className="arb-tertiary-bg-text arb-link-panel"
+                                className="arb-link-panel-tertiary"
                                 href="/slik-skriver-du-en-god-cv"
                                 hrefLang="no"
                             >
@@ -59,7 +59,7 @@ export default function ApplyingForJob() {
                                 </LinkPanel.Title>
                             </LinkPanel>
                             <LinkPanel
-                                className="arb-tertiary-bg-text arb-link-panel"
+                                className="arb-link-panel-tertiary"
                                 href="/superrask-soknad-person"
                                 hrefLang="no"
                             >
@@ -67,11 +67,7 @@ export default function ApplyingForJob() {
                                     {t("1-link-panels.2-title")}
                                 </LinkPanel.Title>
                             </LinkPanel>
-                            <LinkPanel
-                                className="arb-tertiary-bg-text arb-link-panel"
-                                href="/tips-til-jobbsoknaden"
-                                hrefLang="no"
-                            >
+                            <LinkPanel className="arb-link-panel-tertiary" href="/tips-til-jobbsoknaden" hrefLang="no">
                                 <LinkPanel.Title className="navds-heading--small">
                                     {t("1-link-panels.3-title")}
                                 </LinkPanel.Title>
@@ -130,7 +126,7 @@ export default function ApplyingForJob() {
                         </Heading>
                         <div className="article-link-panel-container mb-3">
                             <LinkPanel
-                                className="arb-tertiary-bg-text arb-link-panel"
+                                className="arb-link-panel-tertiary"
                                 href="https://hkdir.no/en/foreign-education/lists-and-databases/regulated-professions"
                             >
                                 <LinkPanel.Title className="navds-heading--small">
@@ -138,7 +134,7 @@ export default function ApplyingForJob() {
                                 </LinkPanel.Title>
                             </LinkPanel>
                             <LinkPanel
-                                className="arb-tertiary-bg-text arb-link-panel"
+                                className="arb-link-panel-tertiary"
                                 href="https://hkdir.no/en/foreign-education/education-from-outside-of-norway/recognition-of-foreign-higher-education-bachelor-master-and-phd/automatic-recognition-a-quicker-alternative"
                             >
                                 <LinkPanel.Title className="navds-heading--small">
@@ -146,7 +142,7 @@ export default function ApplyingForJob() {
                                 </LinkPanel.Title>
                             </LinkPanel>
                             <LinkPanel
-                                className="arb-tertiary-bg-text arb-link-panel"
+                                className="arb-link-panel-tertiary"
                                 href="https://hkdir.no/en/foreign-education/education-from-outside-of-norway/recognition-of-foreign-higher-education-bachelor-master-and-phd/how-to-apply-foreign-higher-education"
                                 hrefLang="en"
                             >
@@ -155,7 +151,7 @@ export default function ApplyingForJob() {
                                 </LinkPanel.Title>
                             </LinkPanel>
                             <LinkPanel
-                                className="arb-tertiary-bg-text arb-link-panel"
+                                className="arb-link-panel-tertiary"
                                 href="https://hkdir.no/en/foreign-education/education-from-outside-of-norway/recognition-of-foreign-tertiary-vocational-education/how-to-apply-tertiary-vocational-education"
                                 hrefLang="en"
                             >
@@ -176,7 +172,7 @@ export default function ApplyingForJob() {
                         </Heading>
                         <div className="article-link-panel-container mb-3">
                             <LinkPanel
-                                className="arb-tertiary-bg-text arb-link-panel"
+                                className="arb-link-panel-tertiary"
                                 href="https://www.nav.no/finn-jobbene#registrer-cv-en-flere-steder"
                                 hrefLang="no"
                             >

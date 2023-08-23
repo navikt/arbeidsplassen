@@ -51,7 +51,7 @@ export default function StartingANewJob() {
                         </Heading>
                         <div className="article-link-panel-container mb-3">
                             <LinkPanel
-                                className="arb-tertiary-bg-text arb-link-panel"
+                                className="arb-link-panel-tertiary"
                                 href="https://www.finansportalen.no/bank/dagligbank/"
                                 hrefLang="no"
                             >
@@ -60,7 +60,7 @@ export default function StartingANewJob() {
                                 </LinkPanel.Title>
                             </LinkPanel>
                             <LinkPanel
-                                className="arb-tertiary-bg-text arb-link-panel"
+                                className="arb-link-panel-tertiary"
                                 href="https://www.skatteetaten.no/en/person/foreign/are-you-intending-to-work-in-norway/tax-deduction-cards"
                                 hrefLang="en"
                             >
@@ -69,7 +69,7 @@ export default function StartingANewJob() {
                                 </LinkPanel.Title>
                             </LinkPanel>
                             <LinkPanel
-                                className="arb-tertiary-bg-text arb-link-panel"
+                                className="arb-link-panel-tertiary"
                                 href="https://www.arbeidstilsynet.no/en/working-conditions/contract-of-employment/"
                                 hrefLang="en"
                             >
@@ -109,7 +109,7 @@ export default function StartingANewJob() {
                             {t("h3-news-articles", { ns: "work-in-norway" })}
                         </Heading>
                         <div className="article-link-panel-container mb-3">
-                            <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href={t("2-link-panel.link")}>
+                            <LinkPanel className="arb-link-panel-tertiary" href={t("2-link-panel.link")}>
                                 <LinkPanel.Title className="navds-heading--small">
                                     {t("2-link-panel.title")}
                                 </LinkPanel.Title>
@@ -127,7 +127,7 @@ export default function StartingANewJob() {
                         </Heading>
                         <div className="article-link-panel-container mb-3">
                             <LinkPanel
-                                className="arb-tertiary-bg-text arb-link-panel"
+                                className="arb-link-panel-tertiary"
                                 href="https://www.nav.no/en/home/benefits-and-services/Sickness-benefit-for-employees"
                                 hrefLang="en"
                             >
@@ -158,7 +158,7 @@ export default function StartingANewJob() {
                         </Heading>
                         <div className="article-link-panel-container mb-3">
                             <LinkPanel
-                                className="arb-tertiary-bg-text arb-link-panel"
+                                className="arb-link-panel-tertiary"
                                 href="https://www.altinn.no/en/start-and-run-business/planning-starting/before-start-up/startup-tutorial-for-sole-proprietorships/"
                                 hrefLang="en"
                             >
@@ -177,7 +177,7 @@ export default function StartingANewJob() {
                             {t("h3-news-articles", { ns: "work-in-norway" })}
                         </Heading>
                         <div className="article-link-panel-container mb-3">
-                            <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href={t("5-link-panel.link")}>
+                            <LinkPanel className="arb-link-panel-tertiary" href={t("5-link-panel.link")}>
                                 <LinkPanel.Title className="navds-heading--small">
                                     {t("5-link-panel.title")}
                                 </LinkPanel.Title>

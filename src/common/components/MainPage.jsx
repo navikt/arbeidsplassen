@@ -31,7 +31,7 @@ function MainPage() {
                 </section>
 
                 <div className="arb-link-panel-grid mb-5">
-                    <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href="/jobbtreff">
+                    <LinkPanel className="arb-link-panel-tertiary" href="/jobbtreff">
                         <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                             Se kommende jobbtreff
                         </LinkPanel.Title>
@@ -39,7 +39,7 @@ function MainPage() {
                             Følg en direkte sending fra en bedrift og hør om deres stillinger.
                         </LinkPanel.Description>
                     </LinkPanel>
-                    <LinkPanel className="arb-secondary-bg-text arb-link-panel" href="/cv">
+                    <LinkPanel className="arb-link-panel-secondary" href="/cv">
                         <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                             Skriv din CV
                         </LinkPanel.Title>

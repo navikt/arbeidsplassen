@@ -39,17 +39,17 @@ export default function FindingAJob() {
                             {t("h3-news-articles", { ns: "work-in-norway" })}
                         </Heading>
                         <div className="article-link-panel-container mb-3">
-                            <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href={t("1-link-panels.1-link")}>
+                            <LinkPanel className="arb-link-panel-tertiary" href={t("1-link-panels.1-link")}>
                                 <LinkPanel.Title className="navds-heading--small">
                                     {t("1-link-panels.1-title")}
                                 </LinkPanel.Title>
                             </LinkPanel>
-                            <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href={t("1-link-panels.2-link")}>
+                            <LinkPanel className="arb-link-panel-tertiary" href={t("1-link-panels.2-link")}>
                                 <LinkPanel.Title className="navds-heading--small">
                                     {t("1-link-panels.2-title")}
                                 </LinkPanel.Title>
                             </LinkPanel>
-                            <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href={t("1-link-panels.3-link")}>
+                            <LinkPanel className="arb-link-panel-tertiary" href={t("1-link-panels.3-link")}>
                                 <LinkPanel.Title className="navds-heading--small">
                                     {t("1-link-panels.3-title")}
                                 </LinkPanel.Title>
@@ -86,17 +86,13 @@ export default function FindingAJob() {
                             {t("h3-news-articles", { ns: "work-in-norway" })}
                         </Heading>
                         <div className="article-link-panel-container mb-3">
-                            <LinkPanel
-                                className="arb-tertiary-bg-text arb-link-panel"
-                                href="/stillinger?q=english"
-                                hrefLang="no"
-                            >
+                            <LinkPanel className="arb-link-panel-tertiary" href="/stillinger?q=english" hrefLang="no">
                                 <LinkPanel.Title className="navds-heading--small">
                                     {t("2-link-panels.1-title")}
                                 </LinkPanel.Title>
                             </LinkPanel>
                             <LinkPanel
-                                className="arb-tertiary-bg-text arb-link-panel"
+                                className="arb-link-panel-tertiary"
                                 href="/mot-bedrifter-pa-en-ny-mate"
                                 hrefLang="no"
                             >
@@ -134,7 +130,7 @@ export default function FindingAJob() {
                         </Heading>
                         <div className="article-link-panel-container mb-3">
                             <LinkPanel
-                                className="arb-tertiary-bg-text arb-link-panel"
+                                className="arb-link-panel-tertiary"
                                 href="https://www.nav.no/sok-nav-kontor/en"
                                 hrefLang="en"
                             >
@@ -143,7 +139,7 @@ export default function FindingAJob() {
                                 </LinkPanel.Title>
                             </LinkPanel>
                             <LinkPanel
-                                className="arb-tertiary-bg-text arb-link-panel"
+                                className="arb-link-panel-tertiary"
                                 href="https://www.nav.no/soker-jobb"
                                 hrefLang="no"
                             >
@@ -178,7 +174,7 @@ export default function FindingAJob() {
                             {t("h3-news-articles", { ns: "work-in-norway" })}
                         </Heading>
                         <div className="article-link-panel-container mb-3">
-                            <LinkPanel className="arb-tertiary-bg-text arb-link-panel" href={t("4-link-panel.link")}>
+                            <LinkPanel className="arb-link-panel-tertiary" href={t("4-link-panel.link")}>
                                 <LinkPanel.Title className="navds-heading--small">
                                     {t("4-link-panel.title")}
                                 </LinkPanel.Title>
