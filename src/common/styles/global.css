@@ -66,6 +66,12 @@ body {
     flex-wrap: wrap;
 }
 
+.arb-home-banner {
+    background: var(--arb-peach-100);
+    box-shadow: 0 0 0 100vmax var(--arb-peach-100);
+    clip-path: inset(0 -100vmax);
+}
+
 .arb-home-div-width {
     flex: 3;
 }
