@@ -100,6 +100,7 @@ export default function SporreundersokelseBedrift() {
         <Layout>
             <Head>
                 <title>Spørreundersøkelse - arbeidsplassen.no</title>
+                <meta name="robots" content="noindex,nofollow" />
             </Head>
             <article className="container-small page-margin-top-and-bottom">
                 {!hasSentAnswers ? (
