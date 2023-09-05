@@ -34,14 +34,9 @@ export default function SporreundersokelseBedrift() {
     }
 
     function sendAmplitudeEvent() {
-        trackAmplitudeEvent("Answered survey question", {
-            question: QUESTION_1,
-            answer: question1Answer,
-            ...surveyMetadata,
-        });
-        trackAmplitudeEvent("Answered survey question", {
-            question: QUESTION_2,
-            answer: question2Answer,
+        trackAmplitudeEvent("Answered survey", {
+            [QUESTION_1]: question1Answer,
+            [QUESTION_2]: question2Answer,
             ...surveyMetadata,
         });
     }
