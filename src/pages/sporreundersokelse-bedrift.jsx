@@ -34,9 +34,14 @@ export default function SporreundersokelseBedrift() {
     }
 
     function sendAmplitudeEvent() {
-        trackAmplitudeEvent("Answered survey", {
-            [QUESTION_1]: question1Answer,
-            [QUESTION_2]: question2Answer,
+        trackAmplitudeEvent("Answered survey question", {
+            question: QUESTION_1,
+            answer: question1Answer,
+            ...surveyMetadata,
+        });
+        trackAmplitudeEvent("Answered survey question", {
+            question: QUESTION_2,
+            answer: question2Answer,
             ...surveyMetadata,
         });
     }
@@ -75,6 +80,7 @@ export default function SporreundersokelseBedrift() {
         // To help screen reader users, set focus to h1 when "Thank you" section is shown
         if (hasSentAnswers && thankYouHeadingRef.current) {
             thankYouHeadingRef.current.focus();
+            window.scrollTo(0, 0);
         }
     }, [hasSentAnswers]);
 
