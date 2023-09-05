@@ -14,6 +14,10 @@ on:
 
 jobs:
     build-and-deploy:
+        permissions:
+            packages: write
+            contents: write
+            actions: read
         uses: navikt/pam-deploy/.github/workflows/deploy-dev.yml@v4
         with:
             LANGUAGE: "node"
