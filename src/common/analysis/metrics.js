@@ -41,3 +41,7 @@ function setUserProperties(property, value) {
 export function setAuthenticatedStatus(authenticated) {
     setUserProperties("is_authenticated", authenticated);
 }
+
+export function trackAmplitudeEvent(eventType, eventProperties) {
+    amplitude.track(eventType, eventProperties);
+}
