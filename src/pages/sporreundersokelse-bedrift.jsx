@@ -10,6 +10,7 @@ const QUESTION_2 = "Ville du brukt arbeidsplassen.no neste gang du skal rekrutte
 const QUESTION_2_ID = "ville_du_brukt_arbeidsplassen_no_neste_gang_du_skal_rekruttere";
 
 export default function SporreundersokelseBedrift() {
+    const [surveyMetadata, setSurveyMetadata] = useState({});
     const [question1Answer, setQuestion1Answer] = useState(undefined);
     const [question2Answer, setQuestion2Answer] = useState(undefined);
 
@@ -36,10 +37,12 @@ export default function SporreundersokelseBedrift() {
         trackAmplitudeEvent("Answered survey question", {
             question: QUESTION_1,
             answer: question1Answer,
+            ...surveyMetadata,
         });
         trackAmplitudeEvent("Answered survey question", {
             question: QUESTION_2,
             answer: question2Answer,
+            ...surveyMetadata,
         });
     }
 
@@ -80,18 +83,38 @@ export default function SporreundersokelseBedrift() {
         }
     }, [hasSentAnswers]);
 
+    useEffect(() => {
+        let metadata = {};
+        try {
+            const url = new URL(window.location.href);
+            const searchParams = new URLSearchParams(url.search);
+            if (searchParams.has("f")) {
+                const values = searchParams.get("f").split("");
+                metadata = {
+                    ...metadata,
+                    soknad_ekstern_lenke: values[0] === "1",
+                    soknad_e_post: values[1] === "1",
+                    superrask_soknad: values[2] === "1",
+                };
+            }
+            setSurveyMetadata(metadata);
+        } catch (err) {
+            setSurveyMetadata({});
+        }
+    }, []);
+
     const errorSummaryItems = [];
     if (question1Answer === undefined) {
         errorSummaryItems.push(
             <ErrorSummary.Item key={QUESTION_1_ID} href={`#${QUESTION_1_ID}`}>
-                Spørsmål 1 mangler svar
+                {QUESTION_1}
             </ErrorSummary.Item>,
         );
     }
     if (question2Answer === undefined) {
         errorSummaryItems.push(
             <ErrorSummary.Item key={QUESTION_2_ID} href={`#${QUESTION_2_ID}`}>
-                Spørsmål 2 mangler svar
+                {QUESTION_2}
             </ErrorSummary.Item>,
         );
     }
@@ -116,7 +139,7 @@ export default function SporreundersokelseBedrift() {
                         {isErrorSummaryVisible && (
                             <ErrorSummary
                                 ref={errorSummaryRef}
-                                heading="Ikke alle spørsmålene er besvart"
+                                heading="Du må velge et svar i følgende spørsmål før du sender inn:"
                                 className="mb-2"
                             >
                                 {errorSummaryItems}
@@ -130,7 +153,7 @@ export default function SporreundersokelseBedrift() {
                             onChange={(value) => setQuestion1Answer(value)}
                             error={
                                 isErrorSummaryVisible && question1Answer === undefined
-                                    ? "Dette spørsmålet mangler svar"
+                                    ? `Velg hvor mange av jobbsøkerne som har tatt kontakt som virker aktuelle. Er du usikker kan du velge Vet ikke.`
                                     : undefined
                             }
                         >
@@ -148,7 +171,7 @@ export default function SporreundersokelseBedrift() {
                             onChange={(value) => setQuestion2Answer(value)}
                             error={
                                 isErrorSummaryVisible && question2Answer === undefined
-                                    ? "Dette spørsmålet mangler svar"
+                                    ? "Velg om du ville brukt arbeidsplassen.no neste gang du skal rekruttere. Er du usikker kan du velge Vet ikke."
                                     : undefined
                             }
                         >
