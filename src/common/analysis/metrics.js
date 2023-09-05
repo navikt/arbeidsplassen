@@ -43,6 +43,5 @@ export function setAuthenticatedStatus(authenticated) {
 }
 
 export function trackAmplitudeEvent(eventType, eventProperties) {
-    console.log(eventType, eventProperties);
     amplitude.track(eventType, eventProperties);
 }
