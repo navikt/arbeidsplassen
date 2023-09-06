@@ -34,14 +34,10 @@ export default function SporreundersokelseBedrift() {
     }
 
     function sendAmplitudeEvent() {
-        trackAmplitudeEvent("Answered survey question", {
-            question: QUESTION_1,
-            answer: question1Answer,
-            ...surveyMetadata,
-        });
-        trackAmplitudeEvent("Answered survey question", {
-            question: QUESTION_2,
-            answer: question2Answer,
+        trackAmplitudeEvent("Answered survey", {
+            [QUESTION_1_ID]: question1Answer,
+            [QUESTION_2_ID]: question2Answer,
+            surveyId: "en-kort-sporreundersokelse-bedrift",
             ...surveyMetadata,
         });
     }
