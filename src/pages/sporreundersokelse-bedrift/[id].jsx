@@ -122,6 +122,8 @@ export default function SporreundersokelseBedrift() {
                 });
             } else if (response.status === 404) {
                 setSurveyMetadataFetchStatus("not-found");
+            } else if (response.status === 410) {
+                setSurveyMetadataFetchStatus("gone");
             } else {
                 setSurveyMetadataFetchStatus("error");
             }
@@ -152,7 +154,10 @@ export default function SporreundersokelseBedrift() {
         );
     }
 
-    const disabled = surveyMetadataFetchStatus === "error" || surveyMetadataFetchStatus === "not-found";
+    const disabled =
+        surveyMetadataFetchStatus === "error" ||
+        surveyMetadataFetchStatus === "not-found" ||
+        surveyMetadataFetchStatus === "gone";
 
     return (
         <Layout>
@@ -168,6 +173,7 @@ export default function SporreundersokelseBedrift() {
                 )}
                 {(surveyMetadataFetchStatus === "success" ||
                     surveyMetadataFetchStatus === "not-found" ||
+                    surveyMetadataFetchStatus === "gone" ||
                     surveyMetadataFetchStatus === "error") && (
                     <div>
                         {!hasSentAnswers ? (
@@ -180,7 +186,7 @@ export default function SporreundersokelseBedrift() {
                                     Spørreundersøkelsen er frivillig.
                                 </BodyLong>
 
-                                {surveyMetadataFetchStatus === "not-found" && (
+                                {surveyMetadataFetchStatus === "gone" && (
                                     <Alert variant="warning" className="mb-2">
                                         <BodyShort spacing>
                                             Lenken er ikke lengre gyldig og spørreundersøkelsen kan ikke besvares
@@ -195,13 +201,15 @@ export default function SporreundersokelseBedrift() {
                                     </Alert>
                                 )}
 
-                                {surveyMetadataFetchStatus === "error" && (
+                                {(surveyMetadataFetchStatus === "not-found" ||
+                                    surveyMetadataFetchStatus === "error") && (
                                     <Alert variant="error" className="mb-2">
                                         <Heading size="xsmall" level="2" spacing>
                                             Det har oppstått en feil med spørreundersøkelsen.
                                         </Heading>
                                         <BodyShort spacing>
-                                            Forsøk å laste siden på nytt eller prøv igjen senere.
+                                            Det kan være feil i lenken som førte deg hit. Forsøk å laste siden på nytt
+                                            eller prøv igjen senere.
                                         </BodyShort>
                                         <BodyShort spacing>
                                             Du kan forsatt skrive en tilbakemelding til oss. Tilbakemeldingen din vil
