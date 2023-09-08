@@ -116,14 +116,24 @@ export default function FindingAJob() {
                             </DsLink>{" "}
                             {t("h2-assistance.p1-3")}
                         </BodyLong>
+
+                        <BodyLong>{t("h2-assistance.p2")}</BodyLong>
                         <DsLink href={t("h2-assistance.link-3")} className="mb-2">
                             {t("h2-assistance.link-text-3")}
                         </DsLink>
-                        <BodyLong spacing>{t("h2-assistance.p2")}</BodyLong>
-                        <BodyLong spacing>{t("h2-assistance.p3")}</BodyLong>
+
+                        <BodyLong>{t("h2-assistance.p3")}</BodyLong>
+                        <BodyLong>{t("h2-assistance.p4")}</BodyLong>
                         <DsLink href={t("h2-assistance.link-4")} className="mb-2">
                             {t("h2-assistance.link-text-4")}
                         </DsLink>
+
+                        <BodyLong>{t("h2-assistance.p5")}</BodyLong>
+                        <DsLink href={t("h2-assistance.link-5")} className="mb-2">
+                            {t("h2-assistance.link-text-5")}
+                        </DsLink>
+
+                        <BodyLong spacing>{t("h2-assistance.p6")}</BodyLong>
 
                         <Heading size="small" level="3" spacing>
                             {t("h3-news-articles", { ns: "work-in-norway" })}
