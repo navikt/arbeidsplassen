@@ -97,6 +97,16 @@ export default function SporreundersokelseBedrift() {
         }
     }, [hasSentAnswers]);
 
+    const asBooleanOrUndefined = (value) => {
+        if (value === true || value === "true") {
+            return true;
+        }
+        if (value === false || value === "false") {
+            return false;
+        }
+        return undefined;
+    };
+
     const fetchSurveyMetadata = async () => {
         setSurveyMetadataFetchStatus("loading");
         try {
@@ -105,10 +115,10 @@ export default function SporreundersokelseBedrift() {
                 setSurveyMetadataFetchStatus("success");
                 const data = await response.json();
                 setSurveyMetadata({
-                    hasMultipleAds: data.hasMultipleAds === true || "true",
-                    hasApplicationEmail: data.metadata.hasApplicationEmail === true || "true",
-                    hasApplicationSuperraskSoknad: data.metadata.hasApplicationSuperraskSoknad === true || "true",
-                    hasApplicationUrl: data.metadata.hasApplicationUrl === true || "true",
+                    hasMultipleAds: asBooleanOrUndefined(data.hasMultipleAds),
+                    hasApplicationEmail: asBooleanOrUndefined(data.metadata.hasApplicationEmail),
+                    hasApplicationSuperraskSoknad: asBooleanOrUndefined(data.metadata.hasApplicationSuperraskSoknad),
+                    hasApplicationUrl: asBooleanOrUndefined(data.metadata.hasApplicationUrl),
                 });
             } else if (response.status === 404) {
                 setSurveyMetadataFetchStatus("not-found");
