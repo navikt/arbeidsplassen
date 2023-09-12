@@ -13,7 +13,7 @@ export default function ArticlePagePerson() {
                 <section className="arb-home-section-flex">
                     <section className="arb-home-div-width">
                         <div className="article-page">
-                            <Heading className="mb-4 text-center" size="xlarge" level="1">
+                            <Heading className="mb-16 text-center" size="xlarge" level="1">
                                 Nyttige artikler for jobbsøkere
                             </Heading>
 

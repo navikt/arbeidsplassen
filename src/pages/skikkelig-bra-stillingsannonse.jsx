@@ -21,7 +21,7 @@ export default function SkikkeligBraStillingsannonse() {
                 </Ingress>
             </div>
 
-            <div className="container-medium mb-3">
+            <div className="container-medium mb-12">
                 <img
                     className="article-image"
                     src="/images/stillingsannonse.jpg"
@@ -30,7 +30,7 @@ export default function SkikkeligBraStillingsannonse() {
                 />
             </div>
 
-            <div className="container-small mb-4">
+            <div className="container-small mb-16">
                 <Heading size="large" level="2" spacing>
                     Fang interessen og gjør annonsen lett å lese
                 </Heading>
@@ -38,7 +38,7 @@ export default function SkikkeligBraStillingsannonse() {
                     Mange leser stillingsannonser fra mobilen. Kanskje sitter de på bussen og scroller raskt gjennom
                     dagens nye stillinger. Tenk på det når du lager stillingsannonsen.
                 </BodyLong>
-                <ul className="mb-3">
+                <ul className="mb-12">
                     <li>
                         <BodyLong>Førsteinntrykket er viktig.</BodyLong>
                     </li>
@@ -72,7 +72,7 @@ export default function SkikkeligBraStillingsannonse() {
                     De beste kandidatene velger deg fordi de blir motivert og kan identifisere seg med bedriftens
                     verdier og policy.
                 </BodyLong>
-                <ul className="mb-3">
+                <ul className="mb-12">
                     <li>
                         <BodyLong>Tenk på hva du står for og vis hvordan du skiller deg ut.</BodyLong>
                     </li>
@@ -98,7 +98,7 @@ export default function SkikkeligBraStillingsannonse() {
                     Bruker du maskuline ord slik som «solid utdannelse», «strategisk» og «handlekraftig»? Eller feminine
                     ord slik som «relasjonsorientert», «dialogorientert» og «gode kommunikasjonsevner»?
                 </BodyLong>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Du bør ha et bevisst forhold til de ordene du bruker når du skriver stillingsannonser, ellers kan du
                     faktisk risikere å ikke finne den beste kandidaten til jobben.
                 </BodyLong>
@@ -116,7 +116,7 @@ export default function SkikkeligBraStillingsannonse() {
                     kan by seg for rett person? Du kan styre responsen gjennom ordene du velger og hva du legger vekt
                     på.
                 </BodyLong>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Krever jobben mye reising, eller har spesielle arbeidstider, så husk å oppgi det.
                 </BodyLong>
 
@@ -127,7 +127,7 @@ export default function SkikkeligBraStillingsannonse() {
                 </LinkPanel>
             </div>
 
-            <div className="container-medium mb-6">
+            <div className="container-medium mb-24">
                 <Heading size="large" level="1" spacing>
                     Videre lesning
                 </Heading>

@@ -16,7 +16,7 @@ export default function Sommerjobb() {
                 </Heading>
             </div>
 
-            <div className="container-medium mb-3">
+            <div className="container-medium mb-12">
                 <img
                     className="article-image"
                     src="/images/sommerjobb.png"
@@ -25,13 +25,13 @@ export default function Sommerjobb() {
                 />
             </div>
 
-            <div className="container-small mb-4">
+            <div className="container-small mb-16">
                 <BodyLong spacing>
                     Mange unge trenger å få arbeidserfaring. Kan du være med på å gi dem en sjanse ved å lyse ut én
                     eller flere sommerjobber i år?
                 </BodyLong>
                 <BodyLong>Her har du noen gode argumenter for hvorfor dere bør ta inn sommervikarer:</BodyLong>
-                <ul className="mb-3">
+                <ul className="mb-12">
                     <li>
                         <BodyLong>
                             Arbeidserfaring blir mer og mer viktig. Derfor kan en relevant sommerjobb se veldig bra ut
@@ -59,7 +59,7 @@ export default function Sommerjobb() {
                     stillinger på arbeidsplassen.no. Vi anbefaler bedrifter å lyse ut stillinger offentlig. Da får flest
                     mulig vite om stillingene. Tjenestene på arbeidsplassen.no er kostnadsfrie.
                 </BodyLong>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     <Link href="/skikkelig-bra-stillingsannonse">
                         Les mer om hvordan du kan lage en treffsikker stillingsannonse.
                     </Link>
@@ -69,7 +69,7 @@ export default function Sommerjobb() {
                     Hvordan skal jobbsøkerne finne nettopp din sommerjobbannonse?
                 </Heading>
                 <BodyLong>Her følger fire tips:</BodyLong>
-                <ol className="mb-3">
+                <ol className="mb-12">
                     <li>
                         <BodyLong>Huk av for "feriejobb" i filter for ansettelsesform.</BodyLong>
                     </li>
@@ -91,7 +91,7 @@ export default function Sommerjobb() {
                     </li>
                 </ol>
 
-                <BodyLong className="mb-3">Lykke til med utlysningen!</BodyLong>
+                <BodyLong className="mb-12">Lykke til med utlysningen!</BodyLong>
 
                 <LinkPanel className="arb-link-panel-primary" href="/stillingsregistrering/stillingsannonser">
                     <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
@@ -100,7 +100,7 @@ export default function Sommerjobb() {
                 </LinkPanel>
             </div>
 
-            <div className="container-medium mb-6">
+            <div className="container-medium mb-24">
                 <Heading size="large" level="1" spacing>
                     Videre lesning
                 </Heading>

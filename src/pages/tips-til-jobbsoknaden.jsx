@@ -21,7 +21,7 @@ export default function TipsTilJobbsoknaden() {
                 </Ingress>
             </div>
 
-            <div className="container-medium mb-3">
+            <div className="container-medium mb-12">
                 <img
                     className="article-image"
                     src="/images/students.jpg"
@@ -30,7 +30,7 @@ export default function TipsTilJobbsoknaden() {
                 />
             </div>
 
-            <div className="container-small mb-4">
+            <div className="container-small mb-16">
                 <Heading size="large" level="2" spacing>
                     Slik skriver du en god jobbsøknad
                 </Heading>
@@ -63,7 +63,7 @@ export default function TipsTilJobbsoknaden() {
                 <Heading size="medium" level="3" spacing>
                     Flere tips
                 </Heading>
-                <ul className="mb-3">
+                <ul className="mb-12">
                     <li>
                         <BodyLong>
                             Dersom du ønsker å ta kontakt med arbeidsgiver i forkant, må du planlegge hva du skal spørre
@@ -101,7 +101,7 @@ export default function TipsTilJobbsoknaden() {
                 <Heading size="large" level="2" spacing>
                     Åpen søknad
                 </Heading>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Er det steder du kunne tenke deg å jobbe? Du kan sende en jobbsøknad selv om arbeidsgiveren ikke har
                     lyst ut noen ledige stillinger. Dette kalles en åpen søknad. En åpen søknad er lik en vanlig søknad,
                     men vær tydelig på hvorfor du ønsker å jobbe akkurat der.
@@ -110,14 +110,14 @@ export default function TipsTilJobbsoknaden() {
                 <Heading size="large" level="2" spacing>
                     Superrask søknad på arbeidsplassen.no
                 </Heading>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     En enda enklere måte å søke på? Sjekk annonser med superrask søknad. Her søker du uten å legge ved
                     CV, men svarer enkelt ut de kvalifikasjonene arbeidsgiver ser etter og formulerer en kort
                     beskrivelse om hvorfor du mener du er rett person for stillingen. En superkort søknadstekst, med
                     andre ord.
                 </BodyLong>
 
-                <BodyLong className="mb-3">Lykke til med jobbsøkingen.</BodyLong>
+                <BodyLong className="mb-12">Lykke til med jobbsøkingen.</BodyLong>
 
                 <LinkPanel className="arb-link-panel-primary" href="/cv">
                     <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
@@ -126,7 +126,7 @@ export default function TipsTilJobbsoknaden() {
                 </LinkPanel>
             </div>
 
-            <div className="container-medium mb-6">
+            <div className="container-medium mb-24">
                 <Heading size="large" level="1" spacing>
                     Videre lesning
                 </Heading>

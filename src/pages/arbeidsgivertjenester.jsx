@@ -44,16 +44,16 @@ export default function arbeidsgivertjenester() {
                 <Heading size="medium" level="3" spacing>
                     Mer hjelp
                 </Heading>
-                <ul className="mb-3">
+                <ul className="mb-12">
                     <li>
-                        <BodyLong className="mb-0_5">
+                        <BodyLong className="mb-2">
                             <NextLink href="/tilgang-som-arbeidsgiver " passHref legacyBehavior>
                                 <DsLink>Hvordan få og gi tilgang som arbeidsgiver</DsLink>
                             </NextLink>
                         </BodyLong>
                     </li>
                     <li>
-                        <BodyLong className="mb-0_5">
+                        <BodyLong className="mb-2">
                             <NextLink href="/tilgangsstyring-i-store-virksomheter " passHref legacyBehavior>
                                 <DsLink>Tilgangsstyring i store virksomheter</DsLink>
                             </NextLink>
@@ -68,7 +68,7 @@ export default function arbeidsgivertjenester() {
                     Det er kun <strong>norske virksomheter som kan bruke innloggede tjenester</strong> på
                     arbeidsplassen.no.
                 </BodyLong>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Hvis du er en utenlandsk virksomhet som ønsker hjelp til å rekruttere medarbeidere fra Norge,
                     publisere en stilling i Den Europeiske Jobbmobilitetsportalen eller i et enkelt EU/EØS-land eller
                     Sveits, skal du ta kontakt med den offentlige arbeidsformidlingen (EURES) i hjemlandet ditt. Les mer
@@ -83,7 +83,7 @@ export default function arbeidsgivertjenester() {
                     Hvis du ønsker å rekruttere fra EU/EØS og Sveits, kan du søke etter kandidater i Den Europeiske
                     Jobbmobilitetsportalen.
                 </BodyLong>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Har du spørsmål om publisering av stilling i{" "}
                     <DsLink href="https://eures.ec.europa.eu/index_en">Den Europeiske Jobbmobilitetsportalen</DsLink>{" "}
                     eller i et enkelt EU/EØS-land, ta kontakt med NAV Kontaktsenter EURES på{" "}

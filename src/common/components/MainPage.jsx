@@ -5,7 +5,7 @@ import ImageLinkPanelSmall from "@/src/common/components/ImageLinkPanelSmall";
 
 function MainPage() {
     return (
-        <div className="container-large page-margin-top-and-bottom mb-3">
+        <div className="container-large page-margin-top-and-bottom mb-12">
             <section className="arb-home-section-flex">
                 <div className="arb-home-div-width">
                     <Heading size="xlarge" level="1" spacing className="jumbo-h1">
@@ -17,7 +17,7 @@ function MainPage() {
                         alle bransjer i markedet.
                     </Ingress>
 
-                    <div className="mb-4">
+                    <div className="mb-16">
                         <Button variant="primary" as="a" href="/stillinger">
                             Søk etter din neste jobb
                         </Button>
@@ -52,7 +52,7 @@ function MainPage() {
                 <InformationUkraine />
             </div>
 
-            <div className="image-link-panel-grid-small mb-6">
+            <div className="image-link-panel-grid-small mb-24">
                 <ImageLinkPanelSmall
                     href="/superrask-soknad-person"
                     image="/images/jobbsoker.jpg"

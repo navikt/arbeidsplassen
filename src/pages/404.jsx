@@ -10,7 +10,7 @@ export default function Custom404() {
                 <title>Fant ikke siden - arbeidsplassen.no</title>
             </Head>
             <div className="container-small page-margin-top-and-bottom text-center">
-                <ConfusedGrape className="mb-2" ariaHidden="true" />
+                <ConfusedGrape className="mb-8" ariaHidden="true" />
                 <Heading spacing size="large" level="1">
                     Fant ikke siden
                 </Heading>

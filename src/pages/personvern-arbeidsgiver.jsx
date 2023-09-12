@@ -12,7 +12,7 @@ export default function personvernArbeidsgiver() {
             </Head>
             <article className="container-small page-margin-top-and-bottom">
                 <NextLink href="/personvern" passHref legacyBehavior>
-                    <DsLink className="mb-2">
+                    <DsLink className="mb-8">
                         <ChevronLeftIcon aria-hidden="true" />
                         Til personvernserklæring
                     </DsLink>
@@ -20,12 +20,12 @@ export default function personvernArbeidsgiver() {
                 <Heading size="xlarge" level="1" spacing>
                     Personvernerklæring for deg som representerer en arbeidsgiver
                 </Heading>
-                <BodyLong className="mb-2">Sist endret 1. februar 2022</BodyLong>
+                <BodyLong className="mb-8">Sist endret 1. februar 2022</BodyLong>
 
                 <Heading size="large" level="2" spacing>
                     Innhold
                 </Heading>
-                <ul className="mb-3">
+                <ul className="mb-12">
                     <li>
                         <BodyLong>
                             <DsLink href="#information">Hvilke personopplysninger samler vi inn?</DsLink>
@@ -98,14 +98,14 @@ export default function personvernArbeidsgiver() {
                     IP- adresse til arbeidsgivers representanter behandles når jobbtreffet avholdes i Pexip
                     videoløsning. Her samles også informasjon om navn på jobbtreffet og hvor lenge det har vart.
                 </BodyLong>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Videofremvisning hvor representant for arbeidsgiver presenterer bedrift/stilling. Denne
                     personinformasjonen kan være muntlig og skriftlig og er typisk kontaktinformasjon til personer i
                     bedriften ved spørsmål om stillingen eller søknad. Videoene strømmes kun i forbindelse med
                     videotreffet og lagres ikke i etterkant av jobbtreffet.
                 </BodyLong>
 
-                <Heading className="mb-2" size="large" level="2" id="goals">
+                <Heading className="mb-8" size="large" level="2" id="goals">
                     Hvilke formål brukes personopplysningene til?
                 </Heading>
                 <Heading size="medium" level="3" spacing>
@@ -121,7 +121,7 @@ export default function personvernArbeidsgiver() {
                 <Heading size="medium" level="3" spacing>
                     Statistikk og kunnskap om arbeidsmarkedet
                 </Heading>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     NAV benytter opplysningene fra arbeidsplassen.no til å utvikle statistikk og kunnskap om
                     arbeidsmarkedet. Les mer i{" "}
                     <DsLink href="https://www.nav.no/personvernerklaering#chapter-3">NAVs personvernerklæring.</DsLink>
@@ -142,7 +142,7 @@ export default function personvernArbeidsgiver() {
                     Lagring av IP-adresse, navn og lengde på jobbtreffet lagres i Pexip videoløsning i opptil tre
                     måneder etter jobbtreffdato. Deretter blir de slettet.
                 </BodyLong>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Videopresentasjonen ved bruk av jobbtreff lagres ikke i etterkant av jobbtreffet.
                 </BodyLong>
 
@@ -161,7 +161,7 @@ export default function personvernArbeidsgiver() {
                     jobbsøkere i arbeid.
                 </BodyLong>
                 <BodyLong>Eksempler på behandling basert på offentlig myndighetsutøvelse:</BodyLong>
-                <ul className="mb-3">
+                <ul className="mb-12">
                     <li>
                         <BodyLong>Bistå arbeidsgivere med å skaffe arbeidskraft</BodyLong>
                     </li>
@@ -209,7 +209,7 @@ export default function personvernArbeidsgiver() {
                 <Heading size="medium" level="3" spacing>
                     Våre databehandlere
                 </Heading>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     For å kunne tilby våre tjenester på arbeidsplassen.no benytter vi databehandlere, som innebærer at
                     vi deler dine personopplysninger med disse. Dette gjelder for eksempel IT-leverandører som har
                     avtaler med NAV. For å lese mer om dette, se{" "}

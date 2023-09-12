@@ -12,7 +12,7 @@ export default function tilgangsstyringIStoreVirksomheter() {
             </Head>
             <article className="container-small page-margin-top-and-bottom">
                 <NextLink href="/arbeidsgivertjenester" passHref legacyBehavior>
-                    <DsLink className="mb-2">
+                    <DsLink className="mb-8">
                         <ChevronLeftIcon aria-hidden="true" />
                         Tilbake
                     </DsLink>
@@ -37,7 +37,7 @@ export default function tilgangsstyringIStoreVirksomheter() {
                     </li>
                 </ul>
                 <BodyLong spacing>Lurer du fortsatt på noe, kan du ringe Altinn brukerstøtte på 75 00 60 00.</BodyLong>
-                <Alert variant="info" className="mb-3">
+                <Alert variant="info" className="mb-12">
                     <BodyLong>
                         For at du eller en kollega skal kunne benytte NAVs rekrutteringstjeneste på vegne av
                         virksomheten, må dere ha enkeltrettigheten Rekruttering, eller Altinn-rolle Lønn og

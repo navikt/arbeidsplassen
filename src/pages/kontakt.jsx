@@ -16,7 +16,7 @@ export default function kontaktOss() {
                 <Heading size="medium" level="2" spacing>
                     Jobbsøker
                 </Heading>
-                <ul className="mb-1">
+                <ul className="mb-4">
                     <li>
                         <BodyLong>
                             Se vår{" "}

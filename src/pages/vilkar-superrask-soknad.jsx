@@ -12,7 +12,7 @@ export default function personvernSuperraskSoknad() {
             </Head>
             <article className="container-small page-margin-top-and-bottom">
                 <NextLink href="/vilkar-og-retningslinjer" passHref legacyBehavior>
-                    <DsLink className="mb-2">
+                    <DsLink className="mb-8">
                         <ChevronLeftIcon aria-hidden="true" />
                         Til Vilkår og retningslinjer
                     </DsLink>
@@ -21,7 +21,7 @@ export default function personvernSuperraskSoknad() {
                 <Heading size="xlarge" level="1" spacing>
                     Vilkår for bruk av superrask søknad
                 </Heading>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Personopplysninger som du mottar fra jobbsøkere i “superrask søknad” kan kun brukes så lenge
                     formålet er å bemanne og rekruttere til en konkret stilling.
                 </BodyLong>
@@ -29,7 +29,7 @@ export default function personvernSuperraskSoknad() {
                     Det er ikke tillatt å bruke mottatte personopplysninger til andre formål, <br />
                     slik som å
                 </BodyLong>
-                <ul className="mb-3">
+                <ul className="mb-12">
                     <li>
                         <BodyLong>
                             bruke opplysninger i forbindelse med salg eller markedsføring av varer eller tjenester
@@ -43,7 +43,7 @@ export default function personvernSuperraskSoknad() {
                     </li>
                 </ul>
 
-                <BodyLong className="mb-6">NAV vil følge opp brudd på disse vilkårene hvis det forekommer.</BodyLong>
+                <BodyLong className="mb-24">NAV vil følge opp brudd på disse vilkårene hvis det forekommer.</BodyLong>
             </article>
         </Layout>
     );

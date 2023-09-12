@@ -21,14 +21,14 @@ export default function overforingAvStillingsannonser() {
                 </Ingress>
             </div>
 
-            <div className="container-medium mb-3">
+            <div className="container-medium mb-12">
                 <img className="article-image" src="/images/api.png" alt="API, illustrasjon" width="100%" />
             </div>
-            <div className="container-small mb-4">
+            <div className="container-small mb-16">
                 <Heading size="large" level="2" spacing>
                     Hvorfor er det bra å publisere stillinger til arbeidsplassen.no?
                 </Heading>
-                <ul className="mb-3">
+                <ul className="mb-12">
                     <li>
                         <BodyLong>
                             Nå flest mulig relevante kandidater: Stillingssøket på arbeidsplassen.no har over 100.000
@@ -68,7 +68,7 @@ export default function overforingAvStillingsannonser() {
                     tekniske tilpasninger på deres sider for at deres annonser skal bli elektronisk overført til
                     arbeidsplassen.no. Vår tjeneste, en såkalt import API, gjør dette mulig.
                 </BodyLong>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     <b>For etablerte samarbeidspartnere:</b> Arbeidsplassen.no vil også tilby etablerte
                     samarbeidspartnere å gå over fra nåværende teknologi til den nye teknologien (API-et), og vi er i en
                     tidlig dialog med flere samarbeidspartnere om dette.
@@ -81,7 +81,7 @@ export default function overforingAvStillingsannonser() {
                     API (Application Programming Interface) er et hjelpeverktøy som gjør at to IT-systemer eller
                     dataprogrammer kan utveksle strukturert informasjon og samhandle med hverandre.
                 </BodyLong>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Gjennom dette grensesnittet kan utenforstående programmer gjøre endringer, kjøre prosesser og
                     behandle data i et annet program. NAV tilbyr et API som muliggjør automatisk overføring av data fra
                     samarbeidpartnerer sine sider for stillingsutlysninger direkte til arbeidsplassen.no
@@ -108,7 +108,7 @@ export default function overforingAvStillingsannonser() {
                 </BodyLong>
             </div>
 
-            <div className="container-medium mb-6">
+            <div className="container-medium mb-24">
                 <Heading size="large" level="1" spacing>
                     Videre lesning
                 </Heading>

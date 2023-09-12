@@ -16,7 +16,7 @@ export default function ApplyingForJob() {
             <div className="ukraine-page">
                 <div className="green-box container-large">
                     <div className="green-box-inner">
-                        <Heading size="small" level="1" className="mb-0_25">
+                        <Heading size="small" level="1" className="mb-1">
                             {t("applying-for-a-job-title", { ns: "work-in-norway" })}
                         </Heading>
                         <BodyShort>{t("ukrainian-work-in-norway-title", { ns: "work-in-norway" })}</BodyShort>
@@ -48,7 +48,7 @@ export default function ApplyingForJob() {
                         <Heading size="small" level="3" spacing>
                             {t("h3-news-articles", { ns: "work-in-norway" })}
                         </Heading>
-                        <div className="article-link-panel-container mb-3">
+                        <div className="article-link-panel-container mb-12">
                             <LinkPanel
                                 className="arb-link-panel-tertiary"
                                 href="/slik-skriver-du-en-god-cv"
@@ -92,7 +92,7 @@ export default function ApplyingForJob() {
                             </DsLink>{" "}
                             {t("h3-reg-prof.p-2")}
                         </BodyLong>
-                        <DsLink href={t("h3-reg-prof.link")} className="mb-2">
+                        <DsLink href={t("h3-reg-prof.link")} className="mb-8">
                             {t("h3-reg-prof.link-text")}
                         </DsLink>
 
@@ -101,7 +101,7 @@ export default function ApplyingForJob() {
                         </Heading>
                         <BodyLong spacing>{t("h3-rec-of-edu.p")}</BodyLong>
                         <ul className="foreign-edu-list">
-                            <li className="mb-1">
+                            <li className="mb-4">
                                 <DsLink
                                     href="https://hkdir.no/en/foreign-education/education-from-outside-of-norway/recognition-of-foreign-higher-education-bachelor-master-and-phd"
                                     hrefLang="en"
@@ -109,7 +109,7 @@ export default function ApplyingForJob() {
                                     {t("h3-rec-of-edu.1-link-title")}
                                 </DsLink>
                             </li>
-                            <li className="mb-1">
+                            <li className="mb-4">
                                 <DsLink
                                     href="https://hkdir.no/en/foreign-education/education-from-outside-of-norway/recognition-of-foreign-tertiary-vocational-education"
                                     hrefLang="en"
@@ -117,7 +117,7 @@ export default function ApplyingForJob() {
                                     {t("h3-rec-of-edu.2-link-title")}
                                 </DsLink>
                             </li>
-                            <li className="mb-1">
+                            <li className="mb-4">
                                 <DsLink href={t("h3-rec-of-edu.3-link")}>{t("h3-rec-of-edu.3-link-title")}</DsLink>
                             </li>
                             <li>
@@ -133,7 +133,7 @@ export default function ApplyingForJob() {
                         <Heading size="small" level="3" spacing>
                             {t("h3-news-articles", { ns: "work-in-norway" })}
                         </Heading>
-                        <div className="article-link-panel-container mb-3">
+                        <div className="article-link-panel-container mb-12">
                             <LinkPanel
                                 className="arb-link-panel-tertiary"
                                 href="https://hkdir.no/en/foreign-education/lists-and-databases/regulated-professions"
@@ -179,7 +179,7 @@ export default function ApplyingForJob() {
                         <Heading size="small" level="3" spacing>
                             {t("h3-news-articles", { ns: "work-in-norway" })}
                         </Heading>
-                        <div className="article-link-panel-container mb-3">
+                        <div className="article-link-panel-container mb-12">
                             <LinkPanel
                                 className="arb-link-panel-tertiary"
                                 href="https://www.nav.no/finn-jobbene#registrer-cv-en-flere-steder"

@@ -46,7 +46,7 @@ export default function WorkInNorway() {
 
                 <Ingress spacing>{t("description")}</Ingress>
 
-                <Chips className="mb-3">
+                <Chips className="mb-12">
                     <Chips.Toggle
                         selected={selectedLanguage === lngEnglish}
                         key={lngEnglish}

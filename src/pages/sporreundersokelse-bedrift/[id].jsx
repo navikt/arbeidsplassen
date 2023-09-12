@@ -181,13 +181,13 @@ export default function SporreundersokelseBedrift() {
                                 <Heading spacing size="large" level="1">
                                     En meget kort spørreundersøkelse for deg som nylig har rekruttert
                                 </Heading>
-                                <BodyLong className="mb-2">
+                                <BodyLong className="mb-8">
                                     Vi vil gjerne vite hvordan vi kan forbedre opplevelsen din til neste gang.
                                     Spørreundersøkelsen er frivillig.
                                 </BodyLong>
 
                                 {surveyMetadataFetchStatus === "gone" && (
-                                    <Alert variant="warning" className="mb-2">
+                                    <Alert variant="warning" className="mb-8">
                                         <BodyShort spacing>
                                             Lenken er ikke lengre gyldig og spørreundersøkelsen kan ikke besvares
                                         </BodyShort>
@@ -203,7 +203,7 @@ export default function SporreundersokelseBedrift() {
 
                                 {(surveyMetadataFetchStatus === "not-found" ||
                                     surveyMetadataFetchStatus === "error") && (
-                                    <Alert variant="error" className="mb-2">
+                                    <Alert variant="error" className="mb-8">
                                         <Heading size="xsmall" level="2" spacing>
                                             Det har oppstått en feil med spørreundersøkelsen.
                                         </Heading>
@@ -225,7 +225,7 @@ export default function SporreundersokelseBedrift() {
                                     <ErrorSummary
                                         ref={errorSummaryRef}
                                         heading="Du må velge et svar i følgende spørsmål før du sender inn:"
-                                        className="mb-2"
+                                        className="mb-8"
                                     >
                                         {errorSummaryItems}
                                     </ErrorSummary>
@@ -235,7 +235,7 @@ export default function SporreundersokelseBedrift() {
                                     disabled={disabled}
                                     id={QUESTION_1_ID}
                                     legend={QUESTION_1}
-                                    className="mb-2"
+                                    className="mb-8"
                                     onChange={(value) => setQuestion1Answer(value)}
                                     error={
                                         isErrorSummaryVisible && question1Answer === undefined
@@ -254,7 +254,7 @@ export default function SporreundersokelseBedrift() {
                                     disabled={disabled}
                                     id={QUESTION_2_ID}
                                     legend={QUESTION_2}
-                                    className="mb-2"
+                                    className="mb-8"
                                     onChange={(value) => setQuestion2Answer(value)}
                                     error={
                                         isErrorSummaryVisible && question2Answer === undefined
@@ -285,10 +285,10 @@ export default function SporreundersokelseBedrift() {
                                 <BodyLong spacing>
                                     Uten tilbakemeldingen din ville vi ikke klart å lage bedre tjenester.
                                 </BodyLong>
-                                <Heading size="small" level="2" className="mb-0_5">
+                                <Heading size="small" level="2" className="mb-2">
                                     Er noe du savner eller synes kunne vært bedre?
                                 </Heading>
-                                <BodyLong className="mb-0_5">
+                                <BodyLong className="mb-2">
                                     Vi setter stor pris på å høre mer om hvordan vi kan forbedre tjenestene våre for
                                     deg. Tilbakemeldingen din vil være anonym.
                                 </BodyLong>

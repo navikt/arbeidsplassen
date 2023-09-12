@@ -18,7 +18,7 @@ export default function SommerjobbJobbsoker() {
                 <Ingress>Vi har gjort det ekstra enkelt for deg å finne sommerjobber i hele landet.</Ingress>
             </div>
 
-            <div className="container-medium mb-3">
+            <div className="container-medium mb-12">
                 <img
                     className="article-image article-image-pos"
                     src="/images/sommerjobb-jobbsoker.jpg"
@@ -27,13 +27,13 @@ export default function SommerjobbJobbsoker() {
                 />
             </div>
 
-            <div className="container-small mb-4">
+            <div className="container-small mb-16">
                 <BodyLong spacing>
                     Arbeidsgivere registrerer daglig ledige stillinger på arbeidsplassen.no. I tillegg henter vi
                     automatisk inn stillinger fra mange nettsteder, og vi gir deg en samlet oversikt over det vi finner.
                     Enkelt og greit!
                 </BodyLong>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     <DsLink href="/stillinger?q=sommerjobb">Her finner du sommerjobber</DsLink>
                 </BodyLong>
 
@@ -73,7 +73,7 @@ export default function SommerjobbJobbsoker() {
                     Det er mange jobber som ikke blir lyst ut på nettstedene. Ta deg derfor en runde og ring på dørene
                     hos bedriftene og spør om de trenger hjelp i sommer.
                 </BodyLong>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Sjekk flere jobbsøkertips på{" "}
                     <DsLink href="https://www.nav.no/kom-i-gang-som-jobbsoker">nav.no</DsLink>
                 </BodyLong>
@@ -85,7 +85,7 @@ export default function SommerjobbJobbsoker() {
                 </LinkPanel>
             </div>
 
-            <div className="container-medium mb-6">
+            <div className="container-medium mb-24">
                 <Heading size="large" level="1" spacing>
                     Videre lesning
                 </Heading>

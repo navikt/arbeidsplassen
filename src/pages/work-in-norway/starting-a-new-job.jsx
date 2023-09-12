@@ -16,7 +16,7 @@ export default function StartingANewJob() {
             <div className="ukraine-page">
                 <div className="green-box container-large">
                     <div className="green-box-inner">
-                        <Heading size="small" level="1" className="mb-0_25">
+                        <Heading size="small" level="1" className="mb-1">
                             {t("starting-a-new-job-title", { ns: "work-in-norway" })}
                         </Heading>
                         <BodyShort>{t("ukrainian-work-in-norway-title", { ns: "work-in-norway" })}</BodyShort>
@@ -49,7 +49,7 @@ export default function StartingANewJob() {
                         <Heading size="small" level="3" spacing>
                             {t("h3-news-articles", { ns: "work-in-norway" })}
                         </Heading>
-                        <div className="article-link-panel-container mb-3">
+                        <div className="article-link-panel-container mb-12">
                             <LinkPanel
                                 className="arb-link-panel-tertiary"
                                 href="https://www.finansportalen.no/bank/dagligbank/"
@@ -100,7 +100,7 @@ export default function StartingANewJob() {
                         <DsLink
                             hrefLang="uk"
                             href="https://www.youtube.com/playlist?list=PLcQRxNrcK73GjDweZyUUjSJRTFUWDJQzq"
-                            className="mb-2"
+                            className="mb-8"
                         >
                             {t("h2-rights.link-title")}
                         </DsLink>
@@ -108,7 +108,7 @@ export default function StartingANewJob() {
                         <Heading size="small" level="3" spacing>
                             {t("h3-news-articles", { ns: "work-in-norway" })}
                         </Heading>
-                        <div className="article-link-panel-container mb-3">
+                        <div className="article-link-panel-container mb-12">
                             <LinkPanel className="arb-link-panel-tertiary" href={t("2-link-panel.link")}>
                                 <LinkPanel.Title className="navds-heading--small">
                                     {t("2-link-panel.title")}
@@ -125,7 +125,7 @@ export default function StartingANewJob() {
                         <Heading size="small" level="3" spacing>
                             {t("h3-news-articles", { ns: "work-in-norway" })}
                         </Heading>
-                        <div className="article-link-panel-container mb-3">
+                        <div className="article-link-panel-container mb-12">
                             <LinkPanel
                                 className="arb-link-panel-tertiary"
                                 href="https://www.nav.no/en/home/benefits-and-services/Sickness-benefit-for-employees"
@@ -156,7 +156,7 @@ export default function StartingANewJob() {
                         <Heading size="small" level="3" spacing>
                             {t("h3-news-articles", { ns: "work-in-norway" })}
                         </Heading>
-                        <div className="article-link-panel-container mb-3">
+                        <div className="article-link-panel-container mb-12">
                             <LinkPanel
                                 className="arb-link-panel-tertiary"
                                 href="https://www.altinn.no/en/start-and-run-business/planning-starting/before-start-up/startup-tutorial-for-sole-proprietorships/"
@@ -176,7 +176,7 @@ export default function StartingANewJob() {
                         <Heading size="small" level="3" spacing>
                             {t("h3-news-articles", { ns: "work-in-norway" })}
                         </Heading>
-                        <div className="article-link-panel-container mb-3">
+                        <div className="article-link-panel-container mb-12">
                             <LinkPanel className="arb-link-panel-tertiary" href={t("5-link-panel.link")}>
                                 <LinkPanel.Title className="navds-heading--small">
                                     {t("5-link-panel.title")}

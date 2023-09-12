@@ -12,7 +12,7 @@ export default function retningslinjerStillingsannonser() {
             </Head>
             <article className="container-small page-margin-top-and-bottom">
                 <NextLink href="/vilkar-og-retningslinjer" passHref legacyBehavior>
-                    <DsLink className="mb-2">
+                    <DsLink className="mb-8">
                         <ChevronLeftIcon aria-hidden="true" />
                         Til Vilkår og retningslinjer
                     </DsLink>
@@ -25,7 +25,7 @@ export default function retningslinjerStillingsannonser() {
                 <Heading size="large" level="2" spacing>
                     1. Innledning
                 </Heading>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Formålet med disse retningslinjene er å bidra til å kvalitetssikre NAVs stillingsbase, slik at NAV
                     best mulig kan fylle sin oppgave som møtested for arbeidsgivere og arbeidssøkere. Retningslinjene
                     angir generelle krav til innhold i stillingsannonser som registreres i NAVs stillingsbase og
@@ -53,7 +53,7 @@ export default function retningslinjerStillingsannonser() {
                         <BodyLong>er ansvarlig for arbeidsmiljøet arbeidstakeren oppholder seg i</BodyLong>
                     </li>
                 </ul>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Arbeidsgivere kan ikke kreve noen form for avgift eller annet vederlag fra arbeidssøkere for tilbud
                     om ansettelse.
                 </BodyLong>
@@ -73,7 +73,7 @@ export default function retningslinjerStillingsannonser() {
                     generelt grunnlag, uten at det foreligger noen konkret ledig stilling. Slike annonser kan ikke
                     registreres i NAVs stillingsbase.
                 </BodyLong>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Hvis et bemanningsforetak/rekrutteringsbyrå annonserer etter arbeidskraft på arbeidsplassen.no på
                     vegne av en anonym kunde/arbeidsgiver, kan NAV kreve at bemanningsforetaket/rekrutteringsbyrået
                     oppgir til NAV hvem som faktisk skal være arbeidsgiver (men arbeidsgiver får fortsatt være anonym i
@@ -85,7 +85,7 @@ export default function retningslinjerStillingsannonser() {
                 <Heading size="large" level="2" spacing>
                     4. Renholdsvirksomheter
                 </Heading>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Renholdsvirksomheter som driver virksomhet i Norge må være godkjent av Arbeidstilsynet, jf.
                     «Forskrift om offentlig godkjenning av renholdsvirksomheter og kjøp av renholdstjenester» § 3. For
                     at annonser fra renholdsvirksomheter skal kunne registreres i NAVs stillingsbase er det en
@@ -95,7 +95,7 @@ export default function retningslinjerStillingsannonser() {
                 <Heading size="large" level="2" spacing>
                     5. Virksomheter som tilbyr bilpleie, hjulskift og hjullagring
                 </Heading>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Virksomheter som tilbyr tjenester som bilpleie, hjulskift og hjullagring må være godkjent av
                     Arbeidstilsynet jf. «Forskrift om offentlig godkjenning av virksomheter som tilbyr bilpleie,
                     hjulskift og hjullagring, og om kjøp av slike tjenester» § 1-4 og § 4-1. For at annonser fra
@@ -117,7 +117,7 @@ export default function retningslinjerStillingsannonser() {
                 <Heading size="medium" level="3" spacing>
                     Unntak for helsepersonell
                 </Heading>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Annonser som gjelder helsepersonell med offentlig driftsavtale kan registreres i NAVs stillingsbase
                     og publiseres på arbeidsplassen.no, selv om den som besetter stillingen får status som
                     næringsdrivende.
@@ -143,7 +143,7 @@ export default function retningslinjerStillingsannonser() {
                 <Heading size="medium" level="3" spacing>
                     Formuleringer som fremmer mangfold
                 </Heading>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Diskrimineringsforbudet i loven er ikke til hinder for at det i stillingsannonser brukes
                     formuleringer som kan fremme et personalpolitisk mål om at arbeidsstyrken i størst mulig grad skal
                     gjenspeile mangfoldet i befolkningen. I tilfeller hvor et kjønn er underrepresentert i bedriften
@@ -157,7 +157,7 @@ export default function retningslinjerStillingsannonser() {
                 <Heading size="large" level="2" spacing>
                     8. Annonser for ulovlig arbeid
                 </Heading>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Annonser hvor stillingen går ut på å utføre ulovlige aktiviteter/arbeid (f.eks. ulovlig
                     spillevirksomhet som pokerspill eller pyramidespill), eller hvor det kommer frem av annonseteksten
                     at arbeidsgiver bryter bestemmelser i arbeidsmiljøloven knyttet til sikkerhet, arbeidstid,
@@ -173,7 +173,7 @@ export default function retningslinjerStillingsannonser() {
                     er stripping, toppløs servering og telefonsex. NAV ønsker ikke å registrere slike stillinger, av
                     hensyn til personer som kan oppfatte slike annonser som støtende/krenkende.
                 </BodyLong>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Det understrekes samtidig at annonser for stillinger som butikkekspeditør/-selger ikke omfattes av
                     sensurbestemmelsen ovenfor. Annonser for slike stillinger skal registreres selv om produkter som kan
                     sies å være av seksuell eller pornografisk karakter inngår i sortimentet hos den forretningen som
@@ -184,7 +184,7 @@ export default function retningslinjerStillingsannonser() {
                 <Heading size="large" level="2" spacing>
                     10. Annonser på andre språk enn norsk
                 </Heading>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Annonser som registreres i NAVs stillingsbase skal enten være på bokmål, nynorsk, samisk, engelsk,
                     svensk eller dansk. Det kan ikke registreres flere annonser for samme stilling på ulike språk. Det
                     er virksomhetens ansvar å oversette annonseteksten.{" "}
@@ -192,7 +192,7 @@ export default function retningslinjerStillingsannonser() {
                 <Heading size="large" level="2" spacing>
                     11. Siste publiseringsdato (utløpsdato)
                 </Heading>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Utløpsdato for en stilling må ikke settes senere enn 6 måneder etter registreringsdato.
                 </BodyLong>
 
@@ -212,7 +212,7 @@ export default function retningslinjerStillingsannonser() {
                     Dersom NAV har avpublisert en annonse som er registrert av arbeidsgiver på arbeidsplassen.no, vil
                     NAV ta kontakt med arbeidsgiver slik at de kan rette annonsen så den kan bli publisert på nytt.
                 </BodyLong>
-                <BodyLong className="mb-6">
+                <BodyLong className="mb-24">
                     Ved avpublisering av stillinger som er elektronisk innhentet vil arbeidsgiver ikke få melding.
                 </BodyLong>
             </article>

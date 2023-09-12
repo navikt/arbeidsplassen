@@ -12,7 +12,7 @@ export default function verifisertEpost() {
                 <svg
                     role="img"
                     aria-label="Suksess"
-                    className="mb-1"
+                    className="mb-4"
                     aria-labelledby="suksess-title"
                     xmlns="http://www.w3.org/2000/svg"
                     width="60"

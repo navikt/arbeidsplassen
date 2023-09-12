@@ -17,7 +17,7 @@ export default function ThonHotelSuperrask() {
                 </Heading>
             </div>
 
-            <div className="container-medium mb-3">
+            <div className="container-medium mb-12">
                 <img
                     className="article-image article-image-pos-thon"
                     src="/images/ThonHotelDirektor.jpg"
@@ -30,7 +30,7 @@ export default function ThonHotelSuperrask() {
                 </BodyLong>
             </div>
 
-            <div className="container-small mb-4">
+            <div className="container-small mb-16">
                 <BodyLong spacing>
                     Thon Partner Hotel Otta planlegger alltid sommersesongen i god tid og legger tidlig ut sommerjobbene
                     på arbeidsplassen.no. I år brukte de også superrask søknad, NAV sin nye søknadstjeneste. Det ga gode
@@ -52,7 +52,7 @@ export default function ThonHotelSuperrask() {
                     – Vi starter alltid i god tid med å planlegge for sommeren og legger ut sommerjobbene i god tid.
                     Sommeren er høysesong og vi vet at vi trenger ekstra folk, sier hun.
                 </BodyLong>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     I år valgte hun å legge til{" "}
                     <NextLink href="/superrask-soknad-bedrift">
                         <DsLink>superrask søknad</DsLink>
@@ -88,7 +88,7 @@ export default function ThonHotelSuperrask() {
                 </BodyLong>
             </div>
 
-            <div className="container-medium mb-3">
+            <div className="container-medium mb-12">
                 <img
                     className="article-image article-image-pos-thon2"
                     src="/images/ThonHotel.jpg"
@@ -100,7 +100,7 @@ export default function ThonHotelSuperrask() {
                 </BodyLong>
             </div>
 
-            <div className="container-small mb-4">
+            <div className="container-small mb-16">
                 <Heading size="medium" level="2" spacing>
                     Ansatte to søkere
                 </Heading>
@@ -114,7 +114,7 @@ export default function ThonHotelSuperrask() {
                     Hun legger også til at hotellet innimellom får besøk av folk som leverer papirene sine i resepsjonen
                     og at hun også har ansatt tre ukrainere som kom via NAV sitt introduksjonsprogram.
                 </BodyLong>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Hotelldirektøren anbefaler andre bedrifter til å bruke superrask søknad når de skal lyse ut både
                     sommer jobber og faste stillinger. – Det er ikke noe å lure på. Bruk superrask søknad til å få
                     kontakt med søkere. Det fungerte veldig bra for oss, avslutter hun.
@@ -127,7 +127,7 @@ export default function ThonHotelSuperrask() {
                 </LinkPanel>
             </div>
 
-            <div className="container-medium mb-6">
+            <div className="container-medium mb-24">
                 <Heading size="large" level="1" spacing>
                     Videre lesning
                 </Heading>

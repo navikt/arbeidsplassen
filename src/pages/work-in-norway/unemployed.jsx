@@ -16,7 +16,7 @@ export default function Unemployed() {
             <div className="ukraine-page">
                 <div className="green-box container-large">
                     <div className="green-box-inner">
-                        <Heading size="small" level="1" className="mb-0_25">
+                        <Heading size="small" level="1" className="mb-1">
                             {t("unemployed-title", { ns: "work-in-norway" })}
                         </Heading>
                         <BodyShort>{t("ukrainian-work-in-norway-title", { ns: "work-in-norway" })}</BodyShort>
@@ -53,7 +53,7 @@ export default function Unemployed() {
                         <Heading size="small" level="3" spacing>
                             {t("h3-news-articles", { ns: "work-in-norway" })}
                         </Heading>
-                        <div className="article-link-panel-container mb-3">
+                        <div className="article-link-panel-container mb-12">
                             <LinkPanel className="arb-link-panel-tertiary" href="/stillinger?q=english" hrefLang="no">
                                 <LinkPanel.Title className="navds-heading--small">
                                     {t("1-link-panels.1-title")}
@@ -86,7 +86,7 @@ export default function Unemployed() {
                         <Heading size="small" level="3" spacing>
                             {t("h3-news-articles", { ns: "work-in-norway" })}
                         </Heading>
-                        <div className="article-link-panel-container mb-3">
+                        <div className="article-link-panel-container mb-12">
                             <LinkPanel className="arb-link-panel-tertiary" href={t("2-link-panels.1-link")}>
                                 <LinkPanel.Title className="navds-heading--small">
                                     {t("2-link-panels.1-title")}

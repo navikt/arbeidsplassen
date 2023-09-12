@@ -12,7 +12,7 @@ export default function vilkar() {
             </Head>
             <article className="container-small page-margin-top-and-bottom">
                 <NextLink href="/vilkar-og-retningslinjer" passHref legacyBehavior>
-                    <DsLink className="mb-2">
+                    <DsLink className="mb-8">
                         <ChevronLeftIcon aria-hidden="true" />
                         Til Vilkår og retningslinjer
                     </DsLink>
@@ -24,7 +24,7 @@ export default function vilkar() {
                 <Heading size="large" level="2" spacing>
                     Hvem kan bruke tjenestene
                 </Heading>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Arbeidsgiveren i en virksomhet gir tilganger til sine ansatte i Altinn. Har flere ansatte fått
                     tilgang til å publisere stillinger på Arbeidsplassen, kan de se og utføre det samme, også endre det
                     som en annen har lagt inn.
@@ -51,7 +51,7 @@ export default function vilkar() {
                         <BodyLong>tilby personer arbeidstreningsplasser</BodyLong>
                     </li>
                 </ul>
-                <BodyLong className="mb-3">NAV vil følge opp brudd på disse vilkårene hvis det forekommer.</BodyLong>
+                <BodyLong className="mb-12">NAV vil følge opp brudd på disse vilkårene hvis det forekommer.</BodyLong>
 
                 <Heading size="large" level="2" spacing>
                     Publisere stillinger
@@ -116,7 +116,7 @@ export default function vilkar() {
                         </BodyLong>
                     </li>
                 </ul>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Hvis NAV oppdager en annonse som ikke fyller vilkårene når vi kontrollerer innholdet, eller etter at
                     annonsen er publisert, kan den bli slettet eller fjernet uten varsling. NAV vil ta kontakt og
                     informere i etterkant.

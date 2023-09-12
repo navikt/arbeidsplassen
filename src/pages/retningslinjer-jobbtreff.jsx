@@ -12,7 +12,7 @@ export default function retningslinjerJobbtreff() {
             </Head>
             <article className="container-small page-margin-top-and-bottom">
                 <NextLink href="/vilkar-og-retningslinjer" passHref legacyBehavior>
-                    <DsLink className="mb-2">
+                    <DsLink className="mb-8">
                         <ChevronLeftIcon aria-hidden="true" />
                         Til Vilkår og retningslinjer
                     </DsLink>
@@ -32,7 +32,7 @@ export default function retningslinjerJobbtreff() {
                     arbeidssøkere får muligheten til å bli kjent med arbeidsgiver før de søker på ledige stillinger.
                 </BodyLong>
                 <BodyLong spacing>Retningslinjene angir generelle krav til innholdet i et jobbtreff.</BodyLong>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Det er en forutsetning for opprettelse av jobbtreff på arbeidsplassen.no at arbeidsgiver har et
                     konkret rekrutterings-/ansettelsesbehov.
                 </BodyLong>
@@ -40,7 +40,7 @@ export default function retningslinjerJobbtreff() {
                 <Heading size="large" level="2" spacing>
                     2. Bemanningsforetak/rekrutteringsbyrå
                 </Heading>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Det er en forutsetning at bemanningsforetak skal være registrert hos Arbeidstilsynet, jf. forskrift
                     om bemanningsforetak §§ 5 og 6. For at et bemanningsforetak/rekrutteringsbyrå skal kunne opprette
                     jobbtreff på arbeidsplassen.no er det en forutsetning at virksomheten er godkjent av
@@ -50,7 +50,7 @@ export default function retningslinjerJobbtreff() {
                 <Heading size="large" level="2" spacing>
                     3. Renholdsvirksomheter
                 </Heading>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Renholdsvirksomheter som driver virksomhet i Norge må også være godkjent av Arbeidstilsynet, jf.
                     «Forskrift om offentlig godkjenning av renholdsvirksomheter og kjøp av renholdstjenester» § 3. For
                     at renholdsvirksomheter skal kunne opprette jobbtreff på arbeidsplassen.no er det en forutsetning at
@@ -60,7 +60,7 @@ export default function retningslinjerJobbtreff() {
                 <Heading size="large" level="2" spacing>
                     4. Ulovlig diskriminerende innhold
                 </Heading>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Jobbtreff som har diskriminerende innhold, skal ikke opprettes på arbeidsplassen.no. Det er ved
                     ansettelser ulovlig å forskjellsbehandle arbeidssøkere på grunnlag av kjønn, religion, livssyn,
                     hudfarge, nasjonal eller etnisk opprinnelse, politisk syn, medlemskap i arbeidstakerorganisasjon,
@@ -72,7 +72,7 @@ export default function retningslinjerJobbtreff() {
                 <Heading size="large" level="2" spacing>
                     5. Ulovlig arbeid
                 </Heading>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Jobbtreff som presenterer stillinger som går ut på å utføre ulovlige aktiviteter/arbeid (f.eks.
                     ulovlig spillevirksomhet som pokerspill eller pyramidespill), eller hvor det kommer frem av
                     innholdet at arbeidsgiver bryter bestemmelser i arbeidsmiljøloven knyttet til sikkerhet, arbeidstid,

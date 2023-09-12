@@ -12,7 +12,7 @@ export default function personvernSuperraskSoknad() {
             </Head>
             <article className="container-small page-margin-top-and-bottom">
                 <NextLink href="/personvern" passHref legacyBehavior>
-                    <DsLink className="mb-2">
+                    <DsLink className="mb-8">
                         <ChevronLeftIcon aria-hidden="true" />
                         Til personvernerklæring
                     </DsLink>
@@ -21,7 +21,7 @@ export default function personvernSuperraskSoknad() {
                 <Heading size="xlarge" level="1" spacing>
                     Personvernerklæring for superrask søknad
                 </Heading>
-                <BodyLong className="mb-2">Sist endret 16. januar 2023</BodyLong>
+                <BodyLong className="mb-8">Sist endret 16. januar 2023</BodyLong>
 
                 <BodyLong spacing>
                     Superrask søknad er en frivillig og selvbetjent tjeneste for deg som er jobbsøker.
@@ -30,7 +30,7 @@ export default function personvernSuperraskSoknad() {
                     Superrask søknad er ment å forenkle prosessen med å skaffe arbeid for jobbsøkere, samt forenkle
                     arbeidsgivers prosess med å rekruttere arbeidskraft.
                 </BodyLong>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Arbeids- og velferdsdirektoratet har ansvaret for behandlingen av dine personopplysninger når du
                     sender inn en søknad gjennom tjenesten superrask søknad.
                 </BodyLong>
@@ -38,7 +38,7 @@ export default function personvernSuperraskSoknad() {
                 <Heading size="large" level="2" spacing>
                     Innhold
                 </Heading>
-                <ul className="mb-3">
+                <ul className="mb-12">
                     <li>
                         <BodyLong>
                             <DsLink href="#information">Hvilke personopplysninger behandler vi?</DsLink>
@@ -85,7 +85,7 @@ export default function personvernSuperraskSoknad() {
                     Tjenesten krever ikke innlogging, og derfor blir det heller ikke innhentet personopplysninger
                     direkte fra Folkeregisteret.
                 </BodyLong>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Det blir ikke registrert i tjenesten om du er en frivillig jobbsøker, eller om du er en jobbsøker
                     under oppfølging hos NAV. Derfor vil personopplysninger knyttet til din bruk av superrask søknad
                     ikke dukke opp når du logger deg inn på nav.no.
@@ -104,7 +104,7 @@ export default function personvernSuperraskSoknad() {
                     stillingen, samtidig som du kun avgir relevante og nødvendige opplysninger om din kompetanse og
                     kontaktinformasjon.
                 </BodyLong>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Arbeidsgiver får dermed kun tilgang til personopplysninger som er nødvendige og relevante, for å
                     kunne vurdere om du er aktuell for stillingen, og for å kunne kalle deg inn til intervju og
                     lignende.
@@ -113,7 +113,7 @@ export default function personvernSuperraskSoknad() {
                 <Heading size="large" level="2" spacing id="legal">
                     Rettslig grunnlag for behandlingen
                 </Heading>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Det rettslige grunnlaget for behandling av personopplysninger i superrask søknad er
                     Personvernforordningen (GDPR) artikkel 6 nr. 1 bokstav e, og lov om arbeids- og
                     velferdsforvaltningen (NAV-loven) § 4. Behandlingen av personopplysninger er nødvendig for å
@@ -124,7 +124,7 @@ export default function personvernSuperraskSoknad() {
                 <Heading size="large" level="2" spacing id="time">
                     Hvor lenge lagres opplysningene?
                 </Heading>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Dine personopplysninger lagres i tre måneder regnet fra stillingsannonsens utløpsdato.
                 </BodyLong>
 
@@ -135,7 +135,7 @@ export default function personvernSuperraskSoknad() {
                     Arbeidsgivere du sender inn superrask søknad til, får tilgang til personopplysninger som navn,
                     e-post, telefonnummer og kompetanser, som du selv registrerer ved innsending av søknaden.
                 </BodyLong>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     NAV-ansatte, for eksempel utviklere, kan ved tjenstlig behov få tilgang til dine personopplysninger.
                 </BodyLong>
 

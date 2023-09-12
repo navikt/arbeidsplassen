@@ -23,7 +23,7 @@ export default function SuperraskSoknadBedrift() {
                 </Ingress>
             </div>
 
-            <div className="container-medium mb-3">
+            <div className="container-medium mb-12">
                 <img
                     className="article-image"
                     src="/images/bedrift.jpg"
@@ -32,12 +32,12 @@ export default function SuperraskSoknadBedrift() {
                 />
             </div>
 
-            <div className="container-small mb-4">
+            <div className="container-small mb-16">
                 <BodyLong spacing>
                     Arbeidplassen.no er en åpen møteplass for alle på arbeidsmarkedet, eid av NAV. Vårt mål er at
                     bedrifter og jobbsøkere skal finne hverandre, enkelt og effektivt.
                 </BodyLong>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Produktleder for arbeidsplassen.no, Marianne Garmann Ullsand, er veldig fornøyd med at superrask
                     søknad er på plass. – Ved å velge superrask søknad på arbeidsplassen.no håper vi at bedrifter kan
                     spare verdifull tid når de skal ansette nye medarbeidere. Det blir også enklere for jobbsøker å vise
@@ -119,7 +119,7 @@ export default function SuperraskSoknadBedrift() {
                     Superrask søknad er en ny løsning for bedrifter som registrerer stillinger på arbeidsplassen.no.
                     Tjenesten er under utvikling og vi vil gjerne ha tilbakemelding på hvordan den fungerer.
                 </BodyLong>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Lykke til med å finne deres neste medarbeider med superrask søknad!
                 </BodyLong>
 
@@ -130,7 +130,7 @@ export default function SuperraskSoknadBedrift() {
                 </LinkPanel>
             </div>
 
-            <div className="container-medium mb-6">
+            <div className="container-medium mb-24">
                 <Heading size="large" level="1" spacing>
                     Videre lesning
                 </Heading>

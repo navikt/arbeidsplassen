@@ -19,7 +19,7 @@ export default function SuperraskSoknadPerson() {
                 <Ingress spacing>En enklere måte å komme i kontakt med bedrifter</Ingress>
             </div>
 
-            <div className="container-medium mb-3">
+            <div className="container-medium mb-12">
                 <img
                     className="article-image"
                     src="/images/jobbsoker.jpg"
@@ -28,14 +28,14 @@ export default function SuperraskSoknadPerson() {
                 />
             </div>
 
-            <div className="container-small mb-4">
+            <div className="container-small mb-16">
                 <BodyLong spacing>
                     Vi har gjort det lettere for deg å søke på jobber og komme i kontakt med interessante bedrifter. Med
                     noen få tastetrykk på mobil, nettbrett eller laptop kan du raskt vise frem din erfaring og at du er
                     rett person til jobben. Det er enkelt å se hvilke stillinger som har superrask søknad da disse er
                     merket med «superrask søknad» i stillingssøket på arbeidsplassen.no.
                 </BodyLong>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Når du velger å søke med en superrask søknad, er det lagt opp til at du får beskjed fra bedriften om
                     du er aktuell eller ikke. Du får denne beskjeden på e-post, så det er viktig at du er nøye når du
                     legger inn kontaktinformasjonen din.
@@ -46,7 +46,7 @@ export default function SuperraskSoknadPerson() {
                 </Heading>
                 <ul>
                     <li>
-                        <BodyLong className="mb-3">
+                        <BodyLong className="mb-12">
                             Du svarer kun ut på de kvalifikasjoner bedriften legger vekt på i stillingen. Du har
                             mulighet til å skrive en kort begrunnelse om hvorfor akkurat du passer til jobben.
                         </BodyLong>
@@ -58,7 +58,7 @@ export default function SuperraskSoknadPerson() {
                 </Heading>
                 <ul>
                     <li>
-                        <BodyLong className="mb-3">
+                        <BodyLong className="mb-12">
                             Vi har gjort det enkelt for bedriften å vurdere din søknad, slik at du raskt skal få
                             tilbakemelding. Uansett om bedriften vurderer deg som aktuell eller ikke, skal du få en
                             beskjed på e-post sånn at du ikke går og lurer.
@@ -93,7 +93,7 @@ export default function SuperraskSoknadPerson() {
                     Superrask søknad er en helt ny løsning på arbeidsplassen.no. Prøv det og gi oss gjerne en
                     tilbakemelding på hvordan du synes det fungerte.
                 </BodyLong>
-                <BodyLong className="mb-3">Lykke til med jobbsøkingen!</BodyLong>
+                <BodyLong className="mb-12">Lykke til med jobbsøkingen!</BodyLong>
 
                 <LinkPanel className="arb-link-panel-primary" href="/stillinger">
                     <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
@@ -102,7 +102,7 @@ export default function SuperraskSoknadPerson() {
                 </LinkPanel>
             </div>
 
-            <div className="container-medium mb-6">
+            <div className="container-medium mb-24">
                 <Heading size="large" level="1" spacing>
                     Videre lesning
                 </Heading>

@@ -12,7 +12,7 @@ export default function tilgangSomArbeidsgiver() {
             </Head>
             <article className="container-small page-margin-top-and-bottom">
                 <NextLink href="/arbeidsgivertjenester" passHref legacyBehavior>
-                    <DsLink className="mb-2">
+                    <DsLink className="mb-8">
                         <ChevronLeftIcon aria-hidden="true" />
                         Tilbake
                     </DsLink>

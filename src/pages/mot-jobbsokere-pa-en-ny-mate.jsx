@@ -20,7 +20,7 @@ export default function MotJobbsokerePaEnNyMate() {
                 </Ingress>
             </div>
 
-            <div className="container-medium mb-3">
+            <div className="container-medium mb-12">
                 <img
                     className="article-image"
                     src="/images/jobbtreff.webp"
@@ -29,8 +29,8 @@ export default function MotJobbsokerePaEnNyMate() {
                 />
             </div>
 
-            <div className="container-small mb-4">
-                <BodyLong className="mb-3">
+            <div className="container-small mb-16">
+                <BodyLong className="mb-12">
                     Jobbtreff er en ny tjeneste på arbeidsplassen.no. Nå kan du presentere bedriften din og fortelle om
                     jobbmuligheter og hvilken kompetanse dere er ute etter.
                 </BodyLong>
@@ -84,19 +84,19 @@ export default function MotJobbsokerePaEnNyMate() {
                     Superrask søknad er en ny løsning for bedrifter som registrerer stillinger på arbeidsplassen.no.
                     Tjenesten er under utvikling og vi vil gjerne ha tilbakemelding på hvordan den fungerer.
                 </BodyLong>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Se flere tips om{" "}
                     <Link href="/jobbtreff/hvordan-arrangere">hvordan du gjennomfører et jobbtreff.</Link>
                 </BodyLong>
 
-                <LinkPanel className="arb-link-panel-primary mb-3" href="/jobbtreff/bedrift">
+                <LinkPanel className="arb-link-panel-primary mb-12" href="/jobbtreff/bedrift">
                     <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                         Lag nytt jobbtreff
                     </LinkPanel.Title>
                 </LinkPanel>
             </div>
 
-            <div className="container-medium mb-6">
+            <div className="container-medium mb-24">
                 <Heading size="large" level="1" spacing>
                     Videre lesning
                 </Heading>

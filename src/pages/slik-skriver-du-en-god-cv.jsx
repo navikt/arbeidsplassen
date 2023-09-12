@@ -21,7 +21,7 @@ export default function SlikSkriverDuEnGodCv() {
                 </Ingress>
             </div>
 
-            <div className="container-medium mb-3">
+            <div className="container-medium mb-12">
                 <img
                     className="article-image"
                     src="/images/writing.jpg"
@@ -30,11 +30,11 @@ export default function SlikSkriverDuEnGodCv() {
                 />
             </div>
 
-            <div className="container-small mb-4">
+            <div className="container-small mb-16">
                 <Heading size="large" level="2" spacing>
                     CV og søknad
                 </Heading>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Arbeidsgivere krever ofte både CV og søknad når du søker på en jobb. Start med CV-en først, da er
                     det lettere å skrive søknaden.
                 </BodyLong>
@@ -140,7 +140,7 @@ export default function SlikSkriverDuEnGodCv() {
                 <BodyLong>
                     Søker du på en stilling innenfor kontor og økonomi, kan et sammendrag for eksempel inneholde:
                 </BodyLong>
-                <ul className="mb-3">
+                <ul className="mb-12">
                     <li>
                         <BodyLong>3 års erfaring med saksbehandling og ansvar for egen kundeportefølje.</BodyLong>
                     </li>
@@ -162,7 +162,7 @@ export default function SlikSkriverDuEnGodCv() {
                 </LinkPanel>
             </div>
 
-            <div className="container-medium mb-6">
+            <div className="container-medium mb-24">
                 <Heading size="large" level="1" spacing>
                     Videre lesning
                 </Heading>

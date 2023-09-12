@@ -17,7 +17,7 @@ export default function FindingAJob() {
             <div className="ukraine-page">
                 <div className="green-box container-large">
                     <div className="green-box-inner">
-                        <Heading size="small" level="1" className="mb-0_25">
+                        <Heading size="small" level="1" className="mb-1">
                             {t("finding-a-job-title", { ns: "work-in-norway" })}
                         </Heading>
                         <BodyShort>{t("ukrainian-work-in-norway-title", { ns: "work-in-norway" })}</BodyShort>
@@ -38,7 +38,7 @@ export default function FindingAJob() {
                         <Heading size="small" level="3" spacing>
                             {t("h3-news-articles", { ns: "work-in-norway" })}
                         </Heading>
-                        <div className="article-link-panel-container mb-3">
+                        <div className="article-link-panel-container mb-12">
                             <LinkPanel className="arb-link-panel-tertiary" href={t("1-link-panels.1-link")}>
                                 <LinkPanel.Title className="navds-heading--small">
                                     {t("1-link-panels.1-title")}
@@ -85,7 +85,7 @@ export default function FindingAJob() {
                         <Heading size="small" level="3" spacing>
                             {t("h3-news-articles", { ns: "work-in-norway" })}
                         </Heading>
-                        <div className="article-link-panel-container mb-3">
+                        <div className="article-link-panel-container mb-12">
                             <LinkPanel className="arb-link-panel-tertiary" href="/stillinger?q=english" hrefLang="no">
                                 <LinkPanel.Title className="navds-heading--small">
                                     {t("2-link-panels.1-title")}
@@ -118,18 +118,18 @@ export default function FindingAJob() {
                         </BodyLong>
 
                         <BodyLong>{t("h2-assistance.p2")}</BodyLong>
-                        <DsLink href={t("h2-assistance.link-3")} className="mb-2">
+                        <DsLink href={t("h2-assistance.link-3")} className="mb-8">
                             {t("h2-assistance.link-text-3")}
                         </DsLink>
 
                         <BodyLong>{t("h2-assistance.p3")}</BodyLong>
                         <BodyLong>{t("h2-assistance.p4")}</BodyLong>
-                        <DsLink href={t("h2-assistance.link-4")} className="mb-2">
+                        <DsLink href={t("h2-assistance.link-4")} className="mb-8">
                             {t("h2-assistance.link-text-4")}
                         </DsLink>
 
                         <BodyLong>{t("h2-assistance.p5")}</BodyLong>
-                        <DsLink href={t("h2-assistance.link-5")} className="mb-2">
+                        <DsLink href={t("h2-assistance.link-5")} className="mb-8">
                             {t("h2-assistance.link-text-5")}
                         </DsLink>
 
@@ -138,7 +138,7 @@ export default function FindingAJob() {
                         <Heading size="small" level="3" spacing>
                             {t("h3-news-articles", { ns: "work-in-norway" })}
                         </Heading>
-                        <div className="article-link-panel-container mb-3">
+                        <div className="article-link-panel-container mb-12">
                             <LinkPanel
                                 className="arb-link-panel-tertiary"
                                 href="https://www.nav.no/sok-nav-kontor/en"
@@ -183,7 +183,7 @@ export default function FindingAJob() {
                         <Heading size="small" level="3" spacing>
                             {t("h3-news-articles", { ns: "work-in-norway" })}
                         </Heading>
-                        <div className="article-link-panel-container mb-3">
+                        <div className="article-link-panel-container mb-12">
                             <LinkPanel className="arb-link-panel-tertiary" href={t("4-link-panel.link")}>
                                 <LinkPanel.Title className="navds-heading--small">
                                     {t("4-link-panel.title")}

@@ -12,7 +12,7 @@ export default function epostVerifiseringUtgaatt() {
                 <svg
                     role="img"
                     aria-label="Feil"
-                    className="mb-1"
+                    className="mb-4"
                     aria-labelledby="feil-title"
                     xmlns="http://www.w3.org/2000/svg"
                     width="60"

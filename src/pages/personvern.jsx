@@ -13,7 +13,7 @@ export default function personvern() {
                 <Heading size="xlarge" level="1" spacing>
                     Personvernerklæring for arbeidsplassen.no
                 </Heading>
-                <BodyLong className="mb-2">Publisert 1. februar 2022</BodyLong>
+                <BodyLong className="mb-8">Publisert 1. februar 2022</BodyLong>
 
                 <BodyLong spacing>
                     Arbeidsplassen.no er en tjeneste fra NAV og det er Arbeids- og velferdsdirektoratet som er
@@ -30,7 +30,7 @@ export default function personvern() {
                     For deg som representerer en arbeidsgiver, les mer lenger nede på siden om hvordan vi behandler dine
                     personopplysninger i løsningen.
                 </BodyLong>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     <NextLink href="/personvern-superrask-soknad" passHref legacyBehavior>
                         <DsLink>Informasjon om hvordan vi behandler dine data knyttet til superrask søknad.</DsLink>
                     </NextLink>
@@ -39,7 +39,7 @@ export default function personvern() {
                 <Heading size="large" level="2" spacing>
                     Informasjonskapsler
                 </Heading>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Arbeidsplassen.no er et subdomene av nav.no. Vi lagrer ikke personopplysninger om deg på de
                     åpne/uinnloggede sidene på arbeidsplassen.nav.no, men bruker informasjonskapsler («cookies»).{" "}
                     <DsLink href="https://www.nav.no/personvern-sikkerhet-navno">
@@ -47,11 +47,11 @@ export default function personvern() {
                     </DsLink>
                 </BodyLong>
 
-                <Heading className="mb-2" size="large" level="2">
+                <Heading className="mb-8" size="large" level="2">
                     Les mer om hvordan vi behandler dine personopplysninger
                 </Heading>
                 <NextLink href="/personvern-under-oppfolging" passHref legacyBehavior>
-                    <LinkPanel className="arb-link-panel-tertiary mb-1">
+                    <LinkPanel className="arb-link-panel-tertiary mb-4">
                         <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                             For deg som er under arbeidsrettet oppfølging fra NAV
                         </LinkPanel.Title>
@@ -61,7 +61,7 @@ export default function personvern() {
                     </LinkPanel>
                 </NextLink>
                 <NextLink href="/personvern-ikke-under-oppfolging" passHref legacyBehavior>
-                    <LinkPanel className="arb-link-panel-tertiary mb-1">
+                    <LinkPanel className="arb-link-panel-tertiary mb-4">
                         <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                             For deg som ikke er under arbeidsrettet oppfølging fra NAV
                         </LinkPanel.Title>

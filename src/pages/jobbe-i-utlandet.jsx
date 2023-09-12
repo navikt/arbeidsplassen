@@ -19,11 +19,11 @@ export default function jobbeiUtlandet() {
                 </Ingress>
             </div>
 
-            <div className="container-medium mb-3">
+            <div className="container-medium mb-12">
                 <img className="article-image" src="/images/paris.jpg" alt="Bilde av Eiffeltårnet" width="100%" />
             </div>
 
-            <div className="container-small mb-4">
+            <div className="container-small mb-16">
                 <Heading size="large" level="2" spacing>
                     Hva er EURES?
                 </Heading>
@@ -38,7 +38,7 @@ export default function jobbeiUtlandet() {
                     På portalen kan du søke etter ledige stillinger. Du kan også gjøre CV-en din tilgjengelig for
                     arbeidsgivere som søker nye medarbeidere.
                 </BodyLong>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Dersom du allerede har en CV på arbeidsplassen.no kan du eksportere den til EURES-portalen.
                     Tjenesten kan kun benyttes av statsborgere fra EU-landene, samt Island, Liechtenstein, Norge eller
                     Sveits.
@@ -51,7 +51,7 @@ export default function jobbeiUtlandet() {
                 </LinkPanel>
             </div>
 
-            <div className="container-medium mb-6">
+            <div className="container-medium mb-24">
                 <Heading size="large" level="1" spacing>
                     Videre lesning
                 </Heading>

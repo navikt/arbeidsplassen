@@ -6,7 +6,7 @@ import ArrowIcon from "@/src/common/components/images/ArrowIcon";
 function ArticleSommerjobb({ color = "primary" }) {
     return (
         <NextLink href="/sommerjobb-jobbsoker" passHref legacyBehavior>
-            <div className={`article-panel-${color} mb-4 article-panel-animation`}>
+            <div className={`article-panel-${color} mb-16 article-panel-animation`}>
                 <div className="">
                     <img
                         className="article-panel-img"
@@ -20,7 +20,7 @@ function ArticleSommerjobb({ color = "primary" }) {
                         Ikke for sent å søke på sommerjobb!
                     </Heading>
                     <div />
-                    <div className="article-panel-flex mb-2">
+                    <div className="article-panel-flex mb-8">
                         <Ingress>Bedrifter publiserer nye sommerjobber fortløpende. Ta sjansen og søk i dag!</Ingress>
                     </div>
                     <div className="article-panel-icon">

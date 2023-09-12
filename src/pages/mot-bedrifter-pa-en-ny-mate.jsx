@@ -21,7 +21,7 @@ export default function MotBedrifterPaEnNyMate() {
                 </Ingress>
             </div>
 
-            <div className="container-medium mb-3">
+            <div className="container-medium mb-12">
                 <img
                     className="article-image"
                     src="/images/jobbtreff.webp"
@@ -30,7 +30,7 @@ export default function MotBedrifterPaEnNyMate() {
                 />
             </div>
 
-            <div className="container-small mb-4">
+            <div className="container-small mb-16">
                 <BodyLong spacing>
                     Jobbtreff er en ny tjeneste på arbeidsplassen.no. Nå kan du som er jobbsøker bli kjent med en
                     bedrift som trenger folk. De forteller om hva slags kompetanse de trenger og om jobbmulighetene.
@@ -39,7 +39,7 @@ export default function MotBedrifterPaEnNyMate() {
                     Dersom det er noe du gjerne vil at bedriften skal snakke om, kan du sende inn forhåndsdefinerte
                     temaer før sendingen starter. Du kan også stille spørsmål underveis i sendingen.
                 </BodyLong>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Hvis du synes det bedriften forteller om er interessant, kan du ta kontakt med dem etter
                     jobbtreffet. De vil forklare hvordan du går fram.
                 </BodyLong>
@@ -47,7 +47,7 @@ export default function MotBedrifterPaEnNyMate() {
                 <Heading size="large" level="2" spacing>
                     Du er helt anonym
                 </Heading>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Det er helt uforpliktende og ufarlig å delta. Verken bedriften eller de andre deltakerne ser, hører
                     eller vet hvem som følger sendingen.
                 </BodyLong>
@@ -60,7 +60,7 @@ export default function MotBedrifterPaEnNyMate() {
                     fortelle om. Klikk på lenken for jobbtreffet når sendingen starter.
                 </BodyLong>
                 <BodyLong spacing>Du kan følge sendingen på telefon, PC eller Mac.</BodyLong>
-                <BodyLong className="mb-3">Lykke til på jobbtreff!</BodyLong>
+                <BodyLong className="mb-12">Lykke til på jobbtreff!</BodyLong>
 
                 <LinkPanel className="arb-link-panel-primary" href="/jobbtreff">
                     <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
@@ -69,7 +69,7 @@ export default function MotBedrifterPaEnNyMate() {
                 </LinkPanel>
             </div>
 
-            <div className="container-medium mb-6">
+            <div className="container-medium mb-24">
                 <Heading size="large" level="1" spacing>
                     Videre lesning
                 </Heading>

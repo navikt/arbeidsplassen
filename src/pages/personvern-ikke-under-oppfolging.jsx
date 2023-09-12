@@ -14,7 +14,7 @@ export default function personvernIkkeUnderOppfolging() {
             </Head>
             <article className="container-small page-margin-top-and-bottom">
                 <NextLink href="/personvern" passHref legacyBehavior>
-                    <DsLink className="mb-2">
+                    <DsLink className="mb-8">
                         <ChevronLeftIcon aria-hidden="true" />
                         Til personvernserklæring
                     </DsLink>
@@ -23,12 +23,12 @@ export default function personvernIkkeUnderOppfolging() {
                     Personvernerklæring for deg som ikke er under arbeidsrettet oppfølging fra NAV
                 </Heading>
                 <BodyLong>Publisert 1. februar 2022.</BodyLong>
-                <BodyLong className="mb-2">Oppdatert 29. juni 2022.</BodyLong>
+                <BodyLong className="mb-8">Oppdatert 29. juni 2022.</BodyLong>
 
                 <Heading size="large" level="2" spacing>
                     Innhold
                 </Heading>
-                <ul className="mb-3">
+                <ul className="mb-12">
                     <li>
                         <BodyLong>
                             <DsLink href="#information">Hvilke personopplysninger samler vi inn?</DsLink>
@@ -158,7 +158,7 @@ export default function personvernIkkeUnderOppfolging() {
                 <Heading size="medium" level="3" spacing>
                     Deltagelse på jobbtreff
                 </Heading>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Ingen data om din deltagelse på jobbtreff vil bli delt, hverken til andre deltagere, bedriften eller
                     til NAV. Vi lagrer ingen data om deg angående din deltagelse på jobbtreff.
                 </BodyLong>
@@ -189,7 +189,7 @@ export default function personvernIkkeUnderOppfolging() {
                 <Heading size="medium" level="3" spacing>
                     Statistikk og kunnskap om arbeidsmarkedet
                 </Heading>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     NAV benytter opplysningene fra arbeidsplassen.no til å utvikle statistikk og kunnskap om
                     arbeidsmarkedet. Les mer i{" "}
                     <DsLink href="https://www.nav.no/personvernerklaering#chapter-3">
@@ -207,7 +207,7 @@ export default function personvernIkkeUnderOppfolging() {
                     fra din profil, slettes også dataene hos oss. NAV behandler også opplysninger for statistikkformål.
                     Statistikken kan i noen tilfeller inneholde personopplysninger.
                 </BodyLong>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Din profil og alle opplysninger tilknyttet deg slettes automatisk etter 1 år. Du får et varsel om
                     dette før opplysningene slettes, slik at du har mulighet til å fornye samtykke, og beholde
                     opplysningene et år til.
@@ -220,7 +220,7 @@ export default function personvernIkkeUnderOppfolging() {
                 <Heading size="medium" level="3" spacing>
                     Samtykke
                 </Heading>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Når du tar i bruk og legger informasjon inn på innloggede tjenester på arbeidsplassen.no, samtykker
                     du til at vi kan behandle personopplysninger om deg. Du kan selv velge hvilke tjenester du vil
                     samtykke til at vi behandler personopplysninger for, herunder deling av CV med arbeidsgivere og med
@@ -248,7 +248,7 @@ export default function personvernIkkeUnderOppfolging() {
                 <Heading size="medium" level="3" spacing>
                     Våre databehandlere
                 </Heading>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     For å kunne tilby våre tjenester på arbeidsplassen.no benytter vi databehandlere, som innebærer at
                     vi deler dine personopplysninger med disse. Dette gjelder for eksempel IT-leverandører som har
                     avtaler med NAV. For å lese mer om dette, se{" "}

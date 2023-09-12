@@ -12,7 +12,7 @@ export default function vilkarApi() {
             </Head>
             <article className="container-small page-margin-top-and-bottom">
                 <NextLink href="/vilkar-og-retningslinjer" passHref legacyBehavior>
-                    <DsLink className="mb-2">
+                    <DsLink className="mb-8">
                         <ChevronLeftIcon aria-hidden="true" />
                         Til Vilkår og retningslinjer
                     </DsLink>
@@ -25,7 +25,7 @@ export default function vilkarApi() {
                 <Heading size="large" level="2" spacing>
                     Beskrivelse av tjenesten
                 </Heading>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Gjennom arbeidsplassen.no tilbyr NAV data fra stillingssøket på arbeidsplassen.no. Stillingssøket
                     inneholder en oversikt og informasjon om de fleste aktive utlyste stillinger. Stillingssøket
                     inneholder både stillinger som er registrert direkte hos NAV, publisert til NAV via et åpent API og
@@ -40,7 +40,7 @@ export default function vilkarApi() {
                     å stoppe tilgang ved feil bruk av tjenesten.
                 </BodyLong>
                 <BodyLong>Feil bruk av tjenesten (ikke uttømmende liste) kan være:</BodyLong>
-                <ul className="mb-3">
+                <ul className="mb-12">
                     <li>
                         <BodyLong>
                             Ikke sletter stillinger når de løper ut fra dato eller på andre måter blir trukket fra
@@ -55,7 +55,7 @@ export default function vilkarApi() {
                 <Heading size="large" level="2" spacing>
                     Typer tilgang
                 </Heading>
-                <ol className="mb-3">
+                <ol className="mb-12">
                     <li>
                         <BodyLong spacing>
                             <b>Tilgang som uregistrert bruker:</b> (Offentlig nøkkel) Denne tilgangen kan du bruke for å
@@ -86,7 +86,7 @@ export default function vilkarApi() {
                         Datatjenestebeskrivelse i Felles datakatalog.
                     </DsLink>
                 </BodyLong>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Har du spørsmål kan du kontakte oss på e-post{" "}
                     <DsLink href="mailto:nav.team.arbeidsplassen@nav.no">nav.team.arbeidsplassen@nav.no</DsLink>. Ønsker
                     du å avslutte abonnementet, send en henvendelse til samme e-postadresse.

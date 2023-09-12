@@ -21,7 +21,7 @@ export default function vilkarOgRetningslinjer() {
                     Arbeidsplassen.no er en kostnadsfri tjeneste fra NAV. Arbeidsgivere må godta flere vilkår for å
                     benytte tjenestene på arbeidsplassen.no. Generelle vilkår vi ønsker å trekke frem er:
                 </BodyLong>
-                <ul className="mb-3">
+                <ul className="mb-12">
                     <li>
                         <BodyLong>
                             Stillingsannonser som arbeidsgiver kan publisere skal følge retningslinjer for innhold i
@@ -51,7 +51,7 @@ export default function vilkarOgRetningslinjer() {
                     Ansatte i en virksomhet må ha riktige tilganger i Altinn for å kunne benytte arbeidsgivertjenestene
                     på arbeidsplassen.no.{" "}
                 </BodyLong>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Her kan du lese{" "}
                     <NextLink href="/arbeidsgivertjenester " passHref legacyBehavior>
                         <DsLink>alle vilkårene for bruk av arbeidsplassen.no</DsLink>
@@ -85,7 +85,7 @@ export default function vilkarOgRetningslinjer() {
                     Flere vilkår og retningslinjer står lenger ned, kategorisert på enkelttjenestene på
                     arbeidsplassen.no.{" "}
                 </BodyLong>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Har du spørsmål, ta gjerne kontakt med oss: Kontakt NAV - arbeidsgiver
                 </BodyLong>
 
@@ -102,7 +102,7 @@ export default function vilkarOgRetningslinjer() {
                     Hvis NAV oppdager en annonse som ikke oppfyller vilkårene, kan den bli slettet eller fjernet uten
                     varsling. NAV vil ta kontakt og informere i etterkant.
                 </BodyLong>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Les her for mer informasjon om{" "}
                     <NextLink href="/vilkar-stillingsannonser" passHref legacyBehavior>
                         <DsLink>Vilkår for å publisere stillingsannonser</DsLink>
@@ -117,7 +117,7 @@ export default function vilkarOgRetningslinjer() {
                     Personopplysninger som du mottar fra jobbsøkere i “superrask søknad” kan kun brukes så lenge
                     formålet er å bemanne og rekruttere til en konkret stilling.
                 </BodyLong>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Her kan du lese{" "}
                     <NextLink href="/vilkar-superrask-soknad" passHref legacyBehavior>
                         <DsLink>Vilkår for bruk av superrask søknad</DsLink>
@@ -132,7 +132,7 @@ export default function vilkarOgRetningslinjer() {
                     Arbeidsgiver kan selv opprette et jobbtreff for å fortelle om sin ledige stilling i en direkte
                     sending mens deltagere kan se og høre på.
                 </BodyLong>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Her kan du lese{" "}
                     <NextLink href="/retningslinjer-jobbtreff" passHref legacyBehavior>
                         <DsLink>Retningslinjer for innhold i jobbtreff</DsLink>
@@ -149,7 +149,7 @@ export default function vilkarOgRetningslinjer() {
                     inneholder både stillinger som er registrert direkte hos NAV, publisert til NAV via et åpent API og
                     hentet inn fra våre samarbeidspartnere.
                 </BodyLong>
-                <BodyLong className="mb-6">
+                <BodyLong className="mb-24">
                     Her kan du lese{" "}
                     <NextLink href="/vilkar-api" passHref legacyBehavior>
                         <DsLink>Vilkår for bruk av API for stillingsannonser</DsLink>

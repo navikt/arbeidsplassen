@@ -4,7 +4,7 @@ import ImageLinkPanelSmall from "@/src/common/components/ImageLinkPanelSmall";
 
 function MainPageBedrift() {
     return (
-        <div className="container-large page-margin-top-and-bottom mb-6">
+        <div className="container-large page-margin-top-and-bottom mb-24">
             <section className="arb-home-section-flex">
                 <div className="arb-home-div-width">
                     <Heading size="xlarge" level="1" spacing className="bedrift-h1 jumbo-h1">
@@ -12,7 +12,7 @@ function MainPageBedrift() {
                     </Heading>
                     <Ingress spacing>Motta søknader raskt og enkelt fra relevante jobbsøkere.</Ingress>
 
-                    <div className="mb-4">
+                    <div className="mb-16">
                         <Button variant="primary" as="a" href="/stillingsregistrering">
                             Gå til din side bedrift
                         </Button>

@@ -12,7 +12,7 @@ export default function retningslinjerStillingsannonser() {
             </Head>
             <article className="container-small page-margin-top-and-bottom">
                 <NextLink href="/vilkar-og-retningslinjer" passHref legacyBehavior>
-                    <DsLink className="mb-2">
+                    <DsLink className="mb-8">
                         <ChevronLeftIcon aria-hidden="true" />
                         Til Vilkår og retningslinjer
                     </DsLink>
@@ -88,7 +88,7 @@ export default function retningslinjerStillingsannonser() {
                         </BodyLong>
                     </li>
                 </ul>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Hvis NAV oppdager en annonse som ikke oppfyller vilkårene, kan den bli slettet eller fjernet uten
                     varsling. NAV vil ta kontakt og informere i etterkant.
                 </BodyLong>
@@ -125,7 +125,7 @@ export default function retningslinjerStillingsannonser() {
                         <DsLink>se NAVs personvernerklæring.</DsLink>
                     </NextLink>
                 </BodyLong>
-                <BodyLong className="mb-6">
+                <BodyLong className="mb-24">
                     Har du spørsmål, ta gjerne kontakt med oss:{" "}
                     <NextLink href="https://www.nav.no/arbeidsgiver/kontaktoss" passHref legacyBehavior>
                         <DsLink>Kontakt NAV - arbeidsgiver</DsLink>

@@ -16,7 +16,7 @@ export default function slikFungererSuperraskSoknad() {
                     <Ingress spacing>Ny måte å motta søknader fra relevante jobbsøkere</Ingress>
                 </div>
 
-                <div className="stegindikator-container mb-3">
+                <div className="stegindikator-container mb-12">
                     <Stepper interactive={false} orientation="horizontal" activeStep="">
                         <Stepper.Step>Opprett ny stillingsannonse</Stepper.Step>
                         <Stepper.Step>Motta og vurder søknader fortløpende</Stepper.Step>
@@ -25,12 +25,12 @@ export default function slikFungererSuperraskSoknad() {
                 </div>
             </div>
 
-            <div className="container-medium mb-6">
+            <div className="container-medium mb-24">
                 <div className="guide-panel">
-                    <div className="center mb-3">
+                    <div className="center mb-12">
                         <Heading size="large">Slik fungerer det</Heading>
                     </div>
-                    <div className="mb-2">
+                    <div className="mb-8">
                         <Heading size="small" level="3" spacing>
                             Velg superrask søknad i annonsen
                         </Heading>

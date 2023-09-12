@@ -23,7 +23,7 @@ export default function omArbeidsplassen() {
                     kandidater skal kunne oppdage og komme i kontakt med hverandre, så enkelt som mulig. Alle tjenestene
                     er derfor kostnadsfrie.
                 </BodyLong>
-                <BodyLong className="mb-3">Arbeidsplassen.no er eid av NAV.</BodyLong>
+                <BodyLong className="mb-12">Arbeidsplassen.no er eid av NAV.</BodyLong>
 
                 <Heading size="large" level="2" spacing>
                     Arbeidsplassen.no gir deg god oversikt over arbeidsmarkedet
@@ -37,7 +37,7 @@ export default function omArbeidsplassen() {
                     Arbeidsgivere kan også velge å logge seg på arbeidsplassen.no og lyse ut direkte på
                     arbeidsplassen.no.
                 </BodyLong>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Arbeidsplassen.no gir deg dermed en av Norges største oversikter over utlyste stillinger.
                 </BodyLong>
 
@@ -48,7 +48,7 @@ export default function omArbeidsplassen() {
                     Vi har utviklet en moderne digital infrastruktur med selvbetjening og brukervennlighet som viktigste
                     prinsipp. Tjenesten er i kontinuerlig forbedring og utvikling.
                 </BodyLong>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Den virkelige verdien i arbeidsplassen.no er det jobbsøkerne og arbeidsgiverne som skaper hver dag.
                 </BodyLong>
 
@@ -61,7 +61,7 @@ export default function omArbeidsplassen() {
                     offentlig. Vi ønsker at alle jobbsøkere skal kunne finne jobbene som finnes på arbeidsmarkedet, uten
                     å være begrenset av eget nettverk.
                 </BodyLong>
-                <BodyLong className="mb-3">
+                <BodyLong className="mb-12">
                     Arbeidsplassen.no er en tjeneste for å bedre alles muligheter til å gjøre seg synlig på
                     arbeidsmarkedet.
                 </BodyLong>
