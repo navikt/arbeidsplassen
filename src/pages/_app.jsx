@@ -1,6 +1,7 @@
 /* eslint-disable react/prop-types */
 import "@navikt/ds-css";
 import "@navikt/arbeidsplassen-css";
+import "@navikt/arbeidsplassen-theme";
 import "../common/styles/index.css";
 import AuthenticationProvider, {
     AuthenticationContext,
