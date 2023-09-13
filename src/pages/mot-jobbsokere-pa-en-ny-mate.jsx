@@ -80,10 +80,6 @@ export default function MotJobbsokerePaEnNyMate() {
                     Under sendingen er deltakerne anonyme. Deltakerne kan se og høre deg når du har skrudd på lyd og
                     kamera, men du kan ikke se dem, og deltakerne kan ikke se hverandre.
                 </BodyLong>
-                <BodyLong spacing>
-                    Superrask søknad er en ny løsning for bedrifter som registrerer stillinger på arbeidsplassen.no.
-                    Tjenesten er under utvikling og vi vil gjerne ha tilbakemelding på hvordan den fungerer.
-                </BodyLong>
                 <BodyLong className="mb-12">
                     Se flere tips om{" "}
                     <Link href="/jobbtreff/hvordan-arrangere">hvordan du gjennomfører et jobbtreff.</Link>
