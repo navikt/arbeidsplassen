@@ -17,7 +17,7 @@ jobs:
   cypress-run:
     runs-on: ubuntu-latest
     container: cypress/browsers:node18.12.0-chrome106-ff106
-     steps:
+    steps:
         - name: Checkout code
           uses: actions/checkout@v2
 
