@@ -24,7 +24,7 @@ function MainPageBedrift() {
                 </div>
             </section>
 
-            <div className="arb-link-panel-grid mb-5">
+            <div className="arb-link-panel-grid mb-12">
                 <LinkPanel className="arb-link-panel-tertiary" href="/stillingsregistrering/stillingsannonser">
                     <LinkPanel.Title className="navds-heading--small">Lag ny stillingsannonse</LinkPanel.Title>
                     <LinkPanel.Description className="navds-link-panel__description navds-body-long">
