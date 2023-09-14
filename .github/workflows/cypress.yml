@@ -22,12 +22,13 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        secrets:
+          NAIS_DEPLOY_APIKEY: ${{ secrets.NAIS_DEPLOY_APIKEY }}
+          OPTIONAL_SECRET: ${{ secrets.READER_TOKEN }}
+          
       - name: Cypress run
         uses: cypress-io/github-action@v2
         with:
           build: npm run build
           start: npm start
           browser: chrome
-          secrets:
-              NAIS_DEPLOY_APIKEY: ${{ secrets.NAIS_DEPLOY_APIKEY }}
-              OPTIONAL_SECRET: ${{ secrets.READER_TOKEN }}
