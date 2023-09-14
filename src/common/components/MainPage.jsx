@@ -29,7 +29,7 @@ function MainPage() {
                 </div>
             </section>
 
-            <div className="arb-link-panel-grid mb-5">
+            <div className="arb-link-panel-grid mb-12">
                 <LinkPanel className="arb-link-panel-primary" href="/jobbtreff">
                     <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                         Se kommende jobbtreff
@@ -48,7 +48,7 @@ function MainPage() {
                 </LinkPanel>
             </div>
 
-            <div className="arb-home-banner mb-5">
+            <div className="arb-home-banner mb-12">
                 <InformationUkraine />
             </div>
 
