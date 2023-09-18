@@ -18,7 +18,7 @@ jobs:
             id-token: write
             security-events: write
             actions: read
-        if: "(github.ref_name == 'main') || contains(github.event.head_commit.message, 'deploy:dev') || contains(github.ref, 'feature')"
+        if: "(github.ref_name == 'main') || contains(github.event.head_commit.message, 'deploy:dev')"
         uses: navikt/pam-deploy/.github/workflows/deploy-dev.yml@v5
         with:
             LANGUAGE: "node"
