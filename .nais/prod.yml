@@ -2,3 +2,4 @@ ingress: ["https://arbeidsplassen.nav.no"]
 loglevel: "error"
 namespace: "teampam"
 pam_samtykke_api_url: "https://pam-samtykke-api-tokenx-proxy.prod-fss-pub.nais.io"
+telemetry_url: "https://telemetry.nav.no/collect"

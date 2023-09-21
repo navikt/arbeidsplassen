@@ -10,8 +10,13 @@ import AuthenticationProvider, {
 import { setUpAmplitude, setAuthenticatedStatus } from "@/src/common/analysis/metrics";
 import { useContext, useEffect } from "react";
 import { appWithTranslation } from "next-i18next";
+import setupFaro from "@/src/common/analysis/faro";
 
 function TrackedApp({ children }) {
+    useEffect(() => {
+        setupFaro();
+    }, []);
+
     useEffect(() => {
         setUpAmplitude();
     }, []);
