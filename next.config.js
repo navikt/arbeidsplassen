@@ -6,7 +6,7 @@ const ContentSecurityPolicy = `
   script-src 'self' 'unsafe-eval';
   style-src 'self' 'unsafe-inline' fonts.googleapis.com nav.no;
   font-src 'self' fonts.googleapis.com fonts.gstatic.com nav.no;
-  connect-src 'self' amplitude.nav.no ${process.env.TELEMTRY_URL};
+  connect-src 'self' amplitude.nav.no telemetry*.nav.no/collect;
 `;
 
 const securityHeaders = [
