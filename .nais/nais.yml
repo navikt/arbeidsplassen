@@ -38,15 +38,13 @@ spec:
     enabled: true
     path: /metrics
   ingresses:
-  {{#each ingress as |url|}}
-     - {{url}}
-  {{/each}}
+     - {{ ingress }}
   env:
     - name: PORT
       value: "8080"
     - name: PAM_SAMTYKKE_API_URL
       value: {{ pam_samtykke_api_url }}
     - name: SERVER_URL
-      value: {{ ingress|first }}
+      value: {{ ingress }}
     - name: TELEMETRY_URL
       value: {{ telemetry_url }}
