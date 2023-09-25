@@ -20,6 +20,10 @@ Opprett et token med "read:packages" rettigheter. [https://github.com/settings/t
 
 Ikke sjekk inn `.npmrc` til GitHub.
 
+### Deployment
+
+Lyst til å teste i dev-miljøet? `feature/**` branches pushes automatisk til dev eller så kan man alternativt legge til `deploy:dev` i commit meldingen for å trigge deployment til dev. Dette vil hoppe over opprettelsen av draft release, se deploy-dev.yml fila eller [pam-deploy](https://github.com/navikt/pam-deploy/blob/master/.github/workflows/deploy-dev.yml) for mer.
+
 ### Wonderwall
 
 Du kan kjøre med Wonderwall, dette gir deg muligheten til å teste med autentisering.
