@@ -108,8 +108,7 @@ body {
 }
 
 .ukraine {
-    background-color: var(--arb-surface-tertiary-moderate);
-    color: var(--arb-text-on-color);
+    background-color: var(--a-surface-alt-3-moderate);
     text-align: start;
     padding: 1rem;
 }
