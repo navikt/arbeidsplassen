@@ -1,9 +1,13 @@
 import { BodyLong, Heading } from "@navikt/ds-react";
+import { useRouter } from "next/router";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
 import WavingGrape from "@/src/common/components/images/WavingGrape";
 
 export default function Custom404() {
+    const { query } = useRouter();
+    const timeoutContent =
+        query.timeout && query.timeout === "true" ? "Av sikkerhetsgrunner har du blitt automatisk logget ut. " : "";
     return (
         <Layout>
             <Head>
@@ -14,7 +18,7 @@ export default function Custom404() {
                 <Heading spacing size="large" level="1">
                     Du er nå logget ut
                 </Heading>
-                <BodyLong>Takk for denne gang.</BodyLong>
+                <BodyLong>{`${timeoutContent}Takk for denne gang.`}</BodyLong>
             </div>
         </Layout>
     );
