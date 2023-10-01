@@ -35,8 +35,8 @@
 }
 
 .ukraine-page .green-box {
-    background: var(--arb-green-50);
-    box-shadow: 0 0 0 100vmax var(--arb-green-50);
+    background: var(--a-surface-alt-1-subtle);
+    box-shadow: 0 0 0 100vmax var(--a-surface-alt-1-subtle);
     clip-path: inset(0 -100vmax);
     margin-bottom: 3rem;
 }

@@ -67,8 +67,8 @@ body {
 }
 
 .arb-home-banner {
-    background: var(--arb-peach-100);
-    box-shadow: 0 0 0 100vmax var(--arb-peach-100);
+    background: var(--a-surface-alt-3-moderate);
+    box-shadow: 0 0 0 100vmax var(--a-surface-alt-3-moderate);
     clip-path: inset(0 -100vmax);
 }
 
@@ -235,7 +235,7 @@ body {
 
 .guide-panel {
     padding: 4rem;
-    border: 16px solid var(--arb-peach-50);
+    border: 16px solid var(--a-surface-alt-3-subtle);
 }
 
 .center {
