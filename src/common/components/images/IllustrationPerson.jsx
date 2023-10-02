@@ -3,29 +3,29 @@ export default function IllustrationPerson() {
         <svg width="306" height="228" viewBox="0 0 306 228" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
                 d="M295.857 207.985C291.374 227.521 180.21 227.947 152.634 227.947C125.058 227.947 -5.59799 229.688 0.18626 213.165C5.97051 196.641 106.962 185.739 152.634 195.972C198.306 206.205 300.34 188.449 295.857 207.985Z"
-                fill="#DFE2F3"
+                className="arb-svg-shadow"
             />
             <path
                 d="M262.682 83.806C281.025 95.0157 291.527 102.097 289.655 126.284M289.076 131.638C289.331 129.764 289.523 127.982 289.655 126.284M289.655 126.284L285.072 131.638M289.655 126.284L293.5 131.638"
-                stroke="#024B62"
+                className="arb-svg-arms-and-legs"
                 strokeWidth="2"
                 strokeLinecap="round"
             />
             <path
                 d="M170.686 86.8994C153.066 74.4218 143.056 66.6338 146.692 42.3794M147.584 37.3937C147.227 39.1302 146.93 40.7902 146.692 42.3794M146.692 42.3794L143.696 36.9212M146.692 42.3794L152.063 37.9379"
-                stroke="#024B62"
+                className="arb-svg-arms-and-legs"
                 strokeWidth="2"
                 strokeLinecap="round"
             />
             <path
                 d="M203.945 160.842C201.962 181.072 201.995 191.405 203.945 208.043"
-                stroke="#024B62"
+                className="arb-svg-arms-and-legs"
                 strokeWidth="2"
                 strokeLinecap="round"
             />
             <path
                 d="M234.499 160.842C236.481 181.072 236.449 191.405 234.499 208.043"
-                stroke="#024B62"
+                className="arb-svg-arms-and-legs"
                 strokeWidth="2"
                 strokeLinecap="round"
             />
@@ -49,37 +49,37 @@ export default function IllustrationPerson() {
             />
             <path
                 d="M229.156 208.173C232.558 208.173 236.953 207.435 240.019 208.968"
-                stroke="#024B62"
+                className="arb-svg-arms-and-legs"
                 strokeWidth="3"
                 strokeLinecap="round"
             />
             <path
                 d="M196.83 209.558C199.372 209.558 201.914 209.558 204.455 209.558C206.024 209.558 207.588 208.763 209.284 208.763"
-                stroke="#024B62"
+                className="arb-svg-arms-and-legs"
                 strokeWidth="3"
                 strokeLinecap="round"
             />
             <path
                 d="M132 121C147.074 130.992 146.265 139.357 144.065 159.476M143.37 164.329C143.666 162.626 143.897 161.011 144.065 159.476M144.065 159.476L140.029 163.477M144.065 159.476L146.395 164.486"
-                stroke="#024B62"
+                className="arb-svg-arms-and-legs"
                 strokeWidth="2"
                 strokeLinecap="round"
             />
             <path
                 d="M48.1483 119.307C29.2045 130 24.037 138 25.7989 156.574M27.6812 164.19C27.1634 162.226 25.9742 158.421 25.7989 156.574M25.7989 156.574L29.2045 161.576M25.7989 156.574L24.7412 164.228"
-                stroke="#024B62"
+                className="arb-svg-arms-and-legs"
                 strokeWidth="2"
                 strokeLinecap="round"
             />
             <path
                 d="M71.7295 169.523C73.4067 186.64 73.3794 195.382 71.7295 209.458"
-                stroke="#024B62"
+                className="arb-svg-arms-and-legs"
                 strokeWidth="2"
                 strokeLinecap="round"
             />
             <path
                 d="M100.075 169.523C98.398 186.64 98.4253 195.382 100.075 209.458"
-                stroke="#024B62"
+                className="arb-svg-arms-and-legs"
                 strokeWidth="2"
                 strokeLinecap="round"
             />
@@ -95,19 +95,19 @@ export default function IllustrationPerson() {
             </g>
             <path
                 d="M90.2285 116.503C89.4164 117.549 81.4566 115.87 81.6686 114.934"
-                stroke="#024B62"
+                className="arb-svg-arms-and-legs"
                 strokeWidth="2"
                 strokeLinecap="round"
             />
             <path
                 d="M105.622 209.937C103.632 209.615 101.221 208.801 99.2261 209.077C97.8629 209.267 96.4597 209.361 95.0781 209.137"
-                stroke="#024B62"
+                className="arb-svg-arms-and-legs"
                 strokeWidth="3"
                 strokeLinecap="round"
             />
             <path
                 d="M65.502 208.498C68.9718 208.498 72.3377 208.946 75.8142 208.946"
-                stroke="#024B62"
+                className="arb-svg-arms-and-legs"
                 strokeWidth="3"
                 strokeLinecap="round"
             />
