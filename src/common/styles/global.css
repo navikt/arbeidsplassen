@@ -251,3 +251,11 @@ body {
         justify-content: center;
     }
 }
+
+[data-theme="arbeidsplassen-dark"] {
+    --arb-image-filter: brightness(95%) saturate(90%);
+}
+
+img {
+    filter: var(--arb-image-filter, none);
+}
