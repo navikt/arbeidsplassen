@@ -5,7 +5,7 @@ export default function Document() {
     return (
         <Html lang="no">
             <Head>
-                <Script strategy="beforeInteractive" src={`${process.env.SERVER_URL ?? ""}/api/publicEnv`} />
+                <Script strategy="beforeInteractive" src={`${process.env.SERVER_URL ?? ""}/api/public-env`} />
                 <link rel="icon" href="/favicon.png" />
                 <link rel="preconnect" href="https://fonts.googleapis.com" />
                 <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
