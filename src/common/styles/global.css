@@ -252,6 +252,29 @@ body {
     }
 }
 
+.session-modal-body {
+    max-width: 600px;
+}
+
+.login-required-message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 3rem;
+    text-align: center;
+}
+
+.login-buttons-wrapper {
+    display: flex;
+    gap: 1rem;
+}
+
+@media (max-width: 425px) {
+    .login-buttons-wrapper {
+        flex-direction: column;
+    }
+}
+
 [data-theme="arbeidsplassen-dark"] {
     --arb-image-filter: brightness(95%) saturate(90%);
 }
