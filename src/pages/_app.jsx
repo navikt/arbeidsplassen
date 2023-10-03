@@ -15,9 +15,6 @@ import setupFaro from "@/src/common/analysis/faro";
 function TrackedApp({ children }) {
     useEffect(() => {
         setupFaro();
-    }, []);
-
-    useEffect(() => {
         setUpAmplitude();
     }, []);
 
