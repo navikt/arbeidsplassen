@@ -5,7 +5,6 @@ import React from "react";
 import ImageLinkPanelMedium from "@/src/common/components/ImageLinkPanelMedium";
 
 export default function TipsTilJobbsoknaden() {
-    console.info("tips til jobbsoknaden");
     return (
         <Layout>
             <Head>
