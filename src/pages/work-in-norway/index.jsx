@@ -73,7 +73,7 @@ export default function WorkInNorway() {
                     </Chips.Toggle>
                 </Chips>
 
-                <div className="arb-link-panel-grid mb-5">
+                <div className="arb-link-panel-grid mb-16">
                     <LinkPanel
                         className="arb-link-panel-secondary"
                         href={`/${selectedLanguage}/work-in-norway/finding-a-job`}
