@@ -15,5 +15,4 @@ export default function setupFaro() {
             ],
         },
     });
-    console.info("Faro Initialized");
 }
