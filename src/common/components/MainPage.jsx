@@ -1,5 +1,5 @@
 import { Button, Heading, Ingress, LinkPanel } from "@navikt/ds-react";
-import IllustrationPerson from "@/src/common/components/images/IllustrationPerson";
+import { GrapeAndPapayaTogether } from "@navikt/arbeidsplassen-react";
 import InformationUkraine from "@/src/common/components/banners/InformationUkraine";
 import ImageLinkPanelSmall from "@/src/common/components/ImageLinkPanelSmall";
 
@@ -25,7 +25,7 @@ function MainPage() {
                 </div>
 
                 <div className="arb-home-illustration arb-home-illustration-person">
-                    <IllustrationPerson />
+                    <GrapeAndPapayaTogether />
                 </div>
             </section>
 
