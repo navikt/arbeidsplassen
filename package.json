@@ -18,6 +18,8 @@
     },
     "dependencies": {
         "@amplitude/analytics-browser": "^1.10.3",
+        "@grafana/faro-web-sdk": "^1.2.1",
+        "@grafana/faro-web-tracing": "^1.2.1",
         "@navikt/aksel-icons": "^5.0.2",
         "@navikt/arbeidsplassen-theme": "^5.5.1",
         "@navikt/arbeidsplassen-css": "^7.2.5",
