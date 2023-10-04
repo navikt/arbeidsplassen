@@ -12,29 +12,29 @@ export default function IllustrationBedrift({ className }) {
         >
             <path
                 d="M324.857 120.431C320.374 99.8098 209.21 99.3593 181.634 99.3593C154.058 99.3593 23.402 97.5223 29.1863 114.963C34.9705 132.405 135.962 143.913 181.634 133.111C227.306 122.31 329.34 141.052 324.857 120.431Z"
-                className="arb-svg-shadow"
+                className="arb-not-found-svg-shadow"
             />
             <path
                 d="M312.265 34.9944C334.472 47.3207 354.359 66.5288 338.373 84.8125M332.847 89.9718C334.407 88.6512 337.207 86.1459 338.373 84.8125M338.373 84.8125L331.08 84.861M338.373 84.8125L338.14 93.5167"
-                className="arb-svg-arms-and-legs"
+                className="arb-not-found-svg-arms-and-legs"
                 strokeWidth="2"
                 strokeLinecap="round"
             />
             <path
                 d="M191.418 62.6005C191.887 36.9724 176.662 41.5687 170.429 22.6444M169.046 12.5708C169.932 15.6901 168.358 20.0782 170.429 22.6444M170.429 22.6444C170.429 22.6444 168.769 16.9066 166.817 13.1447M170.429 22.6444L171.52 12.9541"
-                className="arb-svg-arms-and-legs"
+                className="arb-not-found-svg-arms-and-legs"
                 strokeWidth="2"
                 strokeLinecap="round"
             />
             <path
                 d="M278.786 65.3203C276.597 87.6615 276.633 99.0718 278.786 117.446"
-                className="arb-svg-arms-and-legs"
+                className="arb-not-found-svg-arms-and-legs"
                 strokeWidth="2"
                 strokeLinecap="round"
             />
             <path
                 d="M245.277 63.459C243.088 85.8002 243.124 97.2105 245.277 115.584"
-                className="arb-svg-arms-and-legs"
+                className="arb-not-found-svg-arms-and-legs"
                 strokeWidth="2"
                 strokeLinecap="round"
             />
@@ -78,43 +78,43 @@ export default function IllustrationBedrift({ className }) {
             </g>
             <path
                 d="M258.044 58.5029C255.109 68.928 243.381 67.6582 245.094 59.1896"
-                className="arb-svg-arms-and-legs"
+                className="arb-not-found-svg-arms-and-legs"
                 strokeWidth="2"
                 strokeLinecap="round"
             />
             <path
                 d="M250.187 117.587C247.693 116.619 245.616 116.601 242.966 116.848C241.552 116.98 240.088 116.585 238.729 116.712"
-                className="arb-svg-arms-and-legs"
+                className="arb-not-found-svg-arms-and-legs"
                 strokeWidth="3"
                 strokeLinecap="round"
             />
             <path
                 d="M283.865 117.163C281.701 117.894 279.395 117.443 277.181 117.681C275.74 117.836 274.093 116.946 272.696 117.418"
-                className="arb-svg-arms-and-legs"
+                className="arb-not-found-svg-arms-and-legs"
                 strokeWidth="3"
                 strokeLinecap="round"
             />
             <path
                 d="M130.899 65C144.398 45 166.898 47.5 168.567 21.8483M167.942 13.5911C168.413 16.4504 168.339 19.3311 168.567 21.8483M168.567 21.8483L166.898 14M168.567 21.8483L168.899 13.0004"
-                className="arb-svg-arms-and-legs"
+                className="arb-not-found-svg-arms-and-legs"
                 strokeWidth="2"
                 strokeLinecap="round"
             />
             <path
                 d="M48.9366 36.7239C29.3503 49.1411 17.9548 57.072 19.7754 82.2972M20.6635 90.0194C20.2439 87.2748 19.9494 84.7071 19.7754 82.2972M19.7754 82.2972L27.0807 87.2647M19.7754 82.2972L14.3719 90.695"
-                className="arb-svg-arms-and-legs"
+                className="arb-not-found-svg-arms-and-legs"
                 strokeWidth="2"
                 strokeLinecap="round"
             />
             <path
                 d="M71.9385 61.8389C69.7493 84.18 69.785 95.5903 71.9385 113.964"
-                className="arb-svg-arms-and-legs"
+                className="arb-not-found-svg-arms-and-legs"
                 strokeWidth="2"
                 strokeLinecap="round"
             />
             <path
                 d="M105.682 61.8389C107.871 84.18 107.835 95.5903 105.682 113.964"
-                className="arb-svg-arms-and-legs"
+                className="arb-not-found-svg-arms-and-legs"
                 strokeWidth="2"
                 strokeLinecap="round"
             />
@@ -130,19 +130,19 @@ export default function IllustrationBedrift({ className }) {
             </g>
             <path
                 d="M82.7637 55.3389C83.5402 60.5778 97.1121 61.5176 97.2406 57.3496"
-                className="arb-svg-arms-and-legs"
+                className="arb-not-found-svg-arms-and-legs"
                 strokeWidth="2"
                 strokeLinecap="round"
             />
             <path
                 d="M101.599 113.51C103.22 113.929 104.567 113.644 106.342 113.929C107.554 114.124 109.547 113.929 110.7 114.168"
-                className="arb-svg-arms-and-legs"
+                className="arb-not-found-svg-arms-and-legs"
                 strokeWidth="3"
                 strokeLinecap="round"
             />
             <path
                 d="M66.1492 113.727C66.453 113.392 68.7865 113.128 69.3462 113.277C70.2459 113.516 71.4223 113.566 72.3648 113.415C73.1476 113.29 73.9059 113.457 74.639 113.536C75.3967 113.618 76.3245 113.583 76.9598 114.044"
-                className="arb-svg-arms-and-legs"
+                className="arb-not-found-svg-arms-and-legs"
                 strokeWidth="3"
                 strokeLinecap="round"
             />
