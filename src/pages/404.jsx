@@ -8,7 +8,7 @@ export default function Custom404() {
             <Head>
                 <title>Fant ikke siden - arbeidsplassen.no</title>
             </Head>
-            <div className="container-small page-margin-top-and-bottom">
+            <div className="container-small mt-12 mb-12">
                 <NotFound />
             </div>
         </Layout>
