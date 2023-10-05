@@ -40,6 +40,17 @@ const nextConfig = {
 
 module.exports = nextConfig;
 
+const getAppVersion = () => {
+    // example: NAIS_APP_IMAGE=europe-north1-docker.pkg.dev/nais-management-233d/teampam/pam-stillingsok:23.256.125825
+    if (process.env.NAIS_APP_IMAGE) {
+        const splitted = process.env.NAIS_APP_IMAGE.split("/");
+        if (splitted.length > 0) {
+            return splitted[splitted.length - 1].replace(":", "@"); // example: pam-stillingsok@23.256.125825
+        }
+    }
+    return "";
+};
+
 // Injected content via Sentry wizard below
 
 const { withSentryConfig } = require("@sentry/nextjs");
@@ -54,6 +65,7 @@ module.exports = withSentryConfig(
         silent: true,
         org: "nav",
         project: "arbeidsplassen",
+        release: getAppVersion(),
         url: "https://sentry.gc.nav.no/",
     },
     {
