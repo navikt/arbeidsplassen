@@ -14,7 +14,7 @@ export default function velgRolle() {
                 </Heading>
                 <LinkPanel href="../oauth2/login?redirect=/minside" className="arb-link-panel-tertiary mb-4">
                     <LinkPanel.Title>Jeg er jobbsøker</LinkPanel.Title>
-                    <LinkPanel.Description>Logg inn på Min side</LinkPanel.Description>
+                    <LinkPanel.Description>Logg inn på min side</LinkPanel.Description>
                 </LinkPanel>
 
                 <LinkPanel
@@ -22,7 +22,7 @@ export default function velgRolle() {
                     className="arb-link-panel-tertiary mb-16"
                 >
                     <LinkPanel.Title>Jeg er arbeidsgiver</LinkPanel.Title>
-                    <LinkPanel.Description>Logg inn på Min bedriftside</LinkPanel.Description>
+                    <LinkPanel.Description>Logg inn på min bedriftsside</LinkPanel.Description>
                 </LinkPanel>
             </div>
         </Layout>
