@@ -4,9 +4,10 @@ const ContentSecurityPolicy = `
   default-src 'self';
   img-src 'self' data:;
   script-src 'self' 'unsafe-eval';
+  worker-src 'self';
   style-src 'self' 'unsafe-inline' fonts.googleapis.com nav.no;
   font-src 'self' fonts.googleapis.com fonts.gstatic.com nav.no;
-  connect-src 'self' amplitude.nav.no telemetry.ekstern.dev.nav.no telemetry.nav.no;
+  connect-src 'self' amplitude.nav.no telemetry.ekstern.dev.nav.no telemetry.nav.no sentry.gc.nav.no;
 `;
 
 const securityHeaders = [
@@ -39,3 +40,20 @@ const nextConfig = {
 };
 
 module.exports = nextConfig;
+
+const { withSentryConfig } = require("@sentry/nextjs");
+
+module.exports = withSentryConfig(
+    module.exports,
+    {
+        silent: true,
+        org: "nav",
+        project: "arbeidsplassen",
+        url: "https://sentry.gc.nav.no/",
+    },
+    {
+        widenClientFileUpload: true,
+        tunnelRoute: "/monitoring",
+        hideSourceMaps: true,
+    },
+);
