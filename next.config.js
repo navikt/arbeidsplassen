@@ -4,7 +4,7 @@ const ContentSecurityPolicy = `
   default-src 'self';
   img-src 'self' data:;
   script-src 'self' 'unsafe-eval';
-  worker-src 'self';
+  worker-src 'self' blob:;
   style-src 'self' 'unsafe-inline' fonts.googleapis.com nav.no;
   font-src 'self' fonts.googleapis.com fonts.gstatic.com nav.no;
   connect-src 'self' amplitude.nav.no telemetry.ekstern.dev.nav.no telemetry.nav.no sentry.gc.nav.no;
