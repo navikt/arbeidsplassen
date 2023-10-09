@@ -14,7 +14,7 @@ function MainPageBedrift() {
 
                     <div className="mb-16">
                         <Button variant="primary" as="a" href="/stillingsregistrering">
-                            Gå til din side bedrift
+                            Gå til min bedriftsside
                         </Button>
                     </div>
                 </div>
