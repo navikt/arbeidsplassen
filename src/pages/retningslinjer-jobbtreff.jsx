@@ -6,7 +6,7 @@ import NextLink from "next/link";
 
 export default function retningslinjerJobbtreff() {
     return (
-        <Layout>
+        <Layout variant="company">
             <Head>
                 <title>Retningslinjer for innhold i jobbtreff på arbeidsplassen.no - arbeidsplassen.no</title>
             </Head>

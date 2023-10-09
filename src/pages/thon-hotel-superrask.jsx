@@ -7,7 +7,7 @@ import NextLink from "next/link";
 
 export default function ThonHotelSuperrask() {
     return (
-        <Layout>
+        <Layout variant="company">
             <Head>
                 <title>Ansatte sommervikarer med superrask søknad - arbeidsplassen.no</title>
             </Head>

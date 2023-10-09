@@ -6,7 +6,7 @@ import NextLink from "next/link";
 
 export default function tilgangSomArbeidsgiver() {
     return (
-        <Layout>
+        <Layout variant="company">
             <Head>
                 <title>Hvordan gi eller få tilgang som arbeidsgiver </title>
             </Head>

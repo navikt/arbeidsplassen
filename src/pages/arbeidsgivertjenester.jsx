@@ -5,7 +5,7 @@ import NextLink from "next/link";
 
 export default function arbeidsgivertjenester() {
     return (
-        <Layout>
+        <Layout variant="company">
             <Head>
                 <title>Hvem kan bruke arbeidsgivertjenestene? - arbeidsplassen.no</title>
             </Head>

@@ -6,7 +6,7 @@ import NextLink from "next/link";
 
 export default function tilgangsstyringIStoreVirksomheter() {
     return (
-        <Layout>
+        <Layout variant="company">
             <Head>
                 <title>Tilgangsstyring i store virksomheter</title>
             </Head>

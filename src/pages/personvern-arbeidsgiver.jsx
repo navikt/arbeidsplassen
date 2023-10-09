@@ -6,7 +6,7 @@ import NextLink from "next/link";
 
 export default function personvernArbeidsgiver() {
     return (
-        <Layout>
+        <Layout variant="company">
             <Head>
                 <title>Personvernerklæring for deg som representerer en arbeidsgiver - arbeidsplassen.no</title>
             </Head>

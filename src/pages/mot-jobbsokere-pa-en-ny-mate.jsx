@@ -5,7 +5,7 @@ import ImageLinkPanelMedium from "@/src/common/components/ImageLinkPanelMedium";
 
 export default function MotJobbsokerePaEnNyMate() {
     return (
-        <Layout>
+        <Layout variant="company">
             <Head>
                 <title>Jobbtreff – møt jobbsøkere på en ny måte - arbeidsplassen.no</title>
             </Head>

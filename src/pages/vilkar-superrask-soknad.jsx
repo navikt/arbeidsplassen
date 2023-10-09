@@ -6,7 +6,7 @@ import NextLink from "next/link";
 
 export default function personvernSuperraskSoknad() {
     return (
-        <Layout>
+        <Layout variant="company">
             <Head>
                 <title>Vilkår for bruk av superrask søknad - arbeidsplassen.no</title>
             </Head>

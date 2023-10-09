@@ -6,7 +6,7 @@ import NextLink from "next/link";
 
 export default function vilkar() {
     return (
-        <Layout>
+        <Layout variant="company">
             <Head>
                 <title>Vilkår for å publisere stillinger - arbeidsplassen.no</title>
             </Head>

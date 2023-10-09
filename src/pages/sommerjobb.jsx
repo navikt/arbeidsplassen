@@ -6,7 +6,7 @@ import React from "react";
 
 export default function Sommerjobb() {
     return (
-        <Layout>
+        <Layout variant="company">
             <Head>
                 <title>Lys ut sommerjobber - arbeidsplassen.no</title>
             </Head>

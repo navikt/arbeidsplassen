@@ -6,7 +6,7 @@ import ImageLinkPanelMedium from "@/src/common/components/ImageLinkPanelMedium";
 
 export default function SkikkeligBraStillingsannonse() {
     return (
-        <Layout>
+        <Layout variant="company">
             <Head>
                 <title>Hvordan skriver du en skikkelig bra stillingsannonse? - arbeidsplassen.no</title>
             </Head>

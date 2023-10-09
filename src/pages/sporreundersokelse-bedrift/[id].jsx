@@ -160,7 +160,7 @@ export default function SporreundersokelseBedrift() {
         surveyMetadataFetchStatus === "gone";
 
     return (
-        <Layout>
+        <Layout variant="company">
             <Head>
                 <title>Spørreundersøkelse - arbeidsplassen.no</title>
                 <meta name="robots" content="noindex,nofollow" />

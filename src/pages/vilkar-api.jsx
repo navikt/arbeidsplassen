@@ -6,7 +6,7 @@ import NextLink from "next/link";
 
 export default function vilkarApi() {
     return (
-        <Layout>
+        <Layout variant="company">
             <Head>
                 <title>Vilkår for bruk av API for stillingsannonser - arbeidsplassen.no</title>
             </Head>

@@ -4,7 +4,7 @@ import MainPage from "@/src/common/components/MainPage";
 
 export default function Page() {
     return (
-        <Layout active="person">
+        <Layout>
             <Head>
                 <title>Arbeidsplassen - arbeidsplassen.no</title>
             </Head>

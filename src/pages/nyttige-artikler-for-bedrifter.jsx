@@ -5,7 +5,7 @@ import ImageLinkPanelLarge from "@/src/common/components/ImageLinkPanelLarge";
 
 export default function ArticlePageBedrift() {
     return (
-        <Layout>
+        <Layout variant="company">
             <Head>
                 <title>Nyttige artikler for bedrifter - arbeidsplassen.no</title>
             </Head>

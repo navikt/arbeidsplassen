@@ -6,7 +6,7 @@ import React from "react";
 
 export default function hvordanFaTilgang() {
     return (
-        <Layout>
+        <Layout variant="company">
             <Head>
                 <title>Slik kan du skaffe deg tilgang - arbeidsplassen.no</title>
             </Head>

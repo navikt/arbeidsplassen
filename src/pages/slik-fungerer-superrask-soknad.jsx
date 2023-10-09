@@ -4,7 +4,7 @@ import Head from "next/head";
 
 export default function slikFungererSuperraskSoknad() {
     return (
-        <Layout>
+        <Layout variant="company">
             <Head>
                 <title>Superrask søknad - arbeidsplassen.no</title>
             </Head>

@@ -4,7 +4,7 @@ import Head from "next/head";
 
 export default function BedriftPage() {
     return (
-        <Layout active="bedrift">
+        <Layout variant="company">
             <Head>
                 <title>Bedrift - arbeidsplassen.no</title>
             </Head>

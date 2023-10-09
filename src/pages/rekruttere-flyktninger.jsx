@@ -4,7 +4,7 @@ import Head from "next/head";
 
 export default function workInNorway() {
     return (
-        <Layout>
+        <Layout variant="company">
             <Head>
                 <title>Ønsker du å rekruttere flyktninger? - arbeidsplassen.no</title>
             </Head>

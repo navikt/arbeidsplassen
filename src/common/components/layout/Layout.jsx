@@ -3,7 +3,7 @@ import { Footer, Header, SkipLink } from "@navikt/arbeidsplassen-react";
 import { useContext } from "react";
 import { AuthenticationContext, AuthenticationStatus } from "@/src/common/contexts/AuthenticationProvider";
 
-export default function Layout({ children, active }) {
+export default function Layout({ children, active, variant = "person" }) {
     const { authenticationStatus, chooseRole, logout } = useContext(AuthenticationContext);
 
     let authStatus = "unknown";
@@ -18,7 +18,7 @@ export default function Layout({ children, active }) {
             <div className="arb-push-footer-down">
                 <SkipLink href="#main-content" />
                 <Header
-                    variant="all"
+                    variant={variant}
                     active={active}
                     onLogin={chooseRole}
                     onLogout={logout}

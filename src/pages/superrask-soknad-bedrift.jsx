@@ -6,7 +6,7 @@ import ImageLinkPanelMedium from "@/src/common/components/ImageLinkPanelMedium";
 
 export default function SuperraskSoknadBedrift() {
     return (
-        <Layout>
+        <Layout variant="company">
             <Head>
                 <title>
                     Superrask søknad – en enklere måte å komme i kontakt med relevante jobbsøkere - arbeidsplassen.no

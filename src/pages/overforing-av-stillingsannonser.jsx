@@ -6,7 +6,7 @@ import ImageLinkPanelMedium from "@/src/common/components/ImageLinkPanelMedium";
 
 export default function overforingAvStillingsannonser() {
     return (
-        <Layout>
+        <Layout variant="company">
             <Head>
                 <title>Overføring av stillingsannonser til arbeidsplassen.no - arbeidsplassen.no</title>
             </Head>
