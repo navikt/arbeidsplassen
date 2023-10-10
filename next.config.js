@@ -42,27 +42,22 @@ const nextConfig = {
 module.exports = nextConfig;
 
 const { withSentryConfig } = require("@sentry/nextjs");
-const { PHASE_DEVELOPMENT_SERVER } = require('next/constants')
+const { PHASE_DEVELOPMENT_SERVER } = require("next/constants");
 
-
-module.exports = (phase) => {
-    if (phase === PHASE_DEVELOPMENT_SERVER) {
-        console.log("dev environment detected -> disabling sentry");
-        return nextConfig;
-    } else {
-        return withSentryConfig(
-            module.exports,
-            {
-                silent: true,
-                org: "nav",
-                project: "arbeidsplassen",
-                url: "https://sentry.gc.nav.no/",
-            },
-            {
-                widenClientFileUpload: true,
-                tunnelRoute: "/monitoring",
-                hideSourceMaps: true,
-            },
-        );
-    }
-};
+module.exports =
+    process.env.NODE_ENV === "production"
+        ? withSentryConfig(
+              module.exports,
+              {
+                  silent: true,
+                  org: "nav",
+                  project: "arbeidsplassen",
+                  url: "https://sentry.gc.nav.no/",
+              },
+              {
+                  widenClientFileUpload: true,
+                  tunnelRoute: "/monitoring",
+                  hideSourceMaps: true,
+              },
+          )
+        : nextConfig;
