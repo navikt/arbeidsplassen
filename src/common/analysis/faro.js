@@ -1,5 +1,6 @@
 import { getWebInstrumentations, initializeFaro } from "@grafana/faro-web-sdk";
 import { TracingInstrumentation } from "@grafana/faro-web-tracing";
+import getSessionId from "@/src/common/utils";
 
 export default function setupFaro() {
     initializeFaro({
@@ -13,6 +14,9 @@ export default function setupFaro() {
                 }),
                 new TracingInstrumentation(),
             ],
+        },
+        session: {
+            id: getSessionId(),
         },
     });
 }
