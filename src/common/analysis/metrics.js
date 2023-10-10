@@ -19,6 +19,7 @@ export function setUpAmplitude() {
         const ampKey = getAmplitudeKey();
         if (!ampKey) return false;
 
+        setUserProperties("sessionId", getSessionId());
         amplitude.init(ampKey, undefined, {
             serverUrl: `https://amplitude.nav.no/collect`,
             defaultTracking: {
@@ -33,7 +34,6 @@ export function setUpAmplitude() {
             },
             */
         });
-        setUserProperties("sessionId", getSessionId());
         return true;
     } catch (e) {
         return false;
