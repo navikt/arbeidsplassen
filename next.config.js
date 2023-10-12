@@ -44,9 +44,8 @@ module.exports = nextConfig;
 const { withSentryConfig } = require("@sentry/nextjs");
 const { PHASE_DEVELOPMENT_SERVER } = require("next/constants");
 
-module.exports = (phase) => {
-    console.log("phase: ", phase);
-    return phase === PHASE_DEVELOPMENT_SERVER
+module.exports = (phase) =>
+    phase === PHASE_DEVELOPMENT_SERVER
         ? nextConfig
         : withSentryConfig(
               nextConfig,
@@ -62,4 +61,3 @@ module.exports = (phase) => {
                   hideSourceMaps: true,
               },
           );
-};
