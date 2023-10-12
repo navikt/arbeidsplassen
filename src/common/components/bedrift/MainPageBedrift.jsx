@@ -1,5 +1,5 @@
 import { Button, Heading, Ingress, LinkPanel } from "@navikt/ds-react";
-import { GrapeAndStrawberryClappingHands } from "@navikt/arbeidsplassen-react";
+import { FiguresGivingHighFive } from "@navikt/arbeidsplassen-react";
 import ImageLinkPanelSmall from "@/src/common/components/ImageLinkPanelSmall";
 
 function MainPageBedrift() {
@@ -20,7 +20,7 @@ function MainPageBedrift() {
                 </div>
 
                 <div className="arb-home-illustration">
-                    <GrapeAndStrawberryClappingHands />
+                    <FiguresGivingHighFive />
                 </div>
             </section>
 

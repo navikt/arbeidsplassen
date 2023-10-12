@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import PropTypes from "prop-types";
 import { BodyLong, Button, Heading, Modal } from "@navikt/ds-react";
-import { StrawberryWithKey } from "@navikt/arbeidsplassen-react";
+import { FigureWithKey } from "@navikt/arbeidsplassen-react";
 
 function SessionStatusModal({ markAsLoggedOut, setHasBeenLoggedIn, login, logout, timeoutLogout, hasBeenLoggedIn }) {
     const [isSessionExpiring, setIsSessionExpiring] = useState(null);
@@ -101,7 +101,7 @@ function SessionStatusModal({ markAsLoggedOut, setHasBeenLoggedIn, login, logout
                 </Heading>
                 <BodyLong className="login-required-message__text mb-8 session-modal-body">{message}</BodyLong>
                 <div className="mb-8">
-                    <StrawberryWithKey />
+                    <FigureWithKey />
                 </div>
 
                 <div className="login-buttons-wrapper">
