@@ -39,6 +39,7 @@ function AuthenticationProvider({ children }) {
 
         fetch(`/api/isAuthenticated`, {
             credentials: "include",
+            cache: "no-store",
         })
             .then((response) => {
                 if (response.status === 200) {

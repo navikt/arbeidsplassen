@@ -44,10 +44,11 @@ module.exports = nextConfig;
 const { withSentryConfig } = require("@sentry/nextjs");
 const { PHASE_DEVELOPMENT_SERVER } = require("next/constants");
 
-module.exports =
-    process.env.NODE_ENV === "production"
-        ? withSentryConfig(
-              module.exports,
+module.exports = (phase) =>
+    phase === PHASE_DEVELOPMENT_SERVER
+        ? nextConfig
+        : withSentryConfig(
+              nextConfig,
               {
                   silent: true,
                   org: "nav",
@@ -59,5 +60,4 @@ module.exports =
                   tunnelRoute: "/monitoring",
                   hideSourceMaps: true,
               },
-          )
-        : nextConfig;
+          );
