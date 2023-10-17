@@ -39,7 +39,6 @@ const nextConfig = {
     },
     env: {
         VERSION_TAG: process.env.VERSION_TAG,
-        NEXT_PUBLIC_VERSION_TAG: process.env.VERSION_TAG,
     },
 };
 
