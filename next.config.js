@@ -37,6 +37,10 @@ const nextConfig = {
         ...i18n,
         localeDetection: false,
     },
+    env: {
+        VERSION_TAG: process.env.VERSION_TAG,
+        NEXT_PUBLIC_VERSION_TAG: process.env.VERSION_TAG,
+    },
 };
 
 module.exports = nextConfig;
