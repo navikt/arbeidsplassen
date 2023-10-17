@@ -54,6 +54,7 @@ module.exports = (phase) =>
                   org: "nav",
                   project: "arbeidsplassen",
                   url: "https://sentry.gc.nav.no/",
+                  release: `${process.env.NEXT_PUBLIC_APP_NAME}@${process.env.NEXT_PUBLIC_APP_VERSION}`
               },
               {
                   widenClientFileUpload: true,
