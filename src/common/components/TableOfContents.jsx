@@ -103,7 +103,7 @@ const useIntersectionObserver = (setActiveId, prefix = "") => {
     }, [setActiveId, prefix]);
 };
 
-function TableOfContents({ selectorPrefix }) {
+function TableOfContents({ selectorPrefix = "" }) {
     const [activeId, setActiveId] = useState();
     const { nestedHeadings } = useHeadingsData(selectorPrefix);
     useIntersectionObserver(setActiveId, selectorPrefix);
@@ -128,10 +128,6 @@ function TableOfContents({ selectorPrefix }) {
 
 TableOfContents.propTypes = {
     selectorPrefix: PropTypes.string,
-};
-
-TableOfContents.defaultProps = {
-    selectorPrefix: "",
 };
 
 export default TableOfContents;
