@@ -1,5 +1,7 @@
 FROM node:18 AS builder
 WORKDIR /var/server
+ARG VERSION_TAG
+ENV SENTRY_RELEASE arbeidsplassen@$VERSION_TAG
 COPY package.json package-lock.json ./
 RUN npm config set @navikt:registry https://npm.pkg.github.com
 RUN --mount=type=secret,id=optional_secret \
