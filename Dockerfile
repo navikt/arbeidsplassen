@@ -1,5 +1,7 @@
 FROM node:18 AS builder
 WORKDIR /var/server
+ARG VERSION_TAG
+ENV SENTRY_RELEASE arbeidsplassen@$VERSION_TAG
 COPY package.json package-lock.json ./
 RUN npm config set @navikt:registry https://npm.pkg.github.com
 RUN --mount=type=secret,id=optional_secret \
@@ -7,6 +9,7 @@ RUN --mount=type=secret,id=optional_secret \
 RUN npm ci --prefer-offline --no-audit --ignore-scripts
 COPY . .
 RUN npm run build && npm prune --production --offline
+RUN cd node_modules/@sentry/cli && ./scripts/install.js
 
 FROM node:18-alpine AS runtime
 WORKDIR /var/server
