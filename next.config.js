@@ -44,6 +44,7 @@ module.exports = nextConfig;
 const { withSentryConfig } = require("@sentry/nextjs");
 const { PHASE_DEVELOPMENT_SERVER } = require("next/constants");
 
+console.log("NEXT_PUBLIC_VERSION_TAG: ", process.env.NEXT_PUBLIC_VERSION_TAG);
 module.exports = (phase) =>
     phase === PHASE_DEVELOPMENT_SERVER
         ? nextConfig
