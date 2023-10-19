@@ -1,6 +1,7 @@
 FROM node:18 AS builder
 ARG VERSION_TAG
 ENV VERSION_TAG $VERSION_TAG
+ENV SENTRY_RELEASE arbeidsplassen@$VERSION_TAG
 WORKDIR /var/server
 COPY package.json package-lock.json ./
 RUN npm config set @navikt:registry https://npm.pkg.github.com
