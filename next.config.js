@@ -7,7 +7,7 @@ const ContentSecurityPolicy = `
   worker-src 'self' blob:;
   style-src 'self' 'unsafe-inline' fonts.googleapis.com nav.no;
   font-src 'self' fonts.googleapis.com fonts.gstatic.com nav.no;
-  connect-src 'self' amplitude.nav.no telemetry.ekstern.dev.nav.no telemetry.nav.no sentry.gc.nav.no;
+  connect-src 'self' amplitude.nav.no sentry.gc.nav.no;
 `;
 
 const securityHeaders = [
