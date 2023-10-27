@@ -282,3 +282,7 @@ body {
 img {
     filter: var(--arb-image-filter, none);
 }
+
+.flex-1 {
+    flex: 1;
+}
