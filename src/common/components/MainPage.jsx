@@ -1,5 +1,4 @@
 import { Button, Heading, Ingress, LinkPanel } from "@navikt/ds-react";
-import { FiguresSideBySide } from "@navikt/arbeidsplassen-react";
 import InformationUkraine from "@/src/common/components/banners/InformationUkraine";
 import ImageLinkPanelSmall from "@/src/common/components/ImageLinkPanelSmall";
 import Halloween1 from "@/src/common/components/Halloween1";

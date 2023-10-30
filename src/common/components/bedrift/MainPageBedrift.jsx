@@ -1,5 +1,4 @@
 import { Button, Heading, Ingress, LinkPanel } from "@navikt/ds-react";
-import { FiguresGivingHighFive } from "@navikt/arbeidsplassen-react";
 import ImageLinkPanelSmall from "@/src/common/components/ImageLinkPanelSmall";
 import Halloween2 from "@/src/common/components/Halloween2";
 
