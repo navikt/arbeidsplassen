@@ -1,7 +1,7 @@
 import { Button, Heading, Ingress, LinkPanel } from "@navikt/ds-react";
+import { FiguresSideBySide } from "@navikt/arbeidsplassen-react";
 import InformationUkraine from "@/src/common/components/banners/InformationUkraine";
 import ImageLinkPanelSmall from "@/src/common/components/ImageLinkPanelSmall";
-import Halloween1 from "@/src/common/components/Halloween1";
 
 function MainPage() {
     return (
@@ -25,7 +25,7 @@ function MainPage() {
                 </div>
 
                 <div className="arb-home-illustration arb-home-illustration-person">
-                    <Halloween1 />
+                    <FiguresSideBySide />
                 </div>
             </section>
 
