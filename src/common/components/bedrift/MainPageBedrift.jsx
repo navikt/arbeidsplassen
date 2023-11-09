@@ -44,11 +44,12 @@ function MainPageBedrift() {
 
             <div className="image-link-panel-grid-small">
                 <ImageLinkPanelSmall
-                    href="/superrask-soknad-bedrift"
-                    image="/images/bedrift.jpg"
-                    alt="En mann sitter på et kontor og tar en annen i hånden"
-                    title="Nyhet! Superrask søknad"
-                    description="En enklere måte å komme i kontakt med relevante jobbsøkere."
+                    href="/enklere-a-skrive-gode-kvalifikasjoner"
+                    image="/images/dog-thumbnail.png"
+                    alt="Glad hund som som sitter ved kjøkkenbordet og ser på en person som fyller ut superrask søknad."
+                    title="Nå er det enklere å skrive gode kvalifikasjonskrav"
+                    description="Med superrask søknad kan nå få forslag til kvalifikasjoner ved
+                        hjelp av kunstig intelligens"
                     color="primary"
                 />
                 <ImageLinkPanelSmall
