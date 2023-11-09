@@ -49,7 +49,7 @@ function MainPageBedrift() {
                     alt="Glad hund som som sitter ved kjøkkenbordet og ser på en person som fyller ut superrask søknad."
                     title="Nå er det enklere å skrive gode kvalifikasjonskrav"
                     description="Med superrask søknad kan nå få forslag til kvalifikasjoner ved
-                        hjelp av kunstig intelligens"
+                        hjelp av kunstig intelligens."
                     color="primary"
                 />
                 <ImageLinkPanelSmall
