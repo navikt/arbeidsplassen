@@ -12,6 +12,16 @@ export default function Page() {
                     Nå er det enklere enn noensinne å skrive gode kvalifikasjoner til din jobbannonse -
                     arbeidsplassen.no
                 </title>
+                <meta
+                    property="og:title"
+                    content="Nå er det enklere enn noensinne å skrive gode kvalifikasjoner til din jobbannonse"
+                />
+                <meta
+                    property="og:description"
+                    content="Arbeidsgivere som velger å bruke superrask søknad, kan nå få forslag til kvalifikasjoner ved
+                        hjelp av kunstig intelligens."
+                />
+                <meta property="og:image" content="https://arbeidsplassen.nav.no/images/dog-some.png" />
             </Head>
             <div className="page-margin-top-and-bottom">
                 <div className="container-small">
