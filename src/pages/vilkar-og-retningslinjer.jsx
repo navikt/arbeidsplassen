@@ -156,6 +156,26 @@ export default function vilkarOgRetningslinjer() {
                     </NextLink>{" "}
                     på arbeidsplassen.no
                 </BodyLong>
+
+                <Heading size="large" level="2" spacing>
+                    Vilkår for bruk av nytt API for stillingsannonser
+                </Heading>
+                <BodyLong spacing>
+                    Gjennom arbeidsplassen.no tilbyr NAV data fra stillingssøket på arbeidsplassen.no. Stillingssøket
+                    inneholder en oversikt og informasjon om de fleste aktive utlyste stillinger. Stillingssøket
+                    inneholder både stillinger som er registrert direkte hos NAV, publisert til NAV via et åpent API og
+                    hentet inn fra våre samarbeidspartnere. Får å få tilgang til det nye APIet for stillingsannonser, er
+                    man nødt til å sende en henvendelse til{" "}
+                    <DsLink href="mailto:nav.team.arbeidsplassen@nav.no">nav.team.arbeidsplassen@nav.no</DsLink> og
+                    godta avtale om ansvarlig bruk.
+                </BodyLong>
+                <BodyLong className="mb-24">
+                    Her kan du lese{" "}
+                    <NextLink href="/avtale-stilling-feed" passHref legacyBehavior>
+                        <DsLink>avtalen om deling av jobbannonser fra NAV til konsument</DsLink>
+                    </NextLink>{" "}
+                    som må godtas for å få tilgang til APIet.
+                </BodyLong>
             </article>
         </Layout>
     );
