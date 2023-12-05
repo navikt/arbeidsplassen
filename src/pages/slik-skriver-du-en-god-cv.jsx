@@ -76,7 +76,7 @@ export default function SlikSkriverDuEnGodCv() {
                 <BodyLong spacing>
                     Start med den siste jobben. Før opp stillingstittel og perioden du jobbet der. Du kan også oppgi
                     arbeidsoppgaver og ansvarsområder i stikkordsform. I CV-en på arbeidsplassen.no kan du automatisk
-                    hente inn arbeidserfaringen din fra 3015 og frem til i dag.
+                    hente inn arbeidserfaringen din fra 2015 og frem til i dag.
                 </BodyLong>
 
                 <Heading size="small" level="3" spacing>
