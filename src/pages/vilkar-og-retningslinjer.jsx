@@ -24,13 +24,14 @@ export default function vilkarOgRetningslinjer() {
                 <ul className="mb-12">
                     <li>
                         <BodyLong>
-                            Stillingsannonser som arbeidsgiver kan publisere skal følge retningslinjer for innhold i
+                            Stillingsannonser som arbeidsgiver skal publisere, må følge retningslinjer for innhold i
                             stillingsannonser, se mer informasjon under.
                         </BodyLong>
                     </li>
                     <li>
                         <BodyLong>
-                            For å benytte tjenestene på arbeidsplassen.no må ha et generelt rekrutteringsbehov.
+                            For å benytte tjenestene på arbeidsplassen.no må bedriften ha et generelt
+                            rekrutteringsbehov.
                         </BodyLong>
                     </li>
                     <li>
