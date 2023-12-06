@@ -24,13 +24,17 @@ export default function vilkarOgRetningslinjer() {
                 <ul className="mb-12">
                     <li>
                         <BodyLong>
-                            Stillingsannonser som arbeidsgiver kan publisere skal følge retningslinjer for innhold i
-                            stillingsannonser, se mer informasjon under.
+                            Stillingsannonser som arbeidsgiver skal publisere, må følge{" "}
+                            <NextLink href="/retningslinjer-stillingsannonser" passHref legacyBehavior>
+                                <DsLink inlineText>retningslinjene for innhold i stillingsannonser</DsLink>
+                            </NextLink>
+                            .
                         </BodyLong>
                     </li>
                     <li>
                         <BodyLong>
-                            For å benytte tjenestene på arbeidsplassen.no må ha et generelt rekrutteringsbehov.
+                            For å benytte tjenestene på arbeidsplassen.no, må bedriften ha et generelt
+                            rekrutteringsbehov.
                         </BodyLong>
                     </li>
                     <li>
@@ -40,7 +44,7 @@ export default function vilkarOgRetningslinjer() {
                         </BodyLong>
                     </li>
                     <li>
-                        <BodyLong>Personopplysninger om jobbsøkere kan ikke brukes til markedsføring.</BodyLong>
+                        <BodyLong>Personopplysninger om jobbsøkere, kan ikke brukes til markedsføring.</BodyLong>
                     </li>
                 </ul>
 
@@ -52,9 +56,8 @@ export default function vilkarOgRetningslinjer() {
                     på arbeidsplassen.no.{" "}
                 </BodyLong>
                 <BodyLong className="mb-12">
-                    Her kan du lese{" "}
                     <NextLink href="/arbeidsgivertjenester " passHref legacyBehavior>
-                        <DsLink>alle vilkårene for bruk av arbeidsplassen.no</DsLink>
+                        <DsLink>Hvem kan bruke arbeidsgivertjenstene på arbeidsplassen.no</DsLink>
                     </NextLink>
                 </BodyLong>
 
@@ -81,12 +84,11 @@ export default function vilkarOgRetningslinjer() {
                         <DsLink>se NAVs personvernerklæring.</DsLink>
                     </NextLink>
                 </BodyLong>
-                <BodyLong spacing>
-                    Flere vilkår og retningslinjer står lenger ned, kategorisert på enkelttjenestene på
-                    arbeidsplassen.no.{" "}
-                </BodyLong>
                 <BodyLong className="mb-12">
-                    Har du spørsmål, ta gjerne kontakt med oss: Kontakt NAV - arbeidsgiver
+                    Har du spørsmål, ta gjerne kontakt med oss:{" "}
+                    <DsLink href="https://www.nav.no/arbeidsgiver/kontaktoss" inlineText>
+                        Kontakt NAV - arbeidsgiver
+                    </DsLink>
                 </BodyLong>
 
                 <Heading size="large" level="2" spacing>
@@ -103,11 +105,9 @@ export default function vilkarOgRetningslinjer() {
                     varsling. NAV vil ta kontakt og informere i etterkant.
                 </BodyLong>
                 <BodyLong className="mb-12">
-                    Les her for mer informasjon om{" "}
                     <NextLink href="/vilkar-stillingsannonser" passHref legacyBehavior>
-                        <DsLink>Vilkår for å publisere stillingsannonser</DsLink>
-                    </NextLink>{" "}
-                    på arbeidsplassen.no
+                        <DsLink>Vilkår for å publisere stillingsannonser på arbeidsplassen.no</DsLink>
+                    </NextLink>
                 </BodyLong>
 
                 <Heading size="large" level="2" spacing>
@@ -118,11 +118,9 @@ export default function vilkarOgRetningslinjer() {
                     formålet er å bemanne og rekruttere til en konkret stilling.
                 </BodyLong>
                 <BodyLong className="mb-12">
-                    Her kan du lese{" "}
                     <NextLink href="/vilkar-superrask-soknad" passHref legacyBehavior>
-                        <DsLink>Vilkår for bruk av superrask søknad</DsLink>
-                    </NextLink>{" "}
-                    på arbeidsplassen.no
+                        <DsLink>Vilkår for bruk av superrask søknad på arbeidsplassen.no</DsLink>
+                    </NextLink>
                 </BodyLong>
 
                 <Heading size="large" level="2" spacing>
@@ -133,11 +131,9 @@ export default function vilkarOgRetningslinjer() {
                     sending mens deltagere kan se og høre på.
                 </BodyLong>
                 <BodyLong className="mb-12">
-                    Her kan du lese{" "}
                     <NextLink href="/retningslinjer-jobbtreff" passHref legacyBehavior>
-                        <DsLink>Retningslinjer for innhold i jobbtreff</DsLink>
-                    </NextLink>{" "}
-                    på arbeidsplassen.no
+                        <DsLink>Retningslinjer for innhold i jobbtreff på arbeidsplassen.no</DsLink>
+                    </NextLink>
                 </BodyLong>
 
                 <Heading size="large" level="2" spacing>
@@ -150,11 +146,9 @@ export default function vilkarOgRetningslinjer() {
                     hentet inn fra våre samarbeidspartnere.
                 </BodyLong>
                 <BodyLong className="mb-24">
-                    Her kan du lese{" "}
                     <NextLink href="/vilkar-api" passHref legacyBehavior>
-                        <DsLink>Vilkår for bruk av API for stillingsannonser</DsLink>
-                    </NextLink>{" "}
-                    på arbeidsplassen.no
+                        <DsLink>Vilkår for bruk av API for stillingsannonser på arbeidsplassen.no</DsLink>
+                    </NextLink>
                 </BodyLong>
             </article>
         </Layout>
