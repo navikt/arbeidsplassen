@@ -16,10 +16,10 @@ export default function epostVerifiseringUtgaatt() {
                         Lenken er dessverre utgått
                     </Heading>
                     <BodyLong className="mb-8 text-center">
-                        Du kan sende en ny bekreftelse inne i samtykken og innstillinger.
+                        Du kan sende en ny bekreftelse inne i samtykker og innstillinger.
                     </BodyLong>
                     <Button variant="primary" as="a" href="/min-side/innstillinger">
-                        Gå til samtykken og innstillinger
+                        Gå til samtykker og innstillinger
                     </Button>
                 </VStack>
             </article>
