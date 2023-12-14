@@ -31,7 +31,7 @@ spec:
     enabled: true
     sidecar:
       enabled: true
-      level: Level3
+      level: Level4
   tokenx:
     enabled: true
   prometheus:
