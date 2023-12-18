@@ -1,6 +1,23 @@
-export default function HolidayJobseeker() {
+import PropTypes from "prop-types";
+
+export default function HolidayJobseeker({
+    className,
+    ariaHidden = true,
+    title = "To figurer som ser på hverandre med nisselue og aventslysestake",
+}) {
     return (
-        <svg xmlns="http://www.w3.org/2000/svg" width="296" height="256" viewBox="0 0 296 256" fill="none">
+        <svg
+            width="296"
+            height="256"
+            viewBox="0 0 296 256"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            aria-hidden={ariaHidden}
+            aria-label={title}
+            className={className}
+            role="img"
+        >
+            <title>{title}</title>
             <path
                 d="M295.857 235.985C291.374 255.521 180.21 255.947 152.634 255.947C125.058 255.947 -5.59799 257.688 0.18626 241.165C5.97051 224.641 106.962 213.739 152.634 223.972C198.306 234.205 300.34 216.449 295.857 235.985Z"
                 fill="#E3E6F7"
@@ -207,3 +224,9 @@ export default function HolidayJobseeker() {
         </svg>
     );
 }
+
+HolidayJobseeker.propTypes = {
+    className: PropTypes.string,
+    ariaHidden: PropTypes.bool,
+    title: PropTypes.string,
+};
