@@ -52,7 +52,7 @@ export default function jobbeiUtlandet() {
             </div>
 
             <div className="container-medium mb-24">
-                <Heading size="large" level="1" spacing>
+                <Heading size="large" level="2" spacing>
                     Videre lesning
                 </Heading>
                 <div className="image-link-panel-grid-medium">

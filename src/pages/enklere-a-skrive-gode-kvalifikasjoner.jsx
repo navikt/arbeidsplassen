@@ -48,7 +48,7 @@ export default function Page() {
                         av KI (kunstig intelligens) til å foreslå gode kvalifikasjoner basert på informasjonen som du
                         har lagt inn i jobbannonsen.
                     </BodyLong>
-                    <List title="Slik fungerer det">
+                    <List title="Slik fungerer det" headingTag="h2">
                         <List.Item>
                             Når du velger å{" "}
                             <Link href="/superrask-soknad-bedrift" passHref legacyBehavior>
