@@ -24,7 +24,7 @@ export default function retningslinjerStillingsannonser() {
 
                 <BodyLong spacing>
                     Hvis du ønsker å annonsere ledige stillinger på arbeidsplassen.no og{" "}
-                    <NextLink href="https://eures.ec.europa.eu/index_en" passHref legacyBehavior>
+                    <NextLink href="https://eures.europa.eu/index_en" passHref legacyBehavior>
                         <DsLink>Den Europeiske Jobbmobilitetsportalen</DsLink>
                     </NextLink>
                     {", "}
