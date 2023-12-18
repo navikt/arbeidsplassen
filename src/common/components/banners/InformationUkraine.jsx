@@ -8,7 +8,10 @@ export default function InformationUkraine() {
             <Heading spacing level="2" size="large" lang="en">
                 Information about working in Norway for refugees from Ukraine
             </Heading>
-            <ul className="ukraine-grid mb-6">
+            <ul
+                className="ukraine-grid mb-6"
+                aria-label="Liste med lenker til informasjonssider for Ukrainske flyktninger"
+            >
                 <li>
                     <BodyLong lang="en">
                         <NextLink locale="en" href="/work-in-norway" passHref legacyBehavior>
