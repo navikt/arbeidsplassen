@@ -58,8 +58,8 @@ export default function vilkar() {
                 </Heading>
                 <BodyLong spacing>
                     Hvis du ønsker å annonsere ledige stillinger på Arbeidsplassen og{" "}
-                    <DsLink href="https://eures.ec.europa.eu/index_en">Den Europeiske Jobbmobilitetsportalen</DsLink>,
-                    må du som arbeidsgiver godta vilkårene under.
+                    <DsLink href="https://eures.europa.eu/index_en">Den Europeiske Jobbmobilitetsportalen</DsLink>, må
+                    du som arbeidsgiver godta vilkårene under.
                 </BodyLong>
                 <BodyLong>
                     Stillingsannonsen blir synlig på Arbeidsplassen få minutter etter at du har sendt den til
