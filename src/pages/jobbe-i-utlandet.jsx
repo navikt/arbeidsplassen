@@ -44,7 +44,7 @@ export default function jobbeiUtlandet() {
                     Sveits.
                 </BodyLong>
 
-                <LinkPanel className="arb-link-panel-primary" href="https://ec.europa.eu/eures/public/index_no">
+                <LinkPanel className="arb-link-panel-primary" href="https://eures.europa.eu/index_no">
                     <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                         Gå til EURES-portalen
                     </LinkPanel.Title>
