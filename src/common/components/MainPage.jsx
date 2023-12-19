@@ -32,7 +32,7 @@ function MainPage() {
             <div className="arb-link-panel-grid mb-12">
                 <LinkPanel className="arb-link-panel-primary" href="/jobbtreff">
                     <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
-                        Se kommende jobbtreff
+                        Vis kommende jobbtreff
                     </LinkPanel.Title>
                     <LinkPanel.Description className="navds-link-panel__description navds-body-long">
                         Følg en direkte sending fra en bedrift og hør om deres stillinger.
