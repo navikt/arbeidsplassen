@@ -65,9 +65,8 @@ export default function FindingAJob() {
                                 {t("h2-find-job.p1-link-text")}
                             </DsLink>
                         </BodyLong>
-                        <BodyLong spacing>{t("h2-find-job.p2")}</BodyLong>
                         <BodyLong spacing>
-                            {t("h2-find-job.p3")}{" "}
+                            {t("h2-find-job.p2")}{" "}
                             <NextLink
                                 href="/mot-bedrifter-pa-en-ny-mate"
                                 passHref
@@ -75,13 +74,13 @@ export default function FindingAJob() {
                                 locale="no"
                                 hrefLang="no"
                             >
-                                <DsLink>{t("h2-find-job.p3-link-text-1")}</DsLink>
+                                <DsLink>{t("h2-find-job.p2-link-text-1")}</DsLink>
                             </NextLink>{" "}
-                            {t("h2-find-job.p3-2")}{" "}
+                            {t("h2-find-job.p2-2")}{" "}
                             <DsLink href="/jobbtreff" hrefLang="no">
-                                {t("h2-find-job.p3-link-text-2")}
+                                {t("h2-find-job.p2-link-text-2")}
                             </DsLink>{" "}
-                            {t("h2-find-job.p3-3")}
+                            {t("h2-find-job.p2-3")}
                         </BodyLong>
 
                         <Heading size="small" level="3" spacing>
@@ -169,6 +168,7 @@ export default function FindingAJob() {
                             <DsLink href="/stillinger?q=english">{t("h2-working-wo-norwegian.p-link-text")}</DsLink>{" "}
                             {t("h2-working-wo-norwegian.p1-2")}
                         </BodyLong>
+                        <BodyLong spacing>{t("h2-working-wo-norwegian.p2")}</BodyLong>
 
                         <Heading size="small" level="3" spacing>
                             {t("h3-norwegian-courses.title")}

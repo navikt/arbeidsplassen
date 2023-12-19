@@ -19,12 +19,11 @@
         "title": "Where can I find a job?",
         "p1": "You can look for a job at arbeidsplassen.no, one of the largest databases for job advertisements in Norway. Here you can also find",
         "p1-link-text": "job advertisements in English.",
-        "p2": "You can apply for positions that require English, but not necessarily Norwegian. In the job search page under \"Arbeidspråk\", you can check off \"Engelsk\", the search will find these positions for you.",
-        "p3": "With",
-        "p3-link-text-1": "\"Jobbtreff\" (Norwegian language)",
-        "p3-2": "at arbeidsplassen.no you can follow a live broadcast where companies present themselves and the positions you can apply for.  Jobbtreff is mainly held in Norwegian. Take a look at",
-        "p3-link-text-2": "\"Se kommende jobbtreff\" (Norwegian language)",
-        "p3-3": "if you can find one in English."
+        "p2": "With",
+        "p2-link-text-1": "\"Jobbtreff\" (Norwegian language)",
+        "p2-2": "at arbeidsplassen.no you can follow a live broadcast where companies present themselves and the positions you can apply for.  Jobbtreff is mainly held in Norwegian. Take a look at",
+        "p2-link-text-2": "\"Se kommende jobbtreff\" (Norwegian language)",
+        "p2-3": "if you can find one in English."
     },
     "2-link-panels": {
         "1-title": "Job ads on arbeidsplassen.no (Norwegian language)",
@@ -57,7 +56,8 @@
         "title": "Where can I work without Norwegian language skills?",
         "p1": "Employers might set up language requirements through the job advertisement.  If you can communicate in basic English, you can look for",
         "p-link-text": "job advertisement in English",
-        "p1-2": "or where English is specified as working language."
+        "p1-2": "or where English is specified as working language.",
+        "p2": "In the job search page under \"Arbeidspråk\", you can check off \"Engelsk\", and the search will find these positions for you."
     },
     "h3-norwegian-courses": {
         "title": "Norwegian courses",
