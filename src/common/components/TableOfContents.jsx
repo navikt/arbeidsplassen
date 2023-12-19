@@ -33,9 +33,9 @@ const useHeadingsData = (prefix = "") => {
     return { nestedHeadings };
 };
 
-function Headings({ headings, activeId }) {
+function Headings({ headings, activeId, ariaLabelledBy }) {
     return (
-        <ul>
+        <ul aria-labelledby={ariaLabelledBy}>
             {headings.map((heading) => (
                 <li key={heading.id} className={heading.id === activeId ? "active" : ""}>
                     <NextLink
@@ -62,6 +62,7 @@ Headings.propTypes = {
         }),
     ),
     activeId: PropTypes.string,
+    ariaLabelledBy: PropTypes.string,
 };
 
 const useIntersectionObserver = (setActiveId, prefix = "") => {
@@ -112,8 +113,8 @@ function TableOfContents({ selectorPrefix = "" }) {
         <div className="table-of-contents-wrapper">
             <div className="table-of-contents-container">
                 <Label className="table-of-contents-label">Page contents</Label>
-                <nav className="table-of-contents" aria-label="Table of contents">
-                    <Headings headings={nestedHeadings} activeId={activeId} />
+                <nav id="table-of-contents" className="table-of-contents" aria-label="Table of contents">
+                    <Headings headings={nestedHeadings} activeId={activeId} ariaLabelledBy="table-of-contents" />
                 </nav>
                 <NextLink href="/work-in-norway" passHref legacyBehavior>
                     <DsLink className="table-of-contents back-link-main-content">
