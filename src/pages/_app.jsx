@@ -15,6 +15,14 @@ import { setUpAmplitude, setAuthenticatedStatus } from "@/src/common/analysis/me
 import { useContext, useEffect } from "react";
 import { appWithTranslation } from "next-i18next";
 import setSentryUserProperties from "@/src/common/analysis/sentry";
+import { Inter } from "next/font/google";
+
+const inter = Inter({
+    weight: ["400", "600", "700"],
+    style: ["normal"],
+    subsets: ["latin"],
+    display: "swap",
+});
 
 function TrackedApp({ children }) {
     useEffect(() => {
@@ -35,7 +43,9 @@ function App({ Component, pageProps }) {
     return (
         <AuthenticationProvider>
             <TrackedApp>
-                <Component {...pageProps} />
+                <div className={inter.className}>
+                    <Component {...pageProps} />
+                </div>
             </TrackedApp>
         </AuthenticationProvider>
     );
