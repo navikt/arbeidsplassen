@@ -18,7 +18,7 @@ function MainPage() {
                     </Ingress>
 
                     <div className="mb-16">
-                        <Button variant="primary" as="a" href="/stillinger">
+                        <Button variant="primary" as="a" href="/stillinger" role="link">
                             Søk etter din neste jobb
                         </Button>
                     </div>

@@ -63,7 +63,7 @@ export default function slikFungererSuperraskSoknad() {
                         </BodyLong>
                     </div>
                     <div className="center">
-                        <Button variant="primary" as="a" href="/stillingsregistrering/stillingsannonser">
+                        <Button variant="primary" as="a" href="/stillingsregistrering/stillingsannonser" role="link">
                             Lag ny stillingsannonse
                         </Button>
                     </div>

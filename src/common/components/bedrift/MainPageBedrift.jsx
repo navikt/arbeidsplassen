@@ -13,7 +13,7 @@ function MainPageBedrift() {
                     <Ingress spacing>Motta søknader raskt og enkelt fra relevante jobbsøkere.</Ingress>
 
                     <div className="mb-16">
-                        <Button variant="primary" as="a" href="/stillingsregistrering">
+                        <Button variant="primary" as="a" href="/stillingsregistrering" role="link">
                             Gå til min bedriftsside
                         </Button>
                     </div>

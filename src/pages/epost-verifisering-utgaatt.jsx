@@ -18,7 +18,7 @@ export default function epostVerifiseringUtgaatt() {
                     <BodyLong className="mb-8 text-center">
                         Du kan sende en ny bekreftelse inne i samtykker og innstillinger.
                     </BodyLong>
-                    <Button variant="primary" as="a" href="/min-side/innstillinger">
+                    <Button variant="primary" as="a" href="/min-side/innstillinger" role="link">
                         Gå til samtykker og innstillinger
                     </Button>
                 </VStack>
