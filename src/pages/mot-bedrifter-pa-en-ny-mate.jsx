@@ -26,7 +26,6 @@ export default function MotBedrifterPaEnNyMate() {
                     className="article-image"
                     src="/images/jobbtreff.webp"
                     alt="En person sitter ved et kjøkkenbord med datamaskin foran seg, hun har på hodetelefoner og er nok i gang med en videosamtale."
-                    width="100%"
                 />
             </div>
 

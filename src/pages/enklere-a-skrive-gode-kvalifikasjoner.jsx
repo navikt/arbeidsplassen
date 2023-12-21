@@ -38,7 +38,6 @@ export default function Page() {
                         className="article-image"
                         src="/images/dog.png"
                         alt="Glad hund som som sitter ved kjøkkenbordet og ser på en person som fyller ut superrask søknad."
-                        width="100%"
                     />
                 </div>
                 <div className="container-small">

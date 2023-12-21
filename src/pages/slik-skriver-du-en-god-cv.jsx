@@ -26,7 +26,6 @@ export default function SlikSkriverDuEnGodCv() {
                     className="article-image"
                     src="/images/writing.jpg"
                     alt="En konsentrert person som skriver på datamaskinen sin"
-                    width="100%"
                 />
             </div>
 

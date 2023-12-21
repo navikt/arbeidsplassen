@@ -21,7 +21,6 @@ export default function Sommerjobb() {
                     className="article-image"
                     src="/images/sommerjobb.png"
                     alt="En kunde får servert en burger fra en food truck"
-                    width="100%"
                 />
             </div>
 

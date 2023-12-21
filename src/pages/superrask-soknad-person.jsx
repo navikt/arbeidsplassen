@@ -24,7 +24,6 @@ export default function SuperraskSoknadPerson() {
                     className="article-image"
                     src="/images/jobbsoker.jpg"
                     alt="En person som skriver på telefonen sin."
-                    width="100%"
                 />
             </div>
 
