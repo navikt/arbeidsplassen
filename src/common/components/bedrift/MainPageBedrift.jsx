@@ -47,9 +47,8 @@ function MainPageBedrift() {
                     href="/enklere-a-skrive-gode-kvalifikasjoner"
                     image="/images/dog-thumbnail.png"
                     alt="Glad hund som som sitter ved kjøkkenbordet og ser på en person som fyller ut superrask søknad."
-                    title="Nå er det enklere å skrive gode kvalifikasjonskrav"
-                    description="Med superrask søknad kan du nå få forslag til kvalifikasjoner ved
-                        hjelp av kunstig intelligens."
+                    title="Nå er det enklere å skrive gode kvalifikasjoner og overskrifter"
+                    description="Du kan nå få forslag til kvalfikasjoner og overskrifter ved hjelp av kunstig intelligens."
                     color="primary"
                 />
                 <ImageLinkPanelSmall
