@@ -28,7 +28,6 @@ export default function SuperraskSoknadBedrift() {
                     className="article-image"
                     src="/images/bedrift.jpg"
                     alt="En mann sitter på et kontor og tar en annen i hånden"
-                    width="100%"
                 />
             </div>
 

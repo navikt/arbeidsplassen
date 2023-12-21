@@ -20,7 +20,7 @@ export default function jobbeiUtlandet() {
             </div>
 
             <div className="container-medium mb-12">
-                <img className="article-image" src="/images/paris.jpg" alt="Bilde av Eiffeltårnet" width="100%" />
+                <img className="article-image" src="/images/paris.jpg" alt="Bilde av Eiffeltårnet" />
             </div>
 
             <div className="container-small mb-16">

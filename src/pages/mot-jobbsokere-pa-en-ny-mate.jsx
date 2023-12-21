@@ -21,12 +21,7 @@ export default function MotJobbsokerePaEnNyMate() {
             </div>
 
             <div className="container-medium mb-12">
-                <img
-                    className="article-image"
-                    src="/images/jobbtreff.webp"
-                    alt="Person som skriver på en datamaskin"
-                    width="100%"
-                />
+                <img className="article-image" src="/images/jobbtreff.webp" alt="Person som skriver på en datamaskin" />
             </div>
 
             <div className="container-small mb-16">

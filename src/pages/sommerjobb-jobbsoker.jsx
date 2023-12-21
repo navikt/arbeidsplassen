@@ -23,7 +23,6 @@ export default function SommerjobbJobbsoker() {
                     className="article-image article-image-pos"
                     src="/images/sommerjobb-jobbsoker.jpg"
                     alt="En kunde får servert en burger fra en food truck"
-                    width="100%"
                 />
             </div>
 

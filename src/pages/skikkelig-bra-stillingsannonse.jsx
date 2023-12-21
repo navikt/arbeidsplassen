@@ -26,7 +26,6 @@ export default function SkikkeligBraStillingsannonse() {
                     className="article-image"
                     src="/images/stillingsannonse.jpg"
                     alt="Person som skriver på en skrivemaskin"
-                    width="100%"
                 />
             </div>
 

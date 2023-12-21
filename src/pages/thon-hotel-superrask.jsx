@@ -22,7 +22,6 @@ export default function ThonHotelSuperrask() {
                     className="article-image article-image-pos-thon"
                     src="/images/ThonHotelDirektor.jpg"
                     alt="Bilde av direktør ved Thon Partner Hotel Otta Ruth Øien Mæhlum"
-                    width="100%"
                 />
                 <BodyLong size="small">
                     Bildetekst: Ruth Øien Mæhlum, direktør ved Thon Partner Hotel Otta, er fornøyd med superrask søknad
@@ -89,12 +88,7 @@ export default function ThonHotelSuperrask() {
             </div>
 
             <div className="container-medium mb-12">
-                <img
-                    className="article-image article-image-pos-thon2"
-                    src="/images/ThonHotel.jpg"
-                    alt=""
-                    width="100%"
-                />
+                <img className="article-image article-image-pos-thon2" src="/images/ThonHotel.jpg" alt="" />
                 <BodyLong size="small">
                     Bildetekst: Jannicke, Lillian og Hans Morten forbereder seg på mange turister i sommer.
                 </BodyLong>

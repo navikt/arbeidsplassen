@@ -22,7 +22,7 @@ export default function overforingAvStillingsannonser() {
             </div>
 
             <div className="container-medium mb-12">
-                <img className="article-image" src="/images/api.png" alt="API, illustrasjon" width="100%" />
+                <img className="article-image" src="/images/api.png" alt="API, illustrasjon" />
             </div>
             <div className="container-small mb-16">
                 <Heading size="large" level="2" spacing>
