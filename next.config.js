@@ -5,8 +5,8 @@ const ContentSecurityPolicy = `
   img-src 'self' data:;
   script-src 'self' 'unsafe-eval';
   worker-src 'self' blob:;
-  style-src 'self' 'unsafe-inline' fonts.googleapis.com nav.no;
-  font-src 'self' fonts.googleapis.com fonts.gstatic.com nav.no;
+  style-src 'self' 'unsafe-inline' nav.no;
+  font-src 'self' nav.no;
   connect-src 'self' amplitude.nav.no sentry.gc.nav.no;
 `;
 

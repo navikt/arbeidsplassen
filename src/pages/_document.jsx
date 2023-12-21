@@ -5,8 +5,6 @@ export default function Document() {
         <Html lang="no">
             <Head>
                 <link rel="icon" href="/favicon.png" />
-                <link rel="preconnect" href="https://fonts.googleapis.com" />
-                <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
             </Head>
             <body data-theme="arbeidsplassen">
                 <Main />
