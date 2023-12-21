@@ -112,12 +112,14 @@ function TableOfContents({ selectorPrefix = "" }) {
     return (
         <div className="table-of-contents-wrapper">
             <div className="table-of-contents-container">
-                <Label className="table-of-contents-label">Page contents</Label>
+                <Label className="table-of-contents-label" lang="en">
+                    Page contents
+                </Label>
                 <nav id="table-of-contents" className="table-of-contents" aria-label="Table of contents">
                     <Headings headings={nestedHeadings} activeId={activeId} ariaLabelledBy="table-of-contents" />
                 </nav>
                 <NextLink href="/work-in-norway" passHref legacyBehavior>
-                    <DsLink className="table-of-contents back-link-main-content">
+                    <DsLink className="table-of-contents back-link-main-content" lang="en">
                         <ChevronLeftIcon aria-hidden="true" />
                         Back to main page
                     </DsLink>
