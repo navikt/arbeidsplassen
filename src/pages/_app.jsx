@@ -15,10 +15,10 @@ import { setUpAmplitude, setAuthenticatedStatus } from "@/src/common/analysis/me
 import { useContext, useEffect } from "react";
 import { appWithTranslation } from "next-i18next";
 import setSentryUserProperties from "@/src/common/analysis/sentry";
-import { Inter } from "next/font/google";
+import interLocalFont from "next/font/local";
 
-const inter = Inter({
-    weight: ["400", "600", "700"],
+const myFont = interLocalFont({
+    src: "../../public/fonts/InterVariable.ttf",
     subsets: ["latin"],
     display: "swap",
 });
@@ -42,7 +42,7 @@ function App({ Component, pageProps }) {
     return (
         <AuthenticationProvider>
             <TrackedApp>
-                <div className={inter.className}>
+                <div className={myFont.className}>
                     <Component {...pageProps} />
                 </div>
             </TrackedApp>
