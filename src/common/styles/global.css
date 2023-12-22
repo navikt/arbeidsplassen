@@ -9,6 +9,7 @@ body {
     color: var(--a-text-default);
     font-family: var(--a-font-family);
     font-feature-settings: "salt", "ss03";
+    font-variation-settings: "opsz" 14;
 }
 
 #__next {
