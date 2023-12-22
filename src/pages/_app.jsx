@@ -19,6 +19,7 @@ import interLocalFont from "next/font/local";
 
 const myFont = interLocalFont({
     src: "../../public/fonts/InterVariable.ttf",
+    weight: "100 900",
     subsets: ["latin"],
     display: "swap",
 });
