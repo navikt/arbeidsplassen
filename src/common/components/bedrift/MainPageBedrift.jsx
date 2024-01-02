@@ -1,6 +1,6 @@
 import { Button, Heading, Ingress, LinkPanel } from "@navikt/ds-react";
+import { FiguresGivingHighFive } from "@navikt/arbeidsplassen-react";
 import ImageLinkPanelSmall from "@/src/common/components/ImageLinkPanelSmall";
-import HolidayEmployer from "@/src/common/components/HolidayEmployer";
 
 function MainPageBedrift() {
     return (
@@ -20,7 +20,7 @@ function MainPageBedrift() {
                 </div>
 
                 <div className="arb-home-illustration">
-                    <HolidayEmployer />
+                    <FiguresGivingHighFive />
                 </div>
             </section>
 
