@@ -51,7 +51,7 @@ export default function kontaktOss() {
                     </li>
                     <li>
                         <BodyLong>
-                            <Link href="https://arbeidsgiver.nav.no/kontakt-oss/">Kontakt NAV om rekruttering</Link>
+                            <Link href="https://www.nav.no/arbeidsgiver/kontaktoss">Kontakt NAV om rekruttering</Link>
                         </BodyLong>
                     </li>
                 </ul>
