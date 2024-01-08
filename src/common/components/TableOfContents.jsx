@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import PropTypes from "prop-types";
-import { Label, Link as DsLink } from "@navikt/ds-react";
+import { Link as DsLink, Heading } from "@navikt/ds-react";
 import { ChevronLeftIcon } from "@navikt/aksel-icons";
 import NextLink from "next/link";
 
@@ -24,7 +24,7 @@ const useHeadingsData = (prefix = "") => {
     const [nestedHeadings, setNestedHeadings] = useState([]);
 
     useEffect(() => {
-        const headingElements = Array.from(document.querySelectorAll(`${prefix} h2`));
+        const headingElements = Array.from(document.querySelectorAll(`${prefix} h2:not(nav h2)`));
 
         const newNestedHeadings = getNestedHeadings(headingElements);
         setNestedHeadings(newNestedHeadings);
@@ -69,7 +69,7 @@ const useIntersectionObserver = (setActiveId, prefix = "") => {
     const headingElementsRef = useRef({});
 
     useEffect(() => {
-        const headingElements = Array.from(document.querySelectorAll(`${prefix} h2`));
+        const headingElements = Array.from(document.querySelectorAll(`${prefix} h2:not(nav h2)`));
         const callback = (headings) => {
             headingElementsRef.current = headings.reduce((map, headingElement) => {
                 const mapping = map;
@@ -110,14 +110,14 @@ function TableOfContents({ selectorPrefix = "" }) {
     useIntersectionObserver(setActiveId, selectorPrefix);
 
     return (
-        <div className="table-of-contents-wrapper">
+        <nav className="table-of-contents-wrapper" aria-label="Page contents">
             <div className="table-of-contents-container">
-                <Label className="table-of-contents-label" lang="en">
+                <Heading id="table-of-contents" className="table-of-contents-label" lang="en" level="2" size="small">
                     Page contents
-                </Label>
-                <nav id="table-of-contents" className="table-of-contents" aria-label="Table of contents">
+                </Heading>
+                <div className="table-of-contents">
                     <Headings headings={nestedHeadings} activeId={activeId} ariaLabelledBy="table-of-contents" />
-                </nav>
+                </div>
                 <NextLink href="/work-in-norway" passHref legacyBehavior>
                     <DsLink className="table-of-contents back-link-main-content" lang="en">
                         <ChevronLeftIcon aria-hidden="true" />
@@ -125,7 +125,7 @@ function TableOfContents({ selectorPrefix = "" }) {
                     </DsLink>
                 </NextLink>
             </div>
-        </div>
+        </nav>
     );
 }
 

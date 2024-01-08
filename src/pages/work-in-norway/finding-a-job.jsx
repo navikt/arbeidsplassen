@@ -23,9 +23,9 @@ export default function FindingAJob() {
                         <BodyShort>{t("ukrainian-work-in-norway-title", { ns: "work-in-norway" })}</BodyShort>
                     </div>
                 </div>
-                <div className="container-large ukraine-page-main-container">
+                <article className="container-large ukraine-page-main-container">
                     <TableOfContents selectorPrefix="main" />
-                    <article className="container-small">
+                    <div className="container-small">
                         <Heading id="when-can-i-start-looking" size="large" level="2" spacing>
                             {t("h2-start-looking.title")}
                         </Heading>
@@ -192,8 +192,8 @@ export default function FindingAJob() {
                                 </LinkPanel.Title>
                             </LinkPanel>
                         </div>
-                    </article>
-                </div>
+                    </div>
+                </article>
             </div>
         </Layout>
     );
