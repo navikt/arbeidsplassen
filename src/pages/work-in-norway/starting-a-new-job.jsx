@@ -22,9 +22,9 @@ export default function StartingANewJob() {
                         <BodyShort>{t("ukrainian-work-in-norway-title", { ns: "work-in-norway" })}</BodyShort>
                     </div>
                 </div>
-                <div className="container-large ukraine-page-main-container">
+                <article className="container-large ukraine-page-main-container">
                     <TableOfContents selectorPrefix="main" />
-                    <article className="container-small page-margin-top-and-bottom ukraine-page">
+                    <div className="container-small page-margin-top-and-bottom ukraine-page">
                         <Heading id="start-working" size="large" level="2" spacing>
                             {t("h2-start-working")}
                         </Heading>
@@ -183,8 +183,8 @@ export default function StartingANewJob() {
                                 </LinkPanel.Title>
                             </LinkPanel>
                         </div>
-                    </article>
-                </div>
+                    </div>
+                </article>
             </div>
         </Layout>
     );
