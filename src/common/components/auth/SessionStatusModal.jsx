@@ -31,20 +31,18 @@ function SessionStatusModal({ markAsLoggedOut, setHasBeenLoggedIn, login, logout
 
             setHasBeenLoggedIn(true);
 
-            const sessionIsExpiring = session.ends_in_seconds < 60 * 50;
+            const sessionIsExpiring = session.ends_in_seconds < 60 * 10;
             setSessionExpiringInMinutes(Math.floor(session.ends_in_seconds / 60));
-            console.log("SEssion expiry", sessionExpiringInMinutes);
 
             const sessionIsTimingOut =
                 session.timeout_in_seconds > -1
-                    ? session.timeout_in_seconds < 60 * 50
-                    : tokens.expire_in_seconds < 60 * 50;
+                    ? session.timeout_in_seconds < 60 * 10
+                    : tokens.expire_in_seconds < 60 * 10;
             setSessionTimingOutInMinutes(
                 Math.floor(
                     session.timeout_in_seconds > -1 ? session.timeout_in_seconds / 60 : tokens.expire_in_seconds / 60,
                 ),
             );
-            console.log("session timeout", sessionTimingOutInMinutes);
 
             setIsSessionExpiring(sessionIsExpiring);
             setIsSessionTimingOut(sessionIsTimingOut);
