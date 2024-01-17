@@ -81,7 +81,7 @@ function SessionStatusModal({ markAsLoggedOut, setHasBeenLoggedIn, login, logout
         action = login;
     } else if (isSessionTimingOut) {
         title = "Forbli innlogget?";
-        message = `Av sikkerhetsgrunner lurer vi på om du vil fortsette å være innlogget. Hvis du ikke velger å fortsette, vil du automatisk bli logget ut om ${sessionTimingOutInMinutes} minutter`;
+        message = `Av sikkerhetsgrunner lurer vi på om du vil fortsette å være innlogget. Hvis du ikke velger å fortsette, vil du automatisk bli logget ut om ${sessionTimingOutInMinutes} minutter.`;
         actionText = "Fortsett å være innlogget";
         closeText = "Logg ut";
         action = () => refreshToken(hasBeenLoggedIn);
