@@ -18,6 +18,7 @@ import setSentryUserProperties from "@/src/common/analysis/sentry";
 import interLocalFont from "next/font/local";
 
 const myFont = interLocalFont({
+    variable: "--font-inter",
     src: "../../public/fonts/InterVariable.ttf",
     weight: "100 900",
     subsets: ["latin"],
