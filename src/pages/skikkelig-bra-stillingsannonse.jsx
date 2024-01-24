@@ -1,8 +1,9 @@
-import { BodyLong, Heading, Ingress, LinkPanel } from "@navikt/ds-react";
+import { BodyLong, Heading, Link as AkselLink, LinkPanel } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
 import React from "react";
 import ImageLinkPanelMedium from "@/src/common/components/ImageLinkPanelMedium";
+import Link from "next/link";
 
 export default function SkikkeligBraStillingsannonse() {
     return (
@@ -15,10 +16,10 @@ export default function SkikkeligBraStillingsannonse() {
                     Hvordan skriver du en skikkelig bra stillingsannonse?
                 </Heading>
 
-                <Ingress spacing>
+                <BodyLong size="large" spacing>
                     Hva ser jobbsøkere etter når de leser en stillingsannonse? Hva bør du tenke på når du skriver
-                    annonsen?
-                </Ingress>
+                    annonsen, slik at du kommer i kontakt med akkurat de søkerne du ønsker?
+                </BodyLong>
             </div>
 
             <div className="container-medium mb-12">
@@ -31,6 +32,20 @@ export default function SkikkeligBraStillingsannonse() {
 
             <div className="container-small mb-16">
                 <Heading size="large" level="2" spacing>
+                    Nyhet! Enklere og mer lettlest annonse med “strukturert annonse”
+                </Heading>
+                <BodyLong spacing>
+                    Når du lager en annonse på arbeidsplassen.no, kan du nå velge mellom «strukturert annonse» og «ikke
+                    strukturert annonse». Med «strukturert annonse» får du forhåndsdefinerte avsnitt, basert på hva
+                    jobbsøker synes er viktigst å vite.
+                </BodyLong>
+                <BodyLong className="mb-12">
+                    I tillegg får du tips om hvordan du når ut til jobbsøkerne på en fengende og målrettet måte. Ønsker
+                    du å opprette annonsen din som før, velger du formatet «ikke strukturert annonse». Informasjonen du
+                    legger inn, lagres underveis og du kan enkelt veksle mellom de to formatene.
+                </BodyLong>
+
+                <Heading size="large" level="2" spacing>
                     Fang interessen og gjør annonsen lett å lese
                 </Heading>
                 <BodyLong spacing>
@@ -42,7 +57,15 @@ export default function SkikkeligBraStillingsannonse() {
                         <BodyLong>Førsteinntrykket er viktig.</BodyLong>
                     </li>
                     <li>
-                        <BodyLong>Jobb med overskriften, den skal vekke interesse.</BodyLong>
+                        <BodyLong>
+                            Jobb med overskriften, den skal vekke interesse. Du kan bruke kunstig intelligens (KI) for å
+                            få forslag til gode overskrifter:{" "}
+                            <Link href="/enklere-a-skrive-gode-kvalifikasjoner" passHref legacyBehavior>
+                                <AkselLink>
+                                    https://arbeidsplassen.nav.no/enklere-a-skrive-gode-kvalifikasjoner
+                                </AkselLink>
+                            </Link>
+                        </BodyLong>
                     </li>
                     <li>
                         <BodyLong>Kom raskt til poenget.</BodyLong>
