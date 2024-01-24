@@ -42,13 +42,13 @@ function TrackedApp({ children }) {
 
 function App({ Component, pageProps }) {
     return (
-        <AuthenticationProvider>
-            <TrackedApp>
-                <div className={myFont.className}>
+        <div className={myFont.className}>
+            <AuthenticationProvider>
+                <TrackedApp>
                     <Component {...pageProps} />
-                </div>
-            </TrackedApp>
-        </AuthenticationProvider>
+                </TrackedApp>
+            </AuthenticationProvider>
+        </div>
     );
 }
 
