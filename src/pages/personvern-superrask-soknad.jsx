@@ -230,7 +230,7 @@ export default function personvernSuperraskSoknad() {
                 </BodyLong>
                 <BodyLong>
                     <DsLink href="https://www.datatilsynet.no/om-datatilsynet/kontakt-oss/klage-til-datatilsynet/">
-                        Klage til Datatilsynet
+                        Informasjon om klage til Datatilsynet
                     </DsLink>
                 </BodyLong>
             </article>
