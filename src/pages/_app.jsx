@@ -15,10 +15,12 @@ import { setUpAmplitude, setAuthenticatedStatus } from "@/src/common/analysis/me
 import { useContext, useEffect } from "react";
 import { appWithTranslation } from "next-i18next";
 import setSentryUserProperties from "@/src/common/analysis/sentry";
-import { Inter } from "next/font/google";
+import interLocalFont from "next/font/local";
 
-const inter = Inter({
-    weight: ["400", "600", "700"],
+const myFont = interLocalFont({
+    variable: "--font-inter",
+    src: "../../public/fonts/InterVariable.ttf",
+    weight: "100 900",
     subsets: ["latin"],
     display: "swap",
 });
@@ -40,13 +42,13 @@ function TrackedApp({ children }) {
 
 function App({ Component, pageProps }) {
     return (
-        <AuthenticationProvider>
-            <TrackedApp>
-                <div className={inter.className}>
+        <div className={myFont.className}>
+            <AuthenticationProvider>
+                <TrackedApp>
                     <Component {...pageProps} />
-                </div>
-            </TrackedApp>
-        </AuthenticationProvider>
+                </TrackedApp>
+            </AuthenticationProvider>
+        </div>
     );
 }
 
