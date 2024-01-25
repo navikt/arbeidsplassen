@@ -105,9 +105,10 @@ function SessionStatusModal({ markAsLoggedOut, setHasBeenLoggedIn, login, logout
         <Modal
             role="alertdialog"
             open
-            closeButton={false}
             onClose={() => {}}
+            width="small"
             header={{
+                closeButton: false,
                 heading: title,
             }}
         >
