@@ -300,3 +300,11 @@ img {
 .flex-1 {
     flex: 1;
 }
+
+.list-icon-border-stroke {
+    stroke: var(--a-border-alt-3);
+}
+
+.list-icon-text-fill {
+    fill: var(--arb-link-panel-primary-text);
+}
