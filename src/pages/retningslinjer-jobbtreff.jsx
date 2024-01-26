@@ -38,7 +38,7 @@ export default function retningslinjerJobbtreff() {
                 </BodyLong>
 
                 <Heading size="large" level="2" spacing>
-                    2. Bemanningsforetak/rekrutteringsbyrå
+                    2. Bemanningsforetak / rekrutteringsbyrå
                 </Heading>
                 <BodyLong className="mb-12">
                     Det er en forutsetning at bemanningsforetak skal være registrert hos Arbeidstilsynet, jf. forskrift
