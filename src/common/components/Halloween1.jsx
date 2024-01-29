@@ -108,7 +108,7 @@ function Halloween1() {
                     y2="211.574"
                     gradientUnits="userSpaceOnUse"
                 >
-                    <stop stopColor="#FFB682" />
+                    <stop offset="0" stopColor="#FFB682" />
                     <stop offset="1" stopColor="#EDA572" />
                 </linearGradient>
                 <linearGradient
