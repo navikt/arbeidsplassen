@@ -5,8 +5,8 @@ import UkrainianFlag from "@/src/common/components/images/UkrainianFlag";
 export default function InformationUkraine() {
     return (
         <Panel className="container-xlarge ukraine">
-            <Heading spacing level="2" size="large" lang="en">
-                Information about working in Norway for refugees from Ukraine
+            <Heading spacing level="2" size="large" lang="uk">
+                Інформація про роботу в Норвегії для українських біженців
             </Heading>
             <ul
                 className="ukraine-grid mb-6"
