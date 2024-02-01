@@ -18,7 +18,7 @@
     },
     "dependencies": {
         "@amplitude/analytics-browser": "^1.10.3",
-        "@navikt/aksel-icons": "^5.0.2",
+        "@navikt/aksel-icons": "^5.15.1",
         "@navikt/arbeidsplassen-css": "^8.2.8",
         "@navikt/arbeidsplassen-react": "^8.2.12",
         "@navikt/arbeidsplassen-theme": "^5.5.12",
