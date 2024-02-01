@@ -213,7 +213,7 @@ export default function HolidayEmployer() {
                     y2="129.229"
                     gradientUnits="userSpaceOnUse"
                 >
-                    <stop stopColor="#EE7D7A" />
+                    <stop offset="0" stopColor="#EE7D7A" />
                     <stop offset="1" stopColor="#E36E6B" />
                 </linearGradient>
                 <linearGradient
@@ -224,7 +224,7 @@ export default function HolidayEmployer() {
                     y2="123.795"
                     gradientUnits="userSpaceOnUse"
                 >
-                    <stop stopColor="#90E8C3" />
+                    <stop offset="0" stopColor="#90E8C3" />
                     <stop offset="1" stopColor="#7CCCAB" />
                 </linearGradient>
                 <clipPath id="clip0_4155_694">

@@ -59,7 +59,7 @@ export default function retningslinjerStillingsannonser() {
                 </BodyLong>
 
                 <Heading size="large" level="2" spacing>
-                    3. Bemanningsforetak/rekrutteringsbyrå
+                    3. Bemanningsforetak / rekrutteringsbyrå
                 </Heading>
                 <BodyLong spacing>
                     Bemanningsforetak som driver virksomhet i Norge skal være registrert hos Arbeidstilsynet, jf.
