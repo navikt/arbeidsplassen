@@ -67,7 +67,7 @@ export default function jobbeiUtlandet() {
                     <ImageLinkPanelMedium
                         image="/images/jobbsoker.jpg"
                         alt="En person som skriver på mobilen sin."
-                        title="Nyhet! Superrask søknad"
+                        title="Superrask søknad"
                         description="En enklere måte å komme i kontakt med bedrifter."
                         href="/superrask-soknad-person"
                         color="tertiary"
