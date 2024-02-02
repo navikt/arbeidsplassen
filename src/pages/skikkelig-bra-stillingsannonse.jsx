@@ -157,7 +157,7 @@ export default function SkikkeligBraStillingsannonse() {
                     <ImageLinkPanelMedium
                         image="/images/bedrift.jpg"
                         alt="En mann sitter på et kontor og tar en annen i hånden"
-                        title="Nyhet! Superrask søknad"
+                        title="Superrask søknad"
                         description="En enklere måte å komme i kontakt med relevante jobbsøkere."
                         href="/superrask-soknad-bedrift"
                         color="secondary"
