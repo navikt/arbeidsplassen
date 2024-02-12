@@ -37,6 +37,11 @@ spec:
   prometheus:
     enabled: true
     path: /metrics
+  observability:
+    logging:
+      destinations:
+        - id: loki
+        - id: elastic
   ingresses:
      - {{ ingress }}
   env:
