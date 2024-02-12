@@ -108,7 +108,7 @@ function Halloween1() {
                     y2="211.574"
                     gradientUnits="userSpaceOnUse"
                 >
-                    <stop stopColor="#FFB682" />
+                    <stop offset="0" stopColor="#FFB682" />
                     <stop offset="1" stopColor="#EDA572" />
                 </linearGradient>
                 <linearGradient
@@ -119,7 +119,7 @@ function Halloween1() {
                     y2="221.811"
                     gradientUnits="userSpaceOnUse"
                 >
-                    <stop stopColor="#9CA8F5" />
+                    <stop offset="0" stopColor="#9CA8F5" />
                     <stop offset="1" stopColor="#717DC7" />
                 </linearGradient>
                 <clipPath id="clip0_3043_31840">

@@ -93,7 +93,7 @@ export default function SommerjobbJobbsoker() {
                         href="/superrask-soknad-person"
                         image="/images/jobbsoker.jpg"
                         alt="En person som skriver på mobilen sin."
-                        title="Nyhet! Superrask søknad"
+                        title="Superrask søknad"
                         description="En enklere måte å komme i kontakt med bedrifter."
                         color="secondary"
                     />

@@ -9,11 +9,11 @@ export default function SuperraskSoknadPerson() {
     return (
         <Layout>
             <Head>
-                <title>Nyhet! Superrask søknad - arbeidsplassen.no</title>
+                <title>Superrask søknad - arbeidsplassen.no</title>
             </Head>
             <div className="container-small page-margin-top-and-bottom">
                 <Heading size="xlarge" level="1" spacing>
-                    Nyhet! Superrask søknad
+                    Superrask søknad
                 </Heading>
 
                 <Ingress spacing>En enklere måte å komme i kontakt med bedrifter</Ingress>
