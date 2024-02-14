@@ -2,7 +2,7 @@ import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
-import { BodyLong, BodyShort, Heading, LinkPanel, Link as DsLink } from "@navikt/ds-react";
+import { BodyLong, BodyShort, Heading, LinkPanel, Link as AkselLink } from "@navikt/ds-react";
 import TableOfContents from "@/src/common/components/TableOfContents";
 
 export default function StartingANewJob() {
@@ -85,25 +85,25 @@ export default function StartingANewJob() {
                         <BodyLong spacing>{t("h2-rights.p1")}</BodyLong>
                         <BodyLong spacing>
                             {t("h2-rights.p2")}{" "}
-                            <DsLink
+                            <AkselLink
                                 href="https://www.arbeidstilsynet.no/en/working-conditions/pay-and-minimum-rates-of-pay/minimum-wage/"
                                 hrefLang="en"
                             >
                                 {t("h2-rights.p2-link-title")}
-                            </DsLink>
+                            </AkselLink>
                         </BodyLong>
                         <BodyLong spacing>
                             {t("h2-rights.p3-1")}{" "}
-                            <DsLink href={t("h2-rights.p3-link")}>{t("h2-rights.p3-link-title")}</DsLink>{" "}
+                            <AkselLink href={t("h2-rights.p3-link")}>{t("h2-rights.p3-link-title")}</AkselLink>{" "}
                             {t("h2-rights.p3-2")}
                         </BodyLong>
-                        <DsLink
+                        <AkselLink
                             hrefLang="uk"
                             href="https://www.youtube.com/playlist?list=PLcQRxNrcK73GjDweZyUUjSJRTFUWDJQzq"
                             className="mb-8"
                         >
                             {t("h2-rights.link-title")}
-                        </DsLink>
+                        </AkselLink>
 
                         <Heading size="small" level="3" spacing>
                             {t("h3-news-articles", { ns: "work-in-norway" })}
@@ -143,13 +143,13 @@ export default function StartingANewJob() {
                         <BodyLong spacing>{t("h2-establish-business.p1")}</BodyLong>
                         <BodyLong spacing>
                             {" "}
-                            <DsLink
+                            <AkselLink
                                 href="https://www.altinn.no/en/start-and-run-business/planning-starting/"
                                 hrefLang="en"
                             >
                                 {" "}
                                 {t("h2-establish-business.p2-link-title")}
-                            </DsLink>{" "}
+                            </AkselLink>{" "}
                             {t("h2-establish-business.p2")}
                         </BodyLong>
 

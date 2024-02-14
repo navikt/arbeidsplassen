@@ -1,4 +1,4 @@
-import { BodyLong, Chips, Heading, Ingress, LinkPanel, Link as DsLink } from "@navikt/ds-react";
+import { BodyLong, Chips, Heading, Ingress, LinkPanel, Link as AkselLink } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
 import { useTranslation } from "next-i18next";
@@ -110,9 +110,9 @@ export default function WorkInNorway() {
                     </Heading>
                     <BodyLong spacing>{t("hotjar.p", { ns: "hotjar" })}</BodyLong>
                     <BodyLong>
-                        <DsLink href={t("hotjar.link", { ns: "hotjar" })} className="feedback-link">
+                        <AkselLink href={t("hotjar.link", { ns: "hotjar" })} className="feedback-link">
                             {t("hotjar.link-text", { ns: "hotjar" })}
-                        </DsLink>
+                        </AkselLink>
                     </BodyLong>
                 </div>
             </article>

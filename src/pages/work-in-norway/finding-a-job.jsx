@@ -2,7 +2,7 @@ import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
-import { BodyLong, BodyShort, Heading, LinkPanel, Link as DsLink } from "@navikt/ds-react";
+import { BodyLong, BodyShort, Heading, LinkPanel, Link as AkselLink } from "@navikt/ds-react";
 import TableOfContents from "@/src/common/components/TableOfContents";
 import NextLink from "next/link";
 
@@ -31,7 +31,9 @@ export default function FindingAJob() {
                         </Heading>
                         <BodyLong spacing>
                             {t("h2-start-looking.p1")}{" "}
-                            <DsLink href={t("h2-start-looking.p1-link")}>{t("h2-start-looking.p1-link-text")}</DsLink>{" "}
+                            <AkselLink href={t("h2-start-looking.p1-link")}>
+                                {t("h2-start-looking.p1-link-text")}
+                            </AkselLink>{" "}
                             {t("h2-start-looking.p1-2")}
                         </BodyLong>
                         <BodyLong spacing>{t("h2-start-looking.p2")}</BodyLong>
@@ -61,9 +63,9 @@ export default function FindingAJob() {
                         </Heading>
                         <BodyLong spacing>
                             {t("h2-find-job.p1")}{" "}
-                            <DsLink hrefLang="no" href="/stillinger?q=english">
+                            <AkselLink hrefLang="no" href="/stillinger?q=english">
                                 {t("h2-find-job.p1-link-text")}
-                            </DsLink>
+                            </AkselLink>
                         </BodyLong>
                         <BodyLong spacing>
                             {t("h2-find-job.p2")}{" "}
@@ -74,12 +76,12 @@ export default function FindingAJob() {
                                 locale="no"
                                 hrefLang="no"
                             >
-                                <DsLink>{t("h2-find-job.p2-link-text-1")}</DsLink>
+                                <AkselLink>{t("h2-find-job.p2-link-text-1")}</AkselLink>
                             </NextLink>{" "}
                             {t("h2-find-job.p2-2")}{" "}
-                            <DsLink href="/jobbtreff" hrefLang="no">
+                            <AkselLink href="/jobbtreff" hrefLang="no">
                                 {t("h2-find-job.p2-link-text-2")}
-                            </DsLink>{" "}
+                            </AkselLink>{" "}
                             {t("h2-find-job.p2-3")}
                         </BodyLong>
 
@@ -108,31 +110,31 @@ export default function FindingAJob() {
                         </Heading>
                         <BodyLong spacing>
                             {t("h2-assistance.p1")}{" "}
-                            <DsLink hrefLang="en" href="https://www.nav.no/kontaktoss/en">
+                            <AkselLink hrefLang="en" href="https://www.nav.no/kontaktoss/en">
                                 {t("h2-assistance.p1-link-text-1")}
-                            </DsLink>{" "}
+                            </AkselLink>{" "}
                             {t("h2-assistance.p1-2")}
-                            <DsLink href="https://www.nav.no/arbeid/registrering" hrefLang="no">
+                            <AkselLink href="https://www.nav.no/arbeid/registrering" hrefLang="no">
                                 {t("h2-assistance.p1-link-text-2")}
-                            </DsLink>{" "}
+                            </AkselLink>{" "}
                             {t("h2-assistance.p1-3")}
                         </BodyLong>
 
                         <BodyLong>{t("h2-assistance.p2")}</BodyLong>
-                        <DsLink href={t("h2-assistance.link-3")} className="mb-8">
+                        <AkselLink href={t("h2-assistance.link-3")} className="mb-8">
                             {t("h2-assistance.link-text-3")}
-                        </DsLink>
+                        </AkselLink>
 
                         <BodyLong>{t("h2-assistance.p3")}</BodyLong>
                         <BodyLong>{t("h2-assistance.p4")}</BodyLong>
-                        <DsLink href={t("h2-assistance.link-4")} className="mb-8">
+                        <AkselLink href={t("h2-assistance.link-4")} className="mb-8">
                             {t("h2-assistance.link-text-4")}
-                        </DsLink>
+                        </AkselLink>
 
                         <BodyLong>{t("h2-assistance.p5")}</BodyLong>
-                        <DsLink href={t("h2-assistance.link-5")} className="mb-8">
+                        <AkselLink href={t("h2-assistance.link-5")} className="mb-8">
                             {t("h2-assistance.link-text-5")}
-                        </DsLink>
+                        </AkselLink>
 
                         <BodyLong spacing>{t("h2-assistance.p6")}</BodyLong>
 
@@ -165,7 +167,9 @@ export default function FindingAJob() {
                         </Heading>
                         <BodyLong spacing>
                             {t("h2-working-wo-norwegian.p1")}{" "}
-                            <DsLink href="/stillinger?q=english">{t("h2-working-wo-norwegian.p-link-text")}</DsLink>{" "}
+                            <AkselLink href="/stillinger?q=english">
+                                {t("h2-working-wo-norwegian.p-link-text")}
+                            </AkselLink>{" "}
                             {t("h2-working-wo-norwegian.p1-2")}
                         </BodyLong>
                         <BodyLong spacing>{t("h2-working-wo-norwegian.p2")}</BodyLong>
@@ -175,9 +179,9 @@ export default function FindingAJob() {
                         </Heading>
                         <BodyLong spacing>
                             {t("h3-norwegian-courses.p1")}{" "}
-                            <DsLink href={t("h3-norwegian-courses.p1-link")}>
+                            <AkselLink href={t("h3-norwegian-courses.p1-link")}>
                                 {t("h3-norwegian-courses.p1-link-text")}
-                            </DsLink>{" "}
+                            </AkselLink>{" "}
                             {t("h3-norwegian-courses.p1-2")}
                         </BodyLong>
                         <BodyLong spacing>{t("h3-norwegian-courses.p2")}</BodyLong>

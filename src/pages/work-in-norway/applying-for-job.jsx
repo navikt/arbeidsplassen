@@ -2,7 +2,7 @@ import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
-import { BodyLong, BodyShort, Heading, LinkPanel, Link as DsLink } from "@navikt/ds-react";
+import { BodyLong, BodyShort, Heading, LinkPanel, Link as AkselLink } from "@navikt/ds-react";
 import TableOfContents from "@/src/common/components/TableOfContents";
 
 export default function ApplyingForJob() {
@@ -84,17 +84,17 @@ export default function ApplyingForJob() {
                         </Heading>
                         <BodyLong spacing>
                             {t("h3-reg-prof.p-1")}{" "}
-                            <DsLink
+                            <AkselLink
                                 href="https://hkdir.no/en/foreign-education/lists-and-databases/regulated-professions"
                                 hrefLang="en"
                             >
                                 {t("h3-reg-prof.p-link-text")}
-                            </DsLink>{" "}
+                            </AkselLink>{" "}
                             {t("h3-reg-prof.p-2")}
                         </BodyLong>
-                        <DsLink href={t("h3-reg-prof.link")} className="mb-8">
+                        <AkselLink href={t("h3-reg-prof.link")} className="mb-8">
                             {t("h3-reg-prof.link-text")}
-                        </DsLink>
+                        </AkselLink>
 
                         <Heading size="small" level="3" spacing>
                             {t("h3-rec-of-edu.title")}
@@ -102,26 +102,30 @@ export default function ApplyingForJob() {
                         <BodyLong spacing>{t("h3-rec-of-edu.p")}</BodyLong>
                         <ul className="foreign-edu-list">
                             <li className="mb-4">
-                                <DsLink
+                                <AkselLink
                                     href="https://hkdir.no/en/foreign-education/education-from-outside-of-norway/recognition-of-foreign-higher-education-bachelor-master-and-phd"
                                     hrefLang="en"
                                 >
                                     {t("h3-rec-of-edu.1-link-title")}
-                                </DsLink>
+                                </AkselLink>
                             </li>
                             <li className="mb-4">
-                                <DsLink
+                                <AkselLink
                                     href="https://hkdir.no/en/foreign-education/education-from-outside-of-norway/recognition-of-foreign-tertiary-vocational-education"
                                     hrefLang="en"
                                 >
                                     {t("h3-rec-of-edu.2-link-title")}
-                                </DsLink>
+                                </AkselLink>
                             </li>
                             <li className="mb-4">
-                                <DsLink href={t("h3-rec-of-edu.3-link")}>{t("h3-rec-of-edu.3-link-title")}</DsLink>
+                                <AkselLink href={t("h3-rec-of-edu.3-link")}>
+                                    {t("h3-rec-of-edu.3-link-title")}
+                                </AkselLink>
                             </li>
                             <li>
-                                <DsLink href={t("h3-rec-of-edu.4-link")}>{t("h3-rec-of-edu.4-link-title")}</DsLink>
+                                <AkselLink href={t("h3-rec-of-edu.4-link")}>
+                                    {t("h3-rec-of-edu.4-link-title")}
+                                </AkselLink>
                             </li>
                         </ul>
 

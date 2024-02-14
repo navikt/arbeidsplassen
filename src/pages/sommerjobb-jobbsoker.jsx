@@ -1,4 +1,4 @@
-import { BodyLong, Heading, Ingress, Link as DsLink, LinkPanel } from "@navikt/ds-react";
+import { BodyLong, Heading, Ingress, Link as AkselLink, LinkPanel } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
 import ImageLinkPanelMedium from "@/src/common/components/ImageLinkPanelMedium";
@@ -33,7 +33,7 @@ export default function SommerjobbJobbsoker() {
                     Enkelt og greit!
                 </BodyLong>
                 <BodyLong className="mb-12">
-                    <DsLink href="/stillinger?q=sommerjobb">Her finner du sommerjobber</DsLink>
+                    <AkselLink href="/stillinger?q=sommerjobb">Her finner du sommerjobber</AkselLink>
                 </BodyLong>
 
                 <Heading size="large" level="2" spacing>
@@ -74,7 +74,7 @@ export default function SommerjobbJobbsoker() {
                 </BodyLong>
                 <BodyLong className="mb-12">
                     Sjekk flere jobbsøkertips på{" "}
-                    <DsLink href="https://www.nav.no/kom-i-gang-som-jobbsoker">nav.no</DsLink>
+                    <AkselLink href="https://www.nav.no/kom-i-gang-som-jobbsoker">nav.no</AkselLink>
                 </BodyLong>
 
                 <LinkPanel className="arb-link-panel-primary" href="/stillinger?q=sommerjobb">

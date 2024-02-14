@@ -1,4 +1,4 @@
-import { BodyLong, Heading, Link as DsLink } from "@navikt/ds-react";
+import { BodyLong, Heading, Link as AkselLink } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import { ChevronLeftIcon } from "@navikt/aksel-icons";
 import Head from "next/head";
@@ -12,10 +12,10 @@ export default function retningslinjerStillingsannonser() {
             </Head>
             <article className="container-small page-margin-top-and-bottom">
                 <NextLink href="/vilkar-og-retningslinjer" passHref legacyBehavior>
-                    <DsLink className="mb-8">
+                    <AkselLink className="mb-8">
                         <ChevronLeftIcon aria-hidden="true" />
                         Til Vilkår og retningslinjer
-                    </DsLink>
+                    </AkselLink>
                 </NextLink>
 
                 <Heading spacing size="xlarge" level="1">

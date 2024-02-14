@@ -1,4 +1,4 @@
-import { BodyLong, Heading, Link as DsLink } from "@navikt/ds-react";
+import { BodyLong, Heading, Link as AkselLink } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import { ChevronLeftIcon } from "@navikt/aksel-icons";
 import Head from "next/head";
@@ -12,10 +12,10 @@ export default function vilkar() {
             </Head>
             <article className="container-small page-margin-top-and-bottom">
                 <NextLink href="/vilkar-og-retningslinjer" passHref legacyBehavior>
-                    <DsLink className="mb-8">
+                    <AkselLink className="mb-8">
                         <ChevronLeftIcon aria-hidden="true" />
                         Til Vilkår og retningslinjer
-                    </DsLink>
+                    </AkselLink>
                 </NextLink>
                 <Heading spacing size="xlarge" level="1">
                     Vilkår for å publisere stillinger
@@ -58,8 +58,8 @@ export default function vilkar() {
                 </Heading>
                 <BodyLong spacing>
                     Hvis du ønsker å annonsere ledige stillinger på Arbeidsplassen og{" "}
-                    <DsLink href="https://eures.europa.eu/index_en">Den Europeiske Jobbmobilitetsportalen</DsLink>, må
-                    du som arbeidsgiver godta vilkårene under.
+                    <AkselLink href="https://eures.europa.eu/index_en">Den Europeiske Jobbmobilitetsportalen</AkselLink>
+                    , må du som arbeidsgiver godta vilkårene under.
                 </BodyLong>
                 <BodyLong>
                     Stillingsannonsen blir synlig på Arbeidsplassen få minutter etter at du har sendt den til
@@ -111,7 +111,7 @@ export default function vilkar() {
                             kunne støte noen. Den skal ikke oppfordre til ulovlige handlinger eller være i strid med
                             norsk lov eller{" "}
                             <NextLink href="/retningslinjer-stillingsannonser" passHref legacyBehavior>
-                                <DsLink>NAVs retningslinjer for stillingsannonser.</DsLink>
+                                <AkselLink>NAVs retningslinjer for stillingsannonser.</AkselLink>
                             </NextLink>
                         </BodyLong>
                     </li>
@@ -146,11 +146,11 @@ export default function vilkar() {
                 </ul>
                 <BodyLong spacing>
                     For mer informasjon,{" "}
-                    <DsLink href="https://www.nav.no/personvernerklaering">se NAVs personvernerklæring.</DsLink>
+                    <AkselLink href="https://www.nav.no/personvernerklaering">se NAVs personvernerklæring.</AkselLink>
                 </BodyLong>
                 <BodyLong>
                     Har du spørsmål, ta gjerne kontakt med oss:{" "}
-                    <DsLink href="https://www.nav.no/arbeidsgiver/kontaktoss">Kontakt NAV – arbeidsgiver.</DsLink>
+                    <AkselLink href="https://www.nav.no/arbeidsgiver/kontaktoss">Kontakt NAV – arbeidsgiver.</AkselLink>
                 </BodyLong>
             </article>
         </Layout>

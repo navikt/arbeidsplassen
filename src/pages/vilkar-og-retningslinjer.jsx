@@ -1,4 +1,4 @@
-import { BodyLong, Heading, Link as DsLink } from "@navikt/ds-react";
+import { BodyLong, Heading, Link as AkselLink } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
 import NextLink from "next/link";
@@ -26,7 +26,7 @@ export default function vilkarOgRetningslinjer() {
                         <BodyLong>
                             Stillingsannonser som arbeidsgiver skal publisere, må følge{" "}
                             <NextLink href="/retningslinjer-stillingsannonser" passHref legacyBehavior>
-                                <DsLink inlineText>retningslinjene for innhold i stillingsannonser</DsLink>
+                                <AkselLink inlineText>retningslinjene for innhold i stillingsannonser</AkselLink>
                             </NextLink>
                             .
                         </BodyLong>
@@ -57,7 +57,7 @@ export default function vilkarOgRetningslinjer() {
                 </BodyLong>
                 <BodyLong className="mb-12">
                     <NextLink href="/arbeidsgivertjenester " passHref legacyBehavior>
-                        <DsLink>Hvem kan bruke arbeidsgivertjenstene på arbeidsplassen.no</DsLink>
+                        <AkselLink>Hvem kan bruke arbeidsgivertjenstene på arbeidsplassen.no</AkselLink>
                     </NextLink>
                 </BodyLong>
 
@@ -81,14 +81,14 @@ export default function vilkarOgRetningslinjer() {
                 <BodyLong spacing>
                     For mer informasjon,{" "}
                     <NextLink href="/arbeidsgivertjenester " passHref legacyBehavior>
-                        <DsLink>se NAVs personvernerklæring.</DsLink>
+                        <AkselLink>se NAVs personvernerklæring.</AkselLink>
                     </NextLink>
                 </BodyLong>
                 <BodyLong className="mb-12">
                     Har du spørsmål, ta gjerne kontakt med oss:{" "}
-                    <DsLink href="https://www.nav.no/arbeidsgiver/kontaktoss" inlineText>
+                    <AkselLink href="https://www.nav.no/arbeidsgiver/kontaktoss" inlineText>
                         Kontakt NAV - arbeidsgiver
-                    </DsLink>
+                    </AkselLink>
                 </BodyLong>
 
                 <Heading size="large" level="2" spacing>
@@ -106,7 +106,7 @@ export default function vilkarOgRetningslinjer() {
                 </BodyLong>
                 <BodyLong className="mb-12">
                     <NextLink href="/vilkar-stillingsannonser" passHref legacyBehavior>
-                        <DsLink>Vilkår for å publisere stillingsannonser på arbeidsplassen.no</DsLink>
+                        <AkselLink>Vilkår for å publisere stillingsannonser på arbeidsplassen.no</AkselLink>
                     </NextLink>
                 </BodyLong>
 
@@ -119,7 +119,7 @@ export default function vilkarOgRetningslinjer() {
                 </BodyLong>
                 <BodyLong className="mb-12">
                     <NextLink href="/vilkar-superrask-soknad" passHref legacyBehavior>
-                        <DsLink>Vilkår for bruk av superrask søknad på arbeidsplassen.no</DsLink>
+                        <AkselLink>Vilkår for bruk av superrask søknad på arbeidsplassen.no</AkselLink>
                     </NextLink>
                 </BodyLong>
 
@@ -132,7 +132,7 @@ export default function vilkarOgRetningslinjer() {
                 </BodyLong>
                 <BodyLong className="mb-12">
                     <NextLink href="/retningslinjer-jobbtreff" passHref legacyBehavior>
-                        <DsLink>Retningslinjer for innhold i jobbtreff på arbeidsplassen.no</DsLink>
+                        <AkselLink>Retningslinjer for innhold i jobbtreff på arbeidsplassen.no</AkselLink>
                     </NextLink>
                 </BodyLong>
 
@@ -147,7 +147,7 @@ export default function vilkarOgRetningslinjer() {
                 </BodyLong>
                 <BodyLong className="mb-24">
                     <NextLink href="/vilkar-api" passHref legacyBehavior>
-                        <DsLink>Vilkår for bruk av API for stillingsannonser på arbeidsplassen.no</DsLink>
+                        <AkselLink>Vilkår for bruk av API for stillingsannonser på arbeidsplassen.no</AkselLink>
                     </NextLink>
                 </BodyLong>
             </article>

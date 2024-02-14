@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import PropTypes from "prop-types";
-import { Link as DsLink, Heading } from "@navikt/ds-react";
+import { Link as AkselLink, Heading } from "@navikt/ds-react";
 import { ChevronLeftIcon } from "@navikt/aksel-icons";
 import NextLink from "next/link";
 
@@ -119,10 +119,10 @@ function TableOfContents({ selectorPrefix = "" }) {
                     <Headings headings={nestedHeadings} activeId={activeId} ariaLabelledBy="table-of-contents" />
                 </div>
                 <NextLink href="/work-in-norway" passHref legacyBehavior>
-                    <DsLink className="table-of-contents back-link-main-content" lang="en">
+                    <AkselLink className="table-of-contents back-link-main-content" lang="en">
                         <ChevronLeftIcon aria-hidden="true" />
                         Back to main page
-                    </DsLink>
+                    </AkselLink>
                 </NextLink>
             </div>
         </nav>

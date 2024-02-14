@@ -1,4 +1,4 @@
-import { BodyLong, Heading, Link as DsLink, LinkPanel } from "@navikt/ds-react";
+import { BodyLong, Heading, Link as AkselLink, LinkPanel } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
 import NextLink from "next/link";
@@ -24,7 +24,9 @@ export default function personvern() {
                     Vi lagrer kun personopplysninger i de innloggede tjenestene og ved innhenting av stillingsannonser
                     fra arbeidsgivere via våre samarbeidspartnere. For utfyllende informasjon om hvordan NAV behandler
                     dine personopplysninger, kan du lese mer i{" "}
-                    <DsLink href="https://www.nav.no/personvernerklaering">NAVs generelle personvernerklæring.</DsLink>
+                    <AkselLink href="https://www.nav.no/personvernerklaering">
+                        NAVs generelle personvernerklæring.
+                    </AkselLink>
                 </BodyLong>
                 <BodyLong spacing>
                     For deg som representerer en arbeidsgiver, les mer lenger nede på siden om hvordan vi behandler dine
@@ -32,7 +34,9 @@ export default function personvern() {
                 </BodyLong>
                 <BodyLong className="mb-12">
                     <NextLink href="/personvern-superrask-soknad" passHref legacyBehavior>
-                        <DsLink>Informasjon om hvordan vi behandler dine data knyttet til superrask søknad.</DsLink>
+                        <AkselLink>
+                            Informasjon om hvordan vi behandler dine data knyttet til superrask søknad.
+                        </AkselLink>
                     </NextLink>
                 </BodyLong>
 
@@ -42,9 +46,9 @@ export default function personvern() {
                 <BodyLong className="mb-12">
                     Arbeidsplassen.no er et subdomene av nav.no. Vi lagrer ikke personopplysninger om deg på de
                     åpne/uinnloggede sidene på arbeidsplassen.nav.no, men bruker informasjonskapsler («cookies»).{" "}
-                    <DsLink href="https://www.nav.no/personvern-sikkerhet-navno">
+                    <AkselLink href="https://www.nav.no/personvern-sikkerhet-navno">
                         Les mer om informasjonskapsler og innloggede tjenester på nav.no.
-                    </DsLink>
+                    </AkselLink>
                 </BodyLong>
 
                 <Heading className="mb-8" size="large" level="2">

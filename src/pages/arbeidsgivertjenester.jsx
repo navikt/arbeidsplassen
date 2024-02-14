@@ -1,4 +1,4 @@
-import { BodyLong, Heading, Link as DsLink } from "@navikt/ds-react";
+import { BodyLong, Heading, Link as AkselLink } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
 import NextLink from "next/link";
@@ -48,14 +48,14 @@ export default function arbeidsgivertjenester() {
                     <li>
                         <BodyLong className="mb-2">
                             <NextLink href="/tilgang-som-arbeidsgiver " passHref legacyBehavior>
-                                <DsLink>Hvordan få og gi tilgang som arbeidsgiver</DsLink>
+                                <AkselLink>Hvordan få og gi tilgang som arbeidsgiver</AkselLink>
                             </NextLink>
                         </BodyLong>
                     </li>
                     <li>
                         <BodyLong className="mb-2">
                             <NextLink href="/tilgangsstyring-i-store-virksomheter " passHref legacyBehavior>
-                                <DsLink>Tilgangsstyring i store virksomheter</DsLink>
+                                <AkselLink>Tilgangsstyring i store virksomheter</AkselLink>
                             </NextLink>
                         </BodyLong>
                     </li>
@@ -72,8 +72,8 @@ export default function arbeidsgivertjenester() {
                     Hvis du er en utenlandsk virksomhet som ønsker hjelp til å rekruttere medarbeidere fra Norge,
                     publisere en stilling i Den Europeiske Jobbmobilitetsportalen eller i et enkelt EU/EØS-land eller
                     Sveits, skal du ta kontakt med den offentlige arbeidsformidlingen (EURES) i hjemlandet ditt. Les mer
-                    om <DsLink href="https://eures.europa.eu/employers/advertise-job_en">EURES-tjenesten</DsLink> i de
-                    ulike landene.
+                    om <AkselLink href="https://eures.europa.eu/employers/advertise-job_en">EURES-tjenesten</AkselLink>{" "}
+                    i de ulike landene.
                 </BodyLong>
 
                 <Heading size="large" level="2" spacing>
@@ -85,13 +85,13 @@ export default function arbeidsgivertjenester() {
                 </BodyLong>
                 <BodyLong className="mb-12">
                     Har du spørsmål om publisering av stilling i{" "}
-                    <DsLink href="https://eures.europa.eu/index_en">Den Europeiske Jobbmobilitetsportalen</DsLink> eller
-                    i et enkelt EU/EØS-land, ta kontakt med NAV Kontaktsenter EURES på{" "}
-                    <DsLink href="mailto:eures@nav.no">eures@nav.no</DsLink> eller tlf. 55 55 33 39, tastevalg 2 (kl.
-                    10-14). Les mer om{" "}
-                    <DsLink href="https://www.nav.no/arbeidsgiver/rekruttere-eu-eos">
+                    <AkselLink href="https://eures.europa.eu/index_en">Den Europeiske Jobbmobilitetsportalen</AkselLink>{" "}
+                    eller i et enkelt EU/EØS-land, ta kontakt med NAV Kontaktsenter EURES på{" "}
+                    <AkselLink href="mailto:eures@nav.no">eures@nav.no</AkselLink> eller tlf. 55 55 33 39, tastevalg 2
+                    (kl. 10-14). Les mer om{" "}
+                    <AkselLink href="https://www.nav.no/arbeidsgiver/rekruttere-eu-eos">
                         NAVs EURES-tjenester for arbeidsgivere.
-                    </DsLink>
+                    </AkselLink>
                 </BodyLong>
                 <hr />
                 <BodyLong size="small">

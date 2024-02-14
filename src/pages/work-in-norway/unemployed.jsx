@@ -2,7 +2,7 @@ import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
-import { BodyLong, BodyShort, Heading, LinkPanel, Link as DsLink } from "@navikt/ds-react";
+import { BodyLong, BodyShort, Heading, LinkPanel, Link as AkselLink } from "@navikt/ds-react";
 import TableOfContents from "@/src/common/components/TableOfContents";
 
 export default function Unemployed() {
@@ -35,13 +35,13 @@ export default function Unemployed() {
                         </Heading>
                         <BodyLong spacing>
                             {t("h3-benefit.p-1")}
-                            <DsLink href="https://www.nav.no/arbeidsledig-permittert" hrefLang="no">
+                            <AkselLink href="https://www.nav.no/arbeidsledig-permittert" hrefLang="no">
                                 {t("h3-benefit.1-link-title")}
-                            </DsLink>{" "}
+                            </AkselLink>{" "}
                             {t("h3-benefit.p-2")}{" "}
-                            <DsLink href="https://www.nav.no/arbeid/registrering" hrefLang="no">
+                            <AkselLink href="https://www.nav.no/arbeid/registrering" hrefLang="no">
                                 {t("h3-benefit.2-link-title")}
-                            </DsLink>{" "}
+                            </AkselLink>{" "}
                             {t("h3-benefit.p-3")}
                         </BodyLong>
 
@@ -77,9 +77,9 @@ export default function Unemployed() {
                         <BodyLong spacing>{t("h2-support.p2")}</BodyLong>
                         <BodyLong spacing>
                             {t("h2-support.p3-1")}{" "}
-                            <DsLink href="https://www.nav.no/opplysning-rad-veiledning/en" hrefLang="en">
+                            <AkselLink href="https://www.nav.no/opplysning-rad-veiledning/en" hrefLang="en">
                                 {t("h2-support.p3-link-title")}
-                            </DsLink>{" "}
+                            </AkselLink>{" "}
                             {t("h2-support.p3-2")}
                         </BodyLong>
 

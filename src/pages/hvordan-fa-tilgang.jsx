@@ -1,4 +1,4 @@
-import { BodyLong, Heading, Link as DsLink, CopyButton } from "@navikt/ds-react";
+import { BodyLong, Heading, Link as AkselLink, CopyButton } from "@navikt/ds-react";
 import Head from "next/head";
 import Layout from "@/src/common/components/layout/Layout";
 import NextLink from "next/link";
@@ -103,7 +103,7 @@ export default function hvordanFaTilgang() {
                 </ol>
 
                 <NextLink href="/arbeidsgivertjenester" passHref legacyBehavior>
-                    <DsLink>Les mer om tilgangsstyring i virksomheter og finn skjermbilder her</DsLink>
+                    <AkselLink>Les mer om tilgangsstyring i virksomheter og finn skjermbilder her</AkselLink>
                 </NextLink>
             </article>
         </Layout>

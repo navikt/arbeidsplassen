@@ -1,4 +1,4 @@
-import { BodyLong, Heading, Link as DsLink } from "@navikt/ds-react";
+import { BodyLong, Heading, Link as AkselLink } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import { ChevronLeftIcon } from "@navikt/aksel-icons";
 import Head from "next/head";
@@ -14,10 +14,10 @@ export default function personvernIkkeUnderOppfolging() {
             </Head>
             <article className="container-small page-margin-top-and-bottom">
                 <NextLink href="/personvern" passHref legacyBehavior>
-                    <DsLink className="mb-8">
+                    <AkselLink className="mb-8">
                         <ChevronLeftIcon aria-hidden="true" />
                         Til personvernserklæring
-                    </DsLink>
+                    </AkselLink>
                 </NextLink>
                 <Heading size="xlarge" level="1" spacing>
                     Personvernerklæring for deg som ikke er under arbeidsrettet oppfølging fra NAV
@@ -31,34 +31,34 @@ export default function personvernIkkeUnderOppfolging() {
                 <ul className="mb-12">
                     <li>
                         <BodyLong>
-                            <DsLink href="#information">Hvilke personopplysninger samler vi inn?</DsLink>
+                            <AkselLink href="#information">Hvilke personopplysninger samler vi inn?</AkselLink>
                         </BodyLong>
                     </li>
                     <li>
                         <BodyLong>
-                            <DsLink href="#goals">Hvilke formål brukes personopplysningene til?</DsLink>
+                            <AkselLink href="#goals">Hvilke formål brukes personopplysningene til?</AkselLink>
                         </BodyLong>
                     </li>
                     <li>
                         <BodyLong>
-                            <DsLink href="#time">Hvor lenge lagres opplysningene?</DsLink>
+                            <AkselLink href="#time">Hvor lenge lagres opplysningene?</AkselLink>
                         </BodyLong>
                     </li>
                     <li>
                         <BodyLong>
-                            <DsLink href="#legal">
+                            <AkselLink href="#legal">
                                 Hva er det rettslige grunnlaget for behandlingen av personopplysninger?
-                            </DsLink>
+                            </AkselLink>
                         </BodyLong>
                     </li>
                     <li>
                         <BodyLong>
-                            <DsLink href="#who">Hvem deles opplysningene med?</DsLink>
+                            <AkselLink href="#who">Hvem deles opplysningene med?</AkselLink>
                         </BodyLong>
                     </li>
                     <li>
                         <BodyLong>
-                            <DsLink href="#rights">Hvilke rettigheter har du?</DsLink>
+                            <AkselLink href="#rights">Hvilke rettigheter har du?</AkselLink>
                         </BodyLong>
                     </li>
                 </ul>
@@ -192,9 +192,9 @@ export default function personvernIkkeUnderOppfolging() {
                 <BodyLong className="mb-12">
                     NAV benytter opplysningene fra arbeidsplassen.no til å utvikle statistikk og kunnskap om
                     arbeidsmarkedet. Les mer i{" "}
-                    <DsLink href="https://www.nav.no/personvernerklaering#chapter-3">
+                    <AkselLink href="https://www.nav.no/personvernerklaering#chapter-3">
                         NAVs generelle personvernerklæring.
-                    </DsLink>
+                    </AkselLink>
                 </BodyLong>
 
                 <Heading size="large" level="2" spacing id="time">
@@ -252,9 +252,9 @@ export default function personvernIkkeUnderOppfolging() {
                     For å kunne tilby våre tjenester på arbeidsplassen.no benytter vi databehandlere, som innebærer at
                     vi deler dine personopplysninger med disse. Dette gjelder for eksempel IT-leverandører som har
                     avtaler med NAV. For å lese mer om dette, se{" "}
-                    <DsLink href="https://www.nav.no/personvernerklaering#chapter-4">
+                    <AkselLink href="https://www.nav.no/personvernerklaering#chapter-4">
                         NAVs generelle personvernerklæring.
-                    </DsLink>
+                    </AkselLink>
                 </BodyLong>
 
                 <Heading size="large" level="2" spacing id="rights">
@@ -268,9 +268,9 @@ export default function personvernIkkeUnderOppfolging() {
                     Du har rett til å få vite hvilke personopplysninger vi har om deg og be om retting av uriktige
                     opplysninger. Du kan logge deg inn på Min side på arbeidsplassen.no for å se mange av opplysningene
                     vi har registrert om deg. For innsyn i personopplysninger ut over dette, må du{" "}
-                    <DsLink href="https://www.nav.no/personvernerklaering#chapter-7">
+                    <AkselLink href="https://www.nav.no/personvernerklaering#chapter-7">
                         ta kontakt med oss på nav.no.
-                    </DsLink>
+                    </AkselLink>
                 </BodyLong>
 
                 <Heading size="medium" level="3" spacing>

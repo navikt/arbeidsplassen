@@ -1,4 +1,4 @@
-import { BodyLong, Heading, Link as DsLink } from "@navikt/ds-react";
+import { BodyLong, Heading, Link as AkselLink } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import { ChevronLeftIcon } from "@navikt/aksel-icons";
 import Head from "next/head";
@@ -12,10 +12,10 @@ export default function personvernSuperraskSoknad() {
             </Head>
             <article className="container-small page-margin-top-and-bottom">
                 <NextLink href="/personvern" passHref legacyBehavior>
-                    <DsLink className="mb-8">
+                    <AkselLink className="mb-8">
                         <ChevronLeftIcon aria-hidden="true" />
                         Til personvernerklæring
-                    </DsLink>
+                    </AkselLink>
                 </NextLink>
 
                 <Heading size="xlarge" level="1" spacing>
@@ -41,34 +41,34 @@ export default function personvernSuperraskSoknad() {
                 <ul className="mb-12">
                     <li>
                         <BodyLong>
-                            <DsLink href="#information">Hvilke personopplysninger behandler vi?</DsLink>
+                            <AkselLink href="#information">Hvilke personopplysninger behandler vi?</AkselLink>
                         </BodyLong>
                     </li>
                     <li>
                         <BodyLong>
-                            <DsLink href="#goals">Hvilke formål brukes personopplysningene til?</DsLink>
+                            <AkselLink href="#goals">Hvilke formål brukes personopplysningene til?</AkselLink>
                         </BodyLong>
                     </li>
                     <li>
                         <BodyLong>
-                            <DsLink href="#legal">
+                            <AkselLink href="#legal">
                                 Hva er det rettslige grunnlaget for behandlingen av personopplysninger?
-                            </DsLink>
+                            </AkselLink>
                         </BodyLong>
                     </li>
                     <li>
                         <BodyLong>
-                            <DsLink href="#time">Hvor lenge lagrer vi dine personopplysninger?</DsLink>
+                            <AkselLink href="#time">Hvor lenge lagrer vi dine personopplysninger?</AkselLink>
                         </BodyLong>
                     </li>
                     <li>
                         <BodyLong>
-                            <DsLink href="#who">Hvem kan få tilgang til dine personopplysninger?</DsLink>
+                            <AkselLink href="#who">Hvem kan få tilgang til dine personopplysninger?</AkselLink>
                         </BodyLong>
                     </li>
                     <li>
                         <BodyLong>
-                            <DsLink href="#rights">Hvilke rettigheter har du?</DsLink>
+                            <AkselLink href="#rights">Hvilke rettigheter har du?</AkselLink>
                         </BodyLong>
                     </li>
                 </ul>
@@ -208,7 +208,7 @@ export default function personvernSuperraskSoknad() {
                 </BodyLong>
                 <BodyLong spacing>
                     Du kan kontakte oss ved å ringe 55 55 33 33, eller logge inn på nav.no og bruke tjenesten{" "}
-                    <DsLink href="https://www.nav.no/skriv-til-oss">Skriv til oss</DsLink> om du foretrekker det.
+                    <AkselLink href="https://www.nav.no/skriv-til-oss">Skriv til oss</AkselLink> om du foretrekker det.
                 </BodyLong>
                 <BodyLong spacing>
                     Vi skal besvare henvendelser om personopplysninger fra deg kostnadsfritt og senest innen 30 dager.
@@ -218,7 +218,7 @@ export default function personvernSuperraskSoknad() {
                     hjelpe deg med å ivareta dine personverninteresser.
                 </BodyLong>
                 <BodyLong spacing>
-                    <DsLink href="https://www.nav.no/personvernombudet">Kontakt personvernombudet</DsLink>
+                    <AkselLink href="https://www.nav.no/personvernombudet">Kontakt personvernombudet</AkselLink>
                 </BodyLong>
 
                 <Heading size="medium" level="3" spacing>
@@ -229,9 +229,9 @@ export default function personvernSuperraskSoknad() {
                     strid med personvernreglene.
                 </BodyLong>
                 <BodyLong>
-                    <DsLink href="https://www.datatilsynet.no/om-datatilsynet/kontakt-oss/klage-til-datatilsynet/">
+                    <AkselLink href="https://www.datatilsynet.no/om-datatilsynet/kontakt-oss/klage-til-datatilsynet/">
                         Informasjon om klage til Datatilsynet
-                    </DsLink>
+                    </AkselLink>
                 </BodyLong>
             </article>
         </Layout>

@@ -1,4 +1,4 @@
-import { BodyLong, Heading, Ingress, Link as DsLink, LinkPanel } from "@navikt/ds-react";
+import { BodyLong, Heading, Ingress, Link as AkselLink, LinkPanel } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
 import NextLink from "next/link";
@@ -84,7 +84,7 @@ export default function SuperraskSoknadPerson() {
                 <BodyLong spacing>
                     Les også{" "}
                     <NextLink href="/personvern-superrask-soknad" passHref legacyBehavior>
-                        <DsLink>personvernerklæringen for superrask søknad</DsLink>
+                        <AkselLink>personvernerklæringen for superrask søknad</AkselLink>
                     </NextLink>
                     .
                 </BodyLong>

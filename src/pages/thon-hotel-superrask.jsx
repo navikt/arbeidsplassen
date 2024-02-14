@@ -1,4 +1,4 @@
-import { BodyLong, Heading, Link as DsLink, LinkPanel } from "@navikt/ds-react";
+import { BodyLong, Heading, Link as AkselLink, LinkPanel } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
 import ImageLinkPanelMedium from "@/src/common/components/ImageLinkPanelMedium";
@@ -44,7 +44,7 @@ export default function ThonHotelSuperrask() {
                     plass sommervikarer så tidlig som mulig. Hvert år lyser hun derfor ut sommerjobber på
                     arbeidsplassen.no, som har{" "}
                     <NextLink href="/stillinger">
-                        <DsLink>en av Norges største samlinger av ledige stillinger.</DsLink>
+                        <AkselLink>en av Norges største samlinger av ledige stillinger.</AkselLink>
                     </NextLink>
                 </BodyLong>
                 <BodyLong spacing>
@@ -54,7 +54,7 @@ export default function ThonHotelSuperrask() {
                 <BodyLong className="mb-12">
                     I år valgte hun å legge til{" "}
                     <NextLink href="/superrask-soknad-bedrift">
-                        <DsLink>superrask søknad</DsLink>
+                        <AkselLink>superrask søknad</AkselLink>
                     </NextLink>{" "}
                     i sommerjobb-annonsene. Superrask søknad er NAV sin nye tjeneste på arbeidsplassen.no som gjør det
                     enklere for bedrifter å få tak i folk.

@@ -1,4 +1,4 @@
-import { BodyLong, Heading, Link as DsLink } from "@navikt/ds-react";
+import { BodyLong, Heading, Link as AkselLink } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
 import { ChevronLeftIcon } from "@navikt/aksel-icons";
@@ -12,10 +12,10 @@ export default function tilgangSomArbeidsgiver() {
             </Head>
             <article className="container-small page-margin-top-and-bottom">
                 <NextLink href="/arbeidsgivertjenester" passHref legacyBehavior>
-                    <DsLink className="mb-8">
+                    <AkselLink className="mb-8">
                         <ChevronLeftIcon aria-hidden="true" />
                         Tilbake
-                    </DsLink>
+                    </AkselLink>
                 </NextLink>
                 <Heading spacing size="xlarge" level="1">
                     Hvordan gi eller få tilgang som arbeidsgiver
@@ -127,13 +127,13 @@ export default function tilgangSomArbeidsgiver() {
                 </BodyLong>
                 <BodyLong spacing>
                     Se også Altinn sine egne veiledninger.{" "}
-                    <DsLink href="Se også Altinn sine egne veiledninger. https://www.altinn.no/hjelp/profil/roller-og-rettigheter/hvordan-gi-rettigheter-til-andre/">
+                    <AkselLink href="Se også Altinn sine egne veiledninger. https://www.altinn.no/hjelp/profil/roller-og-rettigheter/hvordan-gi-rettigheter-til-andre/">
                         https://www.altinn.no/hjelp/profil/roller-og-rettigheter/hvordan-gi-rettigheter-til-andre/
-                    </DsLink>
+                    </AkselLink>
                 </BodyLong>
-                <DsLink href="https://www.altinn.no/hjelp/sok/?q=delegere%20rettighet">
+                <AkselLink href="https://www.altinn.no/hjelp/sok/?q=delegere%20rettighet">
                     https://www.altinn.no/hjelp/sok/?q=delegere%20rettighet{" "}
-                </DsLink>
+                </AkselLink>
             </article>
         </Layout>
     );

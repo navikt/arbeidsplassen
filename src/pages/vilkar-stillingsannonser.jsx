@@ -1,4 +1,4 @@
-import { BodyLong, Heading, Link as DsLink } from "@navikt/ds-react";
+import { BodyLong, Heading, Link as AkselLink } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import { ChevronLeftIcon } from "@navikt/aksel-icons";
 import Head from "next/head";
@@ -12,10 +12,10 @@ export default function retningslinjerStillingsannonser() {
             </Head>
             <article className="container-small page-margin-top-and-bottom">
                 <NextLink href="/vilkar-og-retningslinjer" passHref legacyBehavior>
-                    <DsLink className="mb-8">
+                    <AkselLink className="mb-8">
                         <ChevronLeftIcon aria-hidden="true" />
                         Til Vilkår og retningslinjer
-                    </DsLink>
+                    </AkselLink>
                 </NextLink>
 
                 <Heading spacing size="xlarge" level="1">
@@ -25,7 +25,7 @@ export default function retningslinjerStillingsannonser() {
                 <BodyLong spacing>
                     Hvis du ønsker å annonsere ledige stillinger på arbeidsplassen.no og{" "}
                     <NextLink href="https://eures.europa.eu/index_en" passHref legacyBehavior>
-                        <DsLink>Den Europeiske Jobbmobilitetsportalen</DsLink>
+                        <AkselLink>Den Europeiske Jobbmobilitetsportalen</AkselLink>
                     </NextLink>
                     {", "}
                     må du som arbeidsgiver godta vilkårene under.
@@ -77,7 +77,7 @@ export default function retningslinjerStillingsannonser() {
                             være støtende. Den skal ikke oppfordre til ulovlige handlinger eller være i strid med norsk
                             lov eller{" "}
                             <NextLink href="/retningslinjer-stillingsannonser" passHref legacyBehavior>
-                                <DsLink>NAVs retningslinjer for innhold i stillingsannonser.</DsLink>
+                                <AkselLink>NAVs retningslinjer for innhold i stillingsannonser.</AkselLink>
                             </NextLink>{" "}
                         </BodyLong>
                     </li>
@@ -122,13 +122,13 @@ export default function retningslinjerStillingsannonser() {
                 <BodyLong spacing>
                     For mer informasjon,{" "}
                     <NextLink href="/arbeidsgivertjenester " passHref legacyBehavior>
-                        <DsLink>se NAVs personvernerklæring.</DsLink>
+                        <AkselLink>se NAVs personvernerklæring.</AkselLink>
                     </NextLink>
                 </BodyLong>
                 <BodyLong className="mb-24">
                     Har du spørsmål, ta gjerne kontakt med oss:{" "}
                     <NextLink href="https://www.nav.no/arbeidsgiver/kontaktoss" passHref legacyBehavior>
-                        <DsLink>Kontakt NAV - arbeidsgiver</DsLink>
+                        <AkselLink>Kontakt NAV - arbeidsgiver</AkselLink>
                     </NextLink>
                 </BodyLong>
             </article>

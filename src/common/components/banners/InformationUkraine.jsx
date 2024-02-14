@@ -1,4 +1,4 @@
-import { BodyLong, Heading, Link as DsLink, Panel } from "@navikt/ds-react";
+import { BodyLong, Heading, Link as AkselLink, Panel } from "@navikt/ds-react";
 import NextLink from "next/link";
 import UkrainianFlag from "@/src/common/components/images/UkrainianFlag";
 
@@ -15,21 +15,21 @@ export default function InformationUkraine() {
                 <li>
                     <BodyLong lang="en">
                         <NextLink locale="en" href="/work-in-norway" passHref legacyBehavior>
-                            <DsLink>Information about working in Norway</DsLink>
+                            <AkselLink>Information about working in Norway</AkselLink>
                         </NextLink>
                     </BodyLong>
                 </li>
                 <li>
                     <BodyLong lang="uk">
                         <NextLink locale="uk" href="/work-in-norway" passHref legacyBehavior>
-                            <DsLink>Інформація українською мовою</DsLink>
+                            <AkselLink>Інформація українською мовою</AkselLink>
                         </NextLink>
                     </BodyLong>
                 </li>
                 <li>
                     <BodyLong lang="ru">
                         <NextLink locale="ru" href="/work-in-norway" passHref legacyBehavior>
-                            <DsLink>Информация на русском языке</DsLink>
+                            <AkselLink>Информация на русском языке</AkselLink>
                         </NextLink>
                     </BodyLong>
                 </li>

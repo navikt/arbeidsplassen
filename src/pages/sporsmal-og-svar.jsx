@@ -1,4 +1,4 @@
-import { BodyLong, Heading, Link as DsLink } from "@navikt/ds-react";
+import { BodyLong, Heading, Link as AkselLink } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
 import NextLink from "next/link";
@@ -21,7 +21,7 @@ export default function sporsmalOgSvar() {
                     På arbeidsplassen.no har vi samlet nye, selvbetjente løsninger. Her kan jobbsøkere og arbeidsgivere
                     enkelt finne hverandre.{" "}
                     <NextLink href="/om-arbeidsplassen" passHref legacyBehavior>
-                        <DsLink>Les mer om tjenestene på arbeidsplassen.no.</DsLink>
+                        <AkselLink>Les mer om tjenestene på arbeidsplassen.no.</AkselLink>
                     </NextLink>
                 </BodyLong>
 
@@ -60,9 +60,9 @@ export default function sporsmalOgSvar() {
                 </Heading>
                 <BodyLong className="mb-12">
                     Vi vet det kan være utfordrende å være på jakt etter jobb. Derfor har vi samlet mange{" "}
-                    <DsLink href="https://www.nav.no/kom-i-gang-som-jobbsoker?situasjon=bytte-jobb">
+                    <AkselLink href="https://www.nav.no/kom-i-gang-som-jobbsoker?situasjon=bytte-jobb">
                         jobbsøkertips på denne siden.
-                    </DsLink>{" "}
+                    </AkselLink>{" "}
                     Du bør starte med å fylle ut CV-en og jobbprofilen din med så mye relevant informasjon som mulig. Da
                     blir det lettere for arbeidsgivere å vurdere om du kan være den riktige kandidaten. Vi anbefaler
                     også at du lagrer faste søk i stillingssøket. Da kan du få varsel på e-post når det blir publisert
@@ -83,7 +83,7 @@ export default function sporsmalOgSvar() {
                 <BodyLong>
                     Vi har samlet informasjon om hva du trenger og hvordan du skaffer tilganger på siden{" "}
                     <NextLink href="/arbeidsgivertjenester" passHref legacyBehavior>
-                        <DsLink>Hvem kan bruke arbeidsgivertjenestene.</DsLink>
+                        <AkselLink>Hvem kan bruke arbeidsgivertjenestene.</AkselLink>
                     </NextLink>
                 </BodyLong>
             </article>

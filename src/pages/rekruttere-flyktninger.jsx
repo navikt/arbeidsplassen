@@ -1,4 +1,4 @@
-import { BodyLong, Heading, Link as DsLink } from "@navikt/ds-react";
+import { BodyLong, Heading, Link as AkselLink } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
 
@@ -16,8 +16,9 @@ export default function workInNorway() {
                     Alle flyktninger med skriftlig vedtak om opphold- og arbeidstillatelse fra UDI kan starte i arbeid.
                 </BodyLong>
                 <BodyLong spacing>
-                    Vi anbefaler å <DsLink href="/stillingsregistrering/stillingsannonser">lyse ut stillinger</DsLink>{" "}
-                    på arbeidsplassen.no eller <DsLink href="/jobbtreff/bedrift">invitere til jobbtreff</DsLink> og
+                    Vi anbefaler å{" "}
+                    <AkselLink href="/stillingsregistrering/stillingsannonser">lyse ut stillinger</AkselLink> på
+                    arbeidsplassen.no eller <AkselLink href="/jobbtreff/bedrift">invitere til jobbtreff</AkselLink> og
                     presentere dine rekrutteringsbehov i en direkte sending for jobbsøkere. Begge tjenestene er gratis.
                 </BodyLong>
                 <BodyLong spacing>
@@ -25,15 +26,15 @@ export default function workInNorway() {
                     det er arbeidsspråket.
                 </BodyLong>
                 <BodyLong spacing>
-                    <DsLink href="https://www.nav.no/arbeidsgiver/rekruttere-flyktninger">
+                    <AkselLink href="https://www.nav.no/arbeidsgiver/rekruttere-flyktninger">
                         NAVs råd for deg som ønsker å komme i kontakt med kvalifiserte kandidater
-                    </DsLink>
+                    </AkselLink>
                 </BodyLong>
                 <BodyLong>
-                    <DsLink href="https://www.imdi.no/mangfold-i-arbeidslivet/">
+                    <AkselLink href="https://www.imdi.no/mangfold-i-arbeidslivet/">
                         Les om hvordan mangfold i arbeidslivet kan bidra til innovasjon, vekst og verdiskaping på
                         imdi.no
-                    </DsLink>
+                    </AkselLink>
                 </BodyLong>
             </article>
         </Layout>

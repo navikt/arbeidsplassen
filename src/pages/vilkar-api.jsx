@@ -1,4 +1,4 @@
-import { BodyLong, Heading, Link as DsLink } from "@navikt/ds-react";
+import { BodyLong, Heading, Link as AkselLink } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import { ChevronLeftIcon } from "@navikt/aksel-icons";
 import Head from "next/head";
@@ -12,10 +12,10 @@ export default function vilkarApi() {
             </Head>
             <article className="container-small page-margin-top-and-bottom">
                 <NextLink href="/vilkar-og-retningslinjer" passHref legacyBehavior>
-                    <DsLink className="mb-8">
+                    <AkselLink className="mb-8">
                         <ChevronLeftIcon aria-hidden="true" />
                         Til Vilkår og retningslinjer
-                    </DsLink>
+                    </AkselLink>
                 </NextLink>
 
                 <Heading spacing size="xlarge" level="1">
@@ -70,7 +70,9 @@ export default function vilkarApi() {
                             skal bruke tjenesten på fast basis. Fordelen er at vi kan informere deg når det skjer
                             endringer i tjenesten. Denne tilgangen krever at du oppgir e-postadressen din, navnet ditt
                             og bedriftens navn til{" "}
-                            <DsLink href="mailto:nav.team.arbeidsplassen@nav.no">nav.team.arbeidsplassen@nav.no</DsLink>
+                            <AkselLink href="mailto:nav.team.arbeidsplassen@nav.no">
+                                nav.team.arbeidsplassen@nav.no
+                            </AkselLink>
                             {". "}
                             Du vil få tilbakemelding i løpet av to virkedager.
                         </BodyLong>
@@ -82,14 +84,14 @@ export default function vilkarApi() {
                 </Heading>
                 <BodyLong spacing>
                     Mer informasjon om API-et og tilkobling finner du i{" "}
-                    <DsLink href="https://data.norge.no/dataservices/ed933ffe-a32c-38a2-9921-1fed86ad3173">
+                    <AkselLink href="https://data.norge.no/dataservices/ed933ffe-a32c-38a2-9921-1fed86ad3173">
                         Datatjenestebeskrivelse i Felles datakatalog.
-                    </DsLink>
+                    </AkselLink>
                 </BodyLong>
                 <BodyLong className="mb-12">
                     Har du spørsmål kan du kontakte oss på e-post{" "}
-                    <DsLink href="mailto:nav.team.arbeidsplassen@nav.no">nav.team.arbeidsplassen@nav.no</DsLink>. Ønsker
-                    du å avslutte abonnementet, send en henvendelse til samme e-postadresse.
+                    <AkselLink href="mailto:nav.team.arbeidsplassen@nav.no">nav.team.arbeidsplassen@nav.no</AkselLink>.
+                    Ønsker du å avslutte abonnementet, send en henvendelse til samme e-postadresse.
                 </BodyLong>
 
                 <Heading size="large" level="2" spacing>
@@ -105,7 +107,7 @@ export default function vilkarApi() {
                     komme i kontakt med deg senere, for eksempel ved endringer eller driftsavbrudd. Kontaktinformasjonen
                     din blir slettet når du ikke lenger har tilgang som registrert bruker. For mer informasjon om
                     personvern,{" "}
-                    <DsLink href="https://www.nav.no/personvernerklaering">se NAVs personvernerklæring.</DsLink>
+                    <AkselLink href="https://www.nav.no/personvernerklaering">se NAVs personvernerklæring.</AkselLink>
                 </BodyLong>
             </article>
         </Layout>
