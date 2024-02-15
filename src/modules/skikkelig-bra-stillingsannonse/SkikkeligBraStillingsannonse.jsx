@@ -1,16 +1,11 @@
 import { BodyLong, Heading, Link as AkselLink, LinkPanel } from "@navikt/ds-react";
-import Layout from "@/src/common/components/layout/Layout";
-import Head from "next/head";
 import React from "react";
 import ImageLinkPanelMedium from "@/src/common/components/ImageLinkPanelMedium";
 import Link from "next/link";
 
 export default function SkikkeligBraStillingsannonse() {
     return (
-        <Layout variant="company">
-            <Head>
-                <title>Hvordan skriver du en skikkelig bra stillingsannonse? - arbeidsplassen.no</title>
-            </Head>
+        <article>
             <div className="container-small page-margin-top-and-bottom">
                 <Heading size="xlarge" level="1" spacing>
                     Hvordan skriver du en skikkelig bra stillingsannonse?
@@ -173,6 +168,6 @@ export default function SkikkeligBraStillingsannonse() {
                     />
                 </div>
             </div>
-        </Layout>
+        </article>
     );
 }

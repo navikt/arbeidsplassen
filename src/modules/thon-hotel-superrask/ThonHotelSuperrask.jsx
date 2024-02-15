@@ -1,16 +1,11 @@
 import { BodyLong, Heading, Link as AkselLink, LinkPanel } from "@navikt/ds-react";
-import Layout from "@/src/common/components/layout/Layout";
-import Head from "next/head";
 import ImageLinkPanelMedium from "@/src/common/components/ImageLinkPanelMedium";
 import React from "react";
 import NextLink from "next/link";
 
 export default function ThonHotelSuperrask() {
     return (
-        <Layout variant="company">
-            <Head>
-                <title>Ansatte sommervikarer med superrask søknad - arbeidsplassen.no</title>
-            </Head>
+        <article>
             <div className="container-small page-margin-top-and-bottom">
                 <Heading size="xlarge" level="1" spacing>
                     Ansatte sommervikarer med superrask søknad
@@ -145,6 +140,6 @@ export default function ThonHotelSuperrask() {
                     />
                 </div>
             </div>
-        </Layout>
+        </article>
     );
 }

@@ -1,14 +1,9 @@
 import { BodyLong, Heading, Ingress, Link, LinkPanel } from "@navikt/ds-react";
-import Layout from "@/src/common/components/layout/Layout";
-import Head from "next/head";
 import ImageLinkPanelMedium from "@/src/common/components/ImageLinkPanelMedium";
 
 export default function MotJobbsokerePaEnNyMate() {
     return (
-        <Layout variant="company">
-            <Head>
-                <title>Jobbtreff – møt jobbsøkere på en ny måte - arbeidsplassen.no</title>
-            </Head>
+        <article>
             <div className="container-small page-margin-top-and-bottom">
                 <Heading size="xlarge" level="1" spacing>
                     Jobbtreff – møt jobbsøkere på en ny måte
@@ -111,6 +106,6 @@ export default function MotJobbsokerePaEnNyMate() {
                     />
                 </div>
             </div>
-        </Layout>
+        </article>
     );
 }

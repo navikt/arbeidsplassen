@@ -1,13 +1,8 @@
 import { BodyLong, Button, Heading, Ingress, Stepper } from "@navikt/ds-react";
-import Layout from "@/src/common/components/layout/Layout";
-import Head from "next/head";
 
 export default function SlikFungererSuperraskSoknad() {
     return (
-        <Layout variant="company">
-            <Head>
-                <title>Superrask søknad - arbeidsplassen.no</title>
-            </Head>
+        <article>
             <div className="container-small page-margin-top-and-bottom">
                 <div className="text-center">
                     <Heading spacing size="xlarge" level="1">
@@ -69,6 +64,6 @@ export default function SlikFungererSuperraskSoknad() {
                     </div>
                 </div>
             </div>
-        </Layout>
+        </article>
     );
 }

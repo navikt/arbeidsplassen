@@ -1,15 +1,10 @@
 import { BodyLong, Heading, Ingress, Link } from "@navikt/ds-react";
-import Layout from "@/src/common/components/layout/Layout";
-import Head from "next/head";
 import React from "react";
 import ImageLinkPanelMedium from "@/src/common/components/ImageLinkPanelMedium";
 
 export default function OverforingAvStillingsannonser() {
     return (
-        <Layout variant="company">
-            <Head>
-                <title>Overføring av stillingsannonser til arbeidsplassen.no - arbeidsplassen.no</title>
-            </Head>
+        <article>
             <div className="container-small page-margin-top-and-bottom">
                 <Heading size="xlarge" level="1" spacing>
                     Overføring av stillingsannonser til arbeidsplassen.no
@@ -132,6 +127,6 @@ export default function OverforingAvStillingsannonser() {
                     />
                 </div>
             </div>
-        </Layout>
+        </article>
     );
 }

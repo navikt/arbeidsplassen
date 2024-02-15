@@ -1,15 +1,10 @@
 import { BodyLong, Heading, Ingress, LinkPanel } from "@navikt/ds-react";
-import Layout from "@/src/common/components/layout/Layout";
-import Head from "next/head";
 import React from "react";
 import ImageLinkPanelMedium from "@/src/common/components/ImageLinkPanelMedium";
 
 export default function SlikSkriverDuEnGodCv() {
     return (
-        <Layout>
-            <Head>
-                <title>Slik skriver du en god CV - arbeidsplassen.no</title>
-            </Head>
+        <article>
             <div className="container-small page-margin-top-and-bottom">
                 <Heading size="xlarge" level="1" spacing>
                     Slik skriver du en god CV
@@ -184,6 +179,6 @@ export default function SlikSkriverDuEnGodCv() {
                     />
                 </div>
             </div>
-        </Layout>
+        </article>
     );
 }

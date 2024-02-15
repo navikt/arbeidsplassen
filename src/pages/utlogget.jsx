@@ -1,5 +1,19 @@
 import Utlogget from "@/src/modules/utlogget/Utlogget";
+import { getMetadataTitle } from "@/src/modules/layout";
+import Head from "next/head";
+import Layout from "@/src/common/components/layout/Layout";
+
+const metadata = {
+    title: getMetadataTitle("Utlogget"),
+};
 
 export default function Page() {
-    return <Utlogget />;
+    return (
+        <Layout>
+            <Head>
+                <title>{metadata.title}</title>
+            </Head>
+            <Utlogget />
+        </Layout>
+    );
 }

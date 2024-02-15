@@ -1,5 +1,19 @@
 import PersonvernIkkeUnderOppfolging from "@/src/modules/personvern-ikke-under-oppfolging/PersonvernIkkeUnderOppfolging";
+import { getMetadataTitle } from "@/src/modules/layout";
+import Head from "next/head";
+import Layout from "@/src/common/components/layout/Layout";
+
+const metadata = {
+    title: getMetadataTitle("Personvernerklæring for deg som ikke er under arbeidsrettet oppfølging fra NAV"),
+};
 
 export default function Page() {
-    return <PersonvernIkkeUnderOppfolging />;
+    return (
+        <Layout>
+            <Head>
+                <title>{metadata.title}</title>
+            </Head>
+            <PersonvernIkkeUnderOppfolging />
+        </Layout>
+    );
 }

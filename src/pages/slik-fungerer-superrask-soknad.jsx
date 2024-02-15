@@ -1,5 +1,19 @@
 import SlikFungererSuperraskSoknad from "@/src/modules/slik-fungerer-superrask-soknad/SlikFungererSuperraskSoknad";
+import { getMetadataTitle } from "@/src/modules/layout";
+import Head from "next/head";
+import Layout from "@/src/common/components/layout/Layout";
+
+const metadata = {
+    title: getMetadataTitle("Superrask søknad"),
+};
 
 export default function Page() {
-    return <SlikFungererSuperraskSoknad />;
+    return (
+        <Layout variant="company">
+            <Head>
+                <title>{metadata.title}</title>
+            </Head>
+            <SlikFungererSuperraskSoknad />
+        </Layout>
+    );
 }

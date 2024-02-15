@@ -1,16 +1,11 @@
 import { BodyLong, Heading, Ingress, Link as AkselLink, LinkPanel } from "@navikt/ds-react";
-import Layout from "@/src/common/components/layout/Layout";
-import Head from "next/head";
 import NextLink from "next/link";
 import React from "react";
 import ImageLinkPanelMedium from "@/src/common/components/ImageLinkPanelMedium";
 
 export default function SuperraskSoknadPerson() {
     return (
-        <Layout>
-            <Head>
-                <title>Superrask søknad - arbeidsplassen.no</title>
-            </Head>
+        <article>
             <div className="container-small page-margin-top-and-bottom">
                 <Heading size="xlarge" level="1" spacing>
                     Superrask søknad
@@ -124,6 +119,6 @@ export default function SuperraskSoknadPerson() {
                     />
                 </div>
             </div>
-        </Layout>
+        </article>
     );
 }

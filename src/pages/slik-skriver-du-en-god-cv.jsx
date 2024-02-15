@@ -1,6 +1,20 @@
 import React from "react";
 import SlikSkriverDuEnGodCv from "@/src/modules/slik-skriver-du-en-god-cv/SlikSkriverDuEnGodCv";
+import { getMetadataTitle } from "@/src/modules/layout";
+import Head from "next/head";
+import Layout from "@/src/common/components/layout/Layout";
+
+const metadata = {
+    title: getMetadataTitle("Slik skriver du en god CV"),
+};
 
 export default function Page() {
-    return <SlikSkriverDuEnGodCv />;
+    return (
+        <Layout>
+            <Head>
+                <title>{metadata.title}</title>
+            </Head>
+            <SlikSkriverDuEnGodCv />
+        </Layout>
+    );
 }

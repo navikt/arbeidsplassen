@@ -1,15 +1,10 @@
 import { BodyLong, Heading, Ingress, Link as AkselLink, LinkPanel } from "@navikt/ds-react";
-import Layout from "@/src/common/components/layout/Layout";
-import Head from "next/head";
 import ImageLinkPanelMedium from "@/src/common/components/ImageLinkPanelMedium";
 import React from "react";
 
 export default function SommerjobbJobbsoker() {
     return (
-        <Layout>
-            <Head>
-                <title>På utkikk etter sommerjobb? - arbeidsplassen.no</title>
-            </Head>
+        <article>
             <div className="container-small page-margin-top-and-bottom">
                 <Heading size="xlarge" level="1" spacing>
                     På utkikk etter sommerjobb?
@@ -107,6 +102,6 @@ export default function SommerjobbJobbsoker() {
                     />
                 </div>
             </div>
-        </Layout>
+        </article>
     );
 }
