@@ -3,7 +3,7 @@ import Head from "next/head";
 import { BodyLong, Button, Heading, VStack } from "@navikt/ds-react";
 import { WorriedFigure } from "@navikt/arbeidsplassen-react";
 
-export default function epostVerifiseringUtgaatt() {
+export default function EpostVerifiseringUtgaatt() {
     return (
         <Layout>
             <Head>

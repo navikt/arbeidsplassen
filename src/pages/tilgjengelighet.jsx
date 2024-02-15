@@ -2,7 +2,7 @@ import { BodyLong, Heading, Link } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
 
-export default function tilgjengelighet() {
+export default function Tilgjengelighet() {
     return (
         <Layout>
             <Head>

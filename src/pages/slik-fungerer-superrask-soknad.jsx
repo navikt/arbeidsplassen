@@ -2,7 +2,7 @@ import { BodyLong, Button, Heading, Ingress, Stepper } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
 
-export default function slikFungererSuperraskSoknad() {
+export default function SlikFungererSuperraskSoknad() {
     return (
         <Layout variant="company">
             <Head>

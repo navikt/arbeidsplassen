@@ -4,7 +4,7 @@ import Head from "next/head";
 import React from "react";
 import Link from "next/link";
 
-export default function Page() {
+export default function EnklereASkriveGodeKvalifikasjoner() {
     return (
         <Layout variant="company">
             <Head>

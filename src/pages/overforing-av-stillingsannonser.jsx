@@ -4,7 +4,7 @@ import Head from "next/head";
 import React from "react";
 import ImageLinkPanelMedium from "@/src/common/components/ImageLinkPanelMedium";
 
-export default function overforingAvStillingsannonser() {
+export default function OverforingAvStillingsannonser() {
     return (
         <Layout variant="company">
             <Head>

@@ -4,7 +4,7 @@ import Head from "next/head";
 import { ChevronLeftIcon } from "@navikt/aksel-icons";
 import NextLink from "next/link";
 
-export default function tilgangSomArbeidsgiver() {
+export default function TilgangSomArbeidsgiver() {
     return (
         <Layout variant="company">
             <Head>

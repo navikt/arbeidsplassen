@@ -3,7 +3,7 @@ import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
 import ImageLinkPanelMedium from "@/src/common/components/ImageLinkPanelMedium";
 
-export default function jobbeiUtlandet() {
+export default function JobbeIUtlandet() {
     return (
         <Layout>
             <Head>

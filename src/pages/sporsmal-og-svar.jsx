@@ -3,7 +3,7 @@ import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
 import NextLink from "next/link";
 
-export default function sporsmalOgSvar() {
+export default function SporsmalOgSvar() {
     return (
         <Layout>
             <Head>

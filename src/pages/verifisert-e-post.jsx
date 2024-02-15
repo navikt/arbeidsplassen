@@ -3,7 +3,7 @@ import Head from "next/head";
 import { BodyLong, Button, Heading, VStack } from "@navikt/ds-react";
 import { CelebratingFigure } from "@navikt/arbeidsplassen-react";
 
-export default function verifisertEpost() {
+export default function VerifisertEpost() {
     return (
         <Layout>
             <Head>

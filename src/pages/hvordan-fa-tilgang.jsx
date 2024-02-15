@@ -4,7 +4,7 @@ import Layout from "@/src/common/components/layout/Layout";
 import NextLink from "next/link";
 import React from "react";
 
-export default function hvordanFaTilgang() {
+export default function HvordanFaTilgang() {
     return (
         <Layout variant="company">
             <Head>

@@ -4,7 +4,7 @@ import Head from "next/head";
 import ListIconWithNumber from "@/src/common/components/ListIconWithNumber";
 import { BulletListIcon } from "@navikt/aksel-icons";
 
-export default function introduksjonTilNySideForAnnonser() {
+export default function IntroduksjonTilNySideForAnnonser() {
     return (
         <Layout variant="company">
             <Head>

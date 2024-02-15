@@ -2,7 +2,7 @@ import { BodyLong, Heading, Link as AkselLink } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
 
-export default function workInNorway() {
+export default function RekruttereFlyktninger() {
     return (
         <Layout variant="company">
             <Head>

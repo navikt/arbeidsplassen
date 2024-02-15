@@ -4,7 +4,7 @@ import { ChevronLeftIcon } from "@navikt/aksel-icons";
 import Head from "next/head";
 import NextLink from "next/link";
 
-export default function vilkarApi() {
+export default function VilkarApi() {
     return (
         <Layout variant="company">
             <Head>

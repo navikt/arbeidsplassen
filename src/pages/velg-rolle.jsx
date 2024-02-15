@@ -2,7 +2,7 @@ import { Heading, LinkPanel, Stack } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
 
-export default function velgRolle() {
+export default function VelgRolle() {
     return (
         <Layout>
             <Head>

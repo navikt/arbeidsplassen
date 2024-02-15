@@ -4,7 +4,7 @@ import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
 import { WavingFigure } from "@navikt/arbeidsplassen-react";
 
-export default function Custom404() {
+export default function Utlogget() {
     const { query } = useRouter();
     const timeoutContent =
         query.timeout && query.timeout === "true" ? "Av sikkerhetsgrunner har du blitt automatisk logget ut. " : "";

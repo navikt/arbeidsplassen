@@ -2,7 +2,7 @@ import { BodyLong, Heading } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
 
-export default function omArbeidsplassen() {
+export default function OmArbeidsplassen() {
     return (
         <Layout>
             <Head>

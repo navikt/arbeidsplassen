@@ -4,7 +4,7 @@ import { ChevronLeftIcon } from "@navikt/aksel-icons";
 import Head from "next/head";
 import NextLink from "next/link";
 
-export default function personvernSuperraskSoknad() {
+export default function VilkarSuperraskSoknad() {
     return (
         <Layout variant="company">
             <Head>

@@ -4,7 +4,7 @@ import { ChevronLeftIcon } from "@navikt/aksel-icons";
 import Head from "next/head";
 import NextLink from "next/link";
 
-export default function personvernUnderOppfolging() {
+export default function PersonvernUnderOppfolging() {
     return (
         <Layout>
             <Head>

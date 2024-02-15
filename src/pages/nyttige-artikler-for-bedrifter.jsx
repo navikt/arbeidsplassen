@@ -3,7 +3,7 @@ import Head from "next/head";
 import Layout from "@/src/common/components/layout/Layout";
 import ImageLinkPanelLarge from "@/src/common/components/ImageLinkPanelLarge";
 
-export default function ArticlePageBedrift() {
+export default function NyttigeArtiklerForBedrifter() {
     return (
         <Layout variant="company">
             <Head>

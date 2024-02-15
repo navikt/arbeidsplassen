@@ -3,7 +3,7 @@ import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
 import NextLink from "next/link";
 
-export default function personvern() {
+export default function Personvern() {
     return (
         <Layout>
             <Head>
