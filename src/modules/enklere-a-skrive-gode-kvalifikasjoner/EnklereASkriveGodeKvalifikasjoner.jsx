@@ -1,6 +1,6 @@
 import { BodyLong, Heading, Link as AkselLink, LinkPanel, List } from "@navikt/ds-react";
 import React from "react";
-import Link from "next/link";
+import NextLink from "next/link";
 
 export default function EnklereASkriveGodeKvalifikasjoner() {
     return (
@@ -34,9 +34,9 @@ export default function EnklereASkriveGodeKvalifikasjoner() {
                 <List title="For kvalifikasjoner" headingTag="h3" className="mb-6">
                     <List.Item>
                         Når du velger å{" "}
-                        <Link href="/superrask-soknad-bedrift" passHref legacyBehavior>
-                            <AkselLink>motta søknader med superrask søknad</AkselLink>
-                        </Link>
+                        <AkselLink as={NextLink} href="/superrask-soknad-bedrift">
+                            motta søknader med superrask søknad
+                        </AkselLink>
                         , kan du få forslag på kvalifikasjoner basert på annonseteksten du har skrevet inn.
                     </List.Item>
                     <List.Item>Vi bruker kun teksten om stillingen for å foreslå kvalifikasjoner.</List.Item>
@@ -55,9 +55,9 @@ export default function EnklereASkriveGodeKvalifikasjoner() {
                 <BodyLong spacing>
                     Din informasjon vil ikke brukes til å trene KI eller sendes videre til andre aktører. Tjenestene vil
                     følge og sikre{" "}
-                    <Link href="/retningslinjer-stillingsannonser" passHref legacyBehavior>
-                        <AkselLink>våre retningslinjer</AkselLink>
-                    </Link>{" "}
+                    <AkselLink as={NextLink} href="/retningslinjer-stillingsannonser">
+                        våre retningslinjer
+                    </AkselLink>{" "}
                     for diskriminerende innhold, som for eksempel kjønn, etnisitet og alder.
                 </BodyLong>
                 <BodyLong className="mb-12">

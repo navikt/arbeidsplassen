@@ -5,12 +5,10 @@ import NextLink from "next/link";
 export default function RetningslinjerJobbtreff() {
     return (
         <article className="container-small page-margin-top-and-bottom">
-            <NextLink href="/vilkar-og-retningslinjer" passHref legacyBehavior>
-                <AkselLink className="mb-8">
-                    <ChevronLeftIcon aria-hidden="true" />
-                    Til Vilkår og retningslinjer
-                </AkselLink>
-            </NextLink>
+            <AkselLink as={NextLink} href="/vilkar-og-retningslinjer" className="mb-8">
+                <ChevronLeftIcon aria-hidden="true" />
+                Til Vilkår og retningslinjer
+            </AkselLink>
 
             <Heading spacing size="xlarge" level="1">
                 Retningslinjer for innhold i jobbtreff på arbeidsplassen.no

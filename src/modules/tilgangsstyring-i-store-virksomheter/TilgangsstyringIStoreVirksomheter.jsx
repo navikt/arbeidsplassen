@@ -5,12 +5,10 @@ import NextLink from "next/link";
 export default function TilgangsstyringIStoreVirksomheter() {
     return (
         <article className="container-small page-margin-top-and-bottom">
-            <NextLink href="/arbeidsgivertjenester" passHref legacyBehavior>
-                <AkselLink className="mb-8">
-                    <ChevronLeftIcon aria-hidden="true" />
-                    Tilbake
-                </AkselLink>
-            </NextLink>
+            <AkselLink as={NextLink} href="/arbeidsgivertjenester" className="mb-8">
+                <ChevronLeftIcon aria-hidden="true" />
+                Tilbake
+            </AkselLink>
             <Heading spacing size="xlarge" level="1">
                 Tilgangsstyring i store virksomheter
             </Heading>

@@ -118,12 +118,15 @@ function TableOfContents({ selectorPrefix = "" }) {
                 <div className="table-of-contents">
                     <Headings headings={nestedHeadings} activeId={activeId} ariaLabelledBy="table-of-contents" />
                 </div>
-                <NextLink href="/work-in-norway" passHref legacyBehavior>
-                    <AkselLink className="table-of-contents back-link-main-content" lang="en">
-                        <ChevronLeftIcon aria-hidden="true" />
-                        Back to main page
-                    </AkselLink>
-                </NextLink>
+                <AkselLink
+                    as={NextLink}
+                    href="/work-in-norway"
+                    className="table-of-contents back-link-main-content"
+                    lang="en"
+                >
+                    <ChevronLeftIcon aria-hidden="true" />
+                    Back to main page
+                </AkselLink>
             </div>
         </nav>
     );

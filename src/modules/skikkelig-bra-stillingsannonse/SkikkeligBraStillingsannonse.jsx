@@ -1,7 +1,7 @@
 import { BodyLong, Heading, Link as AkselLink, LinkPanel } from "@navikt/ds-react";
 import React from "react";
 import ImageLinkPanelMedium from "@/src/common/components/ImageLinkPanelMedium";
-import Link from "next/link";
+import NextLink from "next/link";
 
 export default function SkikkeligBraStillingsannonse() {
     return (
@@ -55,11 +55,9 @@ export default function SkikkeligBraStillingsannonse() {
                         <BodyLong>
                             Jobb med overskriften, den skal vekke interesse. Du kan bruke kunstig intelligens (KI) for å
                             få forslag til gode overskrifter:{" "}
-                            <Link href="/enklere-a-skrive-gode-kvalifikasjoner" passHref legacyBehavior>
-                                <AkselLink>
-                                    https://arbeidsplassen.nav.no/enklere-a-skrive-gode-kvalifikasjoner
-                                </AkselLink>
-                            </Link>
+                            <AkselLink as={NextLink} href="/enklere-a-skrive-gode-kvalifikasjoner">
+                                https://arbeidsplassen.nav.no/enklere-a-skrive-gode-kvalifikasjoner
+                            </AkselLink>
                         </BodyLong>
                     </li>
                     <li>

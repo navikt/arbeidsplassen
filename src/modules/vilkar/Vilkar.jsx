@@ -5,12 +5,10 @@ import NextLink from "next/link";
 export default function Vilkar() {
     return (
         <article className="container-small page-margin-top-and-bottom">
-            <NextLink href="/vilkar-og-retningslinjer" passHref legacyBehavior>
-                <AkselLink className="mb-8">
-                    <ChevronLeftIcon aria-hidden="true" />
-                    Til Vilkår og retningslinjer
-                </AkselLink>
-            </NextLink>
+            <AkselLink as={NextLink} href="/vilkar-og-retningslinjer" className="mb-8">
+                <ChevronLeftIcon aria-hidden="true" />
+                Til Vilkår og retningslinjer
+            </AkselLink>
             <Heading spacing size="xlarge" level="1">
                 Vilkår for å publisere stillinger
             </Heading>
@@ -103,9 +101,9 @@ export default function Vilkar() {
                         Stillingsannonsen skal ikke forskjellsbehandle ut fra kjønn, alder, etnisk bakgrunn eller andre
                         kriterier som ikke er relevante. Annonsen skal heller ikke ha uetisk innhold eller kunne støte
                         noen. Den skal ikke oppfordre til ulovlige handlinger eller være i strid med norsk lov eller{" "}
-                        <NextLink href="/retningslinjer-stillingsannonser" passHref legacyBehavior>
-                            <AkselLink>NAVs retningslinjer for stillingsannonser.</AkselLink>
-                        </NextLink>
+                        <AkselLink as={NextLink} href="/retningslinjer-stillingsannonser">
+                            NAVs retningslinjer for stillingsannonser.
+                        </AkselLink>
                     </BodyLong>
                 </li>
             </ul>

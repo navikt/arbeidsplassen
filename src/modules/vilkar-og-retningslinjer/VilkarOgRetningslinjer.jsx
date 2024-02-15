@@ -19,9 +19,9 @@ export default function VilkarOgRetningslinjer() {
                 <li>
                     <BodyLong>
                         Stillingsannonser som arbeidsgiver skal publisere, må følge{" "}
-                        <NextLink href="/retningslinjer-stillingsannonser" passHref legacyBehavior>
-                            <AkselLink inlineText>retningslinjene for innhold i stillingsannonser</AkselLink>
-                        </NextLink>
+                        <AkselLink as={NextLink} href="/retningslinjer-stillingsannonser" inlineText>
+                            retningslinjene for innhold i stillingsannonser
+                        </AkselLink>
                         .
                     </BodyLong>
                 </li>
@@ -49,9 +49,9 @@ export default function VilkarOgRetningslinjer() {
                 arbeidsplassen.no.{" "}
             </BodyLong>
             <BodyLong className="mb-12">
-                <NextLink href="/arbeidsgivertjenester " passHref legacyBehavior>
-                    <AkselLink>Hvem kan bruke arbeidsgivertjenstene på arbeidsplassen.no</AkselLink>
-                </NextLink>
+                <AkselLink as={NextLink} href="/arbeidsgivertjenester">
+                    Hvem kan bruke arbeidsgivertjenstene på arbeidsplassen.no
+                </AkselLink>
             </BodyLong>
 
             <Heading size="medium" level="3" spacing>
@@ -71,9 +71,9 @@ export default function VilkarOgRetningslinjer() {
             </ul>
             <BodyLong spacing>
                 For mer informasjon,{" "}
-                <NextLink href="/arbeidsgivertjenester " passHref legacyBehavior>
-                    <AkselLink>se NAVs personvernerklæring.</AkselLink>
-                </NextLink>
+                <AkselLink as={NextLink} href="/arbeidsgivertjenester">
+                    se NAVs personvernerklæring.
+                </AkselLink>
             </BodyLong>
             <BodyLong className="mb-12">
                 Har du spørsmål, ta gjerne kontakt med oss:{" "}
@@ -96,9 +96,9 @@ export default function VilkarOgRetningslinjer() {
                 varsling. NAV vil ta kontakt og informere i etterkant.
             </BodyLong>
             <BodyLong className="mb-12">
-                <NextLink href="/vilkar-stillingsannonser" passHref legacyBehavior>
-                    <AkselLink>Vilkår for å publisere stillingsannonser på arbeidsplassen.no</AkselLink>
-                </NextLink>
+                <AkselLink as={NextLink} href="/vilkar-stillingsannonser">
+                    Vilkår for å publisere stillingsannonser på arbeidsplassen.no
+                </AkselLink>
             </BodyLong>
 
             <Heading size="large" level="2" spacing>
@@ -109,9 +109,9 @@ export default function VilkarOgRetningslinjer() {
                 å bemanne og rekruttere til en konkret stilling.
             </BodyLong>
             <BodyLong className="mb-12">
-                <NextLink href="/vilkar-superrask-soknad" passHref legacyBehavior>
-                    <AkselLink>Vilkår for bruk av superrask søknad på arbeidsplassen.no</AkselLink>
-                </NextLink>
+                <AkselLink as={NextLink} href="/vilkar-superrask-soknad">
+                    Vilkår for bruk av superrask søknad på arbeidsplassen.no
+                </AkselLink>
             </BodyLong>
 
             <Heading size="large" level="2" spacing>
@@ -122,9 +122,9 @@ export default function VilkarOgRetningslinjer() {
                 mens deltagere kan se og høre på.
             </BodyLong>
             <BodyLong className="mb-12">
-                <NextLink href="/retningslinjer-jobbtreff" passHref legacyBehavior>
-                    <AkselLink>Retningslinjer for innhold i jobbtreff på arbeidsplassen.no</AkselLink>
-                </NextLink>
+                <AkselLink as={NextLink} href="/retningslinjer-jobbtreff">
+                    Retningslinjer for innhold i jobbtreff på arbeidsplassen.no
+                </AkselLink>
             </BodyLong>
 
             <Heading size="large" level="2" spacing>
@@ -137,9 +137,9 @@ export default function VilkarOgRetningslinjer() {
                 våre samarbeidspartnere.
             </BodyLong>
             <BodyLong className="mb-24">
-                <NextLink href="/vilkar-api" passHref legacyBehavior>
-                    <AkselLink>Vilkår for bruk av API for stillingsannonser på arbeidsplassen.no</AkselLink>
-                </NextLink>
+                <AkselLink as={NextLink} href="/vilkar-api">
+                    Vilkår for bruk av API for stillingsannonser på arbeidsplassen.no
+                </AkselLink>
             </BodyLong>
         </article>
     );

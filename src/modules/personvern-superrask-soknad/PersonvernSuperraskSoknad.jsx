@@ -5,12 +5,10 @@ import NextLink from "next/link";
 export default function PersonvernSuperraskSoknad() {
     return (
         <article className="container-small page-margin-top-and-bottom">
-            <NextLink href="/personvern" passHref legacyBehavior>
-                <AkselLink className="mb-8">
-                    <ChevronLeftIcon aria-hidden="true" />
-                    Til personvernerklæring
-                </AkselLink>
-            </NextLink>
+            <AkselLink as={NextLink} href="/personvern" className="mb-8">
+                <ChevronLeftIcon aria-hidden="true" />
+                Til personvernerklæring
+            </AkselLink>
 
             <Heading size="xlarge" level="1" spacing>
                 Personvernerklæring for superrask søknad

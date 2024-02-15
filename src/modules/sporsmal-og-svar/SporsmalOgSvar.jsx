@@ -14,9 +14,9 @@ export default function SporsmalOgSvar() {
             <BodyLong className="mb-12">
                 På arbeidsplassen.no har vi samlet nye, selvbetjente løsninger. Her kan jobbsøkere og arbeidsgivere
                 enkelt finne hverandre.{" "}
-                <NextLink href="/om-arbeidsplassen" passHref legacyBehavior>
-                    <AkselLink>Les mer om tjenestene på arbeidsplassen.no.</AkselLink>
-                </NextLink>
+                <AkselLink as={NextLink} href="/om-arbeidsplassen">
+                    Les mer om tjenestene på arbeidsplassen.no.
+                </AkselLink>
             </BodyLong>
 
             <Heading size="small" level="2" spacing>
@@ -75,9 +75,9 @@ export default function SporsmalOgSvar() {
             </Heading>
             <BodyLong>
                 Vi har samlet informasjon om hva du trenger og hvordan du skaffer tilganger på siden{" "}
-                <NextLink href="/arbeidsgivertjenester" passHref legacyBehavior>
-                    <AkselLink>Hvem kan bruke arbeidsgivertjenestene.</AkselLink>
-                </NextLink>
+                <AkselLink as={NextLink} href="/arbeidsgivertjenester">
+                    Hvem kan bruke arbeidsgivertjenestene.
+                </AkselLink>
             </BodyLong>
         </article>
     );
