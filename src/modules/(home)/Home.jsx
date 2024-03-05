@@ -5,7 +5,7 @@ import ImageLinkPanelSmall from "@/src/common/components/ImageLinkPanelSmall";
 
 export default function Home() {
     return (
-        <div className="container-large page-margin-top-and-bottom mb-12">
+        <div className="container-large mt-5 mb-24">
             <section className="arb-home-section-flex">
                 <div className="arb-home-div-width">
                     <Heading size="xlarge" level="1" spacing className="jumbo-h1">

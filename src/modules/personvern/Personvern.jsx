@@ -3,7 +3,7 @@ import NextLink from "next/link";
 
 export default function Personvern() {
     return (
-        <article className="container-small page-margin-top-and-bottom">
+        <article className="container-small mt-5 mb-24">
             <Heading size="xlarge" level="1" spacing>
                 Personvernerklæring for arbeidsplassen.no
             </Heading>

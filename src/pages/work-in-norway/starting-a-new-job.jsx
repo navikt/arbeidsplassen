@@ -24,7 +24,7 @@ export default function StartingANewJob() {
                 </div>
                 <article className="container-large ukraine-page-main-container">
                     <TableOfContents selectorPrefix="main" />
-                    <div className="container-small page-margin-top-and-bottom ukraine-page">
+                    <div className="container-small mt-5 mb-24 ukraine-page">
                         <Heading id="start-working" size="large" level="2" spacing>
                             {t("h2-start-working")}
                         </Heading>

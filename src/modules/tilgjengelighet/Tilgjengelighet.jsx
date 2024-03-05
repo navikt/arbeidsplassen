@@ -2,7 +2,7 @@ import { BodyLong, Heading, Link } from "@navikt/ds-react";
 
 export default function Tilgjengelighet() {
     return (
-        <article className="container-small page-margin-top-and-bottom">
+        <article className="container-small mt-5 mb-24">
             <Heading size="xlarge" level="1" spacing>
                 Tilgjengelighet
             </Heading>

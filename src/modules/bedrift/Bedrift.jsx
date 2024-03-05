@@ -4,7 +4,7 @@ import ImageLinkPanelSmall from "@/src/common/components/ImageLinkPanelSmall";
 
 export default function Bedrift() {
     return (
-        <div className="container-large page-margin-top-and-bottom mb-24">
+        <div className="container-large mt-5 mb-24">
             <section className="arb-home-section-flex">
                 <div className="arb-home-div-width">
                     <Heading size="xlarge" level="1" spacing className="bedrift-h1 jumbo-h1">

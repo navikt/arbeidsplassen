@@ -4,7 +4,7 @@ import { BulletListIcon } from "@navikt/aksel-icons";
 
 export default function IntroduksjonTilNySideForAnnonser() {
     return (
-        <article className="container-medium page-margin-top-and-bottom mb-24">
+        <article className="container-medium mt-5 mb-24">
             <Heading spacing size="xlarge" level="1" className="text-center mb-4">
                 Introduksjon til ny side for annonser
             </Heading>

@@ -4,7 +4,7 @@ import React from "react";
 
 export default function HvordanFaTilgang() {
     return (
-        <article className="container-small page-margin-top-and-bottom">
+        <article className="container-small mt-5 mb-24">
             <Heading level="1" size="xlarge">
                 Slik kan du skaffe deg tilgang
             </Heading>

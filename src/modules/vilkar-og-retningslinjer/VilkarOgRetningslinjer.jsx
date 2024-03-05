@@ -3,7 +3,7 @@ import NextLink from "next/link";
 
 export default function VilkarOgRetningslinjer() {
     return (
-        <article className="container-small page-margin-top-and-bottom">
+        <article className="container-small mt-5 mb-24">
             <Heading spacing size="xlarge" level="1">
                 Vilkår og retningslinjer
             </Heading>

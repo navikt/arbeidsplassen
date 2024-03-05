@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function EnklereASkriveGodeKvalifikasjoner() {
     return (
-        <div className="page-margin-top-and-bottom">
+        <div className="mt-5 mb-24">
             <div className="container-small">
                 <Heading size="xlarge" level="1" spacing>
                     Nå er det enklere enn noensinne å skrive gode kvalifikasjoner og overskrifter til din jobbannonse

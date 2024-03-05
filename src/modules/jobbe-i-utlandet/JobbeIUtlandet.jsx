@@ -4,7 +4,7 @@ import ImageLinkPanelMedium from "@/src/common/components/ImageLinkPanelMedium";
 export default function JobbeIUtlandet() {
     return (
         <article>
-            <div className="container-small page-margin-top-and-bottom">
+            <div className="container-small mt-5 mb-24">
                 <Heading size="xlarge" level="1" spacing>
                     Jobbe i utlandet
                 </Heading>

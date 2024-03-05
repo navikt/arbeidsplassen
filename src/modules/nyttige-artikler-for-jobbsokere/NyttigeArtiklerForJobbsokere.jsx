@@ -3,7 +3,7 @@ import ImageLinkPanelLarge from "@/src/common/components/ImageLinkPanelLarge";
 
 export default function NyttigeArtiklerForJobbsokere() {
     return (
-        <div className="container-medium page-margin-top-and-bottom">
+        <div className="container-medium mt-5 mb-24">
             <section className="arb-home-section-flex">
                 <section className="arb-home-div-width">
                     <div className="article-page">

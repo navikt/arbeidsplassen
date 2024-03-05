@@ -2,7 +2,7 @@ import { Heading, LinkPanel, Stack } from "@navikt/ds-react";
 
 export default function VelgRolle() {
     return (
-        <div className="container-medium page-margin-top-and-bottom">
+        <div className="container-medium mt-5 mb-24">
             <Heading size="xlarge" level="1" className="mb-8">
                 Er du jobbsøker eller arbeidsgiver?
             </Heading>

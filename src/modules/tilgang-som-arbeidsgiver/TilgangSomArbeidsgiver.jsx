@@ -4,7 +4,7 @@ import NextLink from "next/link";
 
 export default function TilgangSomArbeidsgiver() {
     return (
-        <article className="container-small page-margin-top-and-bottom">
+        <article className="container-small mt-5 mb-24">
             <NextLink href="/arbeidsgivertjenester" passHref legacyBehavior>
                 <AkselLink className="mb-8">
                     <ChevronLeftIcon aria-hidden="true" />

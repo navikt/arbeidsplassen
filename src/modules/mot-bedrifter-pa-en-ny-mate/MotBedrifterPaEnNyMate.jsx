@@ -5,7 +5,7 @@ import ImageLinkPanelMedium from "@/src/common/components/ImageLinkPanelMedium";
 export default function MotBedrifterPaEnNyMate() {
     return (
         <article>
-            <div className="container-small page-margin-top-and-bottom">
+            <div className="container-small mt-5 mb-24">
                 <Heading size="xlarge" level="1" spacing>
                     Jobbtreff – møt bedrifter på en ny måte
                 </Heading>

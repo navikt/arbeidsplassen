@@ -3,7 +3,7 @@ import { BodyLong, Button, Heading, Ingress, Stepper } from "@navikt/ds-react";
 export default function SlikFungererSuperraskSoknad() {
     return (
         <article>
-            <div className="container-small page-margin-top-and-bottom">
+            <div className="container-small mt-5 mb-24">
                 <div className="text-center">
                     <Heading spacing size="xlarge" level="1">
                         Superrask søknad

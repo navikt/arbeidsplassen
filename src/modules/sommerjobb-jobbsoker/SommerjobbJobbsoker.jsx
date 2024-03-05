@@ -5,7 +5,7 @@ import React from "react";
 export default function SommerjobbJobbsoker() {
     return (
         <article>
-            <div className="container-small page-margin-top-and-bottom">
+            <div className="container-small mt-5 mb-24">
                 <Heading size="xlarge" level="1" spacing>
                     På utkikk etter sommerjobb?
                 </Heading>

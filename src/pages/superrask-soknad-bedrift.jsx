@@ -10,7 +10,7 @@ const metadata = {
 
 export default function Page() {
     return (
-        <Layout variant="company">
+        <Layout>
             <Head>
                 <title>{metadata.title}</title>
             </Head>

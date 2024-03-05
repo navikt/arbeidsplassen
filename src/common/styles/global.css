@@ -27,27 +27,6 @@ button {
     height: 100%;
 }
 
-.page-margin-top-and-bottom {
-    margin-top: 2rem;
-    margin-bottom: 2rem;
-}
-
-.main-page-heading {
-    font-size: 64px;
-}
-
-@media (max-width: 480px) {
-    .main-page-heading {
-        font-size: var(--a-font-size-heading-xlarge);
-        letter-spacing: -0.008em;
-        line-height: var(--a-font-line-height-heading-xlarge);
-    }
-
-    .main-page-heading .navds-typo-spacing {
-        margin-bottom: var(--a-spacing-4);
-    }
-}
-
 .jumbo-h1 {
     font-size: 2.75rem;
     line-height: 1.18;
@@ -62,13 +41,6 @@ button {
 
 .bedrift-h1 {
     max-width: 22ch;
-}
-
-@media (min-width: 768px) {
-    .page-margin-top-and-bottom {
-        margin-top: 4rem;
-        margin-bottom: 4rem;
-    }
 }
 
 .arb-home-section-flex {

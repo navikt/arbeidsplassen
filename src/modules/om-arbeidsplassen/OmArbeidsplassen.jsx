@@ -2,7 +2,7 @@ import { BodyLong, Heading } from "@navikt/ds-react";
 
 export default function OmArbeidsplassen() {
     return (
-        <article className="container-small page-margin-top-and-bottom">
+        <article className="container-small mt-5 mb-24">
             <Heading size="xlarge" level="1" spacing>
                 Om arbeidsplassen.no
             </Heading>

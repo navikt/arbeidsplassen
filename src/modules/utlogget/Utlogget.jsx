@@ -8,7 +8,7 @@ export default function Utlogget() {
         query.timeout && query.timeout === "true" ? "Av sikkerhetsgrunner har du blitt automatisk logget ut. " : "";
 
     return (
-        <div className="container-small page-margin-top-and-bottom text-center">
+        <div className="container-small mt-5 mb-24 text-center">
             <WavingFigure className="mb-8" />
             <Heading spacing size="large" level="1">
                 Du er nå logget ut

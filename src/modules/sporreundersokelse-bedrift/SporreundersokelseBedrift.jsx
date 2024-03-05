@@ -158,7 +158,7 @@ export default function SporreundersokelseBedrift() {
         surveyMetadataFetchStatus === "gone";
 
     return (
-        <article className="container-small page-margin-top-and-bottom">
+        <article className="container-small mt-5 mb-24">
             {(surveyMetadataFetchStatus === "not_fetched" || surveyMetadataFetchStatus === "loading") && (
                 <VStack align="center">
                     <Loader size="2xlarge" />
