@@ -7,7 +7,7 @@ export default function Bedrift() {
         <div className="container-large mt-5 mb-24">
             <section className="arb-home-section-flex">
                 <div className="arb-home-div-width">
-                    <Heading size="xlarge" level="1" spacing className="bedrift-h1 jumbo-h1">
+                    <Heading size="xlarge" level="1" spacing className="jumbo-h1">
                         Rekrutter deres neste medarbeider
                     </Heading>
                     <Ingress spacing>Motta søknader raskt og enkelt fra relevante jobbsøkere.</Ingress>

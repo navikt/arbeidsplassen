@@ -1,4 +1,4 @@
-import { Button, Heading, Ingress, LinkPanel } from "@navikt/ds-react";
+import { Bleed, Box, Button, Heading, Ingress, LinkPanel } from "@navikt/ds-react";
 import { FiguresSideBySide } from "@navikt/arbeidsplassen-react";
 import InformationUkraine from "@/src/modules/(home)/InformationUkraine";
 import ImageLinkPanelSmall from "@/src/common/components/ImageLinkPanelSmall";
@@ -48,8 +48,12 @@ export default function Home() {
                 </LinkPanel>
             </div>
 
-            <div className="arb-home-banner mb-12">
-                <InformationUkraine />
+            <div className="mb-12">
+                <Bleed marginInline="full" asChild>
+                    <Box background="surface-alt-3-moderate" padding={{ xs: "6", md: "4" }}>
+                        <InformationUkraine />
+                    </Box>
+                </Bleed>
             </div>
 
             <div className="image-link-panel-grid-small mb-24">

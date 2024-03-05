@@ -1,4 +1,4 @@
-import { BodyLong, Button, Heading, Ingress, Stepper } from "@navikt/ds-react";
+import { BodyLong, Button, Heading, Ingress, Stepper, VStack } from "@navikt/ds-react";
 
 export default function SlikFungererSuperraskSoknad() {
     return (
@@ -22,9 +22,9 @@ export default function SlikFungererSuperraskSoknad() {
 
             <div className="container-medium mb-24">
                 <div className="guide-panel">
-                    <div className="center mb-12">
+                    <VStack align={{ md: "center" }} className=" mb-12">
                         <Heading size="large">Slik fungerer det</Heading>
-                    </div>
+                    </VStack>
                     <div className="mb-8">
                         <Heading size="small" level="3" spacing>
                             Velg superrask søknad i annonsen
@@ -57,11 +57,11 @@ export default function SlikFungererSuperraskSoknad() {
                             stillingsannonsen har gått ut.{" "}
                         </BodyLong>
                     </div>
-                    <div className="center">
+                    <VStack align={{ xs: "start", md: "center" }}>
                         <Button variant="primary" as="a" href="/stillingsregistrering/stillingsannonser" role="link">
                             Lag ny stillingsannonse
                         </Button>
-                    </div>
+                    </VStack>
                 </div>
             </div>
         </article>

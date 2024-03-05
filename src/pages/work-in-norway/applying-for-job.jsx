@@ -100,7 +100,7 @@ export default function ApplyingForJob() {
                             {t("h3-rec-of-edu.title")}
                         </Heading>
                         <BodyLong spacing>{t("h3-rec-of-edu.p")}</BodyLong>
-                        <ul className="foreign-edu-list">
+                        <ul className="mb-7">
                             <li className="mb-4">
                                 <AkselLink
                                     href="https://hkdir.no/en/foreign-education/education-from-outside-of-norway/recognition-of-foreign-higher-education-bachelor-master-and-phd"

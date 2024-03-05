@@ -1,4 +1,4 @@
-import { BodyLong, Chips, Heading, Ingress, LinkPanel, Link as AkselLink } from "@navikt/ds-react";
+import { BodyLong, Chips, Heading, Ingress, LinkPanel, Link as AkselLink, VStack } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
 import { useTranslation } from "next-i18next";
@@ -46,32 +46,34 @@ export default function WorkInNorway() {
 
                 <Ingress spacing>{t("description")}</Ingress>
 
-                <Chips className="mb-12">
-                    <Chips.Toggle
-                        selected={selectedLanguage === lngEnglish}
-                        key={lngEnglish}
-                        onClick={() => changeLanguage(lngEnglish)}
-                        lang={lngEnglish}
-                    >
-                        Information in English
-                    </Chips.Toggle>
-                    <Chips.Toggle
-                        selected={selectedLanguage === lngUkrainian}
-                        key={lngUkrainian}
-                        onClick={() => changeLanguage(lngUkrainian)}
-                        lang={lngUkrainian}
-                    >
-                        Інформація українською мовою
-                    </Chips.Toggle>
-                    <Chips.Toggle
-                        selected={selectedLanguage === lngRussian}
-                        key={lngRussian}
-                        onClick={() => changeLanguage(lngRussian)}
-                        lang={lngRussian}
-                    >
-                        Информация на русском языке
-                    </Chips.Toggle>
-                </Chips>
+                <VStack align="center">
+                    <Chips className="mb-12">
+                        <Chips.Toggle
+                            selected={selectedLanguage === lngEnglish}
+                            key={lngEnglish}
+                            onClick={() => changeLanguage(lngEnglish)}
+                            lang={lngEnglish}
+                        >
+                            Information in English
+                        </Chips.Toggle>
+                        <Chips.Toggle
+                            selected={selectedLanguage === lngUkrainian}
+                            key={lngUkrainian}
+                            onClick={() => changeLanguage(lngUkrainian)}
+                            lang={lngUkrainian}
+                        >
+                            Інформація українською мовою
+                        </Chips.Toggle>
+                        <Chips.Toggle
+                            selected={selectedLanguage === lngRussian}
+                            key={lngRussian}
+                            onClick={() => changeLanguage(lngRussian)}
+                            lang={lngRussian}
+                        >
+                            Информация на русском языке
+                        </Chips.Toggle>
+                    </Chips>
+                </VStack>
 
                 <div className="arb-link-panel-grid mb-16">
                     <LinkPanel
@@ -104,7 +106,7 @@ export default function WorkInNorway() {
                     </LinkPanel>
                 </div>
 
-                <div className="feedback-container">
+                <VStack align="center">
                     <Heading level="2" size="medium" spacing>
                         {t("hotjar.h2", { ns: "hotjar" })}
                     </Heading>
@@ -114,7 +116,7 @@ export default function WorkInNorway() {
                             {t("hotjar.link-text", { ns: "hotjar" })}
                         </AkselLink>
                     </BodyLong>
-                </div>
+                </VStack>
             </article>
         </Layout>
     );
