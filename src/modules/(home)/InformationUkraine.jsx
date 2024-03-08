@@ -1,6 +1,6 @@
 import { BodyLong, Heading, Link as AkselLink, Panel } from "@navikt/ds-react";
 import NextLink from "next/link";
-import UkrainianFlag from "@/src/common/components/images/UkrainianFlag";
+import UkrainianFlag from "@/src/modules/(home)/UkrainianFlag";
 
 export default function InformationUkraine() {
     return (
