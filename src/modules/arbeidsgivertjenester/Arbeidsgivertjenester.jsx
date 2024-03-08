@@ -39,16 +39,16 @@ export default function Arbeidsgivertjenester() {
             <ul className="mb-12">
                 <li>
                     <BodyLong className="mb-2">
-                        <NextLink href="/tilgang-som-arbeidsgiver " passHref legacyBehavior>
-                            <AkselLink>Hvordan få og gi tilgang som arbeidsgiver</AkselLink>
-                        </NextLink>
+                        <AkselLink as={NextLink} href="/tilgang-som-arbeidsgiver">
+                            Hvordan få og gi tilgang som arbeidsgiver
+                        </AkselLink>
                     </BodyLong>
                 </li>
                 <li>
                     <BodyLong className="mb-2">
-                        <NextLink href="/tilgangsstyring-i-store-virksomheter " passHref legacyBehavior>
-                            <AkselLink>Tilgangsstyring i store virksomheter</AkselLink>
-                        </NextLink>
+                        <AkselLink as={NextLink} href="/tilgangsstyring-i-store-virksomheter">
+                            Tilgangsstyring i store virksomheter
+                        </AkselLink>
                     </BodyLong>
                 </li>
             </ul>

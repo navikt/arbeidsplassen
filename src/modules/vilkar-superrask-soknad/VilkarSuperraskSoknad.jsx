@@ -5,12 +5,10 @@ import NextLink from "next/link";
 export default function VilkarSuperraskSoknad() {
     return (
         <article className="container-small mt-5 mb-24">
-            <NextLink href="/vilkar-og-retningslinjer" passHref legacyBehavior>
-                <AkselLink className="mb-8">
-                    <ChevronLeftIcon aria-hidden="true" />
-                    Til Vilkår og retningslinjer
-                </AkselLink>
-            </NextLink>
+            <AkselLink as={NextLink} href="/vilkar-og-retningslinjer" className="mb-8">
+                <ChevronLeftIcon aria-hidden="true" />
+                Til Vilkår og retningslinjer
+            </AkselLink>
 
             <Heading size="xlarge" level="1" spacing>
                 Vilkår for bruk av superrask søknad

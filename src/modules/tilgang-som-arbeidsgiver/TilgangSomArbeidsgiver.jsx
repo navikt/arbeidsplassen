@@ -5,12 +5,10 @@ import NextLink from "next/link";
 export default function TilgangSomArbeidsgiver() {
     return (
         <article className="container-small mt-5 mb-24">
-            <NextLink href="/arbeidsgivertjenester" passHref legacyBehavior>
-                <AkselLink className="mb-8">
-                    <ChevronLeftIcon aria-hidden="true" />
-                    Tilbake
-                </AkselLink>
-            </NextLink>
+            <AkselLink as={NextLink} href="/arbeidsgivertjenester" className="mb-8">
+                <ChevronLeftIcon aria-hidden="true" />
+                Tilbake
+            </AkselLink>
             <Heading spacing size="xlarge" level="1">
                 Hvordan gi eller få tilgang som arbeidsgiver
             </Heading>

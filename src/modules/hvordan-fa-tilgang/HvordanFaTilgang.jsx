@@ -94,9 +94,9 @@ export default function HvordanFaTilgang() {
                 </li>
             </ol>
 
-            <NextLink href="/arbeidsgivertjenester" passHref legacyBehavior>
-                <AkselLink>Les mer om tilgangsstyring i virksomheter og finn skjermbilder her</AkselLink>
-            </NextLink>
+            <AkselLink as={NextLink} href="/arbeidsgivertjenester">
+                Les mer om tilgangsstyring i virksomheter og finn skjermbilder her
+            </AkselLink>
         </article>
     );
 }

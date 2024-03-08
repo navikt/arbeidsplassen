@@ -5,12 +5,10 @@ import NextLink from "next/link";
 export default function PersonvernUnderOppfolging() {
     return (
         <article className="container-small mt-5 mb-24">
-            <NextLink href="/personvern" passHref legacyBehavior>
-                <AkselLink className="mb-8">
-                    <ChevronLeftIcon aria-hidden="true" />
-                    Til personvernserklæring
-                </AkselLink>
-            </NextLink>
+            <AkselLink as={NextLink} href="/personvern" className="mb-8">
+                <ChevronLeftIcon aria-hidden="true" />
+                Til personvernserklæring
+            </AkselLink>
             <Heading size="xlarge" level="1" spacing>
                 Personvernerklæring for deg som er under arbeidsrettet oppfølging fra NAV
             </Heading>

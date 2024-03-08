@@ -69,15 +69,9 @@ export default function FindingAJob() {
                         </BodyLong>
                         <BodyLong spacing>
                             {t("h2-find-job.p2")}{" "}
-                            <NextLink
-                                href="/mot-bedrifter-pa-en-ny-mate"
-                                passHref
-                                legacyBehavior
-                                locale="no"
-                                hrefLang="no"
-                            >
-                                <AkselLink>{t("h2-find-job.p2-link-text-1")}</AkselLink>
-                            </NextLink>{" "}
+                            <AkselLink as={NextLink} href="/mot-bedrifter-pa-en-ny-mate" locale="no" hrefLang="no">
+                                {t("h2-find-job.p2-link-text-1")}
+                            </AkselLink>{" "}
                             {t("h2-find-job.p2-2")}{" "}
                             <AkselLink href="/jobbtreff" hrefLang="no">
                                 {t("h2-find-job.p2-link-text-2")}

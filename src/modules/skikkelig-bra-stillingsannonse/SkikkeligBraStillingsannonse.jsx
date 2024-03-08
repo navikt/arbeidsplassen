@@ -55,11 +55,9 @@ export default function SkikkeligBraStillingsannonse() {
                         <BodyLong>
                             Jobb med overskriften, den skal vekke interesse. Du kan bruke kunstig intelligens (KI) for å
                             få forslag til gode overskrifter:{" "}
-                            <Link href="/enklere-a-skrive-gode-kvalifikasjoner" passHref legacyBehavior>
-                                <AkselLink>
-                                    https://arbeidsplassen.nav.no/enklere-a-skrive-gode-kvalifikasjoner
-                                </AkselLink>
-                            </Link>
+                            <AkselLink as={Link} href="/enklere-a-skrive-gode-kvalifikasjoner">
+                                https://arbeidsplassen.nav.no/enklere-a-skrive-gode-kvalifikasjoner
+                            </AkselLink>
                         </BodyLong>
                     </li>
                     <li>

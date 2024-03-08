@@ -38,9 +38,7 @@ export default function ThonHotelSuperrask() {
                     Ruth Øien Mæhlum er direktør ved Thon Partner Hotel Otta og forteller at de er helt avhengig å få på
                     plass sommervikarer så tidlig som mulig. Hvert år lyser hun derfor ut sommerjobber på
                     arbeidsplassen.no, som har{" "}
-                    <NextLink href="/stillinger" passHref legacyBehavior>
-                        <AkselLink>en av Norges største samlinger av ledige stillinger.</AkselLink>
-                    </NextLink>
+                    <AkselLink href="/stillinger">en av Norges største samlinger av ledige stillinger.</AkselLink>
                 </BodyLong>
                 <BodyLong spacing>
                     – Vi starter alltid i god tid med å planlegge for sommeren og legger ut sommerjobbene i god tid.
@@ -48,9 +46,9 @@ export default function ThonHotelSuperrask() {
                 </BodyLong>
                 <BodyLong className="mb-12">
                     I år valgte hun å legge til{" "}
-                    <NextLink href="/superrask-soknad-bedrift" passHref legacyBehavior>
-                        <AkselLink>superrask søknad</AkselLink>
-                    </NextLink>{" "}
+                    <AkselLink as={NextLink} href="/superrask-soknad-bedrift">
+                        superrask søknad
+                    </AkselLink>{" "}
                     i sommerjobb-annonsene. Superrask søknad er NAV sin nye tjeneste på arbeidsplassen.no som gjør det
                     enklere for bedrifter å få tak i folk.
                 </BodyLong>

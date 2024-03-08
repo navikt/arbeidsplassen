@@ -78,9 +78,9 @@ export default function SuperraskSoknadPerson() {
 
                 <BodyLong spacing>
                     Les også{" "}
-                    <NextLink href="/personvern-superrask-soknad" passHref legacyBehavior>
-                        <AkselLink>personvernerklæringen for superrask søknad</AkselLink>
-                    </NextLink>
+                    <AkselLink as={NextLink} href="/personvern-superrask-soknad">
+                        personvernerklæringen for superrask søknad
+                    </AkselLink>
                     .
                 </BodyLong>
                 <BodyLong spacing>

@@ -14,23 +14,23 @@ export default function InformationUkraine() {
             >
                 <li>
                     <BodyLong lang="en">
-                        <NextLink locale="en" href="/work-in-norway" passHref legacyBehavior>
-                            <AkselLink>Information about working in Norway</AkselLink>
-                        </NextLink>
+                        <AkselLink as={NextLink} locale="en" href="/work-in-norway">
+                            Information about working in Norway
+                        </AkselLink>
                     </BodyLong>
                 </li>
                 <li>
                     <BodyLong lang="uk">
-                        <NextLink locale="uk" href="/work-in-norway" passHref legacyBehavior>
-                            <AkselLink>Інформація українською мовою</AkselLink>
-                        </NextLink>
+                        <AkselLink as={NextLink} locale="uk" href="/work-in-norway">
+                            Інформація українською мовою
+                        </AkselLink>
                     </BodyLong>
                 </li>
                 <li>
                     <BodyLong lang="ru">
-                        <NextLink locale="ru" href="/work-in-norway" passHref legacyBehavior>
-                            <AkselLink>Информация на русском языке</AkselLink>
-                        </NextLink>
+                        <AkselLink as={NextLink} locale="ru" href="/work-in-norway">
+                            Информация на русском языке
+                        </AkselLink>
                     </BodyLong>
                 </li>
             </ul>

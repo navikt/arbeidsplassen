@@ -5,12 +5,10 @@ import NextLink from "next/link";
 export default function VilkarStillingsannonser() {
     return (
         <article className="container-small mt-5 mb-24">
-            <NextLink href="/vilkar-og-retningslinjer" passHref legacyBehavior>
-                <AkselLink className="mb-8">
-                    <ChevronLeftIcon aria-hidden="true" />
-                    Til Vilkår og retningslinjer
-                </AkselLink>
-            </NextLink>
+            <AkselLink as={NextLink} href="/vilkar-og-retningslinjer" className="mb-8">
+                <ChevronLeftIcon aria-hidden="true" />
+                Til Vilkår og retningslinjer
+            </AkselLink>
 
             <Heading spacing size="xlarge" level="1">
                 Vilkår for å publisere stillingsannonser på arbeidsplassen.no
@@ -18,9 +16,7 @@ export default function VilkarStillingsannonser() {
 
             <BodyLong spacing>
                 Hvis du ønsker å annonsere ledige stillinger på arbeidsplassen.no og{" "}
-                <NextLink href="https://eures.europa.eu/index_en" passHref legacyBehavior>
-                    <AkselLink>Den Europeiske Jobbmobilitetsportalen</AkselLink>
-                </NextLink>
+                <AkselLink href="https://eures.europa.eu/index_en">Den Europeiske Jobbmobilitetsportalen</AkselLink>
                 {", "}
                 må du som arbeidsgiver godta vilkårene under.
             </BodyLong>
@@ -69,9 +65,9 @@ export default function VilkarStillingsannonser() {
                         Stillingsannonsen skal ikke forskjellsbehandle ut fra kjønn, alder, etnisk bakgrunn eller andre
                         kriterier som ikke er relevante. Annonsen skal heller ikke ha uetisk innhold eller være
                         støtende. Den skal ikke oppfordre til ulovlige handlinger eller være i strid med norsk lov eller{" "}
-                        <NextLink href="/retningslinjer-stillingsannonser" passHref legacyBehavior>
-                            <AkselLink>NAVs retningslinjer for innhold i stillingsannonser.</AkselLink>
-                        </NextLink>{" "}
+                        <AkselLink as={NextLink} href="/retningslinjer-stillingsannonser">
+                            NAVs retningslinjer for innhold i stillingsannonser.
+                        </AkselLink>{" "}
                     </BodyLong>
                 </li>
                 <li>
@@ -113,15 +109,13 @@ export default function VilkarStillingsannonser() {
             </ul>
             <BodyLong spacing>
                 For mer informasjon,{" "}
-                <NextLink href="/arbeidsgivertjenester " passHref legacyBehavior>
-                    <AkselLink>se NAVs personvernerklæring.</AkselLink>
-                </NextLink>
+                <AkselLink as={NextLink} href="/arbeidsgivertjenester">
+                    se NAVs personvernerklæring.
+                </AkselLink>
             </BodyLong>
             <BodyLong className="mb-24">
                 Har du spørsmål, ta gjerne kontakt med oss:{" "}
-                <NextLink href="https://www.nav.no/arbeidsgiver/kontaktoss" passHref legacyBehavior>
-                    <AkselLink>Kontakt NAV - arbeidsgiver</AkselLink>
-                </NextLink>
+                <AkselLink href="https://www.nav.no/arbeidsgiver/kontaktoss">Kontakt NAV - arbeidsgiver</AkselLink>
             </BodyLong>
         </article>
     );
