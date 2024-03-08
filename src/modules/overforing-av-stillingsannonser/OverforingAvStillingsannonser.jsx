@@ -1,4 +1,4 @@
-import { BodyLong, Heading, Ingress, Link } from "@navikt/ds-react";
+import { BodyLong, Heading, Link } from "@navikt/ds-react";
 import React from "react";
 import ImageLinkPanelMedium from "@/src/common/components/ImageLinkPanelMedium";
 
@@ -10,10 +10,10 @@ export default function OverforingAvStillingsannonser() {
                     Overføring av stillingsannonser til arbeidsplassen.no
                 </Heading>
 
-                <Ingress spacing>
+                <BodyLong size="large" spacing>
                     NAVs import-API er utviklet for at det skal være enkelt å publisere stillinger på arbeidsplassen.no
                     for våre samarbeidspartnere
-                </Ingress>
+                </BodyLong>
             </div>
 
             <div className="container-medium mb-12">

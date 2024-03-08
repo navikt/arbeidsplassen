@@ -1,4 +1,4 @@
-import { BodyLong, Heading, Ingress, Link as AkselLink, LinkPanel } from "@navikt/ds-react";
+import { BodyLong, Heading, Link as AkselLink, LinkPanel } from "@navikt/ds-react";
 import ImageLinkPanelMedium from "@/src/common/components/ImageLinkPanelMedium";
 import React from "react";
 
@@ -10,7 +10,9 @@ export default function SommerjobbJobbsoker() {
                     På utkikk etter sommerjobb?
                 </Heading>
 
-                <Ingress>Vi har gjort det ekstra enkelt for deg å finne sommerjobber i hele landet.</Ingress>
+                <BodyLong size="large">
+                    Vi har gjort det ekstra enkelt for deg å finne sommerjobber i hele landet.
+                </BodyLong>
             </div>
 
             <div className="container-medium mb-12">

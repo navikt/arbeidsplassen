@@ -1,4 +1,4 @@
-import { BodyLong, Button, Heading, Ingress, Stepper, VStack } from "@navikt/ds-react";
+import { BodyLong, Button, Heading, Stepper, VStack } from "@navikt/ds-react";
 
 export default function SlikFungererSuperraskSoknad() {
     return (
@@ -8,7 +8,9 @@ export default function SlikFungererSuperraskSoknad() {
                     <Heading spacing size="xlarge" level="1">
                         Superrask søknad
                     </Heading>
-                    <Ingress spacing>Ny måte å motta søknader fra relevante jobbsøkere</Ingress>
+                    <BodyLong size="large" spacing>
+                        Ny måte å motta søknader fra relevante jobbsøkere
+                    </BodyLong>
                 </div>
 
                 <div className="stegindikator-container mb-12">

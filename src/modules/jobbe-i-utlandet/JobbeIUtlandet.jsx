@@ -1,4 +1,4 @@
-import { BodyLong, Heading, Ingress, LinkPanel } from "@navikt/ds-react";
+import { BodyLong, Heading, LinkPanel } from "@navikt/ds-react";
 import ImageLinkPanelMedium from "@/src/common/components/ImageLinkPanelMedium";
 
 export default function JobbeIUtlandet() {
@@ -9,9 +9,9 @@ export default function JobbeIUtlandet() {
                     Jobbe i utlandet
                 </Heading>
 
-                <Ingress spacing>
+                <BodyLong size="large" spacing>
                     EURES-portalen er et tilbud til deg som ønsker å finne en jobb i EU/EØS-området eller Sveits.
-                </Ingress>
+                </BodyLong>
             </div>
 
             <div className="container-medium mb-12">

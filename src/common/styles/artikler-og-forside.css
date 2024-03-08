@@ -10,35 +10,6 @@
     }
 }
 
-.arb-home-section-flex {
-    display: flex;
-    gap: 1rem 6rem;
-    align-items: center;
-    flex: 1;
-    flex-wrap: wrap;
-}
-
-.arb-home-div-width {
-    flex: 3;
-}
-
-.arb-home-illustration {
-    flex: 1;
-    display: none;
-}
-
-@media (min-width: 1024px) {
-    .arb-home-illustration {
-        display: flex;
-        justify-content: center;
-    }
-
-    .arb-home-illustration-person {
-        padding: 0 3rem;
-        /*align-self: flex-start;*/
-    }
-}
-
 .arb-link-panel-grid {
     display: flex;
     flex-direction: column;

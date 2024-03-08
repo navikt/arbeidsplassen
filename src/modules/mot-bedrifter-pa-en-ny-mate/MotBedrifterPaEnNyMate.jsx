@@ -1,4 +1,4 @@
-import { BodyLong, Heading, Ingress, LinkPanel } from "@navikt/ds-react";
+import { BodyLong, Heading, LinkPanel } from "@navikt/ds-react";
 import React from "react";
 import ImageLinkPanelMedium from "@/src/common/components/ImageLinkPanelMedium";
 
@@ -10,10 +10,10 @@ export default function MotBedrifterPaEnNyMate() {
                     Jobbtreff – møt bedrifter på en ny måte
                 </Heading>
 
-                <Ingress spacing>
+                <BodyLong size="large" spacing>
                     Vil du bli kjent med en bedrift? Følg en direkte sending der bedriften forteller om seg selv og hva
                     slags stillinger du kan søke på.
-                </Ingress>
+                </BodyLong>
             </div>
 
             <div className="container-medium mb-12">

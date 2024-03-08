@@ -1,16 +1,18 @@
-import { Button, Heading, Ingress, LinkPanel } from "@navikt/ds-react";
+import { BodyLong, Button, Heading, HStack, LinkPanel, Show } from "@navikt/ds-react";
 import { FiguresGivingHighFive } from "@navikt/arbeidsplassen-react";
 import ImageLinkPanelSmall from "@/src/common/components/ImageLinkPanelSmall";
 
 export default function Bedrift() {
     return (
         <div className="container-large mt-5 mb-24">
-            <section className="arb-home-section-flex">
-                <div className="arb-home-div-width">
+            <HStack gap="4" align="center">
+                <div className="flex-3">
                     <Heading size="xlarge" level="1" spacing className="jumbo-h1">
                         Rekrutter deres neste medarbeider
                     </Heading>
-                    <Ingress spacing>Motta søknader raskt og enkelt fra relevante jobbsøkere.</Ingress>
+                    <BodyLong size="large" spacing>
+                        Motta søknader raskt og enkelt fra relevante jobbsøkere.
+                    </BodyLong>
 
                     <div className="mb-16">
                         <Button variant="primary" as="a" href="/stillingsregistrering" role="link">
@@ -19,10 +21,10 @@ export default function Bedrift() {
                     </div>
                 </div>
 
-                <div className="arb-home-illustration">
+                <Show above="lg">
                     <FiguresGivingHighFive />
-                </div>
-            </section>
+                </Show>
+            </HStack>
 
             <div className="arb-link-panel-grid mb-12">
                 <LinkPanel className="arb-link-panel-tertiary" href="/stillingsregistrering/stillingsannonser">

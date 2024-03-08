@@ -27,14 +27,10 @@ button {
     height: 100%;
 }
 
-/* Todo: move to arbeidsplassen-design */
-[data-theme="arbeidsplassen-dark"] {
-    --arb-image-filter: brightness(95%) saturate(90%);
-}
-img {
-    filter: var(--arb-image-filter, none);
-}
-
 .flex-1 {
     flex: 1;
+}
+
+.flex-3 {
+    flex: 3;
 }

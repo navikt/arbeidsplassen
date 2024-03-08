@@ -1,4 +1,4 @@
-import { Bleed, Box, Button, Heading, Ingress, LinkPanel } from "@navikt/ds-react";
+import { Bleed, BodyLong, Box, Button, Heading, HStack, LinkPanel, Show } from "@navikt/ds-react";
 import { FiguresSideBySide } from "@navikt/arbeidsplassen-react";
 import InformationUkraine from "@/src/modules/(home)/InformationUkraine";
 import ImageLinkPanelSmall from "@/src/common/components/ImageLinkPanelSmall";
@@ -6,16 +6,16 @@ import ImageLinkPanelSmall from "@/src/common/components/ImageLinkPanelSmall";
 export default function Home() {
     return (
         <div className="container-large mt-5 mb-24">
-            <section className="arb-home-section-flex">
-                <div className="arb-home-div-width">
+            <HStack gap="4" align="center">
+                <div className="flex-3">
                     <Heading size="xlarge" level="1" spacing className="jumbo-h1">
                         Alt av arbeid, <br />
                         samlet på én plass.
                     </Heading>
-                    <Ingress spacing>
+                    <BodyLong size="large" spacing>
                         Finn din neste jobb i en av Norges største samlinger av stillinger. Her finner du jobber fra
                         alle bransjer i markedet.
-                    </Ingress>
+                    </BodyLong>
 
                     <div className="mb-16">
                         <Button variant="primary" as="a" href="/stillinger" role="link">
@@ -24,10 +24,10 @@ export default function Home() {
                     </div>
                 </div>
 
-                <div className="arb-home-illustration arb-home-illustration-person">
+                <Show above="lg">
                     <FiguresSideBySide />
-                </div>
-            </section>
+                </Show>
+            </HStack>
 
             <div className="arb-link-panel-grid mb-12">
                 <LinkPanel className="arb-link-panel-primary" href="/jobbtreff">

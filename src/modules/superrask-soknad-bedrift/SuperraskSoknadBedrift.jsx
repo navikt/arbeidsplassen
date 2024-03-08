@@ -1,4 +1,4 @@
-import { BodyLong, Heading, Ingress, LinkPanel } from "@navikt/ds-react";
+import { BodyLong, Heading, LinkPanel } from "@navikt/ds-react";
 import React from "react";
 import ImageLinkPanelMedium from "@/src/common/components/ImageLinkPanelMedium";
 
@@ -10,10 +10,10 @@ export default function SuperraskSoknadBedrift() {
                     Superrask søknad – en enklere måte å komme i kontakt med relevante jobbsøkere
                 </Heading>
 
-                <Ingress spacing>
+                <BodyLong size="large" spacing>
                     Superrask søknad er en ny tjeneste på arbeidsplassen.no som vil gjøre rekrutteringen enklere for
                     bedrifter og for de som er på jakt etter ny jobb.
-                </Ingress>
+                </BodyLong>
             </div>
 
             <div className="container-medium mb-12">

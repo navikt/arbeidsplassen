@@ -1,4 +1,4 @@
-import { BodyLong, Heading, Ingress, Link as AkselLink, LinkPanel } from "@navikt/ds-react";
+import { BodyLong, Heading, Link as AkselLink, LinkPanel } from "@navikt/ds-react";
 import NextLink from "next/link";
 import React from "react";
 import ImageLinkPanelMedium from "@/src/common/components/ImageLinkPanelMedium";
@@ -11,7 +11,9 @@ export default function SuperraskSoknadPerson() {
                     Superrask søknad
                 </Heading>
 
-                <Ingress spacing>En enklere måte å komme i kontakt med bedrifter</Ingress>
+                <BodyLong size="large" spacing>
+                    En enklere måte å komme i kontakt med bedrifter
+                </BodyLong>
             </div>
 
             <div className="container-medium mb-12">

@@ -1,4 +1,4 @@
-import { BodyLong, Heading, Ingress, LinkPanel } from "@navikt/ds-react";
+import { BodyLong, Heading, LinkPanel } from "@navikt/ds-react";
 import React from "react";
 import ImageLinkPanelMedium from "@/src/common/components/ImageLinkPanelMedium";
 
@@ -10,10 +10,10 @@ export default function TipsTilJobbsoknaden() {
                     Tips til jobbsøknaden
                 </Heading>
 
-                <Ingress spacing>
+                <BodyLong size="large" spacing>
                     Det er ikke så vanskelig. Her får du våre tips om hvordan skrive søknaden slik at en arbeidsgiver
                     får lyst til å møte akkurat deg.
-                </Ingress>
+                </BodyLong>
             </div>
 
             <div className="container-medium mb-12">

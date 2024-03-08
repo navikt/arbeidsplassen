@@ -1,4 +1,4 @@
-import { BodyLong, Heading, Ingress, LinkPanel } from "@navikt/ds-react";
+import { BodyLong, Heading, LinkPanel } from "@navikt/ds-react";
 import React from "react";
 import ImageLinkPanelMedium from "@/src/common/components/ImageLinkPanelMedium";
 
@@ -10,10 +10,10 @@ export default function SlikSkriverDuEnGodCv() {
                     Slik skriver du en god CV
                 </Heading>
 
-                <Ingress spacing>
+                <BodyLong size="large" spacing>
                     Med noen enkle grep kan du øke sjansene dine for å bli kalt inn til et intervju. Her får du tipsene
                     som gjør at CV-en din blir lagt merke til.
-                </Ingress>
+                </BodyLong>
             </div>
 
             <div className="container-medium mb-12">
