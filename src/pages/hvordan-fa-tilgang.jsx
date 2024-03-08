@@ -4,7 +4,7 @@ import Head from "next/head";
 import { getMetadataTitle } from "@/src/modules/layout";
 import Layout from "@/src/common/components/layout/Layout";
 
-const metadata = {
+export const metadata = {
     title: getMetadataTitle("Slik kan du skaffe deg tilgang"),
 };
 

@@ -3,7 +3,7 @@ import Head from "next/head";
 import Layout from "@/src/common/components/layout/Layout";
 import { getMetadataTitle } from "@/src/modules/layout";
 
-const metadata = {
+export const metadata = {
     title: getMetadataTitle("Bedrift"),
 };
 

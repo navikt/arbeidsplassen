@@ -4,7 +4,7 @@ import Head from "next/head";
 import Layout from "@/src/common/components/layout/Layout";
 import { getMetadataTitle } from "@/src/modules/layout";
 
-const metadata = {
+export const metadata = {
     title: getMetadataTitle(
         "Nå er det enklere enn noensinne å skrive gode kvalifikasjoner og overskrifter til din jobbannonse",
     ),

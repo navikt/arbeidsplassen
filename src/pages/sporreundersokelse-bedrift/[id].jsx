@@ -3,7 +3,7 @@ import Head from "next/head";
 import { getMetadataTitle } from "@/src/modules/layout";
 import SporreundersokelseBedrift from "@/src/modules/sporreundersokelse-bedrift/SporreundersokelseBedrift";
 
-const metadata = {
+export const metadata = {
     title: getMetadataTitle("Spørreundersøkelse"),
 };
 

@@ -3,7 +3,7 @@ import { getMetadataTitle } from "@/src/modules/layout";
 import Head from "next/head";
 import Layout from "@/src/common/components/layout/Layout";
 
-const metadata = {
+export const metadata = {
     title: getMetadataTitle("Hvem kan bruke arbeidsgivertjenestene?"),
 };
 
