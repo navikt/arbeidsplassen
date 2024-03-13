@@ -24,6 +24,19 @@
     }
 }
 
+.banner-image-link-panel {
+    position: relative;
+    max-height: 380px;
+}
+
+.banner-image-link-panel img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    border-radius: 0 0 0px 64px;
+}
+
 /**** ARTICLE ****/
 
 .article-image {
