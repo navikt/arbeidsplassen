@@ -18,8 +18,8 @@ export default function SommerjobbJobbsoker() {
             <div className="container-medium mb-12">
                 <img
                     className="article-image article-image-pos"
-                    src="/images/sommerjobb-jobbsoker.jpg"
-                    alt="En kunde får servert en burger fra en food truck"
+                    src="/images/woman-portrait-gardening.jpg"
+                    alt="Hagearbeider som holder to plantepotter og smiler mot kameraet."
                 />
             </div>
 
