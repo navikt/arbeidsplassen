@@ -5,7 +5,7 @@ import Head from "next/head";
 import Layout from "@/src/common/components/layout/Layout";
 
 export const metadata = {
-    title: getMetadataTitle("På utkikk etter sommerjobb?"),
+    title: getMetadataTitle("Sommerjobben venter på deg!"),
 };
 
 export default function Page() {

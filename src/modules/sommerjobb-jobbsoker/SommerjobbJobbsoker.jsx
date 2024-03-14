@@ -7,12 +7,10 @@ export default function SommerjobbJobbsoker() {
         <article>
             <div className="container-small mt-5 mb-24">
                 <Heading size="xlarge" level="1" spacing>
-                    På utkikk etter sommerjobb?
+                    Sommerjobben venter på deg!
                 </Heading>
 
-                <BodyLong size="large">
-                    Vi har gjort det ekstra enkelt for deg å finne sommerjobber i hele landet.
-                </BodyLong>
+                <BodyLong size="large">Nye muligheter legges ut hele tiden – søk på din neste sommerjobb nå. </BodyLong>
             </div>
 
             <div className="container-medium mb-12">
@@ -25,9 +23,12 @@ export default function SommerjobbJobbsoker() {
 
             <div className="container-small mb-16">
                 <BodyLong spacing>
+                    For mange er sommerjobb det første møtet med arbeidslivet. Erfaringen du får her kan bli veldig
+                    verdifull å ta med seg og ser bra ut på CV- en din.
+                </BodyLong>
+                <BodyLong spacing>
                     Arbeidsgivere registrerer daglig ledige stillinger på arbeidsplassen.no. I tillegg henter vi
-                    automatisk inn stillinger fra mange nettsteder, og vi gir deg en samlet oversikt over det vi finner.
-                    Enkelt og greit!
+                    automatisk inn stillinger fra mange nettsteder, og vi gir deg en samlet oversikt. Enkelt og greit!
                 </BodyLong>
                 <BodyLong className="mb-12">
                     <AkselLink href="/stillinger?q=sommerjobb">Her finner du sommerjobber</AkselLink>
@@ -40,18 +41,22 @@ export default function SommerjobbJobbsoker() {
                     Hvordan skille seg ut?
                 </Heading>
                 <BodyLong spacing>
-                    Vær positiv og få frem det du kan. Tenk over hva du kan utenom utdanning. Kanskje du har vært
-                    hjelpetrener på fotballaget, sittet i elevrådet eller hatt småjobber i arbeidsuken? Har du hobbyer?
-                    Kanskje det har gitt deg kunnskap og ferdigheter som arbeidsgiver ser etter?
+                    Vær positiv og få frem hvorfor du er den rette for jobben. Kanskje du har vært hjelpetrener på
+                    fotballaget, sittet i elevrådet eller hatt småjobber? Har du hobbyer? Kanskje det har gitt deg
+                    kunnskap og ferdigheter som arbeidsgiver ser etter?{" "}
+                </BodyLong>
+                <BodyLong spacing>
+                    Skriv gjerne om noen fag på skolen du synes er interessante eller noen kurs som du synes er morsomme
+                    som kanskje kan ha relevans for jobben.
                 </BodyLong>
 
                 <Heading size="medium" level="3" spacing>
                     Superrask søknad
                 </Heading>
                 <BodyLong spacing>
-                    På arbeidsplassen.no finner du enkelte sommerjobber som har superrask søknad. Der kan du legge inn
-                    en kort beskrivelse av deg selv. Du trenger ingen CV. Husk at du konkurrerer med andre om jobbene,
-                    så det er viktig at du fremstår som positiv og motivert for jobben.
+                    På arbeidsplassen.no finner du enkelte sommerjobber som har superrask søknad. Du sender ingen CV,
+                    men skriver hvorfor du mener du er rett person for jobben. Husk at du konkurrerer med andre om
+                    jobbene, så det er viktig at du fremstår som positiv og motivert for jobben.
                 </BodyLong>
 
                 <Heading size="medium" level="3" spacing>
@@ -62,16 +67,9 @@ export default function SommerjobbJobbsoker() {
                     med, jo større sjanse er det for at det dukker opp jobbmuligheter.
                 </BodyLong>
 
-                <Heading size="medium" level="3" spacing>
-                    Ring på dørene
-                </Heading>
-                <BodyLong spacing>
-                    Det er mange jobber som ikke blir lyst ut på nettstedene. Ta deg derfor en runde og ring på dørene
-                    hos bedriftene og spør om de trenger hjelp i sommer.
-                </BodyLong>
                 <BodyLong className="mb-12">
                     Sjekk flere jobbsøkertips på{" "}
-                    <AkselLink href="https://www.nav.no/kom-i-gang-som-jobbsoker">nav.no</AkselLink>
+                    <AkselLink href="https://www.nav.no/soker-jobb#jobbsokertips">nav.no</AkselLink>
                 </BodyLong>
 
                 <LinkPanel className="arb-link-panel-primary" href="/stillinger?q=sommerjobb">
