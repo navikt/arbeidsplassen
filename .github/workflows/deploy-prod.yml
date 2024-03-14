@@ -5,9 +5,7 @@ on:
 
 jobs:
   deploy-prod:
-    uses: navikt/pam-deploy/.github/workflows/deploy-prod.yml@v5
+    uses: navikt/pam-deploy/.github/workflows/deploy-prod.yml@v7
     with:
       NAIS_RESOURCE: .nais/nais.yml
       NAIS_VARS: .nais/prod.yml
-    secrets:
-      NAIS_DEPLOY_APIKEY: ${{ secrets.NAIS_DEPLOY_APIKEY }}
