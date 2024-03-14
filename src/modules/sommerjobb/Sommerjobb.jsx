@@ -7,8 +7,13 @@ export default function Sommerjobb() {
         <article>
             <div className="container-small mt-5 mb-24">
                 <Heading size="xlarge" level="1" spacing>
-                    Nå kan du gi ungdom en sjanse – lys ut sommerjobber
+                    Gi ungdom en sjanse – lys ut sommerjobber
                 </Heading>
+
+                <BodyLong size="large">
+                    Mange unge trenger å få arbeidserfaring. Kan du være med på å gi dem en sjanse ved å lyse ut én
+                    eller flere sommerjobber i år?
+                </BodyLong>
             </div>
 
             <div className="container-medium mb-12">
@@ -20,18 +25,8 @@ export default function Sommerjobb() {
             </div>
 
             <div className="container-small mb-16">
-                <BodyLong spacing>
-                    Mange unge trenger å få arbeidserfaring. Kan du være med på å gi dem en sjanse ved å lyse ut én
-                    eller flere sommerjobber i år?
-                </BodyLong>
                 <BodyLong>Her har du noen gode argumenter for hvorfor dere bør ta inn sommervikarer:</BodyLong>
                 <ul className="mb-12">
-                    <li>
-                        <BodyLong>
-                            Arbeidserfaring blir mer og mer viktig. Derfor kan en relevant sommerjobb se veldig bra ut
-                            på CV-en. For mange er sommerjobb det første møtet med arbeidslivet.
-                        </BodyLong>
-                    </li>
                     <li>
                         <BodyLong>
                             Sommervikarene hjelper til med å holde hjulene i gang gjennom ferieavviklingen.
@@ -50,8 +45,8 @@ export default function Sommerjobb() {
 
                 <BodyLong spacing>
                     Alle virksomheter med behov for ferievikarer og ekstrahjelp er velkomne til å lyse ut sine
-                    stillinger på arbeidsplassen.no. Vi anbefaler bedrifter å lyse ut stillinger offentlig. Da får flest
-                    mulig vite om stillingene. Tjenestene på arbeidsplassen.no er kostnadsfrie.
+                    stillinger på arbeidsplassen.no, NAV sin stillingsdatabase. Da får flest mulig vite om
+                    jobbmulighetene. Tjenestene på arbeidsplassen.no er kostnadsfrie.
                 </BodyLong>
                 <BodyLong className="mb-12">
                     <Link href="/skikkelig-bra-stillingsannonse">
@@ -74,7 +69,7 @@ export default function Sommerjobb() {
                         </BodyLong>
                     </li>
                     <li>
-                        <BodyLong>Vekk interesse! Bruk et språk som går mer hjem blant de unge.</BodyLong>
+                        <BodyLong>Vekk interesse! Bruk et språk som de unge forstår. </BodyLong>
                     </li>
                     <li>
                         <BodyLong>
