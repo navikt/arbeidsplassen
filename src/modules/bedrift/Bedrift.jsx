@@ -46,20 +46,19 @@ export default function Bedrift() {
 
             <div className="image-link-panel-grid-small">
                 <ImageLinkPanelSmall
+                    href="/sommerjobb"
+                    image="/images/sommerjobb.png"
+                    alt="En kunde får servert en burger fra en food truck."
+                    title="Gi ungdom en sjanse – lys ut sommerjobber"
+                    description="Mange unge trenger å få arbeidserfaring. Kan du være med på å gi dem en sjanse ved å lyse ut én eller flere sommerjobber i år?"
+                    color="primary"
+                />
+                <ImageLinkPanelSmall
                     href="/enklere-a-skrive-gode-kvalifikasjoner"
                     image="/images/dog-thumbnail.png"
                     alt="Glad hund som som sitter ved kjøkkenbordet og ser på en person som fyller ut superrask søknad."
                     title="Nå er det enklere å skrive gode kvalifikasjoner og overskrifter"
                     description="Du kan nå få forslag til kvalfikasjoner og overskrifter ved hjelp av kunstig intelligens."
-                    color="primary"
-                />
-                <ImageLinkPanelSmall
-                    href="mot-jobbsokere-pa-en-ny-mate"
-                    image="/images/jobbtreff.webp"
-                    alt="En person sitter ved et kjøkkenbord med datamaskin foran seg, hun har på hodetelefoner og er nok i gang med en videosamtale."
-                    title="Jobbtreff – møt jobbsøkere på en ny måte"
-                    description="Trenger dere nye medarbeidere? Nå kan du presentere bedriften din for interesserte
-                                    jobbsøkere i en direkte sending."
                     color="secondary"
                 />
                 <ImageLinkPanelSmall
