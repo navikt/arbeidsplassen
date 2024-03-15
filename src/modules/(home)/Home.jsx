@@ -2,6 +2,7 @@ import { Bleed, BodyLong, Box, Button, Heading, HStack, LinkPanel, Show } from "
 import { FiguresSideBySide } from "@navikt/arbeidsplassen-react";
 import InformationUkraine from "@/src/modules/(home)/InformationUkraine";
 import ImageLinkPanelSmall from "@/src/common/components/ImageLinkPanelSmall";
+import ImageBannerLinkPanel from "@/src/common/components/ImageBannerLinkPanel";
 
 export default function Home() {
     return (
@@ -30,7 +31,7 @@ export default function Home() {
             </HStack>
 
             <div className="arb-link-panel-grid mb-12">
-                <LinkPanel className="arb-link-panel-primary" href="/jobbtreff">
+                <LinkPanel className="arb-link-panel-tertiary" href="/jobbtreff">
                     <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
                         Vis kommende jobbtreff
                     </LinkPanel.Title>
@@ -47,6 +48,16 @@ export default function Home() {
                     </LinkPanel.Description>
                 </LinkPanel>
             </div>
+
+            <ImageBannerLinkPanel
+                href="/sommerjobb-jobbsoker"
+                image="/images/woman-portrait-gardening.jpg"
+                alt="Hagearbeider som holder to plantepotter og smiler mot kameraet."
+                title="Sommerjobben venter på deg!"
+                description="
+                Nye muligheter legges ut hele tiden – søk på din neste sommerjobb nå!
+            "
+            />
 
             <div className="mb-12">
                 <Bleed marginInline="full" asChild>
