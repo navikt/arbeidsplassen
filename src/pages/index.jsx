@@ -1,10 +1,9 @@
 import Home from "@/src/modules/(home)/Home";
-import { getMetadataTitle } from "@/src/modules/layout";
 import Head from "next/head";
 import Layout from "@/src/common/components/layout/Layout";
 
 export const metadata = {
-    title: getMetadataTitle("Arbeidsplassen"),
+    title: "Arbeidsplassen.no - alt av arbeid, samlet på én plass",
 };
 
 export default function Page() {
