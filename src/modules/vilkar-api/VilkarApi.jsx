@@ -40,21 +40,21 @@ export default function VilkarApi() {
                 bruke de til statistiske/analytiske formål.
             </BodyLong>
             <BodyLong>Konsument forplikter seg til at:</BodyLong>
-            <ol type="a" className="mb-12">
+            <ol className="mb-12">
                 <li>
-                    <BodyLong spacing>
+                    <BodyLong>
                         Alle annonser som er hentet fra NAV og republisert hos Konsuments tjenester skal umiddelbart
                         fjernes fra resultatlisten til Konsumenten når annonsen blir inaktiv eller slettet hos NAV.
                     </BodyLong>
                 </li>
                 <li>
-                    <BodyLong spacing>
+                    <BodyLong>
                         Alle annonser som er hentet fra NAV og republisert hos Konsuments tjenester skal umiddelbart
                         endres når en annonse blir oppdatert i APIet.
                     </BodyLong>
                 </li>
                 <li>
-                    <BodyLong spacing>
+                    <BodyLong>
                         Når en annonse åpnes fra resultatlisten, kan annonsen vises på samme domene som resultatlisten.
                         Det betyr at en annonse hentet fra NAV kan åpnes av jobbsøker på Konsumentens tjenester.
                     </BodyLong>
@@ -81,20 +81,20 @@ export default function VilkarApi() {
             </BodyLong>
             <ol className="mb-12">
                 <li>
-                    <BodyLong spacing>
+                    <BodyLong>
                         Sørge for at Konsument behandler personopplysninger i henhold til gjeldende lover, inkludert å
                         sørge for lovlig behandlingsgrunnlag for innsamling av personopplysninger, og behandlingen av
                         personopplysninger forøvrig, under denne avtalen.
                     </BodyLong>
                 </li>
                 <li>
-                    <BodyLong spacing>
+                    <BodyLong>
                         Sørge for informasjon om deling av annonser som inneholder personopplysninger og overholde
                         informasjonskravet i personopplysningsloven for øvrig.
                     </BodyLong>
                 </li>
                 <li>
-                    <BodyLong spacing>
+                    <BodyLong>
                         Sørge for begrensninger i lagringstiden til personopplysninger slik at personopplysninger
                         slettes så snart personopplysningene ikke lenger er nødvendige for det opprinnelige formålet med
                         behandlingen eller øvrige formål, og i henhold til informasjonen som er gitt til de registrerte
@@ -115,7 +115,6 @@ export default function VilkarApi() {
             <BodyLong className="mb-12">
                 Har du spørsmål kan du kontakte oss på e-post{" "}
                 <AkselLink href="mailto:nav.team.arbeidsplassen@nav.no">nav.team.arbeidsplassen@nav.no</AkselLink>.
-                Ønsker du å avslutte abonnementet, send en henvendelse til samme e-postadresse.
             </BodyLong>
             <BodyLong className="mb-24">
                 <AkselLink as={NextLink} href="/vilkar-api-gammel">
