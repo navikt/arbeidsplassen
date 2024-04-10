@@ -21,7 +21,7 @@ export default function VilkarApi() {
             <BodyLong spacing>
                 NAV tilbyr et API med offentlige utlyste stillinger fra NAVs database. Dette kan være jobbannonser
                 direkte registrert hos NAV eller hentet inn fra NAVs samarbeidspartnere (omtalt som systemleverandør i
-                punkt 4).
+                punkt d).
             </BodyLong>
             <BodyLong className="mb-12">Konsumenter kan koble seg til APIet og hente disse jobbannonsene.</BodyLong>
 
@@ -36,11 +36,11 @@ export default function VilkarApi() {
                 Vilkår for bruk av APIet
             </Heading>
             <BodyLong spacing>
-                Konsumenter APIet har rett til å republisere og vise mottatte jobbannonser på sine tjenester, og/eller
-                bruke de til statistiske/analytiske formål.
+                Konsumenter av APIet har rett til å republisere og vise mottatte jobbannonser på sine tjenester,
+                og/eller bruke de til statistiske/analytiske formål.
             </BodyLong>
             <BodyLong>Konsument forplikter seg til at:</BodyLong>
-            <ol className="mb-12">
+            <ol type="a" className="mb-12">
                 <li>
                     <BodyLong>
                         Alle annonser som er hentet fra NAV og republisert hos Konsuments tjenester skal umiddelbart
