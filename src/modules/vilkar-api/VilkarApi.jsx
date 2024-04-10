@@ -11,18 +11,18 @@ export default function VilkarApi() {
             </AkselLink>
 
             <Heading spacing size="xlarge" level="1">
-                Vilkår for bruk av API for stillingsannonser - Job Ads Public Feed
+                Vilkår for bruk av NAVs stillingsannonse API
             </Heading>
 
             <Heading size="large" level="2" spacing>
                 Beskrivelse av tjenesten
             </Heading>
-            <BodyLong className="mb-12">
-                Gjennom arbeidsplassen.no tilbyr NAV data fra stillingssøket på arbeidsplassen.no. Stillingssøket
-                inneholder en oversikt og informasjon om de fleste aktive utlyste stillinger. Stillingssøket inneholder
-                både stillinger som er registrert direkte hos NAV, publisert til NAV via et åpent API og hentet inn fra
-                våre samarbeidspartnere.
+            <BodyLong spacing>
+                NAV tilbyr et API med offentlige utlyste stillinger fra NAVs database. Dette kan være jobbannonser
+                direkte registrert hos NAV eller hentet inn fra NAVs samarbeidspartnere (omtalt som systemleverandør i
+                punkt d).
             </BodyLong>
+            <BodyLong className="mb-12">Konsumenter kan koble seg til APIet og hente disse jobbannonsene.</BodyLong>
 
             <Heading size="large" level="2" spacing>
                 Hvem kan bruke tjenestene
@@ -31,73 +31,94 @@ export default function VilkarApi() {
                 Alle kan bruke tjenesten. Tjenesten er kostnadsfri og leveres av NAV. NAV forbeholder seg retten til å
                 stoppe tilgang ved feil bruk av tjenesten.
             </BodyLong>
-            <BodyLong>Feil bruk av tjenesten (ikke uttømmende liste) kan være:</BodyLong>
-            <ul className="mb-12">
-                <li>
-                    <BodyLong>
-                        Ikke sletter stillinger når de løper ut fra dato eller på andre måter blir trukket fra API-et.
-                    </BodyLong>
-                </li>
-                <li>
-                    <BodyLong>Uetisk eller ulovlig bruk av stillingsdataene.</BodyLong>
-                </li>
-            </ul>
-
-            <Heading size="large" level="2" spacing>
-                Typer tilgang
+            <Heading size="medium" level="3" spacing>
+                Vilkår for bruk av APIet
             </Heading>
-            <ol className="mb-12">
+            <BodyLong spacing>
+                Konsumenter av APIet har rett til å republisere og vise mottatte jobbannonser på sine tjenester,
+                og/eller bruke de til statistiske/analytiske formål.
+            </BodyLong>
+            <BodyLong>Konsument forplikter seg til at:</BodyLong>
+            <ol type="a" className="mb-12">
                 <li>
-                    <BodyLong spacing>
-                        <b>Tilgang som uregistrert bruker:</b> (Offentlig nøkkel) Denne tilgangen kan du bruke for å
-                        prøve ut tjenesten. Ulempen er at vi ikke har mulighet til å informere deg om endringer når den
-                        offentlige tilgangsnøkkelen endres uten forvarsel. Hvis du ønsker å bruke tjenesten på fast
-                        basis, anbefaler vi alternativ 2.
+                    <BodyLong>
+                        Alle annonser som er hentet fra NAV og republisert hos Konsuments tjenester skal umiddelbart
+                        fjernes fra resultatlisten til Konsumenten når annonsen blir inaktiv eller slettet hos NAV.
                     </BodyLong>
                 </li>
                 <li>
                     <BodyLong>
-                        <b>Tilgang som registrert bruker:</b> (Privat nøkkel) Vi anbefaler denne tilgangen hvis du skal
-                        bruke tjenesten på fast basis. Fordelen er at vi kan informere deg når det skjer endringer i
-                        tjenesten. Denne tilgangen krever at du oppgir e-postadressen din, navnet ditt og bedriftens
-                        navn til{" "}
-                        <AkselLink href="mailto:nav.team.arbeidsplassen@nav.no">
-                            nav.team.arbeidsplassen@nav.no
-                        </AkselLink>
-                        {". "}
-                        Du vil få tilbakemelding i løpet av to virkedager.
+                        Alle annonser som er hentet fra NAV og republisert hos Konsuments tjenester skal umiddelbart
+                        endres når en annonse blir oppdatert i APIet.
+                    </BodyLong>
+                </li>
+                <li>
+                    <BodyLong>
+                        Når en annonse åpnes fra resultatlisten, kan annonsen vises på samme domene som resultatlisten.
+                        Det betyr at en annonse hentet fra NAV kan åpnes av jobbsøker på Konsumentens tjenester.
+                    </BodyLong>
+                </li>
+                <li>
+                    <BodyLong>
+                        Jobbannonsens «søknadsfunksjon» skal dyplenke direkte til systemleverandørs søknadsfunksjon når
+                        den åpnes av en jobbsøker. Det betyr for eksempel at når en jobbsøker trykker på «søk på
+                        stillingen» i annonsevisningen på Finn.no, skal jobbsøker lenkes videre til kilden for
+                        søknadsfunksjonen.
                     </BodyLong>
                 </li>
             </ol>
-
+            <Heading size="large" level="2" spacing>
+                Behandling av personopplysninger
+            </Heading>
+            <BodyLong>
+                Partene skal opptre som separate behandlingsansvarlige når det gjelder behandlingen av
+                personopplysninger i forbindelse med samarbeidet regulert av denne avtalen. Konsument vil motta
+                personopplysninger som inngår i jobbannonsene som NAV deler med Konsument under denne avtalen. Konsument
+                forplikter seg til å behandle personopplysninger i henhold til gjeldende lover, inkludert
+                personopplysningsloven (LOV-2018-06-15-38). Konsument sine forpliktelser inkluderer, men er ikke
+                begrenset til, følgende:
+            </BodyLong>
+            <ol className="mb-12">
+                <li>
+                    <BodyLong>
+                        Sørge for at Konsument behandler personopplysninger i henhold til gjeldende lover, inkludert å
+                        sørge for lovlig behandlingsgrunnlag for innsamling av personopplysninger, og behandlingen av
+                        personopplysninger forøvrig, under denne avtalen.
+                    </BodyLong>
+                </li>
+                <li>
+                    <BodyLong>
+                        Sørge for informasjon om deling av annonser som inneholder personopplysninger og overholde
+                        informasjonskravet i personopplysningsloven for øvrig.
+                    </BodyLong>
+                </li>
+                <li>
+                    <BodyLong>
+                        Sørge for begrensninger i lagringstiden til personopplysninger slik at personopplysninger
+                        slettes så snart personopplysningene ikke lenger er nødvendige for det opprinnelige formålet med
+                        behandlingen eller øvrige formål, og i henhold til informasjonen som er gitt til de registrerte
+                        om formål og lagringstider.
+                    </BodyLong>
+                </li>
+                <li>
+                    <BodyLong>
+                        Håndheve de registrertes rettigheter, inkludert men ikke begrenset til å besvare henvendelser
+                        fra de registrerte om innsyn og sletting i henhold til personopplysningsloven.
+                    </BodyLong>
+                </li>
+            </ol>
             <Heading size="large" level="2" spacing>
                 Slik får du tilgang
             </Heading>
-            <BodyLong spacing>
-                Mer informasjon om API-et og tilkobling finner du i{" "}
-                <AkselLink href="https://data.norge.no/dataservices/ed933ffe-a32c-38a2-9921-1fed86ad3173">
-                    Datatjenestebeskrivelse i Felles datakatalog.
-                </AkselLink>
-            </BodyLong>
+            <BodyLong spacing>Mer informasjon om API-et og tilkobling kommer snart.</BodyLong>
             <BodyLong className="mb-12">
                 Har du spørsmål kan du kontakte oss på e-post{" "}
                 <AkselLink href="mailto:nav.team.arbeidsplassen@nav.no">nav.team.arbeidsplassen@nav.no</AkselLink>.
-                Ønsker du å avslutte abonnementet, send en henvendelse til samme e-postadresse.
             </BodyLong>
-
-            <Heading size="large" level="2" spacing>
-                Personvern
-            </Heading>
-            <BodyLong spacing>
-                NAV er gjennom offentlighetsloven og digitaliseringsrundskrivet pålagt å gjøre offentlige data
-                tilgjengelig. I retningslinjene går det fram at man bør oppgi kontaktinformasjon.
-            </BodyLong>
-            <BodyLong>
-                For å kunne tilby tilgang som registrert bruker (alternativ 2) må vi lagre nødvendige personopplysninger
-                så lenge du/dere benytter tjenesten. Disse opplysningene trenger vi for å kunne komme i kontakt med deg
-                senere, for eksempel ved endringer eller driftsavbrudd. Kontaktinformasjonen din blir slettet når du
-                ikke lenger har tilgang som registrert bruker. For mer informasjon om personvern,{" "}
-                <AkselLink href="https://www.nav.no/personvernerklaering">se NAVs personvernerklæring.</AkselLink>
+            <BodyLong className="mb-24">
+                <AkselLink as={NextLink} href="/vilkar-api-gammel">
+                    Gamle vilkår for bruk av API for stillingsannonser på arbeidsplassen.no
+                </AkselLink>
             </BodyLong>
         </article>
     );
