@@ -1,7 +1,6 @@
 import { BodyLong, Heading, Link as AkselLink } from "@navikt/ds-react";
 import { ChevronLeftIcon } from "@navikt/aksel-icons";
 import NextLink from "next/link";
-import React from "react";
 
 export default function VilkarApi() {
     return (
