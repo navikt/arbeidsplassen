@@ -27,12 +27,11 @@ export default function NyttigeArtiklerForBedrifter() {
                         color="secondary"
                     />
                     <ImageLinkPanelLarge
-                        href="/mot-jobbsokere-pa-en-ny-mate"
-                        image="/images/jobbtreff.webp"
-                        alt="En person sitter ved et kjøkkenbord med datamaskin foran seg, hun har på hodetelefoner og er nok i gang med en videosamtale."
-                        title="Jobbtreff – møt jobbsøkere på en ny måte"
-                        description="Trenger dere nye medarbeidere? Nå kan du presentere bedriften din for interesserte
-                                    jobbsøkere i en direkte sending."
+                        image="/images/bedrift.jpg"
+                        alt="En mann sitter på et kontor og tar en annen i hånden"
+                        title="Superrask Søknad"
+                        description="En enklere måte å komme i kontakt med relevante jobbsøkere."
+                        href="/superrask-soknad-bedrift"
                         color="tertiary"
                     />
                     <ImageLinkPanelLarge

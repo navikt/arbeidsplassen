@@ -27,20 +27,12 @@ export default function NyttigeArtiklerForJobbsokere() {
                         color="secondary"
                     />
                     <ImageLinkPanelLarge
-                        href="mot-bedrifter-pa-en-ny-mate"
-                        image="/images/jobbtreff.webp"
-                        alt="En person sitter ved et kjøkkenbord med datamaskin foran seg, hun har på hodetelefoner og er nok i gang med en videosamtale."
-                        title="Jobbtreff – møt bedrifter på en ny måte"
-                        description="Følg en direkte sending der bedriften forteller om seg selv og hva slags stillinger du kan søke på."
-                        color="tertiary"
-                    />
-                    <ImageLinkPanelLarge
                         href="jobbe-i-utlandet"
                         image="/images/paris.jpg"
                         alt="Bilde av Eiffeltårnet"
                         title="Jobbe i utlandet?"
                         description="Den Europeiske Jobbmobilitetsportalen (EURES) er et tilbud til deg som ønsker å finne en jobb i EU-/EØS-området og Sveits."
-                        color="primary"
+                        color="tertiary"
                     />
                 </div>
             </div>
