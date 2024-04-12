@@ -10,6 +10,7 @@ const COMPANY_PATHS = [
     "/enklere-a-skrive-gode-kvalifikasjoner",
     "/hvordan-fa-tilgang",
     "/introduksjon-til-ny-side-for-annonser",
+    "/jobbtreff/bedrift",
     "/mot-jobbsokere-pa-en-ny-mate",
     "/nyttige-artikler-for-bedrifter",
     "/overforing-av-stillingsannonser",
