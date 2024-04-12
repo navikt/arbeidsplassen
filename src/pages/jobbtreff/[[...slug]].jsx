@@ -10,7 +10,7 @@ export const metadata = {
 
 export default function Page() {
     return (
-        <Layout variant="company">
+        <Layout>
             <Head>
                 <title>{metadata.title}</title>
                 <meta name="robots" content="noindex,nofollow" />
