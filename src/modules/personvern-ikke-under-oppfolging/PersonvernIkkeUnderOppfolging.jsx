@@ -145,14 +145,6 @@ export default function PersonvernIkkeUnderOppfolging() {
             </ul>
             <BodyLong spacing>Du kan når som helst endre eller slette opplysningene i din CV.</BodyLong>
 
-            <Heading size="medium" level="3" spacing>
-                Deltagelse på jobbtreff
-            </Heading>
-            <BodyLong className="mb-12">
-                Ingen data om din deltagelse på jobbtreff vil bli delt, hverken til andre deltagere, bedriften eller til
-                NAV. Vi lagrer ingen data om deg angående din deltagelse på jobbtreff.
-            </BodyLong>
-
             <Heading size="large" level="2" spacing id="goals">
                 Hvilke formål brukes personopplysningene til?
             </Heading>
