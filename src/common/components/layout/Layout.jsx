@@ -15,7 +15,6 @@ const COMPANY_PATHS = [
     "/overforing-av-stillingsannonser",
     "/personvern-arbeidsgiver",
     "/rekruttere-flyktninger",
-    "/retningslinjer-jobbtreff",
     "/retningslinjer-stillingsannonser",
     "/skikkelig-bra-stillingsannonse",
     "/slik-fungerer-superrask-soknad",
