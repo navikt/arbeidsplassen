@@ -32,7 +32,7 @@ const COMPANY_PATHS = [
     "/vilkar-superrask-soknad",
 ];
 
-export default function Layout({ children }) {
+export default function Layout({ children, variant }) {
     const { authenticationStatus, chooseRole, logout } = useContext(AuthenticationContext);
     const { pathname } = useRouter();
 
@@ -43,12 +43,13 @@ export default function Layout({ children }) {
         authStatus = "not-authenticated";
     }
 
+    const headerVariant = variant || COMPANY_PATHS.includes(pathname) ? "company" : "person";
     return (
         <>
             <div className="arb-push-footer-down">
                 <SkipLink href="#main-content" />
                 <Header
-                    variant={COMPANY_PATHS.includes(pathname) ? "company" : "person"}
+                    variant={headerVariant}
                     onLogin={chooseRole}
                     onLogout={logout}
                     authenticationStatus={authStatus}
