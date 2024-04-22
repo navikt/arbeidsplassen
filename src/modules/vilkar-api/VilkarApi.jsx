@@ -115,11 +115,6 @@ export default function VilkarApi() {
                 Har du spørsmål kan du kontakte oss på e-post{" "}
                 <AkselLink href="mailto:nav.team.arbeidsplassen@nav.no">nav.team.arbeidsplassen@nav.no</AkselLink>.
             </BodyLong>
-            <BodyLong className="mb-24">
-                <AkselLink as={NextLink} href="/vilkar-api-gammel">
-                    Gamle vilkår for bruk av API for stillingsannonser på arbeidsplassen.no
-                </AkselLink>
-            </BodyLong>
         </article>
     );
 }
