@@ -39,6 +39,13 @@ export default function VilkarOgRetningslinjer() {
                 <li>
                     <BodyLong>Personopplysninger om jobbsøkere, kan ikke brukes til markedsføring.</BodyLong>
                 </li>
+                <li>
+                    <BodyLong>
+                        Bruk av automatiserte tjenester (roboter, spidere, indeksering m.m.) samt andre fremgangsmåter
+                        for systematisk eller regelmessig kopi av innholdet på arbeidsplassen.no er ikke tillatt uten
+                        eksplisitt skriftlig samtykke fra NAV.
+                    </BodyLong>
+                </li>
             </ul>
 
             <Heading size="medium" level="3" spacing>
