@@ -16,6 +16,7 @@ import { useContext, useEffect } from "react";
 import { appWithTranslation } from "next-i18next";
 import setSentryUserProperties from "@/src/common/analysis/sentry";
 import interLocalFont from "next/font/local";
+import Axe from "@/src/common/analysis/Axe";
 
 const myFont = interLocalFont({
     variable: "--font-inter",
@@ -43,6 +44,7 @@ function TrackedApp({ children }) {
 function App({ Component, pageProps }) {
     return (
         <div className={myFont.className}>
+            <Axe />
             <AuthenticationProvider>
                 <TrackedApp>
                     <Component {...pageProps} />
