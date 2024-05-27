@@ -3,7 +3,7 @@ import { BodyLong, Heading, Link as AkselLink } from "@navikt/ds-react";
 export default function RekruttereFlyktninger() {
     return (
         <article className="container-small mt-5 mb-24">
-            <Heading size="large" level="2" spacing>
+            <Heading size="large" level="1" spacing>
                 Ønsker du å rekruttere flyktninger?
             </Heading>
             <BodyLong spacing>
