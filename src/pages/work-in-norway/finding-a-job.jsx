@@ -8,11 +8,12 @@ import NextLink from "next/link";
 
 export default function FindingAJob() {
     const { t } = useTranslation(["finding-a-job", "work-in-norway"]);
+    const translationTitle = `${t("finding-a-job-title", { ns: "work-in-norway" })} - arbeidsplassen.no`;
 
     return (
         <Layout>
             <Head>
-                <title>{t("finding-a-job-title", { ns: "work-in-norway" })} - arbeidsplassen.no</title>
+                <title>{translationTitle}</title>
             </Head>
             <div className="ukraine-page">
                 <div className="green-box container-large">
