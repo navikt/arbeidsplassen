@@ -122,19 +122,6 @@ export default function VilkarOgRetningslinjer() {
             </BodyLong>
 
             <Heading size="large" level="2" spacing>
-                Retningslinjer for innhold i jobbtreff
-            </Heading>
-            <BodyLong spacing>
-                Arbeidsgiver kan selv opprette et jobbtreff for å fortelle om sin ledige stilling i en direkte sending
-                mens deltagere kan se og høre på.
-            </BodyLong>
-            <BodyLong className="mb-12">
-                <AkselLink as={NextLink} href="/retningslinjer-jobbtreff">
-                    Retningslinjer for innhold i jobbtreff på arbeidsplassen.no
-                </AkselLink>
-            </BodyLong>
-
-            <Heading size="large" level="2" spacing>
                 Vilkår for bruk av API for stillingsannonser
             </Heading>
             <BodyLong spacing>
