@@ -20,7 +20,7 @@ export default function Page() {
                     Jobbtreff
                 </Heading>
                 <BodyLong>
-                    Tjenesten ble avsluttet 24. mai 2024, fordi bruken rett og slett var for lav til å forsvare videre
+                    Tjenesten ble avsluttet 13. juni 2024, fordi bruken rett og slett var for lav til å forsvare videre
                     drift. Vi forstår at dette kan være skuffende, men vi er mer engasjert enn noensinne i å utvikle og
                     forbedre våre tilbud til deg som ser etter nye medarbeidere.
                 </BodyLong>

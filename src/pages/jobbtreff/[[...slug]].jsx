@@ -20,7 +20,7 @@ export default function Page() {
                     Jobbtreff
                 </Heading>
                 <BodyLong>
-                    Tjenesten ble lagt ned 24. mai 2024, fordi bruken rett og slett var for liten til å forsvare videre
+                    Tjenesten ble lagt ned 13. juni 2024, fordi bruken rett og slett var for liten til å forsvare videre
                     drift. Vi forstår at dette kan være skuffende, men vi er mer engasjert enn noensinne for å forbedre
                     våre tilbud til deg som ser etter ny jobb.
                 </BodyLong>
