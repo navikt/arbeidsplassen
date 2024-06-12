@@ -86,8 +86,8 @@ export default function SuperraskSoknadPerson() {
                     .
                 </BodyLong>
                 <BodyLong spacing>
-                    Superrask søknad er en helt ny løsning på arbeidsplassen.no. Prøv det og gi oss gjerne en
-                    tilbakemelding på hvordan du synes det fungerte.
+                    Prøv superrask søknad på arbeidsplassen.no og gi oss gjerne en tilbakemelding på hvordan du synes
+                    det fungerte.
                 </BodyLong>
                 <BodyLong className="mb-12">Lykke til med jobbsøkingen!</BodyLong>
 

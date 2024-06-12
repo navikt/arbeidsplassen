@@ -39,6 +39,13 @@ export default function VilkarOgRetningslinjer() {
                 <li>
                     <BodyLong>Personopplysninger om jobbsøkere, kan ikke brukes til markedsføring.</BodyLong>
                 </li>
+                <li>
+                    <BodyLong>
+                        Bruk av automatiserte tjenester (roboter, spidere, indeksering m.m.) samt andre fremgangsmåter
+                        for systematisk eller regelmessig kopi av innholdet på arbeidsplassen.no er ikke tillatt uten
+                        eksplisitt skriftlig samtykke fra NAV.
+                    </BodyLong>
+                </li>
             </ul>
 
             <Heading size="medium" level="3" spacing>
@@ -111,19 +118,6 @@ export default function VilkarOgRetningslinjer() {
             <BodyLong className="mb-12">
                 <AkselLink as={NextLink} href="/vilkar-superrask-soknad">
                     Vilkår for bruk av superrask søknad på arbeidsplassen.no
-                </AkselLink>
-            </BodyLong>
-
-            <Heading size="large" level="2" spacing>
-                Retningslinjer for innhold i jobbtreff
-            </Heading>
-            <BodyLong spacing>
-                Arbeidsgiver kan selv opprette et jobbtreff for å fortelle om sin ledige stilling i en direkte sending
-                mens deltagere kan se og høre på.
-            </BodyLong>
-            <BodyLong className="mb-12">
-                <AkselLink as={NextLink} href="/retningslinjer-jobbtreff">
-                    Retningslinjer for innhold i jobbtreff på arbeidsplassen.no
                 </AkselLink>
             </BodyLong>
 

@@ -34,10 +34,12 @@ export default function WorkInNorway() {
         [switchToLocale],
     );
 
+    const translationTitle = `${t("ukrainian-work-in-norway-title")} - arbeidsplassen.no`;
+
     return (
         <Layout>
             <Head>
-                <title>{t("ukrainian-work-in-norway-title")} - arbeidsplassen.no</title>
+                <title>{translationTitle}</title>
             </Head>
             <article className="container-medium mt-5 mb-24 ukraine-page-main">
                 <Heading size="xlarge" level="1" spacing>

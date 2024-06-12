@@ -1,10 +1,10 @@
-import MotJobbsokerePaEnNyMate from "@/src/modules/mot-jobbsokere-pa-en-ny-mate/MotJobbsokerePaEnNyMate";
+import VilkarApiGammel from "@/src/modules/vilkar-api-gammel/VilkarApiGammel";
 import { getMetadataTitle } from "@/src/modules/layout";
 import Head from "next/head";
 import Layout from "@/src/common/components/layout/Layout";
 
 export const metadata = {
-    title: getMetadataTitle("Jobbtreff – møt jobbsøkere på en ny måte"),
+    title: getMetadataTitle("Gamle vilkår for bruk av API for stillingsannonser"),
 };
 
 export default function Page() {
@@ -13,7 +13,7 @@ export default function Page() {
             <Head>
                 <title>{metadata.title}</title>
             </Head>
-            <MotJobbsokerePaEnNyMate />
+            <VilkarApiGammel />
         </Layout>
     );
 }

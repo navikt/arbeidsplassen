@@ -75,28 +75,6 @@ export default function PersonvernArbeidsgiver() {
                 ansettelse.
             </BodyLong>
 
-            <Heading size="medium" level="3" spacing>
-                Beskrivelse av jobbtreff
-            </Heading>
-            <BodyLong spacing>
-                Personopplysninger som er oppgitt i forbindelse med beskrivelsen av et jobbtreff. Personopplysningene
-                vil typisk være navn, telefonnummer, e-post og stillingstittel.
-            </BodyLong>
-
-            <Heading size="medium" level="3" spacing>
-                Video ved bruk av jobbtreff
-            </Heading>
-            <BodyLong spacing>
-                IP- adresse til arbeidsgivers representanter behandles når jobbtreffet avholdes i Pexip videoløsning.
-                Her samles også informasjon om navn på jobbtreffet og hvor lenge det har vart.
-            </BodyLong>
-            <BodyLong className="mb-12">
-                Videofremvisning hvor representant for arbeidsgiver presenterer bedrift/stilling. Denne
-                personinformasjonen kan være muntlig og skriftlig og er typisk kontaktinformasjon til personer i
-                bedriften ved spørsmål om stillingen eller søknad. Videoene strømmes kun i forbindelse med videotreffet
-                og lagres ikke i etterkant av jobbtreffet.
-            </BodyLong>
-
             <Heading className="mb-8" size="large" level="2" id="goals">
                 Hvilke formål brukes personopplysningene til?
             </Heading>
@@ -127,17 +105,6 @@ export default function PersonvernArbeidsgiver() {
             <BodyLong spacing>
                 Stillingsannonser som er offentlig utlyst på arbeidsplassen.no er underlagt arkivplikt etter arkivloven
                 §6 og ivaretas for ettertiden.
-            </BodyLong>
-            <BodyLong spacing>
-                Beskrivelse av jobbtreff, og tilhørende kontaktinformasjon, lagres i inntil ett år etter at det er
-                avholdt. Jobbtreffet kan når som helst slettes av den enkelte arbeidsgiver.
-            </BodyLong>
-            <BodyLong spacing>
-                Lagring av IP-adresse, navn og lengde på jobbtreffet lagres i Pexip videoløsning i opptil tre måneder
-                etter jobbtreffdato. Deretter blir de slettet.
-            </BodyLong>
-            <BodyLong className="mb-12">
-                Videopresentasjonen ved bruk av jobbtreff lagres ikke i etterkant av jobbtreffet.
             </BodyLong>
 
             <Heading size="large" level="2" spacing id="legal">
@@ -174,10 +141,10 @@ export default function PersonvernArbeidsgiver() {
                 Brukere av arbeidsplassen.no
             </Heading>
             <BodyLong spacing>
-                Stillingsannonser og jobbtreff er åpent tilgjengelig for alle brukere av arbeidsplassen.no dersom det
-                publiseres offentlig. Upubliserte opplysninger, slik som utkast til stillingsannonser og jobbtreff, er
-                kun tilgjengelig for de med tilgang i din virksomhet. Inaktive annonser er ikke synlige i søk,
-                fortsetter å være tilgjengelige gjennom URL-lenker i en periode før de gjøres utilgjengelige.
+                Stillingsannonser er åpent tilgjengelig for alle brukere av arbeidsplassen.no dersom det publiseres
+                offentlig. Upubliserte opplysninger, slik som utkast til stillingsannonser, er kun tilgjengelig for de
+                med tilgang i din virksomhet. Inaktive annonser er ikke synlige i søk, fortsetter å være tilgjengelige
+                gjennom URL-lenker i en periode før de gjøres utilgjengelige.
             </BodyLong>
 
             <Heading size="medium" level="3" spacing>

@@ -7,11 +7,12 @@ import TableOfContents from "@/src/common/components/TableOfContents";
 
 export default function StartingANewJob() {
     const { t } = useTranslation(["starting-a-new-job", "work-in-norway"]);
+    const translationTitle = `${t("starting-a-new-job-title", { ns: "work-in-norway" })} - arbeidsplassen.no`;
 
     return (
         <Layout>
             <Head>
-                <title>{t("starting-a-new-job-title", { ns: "work-in-norway" })} - arbeidsplassen.no</title>
+                <title>{translationTitle}</title>
             </Head>
             <div className="ukraine-page">
                 <div className="green-box container-large">
@@ -28,24 +29,28 @@ export default function StartingANewJob() {
                         <Heading id="start-working" size="large" level="2" spacing>
                             {t("h2-start-working")}
                         </Heading>
-
                         <Heading size="small" level="3" spacing>
                             {t("h3-bank-account.title")} (bankkonto)
                         </Heading>
                         <BodyLong spacing>{t("h3-bank-account.p1")}</BodyLong>
+                        <BodyLong spacing>
+                            <AkselLink
+                                href="https://www.finansnorge.no/tema/ny-i-norge/artikkel-bli-bankkunde-i-norge/"
+                                hrefLang="no"
+                            >
+                                {t("h3-bank-account.a")}
+                            </AkselLink>
+                        </BodyLong>
                         <BodyLong spacing>{t("h3-bank-account.p2")}</BodyLong>
-
                         <Heading size="small" level="3" spacing>
                             {t("h3-tax.title")} (skattekort)
                         </Heading>
                         <BodyLong spacing>{t("h3-tax.p1")}</BodyLong>
                         <BodyLong spacing>{t("h3-tax.p2")}</BodyLong>
-
                         <Heading size="small" level="3" spacing>
                             {t("h3-contract.title")} (arbeidskontrakt)
                         </Heading>
                         <BodyLong spacing>{t("h3-contract.p")}</BodyLong>
-
                         <Heading size="small" level="3" spacing>
                             {t("h3-news-articles", { ns: "work-in-norway" })}
                         </Heading>
@@ -78,7 +83,6 @@ export default function StartingANewJob() {
                                 </LinkPanel.Title>
                             </LinkPanel>
                         </div>
-
                         <Heading id="rights" size="large" level="2" spacing>
                             {t("h2-rights.title")}
                         </Heading>
@@ -104,7 +108,6 @@ export default function StartingANewJob() {
                         >
                             {t("h2-rights.link-title")}
                         </AkselLink>
-
                         <Heading size="small" level="3" spacing>
                             {t("h3-news-articles", { ns: "work-in-norway" })}
                         </Heading>
@@ -115,13 +118,11 @@ export default function StartingANewJob() {
                                 </LinkPanel.Title>
                             </LinkPanel>
                         </div>
-
                         <Heading id="sick-leave" size="large" level="2" spacing>
                             {t("h2-sick-leave.title")}
                         </Heading>
                         <BodyLong spacing>{t("h2-sick-leave.p1")}</BodyLong>
                         <BodyLong spacing>{t("h2-sick-leave.p2")} </BodyLong>
-
                         <Heading size="small" level="3" spacing>
                             {t("h3-news-articles", { ns: "work-in-norway" })}
                         </Heading>
@@ -136,7 +137,6 @@ export default function StartingANewJob() {
                                 </LinkPanel.Title>
                             </LinkPanel>
                         </div>
-
                         <Heading id="establish-business" size="large" level="2" spacing>
                             {t("h2-establish-business.title")}
                         </Heading>
@@ -152,7 +152,6 @@ export default function StartingANewJob() {
                             </AkselLink>{" "}
                             {t("h2-establish-business.p2")}
                         </BodyLong>
-
                         <Heading size="small" level="3" spacing>
                             {t("h3-news-articles", { ns: "work-in-norway" })}
                         </Heading>
@@ -167,12 +166,10 @@ export default function StartingANewJob() {
                                 </LinkPanel.Title>
                             </LinkPanel>
                         </div>
-
                         <Heading id="work-intro-prog" size="large" level="2" spacing>
                             {t("h2-work-intro-prog.title")}
                         </Heading>
                         <BodyLong spacing>{t("h2-work-intro-prog.p")}</BodyLong>
-
                         <Heading size="small" level="3" spacing>
                             {t("h3-news-articles", { ns: "work-in-norway" })}
                         </Heading>
