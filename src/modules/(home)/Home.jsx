@@ -1,4 +1,4 @@
-import { Bleed, BodyLong, Box, Button, Heading, HStack, LinkPanel, Show } from "@navikt/ds-react";
+import { Bleed, BodyLong, Box, Button, Heading, HStack, Show } from "@navikt/ds-react";
 import { FiguresSideBySide } from "@navikt/arbeidsplassen-react";
 import InformationUkraine from "@/src/modules/(home)/InformationUkraine";
 import ImageLinkPanelSmall from "@/src/common/components/ImageLinkPanelSmall";
@@ -30,25 +30,6 @@ export default function Home() {
                 </Show>
             </HStack>
 
-            <div className="arb-link-panel-grid mb-12">
-                <LinkPanel className="arb-link-panel-tertiary" href="/jobbtreff">
-                    <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
-                        Vis kommende jobbtreff
-                    </LinkPanel.Title>
-                    <LinkPanel.Description className="navds-link-panel__description navds-body-long">
-                        Følg en direkte sending fra en bedrift og hør om deres stillinger.
-                    </LinkPanel.Description>
-                </LinkPanel>
-                <LinkPanel className="arb-link-panel-secondary" href="/cv">
-                    <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
-                        Skriv din CV
-                    </LinkPanel.Title>
-                    <LinkPanel.Description className="navds-link-panel__description navds-body-long">
-                        Fyll ut din CV og bruk den ved jobbsøking.
-                    </LinkPanel.Description>
-                </LinkPanel>
-            </div>
-
             <ImageBannerLinkPanel
                 href="/sommerjobb-jobbsoker"
                 image="/images/woman-portrait-gardening.jpg"
@@ -77,11 +58,11 @@ export default function Home() {
                     color="primary"
                 />
                 <ImageLinkPanelSmall
-                    href="mot-bedrifter-pa-en-ny-mate"
-                    image="/images/jobbtreff.webp"
-                    alt="En person sitter ved et kjøkkenbord med datamaskin foran seg, hun har på hodetelefoner og er nok i gang med en videosamtale."
-                    title="Jobbtreff – møt nye bedrifter på en ny måte"
-                    description="Følg en direkte sending der bedriften forteller om seg selv og hva slags stillinger du kan søke på."
+                    href="jobbe-i-utlandet"
+                    image="/images/paris.jpg"
+                    alt="Bilde av Eiffeltårnet"
+                    title="Jobbe i utlandet?"
+                    description="Den Europeiske Jobbmobilitetsportalen (EURES) er et tilbud til deg som ønsker å finne en jobb i EU-/EØS-området og Sveits."
                     color="secondary"
                 />
                 <ImageLinkPanelSmall

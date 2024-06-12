@@ -117,12 +117,12 @@ export default function OverforingAvStillingsannonser() {
                         color="secondary"
                     />
                     <ImageLinkPanelMedium
-                        image="/images/jobbtreff.webp"
-                        alt="En person sitter ved et kjøkkenbord med datamaskin foran seg, hun har på hodetelefoner og er nok i gang med en videosamtale."
-                        title="Jobbtreff – møt jobbsøkere på en ny måte"
-                        description="Trenger dere nye medarbeidere? Nå kan du presentere bedriften din for interesserte
-                                    jobbsøkere i en direkte sending."
-                        href="/mot-jobbsokere-pa-en-ny-mate"
+                        image="/images/stillingsannonse.jpg"
+                        alt="Person som skriver på en skrivemaskin"
+                        title="Skikkelig bra stillingsannonse"
+                        description="Hva ser jobbsøkere etter når de leser en stillingsannonse? Hva bør du tenke på når
+                                    du skriver annonsen?"
+                        href="/skikkelig-bra-stillingsannonse"
                         color="tertiary"
                     />
                 </div>

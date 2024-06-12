@@ -2,9 +2,8 @@ import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
-import { BodyLong, BodyShort, Heading, LinkPanel, Link as AkselLink } from "@navikt/ds-react";
+import { BodyLong, BodyShort, Heading, Link as AkselLink, LinkPanel } from "@navikt/ds-react";
 import TableOfContents from "@/src/common/components/TableOfContents";
-import NextLink from "next/link";
 
 export default function FindingAJob() {
     const { t } = useTranslation(["finding-a-job", "work-in-norway"]);
@@ -68,17 +67,6 @@ export default function FindingAJob() {
                                 {t("h2-find-job.p1-link-text")}
                             </AkselLink>
                         </BodyLong>
-                        <BodyLong spacing>
-                            {t("h2-find-job.p2")}{" "}
-                            <AkselLink as={NextLink} href="/mot-bedrifter-pa-en-ny-mate" locale="no" hrefLang="no">
-                                {t("h2-find-job.p2-link-text-1")}
-                            </AkselLink>{" "}
-                            {t("h2-find-job.p2-2")}{" "}
-                            <AkselLink href="/jobbtreff" hrefLang="no">
-                                {t("h2-find-job.p2-link-text-2")}
-                            </AkselLink>{" "}
-                            {t("h2-find-job.p2-3")}
-                        </BodyLong>
 
                         <Heading size="small" level="3" spacing>
                             {t("h3-news-articles", { ns: "work-in-norway" })}
@@ -87,15 +75,6 @@ export default function FindingAJob() {
                             <LinkPanel className="arb-link-panel-tertiary" href="/stillinger?q=english" hrefLang="no">
                                 <LinkPanel.Title className="navds-heading--small">
                                     {t("2-link-panels.1-title")}
-                                </LinkPanel.Title>
-                            </LinkPanel>
-                            <LinkPanel
-                                className="arb-link-panel-tertiary"
-                                href="/mot-bedrifter-pa-en-ny-mate"
-                                hrefLang="no"
-                            >
-                                <LinkPanel.Title className="navds-heading--small">
-                                    {t("2-link-panels.2-title")}
                                 </LinkPanel.Title>
                             </LinkPanel>
                         </div>

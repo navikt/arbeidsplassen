@@ -126,11 +126,11 @@ export default function TipsTilJobbsoknaden() {
                 </Heading>
                 <div className="image-link-panel-grid-medium">
                     <ImageLinkPanelMedium
-                        image="/images/jobbtreff.webp"
-                        alt="En person sitter ved et kjøkkenbord med datamaskin foran seg, hun har på hodetelefoner og er nok i gang med en videosamtale."
-                        title="Jobbtreff – møt bedrifter på en ny måte"
-                        description="Følg en direkte sending der bedriften forteller om seg selv og hva slags stillinger du kan søke på."
-                        href="/mot-bedrifter-pa-en-ny-mate"
+                        href="/superrask-soknad-person"
+                        image="/images/jobbsoker.jpg"
+                        alt="En person som skriver på mobilen sin."
+                        title="Superrask søknad"
+                        description="En enklere måte å komme i kontakt med bedrifter."
                         color="secondary"
                     />
                     <ImageLinkPanelMedium
