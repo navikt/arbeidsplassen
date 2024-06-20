@@ -17,11 +17,13 @@ updates:
     ignore:
       - dependency-name: "*"
         update-types: ["version-update:semver-minor", "version-update:semver-patch"]
+      - dependency-name: "@navikt/*"
+        update-types: []  # This ensures @navikt dependencies are not ignored
     groups:
       other-dependencies:
         patterns:
           - '*'
-        update-types: major
+        update-types: ["version-update:semver-major"]
       aksel-dependencies:
         patterns:
           - '@navikt/aksel*'
