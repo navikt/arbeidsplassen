@@ -23,7 +23,7 @@ updates:
       other-dependencies:
         patterns:
           - '*'
-        update-types: major
+        update-types: ["version-update:semver-major"]
       aksel-dependencies:
         patterns:
           - '@navikt/aksel*'
