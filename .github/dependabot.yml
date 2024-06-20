@@ -14,13 +14,12 @@ updates:
       time: '03:00'
     registries:
       - npm-github
+    allow:
+      - dependency-name: "@navikt/*"
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-minor", "version-update:semver-patch"]
     groups:
-      other-dependencies:
-        patterns:
-          - '*'
-        exclude-patterns:
-          - '@navikt/*'
-        update-types: ["version-update:semver-major"]
       aksel-dependencies:
         patterns:
           - '@navikt/aksel*'
