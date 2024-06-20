@@ -65,7 +65,8 @@ export default function FindingAJob() {
                             {t("h2-find-job.p1")}{" "}
                             <AkselLink hrefLang="no" href="/stillinger?workLanguage=Engelsk&v=2">
                                 {t("h2-find-job.p1-link-text")}
-                            </AkselLink>
+                            </AkselLink>{" "}
+                            {t("h2-find-job.p1-after-link")}
                         </BodyLong>
 
                         <Heading size="small" level="3" spacing>
