@@ -110,7 +110,8 @@ export default function VilkarApi() {
             <Heading size="large" level="2" spacing>
                 Slik får du tilgang
             </Heading>
-            <BodyLong spacing>Mer informasjon om API-et og tilkobling finner du i{" "}
+            <BodyLong spacing>
+                Mer informasjon om API-et og tilkobling finner du i{" "}
                 <AkselLink href="https://data.norge.no/datasets/62409bc8-680d-3f70-98bf-d2f2beebaa50">
                     Datasettbeskrivelse i Felles datakatalog.
                 </AkselLink>
