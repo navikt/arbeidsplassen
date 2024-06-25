@@ -63,16 +63,21 @@ export default function FindingAJob() {
                         </Heading>
                         <BodyLong spacing>
                             {t("h2-find-job.p1")}{" "}
-                            <AkselLink hrefLang="no" href="/stillinger?q=english">
+                            <AkselLink hrefLang="no" href="/stillinger?workLanguage=Engelsk&v=2">
                                 {t("h2-find-job.p1-link-text")}
-                            </AkselLink>
+                            </AkselLink>{" "}
+                            {t("h2-find-job.p1-after-link")}
                         </BodyLong>
 
                         <Heading size="small" level="3" spacing>
                             {t("h3-news-articles", { ns: "work-in-norway" })}
                         </Heading>
                         <div className="article-link-panel-container mb-12">
-                            <LinkPanel className="arb-link-panel-tertiary" href="/stillinger?q=english" hrefLang="no">
+                            <LinkPanel
+                                className="arb-link-panel-tertiary"
+                                href="/stillinger?workLanguage=Engelsk&v=2"
+                                hrefLang="no"
+                            >
                                 <LinkPanel.Title className="navds-heading--small">
                                     {t("2-link-panels.1-title")}
                                 </LinkPanel.Title>
@@ -141,7 +146,7 @@ export default function FindingAJob() {
                         </Heading>
                         <BodyLong spacing>
                             {t("h2-working-wo-norwegian.p1")}{" "}
-                            <AkselLink href="/stillinger?q=english">
+                            <AkselLink href="/stillinger?workLanguage=Engelsk&v=2">
                                 {t("h2-working-wo-norwegian.p-link-text")}
                             </AkselLink>{" "}
                             {t("h2-working-wo-norwegian.p1-2")}

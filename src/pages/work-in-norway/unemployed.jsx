@@ -55,7 +55,11 @@ export default function Unemployed() {
                             {t("h3-news-articles", { ns: "work-in-norway" })}
                         </Heading>
                         <div className="article-link-panel-container mb-12">
-                            <LinkPanel className="arb-link-panel-tertiary" href="/stillinger?q=english" hrefLang="no">
+                            <LinkPanel
+                                className="arb-link-panel-tertiary"
+                                href="/stillinger?workLanguage=Engelsk&v=2"
+                                hrefLang="no"
+                            >
                                 <LinkPanel.Title className="navds-heading--small">
                                     {t("1-link-panels.1-title")}
                                 </LinkPanel.Title>
