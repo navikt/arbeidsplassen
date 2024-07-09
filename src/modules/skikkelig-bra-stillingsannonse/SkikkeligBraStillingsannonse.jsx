@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function SkikkeligBraStillingsannonse() {
     return (
         <article>
-            <div className="container-small mt-5 mb-24">
+            <div className="container-small mt-5 mb-12">
                 <Heading size="xlarge" level="1" spacing>
                     Hvordan skriver du en skikkelig bra stillingsannonse?
                 </Heading>
