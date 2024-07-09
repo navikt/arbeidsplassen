@@ -5,7 +5,7 @@ export default function NyttigeArtiklerForJobbsokere() {
     return (
         <div className="container-medium mt-5 mb-24">
             <div className="article-page">
-                <Heading className="mb-16 text-center" size="xlarge" level="1">
+                <Heading className="mb-12 text-center" size="xlarge" level="1">
                     Nyttige artikler for jobbsøkere
                 </Heading>
 

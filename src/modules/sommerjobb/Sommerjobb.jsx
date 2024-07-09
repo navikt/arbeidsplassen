@@ -5,7 +5,7 @@ import React from "react";
 export default function Sommerjobb() {
     return (
         <article>
-            <div className="container-small mt-5 mb-24">
+            <div className="container-small mt-5 mb-12">
                 <Heading size="xlarge" level="1" spacing>
                     Gi ungdom en sjanse – lys ut sommerjobber
                 </Heading>
