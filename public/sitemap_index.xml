@@ -6,4 +6,7 @@
     <sitemap>
         <loc>https://arbeidsplassen.nav.no/stillinger/sitemap.xml</loc>
     </sitemap>
+    <sitemap>
+        <loc>https://arbeidsplassen.nav.no/jobbtreff/sitemap.xml</loc>
+    </sitemap>
 </sitemapindex>

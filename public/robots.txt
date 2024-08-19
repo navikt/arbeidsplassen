@@ -1,4 +1,6 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://arbeidsplassen.nav.no/sitemap_index.xml
+Sitemap: https://arbeidsplassen.nav.no/sitemap.xml
+Sitemap: https://arbeidsplassen.nav.no/stillinger/sitemap.xml
+Sitemap: https://arbeidsplassen.nav.no/jobbtreff/sitemap.xml
