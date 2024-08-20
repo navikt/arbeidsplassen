@@ -12,6 +12,10 @@ body {
     font-variation-settings: "opsz" 14;
 }
 
+body:has(.overflow-x-hidden) {
+    overflow-x: hidden;
+}
+
 input,
 dialog,
 select,

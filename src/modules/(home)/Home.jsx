@@ -30,7 +30,7 @@ export default function Home() {
             </HStack>
 
             <div className="mb-12">
-                <Bleed marginInline="full" asChild>
+                <Bleed marginInline="full" className="overflow-x-hidden">
                     <Box background="surface-alt-3-moderate" padding={{ xs: "6", md: "4" }}>
                         <InformationUkraine />
                     </Box>
