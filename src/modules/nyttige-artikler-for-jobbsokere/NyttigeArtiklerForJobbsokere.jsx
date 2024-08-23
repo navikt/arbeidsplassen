@@ -34,6 +34,14 @@ export default function NyttigeArtiklerForJobbsokere() {
                         description="Den Europeiske Jobbmobilitetsportalen (EURES) er et tilbud til deg som ønsker å finne en jobb i EU-/EØS-området og Sveits."
                         color="tertiary"
                     />
+                    <ImageLinkPanelLarge
+                        image="/images/jobbtreff.jpg"
+                        alt="Bilde av person med laptop"
+                        title="Enklere å finne jobber som kan passe"
+                        description="Vi bruker kunstig intelligens til å plassere annonsen i den kategorien som den (mest sannsynlig) hører hjemme i."
+                        href="/nye-filtre"
+                        color="primary"
+                    />
                 </div>
             </div>
         </div>

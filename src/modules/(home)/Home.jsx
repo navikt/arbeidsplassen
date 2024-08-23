@@ -29,15 +29,7 @@ export default function Home() {
                 </Show>
             </HStack>
 
-            <div className="mb-12">
-                <Bleed marginInline="full" className="overflow-x-hidden">
-                    <Box background="surface-alt-3-moderate" padding={{ xs: "6", md: "4" }}>
-                        <InformationUkraine />
-                    </Box>
-                </Bleed>
-            </div>
-
-            <div className="image-link-panel-grid-small mb-24">
+            <div className="image-link-panel-grid-small mb-12">
                 <ImageLinkPanelSmall
                     href="/superrask-soknad-person"
                     image="/images/jobbsoker.jpg"
@@ -55,13 +47,21 @@ export default function Home() {
                     color="secondary"
                 />
                 <ImageLinkPanelSmall
-                    image="/images/students.jpg"
-                    alt="3 blide studenter som sitter med mobil og pc og snakker sammen utenfor skolen"
-                    title="Tips til jobbsøknaden"
-                    description="Les våre tips om hvordan skrive søknaden slik at en arbeidsgiver får lyst til å møte akkurat deg."
-                    href="/tips-til-jobbsoknaden"
+                    image="/images/jobbtreff.jpg"
+                    alt="Bilde av person med laptop"
+                    title="Enklere å finne jobber som kan passe"
+                    description="Vi bruker kunstig intelligens til å plassere annonsen i den kategorien som den (mest sannsynlig) hører hjemme i."
+                    href="/nye-filtre"
                     color="tertiary"
                 />
+            </div>
+
+            <div className="24">
+                <Bleed marginInline="full" className="overflow-x-hidden">
+                    <Box background="surface-alt-3-moderate" padding={{ xs: "6", md: "4" }}>
+                        <InformationUkraine />
+                    </Box>
+                </Bleed>
             </div>
         </div>
     );
