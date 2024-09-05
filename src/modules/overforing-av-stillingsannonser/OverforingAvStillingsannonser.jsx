@@ -34,10 +34,7 @@ export default function OverforingAvStillingsannonser() {
                         <BodyLong>Gratis: Annonsering på arbeidsplassen.no er gratis for alle arbeidsgivere</BodyLong>
                     </li>
                     <li>
-                        <BodyLong>
-                            Statistikk: Få kunnskap om antall visninger og antall som går videre fra annonsen på
-                            arbeidsplassen.no
-                        </BodyLong>
+                        <BodyLong>Statistikk: Få kunnskap om antall sidevisninger på din annonse</BodyLong>
                     </li>
                     <li>
                         <BodyLong>

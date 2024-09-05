@@ -229,8 +229,8 @@ export default function NyttSok() {
                         title="Ting du kan gjøre med et lagret søk"
                         headingTag="span"
                     >
-                        <List.Item>Raskt gå tilbake til tidligere søk</List.Item>
-                        <List.Item>Få e-postvarsler om nye jobber som matcher søket ditt</List.Item>
+                        <List.Item>Raskt gå tilbake til tidligere søk.</List.Item>
+                        <List.Item>Få e-postvarsler om nye jobber som matcher søket ditt.</List.Item>
                     </List>
 
                     <Heading size="small" level="4" className="mb-5">
@@ -242,9 +242,9 @@ export default function NyttSok() {
                         title="Slik lagrer du søkene dine"
                         headingTag="span"
                     >
-                        <List.Item>Utfør et søk med fritekst og filtre</List.Item>
-                        <List.Item>Klikk på "Lagre søk" under søkefeltet</List.Item>
-                        <List.Item>Gi søket et navn og velg om du vil ha e-postvarsler</List.Item>
+                        <List.Item>Utfør et søk med fritekst og filtre.</List.Item>
+                        <List.Item>Klikk på "Lagre søk" under søkefeltet.</List.Item>
+                        <List.Item>Gi søket et navn og velg om du vil ha e-postvarsler.</List.Item>
                     </List>
                     <BodyLong>
                         <strong>Tips:</strong> Du kan lagre flere søk for ulike jobbtyper eller steder du er interessert
