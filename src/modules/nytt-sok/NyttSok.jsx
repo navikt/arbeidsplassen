@@ -272,6 +272,7 @@ export default function NyttSok() {
                                 </Heading>
                             </Accordion.Header>
                             <Accordion.Content>
+                                <BodyLong className="mb-5">Filtrer basert på når annonsen ble lagt ut.</BodyLong>
                                 <List
                                     as="ul"
                                     className="ul-hidden-heading"
