@@ -159,3 +159,8 @@
         grid-gap: 2rem;
     }
 }
+
+/* stylelint-disable-next-line selector-class-pattern */
+.nytt-sok-article .navds-list .navds-list__item-marker--bullet {
+    height: var(--a-font-line-height-large);
+}

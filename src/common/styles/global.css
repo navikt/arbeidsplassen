@@ -38,3 +38,35 @@ button {
 .flex-3 {
     flex: 3;
 }
+
+.visually-hidden,
+.ul-hidden-heading .navds-heading {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.non-interactive-chip {
+    background: var(--a-surface-action-selected, #024b62);
+    color: var(--a-text-on-action);
+    cursor: default;
+}
+
+.inline-block-list ul {
+    list-style-type: none;
+}
+
+/* stylelint-disable-next-line selector-class-pattern */
+.inline-block-list li.navds-list__item {
+    display: inline-block;
+    margin-right: 8px;
+}
+
+/* stylelint-disable-next-line selector-class-pattern */
+.inline-block-list .navds-list__item-marker--bullet {
+    display: none;
+}
