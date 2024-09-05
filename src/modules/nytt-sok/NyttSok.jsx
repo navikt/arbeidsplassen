@@ -229,8 +229,8 @@ export default function NyttSok() {
                         title="Ting du kan gjøre med et lagret søk"
                         headingTag="span"
                     >
-                        <List.Item>Raskt gå tilbake til tidligere søk</List.Item>
-                        <List.Item>Få e-postvarsler om nye jobber som matcher søket ditt</List.Item>
+                        <List.Item>Raskt gå tilbake til tidligere søk.</List.Item>
+                        <List.Item>Få e-postvarsler om nye jobber som matcher søket ditt.</List.Item>
                     </List>
 
                     <Heading size="small" level="4" className="mb-5">
@@ -242,9 +242,9 @@ export default function NyttSok() {
                         title="Slik lagrer du søkene dine"
                         headingTag="span"
                     >
-                        <List.Item>Utfør et søk med fritekst og filtre</List.Item>
-                        <List.Item>Klikk på "Lagre søk" under søkefeltet</List.Item>
-                        <List.Item>Gi søket et navn og velg om du vil ha e-postvarsler</List.Item>
+                        <List.Item>Utfør et søk med fritekst og filtre.</List.Item>
+                        <List.Item>Klikk på "Lagre søk" under søkefeltet.</List.Item>
+                        <List.Item>Gi søket et navn og velg om du vil ha e-postvarsler.</List.Item>
                     </List>
                     <BodyLong>
                         <strong>Tips:</strong> Du kan lagre flere søk for ulike jobbtyper eller steder du er interessert
@@ -257,10 +257,10 @@ export default function NyttSok() {
                     </Heading>
                     <BodyLong className="mb-5">Vi har lansert fire nye filtre:</BodyLong>
                     <List as="ul" className="mb-5 ul-hidden-heading" title="Nye søkefiltre" headingTag="span">
-                        <List.Item>Reisevei</List.Item>
-                        <List.Item>Utdanningsnivå</List.Item>
-                        <List.Item>Erfaring</List.Item>
-                        <List.Item>Førerkort</List.Item>
+                        <List.Item>reisevei</List.Item>
+                        <List.Item>utdanningsnivå</List.Item>
+                        <List.Item>erfaring</List.Item>
+                        <List.Item>førerkort</List.Item>
                     </List>
                     <BodyLong className="mb-5">Les mer om våre fitre:</BodyLong>
 
@@ -272,16 +272,16 @@ export default function NyttSok() {
                                 </Heading>
                             </Accordion.Header>
                             <Accordion.Content>
-                                <BodyLong className="mb-5">Vi har lansert fire nye filtre:</BodyLong>
+                                <BodyLong className="mb-5">Filtrer basert på når annonsen ble lagt ut.</BodyLong>
                                 <List
                                     as="ul"
                                     className="ul-hidden-heading"
                                     title="Nye filtre med publiseringsdato"
                                     headingTag="span"
                                 >
-                                    <List.Item>Nye i dag</List.Item>
-                                    <List.Item>Nye siste 3 døgn</List.Item>
-                                    <List.Item>Nye siste uka</List.Item>
+                                    <List.Item>nye i dag</List.Item>
+                                    <List.Item>nye siste 3 døgn</List.Item>
+                                    <List.Item>nye siste uka</List.Item>
                                 </List>
                             </Accordion.Content>
                         </Accordion.Item>
@@ -293,7 +293,18 @@ export default function NyttSok() {
                                 </Heading>
                             </Accordion.Header>
                             <Accordion.Content>
-                                <BodyLong>Filtrer på reisevei, fylke, kommune eller utenfor Norge.</BodyLong>
+                                <Heading level="4" size="small" className="mb-5">
+                                    Reisevei
+                                </Heading>
+                                <BodyLong className="mb-5">
+                                    Filtrer jobber basert på maksimal reiseavstand fra sted eller postnummer.
+                                </BodyLong>
+                                <Heading level="4" size="small" className="mb-5">
+                                    Sted
+                                </Heading>
+                                <BodyLong className="mb-5">
+                                    Søk jobber i ett eller flere fylker, kommuner eller utenfor Norge.
+                                </BodyLong>
                             </Accordion.Content>
                         </Accordion.Item>
 
@@ -332,13 +343,13 @@ export default function NyttSok() {
                                     title="Filtre basert på utdanningsnivå"
                                     headingTag="span"
                                 >
-                                    <List.Item>Ingen krav til utdanning</List.Item>
-                                    <List.Item>Videregående skole</List.Item>
-                                    <List.Item>Fag- eller svennebrev</List.Item>
-                                    <List.Item>Fagskole eller tilsvarende</List.Item>
-                                    <List.Item>Bachelor eller tilsvarende</List.Item>
-                                    <List.Item>Master eller tilsvarende</List.Item>
-                                    <List.Item>Forskningsgrad</List.Item>
+                                    <List.Item>ingen krav til utdanning</List.Item>
+                                    <List.Item>videregående skole</List.Item>
+                                    <List.Item>fag- eller svennebrev</List.Item>
+                                    <List.Item>fagskole eller tilsvarende</List.Item>
+                                    <List.Item>bachelor eller tilsvarende</List.Item>
+                                    <List.Item>master eller tilsvarende</List.Item>
+                                    <List.Item>forskningsgrad</List.Item>
                                 </List>
                                 <Heading level="4" size="small" className="mb-5">
                                     Erfaring
@@ -350,9 +361,9 @@ export default function NyttSok() {
                                     title="Filtre basert på erfaring"
                                     headingTag="span"
                                 >
-                                    <List.Item>Ingen krav til arbeidserfaring</List.Item>
-                                    <List.Item>Noe arbeidserfaring (1-3 år)</List.Item>
-                                    <List.Item>Mye arbeidserfaring (4+ år)</List.Item>
+                                    <List.Item>ingen krav til arbeidserfaring</List.Item>
+                                    <List.Item>noe arbeidserfaring (1-3 år)</List.Item>
+                                    <List.Item>mye arbeidserfaring (4+ år)</List.Item>
                                 </List>
                                 <Heading level="4" size="small" className="mb-5">
                                     Førerkort
@@ -378,10 +389,10 @@ export default function NyttSok() {
                                     title="Filtre basert på arbeidsspråk"
                                     headingTag="span"
                                 >
-                                    <List.Item>Norsk</List.Item>
-                                    <List.Item>Engelsk</List.Item>
-                                    <List.Item>Skandinavisk</List.Item>
-                                    <List.Item>Samisk</List.Item>
+                                    <List.Item>norsk</List.Item>
+                                    <List.Item>engelsk</List.Item>
+                                    <List.Item>skandinavisk</List.Item>
+                                    <List.Item>samisk</List.Item>
                                 </List>
                             </Accordion.Content>
                         </Accordion.Item>
@@ -409,15 +420,15 @@ export default function NyttSok() {
                                     title="Filtre basert på ansettelsesform"
                                     headingTag="span"
                                 >
-                                    <List.Item>Engasjement</List.Item>
-                                    <List.Item>Fast</List.Item>
-                                    <List.Item>Feriejobb</List.Item>
-                                    <List.Item>Lærling</List.Item>
-                                    <List.Item>Prosjekt</List.Item>
-                                    <List.Item>Selvstendig næringsdrivende</List.Item>
-                                    <List.Item>Sesong</List.Item>
-                                    <List.Item>Vikariat</List.Item>
-                                    <List.Item>Åremål</List.Item>
+                                    <List.Item>engasjement</List.Item>
+                                    <List.Item>fast</List.Item>
+                                    <List.Item>feriejobb</List.Item>
+                                    <List.Item>lærling</List.Item>
+                                    <List.Item>prosjekt</List.Item>
+                                    <List.Item>selvstendig næringsdrivende</List.Item>
+                                    <List.Item>sesong</List.Item>
+                                    <List.Item>vikariat</List.Item>
+                                    <List.Item>åremål</List.Item>
                                 </List>
                             </Accordion.Content>
                         </Accordion.Item>
@@ -436,9 +447,9 @@ export default function NyttSok() {
                                     title="Filtre basert på arbeidsform"
                                     headingTag="span"
                                 >
-                                    <List.Item>Hybridkontor</List.Item>
-                                    <List.Item>Kun hjemmekontor</List.Item>
-                                    <List.Item>Hjemmekontor ikke mulig</List.Item>
+                                    <List.Item>hybridkontor</List.Item>
+                                    <List.Item>kun hjemmekontor</List.Item>
+                                    <List.Item>hjemmekontor ikke mulig</List.Item>
                                 </List>
                             </Accordion.Content>
                         </Accordion.Item>
