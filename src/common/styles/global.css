@@ -57,7 +57,8 @@ button {
     list-style-type: none;
 }
 
-.inline-block-list li {
+/* stylelint-disable-next-line selector-class-pattern */
+.inline-block-list li.navds-list__item {
     display: inline-block;
 }
 
