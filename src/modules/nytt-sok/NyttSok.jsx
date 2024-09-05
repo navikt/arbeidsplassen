@@ -293,7 +293,18 @@ export default function NyttSok() {
                                 </Heading>
                             </Accordion.Header>
                             <Accordion.Content>
-                                <BodyLong>Filtrer på reisevei, fylke, kommune eller utenfor Norge.</BodyLong>
+                                <Heading level="4" size="small" className="mb-5">
+                                    Reisevei
+                                </Heading>
+                                <BodyLong className="mb-5">
+                                    Filtrer jobber basert på maksimal reiseavstand fra sted eller postnummer.
+                                </BodyLong>
+                                <Heading level="4" size="small" className="mb-5">
+                                    Sted
+                                </Heading>
+                                <BodyLong className="mb-5">
+                                    Søk jobber i ett eller flere fylker, kommuner eller utenfor Norge.
+                                </BodyLong>
                             </Accordion.Content>
                         </Accordion.Item>
 
