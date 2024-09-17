@@ -1,6 +1,7 @@
 import { BodyLong, Heading, LinkPanel } from "@navikt/ds-react";
 import React from "react";
 import ImageLinkPanelMedium from "@/src/common/components/ImageLinkPanelMedium";
+import Link from "next/link";
 
 export default function TipsTilJobbsoknaden() {
     return (
@@ -88,6 +89,11 @@ export default function TipsTilJobbsoknaden() {
                         <BodyLong>
                             Har du ikke hørt noe to-tre uker etter søknadsfristen, bør du kontakte arbeidsgiveren og
                             høre hvor langt de er kommet i prosessen.
+                        </BodyLong>
+                    </li>
+                    <li>
+                        <BodyLong>
+                            Se flere tips til jobbsøknad i <Link href="https://vimeo.com/658504882">denne filmen</Link>
                         </BodyLong>
                     </li>
                 </ul>
