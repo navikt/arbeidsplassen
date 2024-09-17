@@ -43,7 +43,7 @@ function TrackedApp({ children }) {
 
 function App({ Component, pageProps }) {
     return (
-        <div className={myFont.className}>
+        <div className={`${myFont.className} height-100`}>
             <Axe />
             <AuthenticationProvider>
                 <TrackedApp>
