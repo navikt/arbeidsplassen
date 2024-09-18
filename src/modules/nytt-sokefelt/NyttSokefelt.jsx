@@ -27,17 +27,17 @@ export default function NyttSokefelt() {
                 </BodyLong>
                 <BodyLong>Du kan bruke det nye søket på flere måter:</BodyLong>
                 <ul aria-label="Liste over flere måter å bruke søket på">
-                    <li>
+                    <li className="mb-2">
                         <BodyLong>
                             <strong>Utforskende søk</strong> – start bredt for å oppdage ulike muligheter
                         </BodyLong>
                     </li>
-                    <li>
+                    <li className="mb-2">
                         <BodyLong>
                             <strong>Spisset søk</strong> – når du har en klar idé om hva slags jobb du vil ha
                         </BodyLong>
                     </li>
-                    <li>
+                    <li className="mb-2">
                         <BodyLong>
                             <strong>Se på tvers av bransjer</strong> – søk på ferdigheter og interesser fremfor
                             tradisjonelle stillingstitler
