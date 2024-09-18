@@ -209,6 +209,12 @@ export default function NyttSok() {
                             eksempel: lærer, pedagog, coach.
                         </List.Item>
                         <List.Item>
+                            Vær oppmerksom på generelle jobbtitler som “rådgiver”, “konsulent”, “koordinator” eller
+                            “prosjektleder”. Disse kan skjule mange spennende muligheter og kreve ulik kompetanse eller
+                            relevant erfaring. Inkluder slike titler i søket ditt for å oppdage et bredere spekter av
+                            stillinger.
+                        </List.Item>
+                        <List.Item>
                             Vær åpen for uventede muligheter – din bakgrunn kan være verdifull i bransjer eller roller
                             du ikke umiddelbart tenker på.
                         </List.Item>
@@ -447,7 +453,9 @@ export default function NyttSok() {
                                     title="Filtre basert på arbeidsform"
                                     headingTag="span"
                                 >
-                                    <List.Item>hybridkontor</List.Item>
+                                    <List.Item>
+                                        hybridkontor - en kombinasjon av å være på kontoret og jobbe hjemmefra
+                                    </List.Item>
                                     <List.Item>kun hjemmekontor</List.Item>
                                     <List.Item>hjemmekontor ikke mulig</List.Item>
                                 </List>
