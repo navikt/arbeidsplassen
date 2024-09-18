@@ -1,4 +1,4 @@
-import { BodyLong, Heading, Link as AkselLink, LinkPanel } from "@navikt/ds-react";
+import { BodyLong, Heading, Link as AkselLink, LinkPanel, List } from "@navikt/ds-react";
 import NextLink from "next/link";
 import React from "react";
 import ImageLinkPanelMedium from "@/src/common/components/ImageLinkPanelMedium";
@@ -25,30 +25,22 @@ export default function NyttSokefelt() {
                     Ved å legge til flere ord i søket ditt, vil du oppdage flere relevante stillinger og øke sjansen for
                     å lande drømmejobben.
                 </BodyLong>
-                <BodyLong>Du kan bruke det nye søket på flere måter:</BodyLong>
-                <ul aria-label="Liste over flere måter å bruke søket på">
-                    <li className="mb-2">
-                        <BodyLong>
-                            <strong>Utforskende søk</strong> – start bredt for å oppdage ulike muligheter
-                        </BodyLong>
-                    </li>
-                    <li className="mb-2">
-                        <BodyLong>
-                            <strong>Spisset søk</strong> – når du har en klar idé om hva slags jobb du vil ha
-                        </BodyLong>
-                    </li>
-                    <li className="mb-2">
-                        <BodyLong>
-                            <strong>Se på tvers av bransjer</strong> – søk på ferdigheter og interesser fremfor
-                            tradisjonelle stillingstitler
-                        </BodyLong>
-                    </li>
-                    <li>
-                        <BodyLong className="mb-6">
-                            <strong>Finn sesongarbeid</strong> – kombiner nøkkelord for sesongbaserte jobber
-                        </BodyLong>
-                    </li>
-                </ul>
+                <List title="Måter å bruke det nye søket på:" headingTag="h2" className="mb-6">
+                    <List.Item>
+                        <strong>Utforskende søk</strong> – start bredt for å oppdage ulike muligheter
+                    </List.Item>
+                    <List.Item>
+                        <strong>Spisset søk</strong> – når du har en klar idé om hva slags jobb du vil ha
+                    </List.Item>
+                    <List.Item>
+                        <strong>Se på tvers av bransjer</strong> – søk på ferdigheter og interesser fremfor
+                        tradisjonelle stillingstitler
+                    </List.Item>
+                    <List.Item>
+                        <strong>Finn sesongarbeid</strong> – kombiner nøkkelord for sesongbaserte jobber
+                    </List.Item>
+                </List>
+
                 <BodyLong>
                     <AkselLink as={NextLink} href="/slik-bruker-du-det-nye-soket" className="mb-12">
                         Les mer om hvordan du kan bruke søket for best resultat
