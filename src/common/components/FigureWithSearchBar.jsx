@@ -146,7 +146,7 @@ function FigureWithSearchBar() {
                     y2="100.66"
                     gradientUnits="userSpaceOnUse"
                 >
-                    <stop stopColor="#90E8C3" />
+                    <stop offset="1" stopColor="#90E8C3" />
                     <stop offset="1" stopColor="#7CCCAB" />
                 </linearGradient>
                 <clipPath id="clip0_6870_84557">

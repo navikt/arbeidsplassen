@@ -1,5 +1,5 @@
 import React from "react";
-import { Accordion, BodyLong, Heading, LinkPanel, List } from "@navikt/ds-react";
+import { Accordion, BodyLong, BodyShort, Heading, LinkPanel, List } from "@navikt/ds-react";
 import FigureWithSearchBar from "@/src/common/components/FigureWithSearchBar";
 import VisualChip from "@/src/common/components/VisualChip";
 
@@ -270,13 +270,9 @@ export default function NyttSok() {
                     </List>
                     <BodyLong className="mb-5">Les mer om våre fitre:</BodyLong>
 
-                    <Accordion>
+                    <Accordion headingSize="medium" className="filter-explanation-accordion">
                         <Accordion.Item>
-                            <Accordion.Header>
-                                <Heading level="3" size="medium">
-                                    Publisert
-                                </Heading>
-                            </Accordion.Header>
+                            <Accordion.Header>Publisert</Accordion.Header>
                             <Accordion.Content>
                                 <BodyLong className="mb-5">Filtrer basert på når annonsen ble lagt ut.</BodyLong>
                                 <List
@@ -293,21 +289,17 @@ export default function NyttSok() {
                         </Accordion.Item>
 
                         <Accordion.Item>
-                            <Accordion.Header>
-                                <Heading level="3" size="medium">
-                                    Sted (nyhet)
-                                </Heading>
-                            </Accordion.Header>
+                            <Accordion.Header>Sted (nyhet)</Accordion.Header>
                             <Accordion.Content>
-                                <Heading level="4" size="small" className="mb-5">
-                                    Reisevei
-                                </Heading>
+                                <BodyShort className="mb-5">
+                                    <strong className="size-1-25">Reisevei</strong>
+                                </BodyShort>
                                 <BodyLong className="mb-5">
                                     Filtrer jobber basert på maksimal reiseavstand fra sted eller postnummer.
                                 </BodyLong>
-                                <Heading level="4" size="small" className="mb-5">
-                                    Sted
-                                </Heading>
+                                <BodyShort className="mb-5">
+                                    <strong className="size-1-25">Sted</strong>
+                                </BodyShort>
                                 <BodyLong className="mb-5">
                                     Søk jobber i ett eller flere fylker, kommuner eller utenfor Norge.
                                 </BodyLong>
@@ -315,33 +307,25 @@ export default function NyttSok() {
                         </Accordion.Item>
 
                         <Accordion.Item>
-                            <Accordion.Header>
-                                <Heading level="3" size="medium">
-                                    Yrke og sektor
-                                </Heading>
-                            </Accordion.Header>
+                            <Accordion.Header>Yrke og sektor</Accordion.Header>
                             <Accordion.Content>
-                                <Heading level="4" size="small" className="mb-5">
-                                    Yrke
-                                </Heading>
+                                <BodyShort className="mb-5">
+                                    <strong className="size-1-25">Yrke</strong>
+                                </BodyShort>
                                 <BodyLong className="mb-5">Søk basert på yrkeskategorier.</BodyLong>
-                                <Heading level="4" size="small" className="mb-5">
-                                    Sektor
-                                </Heading>
+                                <BodyShort className="mb-5">
+                                    <strong className="size-1-25">Sektor</strong>
+                                </BodyShort>
                                 <BodyLong className="mb-5">Velg mellom offentlig og privat sektor.</BodyLong>
                             </Accordion.Content>
                         </Accordion.Item>
 
                         <Accordion.Item>
-                            <Accordion.Header>
-                                <Heading level="3" size="medium">
-                                    Utdanningsnivå, erfaring og førerkort (nyhet)
-                                </Heading>
-                            </Accordion.Header>
+                            <Accordion.Header>Utdanningsnivå, erfaring og førerkort (nyhet)</Accordion.Header>
                             <Accordion.Content>
-                                <Heading level="4" size="small" className="mb-5">
-                                    Utdanningsnivå
-                                </Heading>
+                                <BodyShort className="mb-5">
+                                    <strong className="size-1-25">Utdanningsnivå</strong>
+                                </BodyShort>
                                 <BodyLong className="mb-5">Finn jobber som passer ditt utdanningsnivå.</BodyLong>
                                 <List
                                     as="ul"
@@ -357,9 +341,9 @@ export default function NyttSok() {
                                     <List.Item>master eller tilsvarende</List.Item>
                                     <List.Item>forskningsgrad</List.Item>
                                 </List>
-                                <Heading level="4" size="small" className="mb-5">
-                                    Erfaring
-                                </Heading>
+                                <BodyShort className="mb-5">
+                                    <strong className="size-1-25">Erfaring</strong>
+                                </BodyShort>
                                 <BodyLong className="mb-5">Filtrer jobber ut ifra hvor mye erfaring du har.</BodyLong>
                                 <List
                                     as="ul"
@@ -371,9 +355,9 @@ export default function NyttSok() {
                                     <List.Item>noe arbeidserfaring (1-3 år)</List.Item>
                                     <List.Item>mye arbeidserfaring (4+ år)</List.Item>
                                 </List>
-                                <Heading level="4" size="small" className="mb-5">
-                                    Førerkort
-                                </Heading>
+                                <BodyShort className="mb-5">
+                                    <strong className="size-1-25">Førerkort</strong>
+                                </BodyShort>
                                 <BodyLong className="mb-5">
                                     Filtrer på om førerkort for bil er nødvendig eller ikke.
                                 </BodyLong>
@@ -381,11 +365,7 @@ export default function NyttSok() {
                         </Accordion.Item>
 
                         <Accordion.Item>
-                            <Accordion.Header>
-                                <Heading level="3" size="medium">
-                                    Arbeidsspråk
-                                </Heading>
-                            </Accordion.Header>
+                            <Accordion.Header>Arbeidsspråk</Accordion.Header>
                             <Accordion.Content>
                                 <BodyLong className="mb-5">Finn jobber som passer for språkene du kan.</BodyLong>
 
@@ -404,19 +384,15 @@ export default function NyttSok() {
                         </Accordion.Item>
 
                         <Accordion.Item>
-                            <Accordion.Header>
-                                <Heading level="3" size="medium">
-                                    Omfang og ansettelseform
-                                </Heading>
-                            </Accordion.Header>
+                            <Accordion.Header>Omfang og ansettelseform</Accordion.Header>
                             <Accordion.Content>
-                                <Heading level="4" size="small" className="mb-5">
-                                    Omfang
-                                </Heading>
+                                <BodyShort className="mb-5">
+                                    <strong className="size-1-25">Omfang</strong>
+                                </BodyShort>
                                 <BodyLong className="mb-5">Velg om du ønsker heltid- eller deltidsstillinger.</BodyLong>
-                                <Heading level="4" size="small" className="mb-5">
-                                    Ansettelsesform
-                                </Heading>
+                                <BodyShort className="mb-5">
+                                    <strong className="size-1-25">Ansettelsesform</strong>
+                                </BodyShort>
                                 <BodyLong className="mb-5">
                                     Filtrer basert på hvilken type ansettelse du ser etter.
                                 </BodyLong>
@@ -440,11 +416,7 @@ export default function NyttSok() {
                         </Accordion.Item>
 
                         <Accordion.Item className="mb-5">
-                            <Accordion.Header>
-                                <Heading level="3" size="medium">
-                                    Hjemmekontor
-                                </Heading>
-                            </Accordion.Header>
+                            <Accordion.Header>Hjemmekontor</Accordion.Header>
                             <Accordion.Content>
                                 <BodyLong className="mb-5">Finn jobber som passer din ønskede arbeidsform.</BodyLong>
                                 <List

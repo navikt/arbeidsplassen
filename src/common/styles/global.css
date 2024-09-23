@@ -71,3 +71,7 @@ button {
 .inline-block-list .navds-list__item-marker--bullet {
     display: none;
 }
+
+.size-1-25 {
+    font-size: 1.25rem;
+}
