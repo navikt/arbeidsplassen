@@ -57,7 +57,7 @@ export default function TipsTilJobbsoknaden() {
                 <Heading size="medium" level="3" spacing>
                     Flere tips
                 </Heading>
-                <ul className="mb-6">
+                <ul className="mb-12">
                     <li>
                         <BodyLong>
                             Dersom du ønsker å ta kontakt med arbeidsgiver i forkant, må du planlegge hva du skal spørre
