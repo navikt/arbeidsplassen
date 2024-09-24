@@ -1,7 +1,6 @@
 import { BodyLong, Heading, LinkPanel } from "@navikt/ds-react";
 import React from "react";
 import ImageLinkPanelMedium from "@/src/common/components/ImageLinkPanelMedium";
-import Link from "next/link";
 
 export default function TipsTilJobbsoknaden() {
     return (
@@ -58,7 +57,7 @@ export default function TipsTilJobbsoknaden() {
                 <Heading size="medium" level="3" spacing>
                     Flere tips
                 </Heading>
-                <ul className="mb-12">
+                <ul className="mb-6">
                     <li>
                         <BodyLong>
                             Dersom du ønsker å ta kontakt med arbeidsgiver i forkant, må du planlegge hva du skal spørre
@@ -91,12 +90,17 @@ export default function TipsTilJobbsoknaden() {
                             høre hvor langt de er kommet i prosessen.
                         </BodyLong>
                     </li>
-                    <li>
-                        <BodyLong>
-                            Se flere tips til jobbsøknad i <Link href="https://vimeo.com/658504882">denne filmen</Link>
-                        </BodyLong>
-                    </li>
                 </ul>
+
+                <div className="mb-12">
+                    <iframe
+                        title="Video om Jobbsøknad"
+                        src="https://video.qbrick.com/play2/embed/qbrick-player?accountId=763558&mediaId=e020fd8e-da07-4465-95d9-c361c164d881&configId=qbrick-player&pageStyling=adaptive&autoplay=false&repeat=false&sharing=true&download=false&volume"
+                        allow="fullscreen"
+                        className="video"
+                        aria-label="Video om jobbsøknad"
+                    />
+                </div>
 
                 <Heading size="large" level="2" spacing>
                     Åpen søknad
