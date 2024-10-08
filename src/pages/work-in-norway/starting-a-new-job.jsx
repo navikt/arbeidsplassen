@@ -35,6 +35,7 @@ export default function StartingANewJob() {
                         <BodyLong spacing>{t("h3-bank-account.p1")}</BodyLong>
                         <BodyLong spacing>
                             <AkselLink
+                                className="display-inline"
                                 href="https://www.finansnorge.no/tema/ny-i-norge/artikkel-bli-bankkunde-i-norge/"
                                 hrefLang="no"
                             >
@@ -90,6 +91,7 @@ export default function StartingANewJob() {
                         <BodyLong spacing>
                             {t("h2-rights.p2")}{" "}
                             <AkselLink
+                                className="display-inline"
                                 href="https://www.arbeidstilsynet.no/en/working-conditions/pay-and-minimum-rates-of-pay/minimum-wage/"
                                 hrefLang="en"
                             >
@@ -98,7 +100,9 @@ export default function StartingANewJob() {
                         </BodyLong>
                         <BodyLong spacing>
                             {t("h2-rights.p3-1")}{" "}
-                            <AkselLink href={t("h2-rights.p3-link")}>{t("h2-rights.p3-link-title")}</AkselLink>{" "}
+                            <AkselLink className="display-inline" href={t("h2-rights.p3-link")}>
+                                {t("h2-rights.p3-link-title")}
+                            </AkselLink>{" "}
                             {t("h2-rights.p3-2")}
                         </BodyLong>
                         <AkselLink
@@ -144,6 +148,7 @@ export default function StartingANewJob() {
                         <BodyLong spacing>
                             {" "}
                             <AkselLink
+                                className="display-inline"
                                 href="https://www.altinn.no/en/start-and-run-business/planning-starting/"
                                 hrefLang="en"
                             >
