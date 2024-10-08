@@ -31,7 +31,7 @@ export default function FindingAJob() {
                         </Heading>
                         <BodyLong spacing>
                             {t("h2-start-looking.p1")}{" "}
-                            <AkselLink href={t("h2-start-looking.p1-link")}>
+                            <AkselLink className="display-inline" href={t("h2-start-looking.p1-link")}>
                                 {t("h2-start-looking.p1-link-text")}
                             </AkselLink>{" "}
                             {t("h2-start-looking.p1-2")}
@@ -63,7 +63,11 @@ export default function FindingAJob() {
                         </Heading>
                         <BodyLong spacing>
                             {t("h2-find-job.p1")}{" "}
-                            <AkselLink hrefLang="no" href="/stillinger?workLanguage=Engelsk&v=2">
+                            <AkselLink
+                                className="display-inline"
+                                hrefLang="no"
+                                href="/stillinger?workLanguage=Engelsk&v=2"
+                            >
                                 {t("h2-find-job.p1-link-text")}
                             </AkselLink>{" "}
                             {t("h2-find-job.p1-after-link")}
@@ -89,11 +93,15 @@ export default function FindingAJob() {
                         </Heading>
                         <BodyLong spacing>
                             {t("h2-assistance.p1")}{" "}
-                            <AkselLink hrefLang="en" href="https://www.nav.no/kontaktoss/en">
+                            <AkselLink className="display-inline" hrefLang="en" href="https://www.nav.no/kontaktoss/en">
                                 {t("h2-assistance.p1-link-text-1")}
                             </AkselLink>{" "}
                             {t("h2-assistance.p1-2")}
-                            <AkselLink href="https://www.nav.no/arbeid/registrering" hrefLang="no">
+                            <AkselLink
+                                className="display-inline"
+                                href="https://www.nav.no/arbeid/registrering"
+                                hrefLang="no"
+                            >
                                 {t("h2-assistance.p1-link-text-2")}
                             </AkselLink>{" "}
                             {t("h2-assistance.p1-3")}
@@ -146,7 +154,7 @@ export default function FindingAJob() {
                         </Heading>
                         <BodyLong spacing>
                             {t("h2-working-wo-norwegian.p1")}{" "}
-                            <AkselLink href="/stillinger?workLanguage=Engelsk&v=2">
+                            <AkselLink className="display-inline" href="/stillinger?workLanguage=Engelsk&v=2">
                                 {t("h2-working-wo-norwegian.p-link-text")}
                             </AkselLink>{" "}
                             {t("h2-working-wo-norwegian.p1-2")}
@@ -158,7 +166,7 @@ export default function FindingAJob() {
                         </Heading>
                         <BodyLong spacing>
                             {t("h3-norwegian-courses.p1")}{" "}
-                            <AkselLink href={t("h3-norwegian-courses.p1-link")}>
+                            <AkselLink className="display-inline" href={t("h3-norwegian-courses.p1-link")}>
                                 {t("h3-norwegian-courses.p1-link-text")}
                             </AkselLink>{" "}
                             {t("h3-norwegian-courses.p1-2")}

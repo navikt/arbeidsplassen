@@ -61,8 +61,7 @@ button {
     list-style-type: none;
 }
 
-/* stylelint-disable-next-line selector-class-pattern */
-.inline-block-list li.navds-list__item {
+.inline-block-list li.visual-chip {
     display: inline-block;
     margin-right: 8px;
 }
@@ -74,4 +73,8 @@ button {
 
 .size-1-25 {
     font-size: 1.25rem;
+}
+
+.display-inline {
+    display: inline;
 }

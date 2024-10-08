@@ -40,16 +40,16 @@ export default function NyttSok() {
                             title="Forslag til generelle søkeord"
                             headingTag="span"
                         >
-                            <List.Item>
+                            <List.Item className="visual-chip">
                                 <VisualChip text="undervisning" />
                             </List.Item>
-                            <List.Item>
+                            <List.Item className="visual-chip">
                                 <VisualChip text="forskning" />
                             </List.Item>
-                            <List.Item>
+                            <List.Item className="visual-chip">
                                 <VisualChip text="helseteknologi" />
                             </List.Item>
-                            <List.Item>
+                            <List.Item className="visual-chip">
                                 <VisualChip text="Akershus" />
                             </List.Item>
                         </List>
@@ -78,31 +78,31 @@ export default function NyttSok() {
                             title="Forslag til spesifikke søkeord"
                             headingTag="span"
                         >
-                            <List.Item>
+                            <List.Item className="visual-chip">
                                 <VisualChip text="faglærer" />
                             </List.Item>
-                            <List.Item>
+                            <List.Item className="visual-chip">
                                 <VisualChip text="matematikklærer" />
                             </List.Item>
-                            <List.Item>
+                            <List.Item className="visual-chip">
                                 <VisualChip text="realfag" />
                             </List.Item>
-                            <List.Item>
+                            <List.Item className="visual-chip">
                                 <VisualChip text="naturfag" />
                             </List.Item>
-                            <List.Item>
+                            <List.Item className="visual-chip">
                                 <VisualChip text="matematikk" />
                             </List.Item>
-                            <List.Item>
+                            <List.Item className="visual-chip">
                                 <VisualChip text="videregående" />
                             </List.Item>
-                            <List.Item>
+                            <List.Item className="visual-chip">
                                 <VisualChip text="Bergen" />
                             </List.Item>
-                            <List.Item>
+                            <List.Item className="visual-chip">
                                 <VisualChip text="fast" />
                             </List.Item>
-                            <List.Item>
+                            <List.Item className="visual-chip">
                                 <VisualChip text="heltid" />
                             </List.Item>
                         </List>
@@ -125,19 +125,19 @@ export default function NyttSok() {
                             title="Forslag til søkeord med bransjer"
                             headingTag="span"
                         >
-                            <List.Item>
+                            <List.Item className="visual-chip">
                                 <VisualChip text="kundeservice" />
                             </List.Item>
-                            <List.Item>
+                            <List.Item className="visual-chip">
                                 <VisualChip text="deltid" />
                             </List.Item>
-                            <List.Item>
+                            <List.Item className="visual-chip">
                                 <VisualChip text="kveldsvakt" />
                             </List.Item>
-                            <List.Item>
+                            <List.Item className="visual-chip">
                                 <VisualChip text="helg" />
                             </List.Item>
-                            <List.Item>
+                            <List.Item className="visual-chip">
                                 <VisualChip text="må ha førerkort" />
                             </List.Item>
                         </List>
@@ -164,25 +164,25 @@ export default function NyttSok() {
                             title="Forslag til søkeord med sesongarbeid"
                             headingTag="span"
                         >
-                            <List.Item>
+                            <List.Item className="visual-chip">
                                 <VisualChip text="julehjelp" />
                             </List.Item>
-                            <List.Item>
+                            <List.Item className="visual-chip">
                                 <VisualChip text="student" />
                             </List.Item>
-                            <List.Item>
+                            <List.Item className="visual-chip">
                                 <VisualChip text="butikk" />
                             </List.Item>
-                            <List.Item>
+                            <List.Item className="visual-chip">
                                 <VisualChip text="deltid" />
                             </List.Item>
-                            <List.Item>
+                            <List.Item className="visual-chip">
                                 <VisualChip text="sesong" />
                             </List.Item>
-                            <List.Item>
+                            <List.Item className="visual-chip">
                                 <VisualChip text="trenger ikke førerkort" />
                             </List.Item>
-                            <List.Item>
+                            <List.Item className="visual-chip">
                                 <VisualChip text="ingen krav til utdanning" />
                             </List.Item>
                         </List>
