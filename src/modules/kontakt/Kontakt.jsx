@@ -19,8 +19,8 @@ export default function Kontakt() {
                 </li>
                 <li>
                     <BodyLong>
-                        Får du oppfølging fra NAV? Du kan{" "}
-                        <Link href="https://www.nav.no/person/kontakt-oss/">kontakte NAV på telefon.</Link>
+                        Får du oppfølging fra Nav? Du kan{" "}
+                        <Link href="https://www.nav.no/person/kontakt-oss/">kontakte Nav på telefon.</Link>
                     </BodyLong>
                 </li>
             </ul>
@@ -37,13 +37,13 @@ export default function Kontakt() {
                 </li>
                 <li>
                     <BodyLong>
-                        Arbeidsgivertelefonen i NAV tlf. 55 55 33 36. Hverdager 0900–1500. Svarer på spørsmål om
+                        Arbeidsgivertelefonen i Nav tlf. 55 55 33 36. Hverdager 0900–1500. Svarer på spørsmål om
                         rekruttering, sykefraværsoppfølging, refusjoner, permittering og omstilling m.m.
                     </BodyLong>
                 </li>
                 <li>
                     <BodyLong>
-                        <Link href="https://www.nav.no/arbeidsgiver/kontaktoss">Kontakt NAV om rekruttering</Link>
+                        <Link href="https://www.nav.no/arbeidsgiver/kontaktoss">Kontakt Nav om rekruttering</Link>
                     </BodyLong>
                 </li>
             </ul>

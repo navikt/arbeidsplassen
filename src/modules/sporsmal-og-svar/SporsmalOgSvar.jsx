@@ -45,7 +45,7 @@ export default function SporsmalOgSvar() {
                 nye medarbeidere anbefaler vi at du registrerer en stillingsannonse og fyller ut så mye relevant
                 informasjon om bedriften og stillingen som mulig. En informativ stillingsannonse gjør det lettere for
                 jobbsøkere å vurdere om stillingen kan være interessant for dem. Har du behov for rekrutteringsbistand
-                fra NAV, finner du kontaktinformasjon til erfarne rådgivere i tjenesten.
+                fra Nav, finner du kontaktinformasjon til erfarne rådgivere i tjenesten.
             </BodyLong>
 
             <Heading size="small" level="2" spacing>

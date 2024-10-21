@@ -11,7 +11,7 @@ export default function OverforingAvStillingsannonser() {
                 </Heading>
 
                 <BodyLong size="large" spacing>
-                    NAVs import-API er utviklet for at det skal være enkelt å publisere stillinger på arbeidsplassen.no
+                    Navs import-API er utviklet for at det skal være enkelt å publisere stillinger på arbeidsplassen.no
                     for våre samarbeidspartnere
                 </BodyLong>
             </div>
@@ -47,7 +47,7 @@ export default function OverforingAvStillingsannonser() {
                     Hvordan fungerer det i dag?
                 </Heading>
                 <BodyLong spacing>
-                    NAV har allerede samarbeid med en rekke aktører om elektronisk overføring av stillingsannonser fra
+                    Nav har allerede samarbeid med en rekke aktører om elektronisk overføring av stillingsannonser fra
                     deres nettsted til arbeidsplassen.no.
                 </BodyLong>
                 <BodyLong spacing>
@@ -75,7 +75,7 @@ export default function OverforingAvStillingsannonser() {
                 </BodyLong>
                 <BodyLong className="mb-12">
                     Gjennom dette grensesnittet kan utenforstående programmer gjøre endringer, kjøre prosesser og
-                    behandle data i et annet program. NAV tilbyr et API som muliggjør automatisk overføring av data fra
+                    behandle data i et annet program. Nav tilbyr et API som muliggjør automatisk overføring av data fra
                     samarbeidpartnerer sine sider for stillingsutlysninger direkte til arbeidsplassen.no
                 </BodyLong>
 

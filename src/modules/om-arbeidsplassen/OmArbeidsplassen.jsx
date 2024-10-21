@@ -16,7 +16,7 @@ export default function OmArbeidsplassen() {
                 skal kunne oppdage og komme i kontakt med hverandre, så enkelt som mulig. Alle tjenestene er derfor
                 kostnadsfrie.
             </BodyLong>
-            <BodyLong className="mb-12">Arbeidsplassen.no er eid av NAV.</BodyLong>
+            <BodyLong className="mb-12">Arbeidsplassen.no er eid av Nav.</BodyLong>
 
             <Heading size="large" level="2" spacing>
                 Arbeidsplassen.no gir deg god oversikt over arbeidsmarkedet

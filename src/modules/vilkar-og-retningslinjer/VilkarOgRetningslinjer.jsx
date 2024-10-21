@@ -12,7 +12,7 @@ export default function VilkarOgRetningslinjer() {
                 Vilkår for å bruke arbeidsgivertjenestene på arbeidsplassen.no
             </Heading>
             <BodyLong>
-                Arbeidsplassen.no er en kostnadsfri tjeneste fra NAV. Arbeidsgivere må godta flere vilkår for å benytte
+                Arbeidsplassen.no er en kostnadsfri tjeneste fra Nav. Arbeidsgivere må godta flere vilkår for å benytte
                 tjenestene på arbeidsplassen.no. Generelle vilkår vi ønsker å trekke frem er:
             </BodyLong>
             <ul className="mb-12">
@@ -43,7 +43,7 @@ export default function VilkarOgRetningslinjer() {
                     <BodyLong>
                         Bruk av automatiserte tjenester (roboter, spidere, indeksering m.m.) samt andre fremgangsmåter
                         for systematisk eller regelmessig kopi av innholdet på arbeidsplassen.no er ikke tillatt uten
-                        eksplisitt skriftlig samtykke fra NAV.
+                        eksplisitt skriftlig samtykke fra Nav.
                     </BodyLong>
                 </li>
             </ul>
@@ -65,7 +65,7 @@ export default function VilkarOgRetningslinjer() {
                 Personopplysninger
             </Heading>
             <BodyLong spacing>
-                NAV er pålagt å drive en statlig arbeidsformidling og formidle arbeidskraft. For å kunne tilby disse
+                Nav er pålagt å drive en statlig arbeidsformidling og formidle arbeidskraft. For å kunne tilby disse
                 tjenestene til arbeidsgivere, må vi lagre nødvendige personopplysninger. Vi lagrer disse opplysningene:
             </BodyLong>
             <ul>
@@ -79,13 +79,13 @@ export default function VilkarOgRetningslinjer() {
             <BodyLong spacing>
                 For mer informasjon,{" "}
                 <AkselLink as={NextLink} href="/arbeidsgivertjenester">
-                    se NAVs personvernerklæring.
+                    se Navs personvernerklæring.
                 </AkselLink>
             </BodyLong>
             <BodyLong className="mb-12">
                 Har du spørsmål, ta gjerne kontakt med oss:{" "}
                 <AkselLink href="https://www.nav.no/arbeidsgiver/kontaktoss" inlineText>
-                    Kontakt NAV - arbeidsgiver
+                    Kontakt Nav - arbeidsgiver
                 </AkselLink>
             </BodyLong>
 
@@ -99,8 +99,8 @@ export default function VilkarOgRetningslinjer() {
                 stillingen.
             </BodyLong>
             <BodyLong spacing>
-                Hvis NAV oppdager en annonse som ikke oppfyller vilkårene, kan den bli slettet eller fjernet uten
-                varsling. NAV vil ta kontakt og informere i etterkant.
+                Hvis Nav oppdager en annonse som ikke oppfyller vilkårene, kan den bli slettet eller fjernet uten
+                varsling. Nav vil ta kontakt og informere i etterkant.
             </BodyLong>
             <BodyLong className="mb-12">
                 <AkselLink as={NextLink} href="/vilkar-stillingsannonser">
@@ -125,9 +125,9 @@ export default function VilkarOgRetningslinjer() {
                 Vilkår for bruk av API for stillingsannonser
             </Heading>
             <BodyLong spacing>
-                Gjennom arbeidsplassen.no tilbyr NAV data fra stillingssøket på arbeidsplassen.no. Stillingssøket
+                Gjennom arbeidsplassen.no tilbyr Nav data fra stillingssøket på arbeidsplassen.no. Stillingssøket
                 inneholder en oversikt og informasjon om de fleste aktive utlyste stillinger. Stillingssøket inneholder
-                både stillinger som er registrert direkte hos NAV, publisert til NAV via et åpent API og hentet inn fra
+                både stillinger som er registrert direkte hos Nav, publisert til Nav via et åpent API og hentet inn fra
                 våre samarbeidspartnere.
             </BodyLong>
             <BodyLong className="mb-24">

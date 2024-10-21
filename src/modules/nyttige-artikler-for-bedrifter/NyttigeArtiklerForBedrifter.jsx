@@ -39,7 +39,7 @@ export default function NyttigeArtiklerForBedrifter() {
                         image="/images/api.png"
                         alt="API, illustrasjon"
                         title="Overføring av stillingsannonser til arbeidsplassen.no"
-                        description="NAVs import-API er utviklet for at det skal være enkelt å publisere stillinger på
+                        description="Navs import-API er utviklet for at det skal være enkelt å publisere stillinger på
                                     arbeidsplassen.no for våre samarbeidspartnere."
                         color="primary"
                     />

@@ -18,9 +18,9 @@ export default function VilkarApiGammel() {
                 Beskrivelse av tjenesten
             </Heading>
             <BodyLong className="mb-12">
-                Gjennom arbeidsplassen.no tilbyr NAV data fra stillingssøket på arbeidsplassen.no. Stillingssøket
+                Gjennom arbeidsplassen.no tilbyr Nav data fra stillingssøket på arbeidsplassen.no. Stillingssøket
                 inneholder en oversikt og informasjon om de fleste aktive utlyste stillinger. Stillingssøket inneholder
-                både stillinger som er registrert direkte hos NAV, publisert til NAV via et åpent API og hentet inn fra
+                både stillinger som er registrert direkte hos Nav, publisert til Nav via et åpent API og hentet inn fra
                 våre samarbeidspartnere.
             </BodyLong>
 
@@ -28,7 +28,7 @@ export default function VilkarApiGammel() {
                 Hvem kan bruke tjenestene
             </Heading>
             <BodyLong spacing>
-                Alle kan bruke tjenesten. Tjenesten er kostnadsfri og leveres av NAV. NAV forbeholder seg retten til å
+                Alle kan bruke tjenesten. Tjenesten er kostnadsfri og leveres av Nav. Nav forbeholder seg retten til å
                 stoppe tilgang ved feil bruk av tjenesten.
             </BodyLong>
             <BodyLong>Feil bruk av tjenesten (ikke uttømmende liste) kan være:</BodyLong>
@@ -89,7 +89,7 @@ export default function VilkarApiGammel() {
                 Personvern
             </Heading>
             <BodyLong spacing>
-                NAV er gjennom offentlighetsloven og digitaliseringsrundskrivet pålagt å gjøre offentlige data
+                Nav er gjennom offentlighetsloven og digitaliseringsrundskrivet pålagt å gjøre offentlige data
                 tilgjengelig. I retningslinjene går det fram at man bør oppgi kontaktinformasjon.
             </BodyLong>
             <BodyLong>
@@ -97,7 +97,7 @@ export default function VilkarApiGammel() {
                 så lenge du/dere benytter tjenesten. Disse opplysningene trenger vi for å kunne komme i kontakt med deg
                 senere, for eksempel ved endringer eller driftsavbrudd. Kontaktinformasjonen din blir slettet når du
                 ikke lenger har tilgang som registrert bruker. For mer informasjon om personvern,{" "}
-                <AkselLink href="https://www.nav.no/personvernerklaering">se NAVs personvernerklæring.</AkselLink>
+                <AkselLink href="https://www.nav.no/personvernerklaering">se Navs personvernerklæring.</AkselLink>
             </BodyLong>
         </article>
     );

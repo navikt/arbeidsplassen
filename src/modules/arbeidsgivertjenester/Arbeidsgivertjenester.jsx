@@ -12,7 +12,7 @@ export default function Arbeidsgivertjenester() {
                 Tilgang via Altinn
             </Heading>
             <BodyLong spacing>
-                Bare du som er arbeidsgiver kan bruke arbeidsgivertjenester fra NAV på arbeidsplassen.no. Privatpersoner
+                Bare du som er arbeidsgiver kan bruke arbeidsgivertjenester fra Nav på arbeidsplassen.no. Privatpersoner
                 kan ikke bruke tjenestene, heller ikke privatpersoner som er oppdragsgiver uten å være arbeidsgiver.*
             </BodyLong>
             <BodyLong spacing>
@@ -21,7 +21,7 @@ export default function Arbeidsgivertjenester() {
             </BodyLong>
             <BodyLong spacing>
                 Du logger inn med ID-porten. Systemet vil sjekke dine rettigheter i Altinn. For at du eller en kollega
-                skal kunne benytte NAVs nye rekrutteringstjeneste på vegne av virksomheten, må dere ha rettigheten
+                skal kunne benytte Navs nye rekrutteringstjeneste på vegne av virksomheten, må dere ha rettigheten
                 «Rekruttering» for underenhet.{" "}
                 <strong>
                     Du kan sjekke om du har riktig rettighet ved å prøve å logge deg inn i tjenesten som arbeidsgiver.
@@ -77,11 +77,11 @@ export default function Arbeidsgivertjenester() {
             <BodyLong className="mb-12">
                 Har du spørsmål om publisering av stilling i{" "}
                 <AkselLink href="https://eures.europa.eu/index_en">Den Europeiske Jobbmobilitetsportalen</AkselLink>{" "}
-                eller i et enkelt EU/EØS-land, ta kontakt med NAV Kontaktsenter EURES på{" "}
+                eller i et enkelt EU/EØS-land, ta kontakt med Nav Kontaktsenter EURES på{" "}
                 <AkselLink href="mailto:eures@nav.no">eures@nav.no</AkselLink> eller tlf. 55 55 33 39, tastevalg 2 (kl.
                 10-14). Les mer om{" "}
                 <AkselLink href="https://www.nav.no/arbeidsgiver/rekruttere-eu-eos">
-                    NAVs EURES-tjenester for arbeidsgivere.
+                    Navs EURES-tjenester for arbeidsgivere.
                 </AkselLink>
             </BodyLong>
             <hr />

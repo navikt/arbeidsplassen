@@ -33,24 +33,24 @@
     "h2-assistance": {
         "title": "Who can I contact for assistance and guidance?",
         "p1": "If you need assistance finding a job, you can",
-        "p1-link-text-1": "contact NAV",
-        "p1-2": "for information and guidance.  If you are registered as a job seeker at NAV, NAV can help you to get in touch with relevant employers and provide you with various measures in order to get a job. You can ",
+        "p1-link-text-1": "contact Nav",
+        "p1-2": "for information and guidance.  If you are registered as a job seeker at Nav, Nav can help you to get in touch with relevant employers and provide you with various measures in order to get a job. You can ",
         "p1-link-text-2": "register as a job seeker at nav.no (Norwegian language).",
-        "p1-3": "If you need assistance you can contact your local NAV office.",
+        "p1-3": "If you need assistance you can contact your local Nav office.",
         "p2": "In this video we will guide you through the process of how to register as a jobseeker.",
         "link-text-3": "Video - How to register as a job seeker",
         "link-3": "https://vimeo.com/656108660",
         "p3": "To be registered as a job seeker you must submit an employment status form every 14 days.",
-        "p4": "In this video you will be shown how to fill in your employment status form when receiving unemployment benefit from NAV.",
+        "p4": "In this video you will be shown how to fill in your employment status form when receiving unemployment benefit from Nav.",
         "link-text-4": "Video - How to fill out employment status form ",
         "link-4": "https://vimeo.com/641108070",
-        "p5": "You have the right to get an interpreter when contacting NAV. This video will give you information about NAV’s interpreter services.",
-        "link-text-5": "Video - Interpreter when contacting NAV",
+        "p5": "You have the right to get an interpreter when contacting Nav. This video will give you information about Nav’s interpreter services.",
+        "link-text-5": "Video - Interpreter when contacting Nav",
         "link-5": "https://vimeo.com/654455998",
-        "p6": "If you have questions to NAV call 55 55 33 33"
+        "p6": "If you have questions to Nav call 55 55 33 33"
     },
     "3-link-panels": {
-        "1-title": "Find your local NAV office",
+        "1-title": "Find your local Nav office",
         "2-title": "More information about job searching (Norwegian language)"
     },
     "h2-working-wo-norwegian": {

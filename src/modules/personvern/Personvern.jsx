@@ -10,16 +10,16 @@ export default function Personvern() {
             <BodyLong className="mb-8">Publisert 1. februar 2022</BodyLong>
 
             <BodyLong spacing>
-                Arbeidsplassen.no er en tjeneste fra NAV og det er Arbeids- og velferdsdirektoratet som er
+                Arbeidsplassen.no er en tjeneste fra Nav og det er Arbeids- og velferdsdirektoratet som er
                 behandlingsansvarlig for dine data her. Denne personvernerklæringen er knyttet til behandlingen av
                 personopplysninger særskilt for tjenestene på arbeidsplassen.no.
             </BodyLong>
             <BodyLong spacing>
                 Vi lagrer kun personopplysninger i de innloggede tjenestene og ved innhenting av stillingsannonser fra
-                arbeidsgivere via våre samarbeidspartnere. For utfyllende informasjon om hvordan NAV behandler dine
+                arbeidsgivere via våre samarbeidspartnere. For utfyllende informasjon om hvordan Nav behandler dine
                 personopplysninger, kan du lese mer i{" "}
                 <AkselLink href="https://www.nav.no/personvernerklaering">
-                    NAVs generelle personvernerklæring.
+                    Navs generelle personvernerklæring.
                 </AkselLink>
             </BodyLong>
             <BodyLong spacing>
@@ -48,15 +48,15 @@ export default function Personvern() {
             </Heading>
             <LinkPanel as={NextLink} href="/personvern-under-oppfolging" className="arb-link-panel-tertiary mb-4">
                 <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
-                    For deg som er under arbeidsrettet oppfølging fra NAV
+                    For deg som er under arbeidsrettet oppfølging fra Nav
                 </LinkPanel.Title>
                 <LinkPanel.Description className="navds-link-panel__description navds-body-long">
-                    Dersom du har registrert deg som arbeidssøker hos NAV, gjelder dette deg.
+                    Dersom du har registrert deg som arbeidssøker hos Nav, gjelder dette deg.
                 </LinkPanel.Description>
             </LinkPanel>
             <LinkPanel as={NextLink} href="/personvern-ikke-under-oppfolging" className="arb-link-panel-tertiary mb-4">
                 <LinkPanel.Title className="navds-link-panel__title navds-heading--small">
-                    For deg som ikke er under arbeidsrettet oppfølging fra NAV
+                    For deg som ikke er under arbeidsrettet oppfølging fra Nav
                 </LinkPanel.Title>
             </LinkPanel>
             <LinkPanel as={NextLink} href="/personvern-arbeidsgiver" className="arb-link-panel-tertiary">

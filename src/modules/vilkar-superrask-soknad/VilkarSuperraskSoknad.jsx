@@ -35,7 +35,7 @@ export default function VilkarSuperraskSoknad() {
                 </li>
             </ul>
 
-            <BodyLong className="mb-24">NAV vil følge opp brudd på disse vilkårene hvis det forekommer.</BodyLong>
+            <BodyLong className="mb-24">Nav vil følge opp brudd på disse vilkårene hvis det forekommer.</BodyLong>
         </article>
     );
 }

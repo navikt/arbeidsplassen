@@ -43,7 +43,7 @@ export default function Vilkar() {
                     <BodyLong>tilby personer arbeidstreningsplasser</BodyLong>
                 </li>
             </ul>
-            <BodyLong className="mb-12">NAV vil følge opp brudd på disse vilkårene hvis det forekommer.</BodyLong>
+            <BodyLong className="mb-12">Nav vil følge opp brudd på disse vilkårene hvis det forekommer.</BodyLong>
 
             <Heading size="large" level="2" spacing>
                 Publisere stillinger
@@ -55,7 +55,7 @@ export default function Vilkar() {
             </BodyLong>
             <BodyLong>
                 Stillingsannonsen blir synlig på Arbeidsplassen få minutter etter at du har sendt den til publisering.
-                NAV kontrollerer i etterkant og tar kontakt hvis annonsen bryter med vilkårene og fjernes, slik at du
+                Nav kontrollerer i etterkant og tar kontakt hvis annonsen bryter med vilkårene og fjernes, slik at du
                 kan rette opp og sende inn for godkjenning på nytt. Tjenesten er kostnadsfri.
             </BodyLong>
             <ul>
@@ -102,14 +102,14 @@ export default function Vilkar() {
                         kriterier som ikke er relevante. Annonsen skal heller ikke ha uetisk innhold eller kunne støte
                         noen. Den skal ikke oppfordre til ulovlige handlinger eller være i strid med norsk lov eller{" "}
                         <AkselLink as={NextLink} href="/retningslinjer-stillingsannonser">
-                            NAVs retningslinjer for stillingsannonser.
+                            Navs retningslinjer for stillingsannonser.
                         </AkselLink>
                     </BodyLong>
                 </li>
             </ul>
             <BodyLong className="mb-12">
-                Hvis NAV oppdager en annonse som ikke fyller vilkårene når vi kontrollerer innholdet, eller etter at
-                annonsen er publisert, kan den bli slettet eller fjernet uten varsling. NAV vil ta kontakt og informere
+                Hvis Nav oppdager en annonse som ikke fyller vilkårene når vi kontrollerer innholdet, eller etter at
+                annonsen er publisert, kan den bli slettet eller fjernet uten varsling. Nav vil ta kontakt og informere
                 i etterkant.
             </BodyLong>
 
@@ -117,7 +117,7 @@ export default function Vilkar() {
                 Personopplysninger
             </Heading>
             <BodyLong>
-                NAV er pålagt å drive en statlig arbeidsformidling og formidle arbeidskraft. For å kunne tilby disse
+                Nav er pålagt å drive en statlig arbeidsformidling og formidle arbeidskraft. For å kunne tilby disse
                 tjenestene til arbeidsgivere, må vi lagre nødvendige personopplysninger. Vi lagrer disse opplysningene:
             </BodyLong>
             <ul>
@@ -130,17 +130,17 @@ export default function Vilkar() {
                 <li>
                     <BodyLong spacing>
                         Kandidatlister som virksomheten har opprettet, og anonymiserte opplysninger fra disse. Denne
-                        informasjonen bruker NAV til å forbedre tjenesten.
+                        informasjonen bruker Nav til å forbedre tjenesten.
                     </BodyLong>
                 </li>
             </ul>
             <BodyLong spacing>
                 For mer informasjon,{" "}
-                <AkselLink href="https://www.nav.no/personvernerklaering">se NAVs personvernerklæring.</AkselLink>
+                <AkselLink href="https://www.nav.no/personvernerklaering">se Navs personvernerklæring.</AkselLink>
             </BodyLong>
             <BodyLong>
                 Har du spørsmål, ta gjerne kontakt med oss:{" "}
-                <AkselLink href="https://www.nav.no/arbeidsgiver/kontaktoss">Kontakt NAV – arbeidsgiver.</AkselLink>
+                <AkselLink href="https://www.nav.no/arbeidsgiver/kontaktoss">Kontakt Nav – arbeidsgiver.</AkselLink>
             </BodyLong>
         </article>
     );

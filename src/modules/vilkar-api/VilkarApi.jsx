@@ -11,15 +11,15 @@ export default function VilkarApi() {
             </AkselLink>
 
             <Heading spacing size="xlarge" level="1">
-                Vilkår for bruk av NAVs stillingsannonse API
+                Vilkår for bruk av Navs stillingsannonse API
             </Heading>
 
             <Heading size="large" level="2" spacing>
                 Beskrivelse av tjenesten
             </Heading>
             <BodyLong spacing>
-                NAV tilbyr et API med offentlige utlyste stillinger fra NAVs database. Dette kan være jobbannonser
-                direkte registrert hos NAV eller hentet inn fra NAVs samarbeidspartnere (omtalt som systemleverandør i
+                Nav tilbyr et API med offentlige utlyste stillinger fra Navs database. Dette kan være jobbannonser
+                direkte registrert hos Nav eller hentet inn fra Navs samarbeidspartnere (omtalt som systemleverandør i
                 punkt d).
             </BodyLong>
             <BodyLong className="mb-12">Konsumenter kan koble seg til APIet og hente disse jobbannonsene.</BodyLong>
@@ -28,7 +28,7 @@ export default function VilkarApi() {
                 Hvem kan bruke tjenestene
             </Heading>
             <BodyLong spacing>
-                Alle kan bruke tjenesten. Tjenesten er kostnadsfri og leveres av NAV. NAV forbeholder seg retten til å
+                Alle kan bruke tjenesten. Tjenesten er kostnadsfri og leveres av Nav. Nav forbeholder seg retten til å
                 stoppe tilgang ved feil bruk av tjenesten.
             </BodyLong>
             <Heading size="medium" level="3" spacing>
@@ -42,20 +42,20 @@ export default function VilkarApi() {
             <ol type="a" className="mb-12">
                 <li>
                     <BodyLong>
-                        Alle annonser som er hentet fra NAV og republisert hos Konsuments tjenester skal umiddelbart
-                        fjernes fra resultatlisten til Konsumenten når annonsen blir inaktiv eller slettet hos NAV.
+                        Alle annonser som er hentet fra Nav og republisert hos Konsuments tjenester skal umiddelbart
+                        fjernes fra resultatlisten til Konsumenten når annonsen blir inaktiv eller slettet hos Nav.
                     </BodyLong>
                 </li>
                 <li>
                     <BodyLong>
-                        Alle annonser som er hentet fra NAV og republisert hos Konsuments tjenester skal umiddelbart
+                        Alle annonser som er hentet fra Nav og republisert hos Konsuments tjenester skal umiddelbart
                         endres når en annonse blir oppdatert i APIet.
                     </BodyLong>
                 </li>
                 <li>
                     <BodyLong>
                         Når en annonse åpnes fra resultatlisten, kan annonsen vises på samme domene som resultatlisten.
-                        Det betyr at en annonse hentet fra NAV kan åpnes av jobbsøker på Konsumentens tjenester.
+                        Det betyr at en annonse hentet fra Nav kan åpnes av jobbsøker på Konsumentens tjenester.
                     </BodyLong>
                 </li>
                 <li>
@@ -73,7 +73,7 @@ export default function VilkarApi() {
             <BodyLong>
                 Partene skal opptre som separate behandlingsansvarlige når det gjelder behandlingen av
                 personopplysninger i forbindelse med samarbeidet regulert av denne avtalen. Konsument vil motta
-                personopplysninger som inngår i jobbannonsene som NAV deler med Konsument under denne avtalen. Konsument
+                personopplysninger som inngår i jobbannonsene som Nav deler med Konsument under denne avtalen. Konsument
                 forplikter seg til å behandle personopplysninger i henhold til gjeldende lover, inkludert
                 personopplysningsloven (LOV-2018-06-15-38). Konsument sine forpliktelser inkluderer, men er ikke
                 begrenset til, følgende:

@@ -10,7 +10,7 @@ export default function PersonvernIkkeUnderOppfolging() {
                 Til personvernserklæring
             </AkselLink>
             <Heading size="xlarge" level="1" spacing>
-                Personvernerklæring for deg som ikke er under arbeidsrettet oppfølging fra NAV
+                Personvernerklæring for deg som ikke er under arbeidsrettet oppfølging fra Nav
             </Heading>
             <BodyLong>Publisert 1. februar 2022.</BodyLong>
             <BodyLong className="mb-8">Oppdatert 29. juni 2022.</BodyLong>
@@ -155,7 +155,7 @@ export default function PersonvernIkkeUnderOppfolging() {
             <BodyLong spacing>
                 Arbeidsplassen.no skal bidra et velfungerende arbeidsmarked gjennom en åpen plattform for
                 arbeidsmarkedet. Vi lagrer og behandler personopplysninger for å gjøre det enklere for jobbsøkere å
-                finne jobb og for arbeidsgivere å skaffe arbeidskraft. Dette er i tråd med NAVs samfunnsoppdrag om å få
+                finne jobb og for arbeidsgivere å skaffe arbeidskraft. Dette er i tråd med Navs samfunnsoppdrag om å få
                 flere i arbeid.
             </BodyLong>
 
@@ -172,10 +172,10 @@ export default function PersonvernIkkeUnderOppfolging() {
                 Statistikk og kunnskap om arbeidsmarkedet
             </Heading>
             <BodyLong className="mb-12">
-                NAV benytter opplysningene fra arbeidsplassen.no til å utvikle statistikk og kunnskap om
+                Nav benytter opplysningene fra arbeidsplassen.no til å utvikle statistikk og kunnskap om
                 arbeidsmarkedet. Les mer i{" "}
                 <AkselLink href="https://www.nav.no/personvernerklaering#chapter-3">
-                    NAVs generelle personvernerklæring.
+                    Navs generelle personvernerklæring.
                 </AkselLink>
             </BodyLong>
 
@@ -186,7 +186,7 @@ export default function PersonvernIkkeUnderOppfolging() {
                 Opplysningene vi trenger for at du skal kunne ha en profil på arbeidsplassen.no, lagres inntil du
                 sletter profilen din hos oss. Opplysningene du gir fra deg ved bruk av de ulike tjenestene, lagres så
                 lenge du har valgt å ta i bruk tjenesten på arbeidsplassen.no. Dersom du sletter opplysningene fra din
-                profil, slettes også dataene hos oss. NAV behandler også opplysninger for statistikkformål. Statistikken
+                profil, slettes også dataene hos oss. Nav behandler også opplysninger for statistikkformål. Statistikken
                 kan i noen tilfeller inneholde personopplysninger.
             </BodyLong>
             <BodyLong className="mb-12">
@@ -233,9 +233,9 @@ export default function PersonvernIkkeUnderOppfolging() {
             <BodyLong className="mb-12">
                 For å kunne tilby våre tjenester på arbeidsplassen.no benytter vi databehandlere, som innebærer at vi
                 deler dine personopplysninger med disse. Dette gjelder for eksempel IT-leverandører som har avtaler med
-                NAV. For å lese mer om dette, se{" "}
+                Nav. For å lese mer om dette, se{" "}
                 <AkselLink href="https://www.nav.no/personvernerklaering#chapter-4">
-                    NAVs generelle personvernerklæring.
+                    Navs generelle personvernerklæring.
                 </AkselLink>
             </BodyLong>
 
@@ -288,7 +288,7 @@ export default function PersonvernIkkeUnderOppfolging() {
                 Rett til begrensning av behandlingen
             </Heading>
             <BodyLong>
-                Du har rett til å be om at NAV midlertidig stopper behandlingen av dine opplysninger, dersom du mener at
+                Du har rett til å be om at Nav midlertidig stopper behandlingen av dine opplysninger, dersom du mener at
                 opplysningene vi har om deg er feil eller du mener at vår behandling av opplysningene er ulovlig. Det
                 samme gjelder dersom du mener at vi ikke trenger opplysningene.
             </BodyLong>

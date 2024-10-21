@@ -14,7 +14,7 @@ export default function TilgangsstyringIStoreVirksomheter() {
             </Heading>
             <BodyLong spacing>
                 Her tilbyr vi informasjon til store virksomheter om hvordan tilgangsstyring kan håndteres på ulike
-                måter. Formålet vårt er å vise hvordan du gir og får tilgang til NAVs rekrutteringstjenester.
+                måter. Formålet vårt er å vise hvordan du gir og får tilgang til Navs rekrutteringstjenester.
             </BodyLong>
             <BodyLong>Du finner svar på spørsmål om</BodyLong>
             <ul>
@@ -25,13 +25,13 @@ export default function TilgangsstyringIStoreVirksomheter() {
                     <BodyLong>overordnede roller som gir vide tilganger</BodyLong>
                 </li>
                 <li>
-                    <BodyLong>å få tilgang til arbeidsplassen.no og kandidatlister fra NAV</BodyLong>
+                    <BodyLong>å få tilgang til arbeidsplassen.no og kandidatlister fra Nav</BodyLong>
                 </li>
             </ul>
             <BodyLong spacing>Lurer du fortsatt på noe, kan du ringe Altinn brukerstøtte på 75 00 60 00.</BodyLong>
             <Alert variant="info" className="mb-12">
                 <BodyLong>
-                    For at du eller en kollega skal kunne benytte NAVs rekrutteringstjeneste på vegne av virksomheten,
+                    For at du eller en kollega skal kunne benytte Navs rekrutteringstjeneste på vegne av virksomheten,
                     må dere ha enkeltrettigheten Rekruttering, eller Altinn-rolle Lønn og personalmedarbeider, eller
                     Altinn-rolle Utfyller/Innsender. Tilgangene kan gis på for hovedenhet (inkludert alle underenheter)
                     eller for en enkelt underenhet. Arbeidsgiver kan delegere tilgang til deg via Altinn, hvis du ikke
@@ -59,14 +59,14 @@ export default function TilgangsstyringIStoreVirksomheter() {
                 Virksomheten min har virksomhetssertifikat, kan vi bruke det på arbeidsplassen.no?
             </Heading>
             <BodyLong spacing>
-                Nei, dette sertifikatet kan ikke brukes. Tilgang til arbeidsplassen.no og kandidatlister fra NAV på Min
+                Nei, dette sertifikatet kan ikke brukes. Tilgang til arbeidsplassen.no og kandidatlister fra Nav på Min
                 side Arbeidsgiver kan bare gis i Altinn.
             </BodyLong>
             <Heading size="medium" level="3" spacing>
                 Tilgang til hele eller deler av organisasjonen?
             </Heading>
             <BodyLong spacing>
-                Tilgangsstyringen på arbeidsplassen.no og kandidatlister fra NAV er basert på underenhet. Arbeidsgivere
+                Tilgangsstyringen på arbeidsplassen.no og kandidatlister fra Nav er basert på underenhet. Arbeidsgivere
                 som gir tilgang, velger i Altinn om tilgangen skal være begrenset til en eller flere underenheter, eller
                 omfatte hovedenheten inkludert alle underenheter. Det er altså ikke nødvendig å gi personer tilgang til
                 hele organisasjonen.
@@ -97,7 +97,7 @@ export default function TilgangsstyringIStoreVirksomheter() {
                 rollen Tilgangsstyring, selv må ha de rollene/rettighetene hen skal administrere. En tilgangsstyrer må
                 derfor ha enkeltrettigheten Rekruttering og/eller rollene Lønn og personalmedarbeider eller Utfyller/
                 Innsender, for å kunne gi andre den samme rettigheten som vil gi tilgang som arbeidsgiver til
-                arbeidsplassen.no og kandidatlister fra NAV.
+                arbeidsplassen.no og kandidatlister fra Nav.
             </BodyLong>
             <Heading size="medium" level="3" spacing>
                 Hvordan fungerer rollen Hovedadministrator?
@@ -165,7 +165,7 @@ export default function TilgangsstyringIStoreVirksomheter() {
                         <AkselLink href="https://arbeidsgiver.nav.no/min-side-arbeidsgiver/">
                             Min side - arbeidsgiver
                         </AkselLink>
-                        finner du oversikt over roller eller enkeltrettigheter som ulike NAV-tjenester krever. Når du er
+                        finner du oversikt over roller eller enkeltrettigheter som ulike Nav-tjenester krever. Når du er
                         logget inn vil du finne mulighet for å “be om tilgang”.
                     </BodyLong>
                 </li>
@@ -210,17 +210,17 @@ export default function TilgangsstyringIStoreVirksomheter() {
             </Heading>
             <BodyLong spacing>
                 Enkeltrettigheten Rekruttering er tilstrekkelig, hvis du som arbeidsgiver kun ønsker å gi tilgang til
-                NAVs rekrutteringstjenester. Da kan du som arbeidsgiver vite at en medarbeider ikke får tilgang til
+                Navs rekrutteringstjenester. Da kan du som arbeidsgiver vite at en medarbeider ikke får tilgang til
                 andre tjenester. Hvis du tildeler rollen Lønn og personalmedarbeider eller Utfyller/Innsender, er det
-                vide tilganger som gir tilgang til flere tjenester enn bare arbeidsplassen.no og kandidatlister fra NAV.
+                vide tilganger som gir tilgang til flere tjenester enn bare arbeidsplassen.no og kandidatlister fra Nav.
             </BodyLong>
             <Heading size="medium" level="3" spacing>
                 Jeg er usikker på hva Rekruttering gir tilgang til?
             </Heading>
             <BodyLong spacing>
-                Enkeltrettigheten Rekruttering gir kun tilgang til NAVs rekrutteringstjenester på arbeidsplassen.no og
-                kandidatlister tilsendt fra NAV. Tildeler du enkeltrettigheten Rekruttering, kan du være sikker på at du
-                ikke gir tilgang til andre tjenester enn NAVs rekrutteringstjenester. Les om
+                Enkeltrettigheten Rekruttering gir kun tilgang til Navs rekrutteringstjenester på arbeidsplassen.no og
+                kandidatlister tilsendt fra Nav. Tildeler du enkeltrettigheten Rekruttering, kan du være sikker på at du
+                ikke gir tilgang til andre tjenester enn Navs rekrutteringstjenester. Les om
                 <AkselLink href="https://www.altinn.no/skjemaoversikt/arbeids--og-velferdsetaten-nav/rekruttering/">
                     enkeltrettigheten Rekruttering på altinn.no
                 </AkselLink>

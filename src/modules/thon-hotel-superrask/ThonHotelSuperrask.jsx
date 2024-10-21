@@ -27,7 +27,7 @@ export default function ThonHotelSuperrask() {
             <div className="container-small mb-16">
                 <BodyLong spacing>
                     Thon Partner Hotel Otta planlegger alltid sommersesongen i god tid og legger tidlig ut sommerjobbene
-                    på arbeidsplassen.no. I år brukte de også superrask søknad, NAV sin nye søknadstjeneste. Det ga gode
+                    på arbeidsplassen.no. I år brukte de også superrask søknad, Nav sin nye søknadstjeneste. Det ga gode
                     resultater.
                 </BodyLong>
                 <BodyLong spacing>
@@ -49,7 +49,7 @@ export default function ThonHotelSuperrask() {
                     <AkselLink as={NextLink} href="/superrask-soknad-bedrift">
                         superrask søknad
                     </AkselLink>{" "}
-                    i sommerjobb-annonsene. Superrask søknad er NAV sin nye tjeneste på arbeidsplassen.no som gjør det
+                    i sommerjobb-annonsene. Superrask søknad er Nav sin nye tjeneste på arbeidsplassen.no som gjør det
                     enklere for bedrifter å få tak i folk.
                 </BodyLong>
 
@@ -99,7 +99,7 @@ export default function ThonHotelSuperrask() {
                 </BodyLong>
                 <BodyLong spacing>
                     Hun legger også til at hotellet innimellom får besøk av folk som leverer papirene sine i resepsjonen
-                    og at hun også har ansatt tre ukrainere som kom via NAV sitt introduksjonsprogram.
+                    og at hun også har ansatt tre ukrainere som kom via Nav sitt introduksjonsprogram.
                 </BodyLong>
                 <BodyLong className="mb-12">
                     Hotelldirektøren anbefaler andre bedrifter til å bruke superrask søknad når de skal lyse ut både

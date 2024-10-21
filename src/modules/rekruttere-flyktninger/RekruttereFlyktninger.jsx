@@ -18,7 +18,7 @@ export default function RekruttereFlyktninger() {
             </BodyLong>
             <BodyLong spacing>
                 <AkselLink href="https://www.nav.no/arbeidsgiver/rekruttere-flyktninger">
-                    NAVs råd for deg som ønsker å komme i kontakt med kvalifiserte kandidater
+                    Navs råd for deg som ønsker å komme i kontakt med kvalifiserte kandidater
                 </AkselLink>
             </BodyLong>
             <BodyLong>

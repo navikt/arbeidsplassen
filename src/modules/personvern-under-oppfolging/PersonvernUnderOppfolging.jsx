@@ -10,13 +10,13 @@ export default function PersonvernUnderOppfolging() {
                 Til personvernserklæring
             </AkselLink>
             <Heading size="xlarge" level="1" spacing>
-                Personvernerklæring for deg som er under arbeidsrettet oppfølging fra NAV
+                Personvernerklæring for deg som er under arbeidsrettet oppfølging fra Nav
             </Heading>
             <BodyLong>Publisert 1. februar 2022.</BodyLong>
             <BodyLong spacing>Oppdatert 29. juni 2022.</BodyLong>
             <BodyLong className="mb-8">
-                <em>Oppfølging</em> betyr veiledning og hjelp fra NAV til å skaffe ny jobb eller beholde jobben. Dette
-                får du dersom du har registrert deg som arbeidssøker hos NAV.
+                <em>Oppfølging</em> betyr veiledning og hjelp fra Nav til å skaffe ny jobb eller beholde jobben. Dette
+                får du dersom du har registrert deg som arbeidssøker hos Nav.
             </BodyLong>
 
             <Heading size="large" level="2" spacing>
@@ -159,7 +159,7 @@ export default function PersonvernUnderOppfolging() {
             <BodyLong spacing>
                 Arbeidsplassen.no skal bidra et velfungerende arbeidsmarked gjennom en åpen plattform for
                 arbeidsmarkedet. Vi lagrer og behandler personopplysninger for å gjøre det enklere for jobbsøkere å
-                finne jobb og for arbeidsgivere å skaffe arbeidskraft. Dette er i tråd med NAVs samfunnsoppdrag om å få
+                finne jobb og for arbeidsgivere å skaffe arbeidskraft. Dette er i tråd med Navs samfunnsoppdrag om å få
                 flere i arbeid.
             </BodyLong>
 
@@ -167,24 +167,24 @@ export default function PersonvernUnderOppfolging() {
                 Statistikk og kunnskap om arbeidsmarkedet
             </Heading>
             <BodyLong spacing>
-                NAV benytter opplysningene fra arbeidsplassen.no til å utvikle statistikk og kunnskap om
+                Nav benytter opplysningene fra arbeidsplassen.no til å utvikle statistikk og kunnskap om
                 arbeidsmarkedet. Les mer i{" "}
                 <AkselLink href="https://www.nav.no/personvernerklaering#chapter-3">
-                    NAVs personvernerklæring.
+                    Navs personvernerklæring.
                 </AkselLink>
             </BodyLong>
 
             <Heading size="medium" level="3" spacing>
-                Arbeidsrettet oppfølging fra NAV
+                Arbeidsrettet oppfølging fra Nav
             </Heading>
             <BodyLong className="mb-12">
-                NAV behandler personopplysningene til deg som er under arbeidsrettet oppfølging fra NAV, for å kunne
+                Nav behandler personopplysningene til deg som er under arbeidsrettet oppfølging fra Nav, for å kunne
                 hjelpe deg å komme i arbeid raskere. Dette er i tråd med de lovpålagte oppgavene vi har. Opplysningene
                 du oppgir i din CV kan brukes som en del av envurdering av dine rettigheter til tjenester og ytelser fra
-                NAV, Dette omfatter arbeidsformidling, vurdering av ditt bistandsbehov, arbeidsevne og rett til
+                Nav, Dette omfatter arbeidsformidling, vurdering av ditt bistandsbehov, arbeidsevne og rett til
                 dagpenger. Les mer i{" "}
                 <AkselLink href="https://www.nav.no/personvernerklaering#chapter-3">
-                    NAVs personvernerklæring.
+                    Navs personvernerklæring.
                 </AkselLink>
             </BodyLong>
 
@@ -192,10 +192,10 @@ export default function PersonvernUnderOppfolging() {
                 Hvor lenge lagres opplysningene?
             </Heading>
             <BodyLong className="mb-12">
-                Opplysningene oppbevares og behandles så lenge du er under oppfølging av NAV. CV-opplysningene du har
-                oppgitt kan brukes som et grunnlag for vurdering av dine rettigheter til tjenester og ytelser fra NAV.
-                Se <AkselLink href="https://www.nav.no/personvernerklaering#hvilke">NAVs personvernerklæring</AkselLink>{" "}
-                for informasjon om slik behandling. NAV har en lovpålagt plikt til å oppbevare opplysningene i CV også
+                Opplysningene oppbevares og behandles så lenge du er under oppfølging av Nav. CV-opplysningene du har
+                oppgitt kan brukes som et grunnlag for vurdering av dine rettigheter til tjenester og ytelser fra Nav.
+                Se <AkselLink href="https://www.nav.no/personvernerklaering#hvilke">Navs personvernerklæring</AkselLink>{" "}
+                for informasjon om slik behandling. Nav har en lovpålagt plikt til å oppbevare opplysningene i CV også
                 etter at saksbehandlingen er avsluttet jf. Arkivloven § 6.
             </BodyLong>
 
@@ -203,8 +203,8 @@ export default function PersonvernUnderOppfolging() {
                 Hva er det rettslige grunnlaget for behandlingen av personopplysninger?
             </Heading>
             <BodyLong className="mb-12">
-                Utøvelse av offentlig myndighet, jf. NAV-loven § 4 og arbeidsmarkedsloven § 10 NAV behandler
-                personopplysninger for å utøve offentlig myndighet som følger av bestemmelser i NAV-loven og
+                Utøvelse av offentlig myndighet, jf. Nav-loven § 4 og arbeidsmarkedsloven § 10 Nav behandler
+                personopplysninger for å utøve offentlig myndighet som følger av bestemmelser i Nav-loven og
                 arbeidsmarkedsloven om arbeidsrettet oppfølging
             </BodyLong>
 
@@ -216,9 +216,9 @@ export default function PersonvernUnderOppfolging() {
                 Arbeidsgivere på arbeidsplassen.no
             </Heading>
             <BodyLong spacing>
-                Dersom NAV-medarbeidere finner en relevant stilling for deg, kan de spørre deg om de kan dele din CV med
+                Dersom Nav-medarbeidere finner en relevant stilling for deg, kan de spørre deg om de kan dele din CV med
                 denne arbeidsgiveren. Personopplysningene deles ikke med arbeidsgiveren før du godtar dette, og du kan
-                kontakte NAV når som helst for å be om at opplysningene ikke lenger deles med arbeidsgiveren.
+                kontakte Nav når som helst for å be om at opplysningene ikke lenger deles med arbeidsgiveren.
             </BodyLong>
 
             <Heading size="medium" level="3" spacing>
@@ -240,9 +240,9 @@ export default function PersonvernUnderOppfolging() {
             <BodyLong className="mb-12">
                 For å kunne tilby våre tjenester på arbeidsplassen.no benytter vi databehandlere, som innebærer at vi
                 deler dine personopplysninger med disse. Dette gjelder for eksempel IT-leverandører som har avtaler med
-                NAV. For å lese mer om dette, se{" "}
+                Nav. For å lese mer om dette, se{" "}
                 <AkselLink href="https://www.nav.no/personvernerklaering#chapter-4">
-                    NAVs generelle personvernerklæring.
+                    Navs generelle personvernerklæring.
                 </AkselLink>
             </BodyLong>
 
@@ -267,12 +267,12 @@ export default function PersonvernUnderOppfolging() {
             </Heading>
             <BodyLong spacing>
                 Du har rett til å protestere mot at opplysningene dine behandles på arbeidsplassen.no. For å protestere,
-                tar du kontakt med NAV. NAV vil da slutte å behandle opplysningene dine og eventuelt slette dem, med
-                mindre det er tungtveiende grunner til at NAV likevel må behandle dem.
+                tar du kontakt med Nav. Nav vil da slutte å behandle opplysningene dine og eventuelt slette dem, med
+                mindre det er tungtveiende grunner til at Nav likevel må behandle dem.
             </BodyLong>
             <BodyLong spacing>
                 I helt spesielle tilfeller vil du kunne ha rett til å få slettet opplysninger om deg. For at vi skal
-                kunne slette personopplysninger om deg, forutsetter det at NAV ikke har en lovpålagt plikt etter
+                kunne slette personopplysninger om deg, forutsetter det at Nav ikke har en lovpålagt plikt etter
                 arkivloven eller annen lovgivning til å lagre opplysningene.
             </BodyLong>
 
@@ -280,7 +280,7 @@ export default function PersonvernUnderOppfolging() {
                 Rett til begrensning av behandlingen
             </Heading>
             <BodyLong>
-                Du har rett til å be om at NAV midlertidig stopper behandlingen av dine opplysninger, dersom du mener at
+                Du har rett til å be om at Nav midlertidig stopper behandlingen av dine opplysninger, dersom du mener at
                 opplysningene vi har om deg er feil eller du mener at vår behandling av opplysningene er ulovlig. Det
                 samme gjelder dersom du mener at vi ikke trenger opplysningene.
             </BodyLong>

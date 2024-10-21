@@ -84,7 +84,7 @@ export default function PersonvernArbeidsgiver() {
             <BodyLong spacing>
                 Arbeidsplassen.no skal bidra et velfungerende arbeidsmarked gjennom en åpen plattform for
                 arbeidsmarkedet. Vi lagrer og behandler personopplysninger for å gjøre det enklere for jobbsøkere å
-                finne jobb og for arbeidsgivere å skaffe arbeidskraft. Dette er i tråd med NAVs samfunnsoppdrag om å få
+                finne jobb og for arbeidsgivere å skaffe arbeidskraft. Dette er i tråd med Navs samfunnsoppdrag om å få
                 flere i arbeid.
             </BodyLong>
 
@@ -92,10 +92,10 @@ export default function PersonvernArbeidsgiver() {
                 Statistikk og kunnskap om arbeidsmarkedet
             </Heading>
             <BodyLong className="mb-12">
-                NAV benytter opplysningene fra arbeidsplassen.no til å utvikle statistikk og kunnskap om
+                Nav benytter opplysningene fra arbeidsplassen.no til å utvikle statistikk og kunnskap om
                 arbeidsmarkedet. Les mer i{" "}
                 <AkselLink href="https://www.nav.no/personvernerklaering#chapter-3">
-                    NAVs personvernerklæring.
+                    Navs personvernerklæring.
                 </AkselLink>
             </BodyLong>
 
@@ -115,9 +115,9 @@ export default function PersonvernArbeidsgiver() {
                 Offentlig myndighetsutøvelse
             </Heading>
             <BodyLong spacing>
-                NAV behandler personopplysninger for å utøve offentlig myndighet som følger av bestemmelser i NAV-loven
-                og arbeidsmarkedsloven om arbeidsrettet oppfølging, se særlig NAV-loven § 4 og arbeidsmarkedsloven § 10.
-                Det er også nødvendig å behandle personopplysningene til deg som representerer arbeidsgiver, for at NAV
+                Nav behandler personopplysninger for å utøve offentlig myndighet som følger av bestemmelser i Nav-loven
+                og arbeidsmarkedsloven om arbeidsrettet oppfølging, se særlig Nav-loven § 4 og arbeidsmarkedsloven § 10.
+                Det er også nødvendig å behandle personopplysningene til deg som representerer arbeidsgiver, for at Nav
                 skal kunne oppfylle sin overordnede oppgave med å hjelpe å få jobbsøkere i arbeid.
             </BodyLong>
             <BodyLong>Eksempler på behandling basert på offentlig myndighetsutøvelse:</BodyLong>
@@ -153,14 +153,14 @@ export default function PersonvernArbeidsgiver() {
             <BodyLong spacing>
                 Stillingsannonser som publiseres på arbeidsplassen.no blir videresendt til EURES-databasen. EURES
                 (European Employment Services) er et samarbeid mellom EU-kommisjonen og EU/EØS-området og Sveits. I
-                Norge ligger EURES i NAV.
+                Norge ligger EURES i Nav.
             </BodyLong>
 
             <Heading size="medium" level="3" spacing>
                 Åpne data
             </Heading>
             <BodyLong spacing>
-                Aktive stillingsutlysninger er offentlig publiserte data som NAV igjen tilgjengeliggjør som åpne data i
+                Aktive stillingsutlysninger er offentlig publiserte data som Nav igjen tilgjengeliggjør som åpne data i
                 tråd med føringer for offentlig myndigheter. Dette gjøres gjennom Felles datakatalog som forvaltes av
                 Digitaliseringsdirektoratet.
             </BodyLong>
@@ -171,9 +171,9 @@ export default function PersonvernArbeidsgiver() {
             <BodyLong className="mb-12">
                 For å kunne tilby våre tjenester på arbeidsplassen.no benytter vi databehandlere, som innebærer at vi
                 deler dine personopplysninger med disse. Dette gjelder for eksempel IT-leverandører som har avtaler med
-                NAV. For å lese mer om dette, se{" "}
+                Nav. For å lese mer om dette, se{" "}
                 <AkselLink href="https://www.nav.no/personvernerklaering#chapter-4">
-                    NAVs generelle personvernerklæring.
+                    Navs generelle personvernerklæring.
                 </AkselLink>
             </BodyLong>
 
@@ -200,12 +200,12 @@ export default function PersonvernArbeidsgiver() {
             </Heading>
             <BodyLong spacing>
                 Du har rett til å protestere mot at opplysningene dine behandles på arbeidsplassen.no. For å protestere,
-                tar du kontakt med NAV. NAV vil da slutte å behandle opplysningene dine og eventuelt slette dem, med
-                mindre det er tungtveiende grunner til at NAV likevel må behandle dem.
+                tar du kontakt med Nav. Nav vil da slutte å behandle opplysningene dine og eventuelt slette dem, med
+                mindre det er tungtveiende grunner til at Nav likevel må behandle dem.
             </BodyLong>
             <BodyLong>
                 I helt spesielle tilfeller vil du kunne ha rett til å få slettet opplysninger om deg. For at vi skal
-                kunne slette personopplysninger om deg, forutsetter det at NAV ikke har en lovpålagt plikt etter
+                kunne slette personopplysninger om deg, forutsetter det at Nav ikke har en lovpålagt plikt etter
                 arkivloven eller annen lovgivning til å lagre opplysningene.
             </BodyLong>
         </article>

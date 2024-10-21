@@ -76,7 +76,7 @@ export default function Unemployed() {
                         </div>
 
                         <Heading id="support" size="large" level="2" spacing>
-                            {t("h2-support.title")} (NAV)
+                            {t("h2-support.title")} (Nav)
                         </Heading>
                         <BodyLong spacing>{t("h2-support.p1")}</BodyLong>
                         <BodyLong spacing>{t("h2-support.p2")}</BodyLong>

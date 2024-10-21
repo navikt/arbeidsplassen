@@ -45,7 +45,7 @@ export default function Sommerjobb() {
 
                 <BodyLong spacing>
                     Alle virksomheter med behov for ferievikarer og ekstrahjelp er velkomne til å lyse ut sine
-                    stillinger på arbeidsplassen.no, NAV sin stillingsdatabase. Da får flest mulig vite om
+                    stillinger på arbeidsplassen.no, Nav sin stillingsdatabase. Da får flest mulig vite om
                     jobbmulighetene. Tjenestene på arbeidsplassen.no er kostnadsfrie.
                 </BodyLong>
                 <BodyLong className="mb-12">
@@ -106,7 +106,7 @@ export default function Sommerjobb() {
                         image="/images/api.png"
                         alt="API, illustrasjon"
                         title="Overføring av stillingsannonser til arbeidsplassen.no"
-                        description="NAVs import-API er utviklet for at det skal være enkelt å publisere stillinger på
+                        description="Navs import-API er utviklet for at det skal være enkelt å publisere stillinger på
                                     arbeidsplassen.no for våre samarbeidspartnere."
                         href="/overforing-av-stillingsannonser"
                         color="tertiary"

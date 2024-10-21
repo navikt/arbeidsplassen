@@ -79,7 +79,7 @@ export default function PersonvernSuperraskSoknad() {
             </BodyLong>
             <BodyLong className="mb-12">
                 Det blir ikke registrert i tjenesten om du er en frivillig jobbsøker, eller om du er en jobbsøker under
-                oppfølging hos NAV. Derfor vil personopplysninger knyttet til din bruk av superrask søknad ikke dukke
+                oppfølging hos Nav. Derfor vil personopplysninger knyttet til din bruk av superrask søknad ikke dukke
                 opp når du logger deg inn på nav.no.
             </BodyLong>
 
@@ -107,7 +107,7 @@ export default function PersonvernSuperraskSoknad() {
             <BodyLong className="mb-12">
                 Det rettslige grunnlaget for behandling av personopplysninger i superrask søknad er
                 Personvernforordningen (GDPR) artikkel 6 nr. 1 bokstav e, og lov om arbeids- og velferdsforvaltningen
-                (NAV-loven) § 4. Behandlingen av personopplysninger er nødvendig for å oppfylle NAVs oppgave med å bistå
+                (Nav-loven) § 4. Behandlingen av personopplysninger er nødvendig for å oppfylle Navs oppgave med å bistå
                 arbeidssøkere med å få jobb, og bistå arbeidsgivere med å skaffe arbeidskraft.
             </BodyLong>
 
@@ -126,7 +126,7 @@ export default function PersonvernSuperraskSoknad() {
                 telefonnummer og kompetanser, som du selv registrerer ved innsending av søknaden.
             </BodyLong>
             <BodyLong className="mb-12">
-                NAV-ansatte, for eksempel utviklere, kan ved tjenstlig behov få tilgang til dine personopplysninger.
+                Nav-ansatte, for eksempel utviklere, kan ved tjenstlig behov få tilgang til dine personopplysninger.
             </BodyLong>
 
             <Heading size="large" level="2" spacing id="rights">
@@ -163,7 +163,7 @@ export default function PersonvernSuperraskSoknad() {
                 Rett til sletting
             </Heading>
             <BodyLong spacing>
-                Du kan ha rett til å få slettet opplysninger om deg. For at NAV skal kunne slette personopplysninger om
+                Du kan ha rett til å få slettet opplysninger om deg. For at Nav skal kunne slette personopplysninger om
                 deg, forutsetter det at vi ikke har en lovpålagt plikt etter arkivloven, eller annen lovgivning til å
                 lagre opplysningene. Du kan selv slette en superrask søknad, ved å bruke lenken du får tilsendt per
                 e-post etter innsending av søknad. Dersom du velger å slette søknaden, vil din søknad også bli slettet
@@ -174,7 +174,7 @@ export default function PersonvernSuperraskSoknad() {
                 Rett til begrensning av behandlingen
             </Heading>
             <BodyLong spacing>
-                Du kan be om at NAV midlertidig stopper behandlingen av dine opplysninger, dersom du mener at
+                Du kan be om at Nav midlertidig stopper behandlingen av dine opplysninger, dersom du mener at
                 opplysningene vi har om deg er feil, eller om du mener behandlingen er ulovlig. Det samme gjelder dersom
                 du mener at vi ikke trenger opplysningene. Når opplysningene blir begrenset, vil de fortsatt bli lagret,
                 men muligheten til å bruke personopplysningene blir begrenset.
@@ -185,7 +185,7 @@ export default function PersonvernSuperraskSoknad() {
             </Heading>
             <BodyLong spacing>
                 Du kan i enkelte tilfeller ha rett til å protestere mot vår behandling av dine personopplysninger.
-                Dersom vilkårene for å protestere mot behandlingen er oppfylt, vil NAV stanse behandlingen, og
+                Dersom vilkårene for å protestere mot behandlingen er oppfylt, vil Nav stanse behandlingen, og
                 opplysningene vil eventuelt bli slettet.
             </BodyLong>
 
@@ -203,7 +203,7 @@ export default function PersonvernSuperraskSoknad() {
                 Vi skal besvare henvendelser om personopplysninger fra deg kostnadsfritt og senest innen 30 dager.
             </BodyLong>
             <BodyLong spacing>
-                Personvernombudet i NAV kan gi deg råd og veiledning om hvordan vi behandler personopplysninger, og
+                Personvernombudet i Nav kan gi deg råd og veiledning om hvordan vi behandler personopplysninger, og
                 hjelpe deg med å ivareta dine personverninteresser.
             </BodyLong>
             <BodyLong spacing>

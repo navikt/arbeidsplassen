@@ -26,7 +26,7 @@ export default function SuperraskSoknadBedrift() {
 
             <div className="container-small mb-16">
                 <BodyLong spacing>
-                    Arbeidplassen.no er en åpen møteplass for alle på arbeidsmarkedet, eid av NAV. Vårt mål er at
+                    Arbeidplassen.no er en åpen møteplass for alle på arbeidsmarkedet, eid av Nav. Vårt mål er at
                     bedrifter og jobbsøkere skal finne hverandre, enkelt og effektivt.
                 </BodyLong>
                 <BodyLong className="mb-12">

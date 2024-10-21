@@ -4,7 +4,7 @@ import Head from "next/head";
 import Layout from "@/src/common/components/layout/Layout";
 
 export const metadata = {
-    title: getMetadataTitle("Retningslinjer for innhold i annonser i NAVs stillingsbase"),
+    title: getMetadataTitle("Retningslinjer for innhold i annonser i Navs stillingsbase"),
 };
 
 export default function Page() {

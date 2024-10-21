@@ -22,7 +22,7 @@ export default function VilkarStillingsannonser() {
             </BodyLong>
             <BodyLong spacing>
                 Stillingsannonsen blir synlig på arbeidsplassen.no få minutter etter at du har sendt den til
-                publisering. NAV kontrollerer i etterkant og tar kontakt hvis annonsen bryter med vilkårene og fjernes,
+                publisering. Nav kontrollerer i etterkant og tar kontakt hvis annonsen bryter med vilkårene og fjernes,
                 slik at du kan rette opp og sende inn for godkjenning på nytt. Alle stillinger publisert på
                 arbeidsplassen.no, blir også delt med Den Europeiske Jobbmobilitetsportalen (EURES-portalen), og et
                 tilgjengelig i åpent API for stillinger.
@@ -66,7 +66,7 @@ export default function VilkarStillingsannonser() {
                         kriterier som ikke er relevante. Annonsen skal heller ikke ha uetisk innhold eller være
                         støtende. Den skal ikke oppfordre til ulovlige handlinger eller være i strid med norsk lov eller{" "}
                         <AkselLink as={NextLink} href="/retningslinjer-stillingsannonser">
-                            NAVs retningslinjer for innhold i stillingsannonser.
+                            Navs retningslinjer for innhold i stillingsannonser.
                         </AkselLink>{" "}
                     </BodyLong>
                 </li>
@@ -78,15 +78,15 @@ export default function VilkarStillingsannonser() {
                 </li>
             </ul>
             <BodyLong className="mb-12">
-                Hvis NAV oppdager en annonse som ikke oppfyller vilkårene, kan den bli slettet eller fjernet uten
-                varsling. NAV vil ta kontakt og informere i etterkant.
+                Hvis Nav oppdager en annonse som ikke oppfyller vilkårene, kan den bli slettet eller fjernet uten
+                varsling. Nav vil ta kontakt og informere i etterkant.
             </BodyLong>
 
             <Heading size="medium" level="3" spacing>
                 Personopplysninger
             </Heading>
             <BodyLong>
-                NAV er pålagt å drive en statlig arbeidsformidling og formidle arbeidskraft. For å kunne tilby disse
+                Nav er pålagt å drive en statlig arbeidsformidling og formidle arbeidskraft. For å kunne tilby disse
                 tjenestene til arbeidsgivere, må vi lagre nødvendige personopplysninger tilknyttet hvem som lager
                 stillingsannonsen, og kontaktperson til stillingen. Vi lagrer disse opplysningene:
             </BodyLong>
@@ -110,12 +110,12 @@ export default function VilkarStillingsannonser() {
             <BodyLong spacing>
                 For mer informasjon,{" "}
                 <AkselLink as={NextLink} href="/arbeidsgivertjenester">
-                    se NAVs personvernerklæring.
+                    se Navs personvernerklæring.
                 </AkselLink>
             </BodyLong>
             <BodyLong className="mb-24">
                 Har du spørsmål, ta gjerne kontakt med oss:{" "}
-                <AkselLink href="https://www.nav.no/arbeidsgiver/kontaktoss">Kontakt NAV - arbeidsgiver</AkselLink>
+                <AkselLink href="https://www.nav.no/arbeidsgiver/kontaktoss">Kontakt Nav - arbeidsgiver</AkselLink>
             </BodyLong>
         </article>
     );

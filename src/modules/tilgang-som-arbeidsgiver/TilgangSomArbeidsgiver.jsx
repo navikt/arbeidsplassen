@@ -15,7 +15,7 @@ export default function TilgangSomArbeidsgiver() {
             <BodyLong spacing>
                 For å benytte arbeidsgivertjenestene på arbeidsplassen.no må den ansatte ha enten
                 Altinn-enkeltrettigheten «Rekruttering» eller en av Altinn-rollene «Lønn og personalmedarbeider» eller
-                «Utfyller/Innsender». Enkeltrettigheten «Rekruttering» gir kun tilgang til NAVs rekrutteringstjenester.
+                «Utfyller/Innsender». Enkeltrettigheten «Rekruttering» gir kun tilgang til Navs rekrutteringstjenester.
                 De to rollene gir også rettigheter til andre ting.
             </BodyLong>
             <Heading spacing size="large" level="2">
@@ -75,7 +75,7 @@ export default function TilgangSomArbeidsgiver() {
             <BodyLong spacing>
                 For å benytte arbeidsgivertjenestene på arbeidsplassen.no må den ansatte ha enkeltrettigheten
                 «Rekruttering» eller rollen «Lønn og personalmedarbeider» eller rollen «Utfyller/Innsender».
-                Enkeltrettigheten «Rekruttering» gir kun tilgang til NAVs rekrutteringstjenester. De to rollene gir også
+                Enkeltrettigheten «Rekruttering» gir kun tilgang til Navs rekrutteringstjenester. De to rollene gir også
                 rettigheter til andre ting. Daglig leder og styreleder i en virksomhet har automatisk rettigheten
                 Rekruttering.
             </BodyLong>
