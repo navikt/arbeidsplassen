@@ -135,6 +135,13 @@
     gap: 2rem;
 }
 
+.video-image {
+    position: relative !important;
+    max-height: 150px;
+    object-fit: cover;
+    width: 100%;
+}
+
 @media (min-width: 768px) {
     .image-link-panel-grid-small,
     .image-link-panel-grid-medium {
@@ -158,4 +165,15 @@
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 2rem;
     }
+}
+
+/* Fix bullet point position on <ul> */
+/* stylelint-disable-next-line selector-class-pattern */
+.navds-list .navds-list__item-marker--bullet {
+    height: var(--a-font-line-height-large);
+}
+
+.video {
+    height: 300px;
+    width: 530px;
 }
