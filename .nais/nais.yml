@@ -17,7 +17,7 @@ spec:
   replicas:
     min: 2
     max: 2
-  cpuThresholdPercentage: 50
+    cpuThresholdPercentage: 50
   resources:
     limits:
       cpu: 500m
@@ -37,10 +37,13 @@ spec:
   prometheus:
     enabled: true
     path: /metrics
+  observability:
+    logging:
+      destinations:
+        - id: loki
+        - id: elastic
   ingresses:
-  {{#each ingress as |url|}}
-     - {{url}}
-  {{/each}}
+     - {{ ingress }}
   env:
     - name: PORT
       value: "8080"

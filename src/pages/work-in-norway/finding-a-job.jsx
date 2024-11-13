@@ -2,17 +2,17 @@ import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
-import { BodyLong, BodyShort, Heading, LinkPanel, Link as DsLink } from "@navikt/ds-react";
+import { BodyLong, BodyShort, Heading, Link as AkselLink, LinkPanel } from "@navikt/ds-react";
 import TableOfContents from "@/src/common/components/TableOfContents";
-import NextLink from "next/link";
 
 export default function FindingAJob() {
     const { t } = useTranslation(["finding-a-job", "work-in-norway"]);
+    const translationTitle = `${t("finding-a-job-title", { ns: "work-in-norway" })} - arbeidsplassen.no`;
 
     return (
         <Layout>
             <Head>
-                <title>{t("finding-a-job-title", { ns: "work-in-norway" })} - arbeidsplassen.no</title>
+                <title>{translationTitle}</title>
             </Head>
             <div className="ukraine-page">
                 <div className="green-box container-large">
@@ -23,15 +23,17 @@ export default function FindingAJob() {
                         <BodyShort>{t("ukrainian-work-in-norway-title", { ns: "work-in-norway" })}</BodyShort>
                     </div>
                 </div>
-                <div className="container-large ukraine-page-main-container">
+                <article className="container-large ukraine-page-main-container">
                     <TableOfContents selectorPrefix="main" />
-                    <article className="container-small">
+                    <div className="container-small">
                         <Heading id="when-can-i-start-looking" size="large" level="2" spacing>
                             {t("h2-start-looking.title")}
                         </Heading>
                         <BodyLong spacing>
                             {t("h2-start-looking.p1")}{" "}
-                            <DsLink href={t("h2-start-looking.p1-link")}>{t("h2-start-looking.p1-link-text")}</DsLink>{" "}
+                            <AkselLink className="display-inline" href={t("h2-start-looking.p1-link")}>
+                                {t("h2-start-looking.p1-link-text")}
+                            </AkselLink>{" "}
                             {t("h2-start-looking.p1-2")}
                         </BodyLong>
                         <BodyLong spacing>{t("h2-start-looking.p2")}</BodyLong>
@@ -61,43 +63,27 @@ export default function FindingAJob() {
                         </Heading>
                         <BodyLong spacing>
                             {t("h2-find-job.p1")}{" "}
-                            <DsLink hrefLang="no" href="/stillinger?q=english">
-                                {t("h2-find-job.p1-link-text")}
-                            </DsLink>
-                        </BodyLong>
-                        <BodyLong spacing>
-                            {t("h2-find-job.p2")}{" "}
-                            <NextLink
-                                href="/mot-bedrifter-pa-en-ny-mate"
-                                passHref
-                                legacyBehavior
-                                locale="no"
+                            <AkselLink
+                                className="display-inline"
                                 hrefLang="no"
+                                href="/stillinger?workLanguage=Engelsk&v=2"
                             >
-                                <DsLink>{t("h2-find-job.p2-link-text-1")}</DsLink>
-                            </NextLink>{" "}
-                            {t("h2-find-job.p2-2")}{" "}
-                            <DsLink href="/jobbtreff" hrefLang="no">
-                                {t("h2-find-job.p2-link-text-2")}
-                            </DsLink>{" "}
-                            {t("h2-find-job.p2-3")}
+                                {t("h2-find-job.p1-link-text")}
+                            </AkselLink>{" "}
+                            {t("h2-find-job.p1-after-link")}
                         </BodyLong>
+
                         <Heading size="small" level="3" spacing>
                             {t("h3-news-articles", { ns: "work-in-norway" })}
                         </Heading>
                         <div className="article-link-panel-container mb-12">
-                            <LinkPanel className="arb-link-panel-tertiary" href="/stillinger?q=english" hrefLang="no">
-                                <LinkPanel.Title className="navds-heading--small">
-                                    {t("2-link-panels.1-title")}
-                                </LinkPanel.Title>
-                            </LinkPanel>
                             <LinkPanel
                                 className="arb-link-panel-tertiary"
-                                href="/mot-bedrifter-pa-en-ny-mate"
+                                href="/stillinger?workLanguage=Engelsk&v=2"
                                 hrefLang="no"
                             >
                                 <LinkPanel.Title className="navds-heading--small">
-                                    {t("2-link-panels.2-title")}
+                                    {t("2-link-panels.1-title")}
                                 </LinkPanel.Title>
                             </LinkPanel>
                         </div>
@@ -107,31 +93,35 @@ export default function FindingAJob() {
                         </Heading>
                         <BodyLong spacing>
                             {t("h2-assistance.p1")}{" "}
-                            <DsLink hrefLang="en" href="https://www.nav.no/kontaktoss/en">
+                            <AkselLink className="display-inline" hrefLang="en" href="https://www.nav.no/kontaktoss/en">
                                 {t("h2-assistance.p1-link-text-1")}
-                            </DsLink>{" "}
+                            </AkselLink>{" "}
                             {t("h2-assistance.p1-2")}
-                            <DsLink href="https://www.nav.no/arbeid/registrering" hrefLang="no">
+                            <AkselLink
+                                className="display-inline"
+                                href="https://www.nav.no/arbeid/registrering"
+                                hrefLang="no"
+                            >
                                 {t("h2-assistance.p1-link-text-2")}
-                            </DsLink>{" "}
+                            </AkselLink>{" "}
                             {t("h2-assistance.p1-3")}
                         </BodyLong>
 
                         <BodyLong>{t("h2-assistance.p2")}</BodyLong>
-                        <DsLink href={t("h2-assistance.link-3")} className="mb-8">
+                        <AkselLink href={t("h2-assistance.link-3")} className="mb-8">
                             {t("h2-assistance.link-text-3")}
-                        </DsLink>
+                        </AkselLink>
 
                         <BodyLong>{t("h2-assistance.p3")}</BodyLong>
                         <BodyLong>{t("h2-assistance.p4")}</BodyLong>
-                        <DsLink href={t("h2-assistance.link-4")} className="mb-8">
+                        <AkselLink href={t("h2-assistance.link-4")} className="mb-8">
                             {t("h2-assistance.link-text-4")}
-                        </DsLink>
+                        </AkselLink>
 
                         <BodyLong>{t("h2-assistance.p5")}</BodyLong>
-                        <DsLink href={t("h2-assistance.link-5")} className="mb-8">
+                        <AkselLink href={t("h2-assistance.link-5")} className="mb-8">
                             {t("h2-assistance.link-text-5")}
-                        </DsLink>
+                        </AkselLink>
 
                         <BodyLong spacing>{t("h2-assistance.p6")}</BodyLong>
 
@@ -164,18 +154,21 @@ export default function FindingAJob() {
                         </Heading>
                         <BodyLong spacing>
                             {t("h2-working-wo-norwegian.p1")}{" "}
-                            <DsLink href="/stillinger?q=english">{t("h2-working-wo-norwegian.p-link-text")}</DsLink>{" "}
+                            <AkselLink className="display-inline" href="/stillinger?workLanguage=Engelsk&v=2">
+                                {t("h2-working-wo-norwegian.p-link-text")}
+                            </AkselLink>{" "}
                             {t("h2-working-wo-norwegian.p1-2")}
                         </BodyLong>
+                        <BodyLong spacing>{t("h2-working-wo-norwegian.p2")}</BodyLong>
 
                         <Heading size="small" level="3" spacing>
                             {t("h3-norwegian-courses.title")}
                         </Heading>
                         <BodyLong spacing>
                             {t("h3-norwegian-courses.p1")}{" "}
-                            <DsLink href={t("h3-norwegian-courses.p1-link")}>
+                            <AkselLink className="display-inline" href={t("h3-norwegian-courses.p1-link")}>
                                 {t("h3-norwegian-courses.p1-link-text")}
-                            </DsLink>{" "}
+                            </AkselLink>{" "}
                             {t("h3-norwegian-courses.p1-2")}
                         </BodyLong>
                         <BodyLong spacing>{t("h3-norwegian-courses.p2")}</BodyLong>
@@ -190,8 +183,8 @@ export default function FindingAJob() {
                                 </LinkPanel.Title>
                             </LinkPanel>
                         </div>
-                    </article>
-                </div>
+                    </div>
+                </article>
             </div>
         </Layout>
     );

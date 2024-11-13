@@ -1,21 +1,19 @@
-import { BodyLong, Heading } from "@navikt/ds-react";
-import Layout from "@/src/common/components/layout/Layout";
+import Utlogget from "@/src/modules/utlogget/Utlogget";
+import { getMetadataTitle } from "@/src/modules/layout";
 import Head from "next/head";
-import WavingGrape from "@/src/common/components/images/WavingGrape";
+import Layout from "@/src/common/components/layout/Layout";
 
-export default function Custom404() {
+export const metadata = {
+    title: getMetadataTitle("Utlogget"),
+};
+
+export default function Page() {
     return (
         <Layout>
             <Head>
-                <title>Utlogget - arbeidsplassen.no</title>
+                <title>{metadata.title}</title>
             </Head>
-            <div className="container-small page-margin-top-and-bottom text-center">
-                <WavingGrape className="mb-8" ariaHidden="true" />
-                <Heading spacing size="large" level="1">
-                    Du er nå logget ut
-                </Heading>
-                <BodyLong>Takk for denne gang.</BodyLong>
-            </div>
+            <Utlogget />
         </Layout>
     );
 }

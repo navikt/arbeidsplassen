@@ -1,14 +1,19 @@
-import MainPageBedrift from "@/src/common/components/bedrift/MainPageBedrift";
-import Layout from "@/src/common/components/layout/Layout";
+import Bedrift from "@/src/modules/bedrift/Bedrift";
 import Head from "next/head";
+import Layout from "@/src/common/components/layout/Layout";
+import { getMetadataTitle } from "@/src/modules/layout";
 
-export default function BedriftPage() {
+export const metadata = {
+    title: getMetadataTitle("Bedrift"),
+};
+
+export default function Page() {
     return (
-        <Layout active="bedrift">
+        <Layout>
             <Head>
-                <title>Bedrift - arbeidsplassen.no</title>
+                <title>{metadata.title}</title>
             </Head>
-            <MainPageBedrift />
+            <Bedrift />
         </Layout>
     );
 }

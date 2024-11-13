@@ -1,3 +1,58 @@
+.ukraine {
+    background-color: var(--a-surface-alt-3-moderate);
+    text-align: start;
+    padding: 1rem;
+}
+
+@media (min-width: 415px) {
+    .ukraine {
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .ukraine {
+        padding: 1.5rem;
+    }
+}
+
+.ukraine-grid {
+    display: inline-grid;
+    flex-wrap: wrap;
+    gap: 1rem 2rem;
+    list-style-type: none;
+    padding-left: 0;
+    justify-content: center;
+    margin: 0;
+}
+
+@media (min-width: 415px) {
+    .ukraine-grid {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem 2rem;
+        list-style-type: none;
+        padding-left: 0;
+        margin-left: 0;
+        justify-content: center;
+    }
+}
+
+.ukraine-flag {
+    height: 2rem;
+    width: min-content;
+    display: inherit;
+    align-items: start;
+}
+
+@media (min-width: 415px) {
+    .ukraine-flag {
+        height: 2rem;
+        width: auto;
+        display: initial;
+    }
+}
+
 .ukraine-page-main h1,
 .ukraine-page-main p {
     text-align: center;
@@ -7,18 +62,11 @@
     gap: 1rem;
 }
 
-.ukraine-page-main .navds-chips {
-    justify-content: center;
-}
-
-.feedback-container {
-    text-align: center;
-}
-
 .ukraine-page-main-container {
     display: flex;
     flex-direction: column;
 }
+
 .ukraine-page-main-container .container-small {
     margin-top: 4rem;
     padding: 0;
@@ -35,8 +83,8 @@
 }
 
 .ukraine-page .green-box {
-    background: var(--arb-green-50);
-    box-shadow: 0 0 0 100vmax var(--arb-green-50);
+    background: var(--a-surface-alt-1-subtle);
+    box-shadow: 0 0 0 100vmax var(--a-surface-alt-1-subtle);
     clip-path: inset(0 -100vmax);
     margin-bottom: 3rem;
 }
@@ -60,12 +108,4 @@
         flex-grow: 1;
         width: 40%;
     }
-}
-
-.ukraine-page p .navds-link {
-    display: inline;
-}
-
-.foreign-edu-list {
-    margin-bottom: var(--a-spacing-7);
 }

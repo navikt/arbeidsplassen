@@ -1,4 +1,5 @@
 import * as amplitude from "@amplitude/analytics-browser";
+import getSessionId from "@/src/common/utils";
 
 function getAmplitudeKey() {
     if (typeof window === "undefined") return ""; // server side
@@ -7,11 +8,18 @@ function getAmplitudeKey() {
     return ""; // other e.g. localhost
 }
 
+function setUserProperties(property, value) {
+    const userProperties = new amplitude.Identify();
+    userProperties.set(property, value);
+    amplitude.identify(userProperties);
+}
+
 export function setUpAmplitude() {
     try {
         const ampKey = getAmplitudeKey();
         if (!ampKey) return false;
 
+        setUserProperties("sessionId", getSessionId());
         amplitude.init(ampKey, undefined, {
             serverUrl: `https://amplitude.nav.no/collect`,
             defaultTracking: {
@@ -30,12 +38,6 @@ export function setUpAmplitude() {
     } catch (e) {
         return false;
     }
-}
-
-function setUserProperties(property, value) {
-    const userProperties = new amplitude.Identify();
-    userProperties.set(property, value);
-    amplitude.identify(userProperties);
 }
 
 export function setAuthenticatedStatus(authenticated) {

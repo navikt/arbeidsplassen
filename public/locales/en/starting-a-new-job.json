@@ -3,7 +3,8 @@
     "h3-bank-account": {
         "title": "Bank account",
         "p1": "In order to receive your salary, pay bills or receive benefits, you need a bank account. It is your choice which bank you use.",
-        "p2": " Most banks in Norway will require your identification number (D-number or F-number), proof of identity and residency. You can contact your bank of choice for more information."
+        "p2": "Most banks in Norway will require your identification number (D-number or F-number), proof of identity and residency. You can contact your bank of choice for more information.",
+        "a": "How to become a bank customer in Norway (Norwegian)."
     },
     "h3-tax": {
         "title": "Tax deduction card",

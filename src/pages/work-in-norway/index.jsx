@@ -1,4 +1,4 @@
-import { BodyLong, Chips, Heading, Ingress, LinkPanel, Link as DsLink } from "@navikt/ds-react";
+import { BodyLong, Chips, Heading, Ingress, LinkPanel, Link as AkselLink, VStack } from "@navikt/ds-react";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
 import { useTranslation } from "next-i18next";
@@ -34,46 +34,50 @@ export default function WorkInNorway() {
         [switchToLocale],
     );
 
+    const translationTitle = `${t("ukrainian-work-in-norway-title")} - arbeidsplassen.no`;
+
     return (
         <Layout>
             <Head>
-                <title>{t("ukrainian-work-in-norway-title")} - arbeidsplassen.no</title>
+                <title>{translationTitle}</title>
             </Head>
-            <article className="container-medium page-margin-top-and-bottom ukraine-page-main">
+            <article className="container-medium mt-5 mb-24 ukraine-page-main">
                 <Heading size="xlarge" level="1" spacing>
                     {t("ukrainian-work-in-norway-title")}
                 </Heading>
 
                 <Ingress spacing>{t("description")}</Ingress>
 
-                <Chips className="mb-12">
-                    <Chips.Toggle
-                        selected={selectedLanguage === lngEnglish}
-                        key={lngEnglish}
-                        onClick={() => changeLanguage(lngEnglish)}
-                        lang={lngEnglish}
-                    >
-                        Information in English
-                    </Chips.Toggle>
-                    <Chips.Toggle
-                        selected={selectedLanguage === lngUkrainian}
-                        key={lngUkrainian}
-                        onClick={() => changeLanguage(lngUkrainian)}
-                        lang={lngUkrainian}
-                    >
-                        Інформація українською мовою
-                    </Chips.Toggle>
-                    <Chips.Toggle
-                        selected={selectedLanguage === lngRussian}
-                        key={lngRussian}
-                        onClick={() => changeLanguage(lngRussian)}
-                        lang={lngRussian}
-                    >
-                        Информация на русском языке
-                    </Chips.Toggle>
-                </Chips>
+                <VStack align="center">
+                    <Chips className="mb-12">
+                        <Chips.Toggle
+                            selected={selectedLanguage === lngEnglish}
+                            key={lngEnglish}
+                            onClick={() => changeLanguage(lngEnglish)}
+                            lang={lngEnglish}
+                        >
+                            Information in English
+                        </Chips.Toggle>
+                        <Chips.Toggle
+                            selected={selectedLanguage === lngUkrainian}
+                            key={lngUkrainian}
+                            onClick={() => changeLanguage(lngUkrainian)}
+                            lang={lngUkrainian}
+                        >
+                            Інформація українською мовою
+                        </Chips.Toggle>
+                        <Chips.Toggle
+                            selected={selectedLanguage === lngRussian}
+                            key={lngRussian}
+                            onClick={() => changeLanguage(lngRussian)}
+                            lang={lngRussian}
+                        >
+                            Информация на русском языке
+                        </Chips.Toggle>
+                    </Chips>
+                </VStack>
 
-                <div className="arb-link-panel-grid mb-5">
+                <div className="arb-link-panel-grid mb-16">
                     <LinkPanel
                         className="arb-link-panel-secondary"
                         href={`/${selectedLanguage}/work-in-norway/finding-a-job`}
@@ -104,17 +108,17 @@ export default function WorkInNorway() {
                     </LinkPanel>
                 </div>
 
-                <div className="feedback-container">
+                <VStack align="center">
                     <Heading level="2" size="medium" spacing>
                         {t("hotjar.h2", { ns: "hotjar" })}
                     </Heading>
                     <BodyLong spacing>{t("hotjar.p", { ns: "hotjar" })}</BodyLong>
                     <BodyLong>
-                        <DsLink href={t("hotjar.link", { ns: "hotjar" })} className="feedback-link">
+                        <AkselLink href={t("hotjar.link", { ns: "hotjar" })} className="feedback-link">
                             {t("hotjar.link-text", { ns: "hotjar" })}
-                        </DsLink>
+                        </AkselLink>
                     </BodyLong>
-                </div>
+                </VStack>
             </article>
         </Layout>
     );

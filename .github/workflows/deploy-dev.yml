@@ -9,8 +9,7 @@ on:
             - "LICENCE"
             - "CODEOWNERS"
         branches:
-            - 'master'
-            - 'feature/**'
+            - "**"
 
 jobs:
     build-and-deploy:
@@ -19,14 +18,14 @@ jobs:
             id-token: write
             security-events: write
             actions: read
-        uses: navikt/pam-deploy/.github/workflows/deploy-dev.yml@v4
+        if: "(github.ref_name == 'master') || contains(github.event.head_commit.message, 'deploy:dev') || contains(github.ref, 'feature/')"
+        uses: navikt/pam-deploy/.github/workflows/deploy-dev.yml@v7
         with:
-            LANGUAGE: "node"
-            NODE_VERSION: "18"
-            BUILD_CACHE: "npm"
+            LANGUAGE: ""
+            BUILD_SCRIPT: ""
             NAIS_RESOURCE: .nais/nais.yml
             NAIS_VARS: .nais/dev.yml
+            SKIP_DRAFT_RELEASE: ${{ github.ref_name != 'master' }}
         secrets:
-            NAIS_DEPLOY_APIKEY: ${{ secrets.NAIS_DEPLOY_APIKEY }}
             OPTIONAL_SECRET: ${{ secrets.READER_TOKEN }}
             NAIS_WORKLOAD_IDENTITY_PROVIDER: ${{ secrets.NAIS_WORKLOAD_IDENTITY_PROVIDER }}

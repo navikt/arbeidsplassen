@@ -2,16 +2,17 @@ import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
-import { BodyLong, BodyShort, Heading, LinkPanel, Link as DsLink } from "@navikt/ds-react";
+import { BodyLong, BodyShort, Heading, LinkPanel, Link as AkselLink } from "@navikt/ds-react";
 import TableOfContents from "@/src/common/components/TableOfContents";
 
 export default function ApplyingForJob() {
     const { t } = useTranslation(["applying-for-job", "work-in-norway"]);
+    const translationTitle = `${t("applying-for-a-job-title", { ns: "work-in-norway" })} - arbeidsplassen.no`;
 
     return (
         <Layout>
             <Head>
-                <title>{t("applying-for-a-job-title", { ns: "work-in-norway" })} - arbeidsplassen.no</title>
+                <title>{translationTitle}</title>
             </Head>
             <div className="ukraine-page">
                 <div className="green-box container-large">
@@ -22,9 +23,9 @@ export default function ApplyingForJob() {
                         <BodyShort>{t("ukrainian-work-in-norway-title", { ns: "work-in-norway" })}</BodyShort>
                     </div>
                 </div>
-                <div className="container-large ukraine-page-main-container">
+                <article className="container-large ukraine-page-main-container">
                     <TableOfContents selectorPrefix="main" />
-                    <article className="container-small">
+                    <div className="container-small">
                         <Heading id="how-do-i-apply" size="large" level="2" spacing>
                             {t("h2-how-apply")}
                         </Heading>
@@ -84,44 +85,48 @@ export default function ApplyingForJob() {
                         </Heading>
                         <BodyLong spacing>
                             {t("h3-reg-prof.p-1")}{" "}
-                            <DsLink
+                            <AkselLink
                                 href="https://hkdir.no/en/foreign-education/lists-and-databases/regulated-professions"
                                 hrefLang="en"
                             >
                                 {t("h3-reg-prof.p-link-text")}
-                            </DsLink>{" "}
+                            </AkselLink>{" "}
                             {t("h3-reg-prof.p-2")}
                         </BodyLong>
-                        <DsLink href={t("h3-reg-prof.link")} className="mb-8">
+                        <AkselLink href={t("h3-reg-prof.link")} className="mb-8">
                             {t("h3-reg-prof.link-text")}
-                        </DsLink>
+                        </AkselLink>
 
                         <Heading size="small" level="3" spacing>
                             {t("h3-rec-of-edu.title")}
                         </Heading>
                         <BodyLong spacing>{t("h3-rec-of-edu.p")}</BodyLong>
-                        <ul className="foreign-edu-list">
+                        <ul className="mb-7">
                             <li className="mb-4">
-                                <DsLink
+                                <AkselLink
                                     href="https://hkdir.no/en/foreign-education/education-from-outside-of-norway/recognition-of-foreign-higher-education-bachelor-master-and-phd"
                                     hrefLang="en"
                                 >
                                     {t("h3-rec-of-edu.1-link-title")}
-                                </DsLink>
+                                </AkselLink>
                             </li>
                             <li className="mb-4">
-                                <DsLink
+                                <AkselLink
                                     href="https://hkdir.no/en/foreign-education/education-from-outside-of-norway/recognition-of-foreign-tertiary-vocational-education"
                                     hrefLang="en"
                                 >
                                     {t("h3-rec-of-edu.2-link-title")}
-                                </DsLink>
+                                </AkselLink>
                             </li>
                             <li className="mb-4">
-                                <DsLink href={t("h3-rec-of-edu.3-link")}>{t("h3-rec-of-edu.3-link-title")}</DsLink>
+                                <AkselLink href={t("h3-rec-of-edu.3-link")}>
+                                    {t("h3-rec-of-edu.3-link-title")}
+                                </AkselLink>
                             </li>
                             <li>
-                                <DsLink href={t("h3-rec-of-edu.4-link")}>{t("h3-rec-of-edu.4-link-title")}</DsLink>
+                                <AkselLink href={t("h3-rec-of-edu.4-link")}>
+                                    {t("h3-rec-of-edu.4-link-title")}
+                                </AkselLink>
                             </li>
                         </ul>
 
@@ -190,8 +195,8 @@ export default function ApplyingForJob() {
                                 </LinkPanel.Title>
                             </LinkPanel>
                         </div>
-                    </article>
-                </div>
+                    </div>
+                </article>
             </div>
         </Layout>
     );

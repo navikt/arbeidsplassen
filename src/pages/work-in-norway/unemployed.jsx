@@ -2,16 +2,17 @@ import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 import { useTranslation } from "next-i18next";
 import Layout from "@/src/common/components/layout/Layout";
 import Head from "next/head";
-import { BodyLong, BodyShort, Heading, LinkPanel, Link as DsLink } from "@navikt/ds-react";
+import { BodyLong, BodyShort, Heading, LinkPanel, Link as AkselLink } from "@navikt/ds-react";
 import TableOfContents from "@/src/common/components/TableOfContents";
 
 export default function Unemployed() {
     const { t } = useTranslation(["unemployed", "work-in-norway"]);
+    const translationTitle = `${t("finding-a-job-title", { ns: "work-in-norway" })} - arbeidsplassen.no`;
 
     return (
         <Layout>
             <Head>
-                <title>{t("unemployed-title", { ns: "work-in-norway" })} - arbeidsplassen.no</title>
+                <title>{translationTitle}</title>
             </Head>
             <div className="ukraine-page">
                 <div className="green-box container-large">
@@ -22,9 +23,9 @@ export default function Unemployed() {
                         <BodyShort>{t("ukrainian-work-in-norway-title", { ns: "work-in-norway" })}</BodyShort>
                     </div>
                 </div>
-                <div className="container-large ukraine-page-main-container">
+                <article className="container-large ukraine-page-main-container">
                     <TableOfContents selectorPrefix="main" />
-                    <article className="container-small page-margin-top-and-bottom ukraine-page">
+                    <div className="container-small mt-5 mb-24 ukraine-page">
                         <Heading id="unemployed" size="large" level="2" spacing>
                             {t("h2-unemployed.title")}
                         </Heading>
@@ -35,13 +36,21 @@ export default function Unemployed() {
                         </Heading>
                         <BodyLong spacing>
                             {t("h3-benefit.p-1")}
-                            <DsLink href="https://www.nav.no/arbeidsledig-permittert" hrefLang="no">
+                            <AkselLink
+                                className="display-inline"
+                                href="https://www.nav.no/arbeidsledig-permittert"
+                                hrefLang="no"
+                            >
                                 {t("h3-benefit.1-link-title")}
-                            </DsLink>{" "}
+                            </AkselLink>{" "}
                             {t("h3-benefit.p-2")}{" "}
-                            <DsLink href="https://www.nav.no/arbeid/registrering" hrefLang="no">
+                            <AkselLink
+                                className="display-inline"
+                                href="https://www.nav.no/arbeid/registrering"
+                                hrefLang="no"
+                            >
                                 {t("h3-benefit.2-link-title")}
-                            </DsLink>{" "}
+                            </AkselLink>{" "}
                             {t("h3-benefit.p-3")}
                         </BodyLong>
 
@@ -54,7 +63,11 @@ export default function Unemployed() {
                             {t("h3-news-articles", { ns: "work-in-norway" })}
                         </Heading>
                         <div className="article-link-panel-container mb-12">
-                            <LinkPanel className="arb-link-panel-tertiary" href="/stillinger?q=english" hrefLang="no">
+                            <LinkPanel
+                                className="arb-link-panel-tertiary"
+                                href="/stillinger?workLanguage=Engelsk&v=2"
+                                hrefLang="no"
+                            >
                                 <LinkPanel.Title className="navds-heading--small">
                                     {t("1-link-panels.1-title")}
                                 </LinkPanel.Title>
@@ -71,15 +84,19 @@ export default function Unemployed() {
                         </div>
 
                         <Heading id="support" size="large" level="2" spacing>
-                            {t("h2-support.title")} (NAV)
+                            {t("h2-support.title")} (Nav)
                         </Heading>
                         <BodyLong spacing>{t("h2-support.p1")}</BodyLong>
                         <BodyLong spacing>{t("h2-support.p2")}</BodyLong>
                         <BodyLong spacing>
                             {t("h2-support.p3-1")}{" "}
-                            <DsLink href="https://www.nav.no/opplysning-rad-veiledning/en" hrefLang="en">
+                            <AkselLink
+                                className="display-inline"
+                                href="https://www.nav.no/opplysning-rad-veiledning/en"
+                                hrefLang="en"
+                            >
                                 {t("h2-support.p3-link-title")}
-                            </DsLink>{" "}
+                            </AkselLink>{" "}
                             {t("h2-support.p3-2")}
                         </BodyLong>
 
@@ -102,8 +119,8 @@ export default function Unemployed() {
                                 </LinkPanel.Title>
                             </LinkPanel>
                         </div>
-                    </article>
-                </div>
+                    </div>
+                </article>
             </div>
         </Layout>
     );

@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import PropTypes from "prop-types";
-import { Label, Link as DsLink } from "@navikt/ds-react";
+import { Link as AkselLink, Heading } from "@navikt/ds-react";
 import { ChevronLeftIcon } from "@navikt/aksel-icons";
 import NextLink from "next/link";
 
@@ -24,7 +24,7 @@ const useHeadingsData = (prefix = "") => {
     const [nestedHeadings, setNestedHeadings] = useState([]);
 
     useEffect(() => {
-        const headingElements = Array.from(document.querySelectorAll(`${prefix} h2`));
+        const headingElements = Array.from(document.querySelectorAll(`${prefix} h2:not(nav h2)`));
 
         const newNestedHeadings = getNestedHeadings(headingElements);
         setNestedHeadings(newNestedHeadings);
@@ -33,9 +33,9 @@ const useHeadingsData = (prefix = "") => {
     return { nestedHeadings };
 };
 
-function Headings({ headings, activeId }) {
+function Headings({ headings, activeId, ariaLabelledBy }) {
     return (
-        <ul>
+        <ul aria-labelledby={ariaLabelledBy}>
             {headings.map((heading) => (
                 <li key={heading.id} className={heading.id === activeId ? "active" : ""}>
                     <NextLink
@@ -62,13 +62,14 @@ Headings.propTypes = {
         }),
     ),
     activeId: PropTypes.string,
+    ariaLabelledBy: PropTypes.string,
 };
 
 const useIntersectionObserver = (setActiveId, prefix = "") => {
     const headingElementsRef = useRef({});
 
     useEffect(() => {
-        const headingElements = Array.from(document.querySelectorAll(`${prefix} h2`));
+        const headingElements = Array.from(document.querySelectorAll(`${prefix} h2:not(nav h2)`));
         const callback = (headings) => {
             headingElementsRef.current = headings.reduce((map, headingElement) => {
                 const mapping = map;
@@ -103,35 +104,36 @@ const useIntersectionObserver = (setActiveId, prefix = "") => {
     }, [setActiveId, prefix]);
 };
 
-function TableOfContents({ selectorPrefix }) {
+function TableOfContents({ selectorPrefix = "" }) {
     const [activeId, setActiveId] = useState();
     const { nestedHeadings } = useHeadingsData(selectorPrefix);
     useIntersectionObserver(setActiveId, selectorPrefix);
 
     return (
-        <div className="table-of-contents-wrapper">
+        <nav className="table-of-contents-wrapper" aria-label="Page contents">
             <div className="table-of-contents-container">
-                <Label className="table-of-contents-label">Page contents</Label>
-                <nav className="table-of-contents" aria-label="Table of contents">
-                    <Headings headings={nestedHeadings} activeId={activeId} />
-                </nav>
-                <NextLink href="/work-in-norway" passHref legacyBehavior>
-                    <DsLink className="table-of-contents back-link-main-content">
-                        <ChevronLeftIcon aria-hidden="true" />
-                        Back to main page
-                    </DsLink>
-                </NextLink>
+                <Heading id="table-of-contents" className="table-of-contents-label" lang="en" level="2" size="small">
+                    Page contents
+                </Heading>
+                <div className="table-of-contents">
+                    <Headings headings={nestedHeadings} activeId={activeId} ariaLabelledBy="table-of-contents" />
+                </div>
+                <AkselLink
+                    as={NextLink}
+                    href="/work-in-norway"
+                    className="table-of-contents back-link-main-content"
+                    lang="en"
+                >
+                    <ChevronLeftIcon aria-hidden="true" />
+                    Back to main page
+                </AkselLink>
             </div>
-        </div>
+        </nav>
     );
 }
 
 TableOfContents.propTypes = {
     selectorPrefix: PropTypes.string,
-};
-
-TableOfContents.defaultProps = {
-    selectorPrefix: "",
 };
 
 export default TableOfContents;
