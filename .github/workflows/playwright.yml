@@ -1,7 +1,7 @@
 name: Playwright Tests
 on:
   push:
-    branches: [ main, master ]
+    branches: [ main, master, feature/playwright ]
   pull_request:
     branches: [ main, master ]
 jobs:
@@ -25,3 +25,5 @@ jobs:
         name: playwright-report
         path: playwright-report/
         retention-days: 30
+      secrets:
+        OPTIONAL_SECRET: ${{ secrets.READER_TOKEN }}
