@@ -5,6 +5,20 @@ npm install
 npm run dev
 ```
 
+### Tests
+
+For å kjøre tester så kan du bruke følgende kommando:
+
+```bash
+npx playwright test
+```
+
+Tester vil kjøre i github hvis en av følgende er sant:
+
+1. Push til master/main
+2. Pull request blir laget
+3. Commits som innholder `run:tests`
+
 ### Hvordan få tilgang til @navikt/arbeidsplassen-react og @navikt/arbeidsplassen-css
 
 1. Opprett fila `.npmrc` i hjemkatalogen din f.eks. `~/.npmrc` [Mer info.](https://docs.npmjs.com/cli/v9/configuring-npm/npmrc)
