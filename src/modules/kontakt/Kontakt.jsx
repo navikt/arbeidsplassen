@@ -14,7 +14,7 @@ export default function Kontakt() {
                 <li>
                     <BodyLong>
                         Se vår{" "}
-                        <Link href="https://www.nav.no/teknisk">teknisk brukerstøtteside for privatpersoner</Link>
+                        <Link href="https://www.nav.no/brukerstotte">teknisk brukerstøtteside for privatpersoner</Link>
                     </BodyLong>
                 </li>
                 <li>
@@ -32,7 +32,9 @@ export default function Kontakt() {
                 <li>
                     <BodyLong>
                         Se vår{" "}
-                        <Link href="https://www.nav.no/teknisk-bedrift">teknisk brukerstøtteside for bedrifter</Link>
+                        <Link href="https://www.nav.no/arbeidsgiver/brukerstotte">
+                            teknisk brukerstøtteside for bedrifter
+                        </Link>
                     </BodyLong>
                 </li>
                 <li>
