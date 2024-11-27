@@ -75,7 +75,7 @@ export default function VilkarApiGammel() {
             </Heading>
             <BodyLong spacing>
                 Mer informasjon om API-et og tilkobling finner du i{" "}
-                <AkselLink href="https://data.norge.no/dataservices/ed933ffe-a32c-38a2-9921-1fed86ad3173">
+                <AkselLink href="https://data.norge.no/data-services/ed933ffe-a32c-38a2-9921-1fed86ad3173">
                     Datatjenestebeskrivelse i Felles datakatalog.
                 </AkselLink>
             </BodyLong>

@@ -118,7 +118,7 @@ export default function TilgangSomArbeidsgiver() {
             </BodyLong>
             <BodyLong spacing>
                 Se også Altinn sine egne veiledninger.{" "}
-                <AkselLink href="Se også Altinn sine egne veiledninger. https://www.altinn.no/hjelp/profil/roller-og-rettigheter/hvordan-gi-rettigheter-til-andre/">
+                <AkselLink href="https://info.altinn.no/hjelp/profil/enkelttjenester-og-roller/hvordan-gi-en-enkelttjeneste-og-rolle-til-andre/">
                     https://www.altinn.no/hjelp/profil/roller-og-rettigheter/hvordan-gi-rettigheter-til-andre/
                 </AkselLink>
             </BodyLong>
