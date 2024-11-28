@@ -1,53 +1,4 @@
-import { expect, test } from "@playwright/test";
-
-async function testAllLinksOnPage(page) {
-    const links: Array<string> = await page.evaluate(() => {
-        // Apps that are not running in playwright container
-        const exceptionList: string[] = [
-            "/stillinger",
-            "/cv",
-            "/cv?v1",
-            "/stillingsregistrering",
-            "#",
-            "mailto:",
-            "/api",
-            "/oauth",
-            "/min-side",
-            "../oauth2",
-        ];
-
-        return Array.from(document.links)
-            .map((link) => link?.getAttribute("href"))
-            .filter((link) => !exceptionList.some((exception) => link.startsWith(exception)));
-    });
-
-    const result = (
-        await Promise.all(
-            links.map(async (link) => {
-                let tries = 0;
-                while (tries < 5) {
-                    tries += 1;
-                    try {
-                        // eslint-disable-next-line no-await-in-loop
-                        const response = await page.request.head(link, {
-                            headers: {
-                                Accept: "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
-                            },
-                        }); // equivalent to command "curl -I <link>"
-                        if (response?.status() < 400) {
-                            return null;
-                        }
-                        console.error(`invalid response status ${link}, try ${tries} : ${response?.status()}`);
-                    } catch (error) {
-                        console.error(`error reaching ${link}, try ${tries} : ${error}`);
-                    }
-                }
-                return link;
-            }),
-        )
-    ).filter((item) => item !== null);
-    return result;
-}
+import { expect, Page, test } from "@playwright/test";
 
 const pagesToVisit = [
     "/",
@@ -95,6 +46,72 @@ const pagesToVisit = [
     "/vilkar-superrask-soknad",
 ];
 
+function randomDelay(min: number, max: number): Promise<void> {
+    const ms = Math.floor(Math.random() * (max - min + 1) + min);
+    return new Promise((resolve) => {
+        setTimeout(resolve, ms);
+    });
+}
+
+async function validateLink(link: string, page: Page) {
+    let tries = 0;
+    while (tries < 5) {
+        tries += 1;
+        // eslint-disable-next-line no-await-in-loop
+        await randomDelay(250, 1000); // Forsinkelse mellom forsøk
+        try {
+            // eslint-disable-next-line no-await-in-loop
+            const response = await page.request.head(link, {
+                headers: {
+                    Accept: "text/html,application/xhtml+xml",
+                    "User-Agent":
+                        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36",
+                },
+            }); // equivalent to command "curl -I <link>"
+
+            if (response?.status() === 429) {
+                console.warn(`Rate limit hit for ${link} - try ${tries}, retrying after delay`);
+                // eslint-disable-next-line no-await-in-loop
+                await randomDelay(1000, 1000); // Vent 1 sekund og prøv igjen
+            } else if (response?.status() < 400) {
+                return null;
+            } else {
+                console.error(`invalid response status ${link} - try ${tries} : ${response?.status()}`);
+            }
+        } catch (error) {
+            console.error(`error reaching ${link}, try ${tries} : ${error}`);
+        }
+    }
+    return link;
+}
+
+async function validateLinksOnPage(page: Page, limit) {
+    const links: Array<string> = await page.evaluate(() => {
+        // Apps that are not running in playwright container
+        const exceptionList: string[] = [
+            "/stillinger",
+            "/cv",
+            "/cv?v1",
+            "/stillingsregistrering",
+            "#",
+            "mailto:",
+            "/api",
+            "/oauth",
+            "/min-side",
+            "../oauth2",
+        ];
+
+        return Array.from(document.links)
+            .map((link) => link?.getAttribute("href"))
+            .filter((link) => !exceptionList.some((exception) => link.startsWith(exception)));
+    });
+
+    const result = (await Promise.all(links.map(async (link) => limit(() => validateLink(link, page))))).filter(
+        (item) => item !== null,
+    );
+    return result;
+}
+
 // const pagesToVisit = ["/vilkar-api", "/vilkar-api-gammel"];
 
 pagesToVisit.forEach((page) => {
@@ -102,7 +119,9 @@ pagesToVisit.forEach((page) => {
         const context = await browser.newContext();
         const browserPage = await context.newPage();
         await browserPage.goto(page, { timeout: 30000 });
-        const result = await testAllLinksOnPage(browserPage);
+        const { default: pLimit } = await import("p-limit");
+        const limit = pLimit(2);
+        const result = await validateLinksOnPage(browserPage, limit);
         expect(result.length === 0, `${page} has broken links: ${result}`).toBe(true);
     });
 });
