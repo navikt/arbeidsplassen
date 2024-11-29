@@ -112,8 +112,6 @@ async function validateLinksOnPage(page: Page, limit) {
     return result;
 }
 
-// const pagesToVisit = ["/vilkar-api", "/vilkar-api-gammel"];
-
 pagesToVisit.forEach((page) => {
     test(`Test for broken links on ${page}`, async ({ browser }) => {
         const context = await browser.newContext();
