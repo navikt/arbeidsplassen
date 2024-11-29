@@ -35,7 +35,8 @@
             {
                 "ignoreFunctionalComponents": true
             }
-        ]
+        ],
+        "no-promise-executor-return": "off"
     },
     "settings": {
         "import/resolver": {
