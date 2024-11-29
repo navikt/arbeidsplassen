@@ -1,7 +1,7 @@
 name: Playwright Tests
 on:
   push:
-    branches: ['**']
+    branches-ignore: ['main', 'master']
   pull_request:
     branches: [ main, master ]
 jobs:
@@ -31,7 +31,7 @@ jobs:
         npm config set //npm.pkg.github.com/:_authToken $NPM_AUTH_TOKEN
         npm ci --prefer-offline --no-audit --ignore-scripts
     - name: Build application
-      run: npm run build && npm prune --production --offline
+      run: npm run build
     - name: Run application
       env:
         NODE_ENV: production
