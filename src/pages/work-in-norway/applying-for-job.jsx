@@ -6,7 +6,7 @@ import { BodyLong, BodyShort, Heading, LinkPanel, Link as AkselLink } from "@nav
 import TableOfContents from "@/src/common/components/TableOfContents";
 
 export default function ApplyingForJob() {
-    const { t } = useTranslation(["applying-for-job", "work-in-norway"]);
+    const { t, i18n } = useTranslation(["applying-for-job", "work-in-norway"]);
     const translationTitle = `${t("applying-for-a-job-title", { ns: "work-in-norway" })} - arbeidsplassen.no`;
 
     return (
@@ -46,6 +46,16 @@ export default function ApplyingForJob() {
                         <BodyLong spacing>{t("h3-ss.p1")}</BodyLong>
                         <BodyLong spacing>{t("h3-ss.p2")}</BodyLong>
 
+                        {i18n.exists("link-to-cv-video", { ns: "applying-for-job" }) && (
+                            <BodyLong spacing>
+                                <AkselLink
+                                    inlineText
+                                    href="https://play2.qbrick.com/qplayer/index.html?accountId=763558&mediaId=3b0c0e7f-57e2-45a1-b94a-6f463b550d40&configId=Enterprise"
+                                >
+                                    {t("link-to-cv-video")} <span translate="no">arbeidsplassen.no</span>
+                                </AkselLink>
+                            </BodyLong>
+                        )}
                         <Heading size="small" level="3" spacing>
                             {t("h3-news-articles", { ns: "work-in-norway" })}
                         </Heading>
