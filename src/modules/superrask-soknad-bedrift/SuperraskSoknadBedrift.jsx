@@ -17,11 +17,7 @@ export default function SuperraskSoknadBedrift() {
             </div>
 
             <div className="container-medium mb-12">
-                <img
-                    className="article-image"
-                    src="/images/bedrift.jpg"
-                    alt="En mann sitter på et kontor og tar en annen i hånden"
-                />
+                <img className="article-image" src="/images/bedrift.jpg" alt="To personer som håndhilser" />
             </div>
 
             <div className="container-small mb-16">
