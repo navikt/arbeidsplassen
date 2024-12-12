@@ -27,7 +27,7 @@
         "@navikt/oasis": "^3.3.0",
         "@sentry/nextjs": "^7.84.0",
         "i18next": "^23.7.7",
-        "next": "^14.2.4",
+        "next": "^14.2.20",
         "next-i18next": "^14.0.0",
         "prop-types": "^15.8.1",
         "react": "^18.3.1",
