@@ -1,7 +1,7 @@
 import { Bleed, BodyLong, Box, Button, Heading, HStack, Show } from "@navikt/ds-react";
-import { FiguresSideBySide } from "@navikt/arbeidsplassen-react";
 import InformationUkraine from "@/src/modules/(home)/InformationUkraine";
 import ImageLinkPanelSmall from "@/src/common/components/ImageLinkPanelSmall";
+import HolidayFiguresSideBySide from "@/src/common/components/HolidayFiguresSideBySide";
 
 export default function Home() {
     return (
@@ -25,7 +25,7 @@ export default function Home() {
                 </div>
 
                 <Show above="lg">
-                    <FiguresSideBySide />
+                    <HolidayFiguresSideBySide />
                 </Show>
             </HStack>
 
