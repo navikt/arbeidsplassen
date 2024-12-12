@@ -48,7 +48,7 @@ export default function Bedrift() {
                 <ImageLinkPanelSmall
                     href="/superrask-soknad-bedrift"
                     image="/images/bedrift.jpg"
-                    alt="En mann sitter på et kontor og tar en annen i hånden"
+                    alt="To personer som håndhilser"
                     title="Superrask Søknad"
                     description="En enklere måte å komme i kontakt med relevante jobbsøkere."
                     color="primary"
