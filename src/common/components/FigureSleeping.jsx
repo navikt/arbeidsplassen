@@ -81,7 +81,7 @@ function FigureSleeping() {
                     y2="154.879"
                     gradientUnits="userSpaceOnUse"
                 >
-                    <stop stopColor="#9CA8F5" />
+                    <stop offset="1" stopColor="#9CA8F5" />
                     <stop offset="1" stopColor="#717DC7" />
                 </linearGradient>
             </defs>
