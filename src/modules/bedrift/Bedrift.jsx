@@ -1,6 +1,6 @@
 import { BodyLong, Button, Heading, HStack, LinkPanel, Show } from "@navikt/ds-react";
+import { FiguresGivingHighFive } from "@navikt/arbeidsplassen-react";
 import ImageLinkPanelSmall from "@/src/common/components/ImageLinkPanelSmall";
-import HolidayFiguresGivingHighFive from "@/src/common/components/HolidayFiguresGivingHighFive";
 
 export default function Bedrift() {
     return (
@@ -22,7 +22,7 @@ export default function Bedrift() {
                 </div>
 
                 <Show above="lg">
-                    <HolidayFiguresGivingHighFive />
+                    <FiguresGivingHighFive />
                 </Show>
             </HStack>
 
