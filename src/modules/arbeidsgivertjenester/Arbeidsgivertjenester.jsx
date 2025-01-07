@@ -78,8 +78,7 @@ export default function Arbeidsgivertjenester() {
                 Har du spørsmål om publisering av stilling i{" "}
                 <AkselLink href="https://eures.europa.eu/index_en">Den Europeiske Jobbmobilitetsportalen</AkselLink>{" "}
                 eller i et enkelt EU/EØS-land, ta kontakt med Nav Kontaktsenter EURES på{" "}
-                <AkselLink href="mailto:eures@nav.no">eures@nav.no</AkselLink> eller tlf. 55 55 33 39, tastevalg 2 (kl.
-                10-14). Les mer om{" "}
+                <AkselLink href="mailto:eures@nav.no">eures@nav.no</AkselLink>. Les mer om{" "}
                 <AkselLink href="https://www.nav.no/arbeidsgiver/rekruttere-eu-eos">
                     Navs EURES-tjenester for arbeidsgivere.
                 </AkselLink>
