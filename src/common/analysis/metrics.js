@@ -33,6 +33,7 @@ export function setUpAmplitude() {
                 sourceName: window.location.toString(),
             },
             */
+            identityStorage: "localStorage",
         });
         return true;
     } catch (e) {
