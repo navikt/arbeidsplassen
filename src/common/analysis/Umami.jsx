@@ -1,11 +1,21 @@
 "use client";
 
+import { useEffect, useState } from "react";
 import Script from "next/script";
 
 export default function Umami() {
-    if (process.env.NODE_ENV === "production") {
+    const [isDev, setIsDev] = useState(false);
+
+    useEffect(() => {
+        if (window?.location?.hostname === "arbeidsplassen.intern.dev.nav.no") {
+            setIsDev(true);
+        }
+    }, []);
+
+    if (!isDev) {
         return null;
     }
+
     return (
         <Script
             defer
