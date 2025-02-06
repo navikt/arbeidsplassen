@@ -17,6 +17,7 @@ import { appWithTranslation } from "next-i18next";
 import setSentryUserProperties from "@/src/common/analysis/sentry";
 import interLocalFont from "next/font/local";
 import Axe from "@/src/common/analysis/Axe";
+import Umami from "@/src/common/analysis/Umami";
 
 const myFont = interLocalFont({
     variable: "--font-inter",
@@ -50,6 +51,7 @@ function App({ Component, pageProps }) {
                     <Component {...pageProps} />
                 </TrackedApp>
             </AuthenticationProvider>
+            <Umami />
         </div>
     );
 }
