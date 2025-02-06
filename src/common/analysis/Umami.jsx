@@ -9,7 +9,7 @@ export default function Umami() {
             src="https://cdn.nav.no/team-researchops/sporing/sporing.js"
             data-host-url="https://umami.nav.no"
             data-website-id="1cc70e4f-bb41-4d28-8115-cbbc32bee4d3"
-            data-domains="arbeidsplassen.intern.nav.no"
+            data-domains="arbeidsplassen.intern.dev.nav.no"
         />
     );
 }
