@@ -3,6 +3,9 @@
 import Script from "next/script";
 
 export default function Umami() {
+    if (process.env.NODE_ENV === "production") {
+        return null;
+    }
     return (
         <Script
             defer
