@@ -8,13 +8,4 @@ Sentry.init({
     dsn: "https://c1af8a3483f446809fdc37059ece5252@sentry.gc.nav.no/170",
     tracesSampleRate: 0.1,
     debug: false,
-    replaysOnErrorSampleRate: 1.0,
-    replaysSessionSampleRate: 0.1,
-    integrations: [
-        new Sentry.Replay({
-            // Additional Replay configuration goes in here, for example:
-            maskAllText: true,
-            blockAllMedia: true,
-        }),
-    ],
 });
