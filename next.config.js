@@ -3,12 +3,12 @@
 const ContentSecurityPolicy = `
   default-src 'self';
   img-src 'self' data:;
-  script-src 'self' 'unsafe-eval';
+  script-src 'self' 'unsafe-eval' cdn.nav.no;
   worker-src 'self' blob:;
   style-src 'self' 'unsafe-inline' nav.no;
   font-src 'self' nav.no;
   frame-src 'self' video.qbrick.com;
-  connect-src 'self' amplitude.nav.no sentry.gc.nav.no;
+  connect-src 'self' amplitude.nav.no sentry.gc.nav.no umami.nav.no;
 `;
 
 const securityHeaders = [
