@@ -7,12 +7,8 @@ import "@navikt/ds-css/dist/components.css";
 import "@navikt/arbeidsplassen-css";
 import "@navikt/arbeidsplassen-theme";
 import "../common/styles/index.css";
-import AuthenticationProvider, {
-    AuthenticationContext,
-    AuthenticationStatus,
-} from "@/src/common/contexts/AuthenticationProvider";
-import { setUpAmplitude, setAuthenticatedStatus } from "@/src/common/analysis/metrics";
-import { useContext, useEffect } from "react";
+import AuthenticationProvider from "@/src/common/contexts/AuthenticationProvider";
+import { useEffect } from "react";
 import { appWithTranslation } from "next-i18next";
 import setSentryUserProperties from "@/src/common/analysis/sentry";
 import interLocalFont from "next/font/local";
@@ -29,15 +25,8 @@ const myFont = interLocalFont({
 
 function TrackedApp({ children }) {
     useEffect(() => {
-        setUpAmplitude();
         setSentryUserProperties();
     }, []);
-
-    const isAuthenticated =
-        useContext(AuthenticationContext).authenticationStatus === AuthenticationStatus.IS_AUTHENTICATED;
-    useEffect(() => {
-        setAuthenticatedStatus(isAuthenticated);
-    }, [isAuthenticated]);
 
     return children;
 }
