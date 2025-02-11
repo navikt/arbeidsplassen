@@ -44,6 +44,11 @@ spec:
         - id: elastic
   ingresses:
      - {{ ingress }}
+  accessPolicy:
+    outbound:
+      external:
+        - host: umami.nav.no
+        - host: sentry.gc.nav.no
   env:
     - name: PORT
       value: "8080"
