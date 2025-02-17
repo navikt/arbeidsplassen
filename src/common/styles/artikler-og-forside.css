@@ -149,6 +149,10 @@
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 2rem;
     }
+
+    .justfy-end-lg {
+        justify-self: end;
+    }
 }
 
 @media (min-width: 1350px) {

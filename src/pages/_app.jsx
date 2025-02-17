@@ -8,6 +8,7 @@ import "@navikt/arbeidsplassen-css";
 import "@navikt/arbeidsplassen-theme";
 import "../common/styles/index.css";
 import AuthenticationProvider from "@/src/common/contexts/AuthenticationProvider";
+import { CookieBannerProvider } from "@/src/common/contexts/CookieBannerContext";
 import { useEffect } from "react";
 import { appWithTranslation } from "next-i18next";
 import setSentryUserProperties from "@/src/common/analysis/sentry";
@@ -35,11 +36,14 @@ function App({ Component, pageProps }) {
     return (
         <div className={`${myFont.className} height-100`}>
             <Axe />
-            <AuthenticationProvider>
-                <TrackedApp>
-                    <Component {...pageProps} />
-                </TrackedApp>
-            </AuthenticationProvider>
+            <CookieBannerProvider>
+                <AuthenticationProvider>
+                    <TrackedApp>
+                        <Component {...pageProps} />
+                    </TrackedApp>
+                </AuthenticationProvider>
+            </CookieBannerProvider>
+
             <Umami />
         </div>
     );
