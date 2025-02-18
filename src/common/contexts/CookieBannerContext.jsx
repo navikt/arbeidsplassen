@@ -9,14 +9,12 @@ export function CookieBannerProvider({ children }) {
     const buttonRef = useRef(null);
 
     useEffect(() => {
-        const bannerElement = document.getElementById("arb-cookie-banner-section");
+        const firstButton = document.getElementById("arb-cookie-banner-section")?.querySelector("button");
 
-        // Set focus if autofocus
-        if (showCookieBanner && autoFocus && bannerElement) {
-            bannerElement.setAttribute("tabindex", "0");
-            bannerElement.focus();
+        // Set focus to first button inside banner if autofocus
+        if (showCookieBanner && autoFocus && firstButton) {
+            firstButton.focus();
             setAutoFocus(false);
-            bannerElement.removeAttribute("tabindex");
         }
     }, [showCookieBanner, autoFocus]);
 
