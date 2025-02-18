@@ -1,14 +1,19 @@
-import { useContext } from "react";
+import { useContext, useRef } from "react";
 import { Box, BodyLong, Heading, Link as AkselLink, List, Button, HGrid } from "@navikt/ds-react";
 import NextLink from "next/link";
 import CookieBannerContext from "@/src/common/contexts/CookieBannerContext";
 
 export default function Informasjonskapsler() {
-    const { setShowCookieBanner } = useContext(CookieBannerContext);
+    const { openCookieBanner } = useContext(CookieBannerContext);
+    const openCookieBannerButtonRef = useRef(null);
+
+    const handleCookieOpenBanner = () => {
+        openCookieBanner(openCookieBannerButtonRef.current);
+    };
 
     return (
         <article className="container-small">
-            <div className="">
+            <div>
                 <div className="mt-5 mb-12">
                     <Heading size="xlarge" level="1" spacing>
                         Informasjonskapsler på arbeidsplassen.no
@@ -35,17 +40,12 @@ export default function Informasjonskapsler() {
                             </Heading>
                         </div>
                         <div className="justfy-end-lg">
-                            <Button
-                                onClick={() => {
-                                    setShowCookieBanner(true);
-                                }}
-                            >
+                            <Button ref={openCookieBannerButtonRef} onClick={handleCookieOpenBanner}>
                                 Endre samtykket ditt
                             </Button>
                         </div>
                     </HGrid>
                 </Box>
-
                 <div className="mb-16">
                     <BodyLong spacing>
                         Informasjonskapsler (cookies og tilsvarende teknologier) er små tekstfiler som lagres på enheten
