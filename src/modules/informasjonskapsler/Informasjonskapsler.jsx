@@ -1,4 +1,4 @@
-import { useContext, useRef } from "react";
+import { useContext, useRef, useState } from "react";
 import { Box, BodyLong, Heading, Link as AkselLink, List, Button, HGrid } from "@navikt/ds-react";
 import NextLink from "next/link";
 import CookieBannerContext from "@/src/common/contexts/CookieBannerContext";
@@ -6,9 +6,11 @@ import CookieBannerContext from "@/src/common/contexts/CookieBannerContext";
 export default function Informasjonskapsler() {
     const { openCookieBanner } = useContext(CookieBannerContext);
     const openCookieBannerButtonRef = useRef(null);
+    const [useAriaLive, setUseAriaLive] = useState(false);
 
     const handleCookieOpenBanner = () => {
         openCookieBanner(openCookieBannerButtonRef.current);
+        setUseAriaLive(true);
     };
 
     return (
@@ -35,7 +37,7 @@ export default function Informasjonskapsler() {
                         }}
                     >
                         <div>
-                            <Heading level="2" size="small">
+                            <Heading level="2" size="small" aria-live={useAriaLive ? "polite" : "off"}>
                                 Du har godtatt valgfrie informasjonskapsler
                             </Heading>
                         </div>

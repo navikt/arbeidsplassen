@@ -10,7 +10,7 @@ export function CookieBannerProvider({ children }) {
     const buttonRef = useRef(null);
 
     useEffect(() => {
-        const hasUserTakenCookieAction = CookieBannerUtils.getUserActionTakenValue("arbeidsplassen-consent");
+        const hasUserTakenCookieAction = CookieBannerUtils.getUserActionTakenValue();
 
         setShowCookieBanner(!hasUserTakenCookieAction);
     }, []);
