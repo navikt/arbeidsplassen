@@ -1,22 +1,31 @@
 import { createContext, useState, useMemo, useEffect, useRef } from "react";
 import PropTypes from "prop-types";
+import { CookieBannerUtils } from "@navikt/arbeidsplassen-react";
 
 const CookieBannerContext = createContext();
 
 export function CookieBannerProvider({ children }) {
-    const [showCookieBanner, setShowCookieBanner] = useState(true);
+    const [showCookieBanner, setShowCookieBanner] = useState(null);
     const [autoFocus, setAutoFocus] = useState(false);
     const buttonRef = useRef(null);
+
+    useEffect(() => {
+        const hasUserTakenCookieAction = CookieBannerUtils.getUserActionTakenValue("arbeidsplassen-consent");
+
+        setShowCookieBanner(!hasUserTakenCookieAction);
+    }, []);
+
+    const bannerVisible = showCookieBanner === null ? false : showCookieBanner;
 
     useEffect(() => {
         const firstButton = document.getElementById("arb-cookie-banner-section")?.querySelector("button");
 
         // Set focus to first button inside banner if autofocus
-        if (showCookieBanner && autoFocus && firstButton) {
+        if (bannerVisible && autoFocus && firstButton) {
             firstButton.focus();
             setAutoFocus(false);
         }
-    }, [showCookieBanner, autoFocus]);
+    }, [bannerVisible, autoFocus]);
 
     // Manually open banner, and enable autofocus
     const openCookieBanner = (buttonElement) => {
@@ -35,12 +44,12 @@ export function CookieBannerProvider({ children }) {
 
     const contextValue = useMemo(
         () => ({
-            showCookieBanner,
+            showCookieBanner: bannerVisible,
             setShowCookieBanner,
             openCookieBanner,
             closeCookieBanner,
         }),
-        [showCookieBanner],
+        [bannerVisible],
     );
 
     return <CookieBannerContext.Provider value={contextValue}>{children}</CookieBannerContext.Provider>;

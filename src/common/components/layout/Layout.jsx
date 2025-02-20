@@ -49,12 +49,7 @@ export default function Layout({ children, variant }) {
             {showCookieBanner && (
                 <CookieBanner
                     bannerRef={bannerRef}
-                    onOpen={() => {}}
-                    onNecessaryOnlyClick={() => {
-                        closeCookieBanner();
-                        setShowCookieBanner(false);
-                    }}
-                    onAcceptAllClick={() => {
+                    onClose={() => {
                         closeCookieBanner();
                         setShowCookieBanner(false);
                     }}
