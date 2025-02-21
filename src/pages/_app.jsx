@@ -42,9 +42,8 @@ function App({ Component, pageProps }) {
                         <Component {...pageProps} />
                     </TrackedApp>
                 </AuthenticationProvider>
+                <Umami />
             </CookieBannerProvider>
-
-            <Umami />
         </div>
     );
 }
