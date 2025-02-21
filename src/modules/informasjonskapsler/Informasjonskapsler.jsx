@@ -48,7 +48,12 @@ function Informasjonskapsler({ consentValues, hasUserTakenCookieAction }) {
                         }}
                     >
                         <div>
-                            <Heading level="2" size="small" aria-live={useAriaLive ? "polite" : "off"}>
+                            <Heading
+                                id="arb-cookie-consent-info"
+                                level="2"
+                                size="small"
+                                aria-live={useAriaLive ? "polite" : "off"}
+                            >
                                 {!localHasUserTakenCookieAction && "Du har ikke gjort et valg om informasjonskapsler"}
                                 {localHasUserTakenCookieAction &&
                                     localConsentValues?.analyticsConsent &&
@@ -59,7 +64,11 @@ function Informasjonskapsler({ consentValues, hasUserTakenCookieAction }) {
                             </Heading>
                         </div>
                         <div className="justfy-end-lg">
-                            <Button ref={openCookieBannerButtonRef} onClick={handleCookieOpenBanner}>
+                            <Button
+                                aria-describedby="arb-cookie-consent-info"
+                                ref={openCookieBannerButtonRef}
+                                onClick={handleCookieOpenBanner}
+                            >
                                 Endre samtykket ditt
                             </Button>
                         </div>
