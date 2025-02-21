@@ -1,7 +1,8 @@
 /* eslint-disable react/prop-types */
-import { Footer, Header, SkipLink } from "@navikt/arbeidsplassen-react";
-import { useContext } from "react";
+import { CookieBanner, Footer, Header, SkipLink } from "@navikt/arbeidsplassen-react";
+import { useContext, useRef } from "react";
 import { AuthenticationContext, AuthenticationStatus } from "@/src/common/contexts/AuthenticationProvider";
+import CookieBannerContext from "@/src/common/contexts/CookieBannerContext";
 import { useRouter } from "next/router";
 
 const COMPANY_PATHS = [
@@ -32,6 +33,8 @@ const COMPANY_PATHS = [
 export default function Layout({ children, variant }) {
     const { authenticationStatus, chooseRole, logout } = useContext(AuthenticationContext);
     const { pathname } = useRouter();
+    const { closeCookieBanner, showCookieBanner, setShowCookieBanner } = useContext(CookieBannerContext);
+    const bannerRef = useRef(null);
 
     let authStatus = "unknown";
     if (authenticationStatus === AuthenticationStatus.IS_AUTHENTICATED) {
@@ -43,6 +46,16 @@ export default function Layout({ children, variant }) {
     const headerVariant = variant || COMPANY_PATHS.includes(pathname) ? "company" : "person";
     return (
         <>
+            {showCookieBanner && (
+                <CookieBanner
+                    bannerRef={bannerRef}
+                    onClose={() => {
+                        closeCookieBanner();
+                        setShowCookieBanner(false);
+                    }}
+                />
+            )}
+
             <div className="arb-push-footer-down">
                 <SkipLink href="#main-content" />
                 <Header

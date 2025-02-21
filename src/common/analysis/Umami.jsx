@@ -1,18 +1,36 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import Script from "next/script";
+import CookieBannerContext from "@/src/common/contexts/CookieBannerContext";
+import { CookieBannerUtils } from "@navikt/arbeidsplassen-react";
 
 export default function Umami() {
     const [isDev, setIsDev] = useState(false);
+    const [isAnalyticsEnabled, setIsAnalyticsEnabled] = useState(false);
+    const { showCookieBanner } = useContext(CookieBannerContext);
 
     useEffect(() => {
         if (window?.location?.hostname === "arbeidsplassen.intern.dev.nav.no") {
             setIsDev(true);
         }
+        const consentValues = CookieBannerUtils.getConsentValues();
+        setIsAnalyticsEnabled(consentValues.analyticsConsent);
     }, []);
 
+    useEffect(() => {
+        // Check consent values when cookiebanner is hidden
+        if (!showCookieBanner) {
+            const consentValues = CookieBannerUtils.getConsentValues();
+            setIsAnalyticsEnabled(consentValues.analyticsConsent);
+        }
+    }, [showCookieBanner]);
+
     if (!isDev) {
+        return null;
+    }
+
+    if (!isAnalyticsEnabled) {
         return null;
     }
 
