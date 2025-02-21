@@ -37,7 +37,7 @@ function Informasjonskapsler({ consentValues, hasUserTakenCookieAction }) {
                     </BodyLong>
                 </div>
 
-                <Box className="mb-12" padding="4" background="surface-alt-2-subtle">
+                <Box borderRadius="medium" className="mb-12" padding="4" background="surface-alt-2-subtle">
                     <HGrid
                         gap="4"
                         align="center"
@@ -134,7 +134,8 @@ function Informasjonskapsler({ consentValues, hasUserTakenCookieAction }) {
                     </BodyLong>
 
                     <Heading size="xsmall" level="3" spacing>
-                        <div>selvbetjening-idtoken</div> <div>sso-nav.no *</div> <div>XSRF-TOKEN-ARBEIDSPLASSEN</div>
+                        <span className="block">selvbetjening-idtoken</span> <span className="block">sso-nav.no *</span>
+                        <span className="block">XSRF-TOKEN-ARBEIDSPLASSEN</span>
                     </Heading>
                     <BodyLong spacing>
                         Brukes for å beskytte deg og tjenestene våre mot angrep. Disse hjelper oss å holde innloggingen

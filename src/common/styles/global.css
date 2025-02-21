@@ -82,3 +82,7 @@ button {
 .horizontal-line {
     border-bottom: 1px solid var(--a-border-divider);
 }
+
+.block {
+    display: block;
+}
