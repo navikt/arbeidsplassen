@@ -100,18 +100,23 @@ function Informasjonskapsler({ consentValues, hasUserTakenCookieAction }) {
                         .
                     </BodyLong>
 
-                    <Heading size="large" level="2" spacing id="cookie-heading">
+                    <Heading size="large" level="2" spacing>
                         Nødvendige informasjonskapsler
                     </Heading>
                     <BodyLong spacing>
                         Noen informasjonskapsler er nødvendige for at arbeidsplassen.no skal fungere best mulig for deg.
                         De:
                     </BodyLong>
-                    <List aria-labelledby="cookie-heading">
+                    <List aria-label="Hva gjør nødvendinge informasjonskapsler">
                         <List.Item>sikrer at nettsiden fungerer teknisk</List.Item>
                         <List.Item>beskytter sikkerheten din</List.Item>
                         <List.Item>husker valgene dine, så du slipper å starte på nytt hver gang</List.Item>
                     </List>
+                    <BodyLong spacing>
+                        Under finner du hvilke informasjonskapsler som er nødvendige og hva de gjør. De merket med
+                        stjerne (*) inkluderer flere som begynner med samme navn.
+                    </BodyLong>
+
                     <Heading size="xsmall" level="3" spacing>
                         arbeidsplassen-consent *
                     </Heading>
@@ -119,6 +124,7 @@ function Informasjonskapsler({ consentValues, hasUserTakenCookieAction }) {
                         Brukes for å huske dine valg om informasjonskapsler i 90 dager. Versjonen hjelper oss med å
                         avgjøre om det har kommet endringer siden sist du valgte.
                     </BodyLong>
+
                     <Heading size="xsmall" level="3" spacing>
                         organizationNumber
                     </Heading>
@@ -126,6 +132,7 @@ function Informasjonskapsler({ consentValues, hasUserTakenCookieAction }) {
                         Brukes for å huske hvilken bedrift du representerer når du logger inn som arbeidsgiver. Slettes
                         automatisk når du logger ut.
                     </BodyLong>
+
                     <Heading size="xsmall" level="3" spacing>
                         <div>selvbetjening-idtoken</div> <div>sso-nav.no *</div> <div>XSRF-TOKEN-ARBEIDSPLASSEN</div>
                     </Heading>
@@ -133,13 +140,15 @@ function Informasjonskapsler({ consentValues, hasUserTakenCookieAction }) {
                         Brukes for å beskytte deg og tjenestene våre mot angrep. Disse hjelper oss å holde innloggingen
                         din trygg og slettes automatisk når du lukker nettleseren eller logger ut.
                     </BodyLong>
+
                     <Heading size="xsmall" level="3" spacing>
-                        sessionId
+                        session
                     </Heading>
                     <BodyLong spacing>
                         Brukes sammen med verktøyet Sentry for å oppdage, forstå og fikse tekniske feil raskt.
-                        Nullstilles daglig.
+                        Nullstilles daglig, og slettes når du lukker nettleseren.
                     </BodyLong>
+
                     <Heading size="xsmall" level="3" spacing>
                         userPreferences
                     </Heading>
@@ -182,10 +191,12 @@ function Informasjonskapsler({ consentValues, hasUserTakenCookieAction }) {
                     <Heading size="xsmall" level="3" spacing>
                         usertest- *
                     </Heading>
-                    <BodyLong spacing>
+                    <BodyLong className="mb-12">
                         Brukes til frivillige brukerundersøkelser i UX Signals. Informasjonskapslene husker hvilke
                         undersøkelser du eventuelt deltar i.
                     </BodyLong>
+
+                    <div className="horizontal-line mb-12" />
 
                     <BodyLong>
                         <strong>Merk!</strong> Hvis du har besøkt nav.no, kan du ha fler informasjonskapsler derfra

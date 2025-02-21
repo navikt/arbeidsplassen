@@ -78,3 +78,7 @@ button {
 .display-inline {
     display: inline;
 }
+
+.horizontal-line {
+    border-bottom: 1px solid var(--a-border-divider);
+}
