@@ -1,17 +1,28 @@
-import { useContext, useRef, useState } from "react";
+import { useContext, useEffect, useRef, useState } from "react";
+import PropTypes from "prop-types";
 import { Box, BodyLong, Heading, Link as AkselLink, List, Button, HGrid } from "@navikt/ds-react";
 import NextLink from "next/link";
 import CookieBannerContext from "@/src/common/contexts/CookieBannerContext";
+import { CookieBannerUtils } from "@navikt/arbeidsplassen-react";
 
-export default function Informasjonskapsler() {
-    const { openCookieBanner } = useContext(CookieBannerContext);
+function Informasjonskapsler({ consentValues, hasUserTakenCookieAction }) {
+    const { showCookieBanner, openCookieBanner } = useContext(CookieBannerContext);
     const openCookieBannerButtonRef = useRef(null);
     const [useAriaLive, setUseAriaLive] = useState(false);
+    const [localHasUserTakenCookieAction, localSetHasUserTakenCookieAction] = useState(hasUserTakenCookieAction);
+    const [localConsentValues, setLocalConsentValues] = useState(consentValues);
 
     const handleCookieOpenBanner = () => {
         openCookieBanner(openCookieBannerButtonRef.current);
         setUseAriaLive(true);
     };
+
+    useEffect(() => {
+        if (!showCookieBanner) {
+            localSetHasUserTakenCookieAction(CookieBannerUtils.getUserActionTakenValue());
+            setLocalConsentValues(CookieBannerUtils.getConsentValues());
+        }
+    }, [showCookieBanner]);
 
     return (
         <article className="container-small">
@@ -38,7 +49,13 @@ export default function Informasjonskapsler() {
                     >
                         <div>
                             <Heading level="2" size="small" aria-live={useAriaLive ? "polite" : "off"}>
-                                Du har godtatt valgfrie informasjonskapsler
+                                {!localHasUserTakenCookieAction && "Du har ikke gjort et valg om informasjonskapsler"}
+                                {localHasUserTakenCookieAction &&
+                                    localConsentValues?.analyticsConsent &&
+                                    "Du har godtatt valgfrie informasjonskapsler"}
+                                {localHasUserTakenCookieAction &&
+                                    !localConsentValues?.analyticsConsent &&
+                                    "Du har godtatt bare nødvendige informasjonskapsler"}
                             </Heading>
                         </div>
                         <div className="justfy-end-lg">
@@ -174,3 +191,15 @@ export default function Informasjonskapsler() {
         </article>
     );
 }
+
+Informasjonskapsler.propTypes = {
+    consentValues: PropTypes.shape({
+        consent: PropTypes.shape({
+            analytics: PropTypes.bool,
+            surveys: PropTypes.bool,
+        }),
+    }),
+    hasUserTakenCookieAction: PropTypes.bool,
+};
+
+export default Informasjonskapsler;
