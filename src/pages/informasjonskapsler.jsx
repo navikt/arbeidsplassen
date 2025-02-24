@@ -11,8 +11,8 @@ export const metadata = {
 };
 
 export async function getServerSideProps({ req }) {
-    const consentValues = CookieBannerUtils.getConsentValues(req);
-    const hasUserTakenCookieAction = CookieBannerUtils.getUserActionTakenValue(req);
+    const consentValues = CookieBannerUtils.getConsentValues(req.headers?.cookies);
+    const hasUserTakenCookieAction = CookieBannerUtils.getUserActionTakenValue(req.headers?.cookies);
 
     return {
         props: { consentValues, hasUserTakenCookieAction },
