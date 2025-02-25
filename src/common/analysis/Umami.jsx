@@ -17,7 +17,7 @@ export default function Umami() {
             setIsDev(true);
         }
 
-        if (process.env.NODE_ENV === "production") {
+        if (window?.location?.hostname === "arbeidsplassen.nav.no") {
             setIsProd(true);
             setWebsiteId("c2f0a46d-a5b4-4370-8b80-b9b9fcd39f96");
         }
