@@ -84,17 +84,14 @@ function Informasjonskapsler({ consentValues, hasUserTakenCookieAction }) {
 
                     <BodyLong spacing>
                         Bruk av informasjonskapsler reguleres i{" "}
-                        <AkselLink
-                            as={NextLink}
-                            href="https://lovdata.no/dokument/NL/lov/2024-12-13-76/KAPITTEL_3#%C2%A73-15"
-                        >
+                        <AkselLink href="https://lovdata.no/dokument/NL/lov/2024-12-13-76/KAPITTEL_3#%C2%A73-15">
                             ekomloven § 3-15
                         </AkselLink>
                         .
                     </BodyLong>
                     <BodyLong spacing>
                         Ønsker du informasjon om hvordan vi behandler personopplysninger?{" "}
-                        <AkselLink as={NextLink} href="https://arbeidsplassen.nav.no/personvern">
+                        <AkselLink as={NextLink} href="/personvern">
                             Les personvernerklæringen vår
                         </AkselLink>
                         .
@@ -208,7 +205,7 @@ function Informasjonskapsler({ consentValues, hasUserTakenCookieAction }) {
                     <BodyLong>
                         <strong>Merk!</strong> Hvis du har besøkt nav.no, kan du ha fler informasjonskapsler derfra
                         siden arbeidsplassen.no er en del av nav.no. Les mer om{" "}
-                        <AkselLink as={NextLink} href="https://www.nav.no/informasjonskapsler">
+                        <AkselLink href="https://www.nav.no/informasjonskapsler">
                             informasjonskapsler på nav.no
                         </AkselLink>
                         .
