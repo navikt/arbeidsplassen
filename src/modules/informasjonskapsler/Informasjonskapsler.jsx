@@ -5,12 +5,12 @@ import NextLink from "next/link";
 import CookieBannerContext from "@/src/common/contexts/CookieBannerContext";
 import { CookieBannerUtils } from "@navikt/arbeidsplassen-react";
 
-function Informasjonskapsler({ consentValues, hasUserTakenCookieAction }) {
+function Informasjonskapsler({ consentValues, userActionTaken }) {
     const { showCookieBanner, openCookieBanner } = useContext(CookieBannerContext);
     const openCookieBannerButtonRef = useRef(null);
     const [useAriaLive, setUseAriaLive] = useState(false);
-    const [localHasUserTakenCookieAction, localSetHasUserTakenCookieAction] = useState(hasUserTakenCookieAction);
     const [localConsentValues, setLocalConsentValues] = useState(consentValues);
+    const [localUserActionTaken, setLocalUserActionTaken] = useState(userActionTaken);
 
     const handleCookieOpenBanner = () => {
         openCookieBanner(openCookieBannerButtonRef.current);
@@ -19,8 +19,8 @@ function Informasjonskapsler({ consentValues, hasUserTakenCookieAction }) {
 
     useEffect(() => {
         if (!showCookieBanner) {
-            localSetHasUserTakenCookieAction(CookieBannerUtils.getUserActionTakenValue());
             setLocalConsentValues(CookieBannerUtils.getConsentValues());
+            setLocalUserActionTaken(CookieBannerUtils.getUserActionTakenValue());
         }
     }, [showCookieBanner]);
 
@@ -54,11 +54,11 @@ function Informasjonskapsler({ consentValues, hasUserTakenCookieAction }) {
                                 size="small"
                                 aria-live={useAriaLive ? "polite" : "off"}
                             >
-                                {!localHasUserTakenCookieAction && "Du har ikke gjort et valg om informasjonskapsler"}
-                                {localHasUserTakenCookieAction &&
+                                {!localUserActionTaken && "Du har ikke gjort et valg om informasjonskapsler"}
+                                {localUserActionTaken &&
                                     localConsentValues?.analyticsConsent &&
                                     "Du har godtatt valgfrie informasjonskapsler"}
-                                {localHasUserTakenCookieAction &&
+                                {localUserActionTaken &&
                                     !localConsentValues?.analyticsConsent &&
                                     "Du har godtatt bare nødvendige informasjonskapsler"}
                             </Heading>
@@ -223,7 +223,7 @@ Informasjonskapsler.propTypes = {
             surveys: PropTypes.bool,
         }),
     }),
-    hasUserTakenCookieAction: PropTypes.bool,
+    userActionTaken: PropTypes.bool,
 };
 
 export default Informasjonskapsler;

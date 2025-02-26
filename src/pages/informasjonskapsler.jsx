@@ -12,20 +12,20 @@ export const metadata = {
 
 export async function getServerSideProps({ req }) {
     const consentValues = CookieBannerUtils.getConsentValues(req.headers?.cookie);
-    const hasUserTakenCookieAction = CookieBannerUtils.getUserActionTakenValue(req.headers?.cookie);
+    const userActionTaken = CookieBannerUtils.getUserActionTakenValue(req.headers?.cookie);
 
     return {
-        props: { consentValues, hasUserTakenCookieAction },
+        props: { consentValues, userActionTaken },
     };
 }
 
-function Page({ consentValues, hasUserTakenCookieAction }) {
+function Page({ consentValues, userActionTaken }) {
     return (
         <Layout>
             <Head>
                 <title>{metadata.title}</title>
             </Head>
-            <Informasjonskapsler consentValues={consentValues} hasUserTakenCookieAction={hasUserTakenCookieAction} />
+            <Informasjonskapsler consentValues={consentValues} userActionTaken={userActionTaken} />
         </Layout>
     );
 }
@@ -37,7 +37,7 @@ Page.propTypes = {
             surveys: PropTypes.bool,
         }),
     }),
-    hasUserTakenCookieAction: PropTypes.bool,
+    userActionTaken: PropTypes.bool,
 };
 
 export default Page;
