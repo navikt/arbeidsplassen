@@ -29,7 +29,7 @@ function Informasjonskapsler({ consentValues, userActionTaken }) {
             <div>
                 <div className="mt-5 mb-12">
                     <Heading size="xlarge" level="1" spacing>
-                        Informasjonskapsler på arbeidsplassen.no
+                        Informasjons&shy;kapsler på arbeidsplassen.no
                     </Heading>
 
                     <BodyLong size="large" spacing>
@@ -66,6 +66,7 @@ function Informasjonskapsler({ consentValues, userActionTaken }) {
                         <div className="justfy-end-lg">
                             <Button
                                 aria-describedby="arb-cookie-consent-info"
+                                className="xs-width-100"
                                 ref={openCookieBannerButtonRef}
                                 onClick={handleCookieOpenBanner}
                             >
