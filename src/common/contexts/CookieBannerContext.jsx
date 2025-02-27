@@ -4,28 +4,15 @@ import { CookieBannerUtils } from "@navikt/arbeidsplassen-react";
 
 const CookieBannerContext = createContext();
 
-export function CookieBannerProvider({ children }) {
-    const [showCookieBanner, setShowCookieBanner] = useState(null);
+export function CookieBannerProvider({ children, initialState }) {
+    const [showCookieBanner, setShowCookieBanner] = useState(() => {
+        if (initialState !== undefined) {
+            return initialState;
+        }
+        return !CookieBannerUtils.getUserActionTakenValue();
+    });
     const [autoFocus, setAutoFocus] = useState(false);
     const buttonRef = useRef(null);
-
-    useEffect(() => {
-        const hasUserTakenCookieAction = CookieBannerUtils.getUserActionTakenValue();
-
-        setShowCookieBanner(!hasUserTakenCookieAction);
-    }, []);
-
-    const bannerVisible = showCookieBanner === null ? false : showCookieBanner;
-
-    useEffect(() => {
-        const firstButton = document.getElementById("arb-cookie-banner-section")?.querySelector("button");
-
-        // Set focus to first button inside banner if autofocus
-        if (bannerVisible && autoFocus && firstButton) {
-            firstButton.focus();
-            setAutoFocus(false);
-        }
-    }, [bannerVisible, autoFocus]);
 
     // Manually open banner, and enable autofocus
     const openCookieBanner = (buttonElement) => {
@@ -42,14 +29,22 @@ export function CookieBannerProvider({ children }) {
         setShowCookieBanner(false);
     };
 
+    useEffect(() => {
+        const firstButton = document.getElementById("arb-cookie-banner-section")?.querySelector("button");
+        if (showCookieBanner && autoFocus && firstButton) {
+            firstButton.focus();
+            setAutoFocus(false);
+        }
+    }, [showCookieBanner, autoFocus]);
+
     const contextValue = useMemo(
         () => ({
-            showCookieBanner: bannerVisible,
+            showCookieBanner,
             setShowCookieBanner,
             openCookieBanner,
             closeCookieBanner,
         }),
-        [bannerVisible],
+        [showCookieBanner],
     );
 
     return <CookieBannerContext.Provider value={contextValue}>{children}</CookieBannerContext.Provider>;
@@ -57,6 +52,7 @@ export function CookieBannerProvider({ children }) {
 
 CookieBannerProvider.propTypes = {
     children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node]).isRequired,
+    initialState: PropTypes.bool,
 };
 
 export default CookieBannerContext;
