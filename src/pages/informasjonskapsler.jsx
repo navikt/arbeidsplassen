@@ -14,6 +14,8 @@ export async function getServerSideProps({ req }) {
     const consentValues = CookieBannerUtils.getConsentValues(req.headers?.cookie);
     const userActionTaken = CookieBannerUtils.getUserActionTakenValue(req.headers?.cookie);
 
+    console.log("USER ACTION TAKEN", userActionTaken);
+
     return {
         props: { consentValues, userActionTaken },
     };
