@@ -133,7 +133,7 @@ function Informasjonskapsler({ consentValues, userActionTaken }) {
                     </Heading>
                     <BodyLong spacing>
                         Brukes for å huske hvilken bedrift du representerer når du logger inn som arbeidsgiver. Slettes
-                        automatisk når du logger ut.
+                        automatisk etter 30 dager.
                     </BodyLong>
 
                     <Heading size="xsmall" level="3" spacing>
@@ -172,14 +172,6 @@ function Informasjonskapsler({ consentValues, userActionTaken }) {
                     <BodyLong spacing>
                         Under finner du de valgfrie informasjonskapslene og hva de gjør. De merket med stjerne (*)
                         inkluderer flere som begynner med samme navn.
-                    </BodyLong>
-
-                    <Heading size="xsmall" level="3" spacing>
-                        _hjSession *
-                    </Heading>
-                    <BodyLong spacing>
-                        Brukes til frivillige brukerundersøkelser i verktøyet HotJar. Informasjonskapslene holder
-                        oversikt over hvilke undersøkelser du har blitt invitert til, akseptert og fullført.
                     </BodyLong>
 
                     <Heading size="xsmall" level="3" spacing>
