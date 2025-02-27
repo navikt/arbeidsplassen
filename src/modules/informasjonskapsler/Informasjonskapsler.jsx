@@ -44,7 +44,7 @@ function Informasjonskapsler({ consentValues, userActionTaken }) {
                         columns={{
                             xs: "1",
                             sm: "1",
-                            md: "minmax(0, 50%) 1fr;",
+                            md: "minmax(0, 50%) 1fr",
                         }}
                     >
                         <div>
