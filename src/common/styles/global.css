@@ -67,7 +67,7 @@ button {
 }
 
 /* stylelint-disable-next-line selector-class-pattern */
-.inline-block-list .navds-list__item-marker--bullet {
+.inline-block-list .navds-list__item-marker.navds-list__item-marker--bullet {
     display: none;
 }
 
