@@ -142,12 +142,22 @@
     width: 100%;
 }
 
+@media (max-width: 480px) {
+    .xs-width-100 {
+        width: 100%;
+    }
+}
+
 @media (min-width: 768px) {
     .image-link-panel-grid-small,
     .image-link-panel-grid-medium {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 2rem;
+    }
+
+    .justfy-end-lg {
+        justify-self: end;
     }
 }
 
