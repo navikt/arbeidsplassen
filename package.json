@@ -17,12 +17,12 @@
         "pre-commit": "lint-staged"
     },
     "dependencies": {
-        "@navikt/aksel-icons": "^7.11.0",
+        "@navikt/aksel-icons": "^7.14.3",
         "@navikt/arbeidsplassen-css": "^8.5.0",
         "@navikt/arbeidsplassen-react": "^8.5.12",
         "@navikt/arbeidsplassen-theme": "^6.1.0",
-        "@navikt/ds-css": "^7.11.0",
-        "@navikt/ds-react": "^7.11.0",
+        "@navikt/ds-css": "^7.14.3",
+        "@navikt/ds-react": "^7.14.3",
         "@navikt/oasis": "^3.6.0",
         "@sentry/nextjs": "^7.84.0",
         "i18next": "^23.7.7",
@@ -36,7 +36,7 @@
     },
     "devDependencies": {
         "@axe-core/react": "^4.9.1",
-        "@navikt/aksel-stylelint": "^7.11.0",
+        "@navikt/aksel-stylelint": "^7.14.3",
         "@playwright/test": "^1.48.2",
         "@types/node": "^22.9.0",
         "eslint": "^8.55.0",
