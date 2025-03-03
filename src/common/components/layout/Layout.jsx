@@ -4,7 +4,6 @@ import { useContext, useRef } from "react";
 import { AuthenticationContext, AuthenticationStatus } from "@/src/common/contexts/AuthenticationProvider";
 import CookieBannerContext from "@/src/common/contexts/CookieBannerContext";
 import { useRouter } from "next/router";
-import { Alert } from "@navikt/ds-react";
 
 const COMPANY_PATHS = [
     "/arbeidsgivertjenester",
@@ -59,9 +58,6 @@ export default function Layout({ children, variant }) {
 
             <div className="arb-push-footer-down">
                 <SkipLink href="#main-content" />
-                <Alert variant="warning">
-                    Det er problemer med innlogging akkuratt nå. Vi jobber med å finne ut av det.
-                </Alert>
                 <Header
                     variant={headerVariant}
                     onLogin={chooseRole}
