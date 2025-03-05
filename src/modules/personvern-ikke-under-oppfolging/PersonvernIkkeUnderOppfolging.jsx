@@ -205,8 +205,7 @@ export default function PersonvernIkkeUnderOppfolging() {
             <BodyLong className="mb-12">
                 Når du tar i bruk og legger informasjon inn på innloggede tjenester på arbeidsplassen.no, samtykker du
                 til at vi kan behandle personopplysninger om deg. Du kan selv velge hvilke tjenester du vil samtykke til
-                at vi behandler personopplysninger for, herunder deling av CV med arbeidsgivere og med den Europeiske
-                Jobbmobilitetsportalen. Du kan når som helst trekke ditt samtykke.
+                at vi behandler personopplysninger for. Du kan når som helst trekke ditt samtykke.
             </BodyLong>
 
             <Heading size="large" level="2" spacing id="who">
