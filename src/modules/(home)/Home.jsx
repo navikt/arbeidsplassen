@@ -17,11 +17,14 @@ export default function Home() {
                         alle bransjer i markedet.
                     </BodyLong>
 
-                    <div className="mb-16">
+                    <HStack gap="4" className="mb-16">
                         <Button variant="primary" as="a" href="/stillinger" role="link">
                             Søk etter din neste jobb
                         </Button>
-                    </div>
+                        <Button variant="secondary" as="a" href="/stillinger/sommerjobb" role="link">
+                            Sikre sommereventyret for 2025
+                        </Button>
+                    </HStack>
                 </div>
 
                 <Show above="lg">
