@@ -2,6 +2,7 @@ import { Bleed, BodyLong, Box, Button, Heading, HStack, Show } from "@navikt/ds-
 import { FiguresSideBySide } from "@navikt/arbeidsplassen-react";
 import InformationUkraine from "@/src/modules/(home)/InformationUkraine";
 import SommerjobbPanel from "@/src/modules/(home)/SommerjobbPanel";
+import { MagnifyingGlassIcon, CoffeeIcon } from "@navikt/aksel-icons";
 
 export default function Home() {
     return (
@@ -17,10 +18,22 @@ export default function Home() {
                     </BodyLong>
 
                     <HStack gap="4" className="mb-16">
-                        <Button variant="primary" as="a" href="/stillinger" role="link">
+                        <Button
+                            variant="primary"
+                            as="a"
+                            href="/stillinger"
+                            role="link"
+                            icon={<MagnifyingGlassIcon aria-hidden="true" />}
+                        >
                             Søk ledige jobber
                         </Button>
-                        <Button variant="secondary" as="a" href="/stillinger/sommerjobb" role="link">
+                        <Button
+                            variant="secondary"
+                            as="a"
+                            href="/stillinger/sommerjobb"
+                            role="link"
+                            icon={<CoffeeIcon aria-hidden="true" />}
+                        >
                             Sommerjobben 2025
                         </Button>
                     </HStack>
