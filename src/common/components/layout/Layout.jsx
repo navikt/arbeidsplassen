@@ -18,7 +18,7 @@ const COMPANY_PATHS = [
     "/retningslinjer-stillingsannonser",
     "/skikkelig-bra-stillingsannonse",
     "/slik-fungerer-superrask-soknad",
-    "/sommerjobb",
+    "/lys-ut-sommerjobber",
     "/superrask-soknad-bedrift",
     "/thon-hotel-superrask",
     "/tilgang-som-arbeidsgiver",

@@ -1,5 +1,5 @@
 import React from "react";
-import Sommerjobb from "@/src/modules/sommerjobb/Sommerjobb";
+import LysUtSommerjobber from "@/src/modules/lys-ut-sommerjobber/LysUtSommerjobber";
 import { getMetadataTitle } from "@/src/modules/layout";
 import Head from "next/head";
 import Layout from "@/src/common/components/layout/Layout";
@@ -14,7 +14,7 @@ export default function Page() {
             <Head>
                 <title>{metadata.title}</title>
             </Head>
-            <Sommerjobb />
+            <LysUtSommerjobber />
         </Layout>
     );
 }
