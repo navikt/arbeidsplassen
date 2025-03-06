@@ -34,8 +34,15 @@ export default function Home() {
             </HStack>
 
             <ImageBannerLinkPanel
-                href="/sommerjobb"
-                image="/images/a-street-in-a-town.png"
+                href="/stillinger/sommerjobb"
+                image={
+                    [
+                        "/images/ice-cream-shop.png",
+                        "/images/kayakers-on-water.png",
+                        "/images/lofoten-photo.png",
+                        "/images/seagull-on-ledge.png",
+                    ][Math.floor(Math.random() * 4)]
+                }
                 alt="Hagearbeider som holder to plantepotter og smiler mot kameraet."
                 title="Sommerjobben 2025"
                 description="Kafé i Lofoten, butikk i Tromsø eller utendørs jobb i Oslo? Sikre sommereventyret i dag!"
