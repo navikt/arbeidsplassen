@@ -20,7 +20,7 @@ export default function Home() {
                         <Button variant="primary" as="a" href="/stillinger" role="link">
                             Søk etter din neste jobb
                         </Button>
-                        <Button variant="secondary" as="a" href="/sommerjobb" role="link">
+                        <Button variant="secondary" as="a" href="/stillinger/sommerjobb" role="link">
                             Sikre sommereventyret for 2025
                         </Button>
                     </HStack>
