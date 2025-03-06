@@ -43,6 +43,8 @@ export default function Home() {
                         "/images/seagull-on-ledge.png",
                     ][Math.floor(Math.random() * 4)]
                 }
+                imgHeight="339"
+                imgWidth="540"
                 alt="Hagearbeider som holder to plantepotter og smiler mot kameraet."
                 title="Sommerjobben 2025"
                 description="Kafé i Lofoten, butikk i Tromsø eller utendørs jobb i Oslo? Sikre sommereventyret i dag!"
