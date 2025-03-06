@@ -1,7 +1,7 @@
 import { Bleed, BodyLong, Box, Button, Heading, HStack, Show } from "@navikt/ds-react";
 import { FiguresSideBySide } from "@navikt/arbeidsplassen-react";
 import InformationUkraine from "@/src/modules/(home)/InformationUkraine";
-import ImageBannerLinkPanel from "@/src/common/components/ImageBannerLinkPanel";
+import SommerjobbPanel from "@/src/modules/(home)/SommerjobbPanel";
 
 export default function Home() {
     return (
@@ -31,22 +31,9 @@ export default function Home() {
                 </Show>
             </HStack>
 
-            <ImageBannerLinkPanel
-                href="/stillinger/sommerjobb"
-                image={
-                    [
-                        "/images/ice-cream-shop.png",
-                        "/images/kayakers-on-water.png",
-                        "/images/lofoten-photo.png",
-                        "/images/seagull-on-ledge.png",
-                    ][Math.floor(Math.random() * 4)]
-                }
-                imgHeight="339"
-                imgWidth="540"
-                alt="Hagearbeider som holder to plantepotter og smiler mot kameraet."
-                title="Sommerjobben 2025"
-                description="Kafé i Lofoten, butikk i Tromsø eller utendørs jobb i Oslo? Sikre sommereventyret i dag!"
-            />
+            <div className="mb-12">
+                <SommerjobbPanel />
+            </div>
 
             <div className="mb-12">
                 <Bleed marginInline="full" className="overflow-x-hidden">

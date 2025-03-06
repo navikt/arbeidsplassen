@@ -86,3 +86,12 @@ button {
 .block {
     display: block;
 }
+
+.box-link {
+    text-decoration: none;
+    color: var(--a-text-default);
+}
+
+.box-link:hover h2 {
+    text-decoration: underline;
+}
