@@ -2,7 +2,7 @@ import { Bleed, BodyLong, Box, Button, Heading, HStack, Show } from "@navikt/ds-
 import { FiguresSideBySide } from "@navikt/arbeidsplassen-react";
 import InformationUkraine from "@/src/modules/(home)/InformationUkraine";
 import SommerjobbPanel from "@/src/modules/(home)/SommerjobbPanel";
-import { MagnifyingGlassIcon, CoffeeIcon } from "@navikt/aksel-icons";
+import { MagnifyingGlassIcon, ParasolBeachIcon } from "@navikt/aksel-icons";
 
 export default function Home() {
     return (
@@ -32,7 +32,7 @@ export default function Home() {
                             as="a"
                             href="/stillinger/sommerjobb"
                             role="link"
-                            icon={<CoffeeIcon aria-hidden="true" />}
+                            icon={<ParasolBeachIcon aria-hidden="true" />}
                         >
                             Sommerjobben 2025
                         </Button>
