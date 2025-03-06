@@ -41,6 +41,14 @@ export default function Home() {
                 description="Kafé i Lofoten, butikk i Tromsø eller utendørs jobb i Oslo? Sikre sommereventyret i dag!"
             />
 
+            <div className="mb-12">
+                <Bleed marginInline="full" className="overflow-x-hidden">
+                    <Box background="surface-alt-3-moderate" padding={{ xs: "6", md: "4" }}>
+                        <InformationUkraine />
+                    </Box>
+                </Bleed>
+            </div>
+
             <div className="image-link-panel-grid-small mb-12">
                 <ImageLinkPanelSmall
                     href="/nytt-sokefelt"
@@ -66,14 +74,6 @@ export default function Home() {
                     description="Den Europeiske Jobbmobilitetsportalen (EURES) er et tilbud til deg som ønsker å finne en jobb i EU-/EØS-området og Sveits."
                     color="secondary"
                 />
-            </div>
-
-            <div className="24">
-                <Bleed marginInline="full" className="overflow-x-hidden">
-                    <Box background="surface-alt-3-moderate" padding={{ xs: "6", md: "4" }}>
-                        <InformationUkraine />
-                    </Box>
-                </Bleed>
             </div>
         </div>
     );
