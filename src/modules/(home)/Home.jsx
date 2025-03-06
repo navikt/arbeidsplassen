@@ -25,7 +25,7 @@ export default function Home() {
                             role="link"
                             icon={<MagnifyingGlassIcon aria-hidden="true" />}
                         >
-                            Søk ledige jobber
+                            Søk etter jobber
                         </Button>
                         <Button
                             variant="secondary"
