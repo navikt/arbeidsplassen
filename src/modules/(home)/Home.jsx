@@ -18,10 +18,10 @@ export default function Home() {
 
                     <HStack gap="4" className="mb-16">
                         <Button variant="primary" as="a" href="/stillinger" role="link">
-                            Søk etter din neste jobb
+                            Søk ledige jobber
                         </Button>
                         <Button variant="secondary" as="a" href="/stillinger/sommerjobb" role="link">
-                            Sikre sommereventyret for 2025
+                            Sommerjobben 2025
                         </Button>
                     </HStack>
                 </div>
