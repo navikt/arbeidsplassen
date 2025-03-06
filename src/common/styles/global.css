@@ -95,3 +95,9 @@ button {
 .box-link:hover h2 {
     text-decoration: underline;
 }
+@media (max-width: 1343px) {
+    .box-link-image {
+        width: 100%;
+        height: auto;
+    }
+}
