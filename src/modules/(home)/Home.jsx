@@ -7,15 +7,14 @@ import ImageBannerLinkPanel from "@/src/common/components/ImageBannerLinkPanel";
 export default function Home() {
     return (
         <div className="container-large mt-5 mb-24">
-            <HStack gap="4" align="center">
+            <HStack gap="20" align="center">
                 <div className="flex-3">
                     <Heading size="xlarge" level="1" spacing className="jumbo-h1">
-                        Alt av arbeid, <br />
-                        samlet på én plass.
+                        Alle ledige jobber, <br />
+                        samlet på én plass
                     </Heading>
                     <BodyLong size="large" spacing>
-                        Finn din neste jobb i en av Norges største samlinger av stillinger. Her finner du jobber fra
-                        alle bransjer i markedet.
+                        Lete etter jobb skal være enkelt. Fra deltid til direktør, finn jobben som passer for deg.
                     </BodyLong>
 
                     <HStack gap="4" className="mb-16">

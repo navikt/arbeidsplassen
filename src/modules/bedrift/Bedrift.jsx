@@ -8,7 +8,7 @@ export default function Bedrift() {
             <HStack gap="4" align="center">
                 <div className="flex-3">
                     <Heading size="xlarge" level="1" spacing className="jumbo-h1">
-                        Enkel jobbutlysning, kostnadsfritt.
+                        Enkel jobbutlysning, kostnadsfritt
                     </Heading>
                     <BodyLong size="large" spacing>
                         Kom raskt i kontakt med kvalifiserte jobbsøkere.
