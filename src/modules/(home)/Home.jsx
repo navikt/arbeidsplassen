@@ -2,6 +2,7 @@ import { Bleed, BodyLong, Box, Button, Heading, HStack, Show } from "@navikt/ds-
 import { FiguresSideBySide } from "@navikt/arbeidsplassen-react";
 import InformationUkraine from "@/src/modules/(home)/InformationUkraine";
 import ImageLinkPanelSmall from "@/src/common/components/ImageLinkPanelSmall";
+import ImageBannerLinkPanel from "@/src/common/components/ImageBannerLinkPanel";
 
 export default function Home() {
     return (
@@ -31,6 +32,14 @@ export default function Home() {
                     <FiguresSideBySide />
                 </Show>
             </HStack>
+
+            <ImageBannerLinkPanel
+                href="/stillinger/sommerjobb"
+                image="/images/a-street-in-a-town.png"
+                alt="Hagearbeider som holder to plantepotter og smiler mot kameraet."
+                title="Sommerjobben 2025"
+                description="Kafé i Lofoten, butikk i Tromsø eller utendørs jobb i Oslo? Sikre sommereventyret i dag!"
+            />
 
             <div className="image-link-panel-grid-small mb-12">
                 <ImageLinkPanelSmall
