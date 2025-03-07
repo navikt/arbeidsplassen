@@ -12,7 +12,7 @@ function SommerjobbPanel() {
     ][Math.floor(Math.random() * 4)];
 
     return (
-        <Link href="/stillinger/sommerjobb" className="box-link">
+        <Link href="/sommerjobb" className="box-link">
             <Box background="surface-alt-1" padding={{ xs: "6", lg: "12" }} borderRadius="medium">
                 <HGrid gap={{ xs: "6", lg: "12" }} columns={{ xs: "1", md: "auto 1fr" }} align="center">
                     <div>

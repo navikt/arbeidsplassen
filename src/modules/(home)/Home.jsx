@@ -30,7 +30,7 @@ export default function Home() {
                         <Button
                             variant="secondary"
                             as="a"
-                            href="/stillinger/sommerjobb"
+                            href="/sommerjobb"
                             role="link"
                             icon={<ParasolBeachIcon aria-hidden="true" />}
                         >
