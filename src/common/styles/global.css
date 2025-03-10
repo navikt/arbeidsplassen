@@ -95,6 +95,11 @@ button {
 .box-link:hover h2 {
     text-decoration: underline;
 }
+
+.box-link-image {
+    border-bottom-left-radius: 6rem;
+}
+
 @media (max-width: 1343px) {
     .box-link-image {
         width: 100%;
