@@ -19,8 +19,8 @@ export default function LysUtSommerjobber() {
             <div className="container-medium mb-12">
                 <img
                     className="article-image"
-                    src="/images/sommerjobb.png"
-                    alt="En kunde får servert en burger fra en food truck"
+                    src="/images/laerling-billakk.jpg"
+                    alt="Ung person får opplæring i billakkering"
                 />
             </div>
 
