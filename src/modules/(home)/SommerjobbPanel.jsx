@@ -2,15 +2,14 @@ import { BodyLong, Box, Heading, HGrid } from "@navikt/ds-react";
 import { ArrowRightIcon } from "@navikt/aksel-icons";
 import Link from "next/link";
 import Image from "next/image";
+import street from "./images/a-street-in-town.jpg";
+import iceCream from "./images/ice-cream-shop.jpg";
+import kayakers from "./images/kayakers-on-water.jpg";
+import lofoten from "./images/lofoten-photo.jpg";
+import seagull from "./images/seagull-on-ledge.jpg";
 
 function SommerjobbPanel() {
-    const randomImg = [
-        "/images/a-street-in-town.jpg",
-        "/images/ice-cream-shop.jpg",
-        "/images/kayakers-on-water.jpg",
-        "/images/lofoten-photo.jpg",
-        "/images/seagull-on-ledge.jpg",
-    ][Math.floor(Math.random() * 5)];
+    const randomImg = [street, iceCream, kayakers, lofoten, seagull][Math.floor(Math.random() * 5)];
 
     return (
         <Link href="/sommerjobb" className="box-link">
