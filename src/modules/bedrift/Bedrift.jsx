@@ -47,8 +47,8 @@ export default function Bedrift() {
             <div className="image-link-panel-grid-small">
                 <ImageLinkPanelSmall
                     href="/lys-ut-sommerjobber"
-                    image="/images/sommerjobb.png"
-                    alt="En kunde får servert en burger fra en food truck."
+                    image="/images/laerling-billakk.jpg"
+                    alt="Ung person får opplæring i billakkering"
                     title="Gi ungdom en sjanse – lys ut sommerjobber"
                     description="Mange unge trenger å få arbeidserfaring. Kan du være med på å gi dem en sjanse ved å lyse ut én eller flere sommerjobber i år?"
                     color="primary"
