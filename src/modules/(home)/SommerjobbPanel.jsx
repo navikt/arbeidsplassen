@@ -10,7 +10,7 @@ function SommerjobbPanel() {
         "/images/kayakers-on-water.jpg",
         "/images/lofoten-photo.jpg",
         "/images/seagull-on-ledge.jpg",
-    ][Math.floor(Math.random() * 4)];
+    ][Math.floor(Math.random() * 5)];
 
     return (
         <Link href="/sommerjobb" className="box-link">
