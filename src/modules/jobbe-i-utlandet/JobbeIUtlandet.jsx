@@ -23,8 +23,8 @@ export default function JobbeIUtlandet() {
                     Hva er EURES?
                 </Heading>
                 <BodyLong spacing>
-                    EURES dekker alle EU-landene, samt Island, Liechtenstein, Norge og Sveits. Tjenesten retter seg mot
-                    personer fra landene i EURES-samarbeidet som er interessert i å benytte retten til fri bevegelse.
+                    EURES dekker alle EU-land, samt Island, Liechtenstein, Norge og Sveits. Tjenesten retter seg mot
+                    personer med mobilitetsrett, og som ønsker å benytte retten til fri bevegelse.
                 </BodyLong>
                 <Heading size="large" level="2" spacing>
                     Hva kan jeg gjøre på EURES-portalen?
