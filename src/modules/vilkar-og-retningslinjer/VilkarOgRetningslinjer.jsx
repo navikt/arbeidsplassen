@@ -52,12 +52,11 @@ export default function VilkarOgRetningslinjer() {
                 Hvem kan bruke tjenestene
             </Heading>
             <BodyLong spacing>
-                Ansatte i en virksomhet må ha riktige tilganger i Altinn for å kunne benytte arbeidsgivertjenestene på
-                arbeidsplassen.no.{" "}
+                Arbeidsgiver vil ikke få tilgang til å bruke tjenesten uten riktig tilganger som er tildelt i Altinn.
             </BodyLong>
             <BodyLong className="mb-12">
                 <AkselLink as={NextLink} href="/arbeidsgivertjenester">
-                    Hvem kan bruke arbeidsgivertjenstene på arbeidsplassen.no
+                    Hvem kan bruke arbeidsgivertjenestene på arbeidsplassen.no
                 </AkselLink>
             </BodyLong>
 
