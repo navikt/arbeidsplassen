@@ -2,7 +2,7 @@ import { BodyLong, Heading, Link, LinkPanel } from "@navikt/ds-react";
 import ImageLinkPanelMedium from "@/src/common/components/ImageLinkPanelMedium";
 import React from "react";
 
-export default function Sommerjobb() {
+export default function LysUtSommerjobber() {
     return (
         <article>
             <div className="container-small mt-5 mb-12">
@@ -19,8 +19,8 @@ export default function Sommerjobb() {
             <div className="container-medium mb-12">
                 <img
                     className="article-image"
-                    src="/images/sommerjobb.png"
-                    alt="En kunde får servert en burger fra en food truck"
+                    src="/images/laerling-billakk.jpg"
+                    alt="Ung person får opplæring i billakkering"
                 />
             </div>
 
