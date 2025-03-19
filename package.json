@@ -19,7 +19,7 @@
     "dependencies": {
         "@navikt/aksel-icons": "^7.15.0",
         "@navikt/arbeidsplassen-css": "^8.5.0",
-        "@navikt/arbeidsplassen-react": "^8.5.14",
+        "@navikt/arbeidsplassen-react": "^8.6.0",
         "@navikt/arbeidsplassen-theme": "^6.1.0",
         "@navikt/ds-css": "^7.15.0",
         "@navikt/ds-react": "^7.15.0",
