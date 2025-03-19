@@ -1,21 +1,19 @@
 import { BodyLong, Box, Heading, HGrid } from "@navikt/ds-react";
 import { ArrowRightIcon } from "@navikt/aksel-icons";
 import Link from "next/link";
-import Image from "next/image";
-import street from "./images/a-street-in-town.jpg";
-import iceCream from "./images/ice-cream-shop.jpg";
-import kayakers from "./images/kayakers-on-water.jpg";
-import lofoten from "./images/lofoten-photo.jpg";
-import seagull from "./images/seagull-on-ledge.jpg";
 
 function SommerjobbPanel() {
-    const randomImg = [street, iceCream, kayakers, lofoten, seagull][Math.floor(Math.random() * 5)];
-
     return (
         <Link href="/sommerjobb" className="box-link">
             <Box background="surface-alt-1" padding={{ xs: "6", lg: "12" }} borderRadius="medium">
                 <HGrid gap={{ xs: "6", lg: "12" }} columns={{ xs: "1", md: "1fr 1fr", lg: "504px 1fr" }} align="center">
-                    <Image className="box-link-image" src={randomImg} height="316" width="504" alt="Sommeridyll" />
+                    <img
+                        className="box-link-image"
+                        src="/images/a-street-in-town.jpg"
+                        height="316"
+                        width="504"
+                        alt="Sommeridyll"
+                    />
                     <div>
                         <Heading spacing level="2" size="large">
                             Sommerjobben 2025
