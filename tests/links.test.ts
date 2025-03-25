@@ -98,6 +98,7 @@ async function validateLinksOnPage(page: Page, limit) {
             "/oauth",
             "/min-side",
             "../oauth2",
+            "/sommerjobb",
         ];
 
         return Array.from(document.links)
