@@ -25,7 +25,6 @@ const pagesToVisit = [
     "/skikkelig-bra-stillingsannonse",
     "/slik-bruker-du-det-nye-soket",
     "/slik-fungerer-superrask-soknad",
-    "/sommerjobb",
     "/sommerjobb-jobbsoker",
     "/sporsmal-og-svar",
     "/superrask-soknad-bedrift",
