@@ -1,4 +1,4 @@
-import { BodyLong, Heading, Link as AkselLink } from "@navikt/ds-react";
+import { BodyLong, BodyShort, Heading, Link as AkselLink } from "@navikt/ds-react";
 import { ChevronLeftIcon } from "@navikt/aksel-icons";
 import NextLink from "next/link";
 
@@ -7,7 +7,7 @@ export default function PersonvernIkkeUnderOppfolging() {
         <article className="container-small mt-5 mb-24">
             <AkselLink as={NextLink} href="/personvern" className="mb-8">
                 <ChevronLeftIcon aria-hidden="true" />
-                Til personvernserklæring
+                <BodyShort>Til personvernserklæring</BodyShort>
             </AkselLink>
             <Heading size="xlarge" level="1" spacing>
                 Personvernerklæring for deg som ikke er under arbeidsrettet oppfølging fra Nav

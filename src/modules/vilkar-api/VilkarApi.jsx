@@ -1,4 +1,4 @@
-import { BodyLong, Heading, Link as AkselLink } from "@navikt/ds-react";
+import { BodyLong, BodyShort, Heading, Link as AkselLink } from "@navikt/ds-react";
 import { ChevronLeftIcon } from "@navikt/aksel-icons";
 import NextLink from "next/link";
 
@@ -7,7 +7,7 @@ export default function VilkarApi() {
         <article className="container-small mt-5 mb-24">
             <AkselLink as={NextLink} href="/vilkar-og-retningslinjer" className="mb-8">
                 <ChevronLeftIcon aria-hidden="true" />
-                Til Vilkår og retningslinjer
+                <BodyShort>Til Vilkår og retningslinjer</BodyShort>
             </AkselLink>
 
             <Heading spacing size="xlarge" level="1">
