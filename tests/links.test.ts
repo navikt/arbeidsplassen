@@ -25,7 +25,6 @@ const pagesToVisit = [
     "/skikkelig-bra-stillingsannonse",
     "/slik-bruker-du-det-nye-soket",
     "/slik-fungerer-superrask-soknad",
-    "/sommerjobb",
     "/sommerjobb-jobbsoker",
     "/sporsmal-og-svar",
     "/superrask-soknad-bedrift",
@@ -99,6 +98,7 @@ async function validateLinksOnPage(page: Page, limit) {
             "/oauth",
             "/min-side",
             "../oauth2",
+            "/sommerjobb",
         ];
 
         return Array.from(document.links)
