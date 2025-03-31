@@ -34,12 +34,7 @@ export default function NyttSok() {
                         til din bakgrunn, og andre nøkkelord som du er interessert i.
                     </BodyLong>
                     <div className="mb-5">
-                        <List
-                            as="ul"
-                            className="inline-block-list ul-hidden-heading"
-                            title="Forslag til generelle søkeord"
-                            headingTag="span"
-                        >
+                        <List as="ul" className="inline-block-list" aria-label="Forslag til generelle søkeord">
                             <List.Item className="visual-chip">
                                 <VisualChip text="undervisning" />
                             </List.Item>
@@ -72,12 +67,7 @@ export default function NyttSok() {
                     </BodyLong>
 
                     <div className="mb-5">
-                        <List
-                            as="ul"
-                            className="inline-block-list ul-hidden-heading"
-                            title="Forslag til spesifikke søkeord"
-                            headingTag="span"
-                        >
+                        <List as="ul" className="inline-block-list" aria-label="Forslag til spesifikke søkeord">
                             <List.Item className="visual-chip">
                                 <VisualChip text="faglærer" />
                             </List.Item>
@@ -119,12 +109,7 @@ export default function NyttSok() {
                     </BodyLong>
 
                     <div className="mb-5">
-                        <List
-                            as="ul"
-                            className="inline-block-list ul-hidden-heading"
-                            title="Forslag til søkeord med bransjer"
-                            headingTag="span"
-                        >
+                        <List as="ul" className="inline-block-list" aria-label="Forslag til søkeord med bransjer">
                             <List.Item className="visual-chip">
                                 <VisualChip text="kundeservice" />
                             </List.Item>
@@ -158,12 +143,7 @@ export default function NyttSok() {
                     </BodyLong>
 
                     <div className="mb-5">
-                        <List
-                            as="ul"
-                            className="inline-block-list ul-hidden-heading"
-                            title="Forslag til søkeord med sesongarbeid"
-                            headingTag="span"
-                        >
+                        <List as="ul" className="inline-block-list" aria-label="Forslag til søkeord med sesongarbeid">
                             <List.Item className="visual-chip">
                                 <VisualChip text="julehjelp" />
                             </List.Item>
@@ -198,7 +178,7 @@ export default function NyttSok() {
                         Tips for effektive søk
                     </Heading>
 
-                    <List as="ul" className="mb-10 ul-hidden-heading" title="Tips for effektive søk" headingTag="span">
+                    <List as="ul" className="mb-10" aria-label="Tips for effektive søk">
                         <List.Item>
                             Fritekstord som for eksempel “lager” eller “julehjelp” utvider ofte søket ditt ved å
                             inkludere flere mulige treff, mens filtre og yrker begrenser søket til spesifikke kriterier.
@@ -229,12 +209,7 @@ export default function NyttSok() {
                     <BodyLong className="mb-5">
                         Fikk du laget et perfekt søk? Ikke mist det! Med lagrede søk kan du:
                     </BodyLong>
-                    <List
-                        as="ul"
-                        className="mb-8 ul-hidden-heading"
-                        title="Ting du kan gjøre med et lagret søk"
-                        headingTag="span"
-                    >
+                    <List as="ul" className="mb-8" aria-label="Ting du kan gjøre med et lagret søk">
                         <List.Item>Raskt gå tilbake til tidligere søk.</List.Item>
                         <List.Item>Få e-postvarsler om nye jobber som matcher søket ditt.</List.Item>
                     </List>
@@ -242,12 +217,7 @@ export default function NyttSok() {
                     <Heading size="small" level="4" className="mb-5">
                         Slik gjør du det
                     </Heading>
-                    <List
-                        as="ol"
-                        className="mb-5 ul-hidden-heading"
-                        title="Slik lagrer du søkene dine"
-                        headingTag="span"
-                    >
+                    <List as="ol" className="mb-5" aria-label="Slik lagrer du søkene dine">
                         <List.Item>Utfør et søk med fritekst og filtre.</List.Item>
                         <List.Item>Klikk på "Lagre søk" under søkefeltet.</List.Item>
                         <List.Item>Gi søket et navn og velg om du vil ha e-postvarsler.</List.Item>
@@ -262,7 +232,7 @@ export default function NyttSok() {
                         Tilgjengelige filter
                     </Heading>
                     <BodyLong className="mb-5">Vi har lansert fire nye filtre:</BodyLong>
-                    <List as="ul" className="mb-5 ul-hidden-heading" title="Nye søkefiltre" headingTag="span">
+                    <List as="ul" className="mb-5" aria-label="Nye søkefiltre">
                         <List.Item>reisevei</List.Item>
                         <List.Item>utdanningsnivå</List.Item>
                         <List.Item>erfaring</List.Item>
@@ -275,12 +245,7 @@ export default function NyttSok() {
                             <Accordion.Header>Publisert</Accordion.Header>
                             <Accordion.Content>
                                 <BodyLong className="mb-5">Filtrer basert på når annonsen ble lagt ut.</BodyLong>
-                                <List
-                                    as="ul"
-                                    className="ul-hidden-heading"
-                                    title="Nye filtre med publiseringsdato"
-                                    headingTag="span"
-                                >
+                                <List as="ul" aria-label="Nye filtre med publiseringsdato">
                                     <List.Item>nye i dag</List.Item>
                                     <List.Item>nye siste 3 døgn</List.Item>
                                     <List.Item>nye siste uka</List.Item>
@@ -327,12 +292,7 @@ export default function NyttSok() {
                                     <strong className="size-1-25">Utdanningsnivå</strong>
                                 </BodyShort>
                                 <BodyLong className="mb-5">Finn jobber som passer ditt utdanningsnivå.</BodyLong>
-                                <List
-                                    as="ul"
-                                    className="mb-8 ul-hidden-heading"
-                                    title="Filtre basert på utdanningsnivå"
-                                    headingTag="span"
-                                >
+                                <List as="ul" className="mb-8" aria-label="Filtre basert på utdanningsnivå">
                                     <List.Item>ingen krav til utdanning</List.Item>
                                     <List.Item>videregående skole</List.Item>
                                     <List.Item>fag- eller svennebrev</List.Item>
@@ -345,12 +305,7 @@ export default function NyttSok() {
                                     <strong className="size-1-25">Erfaring</strong>
                                 </BodyShort>
                                 <BodyLong className="mb-5">Filtrer jobber ut ifra hvor mye erfaring du har.</BodyLong>
-                                <List
-                                    as="ul"
-                                    className="mb-8 ul-hidden-heading"
-                                    title="Filtre basert på erfaring"
-                                    headingTag="span"
-                                >
+                                <List as="ul" className="mb-8" aria-label="Filtre basert på erfaring">
                                     <List.Item>ingen krav til arbeidserfaring</List.Item>
                                     <List.Item>noe arbeidserfaring (1-3 år)</List.Item>
                                     <List.Item>mye arbeidserfaring (4+ år)</List.Item>
@@ -369,12 +324,7 @@ export default function NyttSok() {
                             <Accordion.Content>
                                 <BodyLong className="mb-5">Finn jobber som passer for språkene du kan.</BodyLong>
 
-                                <List
-                                    as="ul"
-                                    className="ul-hidden-heading"
-                                    title="Filtre basert på arbeidsspråk"
-                                    headingTag="span"
-                                >
+                                <List as="ul" aria-label="Filtre basert på arbeidsspråk">
                                     <List.Item>norsk</List.Item>
                                     <List.Item>engelsk</List.Item>
                                     <List.Item>skandinavisk</List.Item>
@@ -396,12 +346,7 @@ export default function NyttSok() {
                                 <BodyLong className="mb-5">
                                     Filtrer basert på hvilken type ansettelse du ser etter.
                                 </BodyLong>
-                                <List
-                                    as="ul"
-                                    className="ul-hidden-heading"
-                                    title="Filtre basert på ansettelsesform"
-                                    headingTag="span"
-                                >
+                                <List as="ul" aria-label="Filtre basert på ansettelsesform">
                                     <List.Item>engasjement</List.Item>
                                     <List.Item>fast</List.Item>
                                     <List.Item>feriejobb</List.Item>
@@ -419,12 +364,7 @@ export default function NyttSok() {
                             <Accordion.Header>Hjemmekontor</Accordion.Header>
                             <Accordion.Content>
                                 <BodyLong className="mb-5">Finn jobber som passer din ønskede arbeidsform.</BodyLong>
-                                <List
-                                    as="ul"
-                                    className="ul-hidden-heading"
-                                    title="Filtre basert på arbeidsform"
-                                    headingTag="span"
-                                >
+                                <List as="ul" aria-label="Filtre basert på arbeidsform">
                                     <List.Item>
                                         hybridkontor - en kombinasjon av å være på kontoret og jobbe hjemmefra
                                     </List.Item>

@@ -105,13 +105,7 @@ function Informasjonskapsler({ consentValues, userActionTaken }) {
                         Noen informasjonskapsler er nødvendige for at arbeidsplassen.no skal fungere best mulig for deg.
                         De:
                     </BodyLong>
-                    <List
-                        description={
-                            <BodyLong as="span" visuallyHidden>
-                                Hva gjør nødvendinge informasjonskapsler
-                            </BodyLong>
-                        }
-                    >
+                    <List aria-label="Hva gjør nødvendige informasjonskapsler">
                         <List.Item>sikrer at nettsiden fungerer teknisk</List.Item>
                         <List.Item>beskytter sikkerheten din</List.Item>
                         <List.Item>husker valgene dine, så du slipper å starte på nytt hver gang</List.Item>
