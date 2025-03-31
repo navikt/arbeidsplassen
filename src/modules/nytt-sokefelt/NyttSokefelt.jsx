@@ -25,6 +25,9 @@ export default function NyttSokefelt() {
                     Ved å legge til flere ord i søket ditt, vil du oppdage flere relevante stillinger og øke sjansen for
                     å lande drømmejobben.
                 </BodyLong>
+                <Heading size="small" level="2" spacing>
+                    Måter å bruke det nye søket på:
+                </Heading>
                 <List aria-label="Måter å bruke det nye søket på:" className="mb-6">
                     <List.Item>
                         <strong>Utforskende søk</strong> – start bredt for å oppdage ulike muligheter
