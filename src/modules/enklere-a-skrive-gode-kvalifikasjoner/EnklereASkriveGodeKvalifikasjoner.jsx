@@ -31,7 +31,10 @@ export default function EnklereASkriveGodeKvalifikasjoner() {
                 <Heading size="large" level="2" spacing>
                     Slik fungerer det
                 </Heading>
-                <List title="For kvalifikasjoner" headingTag="h3" className="mb-6">
+                <Heading size="small" level="3" spacing>
+                    For kvalifikasjoner
+                </Heading>
+                <List className="mb-6" aria-label="For kvalifikasjoner">
                     <List.Item>
                         Når du velger å{" "}
                         <AkselLink as={Link} href="/superrask-soknad-bedrift">
@@ -41,7 +44,10 @@ export default function EnklereASkriveGodeKvalifikasjoner() {
                     </List.Item>
                     <List.Item>Vi bruker kun teksten om stillingen for å foreslå kvalifikasjoner.</List.Item>
                 </List>
-                <List title="For overskrifter" headingTag="h3" className="mb-12">
+                <Heading size="small" level="3" spacing>
+                    For overskrifter
+                </Heading>
+                <List className="mb-12" aria-label="For overskrifter">
                     <List.Item>
                         Du kan velge å få forslag til overskrift basert på yrke, geografi og annonseteksten du har
                         skrevet inn.
