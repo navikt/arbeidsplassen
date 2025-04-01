@@ -15,6 +15,7 @@ import setSentryUserProperties from "@/src/common/analysis/sentry";
 import interLocalFont from "next/font/local";
 import Axe from "@/src/common/analysis/Axe";
 import Umami from "@/src/common/analysis/Umami";
+import FastApiTracker from "@/src/common/analysis/FastApiTracker";
 import { CookieBannerUtils } from "@navikt/arbeidsplassen-react";
 
 const myFont = interLocalFont({
@@ -51,6 +52,7 @@ function App({ Component, pageProps }) {
                     </TrackedApp>
                 </AuthenticationProvider>
                 <Umami />
+                <FastApiTracker />
             </CookieBannerProvider>
         </div>
     );
