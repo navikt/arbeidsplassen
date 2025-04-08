@@ -2,7 +2,7 @@ import { BodyLong, Heading, Link as AkselLink, LinkPanel } from "@navikt/ds-reac
 import ImageLinkPanelMedium from "@/src/common/components/ImageLinkPanelMedium";
 import React from "react";
 
-export default function SommerjobbJobbsoker() {
+export default function JobbsokerSommerjobb() {
     return (
         <article>
             <div className="container-small mt-5 mb-12">
