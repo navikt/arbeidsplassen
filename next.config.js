@@ -25,6 +25,7 @@ const securityHeaders = [
 const { i18n } = require("./next-i18next.config");
 
 const nextConfig = {
+    basePath: "/old",
     reactStrictMode: true,
     transpilePackages: ["@navikt/arbeidsplassen-react"],
     async headers() {
