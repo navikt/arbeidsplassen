@@ -37,7 +37,7 @@ function AuthenticationProvider({ children }) {
     const fetchIsAuthenticated = () => {
         setAuthenticationStatus(AuthenticationStatus.IS_FETCHING);
 
-        fetch(`/api/isAuthenticated`, {
+        fetch(`/old/api/isAuthenticated`, {
             credentials: "include",
             cache: "no-store",
         })
