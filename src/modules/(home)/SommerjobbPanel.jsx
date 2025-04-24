@@ -2,7 +2,7 @@ import Image from "next/image";
 import { BodyLong, Box, Heading, HGrid } from "@navikt/ds-react";
 import { ArrowRightIcon } from "@navikt/aksel-icons";
 import Link from "next/link";
-import paris from "@/src/common/assets/paris.jpg";
+import paris from "@/src/common/assets/a-street-in-town.jpg";
 
 function SommerjobbPanel() {
     return (
