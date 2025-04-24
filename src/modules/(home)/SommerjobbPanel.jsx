@@ -16,6 +16,7 @@ function SommerjobbPanel() {
                         height="316"
                         width="504"
                         alt="Sommeridyll"
+                        fetchPriority="high"
                     />
                     <div>
                         <Heading spacing level="2" size="large">
