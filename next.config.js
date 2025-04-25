@@ -28,7 +28,7 @@ const nextConfig = {
     basePath: "/old",
     reactStrictMode: true,
     images: {
-        minimumCacheTTL: 60,
+        minimumCacheTTL: 2678400, // 31 days
     },
     transpilePackages: ["@navikt/arbeidsplassen-react"],
     async headers() {
