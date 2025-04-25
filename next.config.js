@@ -27,6 +27,9 @@ const { i18n } = require("./next-i18next.config");
 const nextConfig = {
     basePath: "/old",
     reactStrictMode: true,
+    images: {
+        minimumCacheTTL: 60,
+    },
     transpilePackages: ["@navikt/arbeidsplassen-react"],
     async headers() {
         return [
